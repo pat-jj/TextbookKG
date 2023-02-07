@@ -1,1 +1,1 @@
-# KGHealth
+# HealthKG
