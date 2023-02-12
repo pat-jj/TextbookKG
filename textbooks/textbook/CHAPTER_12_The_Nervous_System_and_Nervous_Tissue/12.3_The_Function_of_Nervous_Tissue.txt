@@ -1,0 +1,97 @@
+12.3 The Function of Nervous Tissue
+LEARNING OBJECTIVES
+By the end of this section, you will be able to:
+•
+Distinguish the major functions of the nervous system: sensation, integration, and response
+•
+List the sequence of events in a simple sensory receptor–motor response pathway
+Having looked at the components of nervous tissue, and the basic anatomy of the nervous system, next comes an
+understanding of how nervous tissue is capable of communicating within the nervous system. Before getting to the
+nuts and bolts of how this works, an illustration of how the components come together will be helpful. An example is
+summarized in Figure 12.14.
+FIGURE 12.14
+Testing the Water
+(1) The sensory neuron has endings in the skin that sense a stimulus such as water temperature. The
+strength of the signal that starts here is dependent on the strength of the stimulus. (2) The graded potential from the sensory endings, if
+strong enough, will initiate an action potential at the initial segment of the axon (which is immediately adjacent to the sensory endings in
+the skin). (3) The axon of the peripheral sensory neuron enters the spinal cord and contacts another neuron in the gray matter. The contact
+is a synapse where another graded potential is caused by the release of a chemical signal from the axon terminals. (4) An action potential is
+initiated at the initial segment of this neuron and travels up the sensory pathway to a region of the brain called the thalamus. Another
+synapse passes the information along to the next neuron. (5) The sensory pathway ends when the signal reaches the cerebral cortex. (6)
+After integration with neurons in other parts of the cerebral cortex, a motor command is sent from the precentral gyrus of the frontal cortex.
+(7) The upper motor neuron sends an action potential down to the spinal cord. The target of the upper motor neuron is the dendrites of the
+lower motor neuron in the gray matter of the spinal cord. (8) The axon of the lower motor neuron emerges from the spinal cord in a nerve
+and connects to a muscle through a neuromuscular junction to cause contraction of the target muscle.
+
+Imagine you are about to take a shower in the morning before going to school. You have turned on the faucet to start
+the water as you prepare to get in the shower. After a few minutes, you expect the water to be a temperature that
+will be comfortable to enter. So you put your hand out into the spray of water. What happens next depends on how
+your nervous system interacts with the stimulus of the water temperature and what you do in response to that
+stimulus.
+Found in the skin of your fingers or toes is a type of sensory receptor that is sensitive to temperature, called a
+thermoreceptor. When you place your hand under the shower (Figure 12.15), the cell membrane of the
+thermoreceptors changes its electrical state (voltage). The amount of change is dependent on the strength of the
+stimulus (how hot the water is). This is called a graded potential. If the stimulus is strong, the voltage of the cell
+membrane will change enough to generate an electrical signal that will travel down the axon. You have learned
+about this type of signaling before, with respect to the interaction of nerves and muscles at the neuromuscular
+junction. The voltage at which such a signal is generated is called the threshold, and the resulting electrical signal is
+called an action potential. In this example, the action potential travels—a process known as propagation—along
+the axon from the axon hillock to the axon terminals and into the synaptic end bulbs. When this signal reaches the
+end bulbs, it causes the release of a signaling molecule called a neurotransmitter.
+FIGURE 12.15
+The Sensory Input
+Receptors in the skin sense the temperature of the water.
+The neurotransmitter diffuses across the short distance of the synapse and binds to a receptor protein of the target
+neuron. When the molecular signal binds to the receptor, the cell membrane of the target neuron changes its
+electrical state and a new graded potential begins. If that graded potential is strong enough to reach threshold, the
+second neuron generates an action potential at its axon hillock. The target of this neuron is another neuron in the
+thalamus of the brain, the part of the CNS that acts as a relay for sensory information. At another synapse,
+neurotransmitter is released and binds to its receptor. The thalamus then sends the sensory information to the
+cerebral cortex, the outermost layer of gray matter in the brain, where conscious perception of that water
+temperature begins.
+Within the cerebral cortex, information is processed among many neurons, integrating the stimulus of the water
+temperature with other sensory stimuli, with your emotional state (you just aren't ready to wake up; the bed is
+calling to you), memories (perhaps of the lab notes you have to study before a quiz). Finally, a plan is developed
+about what to do, whether that is to turn the temperature up, turn the whole shower off and go back to bed, or step
+into the shower. To do any of these things, the cerebral cortex has to send a command out to your body to move
+muscles (Figure 12.16).
+
+FIGURE 12.16
+The Motor Response
+On the basis of the sensory input and the integration in the CNS, a motor response is formulated
+and executed.
+A region of the cortex is specialized for sending signals down to the spinal cord for movement. The upper motor
+neuron is in this region, called the precentral gyrus of the frontal cortex, which has an axon that extends all the
+way down the spinal cord. At the level of the spinal cord at which this axon makes a synapse, a graded potential
+occurs in the cell membrane of a lower motor neuron. This second motor neuron is responsible for causing muscle
+fibers to contract. In the manner described in the chapter on muscle tissue, an action potential travels along the
+motor neuron axon into the periphery. The axon terminates on muscle fibers at the neuromuscular junction.
+Acetylcholine is released at this specialized synapse, which causes the muscle action potential to begin, following a
+large potential known as an end plate potential. When the lower motor neuron excites the muscle fiber, it contracts.
+All of this occurs in a fraction of a second, but this story is the basis of how the nervous system functions.
+CAREER CONNECTION
+
+Neurophysiologist
+Understanding how the nervous system works could be a driving force in your career. Studying neurophysiology is a
+very rewarding path to follow. It means that there is a lot of work to do, but the rewards are worth the effort.
+The career path of a research scientist can be straightforward: college, graduate school, postdoctoral research,
+academic research position at a university. A Bachelor’s degree in science will get you started, and for
+neurophysiology that might be in biology, psychology, computer science, engineering, or neuroscience. But the real
+specialization comes in graduate school. There are many different programs out there to study the nervous system,
+not just neuroscience itself. Most graduate programs are doctoral, meaning that a Master’s degree is not part of the
+work. These are usually considered five-year programs, with the first two years dedicated to course work and finding
+a research mentor, and the last three years dedicated to finding a research topic and pursuing that with a near
+single-mindedness. The research will usually result in a few publications in scientific journals, which will make up
+the bulk of a doctoral dissertation. After graduating with a Ph.D., researchers will go on to find specialized work
+called a postdoctoral fellowship within established labs. In this position, a researcher starts to establish their own
+research career with the hopes of finding an academic position at a research university.
+Other options are available if you are interested in how the nervous system works. Especially for neurophysiology, a
+medical degree might be more suitable so you can learn about the clinical applications of neurophysiology and
+possibly work with human subjects. An academic career is not a necessity. Biotechnology firms are eager to find
+motivated scientists ready to tackle the tough questions about how the nervous system works so that therapeutic
+chemicals can be tested on some of the most challenging disorders such as Alzheimer’s disease or Parkinson’s
+disease, or spinal cord injury.
+
+Others with a medical degree and a specialization in neuroscience go on to work directly with patients, diagnosing
+and treating mental disorders. You can do this as a psychiatrist, a neuropsychologist, a neuroscience nurse, or a
+neurodiagnostic technician, among other possible career paths.

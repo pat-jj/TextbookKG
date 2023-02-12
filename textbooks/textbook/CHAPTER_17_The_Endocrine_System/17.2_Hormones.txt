@@ -1,0 +1,325 @@
+17.2 Hormones
+LEARNING OBJECTIVES
+By the end of this section, you will be able to:
+•
+Identify the three major classes of hormones on the basis of chemical structure
+•
+Compare and contrast intracellular and cell membrane hormone receptors
+•
+Describe signaling pathways that involve cAMP and IP3
+•
+Identify several factors that influence a target cell’s response
+•
+Discuss the role of feedback loops and humoral, hormonal, and neural stimuli in hormone control
+Although a given hormone may travel throughout the body in the bloodstream, it will affect the activity only of its
+target cells; that is, cells with receptors for that particular hormone. Once the hormone binds to the receptor, a chain
+of events is initiated that leads to the target cell’s response. Hormones play a critical role in the regulation of
+physiological processes because of the target cell responses they regulate. These responses contribute to human
+reproduction, growth and development of body tissues, metabolism, fluid, and electrolyte balance, sleep, and many
+other body functions. The major hormones of the human body and their effects are identified in Table 17.2.
+Endocrine Glands and Their Major Hormones
+Endocrine
+gland
+Associated
+hormones
+Chemical
+class
+Effect
+Pituitary
+(anterior)
+Growth hormone
+(GH)
+Protein
+Promotes growth of body tissues
+Pituitary
+(anterior)
+Prolactin (PRL)
+Peptide
+Promotes milk production
+Pituitary
+(anterior)
+Thyroid-stimulating
+hormone (TSH)
+Glycoprotein
+Stimulates thyroid hormone release
+Pituitary
+(anterior)
+Adrenocorticotropic
+hormone (ACTH)
+Peptide
+Stimulates hormone release by adrenal cortex
+Pituitary
+(anterior)
+Follicle-stimulating
+hormone (FSH)
+Glycoprotein
+Stimulates gamete production
+Pituitary
+(anterior)
+Luteinizing
+hormone (LH)
+Glycoprotein
+Stimulates androgen production by gonads
+Pituitary
+(posterior)
+Antidiuretic
+hormone (ADH)
+Peptide
+Stimulates water reabsorption by kidneys
+Pituitary
+(posterior)
+Oxytocin
+Peptide
+Stimulates uterine contractions during childbirth
+Thyroid
+Thyroxine (T4),
+triiodothyronine
+(T3)
+Amine
+Stimulate basal metabolic rate
+Thyroid
+Calcitonin
+Peptide
+Reduces blood Ca2+ levels
+Parathyroid
+Parathyroid
+hormone (PTH)
+Peptide
+Increases blood Ca2+ levels
+Adrenal
+(cortex)
+Aldosterone
+Steroid
+Increases blood Na+ levels
+Adrenal
+(cortex)
+Cortisol,
+corticosterone,
+cortisone
+Steroid
+Increase blood glucose levels
+Adrenal
+(medulla)
+Epinephrine,
+norepinephrine
+Amine
+Stimulate fight-or-flight response
+Pineal
+Melatonin
+Amine
+Regulates sleep cycles
+TABLE 17.2
+
+Endocrine
+gland
+Associated
+hormones
+Chemical
+class
+Effect
+Pancreas
+Insulin
+Protein
+Reduces blood glucose levels
+Pancreas
+Glucagon
+Protein
+Increases blood glucose levels
+Testes
+Testosterone
+Steroid
+Stimulates development of sex characteristics including a
+deeper voice, increased muscle mass, development of
+body hair, and sperm production
+Ovaries
+Estrogens and
+progesterone
+Steroid
+Stimulate development of sex characteristics including the
+development of adipose and breast tissue, and prepare the
+body for childbirth
+TABLE 17.2
+Types of Hormones
+The hormones of the human body can be divided into two major groups on the basis of their chemical structure.
+Hormones derived from amino acids include amines, peptides, and proteins. Those derived from lipids include
+steroids (Figure 17.3). These chemical groups affect a hormone’s distribution, the type of receptors it binds to, and
+other aspects of its function.
+
+FIGURE 17.3
+Amine, Peptide, Protein, and Steroid Hormone Structure
+Amine Hormones
+Hormones derived from the modification of amino acids are referred to as amine hormones. Typically, the original
+structure of the amino acid is modified such that a –COOH, or carboxyl, group is removed, whereas the, or amine, group remains.
+Amine hormones are synthesized from the amino acids tryptophan or tyrosine. An example of a hormone derived
+from tryptophan is melatonin, which is secreted by the pineal gland and helps regulate circadian rhythm. Tyrosine
+derivatives include the metabolism-regulating thyroid hormones, as well as the catecholamines, such as
+epinephrine, norepinephrine, and dopamine. Epinephrine and norepinephrine are secreted by the adrenal medulla
+and play a role in the fight-or-flight response, whereas dopamine is secreted by the hypothalamus and inhibits the
+release of certain anterior pituitary hormones.
+Peptide and Protein Hormones
+Whereas the amine hormones are derived from a single amino acid, peptide and protein hormones consist of
+multiple amino acids that link to form an amino acid chain. Peptide hormones consist of short chains of amino acids,
+whereas protein hormones are longer polypeptides. Both types are synthesized like other body proteins: DNA is
+transcribed into mRNA, which is translated into an amino acid chain.
+Examples of peptide hormones include antidiuretic hormone (ADH), a pituitary hormone important in fluid balance,
+and atrial-natriuretic peptide, which is produced by the heart and helps to decrease blood pressure. Some examples
+of protein hormones include growth hormone, which is produced by the pituitary gland, and follicle-stimulating
+hormone (FSH), which has an attached carbohydrate group and is thus classified as a glycoprotein. FSH helps
+stimulate the maturation of eggs in the ovaries and sperm in the testes.
+Steroid Hormones
+The primary hormones derived from lipids are steroids. Steroid hormones are derived from the lipid cholesterol. For
+example, the reproductive hormones testosterone and the estrogens—which are produced by the gonads (testes
+and ovaries)—are steroid hormones. The adrenal glands produce the steroid hormone aldosterone, which is involved
+in osmoregulation, and cortisol, which plays a role in metabolism.
+Like cholesterol, steroid hormones are not soluble in water (they are hydrophobic). Because blood is water-based,
+lipid-derived hormones must travel to their target cell bound to a transport protein. This more complex structure
+extends the half-life of steroid hormones much longer than that of hormones derived from amino acids. A hormone’s
+half-life is the time required for half the concentration of the hormone to be degraded. For example, the lipid-
+derived hormone cortisol has a half-life of approximately 60 to 90 minutes. In contrast, the amino acid–derived
+hormone epinephrine has a half-life of approximately one minute.
+Pathways of Hormone Action
+The message a hormone sends is received by a hormone receptor, a protein located either inside the cell or within
+the cell membrane. The receptor will process the message by initiating other signaling events or cellular
+mechanisms that result in the target cell’s response. Hormone receptors recognize molecules with specific shapes
+and side groups, and respond only to those hormones that are recognized. The same type of receptor may be
+located on cells in different body tissues, and trigger somewhat different responses. Thus, the response triggered by
+a hormone depends not only on the hormone, but also on the target cell.
+Once the target cell receives the hormone signal, it can respond in a variety of ways. The response may include the
+stimulation of protein synthesis, activation or deactivation of enzymes, alteration in the permeability of the cell
+membrane, altered rates of mitosis and cell growth, and stimulation of the secretion of products. Moreover, a single
+hormone may be capable of inducing different responses in a given cell.
+Pathways Involving Intracellular Hormone Receptors
+Intracellular hormone receptors are located inside the cell. Hormones that bind to this type of receptor must be able
+to cross the cell membrane. Steroid hormones are derived from cholesterol and therefore can readily diffuse
+through the lipid bilayer of the cell membrane to reach the intracellular receptor (Figure 17.4). Thyroid hormones,
+cross the cell membrane by a specific carrier-mediated mechanism that is energy and Na+ dependent.
+The location of steroid and thyroid hormone binding differs slightly: a steroid hormone may bind to its receptor
+within the cytosol or within the nucleus. In either case, this binding generates a hormone-receptor complex that
+moves toward the chromatin in the cell nucleus and binds to a particular segment of the cell’s DNA. In contrast,
+thyroid hormones bind to receptors already bound to DNA. For both steroid and thyroid hormones, binding of the
+hormone-receptor complex with DNA triggers transcription of a target gene to mRNA, which moves to the cytosol
+and directs protein synthesis by ribosomes.
+
+FIGURE 17.4
+Binding of Lipid-Soluble Hormones
+A steroid hormone directly initiates the production of proteins within a target cell.
+Steroid hormones easily diffuse through the cell membrane. The hormone binds to its receptor in the cytosol, forming a receptor–hormone
+complex. The receptor–hormone complex then enters the nucleus and binds to the target gene on the DNA. Transcription of the gene
+creates a messenger RNA that is translated into the desired protein within the cytoplasm.
+Pathways Involving Cell Membrane Hormone Receptors
+Hydrophilic, or water-soluble, hormones are unable to diffuse through the lipid bilayer of the cell membrane and
+must therefore pass on their message to a receptor located at the surface of the cell. Except for thyroid hormones,
+which are lipid-soluble, all amino acid–derived hormones bind to cell membrane receptors that are located, at least
+in part, on the extracellular surface of the cell membrane. Therefore, they do not directly affect the transcription of
+target genes, but instead initiate a signaling cascade that is carried out by a molecule called a second messenger.
+In this case, the hormone is called a first messenger.
+The second messenger used by most hormones is cyclic adenosine monophosphate (cAMP). In the cAMP second
+messenger system, a water-soluble hormone binds to its receptor in the cell membrane (Step 1 in Figure 17.5). This
+receptor is associated with an intracellular component called a G protein, and binding of the hormone activates the
+G-protein component (Step 2). The activated G protein in turn activates an enzyme called adenylyl cyclase, also
+known as adenylate cyclase (Step 3), which converts adenosine triphosphate (ATP) to cAMP (Step 4). As the second
+messenger, cAMP activates a type of enzyme called a protein kinase that is present in the cytosol (Step 5).
+Activated protein kinases initiate a phosphorylation cascade, in which multiple protein kinases phosphorylate (add
+a phosphate group to) numerous and various cellular proteins, including other enzymes (Step 6).
+
+FIGURE 17.5
+Binding of Water-Soluble Hormones
+Water-soluble hormones cannot diffuse through the cell membrane. These
+hormones must bind to a surface cell-membrane receptor. The receptor then initiates a cell-signaling pathway within the cell involving G
+proteins, adenylyl cyclase, the secondary messenger cyclic AMP (cAMP), and protein kinases. In the final step, these protein kinases
+phosphorylate proteins in the cytoplasm. This activates proteins in the cell that carry out the changes specified by the hormone.
+The phosphorylation of cellular proteins can trigger a wide variety of effects, from nutrient metabolism to the
+synthesis of different hormones and other products. The effects vary according to the type of target cell, the G
+proteins and kinases involved, and the phosphorylation of proteins. Examples of hormones that use cAMP as a
+second messenger include calcitonin, which is important for bone construction and regulating blood calcium levels;
+glucagon, which plays a role in blood glucose levels; and thyroid-stimulating hormone, which causes the release of
+T3 and T4 from the thyroid gland.
+Overall, the phosphorylation cascade significantly increases the efficiency, speed, and specificity of the hormonal
+response, as thousands of signaling events can be initiated simultaneously in response to a very low concentration
+of hormone in the bloodstream. However, the duration of the hormone signal is short, as cAMP is quickly deactivated
+by the enzyme phosphodiesterase (PDE), which is located in the cytosol. The action of PDE helps to ensure that a
+target cell’s response ceases quickly unless new hormones arrive at the cell membrane.
+Importantly, there are also G proteins that decrease the levels of cAMP in the cell in response to hormone binding.
+For example, when growth hormone–inhibiting hormone (GHIH), also known as somatostatin, binds to its receptors
+in the pituitary gland, the level of cAMP decreases, thereby inhibiting the secretion of human growth hormone.
+Not all water-soluble hormones initiate the cAMP second messenger system. One common alternative system uses
+calcium ions as a second messenger. In this system, G proteins activate the enzyme phospholipase C (PLC), which
+functions similarly to adenylyl cyclase. Once activated, PLC cleaves a membrane-bound phospholipid into two
+molecules: diacylglycerol (DAG) and inositol triphosphate (IP3). Like cAMP, DAG activates protein kinases that
+initiate a phosphorylation cascade. At the same time, IP3 causes calcium ions to be released from storage sites
+within the cytosol, such as from within the smooth endoplasmic reticulum. The calcium ions then act as second
+messengers in two ways: they can influence enzymatic and other cellular activities directly, or they can bind to
+calcium-binding proteins, the most common of which is calmodulin. Upon binding calcium, calmodulin is able to
+modulate protein kinase within the cell. Examples of hormones that use calcium ions as a second messenger
+system include angiotensin II, which helps regulate blood pressure through vasoconstriction, and growth
+hormone–releasing hormone (GHRH), which causes the pituitary gland to release growth hormones.
+
+Factors Affecting Target Cell Response
+You will recall that target cells must have receptors specific to a given hormone if that hormone is to trigger a
+response. But several other factors influence the target cell response. For example, the presence of a significant
+level of a hormone circulating in the bloodstream can cause its target cells to decrease their number of receptors for
+that hormone. This process is called downregulation, and it allows cells to become less reactive to the excessive
+hormone levels. When the level of a hormone is chronically reduced, target cells engage in upregulation to increase
+their number of receptors. This process allows cells to be more sensitive to the hormone that is present. Cells can
+also alter the sensitivity of the receptors themselves to various hormones.
+Two or more hormones can interact to affect the response of cells in a variety of ways. The three most common
+types of interaction are as follows:
+•
+The permissive effect, in which the presence of one hormone enables another hormone to act. For example,
+thyroid hormones have complex permissive relationships with certain reproductive hormones. A dietary
+deficiency of iodine, a component of thyroid hormones, can therefore affect reproductive system development
+and functioning.
+•
+The synergistic effect, in which two hormones with similar effects produce an amplified response. In some
+cases, two hormones are required for an adequate response. For example, two different reproductive
+hormones—FSH from the pituitary gland and estrogens from the ovaries—are required for the maturation of
+female ova (egg cells).
+•
+The antagonistic effect, in which two hormones have opposing effects. A familiar example is the effect of two
+pancreatic hormones, insulin and glucagon. Insulin increases the liver’s storage of glucose as glycogen,
+decreasing blood glucose, whereas glucagon stimulates the breakdown of glycogen stores, increasing blood
+glucose.
+Regulation of Hormone Secretion
+To prevent abnormal hormone levels and a potential disease state, hormone levels must be tightly controlled. The
+body maintains this control by balancing hormone production and degradation. Feedback loops govern the initiation
+and maintenance of most hormone secretion in response to various stimuli.
+Role of Feedback Loops
+The contribution of feedback loops to homeostasis will only be briefly reviewed here. Positive feedback loops are
+characterized by the release of additional hormone in response to an original hormone release. The release of
+oxytocin during childbirth is a positive feedback loop. The initial release of oxytocin begins to signal the uterine
+muscles to contract, which pushes the fetus toward the cervix, causing it to stretch. This, in turn, signals the
+pituitary gland to release more oxytocin, causing labor contractions to intensify. The release of oxytocin decreases
+after the birth of the child.
+The more common method of hormone regulation is the negative feedback loop. Negative feedback is characterized
+by the inhibition of further secretion of a hormone in response to adequate levels of that hormone. This allows blood
+levels of the hormone to be regulated within a narrow range. An example of a negative feedback loop is the release
+of glucocorticoid hormones from the adrenal glands, as directed by the hypothalamus and pituitary gland. As
+glucocorticoid concentrations in the blood rise, the hypothalamus and pituitary gland reduce their signaling to the
+adrenal glands to prevent additional glucocorticoid secretion (Figure 17.6).
+
+FIGURE 17.6
+Negative Feedback Loop
+The release of adrenal glucocorticoids is stimulated by the release of hormones from the
+hypothalamus and pituitary gland. This signaling is inhibited when glucocorticoid levels become elevated by causing negative signals to the
+pituitary gland and hypothalamus.
+Role of Endocrine Gland Stimuli
+Reflexes triggered by both chemical and neural stimuli control endocrine activity. These reflexes may be simple,
+involving only one hormone response, or they may be more complex and involve many hormones, as is the case with
+the hypothalamic control of various anterior pituitary–controlled hormones.
+Humoral stimuli are changes in blood levels of non-hormone chemicals, such as nutrients or ions, which cause the
+release or inhibition of a hormone to, in turn, maintain homeostasis. For example, osmoreceptors in the
+hypothalamus detect changes in blood osmolarity (the concentration of solutes in the blood plasma). If blood
+osmolarity is too high, meaning that the blood is not dilute enough, osmoreceptors signal the hypothalamus to
+release ADH. The hormone causes the kidneys to reabsorb more water and reduce the volume of urine produced.
+This reabsorption causes a reduction of the osmolarity of the blood, diluting the blood to the appropriate level. The
+regulation of blood glucose is another example. High blood glucose levels cause the release of insulin from the
+pancreas, which increases glucose uptake by cells and liver storage of glucose as glycogen.
+An endocrine gland may also secrete a hormone in response to the presence of another hormone produced by a
+different endocrine gland. Such hormonal stimuli often involve the hypothalamus, which produces releasing and
+inhibiting hormones that control the secretion of a variety of pituitary hormones.
+In addition to these chemical signals, hormones can also be released in response to neural stimuli. A common
+example of neural stimuli is the activation of the fight-or-flight response by the sympathetic nervous system. When
+an individual perceives danger, sympathetic neurons signal the adrenal glands to secrete norepinephrine and
+epinephrine. The two hormones dilate blood vessels, increase the heart and respiratory rate, and suppress the
+digestive and immune systems. These responses boost the body’s transport of oxygen to the brain and muscles,
+thereby improving the body’s ability to fight or flee.

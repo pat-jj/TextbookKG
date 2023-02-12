@@ -1,0 +1,122 @@
+22.6 Modifications in Respiratory Functions
+LEARNING OBJECTIVES
+By the end of this section, you will be able to:
+•
+Define the terms hyperpnea and hyperventilation
+•
+Describe the effect of exercise on the respiratory system
+•
+Describe the effect of high altitude on the respiratory system
+•
+Discuss the process of acclimatization
+At rest, the respiratory system performs its functions at a constant, rhythmic pace, as regulated by the respiratory
+centers of the brain. At this pace, ventilation provides sufficient oxygen to all the tissues of the body. However, there
+are times that the respiratory system must alter the pace of its functions in order to accommodate the oxygen
+demands of the body.
+
+Hyperpnea
+Hyperpnea is an increased depth and rate of ventilation to meet an increase in oxygen demand as might be seen in
+exercise or disease, particularly diseases that target the respiratory or digestive tracts. This does not significantly
+alter blood oxygen or carbon dioxide levels, but merely increases the depth and rate of ventilation to meet the
+demand of the cells. In contrast, hyperventilation is an increased ventilation rate that is independent of the cellular
+oxygen needs and leads to abnormally low blood carbon dioxide levels and high (alkaline) blood pH.
+Interestingly, exercise does not cause hyperpnea as one might think. Muscles that perform work during exercise do
+increase their demand for oxygen, stimulating an increase in ventilation. However, hyperpnea during exercise
+appears to occur before a drop in oxygen levels within the muscles can occur. Therefore, hyperpnea must be driven
+by other mechanisms, either instead of or in addition to a drop in oxygen levels. The exact mechanisms behind
+exercise hyperpnea are not well understood, and some hypotheses are somewhat controversial. However, in
+addition to low oxygen, high carbon dioxide, and low pH levels, there appears to be a complex interplay of factors
+related to the nervous system and the respiratory centers of the brain.
+First, a conscious decision to partake in exercise, or another form of physical exertion, results in a psychological
+stimulus that may trigger the respiratory centers of the brain to increase ventilation. In addition, the respiratory
+centers of the brain may be stimulated through the activation of motor neurons that innervate muscle groups that
+are involved in the physical activity. Finally, physical exertion stimulates proprioceptors, which are receptors located
+within the muscles, joints, and tendons, which sense movement and stretching; proprioceptors thus create a
+stimulus that may also trigger the respiratory centers of the brain. These neural factors are consistent with the
+sudden increase in ventilation that is observed immediately as exercise begins. Because the respiratory centers are
+stimulated by psychological, motor neuron, and proprioceptor inputs throughout exercise, the fact that there is also
+a sudden decrease in ventilation immediately after the exercise ends when these neural stimuli cease, further
+supports the idea that they are involved in triggering the changes of ventilation.
+
+High Altitude Effects
+An increase in altitude results in a decrease in atmospheric pressure. Although the proportion of oxygen relative to
+gases in the atmosphere remains at 21 percent, its partial pressure decreases (Table 22.4). As a result, it is more
+difficult for a body to achieve the same level of oxygen saturation at high altitude than at low altitude, due to lower
+atmospheric pressure. In fact, hemoglobin saturation is lower at high altitudes compared to hemoglobin saturation
+at sea level. For example, hemoglobin saturation is about 67 percent at 19,000 feet above sea level, whereas it
+reaches about 98 percent at sea level.
+
+Partial Pressure of Oxygen at Different Altitudes
+Example location
+Altitude (feet above
+sea level)
+Atmospheric pressure
+(mm Hg)
+Partial pressure of oxygen
+(mm Hg)
+New York City, New
+York
+0
+760
+159
+Boulder, Colorado
+5000
+632
+133
+Aspen, Colorado
+8000
+565
+118
+Pike’s Peak, Colorado
+14,000
+447
+94
+Denali (Mt. McKinley),
+Alaska
+20,000
+350
+73
+Mt. Everest, Tibet
+29,000
+260
+54
+TABLE 22.4
+
+As you recall, partial pressure is extremely important in determining how much gas can cross the respiratory
+membrane and enter the blood of the pulmonary capillaries. A lower partial pressure of oxygen means that there is a
+smaller difference in partial pressures between the alveoli and the blood, so less oxygen crosses the respiratory
+membrane. As a result, fewer oxygen molecules are bound by hemoglobin. Despite this, the tissues of the body still
+receive a sufficient amount of oxygen during rest at high altitudes. This is due to two major mechanisms. First, the
+number of oxygen molecules that enter the tissue from the blood is nearly equal between sea level and high
+altitudes. At sea level, hemoglobin saturation is higher, but only a quarter of the oxygen molecules are actually
+released into the tissue. At high altitudes, a greater proportion of molecules of oxygen are released into the tissues.
+Secondly, at high altitudes, a greater amount of BPG is produced by erythrocytes, which enhances the dissociation
+of oxygen from hemoglobin. Physical exertion, such as skiing or hiking, can lead to altitude sickness due to the low
+amount of oxygen reserves in the blood at high altitudes. At sea level, there is a large amount of oxygen reserve in
+venous blood (even though venous blood is thought of as “deoxygenated”) from which the muscles can draw during
+physical exertion. Because the oxygen saturation is much lower at higher altitudes, this venous reserve is small,
+resulting in pathological symptoms of low blood oxygen levels. You may have heard that it is important to drink more
+water when traveling at higher altitudes than you are accustomed to. This is because your body will increase
+micturition (urination) at high altitudes to counteract the effects of lower oxygen levels. By removing fluids, blood
+plasma levels drop but not the total number of erythrocytes. In this way, the overall concentration of erythrocytes in
+the blood increases, which helps tissues obtain the oxygen they need.
+Acute mountain sickness (AMS), or altitude sickness, is a condition that results from acute exposure to high
+altitudes due to a low partial pressure of oxygen at high altitudes. AMS typically can occur at 2400 meters (8000
+feet) above sea level. AMS is a result of low blood oxygen levels, as the body has acute difficulty adjusting to the low
+partial pressure of oxygen. In serious cases, AMS can cause pulmonary or cerebral edema. Symptoms of AMS
+include nausea, vomiting, fatigue, lightheadedness, drowsiness, feeling disoriented, increased pulse, and
+nosebleeds. The only treatment for AMS is descending to a lower altitude; however, pharmacologic treatments and
+supplemental oxygen can improve symptoms. AMS can be prevented by slowly ascending to the desired altitude,
+allowing the body to acclimate, as well as maintaining proper hydration.
+
+Acclimatization
+Especially in situations where the ascent occurs too quickly, traveling to areas of high altitude can cause AMS.
+Acclimatization is the process of adjustment that the respiratory system makes due to chronic exposure to a high
+altitude. Over a period of time, the body adjusts to accommodate the lower partial pressure of oxygen. The low
+partial pressure of oxygen at high altitudes results in a lower oxygen saturation level of hemoglobin in the blood. In
+turn, the tissue levels of oxygen are also lower. As a result, the kidneys are stimulated to produce the hormone
+erythropoietin (EPO), which stimulates the production of erythrocytes, resulting in a greater number of circulating
+erythrocytes in an individual at a high altitude over a long period. With more red blood cells, there is more
+hemoglobin to help transport the available oxygen. Even though there is low saturation of each hemoglobin
+molecule, there will be more hemoglobin present, and therefore more oxygen in the blood. Over time, this allows the
+person to partake in physical exertion without developing AMS.

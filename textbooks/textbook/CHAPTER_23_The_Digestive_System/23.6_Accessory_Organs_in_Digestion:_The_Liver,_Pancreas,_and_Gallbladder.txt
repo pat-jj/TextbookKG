@@ -1,0 +1,169 @@
+23.6 Accessory Organs in Digestion: The Liver, Pancreas, and Gallbladder
+LEARNING OBJECTIVES
+By the end of this section, you will be able to:
+•
+State the main digestive roles of the liver, pancreas, and gallbladder
+•
+Identify three main features of liver histology that are critical to its function
+•
+Discuss the composition and function of bile
+•
+Identify the major types of enzymes and buffers present in pancreatic juice
+Chemical digestion in the small intestine relies on the activities of three accessory digestive organs: the liver,
+pancreas, and gallbladder (Figure 23.24). The digestive role of the liver is to produce bile and export it to the
+duodenum. The gallbladder primarily stores, concentrates, and releases bile. The pancreas produces pancreatic
+juice, which contains digestive enzymes and bicarbonate ions, and delivers it to the duodenum.
+
+FIGURE 23.24
+Accessory Organs
+The liver, pancreas, and gallbladder are considered accessory digestive organs, but their roles in the
+digestive system are vital.
+
+The Liver
+The liver is the largest gland in the body, weighing about three pounds in an adult. It is also one of the most
+important organs. In addition to being an accessory digestive organ, it plays a number of roles in metabolism and
+regulation. The liver lies inferior to the diaphragm in the right upper quadrant of the abdominal cavity and receives
+protection from the surrounding ribs.
+The liver is divided into two primary lobes: a large right lobe and a much smaller left lobe. In the right lobe, some
+anatomists also identify an inferior quadrate lobe and a posterior caudate lobe, which are defined by internal
+features. The liver is connected to the abdominal wall and diaphragm by five peritoneal folds referred to as
+ligaments. These are the falciform ligament, the coronary ligament, two lateral ligaments, and the ligamentum teres
+hepatis. The falciform ligament and ligamentum teres hepatis are actually remnants of the umbilical vein, and
+separate the right and left lobes anteriorly. The lesser omentum tethers the liver to the lesser curvature of the
+stomach.
+The porta hepatis (“gate to the liver”) is where the hepatic artery and hepatic portal vein enter the liver. These
+two vessels, along with the common hepatic duct, run behind the lateral border of the lesser omentum on the way to
+their destinations. As shown in Figure 23.25, the hepatic artery delivers oxygenated blood from the heart to the liver.
+The hepatic portal vein delivers partially deoxygenated blood containing nutrients absorbed from the small intestine
+and actually supplies more oxygen to the liver than do the much smaller hepatic arteries. In addition to nutrients,
+drugs and toxins are also absorbed. After processing the bloodborne nutrients and toxins, the liver releases
+nutrients needed by other cells back into the blood, which drains into the central vein and then through the hepatic
+vein to the inferior vena cava. With this hepatic portal circulation, all blood from the alimentary canal passes through
+the liver. This largely explains why the liver is the most common site for the metastasis of cancers that originate in
+the alimentary canal.
+
+FIGURE 23.25
+Microscopic Anatomy of the Liver
+The liver receives oxygenated blood from the hepatic artery and nutrient-rich
+deoxygenated blood from the hepatic portal vein.
+
+Histology
+The liver has three main components: hepatocytes, bile canaliculi, and hepatic sinusoids. A hepatocyte is the liver’s
+main cell type, accounting for around 80 percent of the liver's volume. These cells play a role in a wide variety of
+secretory, metabolic, and endocrine functions. Plates of hepatocytes called hepatic laminae radiate outward from
+the portal vein in each hepatic lobule.
+Between adjacent hepatocytes, grooves in the cell membranes provide room for each bile canaliculus (plural =
+canaliculi). These small ducts accumulate the bile produced by hepatocytes. From here, bile flows first into bile
+ductules and then into bile ducts. The bile ducts unite to form the larger right and left hepatic ducts, which
+themselves merge and exit the liver as the common hepatic duct. This duct then joins with the cystic duct from the
+gallbladder, forming the common bile duct through which bile flows into the small intestine.
+A hepatic sinusoid is an open, porous blood space formed by fenestrated capillaries from nutrient-rich hepatic
+portal veins and oxygen-rich hepatic arteries. Hepatocytes are tightly packed around the fenestrated endothelium of
+these spaces, giving them easy access to the blood. From their central position, hepatocytes process the nutrients,
+toxins, and waste materials carried by the blood. Materials such as bilirubin are processed and excreted into the bile
+canaliculi. Other materials including proteins, lipids, and carbohydrates are processed and secreted into the
+sinusoids or just stored in the cells until called upon. The hepatic sinusoids combine and send blood to a central
+vein. Blood then flows through a hepatic vein into the inferior vena cava. This means that blood and bile flow in
+opposite directions. The hepatic sinusoids also contain star-shaped reticuloendothelial cells (Kupffer cells),
+phagocytes that remove dead red and white blood cells, bacteria, and other foreign material that enter the
+sinusoids. The portal triad is a distinctive arrangement around the perimeter of hepatic lobules, consisting of three
+basic structures: a bile duct, a hepatic artery branch, and a hepatic portal vein branch.
+
+Bile
+Recall that lipids are hydrophobic, that is, they do not dissolve in water. Thus, before they can be digested in the
+watery environment of the small intestine, large lipid globules must be broken down into smaller lipid globules, a
+process called emulsification. Bile is a mixture secreted by the liver to accomplish the emulsification of lipids in the
+small intestine.
+Hepatocytes secrete about one liter of bile each day. A yellow-brown or yellow-green alkaline solution (pH 7.6 to
+8.6), bile is a mixture of water, bile salts, bile pigments, phospholipids (such as lecithin), electrolytes, cholesterol,
+and triglycerides. The components most critical to emulsification are bile salts and phospholipids, which have a
+nonpolar (hydrophobic) region as well as a polar (hydrophilic) region. The hydrophobic region interacts with the
+large lipid molecules, whereas the hydrophilic region interacts with the watery chyme in the intestine. This results in
+the large lipid globules being pulled apart into many tiny lipid fragments of about 1 µm in diameter. This change
+dramatically increases the surface area available for lipid-digesting enzyme activity. This is the same way dish soap
+works on fats mixed with water.
+Bile salts act as emulsifying agents, so they are also important for the absorption of digested lipids. While most
+constituents of bile are eliminated in feces, bile salts are reclaimed by the enterohepatic circulation. Once bile
+salts reach the ileum, they are absorbed and returned to the liver in the hepatic portal blood. The hepatocytes then
+excrete the bile salts into newly formed bile. Thus, this precious resource is recycled.
+Bilirubin, the main bile pigment, is a waste product produced when the spleen removes old or damaged red blood
+cells from the circulation. These breakdown products, including proteins, iron, and toxic bilirubin, are transported to
+the liver via the splenic vein of the hepatic portal system. In the liver, proteins and iron are recycled, whereas
+bilirubin is excreted in the bile. It accounts for the green color of bile. Bilirubin is eventually transformed by
+intestinal bacteria into stercobilin, a brown pigment that gives your stool its characteristic color! In some disease
+states, bile does not enter the intestine, resulting in white (‘acholic’) stool with a high fat content, since virtually no
+fats are broken down or absorbed.
+Hepatocytes work non-stop, but bile production increases when fatty chyme enters the duodenum and stimulates
+the secretion of the gut hormone secretin. Between meals, bile is produced but conserved. The valve-like
+hepatopancreatic ampulla closes, allowing bile to divert to the gallbladder, where it is concentrated and stored until
+the next meal.
+
+INTERACTIVE LINK
+Watch this video (http://openstax.org/l/liver) to see the structure of the liver and how this structure supports the
+functions of the liver, including the processing of nutrients, toxins, and wastes. At rest, about 1500 mL of blood per
+minute flow through the liver. What percentage of this blood flow comes from the hepatic portal system?
+The Pancreas
+The soft, oblong, glandular pancreas lies transversely in the retroperitoneum behind the stomach. Its head is
+nestled into the “c-shaped” curvature of the duodenum with the body extending to the left about 15.2 cm (6 in) and
+ending as a tapering tail in the hilum of the spleen. It is a curious mix of exocrine (secreting digestive enzymes) and
+endocrine (releasing hormones into the blood) functions (Figure 23.26).
+
+FIGURE 23.26
+Exocrine and Endocrine Pancreas
+The pancreas has a head, a body, and a tail. It delivers pancreatic juice to the
+duodenum through the pancreatic duct.
+
+The exocrine part of the pancreas arises as little grape-like cell clusters, each called an acinus (plural = acini),
+located at the terminal ends of pancreatic ducts. These acinar cells secrete enzyme-rich pancreatic juice into tiny
+merging ducts that form two dominant ducts. The larger duct fuses with the common bile duct (carrying bile from
+the liver and gallbladder) just before entering the duodenum via a common opening (the hepatopancreatic ampulla).
+The smooth muscle sphincter of the hepatopancreatic ampulla controls the release of pancreatic juice and bile into
+the small intestine. The second and smaller pancreatic duct, the accessory duct (duct of Santorini), runs from the
+pancreas directly into the duodenum, approximately 1 inch above the hepatopancreatic ampulla. When present, it is
+a persistent remnant of pancreatic development.
+Scattered through the sea of exocrine acini are small islands of endocrine cells, the islets of Langerhans. These vital
+cells produce the hormones pancreatic polypeptide, insulin, glucagon, and somatostatin.
+
+Pancreatic Juice
+The pancreas produces over a liter of pancreatic juice each day. Unlike bile, it is clear and composed mostly of water
+along with some salts, sodium bicarbonate, and several digestive enzymes. Sodium bicarbonate is responsible for
+the slight alkalinity of pancreatic juice (pH 7.1 to 8.2), which serves to buffer the acidic gastric juice in chyme,
+inactivate pepsin from the stomach, and create an optimal environment for the activity of pH-sensitive digestive
+enzymes in the small intestine. Pancreatic enzymes are active in the digestion of sugars, proteins, and fats.
+The pancreas produces protein-digesting enzymes in their inactive forms. These enzymes are activated in the
+duodenum. If produced in an active form, they would digest the pancreas (which is exactly what occurs in the
+disease, pancreatitis). The intestinal brush border enzyme enteropeptidase stimulates the activation of trypsin
+from trypsinogen of the pancreas, which in turn changes the pancreatic enzymes procarboxypeptidase and
+chymotrypsinogen into their active forms, carboxypeptidase and chymotrypsin.
+The enzymes that digest starch (amylase), fat (lipase), and nucleic acids (nuclease) are secreted in their active
+forms, since they do not attack the pancreas as do the protein-digesting enzymes.
+
+Pancreatic Secretion
+Regulation of pancreatic secretion is the job of hormones and the parasympathetic nervous system. The entry of
+acidic chyme into the duodenum stimulates the release of secretin, which in turn causes the duct cells to release
+bicarbonate-rich pancreatic juice. The presence of proteins and fats in the duodenum stimulates the secretion of
+CCK, which then stimulates the acini to secrete enzyme-rich pancreatic juice and enhances the activity of secretin.
+Parasympathetic regulation occurs mainly during the cephalic and gastric phases of gastric secretion, when vagal
+stimulation prompts the secretion of pancreatic juice.
+Usually, the pancreas secretes just enough bicarbonate to counterbalance the amount of HCl produced in the
+stomach. Hydrogen ions enter the blood when bicarbonate is secreted by the pancreas. Thus, the acidic blood
+draining from the pancreas neutralizes the alkaline blood draining from the stomach, maintaining the pH of the
+venous blood that flows to the liver.
+
+The Gallbladder
+The gallbladder is 8–10 cm (~3–4 in) long and is nested in a shallow area on the posterior aspect of the right lobe of
+the liver. This muscular sac stores, concentrates, and, when stimulated, propels the bile into the duodenum via the
+common bile duct. It is divided into three regions. The fundus is the widest portion and tapers medially into the
+body, which in turn narrows to become the neck. The neck angles slightly superiorly as it approaches the hepatic
+duct. The cystic duct is 1–2 cm (less than 1 in) long and turns inferiorly as it bridges the neck and hepatic duct.
+The simple columnar epithelium of the gallbladder mucosa is organized in rugae, similar to those of the stomach.
+There is no submucosa in the gallbladder wall. The wall’s middle, muscular coat is made of smooth muscle fibers.
+When these fibers contract, the gallbladder’s contents are ejected through the cystic duct and into the bile duct
+(Figure 23.27). Visceral peritoneum reflected from the liver capsule holds the gallbladder against the liver and forms
+the outer coat of the gallbladder. The gallbladder's mucosa absorbs water and ions from bile, concentrating it by up
+to 10-fold.
+
+FIGURE 23.27
+Gallbladder
+The gallbladder stores and concentrates bile, and releases it into the two-way cystic duct when it is needed
+by the small intestine.

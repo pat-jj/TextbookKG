@@ -1,0 +1,109 @@
+4.6 Tissue Injury and Aging
+LEARNING OBJECTIVES
+By the end of this section, you will be able to:
+•
+Identify the cardinal signs of inflammation
+•
+List the body’s response to tissue injury
+•
+Explain the process of tissue repair
+•
+Discuss the progressive impact of aging on tissue
+•
+Describe cancerous mutations’ effect on tissue
+Tissues of all types are vulnerable to injury and, inevitably, aging. In the former case, understanding how tissues
+respond to damage can guide strategies to aid repair. In the latter case, understanding the impact of aging can help
+in the search for ways to diminish its effects.
+Tissue Injury and Repair
+Inflammation is the standard, initial response of the body to injury. Whether biological, chemical, physical, or
+radiation burns, all injuries lead to the same sequence of physiological events. Inflammation limits the extent of
+injury, partially or fully eliminates the cause of injury, and initiates repair and regeneration of damaged tissue.
+Necrosis, or accidental cell death, causes inflammation. Apoptosis is programmed cell death, a normal step-by-
+step process that destroys cells no longer needed by the body. By mechanisms still under investigation, apoptosis
+does not initiate the inflammatory response. Acute inflammation resolves over time by the healing of tissue. If
+inflammation persists, it becomes chronic and leads to diseased conditions. Arthritis and tuberculosis are examples
+of chronic inflammation. The suffix “-itis” denotes inflammation of a specific organ or type, for example, peritonitis
+is the inflammation of the peritoneum, and meningitis refers to the inflammation of the meninges, the tough
+membranes that surround the central nervous system
+The four cardinal signs of inflammation—redness, swelling, pain, and local heat—were first recorded in antiquity.
+Cornelius Celsus is credited with documenting these signs during the days of the Roman Empire, as early as the first
+century AD. A fifth sign, loss of function, may also accompany inflammation.
+Upon tissue injury, damaged cells release inflammatory chemical signals that evoke local vasodilation, the widening
+of the blood vessels. Increased blood flow results in apparent redness and heat. In response to injury, mast cells
+present in tissue degranulate, releasing the potent vasodilator histamine. Increased blood flow and inflammatory
+mediators recruit white blood cells to the site of inflammation. The endothelium lining the local blood vessel
+becomes “leaky” under the influence of histamine and other inflammatory mediators allowing neutrophils,
+macrophages, and fluid to move from the blood into the interstitial tissue spaces. The excess liquid in tissue causes
+swelling, more properly called edema. The swollen tissues squeezing pain receptors cause the sensation of pain.
+Prostaglandins released from injured cells also activate pain neurons. Non-steroidal anti-inflammatory drugs
+(NSAIDs) reduce pain because they inhibit the synthesis of prostaglandins. High levels of NSAIDs reduce
+inflammation. Antihistamines decrease allergies by blocking histamine receptors and as a result the histamine
+response.
+After containment of an injury, the tissue repair phase starts with removal of toxins and waste products. Clotting
+(coagulation) reduces blood loss from damaged blood vessels and forms a network of fibrin proteins that trap blood
+cells and bind the edges of the wound together. A scab forms when the clot dries, reducing the risk of infection.
+Sometimes a mixture of dead leukocytes and fluid called pus accumulates in the wound. As healing progresses,
+fibroblasts from the surrounding connective tissues replace the collagen and extracellular material lost by the injury.
+Angiogenesis, the growth of new blood vessels, results in vascularization of the new tissue known as granulation
+tissue. The clot retracts pulling the edges of the wound together, and it slowly dissolves as the tissue is repaired.
+When a large amount of granulation tissue forms and capillaries disappear, a pale scar is often visible in the healed
+area. A primary union describes the healing of a wound where the edges are close together. When there is a gaping
+wound, it takes longer to refill the area with cells and collagen. The process called secondary union occurs as the
+edges of the wound are pulled together by what is called wound contraction. When a wound is more than one
+quarter of an inch deep, sutures (stitches) are recommended to promote a primary union and avoid the formation of
+a disfiguring scar. Regeneration is the addition of new cells of the same type as the ones that were injured (Figure
+4.21).
+FIGURE 4.21
+Tissue Healing
+During wound repair, collagen fibers are laid down randomly by fibroblasts that move into repair the area.
+INTERACTIVE LINK
+Watch this video (http://openstax.org/l/healingskin) to see the skin healing process. What is the process and how 
+long does it take?
+Tissue and Aging
+According to poet Ralph Waldo Emerson, “The surest poison is time.” In fact, biology confirms that many functions
+of the body decline with age. All the cells, tissues, and organs are affected by senescence, with noticeable variability
+between individuals owing to different genetic makeup and lifestyles. The outward signs of aging are easily
+recognizable. The skin and other tissues become thinner and drier, reducing their elasticity, contributing to wrinkles
+and high blood pressure. Hair turns gray because follicles produce less melanin, the brown pigment of hair and the
+iris of the eye. The face looks flabby because elastic and collagen fibers decrease in connective tissue and muscle
+tone is lost. Glasses and hearing aids may become parts of life as the senses slowly deteriorate, all due to reduced
+elasticity. Overall height decreases as the bones lose calcium and other minerals. With age, fluid decreases in the
+fibrous cartilage disks intercalated between the vertebrae in the spine. Joints lose cartilage and stiffen. Many
+tissues, including those in muscles, lose mass through a process called atrophy. Lumps and rigidity become more
+widespread. As a consequence, the passageways, blood vessels, and airways become more rigid. The brain and
+spinal cord lose mass. Nerves do not transmit impulses with the same speed and frequency as in the past. Some
+loss of thought clarity and memory can accompany aging. More severe problems are not necessarily associated with
+the aging process and may be symptoms of underlying illness.
+
+As exterior signs of aging increase, so do the interior signs, which are not as noticeable. The incidence of heart
+diseases, respiratory syndromes, and type 2 diabetes increases with age, though these are not necessarily age-
+dependent effects. Wound healing is slower in the elderly, accompanied by a higher frequency of infection as the
+capacity of the immune system to fend off pathogen declines.
+Aging is also apparent at the cellular level because all cells experience changes with aging. Telomeres, regions of
+the chromosomes necessary for cell division, shorten each time cells divide. As they do, cells are less able to divide
+and regenerate. Because of alterations in cell membranes, transport of oxygen and nutrients into the cell and
+removal of carbon dioxide and waste products from the cell are not as efficient in the elderly. Cells may begin to
+function abnormally, which may lead to diseases associated with aging, including arthritis, memory issues, and
+some cancers.
+The progressive impact of aging on the body varies considerably among individuals, but Studies indicate, however,
+that exercise and healthy lifestyle choices can slow down the deterioration of the body that comes with old age.
+HOMEOSTATIC IMBALANCES
+Tissues and Cancer
+Cancer is a generic term for many diseases in which cells escape regulatory signals. Uncontrolled growth, invasion
+into adjacent tissues, and colonization of other organs, if not treated early enough, are its hallmarks. Health suffers
+when tumors “rob” blood supply from the “normal” organs.
+A mutation is defined as a permanent change in the DNA of a cell. Epigenetic modifications, changes that do not
+affect the code of the DNA but alter how the DNA is decoded, are also known to generate abnormal cells. Alterations
+in the genetic material may be caused by environmental agents, infectious agents, or errors in the replication of DNA
+that accumulate with age. Many mutations do not cause any noticeable change in the functions of a cell. However, if
+the modification affects key proteins that have an impact on the cell’s ability to proliferate in an orderly fashion, the
+cell starts to divide abnormally. As changes in cells accumulate, they lose their ability to form regular tissues. A
+tumor, a mass of cells displaying abnormal architecture, forms in the tissue. Many tumors are benign, meaning they
+do not metastasize nor cause disease. A tumor becomes malignant, or cancerous, when it breaches the confines of
+its tissue, promotes angiogenesis, attracts the growth of capillaries, and metastasizes to other organs (Figure 4.22).
+The specific names of cancers reflect the tissue of origin. Cancers derived from epithelial cells are referred to as
+carcinomas. Cancer in myeloid tissue or blood cells form myelomas. Leukemias are cancers of white blood cells,
+whereas sarcomas derive from connective tissue. Cells in tumors differ both in structure and function. Some cells,
+called cancer stem cells, appear to be a subtype of cell responsible for uncontrolled growth. Recent research shows
+that contrary to what was previously assumed, tumors are not disorganized masses of cells, but have their own
+structures.

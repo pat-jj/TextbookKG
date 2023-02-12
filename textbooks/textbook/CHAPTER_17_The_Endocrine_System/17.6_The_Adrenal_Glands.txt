@@ -1,0 +1,161 @@
+17.6 The Adrenal Glands
+LEARNING OBJECTIVES
+By the end of this section, you will be able to:
+•
+Describe the location and structure of the adrenal glands
+•
+Identify the hormones produced by the adrenal cortex and adrenal medulla, and summarize their target cells
+and effects
+The adrenal glands are wedges of glandular and neuroendocrine tissue adhering to the top of the kidneys by a
+fibrous capsule (Figure 17.17). The adrenal glands have a rich blood supply and experience one of the highest rates
+of blood flow in the body. They are served by several arteries branching off the aorta, including the suprarenal and
+renal arteries. Blood flows to each adrenal gland at the adrenal cortex and then drains into the adrenal medulla.
+Adrenal hormones are released into the circulation via the left and right suprarenal veins.
+FIGURE 17.17
+Adrenal Glands
+Both adrenal glands sit atop the kidneys and are composed of an outer cortex and an inner medulla, all
+surrounded by a connective tissue capsule. The cortex can be subdivided into additional zones, all of which produce different types of
+hormones. LM × 204. (Micrograph provided by the Regents of University of Michigan Medical School © 2012)
+INTERACTIVE LINK
+View the University of Michigan WebScope (http://openstax.org/l/adrenal) to explore the tissue sample in greater
+detail.
+The adrenal gland consists of an outer cortex of glandular tissue and an inner medulla of nervous tissue. The cortex
+itself is divided into three zones: the zona glomerulosa, the zona fasciculata, and the zona reticularis. Each region
+secretes its own set of hormones.
+The adrenal cortex, as a component of the hypothalamic-pituitary-adrenal (HPA) axis, secretes steroid hormones
+important for the regulation of the long-term stress response, blood pressure and blood volume, nutrient uptake
+and storage, fluid and electrolyte balance, and inflammation. The HPA axis involves the stimulation of hormone
+release of adrenocorticotropic hormone (ACTH) from the pituitary by the hypothalamus. ACTH then stimulates the
+adrenal cortex to produce the hormone cortisol. This pathway will be discussed in more detail below.
+The adrenal medulla is neuroendocrine tissue composed of postganglionic sympathetic nervous system (SNS)
+neurons. It is really an extension of the autonomic nervous system, which regulates homeostasis in the body. The
+sympathomedullary (SAM) pathway involves the stimulation of the medulla by impulses from the hypothalamus via
+neurons from the thoracic spinal cord. The medulla is stimulated to secrete the amine hormones epinephrine and
+norepinephrine.
+One of the major functions of the adrenal gland is to respond to stress. Stress can be either physical or psychological
+or both. Physical stresses include exposing the body to injury, walking outside in cold and wet conditions without a
+coat on, or malnutrition. Psychological stresses include the perception of a physical threat, a fight with a loved one,
+or just a bad day at school.
+The body responds in different ways to short-term stress and long-term stress following a pattern known as the
+general adaptation syndrome (GAS). Stage one of GAS is called the alarm reaction. This is short-term stress, the
+fight-or-flight response, mediated by the hormones epinephrine and norepinephrine from the adrenal medulla via
+the SAM pathway. Their function is to prepare the body for extreme physical exertion. Once this stress is relieved,
+the body quickly returns to normal. The section on the adrenal medulla covers this response in more detail.
+If the stress is not soon relieved, the body adapts to the stress in the second stage called the stage of resistance. If
+a person is starving for example, the body may send signals to the gastrointestinal tract to maximize the absorption
+of nutrients from food.
+If the stress continues for a longer term however, the body responds with symptoms quite different than the fight-
+or-flight response. During the stage of exhaustion, individuals may begin to suffer depression, the suppression of
+their immune response, severe fatigue, or even a fatal heart attack. These symptoms are mediated by the hormones
+of the adrenal cortex, especially cortisol, released as a result of signals from the HPA axis.
+Adrenal hormones also have several non–stress-related functions, including the increase of blood sodium and
+glucose levels, which will be described in detail below.
+Adrenal Cortex
+The adrenal cortex consists of multiple layers of lipid-storing cells that occur in three structurally distinct regions.
+Each of these regions produces different hormones.
+INTERACTIVE LINK
+Visit this link (http://openstax.org/l/adrenalglands) to view an animation describing the location and function of the
+adrenal glands. Which hormone produced by the adrenal glands is responsible for the mobilization of energy stores?
+Hormones of the Zona Glomerulosa
+The most superficial region of the adrenal cortex is the zona glomerulosa, which produces a group of hormones
+collectively referred to as mineralocorticoids because of their effect on body minerals, especially sodium and
+potassium. These hormones are essential for fluid and electrolyte balance.
+Aldosterone is the major mineralocorticoid. It is important in the regulation of the concentration of sodium and
+potassium ions in urine, sweat, and saliva. For example, it is released in response to elevated blood K+, low blood
+Na+, low blood pressure, or low blood volume. In response, aldosterone increases the excretion of K+ and the
+retention of Na+, which in turn increases blood volume and blood pressure. Its secretion is prompted when CRH
+from the hypothalamus triggers ACTH release from the anterior pituitary.
+Aldosterone is also a key component of the renin-angiotensin-aldosterone system (RAAS) in which specialized cells
+of the kidneys secrete the enzyme renin in response to low blood volume or low blood pressure. Renin then
+catalyzes the conversion of the blood protein angiotensinogen, produced by the liver, to the hormone angiotensin I.
+Angiotensin I is converted in the lungs to angiotensin II by angiotensin-converting enzyme (ACE). Angiotensin II
+has three major functions:
+1.
+Initiating vasoconstriction of the arterioles, decreasing blood flow
+2.
+Stimulating kidney tubules to reabsorb NaCl and water, increasing blood volume
+3.
+Signaling the adrenal cortex to secrete aldosterone, the effects of which further contribute to fluid retention,
+restoring blood pressure and blood volume
+For individuals with hypertension, or high blood pressure, drugs are available that block the production of
+angiotensin II. These drugs, known as ACE inhibitors, block the ACE enzyme from converting angiotensin I to
+angiotensin II, thus mitigating the latter’s ability to increase blood pressure.
+Hormones of the Zona Fasciculata
+The intermediate region of the adrenal cortex is the zona fasciculata, named as such because the cells form small
+fascicles (bundles) separated by tiny blood vessels. The cells of the zona fasciculata produce hormones called
+glucocorticoids because of their role in glucose metabolism. The most important of these is cortisol, some of which
+the liver converts to cortisone. A glucocorticoid produced in much smaller amounts is corticosterone. In response to
+long-term stressors, the hypothalamus secretes CRH, which in turn triggers the release of ACTH by the anterior
+pituitary. ACTH triggers the release of the glucocorticoids. Their overall effect is to inhibit tissue building while
+stimulating the breakdown of stored nutrients to maintain adequate fuel supplies. In conditions of long-term stress,
+for example, cortisol promotes the catabolism of glycogen to glucose, the catabolism of stored triglycerides into
+fatty acids and glycerol, and the catabolism of muscle proteins into amino acids. These raw materials can then be
+used to synthesize additional glucose and ketones for use as body fuels. The hippocampus, which is part of the
+temporal lobe of the cerebral cortices and important in memory formation, is highly sensitive to stress levels
+because of its many glucocorticoid receptors.
+You are probably familiar with prescription and over-the-counter medications containing glucocorticoids, such as
+cortisone injections into inflamed joints, prednisone tablets and steroid-based inhalers used to manage severe
+asthma, and hydrocortisone creams applied to relieve itchy rashes. These drugs reflect another role of cortisol—the
+downregulation of the immune system, which inhibits the inflammatory response.
+Hormones of the Zona Reticularis
+The deepest region of the adrenal cortex is the zona reticularis, which produces small amounts of a class of steroid
+sex hormones called androgens. During puberty and most of adulthood, androgens are produced in the gonads. The
+androgens produced in the zona reticularis supplement the gonadal androgens. They are produced in response to
+ACTH from the anterior pituitary and are converted in the tissues to testosterone or estrogens. In adult females,
+they may contribute to the sex drive, but their function in adult males is not well understood. In post-menopausal
+people, as the functions of the ovaries decline, the main source of estrogens becomes the androgens produced by
+the zona reticularis.
+
+Adrenal Medulla
+As noted earlier, the adrenal cortex releases glucocorticoids in response to long-term stress such as severe illness.
+In contrast, the adrenal medulla releases its hormones in response to acute, short-term stress mediated by the
+sympathetic nervous system (SNS).
+The medullary tissue is composed of unique postganglionic SNS neurons called chromaffin cells, which are large
+and irregularly shaped, and produce the neurotransmitters epinephrine (also called adrenaline) and
+norepinephrine (or noradrenaline). Epinephrine is produced in greater quantities—approximately a 4 to 1 ratio with
+norepinephrine—and is the more powerful hormone. Because the chromaffin cells release epinephrine and
+norepinephrine into the systemic circulation, where they travel widely and exert effects on distant cells, they are
+considered hormones. Derived from the amino acid tyrosine, they are chemically classified as catecholamines.
+The secretion of medullary epinephrine and norepinephrine is controlled by a neural pathway that originates from
+the hypothalamus in response to danger or stress (the SAM pathway). Both epinephrine and norepinephrine signal
+the liver and skeletal muscle cells to convert glycogen into glucose, resulting in increased blood glucose levels.
+These hormones increase the heart rate, pulse, and blood pressure to prepare the body to fight the perceived threat
+or flee from it. In addition, the pathway dilates the airways, raising blood oxygen levels. It also prompts vasodilation,
+further increasing the oxygenation of important organs such as the lungs, brain, heart, and skeletal muscle. At the
+same time, it triggers vasoconstriction to blood vessels serving less essential organs such as the gastrointestinal
+tract, kidneys, and skin, and downregulates some components of the immune system. Other effects include a dry
+mouth, loss of appetite, pupil dilation, and a loss of peripheral vision. The major hormones of the adrenal glands are
+summarized in Table 17.5.
+
+Hormones of the Adrenal Glands
+Adrenal gland
+Associated hormones
+Chemical class
+Effect
+Adrenal cortex
+Aldosterone
+Steroid
+Increases blood Na+ levels
+Adrenal cortex
+Cortisol, corticosterone, cortisone
+Steroid
+Increase blood glucose levels
+Adrenal medulla
+Epinephrine, norepinephrine
+Amine
+Stimulate fight-or-flight response
+TABLE 17.5
+
+Disorders Involving the Adrenal Glands
+Several disorders are caused by the dysregulation of the hormones produced by the adrenal glands. For example,
+Cushing’s disease is a disorder characterized by high blood glucose levels and the accumulation of lipid deposits on
+the face and neck. It is caused by hypersecretion of cortisol. The most common source of Cushing’s disease is a
+pituitary tumor that secretes cortisol or ACTH in abnormally high amounts. Other common signs of Cushing’s
+disease include the development of a moon-shaped face, a buffalo hump on the back of the neck, rapid weight gain,
+and hair loss. Chronically elevated glucose levels are also associated with an elevated risk of developing type 2
+diabetes. In addition to hyperglycemia, chronically elevated glucocorticoids compromise immunity, resistance to
+infection, and memory, and can result in rapid weight gain and hair loss.
+In contrast, the hyposecretion of corticosteroids can result in Addison’s disease, a rare disorder that causes low
+blood glucose levels and low blood sodium levels. The signs and symptoms of Addison’s disease are vague and are
+typical of other disorders as well, making diagnosis difficult. They may include general weakness, abdominal pain,
+weight loss, nausea, vomiting, sweating, and cravings for salty food.

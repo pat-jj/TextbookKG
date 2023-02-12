@@ -1,0 +1,102 @@
+26.2 Water Balance
+LEARNING OBJECTIVES
+By the end of this section, you will be able to:
+•
+Explain how water levels in the body influence the thirst cycle
+•
+Identify the main route by which water leaves the body
+•
+Describe the role of ADH and its effect on body water levels
+•
+Define dehydration and identify common causes of dehydration
+On a typical day, the average adult will take in about 2500 mL (almost 3 quarts) of aqueous fluids. Although most of
+the intake comes through the digestive tract, about 230 mL (8 ounces) per day is generated metabolically, in the last
+steps of aerobic respiration. Additionally, each day about the same volume (2500 mL) of water leaves the body by
+different routes; most of this lost water is removed as urine. The kidneys also can adjust blood volume though
+mechanisms that draw water out of the filtrate and urine. The kidneys can regulate water levels in the body; they
+conserve water if you are dehydrated, and they can make urine more dilute to expel excess water if necessary.
+Water is lost through the skin through evaporation from the skin surface without overt sweating and from air
+expelled from the lungs. This type of water loss is called insensible water loss because a person is usually unaware
+of it.
+
+Regulation of Water Intake
+Osmolality is the ratio of solutes in a solution to a volume of solvent in a solution. Plasma osmolality is thus the
+ratio of solutes to water in blood plasma. A person’s plasma osmolality value reflects the state of hydration. A
+healthy body maintains plasma osmolality within a narrow range, by employing several mechanisms that regulate
+both water intake and output.
+Drinking water is considered voluntary. So how is water intake regulated by the body? Consider someone who is
+experiencing dehydration, a net loss of water that results in insufficient water in blood and other tissues. The water
+that leaves the body, as exhaled air, sweat, or urine, is ultimately extracted from blood plasma. As the blood
+becomes more concentrated, the thirst response—a sequence of physiological processes—is triggered (Figure
+26.10). Osmoreceptors are sensory receptors in the thirst center in the hypothalamus that monitor the
+concentration of solutes (osmolality) of the blood. If blood osmolality increases above its ideal value, the
+hypothalamus transmits signals that result in a conscious awareness of thirst. The person should (and normally
+does) respond by drinking water. The hypothalamus of a dehydrated person also releases antidiuretic hormone
+(ADH) through the posterior pituitary gland. ADH signals the kidneys to recover water from urine, effectively diluting
+the blood plasma. To conserve water, the hypothalamus of a dehydrated person also sends signals via the
+sympathetic nervous system to the salivary glands in the mouth. The signals result in a decrease in watery, serous
+output (and an increase in stickier, thicker mucus output). These changes in secretions result in a “dry mouth” and
+the sensation of thirst.
+
+FIGURE 26.10
+A Flowchart Showing the Thirst Response
+The thirst response begins when osmoreceptors detect a decrease in water
+levels in the blood.
+
+Decreased blood volume resulting from water loss has two additional effects. First, baroreceptors, blood-pressure
+receptors in the arch of the aorta and the carotid arteries in the neck, detect a decrease in blood pressure that
+results from decreased blood volume. The heart is ultimately signaled to increase its rate and/or strength of
+contractions to compensate for the lowered blood pressure.
+Second, the kidneys have a renin-angiotensin hormonal system that increases the production of the active form of
+the hormone angiotensin II, which helps stimulate thirst, but also stimulates the release of the hormone
+aldosterone from the adrenal glands. Aldosterone increases the reabsorption of sodium in the distal tubules of the
+nephrons in the kidneys, and water follows this reabsorbed sodium back into the blood.
+If adequate fluids are not consumed, dehydration results and a person’s body contains too little water to function
+correctly. A person who repeatedly vomits or who has diarrhea may become dehydrated, and infants, because their
+body mass is so low, can become dangerously dehydrated very quickly. Endurance athletes such as distance
+runners often become dehydrated during long races. Dehydration can be a medical emergency, and a dehydrated
+person may lose consciousness, become comatose, or die, if their body is not rehydrated quickly.
+
+Regulation of Water Output
+Water loss from the body occurs predominantly through the renal system. A person produces an average of 1.5 liters
+(1.6 quarts) of urine per day. Although the volume of urine varies in response to hydration levels, there is a minimum
+volume of urine production required for proper bodily functions. The kidney excretes 100 to 1200 milliosmoles of
+solutes per day to rid the body of a variety of excess salts and other water-soluble chemical wastes, most notably
+creatinine, urea, and uric acid. Failure to produce the minimum volume of urine means that metabolic wastes cannot
+be effectively removed from the body, a situation that can impair organ function. The minimum level of urine
+production necessary to maintain normal function is about 0.47 liters (0.5 quarts) per day.
+The kidneys also must make adjustments in the event of ingestion of too much fluid. Diuresis, which is the
+production of urine in excess of normal levels, begins about 30 minutes after drinking a large quantity of fluid.
+Diuresis reaches a peak after about 1 hour, and normal urine production is reestablished after about 3 hours.
+
+Role of ADH
+Antidiuretic hormone (ADH), also known as vasopressin, controls the amount of water reabsorbed from the
+collecting ducts and tubules in the kidney. This hormone is produced in the hypothalamus and is delivered to the
+posterior pituitary for storage and release (Figure 26.11). When the osmoreceptors in the hypothalamus detect an
+increase in the concentration of blood plasma, the hypothalamus signals the release of ADH from the posterior
+pituitary into the blood.
+
+FIGURE 26.11
+Antidiuretic Hormone (ADH)
+ADH is produced in the hypothalamus and released by the posterior pituitary gland. It
+causes the kidneys to retain water, constricts arterioles in the peripheral circulation, and affects some social behaviors in mammals.
+
+ADH has two major effects. It constricts the arterioles in the peripheral circulation, which reduces the flow of blood
+to the extremities and thereby increases the blood supply to the core of the body. ADH also causes the epithelial
+cells that line the renal collecting tubules to move water channel proteins, called aquaporins, from the interior of the
+cells to the apical surface, where these proteins are inserted into the cell membrane (Figure 26.12). The result is an
+increase in the water permeability of these cells and, thus, a large increase in water passage from the urine through
+the walls of the collecting tubules, leading to more reabsorption of water into the bloodstream. When the blood
+plasma becomes less concentrated and the level of ADH decreases, aquaporins are removed from collecting tubule
+cell membranes, and the passage of water out of urine and into the blood decreases.
+
+FIGURE 26.12
+Aquaporins
+The binding of ADH to receptors on the cells of the collecting tubule results in aquaporins being inserted
+into the plasma membrane, shown in the lower cell. This dramatically increases the flow of water out of the tubule and into the
+bloodstream.
+
+A diuretic is a compound that increases urine output and therefore decreases water conservation by the body.
+Diuretics are used to treat hypertension, congestive heart failure, and fluid retention associated with menstruation.
+Alcohol acts as a diuretic by inhibiting the release of ADH. Additionally, caffeine, when consumed in high
+concentrations, acts as a diuretic.

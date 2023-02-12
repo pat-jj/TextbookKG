@@ -1,0 +1,393 @@
+2.5 Organic Compounds Essential to Human Functioning
+LEARNING OBJECTIVES
+By the end of this section, you will be able to:
+•
+Identify four types of organic molecules essential to human functioning
+•
+Explain the chemistry behind carbon’s affinity for covalently bonding in organic compounds
+•
+Provide examples of three types of carbohydrates, and identify the primary functions of carbohydrates in the
+body
+•
+Discuss four types of lipids important in human functioning
+•
+Describe the structure of proteins, and discuss their importance to human functioning
+•
+Identify the building blocks of nucleic acids, and the roles of DNA, RNA, and ATP in human functioning
+Organic compounds typically consist of groups of carbon atoms covalently bonded to hydrogen, usually oxygen, and
+often other elements as well. They are found throughout the world, in soils and seas, commercial products, and
+every cell of the human body. The four types most important to human structure and function are carbohydrates,
+lipids, proteins, and nucleic acids. Before exploring these compounds, you need to first understand the chemistry of
+carbon.
+The Chemistry of Carbon
+What makes organic compounds ubiquitous is the chemistry of their carbon core. Recall that carbon atoms have four
+electrons in their valence shell, and that the octet rule dictates that atoms tend to react in such a way as to
+complete their valence shell with eight electrons. Carbon atoms do not complete their valence shells by donating or
+accepting four electrons. Instead, they readily share electrons via covalent bonds.
+Commonly, carbon atoms share with other carbon atoms, often forming a long carbon chain referred to as a carbon
+skeleton. When they do share, however, they do not share all their electrons exclusively with each other. Rather,
+carbon atoms tend to share electrons with a variety of other elements, one of which is always hydrogen. Carbon and
+hydrogen groupings are called hydrocarbons. If you study the figures of organic compounds in the remainder of this
+chapter, you will see several with chains of hydrocarbons in one region of the compound.
+Many combinations are possible to fill carbon’s four “vacancies.” Carbon may share electrons with oxygen or
+nitrogen or other atoms in a particular region of an organic compound. Moreover, the atoms to which carbon atoms
+bond may also be part of a functional group. A functional group is a group of atoms linked by strong covalent bonds
+and tending to function in chemical reactions as a single unit. You can think of functional groups as tightly knit
+“cliques” whose members are unlikely to be parted. Five functional groups are important in human physiology;
+these are the hydroxyl, carboxyl, amino, methyl and phosphate groups (Table 2.1).
+Functional Groups Important in Human Physiology
+Functional
+group
+Structural
+formula
+Importance
+Hydroxyl
+—O—H
+Hydroxyl groups are polar. They are components of all four types of organic
+compounds discussed in this chapter. They are involved in dehydration
+synthesis and hydrolysis reactions.
+Carboxyl
+Carboxyl groups are found within fatty acids, amino acids, and many other
+acids.
+Amino
+—N—H2
+Amino groups are found within amino acids, the building blocks of proteins.
+Methyl
+—C—H3
+Methyl groups are found within amino acids.
+Phosphate
+—P—O42–
+Phosphate groups are found within phospholipids and nucleotides.
+TABLE 2.1
+Carbon’s affinity for covalent bonding means that many distinct and relatively stable organic molecules nevertheless
+readily form larger, more complex molecules. Any large molecule is referred to as macromolecule (macro- =
+“large”), and the organic compounds in this section all fit this description. However, some macromolecules are
+made up of several “copies” of single units called monomer (mono- = “one”; -mer = “part”). Like beads in a long
+necklace, these monomers link by covalent bonds to form long polymers (poly- = “many”). There are many
+examples of monomers and polymers among the organic compounds.
+Monomers form polymers by engaging in dehydration synthesis (see Figure 2.14). As was noted earlier, this reaction
+results in the release of a molecule of water. Each monomer contributes: One gives up a hydrogen atom and the
+other gives up a hydroxyl group. Polymers are split into monomers by hydrolysis (-lysis = “rupture”). The bonds
+between their monomers are broken, via the donation of a molecule of water, which contributes a hydrogen atom to
+one monomer and a hydroxyl group to the other.
+Carbohydrates
+The term carbohydrate means “hydrated carbon.” Recall that the root hydro- indicates water. A carbohydrate is a
+molecule composed of carbon, hydrogen, and oxygen; in most carbohydrates, hydrogen and oxygen are found in the
+same two-to-one relative proportions they have in water. In fact, the chemical formula for a “generic” molecule of
+carbohydrate is (CH2O)n.
+Carbohydrates are referred to as saccharides, a word meaning “sugars.” Three forms are important in the body.
+Monosaccharides are the monomers of carbohydrates. Disaccharides (di- = “two”) are made up of two monomers.
+Polysaccharides are the polymers, and can consist of hundreds to thousands of monomers.
+Monosaccharides
+A monosaccharide is a monomer of carbohydrates. Five monosaccharides are important in the body. Three of these
+are the hexose sugars, so called because they each contain six atoms of carbon. These are glucose, fructose, and
+galactose, shown in Figure 2.18a. The remaining monosaccharides are the two pentose sugars, each of which
+contains five atoms of carbon. They are ribose and deoxyribose, shown in Figure 2.18b.
+
+FIGURE 2.18
+Five Important Monosaccharides
+Disaccharides
+A disaccharide is a pair of monosaccharides. Disaccharides are formed via dehydration synthesis, and the bond
+linking them is referred to as a glycosidic bond (glyco- = “sugar”). Three disaccharides (shown in Figure 2.19) are
+important to humans. These are sucrose, commonly referred to as table sugar; lactose, or milk sugar; and maltose,
+or malt sugar. As you can tell from their common names, you consume these in your diet; however, your body cannot
+use them directly. Instead, in the digestive tract, they are split into their component monosaccharides via hydrolysis.
+
+FIGURE 2.19
+Three Important Disaccharides
+All three important disaccharides form by dehydration synthesis.
+INTERACTIVE LINK
+Watch this video (http://openstax.org/l/disaccharide) to observe the formation of a disaccharide. What happens
+when water encounters a glycosidic bond?
+Polysaccharides
+Polysaccharides can contain a few to a thousand or more monosaccharides. Three are important to the body (Figure
+2.20):
+•
+Starches are polymers of glucose. They occur in long chains called amylose or branched chains called
+amylopectin, both of which are stored in plant-based foods and are relatively easy to digest.
+64
+2 • The Chemical Level of Organization
+Access for free at openstax.org
+•
+Glycogen is also a polymer of glucose, but it is stored in the tissues of animals, especially in the muscles and
+liver. It is not considered a dietary carbohydrate because very little glycogen remains in animal tissues after
+slaughter; however, the human body stores excess glucose as glycogen, again, in the muscles and liver.
+•
+Cellulose, a polysaccharide that is the primary component of the cell wall of green plants, is the component of
+plant food referred to as “fiber”. In humans, cellulose/fiber is not digestible; however, dietary fiber has many
+health benefits. It helps you feel full so you eat less, it promotes a healthy digestive tract, and a diet high in fiber
+is thought to reduce the risk of heart disease and possibly some forms of cancer.
+FIGURE 2.20
+Three Important Polysaccharides
+Three important polysaccharides are starches, glycogen, and fiber.
+Functions of Carbohydrates
+The body obtains carbohydrates from plant-based foods. Grains, fruits, and legumes and other vegetables provide
+most of the carbohydrate in the human diet, although lactose is found in dairy products.
+Although most body cells can break down other organic compounds for fuel, all body cells can use glucose.
+Moreover, nerve cells (neurons) in the brain, spinal cord, and through the peripheral nervous system, as well as red
+blood cells, can use only glucose for fuel. In the breakdown of glucose for energy, molecules of adenosine
+triphosphate, better known as ATP, are produced. Adenosine triphosphate (ATP) is composed of a ribose sugar, an
+adenine base, and three phosphate groups. ATP releases free energy when its phosphate bonds are broken, and
+thus supplies ready energy to the cell. More ATP is produced in the presence of oxygen (O2) than in pathways that do
+not use oxygen. The overall reaction for the conversion of the energy in glucose to energy stored in ATP can be
+written:
+In addition to being a critical fuel source, carbohydrates are present in very small amounts in cells’ structure. For
+instance, some carbohydrate molecules bind with proteins to produce glycoproteins, and others combine with lipids
+to produce glycolipids, both of which are found in the membrane that encloses the contents of body cells.
+Lipids
+A lipid is one of a highly diverse group of compounds made up mostly of hydrocarbons. The few oxygen atoms they
+contain are often at the periphery of the molecule. Their nonpolar hydrocarbons make all lipids hydrophobic. In
+water, lipids do not form a true solution, but they may form an emulsion, which is the term for a mixture of solutions
+that do not mix well.
+Triglycerides
+A triglyceride is one of the most common dietary lipid groups, and the type found most abundantly in body tissues.
+This compound, which is commonly referred to as a fat, is formed from the synthesis of two types of molecules
+(Figure 2.21):
+•
+A glycerol backbone at the core of triglycerides, consists of three carbon atoms.
+•
+Three fatty acids, long chains of hydrocarbons with a carboxyl group and a methyl group at opposite ends,
+extend from each of the carbons of the glycerol.
+
+FIGURE 2.21
+Triglycerides
+Triglycerides are composed of glycerol attached to three fatty acids via dehydration synthesis. Notice that
+glycerol gives up a hydrogen atom, and the carboxyl groups on the fatty acids each give up a hydroxyl group.
+Triglycerides form via dehydration synthesis. Glycerol gives up hydrogen atoms from its hydroxyl groups at each
+bond, and the carboxyl group on each fatty acid chain gives up a hydroxyl group. A total of three water molecules are
+thereby released.
+Fatty acid chains that have no double carbon bonds anywhere along their length and therefore contain the maximum
+number of hydrogen atoms are called saturated fatty acids. These straight, rigid chains pack tightly together and are
+solid or semi-solid at room temperature (Figure 2.22a). Butter and lard are examples, as is the fat found on a steak
+or in your own body. In contrast, fatty acids with one double carbon bond are kinked at that bond (Figure 2.22b).
+These monounsaturated fatty acids are therefore unable to pack together tightly, and are liquid at room
+temperature. Polyunsaturated fatty acids contain two or more double carbon bonds, and are also liquid at room
+temperature. Plant oils such as olive oil typically contain both mono- and polyunsaturated fatty acids.
+FIGURE 2.22
+Fatty Acid Shapes
+The level of saturation of a fatty acid affects its shape. (a) Saturated fatty acid chains are straight. (b)
+Unsaturated fatty acid chains are kinked.
+Whereas a diet high in saturated fatty acids increases the risk of heart disease, a diet high in unsaturated fatty acids
+is thought to reduce the risk. This is especially true for the omega-3 unsaturated fatty acids found in cold-water fish
+such as salmon. These fatty acids have their first double carbon bond at the third hydrocarbon from the methyl
+group (referred to as the omega end of the molecule).
+Finally, trans fatty acids found in some processed foods, including some stick and tub margarines, are thought to be
+even more harmful to the heart and blood vessels than saturated fatty acids. Trans fats are created from
+unsaturated fatty acids (such as corn oil) when chemically treated to produce partially hydrogenated fats.
+As a group, triglycerides are a major fuel source for the body. When you are resting or asleep, a majority of the
+energy used to keep you alive is derived from triglycerides stored in your fat (adipose) tissues. Triglycerides also fuel
+long, slow physical activity such as gardening or hiking, and contribute a modest percentage of energy for vigorous
+physical activity. Dietary fat also assists the absorption and transport of the nonpolar fat-soluble vitamins A, D, E,
+and K. Additionally, stored body fat protects and cushions the body’s bones and internal organs, and acts as
+insulation to retain body heat.
+Fatty acids are also components of glycolipids, which are sugar-fat compounds found in the cell membrane.
+Lipoproteins are compounds in which the hydrophobic triglycerides are packaged in protein envelopes for transport in body fluids.
+
+Phospholipids
+As its name suggests, a phospholipid is a bond between the glycerol component of a lipid and a phosphorous
+molecule. In fact, phospholipids are similar in structure to triglycerides. However, instead of having three fatty acids,
+a phospholipid is generated from a diglyceride, a glycerol with just two fatty acid chains (Figure 2.23). The third
+binding site on the glycerol is taken up by the phosphate group, which in turn is attached to a polar “head” region of
+the molecule. Recall that triglycerides are nonpolar and hydrophobic. This still holds for the fatty acid portion of a
+phospholipid compound. However, the head of a phospholipid contains charges on the phosphate groups, as well as
+on the nitrogen atom. These charges make the phospholipid head hydrophilic. Therefore, phospholipids are said to
+have hydrophobic tails, containing the neutral fatty acids, and hydrophilic heads, containing the charged phosphate
+groups and nitrogen atom.
+FIGURE 2.23
+Other Important Lipids
+(a) Phospholipids are composed of two fatty acids, glycerol, and a phosphate group. (b) Sterols
+are ring-shaped lipids. Shown here is cholesterol. (c) Prostaglandins are derived from unsaturated fatty acids. Prostaglandin E2 (PGE2)
+includes hydroxyl and carboxyl groups.
+Steroids
+A steroid compound (referred to as a sterol) has as its foundation a set of four hydrocarbon rings bonded to a variety
+of other atoms and molecules (see Figure 2.23b). Although both plants and animals synthesize sterols, the type that
+makes the most important contribution to human structure and function is cholesterol, which is synthesized by the
+liver in humans and animals and is also present in most animal-based foods. Like other lipids, cholesterol’s
+hydrocarbons make it hydrophobic; however, it has a polar hydroxyl head that is hydrophilic. Cholesterol is an
+important component of bile acids, compounds that help emulsify dietary fats. In fact, the word root chole- refers to
+bile. Cholesterol is also a building block of many hormones, signaling molecules that the body releases to regulate
+processes at distant sites. Finally, like phospholipids, cholesterol molecules are found in the cell membrane, where
+their hydrophobic and hydrophilic regions help regulate the flow of substances into and out of the cell.
+Prostaglandins
+Like a hormone, a prostaglandin is one of a group of signaling molecules, but prostaglandins are derived from
+unsaturated fatty acids (see Figure 2.23c). One reason that the omega-3 fatty acids found in fish are beneficial is
+that they stimulate the production of certain prostaglandins that help regulate aspects of blood pressure and
+inflammation, and thereby reduce the risk for heart disease. Prostaglandins also sensitize nerves to pain. One class
+of pain-relieving medications called nonsteroidal anti-inflammatory drugs (NSAIDs) works by reducing the effects of
+prostaglandins.
+Proteins
+You might associate proteins with muscle tissue, but in fact, proteins are critical components of all tissues and
+organs. A protein is an organic molecule composed of amino acids linked by peptide bonds. Proteins include the
+keratin in the epidermis of skin that protects underlying tissues, the collagen found in the dermis of skin, in bones,
+and in the meninges that cover the brain and spinal cord. Proteins are also components of many of the body’s
+functional chemicals, including digestive enzymes in the digestive tract, antibodies, the neurotransmitters that
+neurons use to communicate with other cells, and the peptide-based hormones that regulate certain body functions
+(for instance, growth hormone). While carbohydrates and lipids are composed of hydrocarbons and oxygen, all
+proteins also contain nitrogen (N), and many contain sulfur (S), in addition to carbon, hydrogen, and oxygen.
+Microstructure of Proteins
+Proteins are polymers made up of nitrogen-containing monomers called amino acids. An amino acid is a molecule
+composed of an amino group and a carboxyl group, together with a variable side chain. Just 20 different amino acids
+contribute to nearly all of the thousands of different proteins important in human structure and function. Body
+proteins contain a unique combination of a few dozen to a few hundred of these 20 amino acid monomers. All 20 of
+these amino acids share a similar structure (Figure 2.24). All consist of a central carbon atom to which the following
+are bonded:
+•
+a hydrogen atom
+•
+an alkaline (basic) amino group NH2 (see Table 2.1)
+•
+an acidic carboxyl group COOH (see Table 2.1)
+•
+a variable group
+FIGURE 2.24
+Structure of an Amino Acid
+
+Access for free at openstax.org
+Notice that all amino acids contain both an acid (the carboxyl group) and a base (the amino group) (amine =
+“nitrogen-containing”). For this reason, they make excellent buffers, helping the body regulate acid–base balance.
+What distinguishes the 20 amino acids from one another is their variable group, which is referred to as a side chain
+or an R-group. This group can vary in size and can be polar or nonpolar, giving each amino acid its unique
+characteristics. For example, the side chains of two amino acids—cysteine and methionine—contain sulfur. Sulfur
+does not readily participate in hydrogen bonds, whereas all other amino acids do. This variation influences the way
+that proteins containing cysteine and methionine are assembled.
+Amino acids join via dehydration synthesis to form protein polymers (Figure 2.25). The unique bond holding amino
+acids together is called a peptide bond. A peptide bond is a covalent bond between two amino acids that forms by
+dehydration synthesis. A peptide, in fact, is a very short chain of amino acids. Strands containing fewer than about
+100 amino acids are generally referred to as polypeptides rather than proteins.
+FIGURE 2.25
+Peptide Bond
+Different amino acids join together to form peptides, polypeptides, or proteins via dehydration synthesis.
+The bonds between the amino acids are peptide bonds R1 and R2 may be the same or different side chains.
+The body is able to synthesize most of the amino acids from components of other molecules; however, nine cannot
+be synthesized and have to be consumed in the diet. These are known as the essential amino acids.
+Free amino acids available for protein construction are said to reside in the amino acid pool within cells. Structures
+within cells use these amino acids when assembling proteins. If a particular essential amino acid is not available in
+sufficient quantities in the amino acid pool, however, synthesis of proteins containing it can slow or even cease.
+Shape of Proteins
+Just as a fork cannot be used to eat soup and a spoon cannot be used to spear meat, a protein’s shape is essential
+to its function. A protein’s shape is determined, most fundamentally, by the sequence of amino acids of which it is
+made (Figure 2.26a). The sequence is called the primary structure of the protein.
+
+FIGURE 2.26
+The Shape of Proteins
+(a) The primary structure is the sequence of amino acids that make up the polypeptide chain. (b)
+The secondary structure, which can take the form of an alpha-helix or a beta-pleated sheet, is maintained by hydrogen bonds between
+amino acids in different regions of the original polypeptide strand. (c) The tertiary structure occurs as a result of further folding and bonding
+of the secondary structure. (d) The quaternary structure occurs as a result of interactions between two or more tertiary subunits. The
+example shown here is hemoglobin, a protein in red blood cells which transports oxygen to body tissues.
+Although some polypeptides exist as linear chains, most are twisted or folded into more complex secondary
+structures that form when bonding occurs between amino acids with different properties at different regions of the
+polypeptide. The most common secondary structure is a spiral called an alpha-helix. If you were to take a length of
+string and simply twist it into a spiral, it would not hold the shape. Similarly, a strand of amino acids could not
+maintain a stable spiral shape without the help of hydrogen bonds, which create bridges between different regions
+of the same strand (see Figure 2.26b). Less commonly, a polypeptide chain can form a beta-pleated sheet, in which
+hydrogen bonds form bridges between different regions of a single polypeptide that has folded back upon itself, or
+between two or more adjacent polypeptide chains.
+The secondary structure of proteins further folds into a compact three-dimensional shape, referred to as the
+protein’s tertiary structure (see Figure 2.26c). In this configuration, amino acids that had been very distant in the
+primary chain can be brought quite close via hydrogen bonds or, in proteins containing cysteine, via disulfide bonds.
+A disulfide bond is a covalent bond between sulfur atoms in a polypeptide. Often, two or more separate
+polypeptides bond to form an even larger protein with a quaternary structure (see Figure 2.26d). The polypeptide
+subunits forming a quaternary structure can be identical or different. For instance, hemoglobin, the protein found in
+red blood cells is composed of four tertiary polypeptides, two of which are called alpha chains and two of which are
+called beta chains.
+When they are exposed to extreme heat, acids, bases, and certain other substances, proteins will denature.
+Denaturation is a change in the structure of a molecule through physical or chemical means. Denatured proteins
+lose their functional shape and are no longer able to carry out their jobs. An everyday example of protein
+denaturation is the curdling of milk when acidic lemon juice is added.
+The contribution of the shape of a protein to its function can hardly be exaggerated. For example, the long, slender
+shape of protein strands that make up muscle tissue is essential to their ability to contract (shorten) and relax
+(lengthen). As another example, bones contain long threads of a protein called collagen that acts as scaffolding
+
+upon which bone minerals are deposited. These elongated proteins, called fibrous proteins, are strong and durable
+and typically hydrophobic.
+In contrast, globular proteins are globes or spheres that tend to be highly reactive and are hydrophilic. The
+hemoglobin proteins packed into red blood cells are an example (see Figure 2.26d); however, globular proteins are
+abundant throughout the body, playing critical roles in most body functions. Enzymes, introduced earlier as protein
+catalysts, are examples of this. The next section takes a closer look at the action of enzymes.
+Proteins Function as Enzymes
+If you were trying to type a paper, and every time you hit a key on your laptop there was a delay of six or seven
+minutes before you got a response, you would probably get a new laptop. In a similar way, without enzymes to
+catalyze chemical reactions, the human body would be nonfunctional. It functions only because enzymes function.
+Enzymatic reactions—chemical reactions catalyzed by enzymes—begin when substrates bind to the enzyme. A
+substrate is a reactant in an enzymatic reaction. This occurs on regions of the enzyme known as active sites (Figure
+2.27). Any given enzyme catalyzes just one type of chemical reaction. This characteristic, called specificity, is due to
+the fact that a substrate with a particular shape and electrical charge can bind only to an active site corresponding
+to that substrate.
+Due to this jigsaw puzzle-like match between an enzyme and its substrates, enzymes are known for their specificity.
+In fact, as an enzyme binds to its substrate(s), the enzyme structure changes slightly to find the best fit between the
+transition state (a structural intermediate between the substrate and product) and the active site, just as a rubber
+glove molds to a hand inserted into it. This active-site modification in the presence of substrate, along with the
+simultaneous formation of the transition state, is called induced fit. Overall, there is a specifically matched enzyme
+for each substrate and, thus, for each chemical reaction; however, there is some flexibility as well. Some enzymes
+have the ability to act on several different structurally related substrates.
+FIGURE 2.27
+Steps in an Enzymatic Reaction
+According to the induced-fit model, the active site of the enzyme undergoes
+conformational changes upon binding with the substrate.(a) Substrates approach active sites on enzyme. (b) Substrates bind to active sites,
+producing an enzyme–substrate complex. (c) Changes internal to the enzyme–substrate complex facilitate interaction of the substrates. (d)
+Products are released and the enzyme returns to its original form, ready to facilitate another enzymatic reaction.
+Binding of a substrate produces an enzyme–substrate complex. It is likely that enzymes speed up chemical
+reactions in part because the enzyme–substrate complex undergoes a set of temporary and reversible changes that
+cause the substrates to be oriented toward each other in an optimal position to facilitate their interaction. This
+promotes increased reaction speed. The enzyme then releases the product(s), and resumes its original shape. The
+enzyme is then free to engage in the process again, and will do so as long as substrate remains.
+Other Functions of Proteins
+Advertisements for protein bars, powders, and shakes all say that protein is important in building, repairing, and
+maintaining muscle tissue, but the truth is that proteins contribute to all body tissues, from the skin to the brain
+cells. Also, certain proteins act as hormones, chemical messengers that help regulate body functions, For example,
+growth hormone is important for skeletal growth, among other roles.
+As was noted earlier, the basic and acidic components enable proteins to function as buffers in maintaining
+acid–base balance, but they also help regulate fluid–electrolyte balance. Proteins attract fluid, and a healthy
+concentration of proteins in the blood, the cells, and the spaces between cells helps ensure a balance of fluids in
+these various “compartments.” Moreover, proteins in the cell membrane help to transport electrolytes in and out of
+the cell, keeping these ions in a healthy balance. Like lipids, proteins can bind with carbohydrates. They can thereby
+produce glycoproteins or proteoglycans, both of which have many functions in the body.
+The body can use proteins for energy when carbohydrate and fat intake is inadequate, and stores of glycogen and
+adipose tissue become depleted. However, since there is no storage site for protein except functional tissues, using
+protein for energy causes tissue breakdown, and results in body wasting.
+Nucleotides
+The fourth type of organic compound important to human structure and function are the nucleotides (Figure 2.28). A
+nucleotide is one of a class of organic compounds composed of three subunits:
+•
+one or more phosphate groups
+•
+a pentose sugar: either deoxyribose or ribose
+•
+a nitrogen-containing base: adenine, cytosine, guanine, thymine, or uracil
+Nucleotides can be assembled into nucleic acids (DNA or RNA) or the energy compound adenosine triphosphate.
+FIGURE 2.28
+Nucleotides
+(a) The building blocks of all nucleotides are one or more phosphate groups, a pentose sugar, and a nitrogen-
+containing base. (b) The nitrogen-containing bases of nucleotides. (c) The two pentose sugars of DNA and RNA.
+Nucleic Acids
+The nucleic acids differ in their type of pentose sugar. Deoxyribonucleic acid (DNA) is nucleotide that stores
+genetic information. DNA contains deoxyribose (so-called because it has one less atom of oxygen than ribose) plus
+one phosphate group and one nitrogen-containing base. The “choices” of base for DNA are adenine, cytosine,
+guanine, and thymine. Ribonucleic acid (RNA) is a ribose-containing nucleotide that helps manifest the genetic
+code as protein. RNA contains ribose, one phosphate group, and one nitrogen-containing base, but the “choices” of
+base for RNA are adenine, cytosine, guanine, and uracil.
+The nitrogen-containing bases adenine and guanine are classified as purines. A purine is a nitrogen-containing
+molecule with a double ring structure, which accommodates several nitrogen atoms. The bases cytosine, thymine
+(found in DNA only) and uracil (found in RNA only) are pyramidines. A pyramidine is a nitrogen-containing base with
+a single ring structure
+Bonds formed by dehydration synthesis between the pentose sugar of one nucleic acid monomer and the phosphate
+group of another form a “backbone,” from which the components’ nitrogen-containing bases protrude. In DNA, two
+such backbones attach at their protruding bases via hydrogen bonds. These twist to form a shape known as a
+double helix (Figure 2.29). The sequence of nitrogen-containing bases within a strand of DNA form the genes that
+act as a molecular code instructing cells in the assembly of amino acids into proteins. Humans have almost 22,000
+genes in their DNA, locked up in the 46 chromosomes inside the nucleus of each cell (except red blood cells which
+lose their nuclei during development). These genes carry the genetic code to build one’s body, and are unique for
+each individual except identical twins.
+FIGURE 2.29
+DNA
+In the DNA double helix, two strands attach via hydrogen bonds between the bases of the component nucleotides.
+In contrast, RNA consists of a single strand of sugar-phosphate backbone studded with bases. Messenger RNA
+(mRNA) is created during protein synthesis to carry the genetic instructions from the DNA to the cell’s protein
+manufacturing plants in the cytoplasm, the ribosomes.
+Adenosine Triphosphate
+The nucleotide adenosine triphosphate (ATP), is composed of a ribose sugar, an adenine base, and three phosphate
+groups (Figure 2.30). ATP is classified as a high energy compound because the two covalent bonds linking its three
+phosphates store a significant amount of potential energy. In the body, the energy released from these high energy
+bonds helps fuel the body’s activities, from muscle contraction to the transport of substances in and out of cells to
+anabolic chemical reactions.

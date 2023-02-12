@@ -1,0 +1,648 @@
+19.1 Heart Anatomy
+LEARNING OBJECTIVES
+By the end of this section, you will be able to:
+•
+Describe the location and position of the heart within the body cavity
+•
+Describe the internal and external anatomy of the heart
+•
+Identify the tissue layers of the heart
+•
+Relate the structure of the heart to its function as a pump
+•
+Compare systemic circulation to pulmonary circulation
+•
+Identify the veins and arteries of the coronary circulation system
+•
+Trace the pathway of oxygenated and deoxygenated blood thorough the chambers of the heart
+The vital importance of the heart is obvious. If one assumes an average rate of contraction of 75 contractions per
+minute, a human heart would contract approximately 108,000 times in one day, more than 39 million times in one
+year, and nearly 3 billion times during a 75-year lifespan. Each of the major pumping chambers of the heart ejects
+approximately 70 mL blood per contraction in a resting adult. This would be equal to 5.25 liters of fluid per minute
+and approximately 14,000 liters per day. Over one year, that would equal 10,000,000 liters or 2.6 million gallons of
+blood sent through roughly 60,000 miles of vessels. In order to understand how that happens, it is necessary to
+understand the anatomy and physiology of the heart.
+Location of the Heart
+The human heart is located within the thoracic cavity, medially between the lungs in the space known as the
+mediastinum. Figure 19.2 shows the position of the heart within the thoracic cavity. Within the mediastinum, the
+heart is separated from the other mediastinal structures by a tough membrane known as the pericardium, or
+pericardial sac, and sits in its own space called the pericardial cavity. The dorsal surface of the heart lies near the
+bodies of the vertebrae, and its anterior surface sits deep to the sternum and costal cartilages. The great veins, the
+superior and inferior venae cavae, and the great arteries, the aorta and pulmonary trunk, are attached to the
+superior surface of the heart, called the base. The base of the heart is located at the level of the third costal
+cartilage, as seen in Figure 19.2. The inferior tip of the heart, the apex, lies just to the left of the sternum between
+the junction of the fourth and fifth ribs near their articulation with the costal cartilages. The right side of the heart is
+deflected anteriorly, and the left side is deflected posteriorly. It is important to remember the position and
+orientation of the heart when placing a stethoscope on the chest of a patient and listening for heart sounds, and also
+when looking at images taken from a midsagittal perspective. The slight deviation of the apex to the left is reflected
+in a depression in the medial surface of the inferior lobe of the left lung, called the cardiac notch.
+
+FIGURE 19.2
+Position of the Heart in the Thorax
+The heart is located within the thoracic cavity, medially between the lungs in the
+mediastinum. It is about the size of a fist, is broad at the top, and tapers toward the base.
+Everyday Connection
+CPR
+The position of the heart in the torso between the vertebrae and sternum (see Figure 19.2 for the position of the
+heart within the thorax) allows for individuals to apply an emergency technique known as cardiopulmonary
+resuscitation (CPR) if the heart of a patient should stop. By applying pressure with the flat portion of one hand on
+the sternum in the area between the line at T4 and T9 (Figure 19.3), it is possible to manually compress the
+blood within the heart enough to push some of the blood within it into the pulmonary and systemic circuits. This
+is particularly critical for the brain, as irreversible damage and death of neurons occur within minutes of loss of
+blood flow. Current standards call for compression of the chest at least 5 cm deep and at a rate of 100
+compressions per minute, a rate equal to the beat in “Staying Alive,” recorded in 1977 by the Bee Gees. If you
+are unfamiliar with this song, a version is available on www.youtube.com. At this stage, the emphasis is on
+performing high-quality chest compressions, rather than providing artificial respiration. CPR is generally
+performed until the patient regains spontaneous contraction or is declared dead by an experienced healthcare
+professional.
+When performed by untrained or overzealous individuals, CPR can result in broken ribs or a broken sternum, and
+can inflict additional severe damage on the patient. It is also possible, if the hands are placed too low on the
+sternum, to manually drive the xiphoid process into the liver, a consequence that may prove fatal for the patient.
+Proper training is essential. This proven life-sustaining technique is so valuable that virtually all medical
+personnel as well as concerned members of the public should be certified and routinely recertified in its
+application. CPR courses are offered at a variety of locations, including colleges, hospitals, the American Red
+Cross, and some commercial companies. They normally include practice of the compression technique on a
+
+INTERACTIVE LINK
+Visit the American Heart Association website (http://openstax.org/l/AHA) to help locate a course near your home in
+the United States. There are also many other national and regional heart associations that offer the same service,
+depending upon the location.
+Shape and Size of the Heart
+The shape of the heart is similar to a pinecone, rather broad at the superior surface and tapering to the apex (see
+Figure 19.2). A typical heart is approximately the size of your fist: 12 cm (5 in) in length, 8 cm (3.5 in) wide, and 6 cm
+(2.5 in) in thickness. Given the size difference between most members of the sexes, the weight of a female heart is
+approximately 250–300 grams (9 to 11 ounces), and the weight of a male heart is approximately 300–350 grams
+(11 to 12 ounces). The heart of a well-trained athlete, especially one specializing in aerobic sports, can be
+considerably larger than this. Cardiac muscle responds to exercise in a manner similar to that of skeletal muscle.
+That is, exercise results in the addition of protein myofilaments that increase the size of the individual cells without
+increasing their numbers, a concept called hypertrophy. Hearts of athletes can pump blood more effectively at lower
+rates than those of nonathletes. Enlarged hearts are not always a result of exercise; they can result from
+pathologies, such as hypertrophic cardiomyopathy. The cause of an abnormally enlarged heart muscle is unknown,
+but the condition is often undiagnosed and can cause sudden death in apparently otherwise healthy young people.
+Chambers and Circulation through the Heart
+The human heart consists of four chambers: The left side and the right side each have one atrium and one
+ventricle. Each of the upper chambers, the right atrium (plural = atria) and the left atrium, acts as a receiving
+chamber and contracts to push blood into the lower chambers, the right ventricle and the left ventricle. The
+ventricles serve as the primary pumping chambers of the heart, propelling blood to the lungs or to the rest of the
+body.
+There are two distinct but linked circuits in the human circulation called the pulmonary and systemic circuits.
+Although both circuits transport blood and everything it carries, we can initially view the circuits from the point of
+view of gases. The pulmonary circuit transports blood to and from the lungs, where it picks up oxygen and delivers
+carbon dioxide for exhalation. The systemic circuit transports oxygenated blood to virtually all of the tissues of the
+body and returns relatively deoxygenated blood and carbon dioxide to the heart to be sent back to the pulmonary
+circulation.
+mannequin.
+FIGURE 19.3
+CPR Technique
+If the heart should stop, CPR can maintain the flow of blood until the heart resumes beating. By
+applying pressure to the sternum, the blood within the heart will be squeezed out of the heart and into the circulation. Proper
+positioning of the hands on the sternum to perform CPR would be between the lines at T4 and T9.
+
+The right ventricle pumps deoxygenated blood into the pulmonary trunk, which leads toward the lungs and
+bifurcates into the left and right pulmonary arteries. These vessels in turn branch many times before reaching the
+pulmonary capillaries, where gas exchange occurs: Carbon dioxide exits the blood and oxygen enters. The
+pulmonary trunk arteries and their branches are the only arteries in the post-natal body that carry relatively
+deoxygenated blood. Highly oxygenated blood returning from the pulmonary capillaries in the lungs passes through
+a series of vessels that join together to form the pulmonary veins—the only post-natal veins in the body that carry
+highly oxygenated blood. The pulmonary veins conduct blood into the left atrium, which pumps the blood into the
+left ventricle, which in turn pumps oxygenated blood into the aorta and on to the many branches of the systemic
+circuit. Eventually, these vessels will lead to the systemic capillaries, where exchange with the tissue fluid and cells
+of the body occurs. In this case, oxygen and nutrients exit the systemic capillaries to be used by the cells in their
+metabolic processes, and carbon dioxide and waste products will enter the blood.
+The blood exiting the systemic capillaries is lower in oxygen concentration than when it entered. The capillaries will
+ultimately unite to form venules, joining to form ever-larger veins, eventually flowing into the two major systemic
+veins, the superior vena cava and the inferior vena cava, which return blood to the right atrium. The blood in the
+superior and inferior venae cavae flows into the right atrium, which pumps blood into the right ventricle. This
+process of blood circulation continues as long as the individual remains alive. Understanding the flow of blood
+through the pulmonary and systemic circuits is critical to all health professions (Figure 19.4).
+FIGURE 19.4
+Dual System of the Human Blood Circulation
+Blood flows from the right atrium to the right ventricle, where it is
+pumped into the pulmonary circuit. The blood in the pulmonary artery branches is low in oxygen but relatively high in carbon dioxide. Gas
+exchange occurs in the pulmonary capillaries (oxygen into the blood, carbon dioxide out), and blood high in oxygen and low in carbon
+dioxide is returned to the left atrium. From here, blood enters the left ventricle, which pumps it into the systemic circuit. Following
+exchange in the systemic capillaries (oxygen and nutrients out of the capillaries and carbon dioxide and wastes in), blood returns to the
+right atrium and the cycle is repeated.
+Membranes, Surface Features, and Layers
+Our exploration of more in-depth heart structures begins by examining the membrane that surrounds the heart, the
+prominent surface features of the heart, and the layers that form the wall of the heart. Each of these components
+plays its own unique role in terms of function.
+Membranes
+The membrane that directly surrounds the heart and defines the pericardial cavity is called the pericardium or
+pericardial sac. It also surrounds the “roots” of the major vessels, or the areas of closest proximity to the heart. The
+pericardium, which literally translates as “around the heart,” consists of two distinct sublayers: the sturdy outer
+fibrous pericardium and the inner serous pericardium. The fibrous pericardium is made of tough, dense connective
+tissue that protects the heart and maintains its position in the thorax. The more delicate serous pericardium
+consists of two layers: the parietal pericardium, which is fused to the fibrous pericardium, and an inner visceral
+pericardium, or epicardium, which is fused to the heart and is part of the heart wall. The pericardial cavity, filled
+with lubricating serous fluid, lies between the epicardium and the pericardium.
+In most organs within the body, visceral serous membranes such as the epicardium are microscopic. However, in
+the case of the heart, it is not a microscopic layer but rather a macroscopic layer, consisting of a simple squamous
+epithelium called a mesothelium, reinforced with loose, irregular, or areolar connective tissue that attaches to the
+pericardium. This mesothelium secretes the lubricating serous fluid that fills the pericardial cavity and reduces
+friction as the heart contracts. Figure 19.5 illustrates the pericardial membrane and the layers of the heart.
+FIGURE 19.5
+Pericardial Membranes and Layers of the Heart Wall
+The pericardial membrane that surrounds the heart consists of
+three layers and the pericardial cavity. The heart wall also consists of three layers. The pericardial membrane and the heart wall share the
+epicardium.
+Disorders of the...
+Heart: Cardiac Tamponade
+If excess fluid builds within the pericardial space, it can lead to a condition called cardiac tamponade, or
+pericardial tamponade. With each contraction of the heart, more fluid—in most instances, blood—accumulates
+within the pericardial cavity. In order to fill with blood for the next contraction, the heart must relax. However,
+the excess fluid in the pericardial cavity puts pressure on the heart and prevents full relaxation, so the chambers
+within the heart contain slightly less blood as they begin each heart cycle. Over time, less and less blood is
+ejected from the heart. If the fluid builds up slowly, as in hypothyroidism, the pericardial cavity may be able to
+expand gradually to accommodate this extra volume. Some cases of fluid in excess of one liter within the
+pericardial cavity have been reported. Rapid accumulation of as little as 100 mL of fluid following trauma may
+trigger cardiac tamponade. Other common causes include myocardial rupture, pericarditis, cancer, or even
+cardiac surgery. Removal of this excess fluid requires insertion of drainage tubes into the pericardial cavity.
+Premature removal of these drainage tubes, for example, following cardiac surgery, or clot formation within
+these tubes are causes of this condition. Untreated, cardiac tamponade can lead to death.
+
+Surface Features of the Heart
+Inside the pericardium, the surface features of the heart are visible, including the four chambers. There is a
+superficial leaf-like extension of the atria near the superior surface of the heart, one on each side, called an
+auricle—a name that means “ear like”—because its shape resembles the external ear of a human (Figure 19.6).
+Auricles are relatively thin-walled structures that can fill with blood and empty into the atria or upper chambers of
+the heart. You may also hear them referred to as atrial appendages. Also prominent is a series of fat-filled grooves,
+each of which is known as a sulcus (plural = sulci), along the superior surfaces of the heart. Major coronary blood
+vessels are located in these sulci. The deep coronary sulcus is located between the atria and ventricles. Located
+between the left and right ventricles are two additional sulci that are not as deep as the coronary sulcus. The
+anterior interventricular sulcus is visible on the anterior surface of the heart, whereas the posterior
+interventricular sulcus is visible on the posterior surface of the heart. Figure 19.6 illustrates anterior and posterior
+views of the surface of the heart.
+
+FIGURE 19.6
+External Anatomy of the Heart
+Inside the pericardium, the surface features of the heart are visible.
+Layers
+The wall of the heart is composed of three layers of unequal thickness. From superficial to deep, these are the
+epicardium, the myocardium, and the endocardium (see Figure 19.5). The outermost layer of the wall of the heart is
+also the innermost layer of the pericardium, the epicardium, or the visceral pericardium discussed earlier.
+The middle and thickest layer is the myocardium, made largely of cardiac muscle cells. It is built upon a framework
+of collagenous fibers, plus the blood vessels that supply the myocardium and the nerve fibers that help regulate the
+heart. It is the contraction of the myocardium that pumps blood through the heart and into the major arteries. The
+muscle pattern is elegant and complex, as the muscle cells swirl and spiral around the chambers of the heart. They
+form a figure 8 pattern around the atria and around the bases of the great vessels. Deeper ventricular muscles also
+form a figure 8 around the two ventricles and proceed toward the apex. More superficial layers of ventricular muscle
+wrap around both ventricles. This complex swirling pattern allows the heart to pump blood more effectively than a
+simple linear pattern would. Figure 19.7 illustrates the arrangement of muscle cells.
+
+FIGURE 19.7
+Heart Musculature
+The swirling pattern of cardiac muscle tissue contributes significantly to the heart’s ability to pump
+blood effectively.
+Although the ventricles on the right and left sides pump the same amount of blood per contraction, the muscle of
+the left ventricle is much thicker and better developed than that of the right ventricle. In order to overcome the high
+resistance required to pump blood into the long systemic circuit, the left ventricle must generate a great amount of
+pressure. The right ventricle does not need to generate as much pressure, since the pulmonary circuit is shorter and
+provides less resistance. Figure 19.8 illustrates the differences in muscular thickness needed for each of the
+ventricles.
+FIGURE 19.8
+Differences in Ventricular Muscle Thickness
+The myocardium in the left ventricle is significantly thicker than that of the
+right ventricle. Both ventricles pump the same amount of blood, but the left ventricle must generate a much greater pressure to overcome
+greater resistance in the systemic circuit. The ventricles are shown in both relaxed and contracting states. Note the differences in the
+relative size of the lumens, the region inside each ventricle where the blood is contained.
+The innermost layer of the heart wall, the endocardium, is joined to the myocardium with a thin layer of connective
+tissue. The endocardium lines the chambers where the blood circulates and covers the heart valves. It is made of
+simple squamous epithelium called endothelium, which is continuous with the endothelial lining of the blood
+vessels (see Figure 19.5).
+Once regarded as a simple lining layer, recent evidence indicates that the endothelium of the endocardium and the
+coronary capillaries may play active roles in regulating the contraction of the muscle within the myocardium. The
+endothelium may also regulate the growth patterns of the cardiac muscle cells throughout life, and the endothelins
+it secretes create an environment in the surrounding tissue fluids that regulates ionic concentrations and states of
+contractility. Endothelins are potent vasoconstrictors and, in a normal individual, establish a homeostatic balance
+with other vasoconstrictors and vasodilators.
+Internal Structure of the Heart
+Recall that the heart’s contraction cycle follows a dual pattern of circulation—the pulmonary and systemic
+circuits—because of the pairs of chambers that pump blood into the circulation. In order to develop a more precise
+understanding of cardiac function, it is first necessary to explore the internal anatomical structures in more detail.
+Septa of the Heart
+The word septum is derived from the Latin for “something that encloses;” in this case, a septum (plural = septa)
+refers to a wall or partition that divides the heart into chambers. The septa are physical extensions of the
+myocardium lined with endocardium. Located between the two atria is the interatrial septum. Normally in an adult
+heart, the interatrial septum bears an oval-shaped depression known as the fossa ovalis, a remnant of an opening in
+the fetal heart known as the foramen ovale. The foramen ovale allowed blood in the fetal heart to pass directly from
+the right atrium to the left atrium, allowing some blood to bypass the pulmonary circuit. Within seconds after birth, a
+flap of tissue known as the septum primum that previously acted as a valve closes the foramen ovale and
+establishes the typical cardiac circulation pattern.
+Between the two ventricles is a second septum known as the interventricular septum. Unlike the interatrial
+septum, the interventricular septum is normally intact after its formation during fetal development. It is
+substantially thicker than the interatrial septum, since the ventricles generate far greater pressure when they
+contract.
+The septum between the atria and ventricles is known as the atrioventricular septum. It is marked by the presence
+of four openings that allow blood to move from the atria into the ventricles and from the ventricles into the
+pulmonary trunk and aorta. Located in each of these openings between the atria and ventricles is a valve, a
+specialized structure that ensures one-way flow of blood. The valves between the atria and ventricles are known
+generically as atrioventricular valves. The valves at the openings that lead to the pulmonary trunk and aorta are
+known generically as semilunar valves. The interventricular septum is visible in Figure 19.9. In this figure, the
+atrioventricular septum has been removed to better show the bicuspid and tricuspid valves; the interatrial septum is
+not visible, since its location is covered by the aorta and pulmonary trunk. Since these openings and valves
+structurally weaken the atrioventricular septum, the remaining tissue is heavily reinforced with dense connective
+tissue called the cardiac skeleton, or skeleton of the heart. It includes four rings that surround the openings
+between the atria and ventricles, and the openings to the pulmonary trunk and aorta, and serve as the point of
+attachment for the heart valves. The cardiac skeleton also provides an important boundary in the heart electrical
+conduction system.
+
+FIGURE 19.9
+Internal Structures of the Heart
+This anterior view of the heart shows the four chambers, the major vessels and their
+early branches, as well as the valves. The presence of the pulmonary trunk and aorta covers the interatrial septum, and the atrioventricular
+septum is cut away to show the atrioventricular valves.
+Disorders of the...
+Heart: Heart Defects
+One very common form of interatrial septum pathology is patent foramen ovale, which occurs when the septum
+primum does not close at birth, and the fossa ovalis is unable to fuse. The word patent is from the Latin root
+patens for “open.” It may be benign or asymptomatic, perhaps never being diagnosed, or in extreme cases, it
+may require surgical repair to close the opening permanently. As much as 20–25 percent of the general
+population may have a patent foramen ovale, but fortunately, most have the benign, asymptomatic version.
+Patent foramen ovale is normally detected by auscultation of a heart murmur (an abnormal heart sound) and
+confirmed by imaging with an echocardiogram. Despite its prevalence in the general population, the causes of
+patent ovale are unknown, and there are no known risk factors. In nonlife-threatening cases, it is better to
+monitor the condition than to risk heart surgery to repair and seal the opening.
+Coarctation of the aorta is a congenital abnormal narrowing of the aorta that is normally located at the insertion
+of the ligamentum arteriosum, the remnant of the fetal shunt called the ductus arteriosus. If severe, this
+condition drastically restricts blood flow through the primary systemic artery, which is life threatening. In some
+individuals, the condition may be fairly benign and not detected until later in life. Detectable symptoms in an
+infant include difficulty breathing, poor appetite, trouble feeding, or failure to thrive. In older individuals,
+symptoms include dizziness, fainting, shortness of breath, chest pain, fatigue, headache, and nosebleeds.
+Treatment involves surgery to resect (remove) the affected region or angioplasty to open the abnormally narrow
+passageway. Studies have shown that the earlier the surgery is performed, the better the chance of survival.
+A patent ductus arteriosus is a congenital condition in which the ductus arteriosus fails to close. The condition
+may range from severe to benign. Failure of the ductus arteriosus to close results in blood flowing from the
+higher pressure aorta into the lower pressure pulmonary trunk. This additional fluid moving toward the lungs
+increases pulmonary pressure and makes respiration difficult. Symptoms include shortness of breath (dyspnea),
+tachycardia, enlarged heart, a widened pulse pressure, and poor weight gain in infants. Treatments include
+surgical closure (ligation), manual closure using platinum coils or specialized mesh inserted via the femoral
+artery or vein, or nonsteroidal anti-inflammatory drugs to block the synthesis of prostaglandin E2, which
+maintains the vessel in an open position. If untreated, the condition can result in congestive heart failure.
+
+Septal defects are not uncommon in individuals and may be congenital or caused by various disease processes.
+Tetralogy of Fallot is a congenital condition that may also occur from exposure to unknown environmental
+factors; it occurs when there is an opening in the interventricular septum caused by blockage of the pulmonary
+trunk, normally at the pulmonary semilunar valve. This allows blood that is relatively low in oxygen from the right
+ventricle to flow into the left ventricle and mix with the blood that is relatively high in oxygen. Symptoms include
+a distinct heart murmur, low blood oxygen percent saturation, dyspnea or difficulty in breathing, polycythemia,
+broadening (clubbing) of the fingers and toes, and in children, difficulty in feeding or failure to grow and develop.
+It is the most common cause of cyanosis following birth. The term “tetralogy” is derived from the four
+components of the condition, although only three may be present in an individual patient: pulmonary
+infundibular stenosis (rigidity of the pulmonary valve), overriding aorta (the aorta is shifted above both
+ventricles), ventricular septal defect (opening), and right ventricular hypertrophy (enlargement of the right
+ventricle). Other heart defects may also accompany this condition, which is typically confirmed by
+echocardiography imaging. Tetralogy of Fallot occurs in approximately 400 out of one million live births. Normal
+treatment involves extensive surgical repair, including the use of stents to redirect blood flow and replacement
+of valves and patches to repair the septal defect, but the condition has a relatively high mortality. Survival rates
+are currently 75 percent during the first year of life; 60 percent by 4 years of age; 30 percent by 10 years; and 5
+percent by 40 years.
+In the case of severe septal defects, including both tetralogy of Fallot and patent foramen ovale, failure of the
+heart to develop properly can lead to a condition commonly known as a “blue baby.” Regardless of normal skin
+pigmentation, individuals with this condition have an insufficient supply of oxygenated blood, which leads to
+cyanosis, a blue or purple coloration of the skin, especially when active.
+Septal defects are commonly first detected through auscultation, listening to the chest using a stethoscope. In
+this case, instead of hearing normal heart sounds attributed to the flow of blood and closing of heart valves,
+unusual heart sounds may be detected. This is often followed by medical imaging to confirm or rule out a
+diagnosis. In many cases, treatment may not be needed. Some common congenital heart defects are illustrated
+in Figure 19.10.
+
+FIGURE 19.10
+Congenital Heart Defects
+(a) A patent foramen ovale defect is an abnormal opening in the interatrial septum, or
+more commonly, a failure of the foramen ovale to close. (b) Coarctation of the aorta is an abnormal narrowing of the aorta. (c) A patent
+ductus arteriosus is the failure of the ductus arteriosus to close. (d) Tetralogy of Fallot includes an abnormal opening in the
+interventricular septum.
+
+Right Atrium
+The right atrium serves as the receiving chamber for blood returning to the heart from the systemic circulation. The
+two major systemic veins, the superior and inferior venae cavae, and the large coronary vein called the coronary
+sinus that drains the heart myocardium empty into the right atrium. The superior vena cava drains blood from
+regions superior to the diaphragm: the head, neck, upper limbs, and the thoracic region. It empties into the superior
+and posterior portions of the right atrium. The inferior vena cava drains blood from areas inferior to the diaphragm:
+the lower limbs and abdominopelvic region of the body. It, too, empties into the posterior portion of the atria, but
+inferior to the opening of the superior vena cava. Immediately superior and slightly medial to the opening of the
+inferior vena cava on the posterior surface of the atrium is the opening of the coronary sinus. This thin-walled vessel
+drains most of the coronary veins that return systemic blood from the heart. The majority of the internal heart
+structures discussed in this and subsequent sections are illustrated in Figure 19.9.
+While the bulk of the internal surface of the right atrium is smooth, the depression of the fossa ovalis is medial, and
+the anterior surface demonstrates prominent ridges of muscle called the pectinate muscles. The right auricle also
+has pectinate muscles. The left atrium does not have pectinate muscles except in the auricle.
+The atria receive venous blood on a nearly continuous basis, preventing venous flow from stopping while the
+ventricles are contracting. While most ventricular filling occurs while the atria are relaxed, they do demonstrate a
+contractile phase and actively pump blood into the ventricles just prior to ventricular contraction. The opening
+between the atrium and ventricle is guarded by the tricuspid valve.
+
+Right Ventricle
+The right ventricle receives blood from the right atrium through the tricuspid valve. Each flap of the valve is attached
+to strong strands of connective tissue, the chordae tendineae, literally “tendinous cords,” or sometimes more
+poetically referred to as “heart strings.” There are several chordae tendineae associated with each of the flaps. They
+are composed of approximately 80 percent collagenous fibers with the remainder consisting of elastic fibers and
+endothelium. They connect each of the flaps to a papillary muscle that extends from the inferior ventricular
+surface. There are three papillary muscles in the right ventricle, called the anterior, posterior, and septal muscles,
+which correspond to the three sections of the valves.
+When the myocardium of the ventricle contracts, pressure within the ventricular chamber rises. Blood, like any fluid,
+flows from higher pressure to lower pressure areas, in this case, toward the pulmonary trunk and the atrium. To
+prevent any potential backflow, the papillary muscles also contract, generating tension on the chordae tendineae.
+This prevents the flaps of the valves from being forced into the atria and regurgitation of the blood back into the atria
+during ventricular contraction. Figure 19.11 shows papillary muscles and chordae tendineae attached to the
+tricuspid valve.
+FIGURE 19.11
+Chordae Tendineae and Papillary Muscles
+In this frontal section, you can see papillary muscles attached to the
+tricuspid valve on the right as well as the mitral valve on the left via chordae tendineae. (credit: modification of work by “PV KS”/flickr.com)
+
+The walls of the ventricle are lined with trabeculae carneae, ridges of cardiac muscle covered by endocardium. In
+addition to these muscular ridges, a band of cardiac muscle, also covered by endocardium, known as the moderator
+band (see Figure 19.9) reinforces the thin walls of the right ventricle and plays a crucial role in cardiac conduction.
+It arises from the inferior portion of the interventricular septum and crosses the interior space of the right ventricle
+to connect with the inferior papillary muscle.
+When the right ventricle contracts, it ejects blood into the pulmonary trunk, which branches into the left and right
+pulmonary arteries that carry it to each lung. The superior surface of the right ventricle begins to taper as it
+approaches the pulmonary trunk. At the base of the pulmonary trunk is the pulmonary semilunar valve that prevents
+backflow from the pulmonary trunk.
+
+Left Atrium
+After exchange of gases in the pulmonary capillaries, blood returns to the left atrium high in oxygen via one of the
+four pulmonary veins. While the left atrium does not contain pectinate muscles, it does have an auricle that includes
+these pectinate ridges. Blood flows nearly continuously from the pulmonary veins back into the atrium, which acts
+as the receiving chamber, and from here through an opening into the left ventricle. Most blood flows passively into
+the heart while both the atria and ventricles are relaxed, but toward the end of the ventricular relaxation period, the
+left atrium will contract, pumping blood into the ventricle. This atrial contraction accounts for approximately 20
+percent of ventricular filling. The opening between the left atrium and ventricle is guarded by the mitral valve.
+
+Left Ventricle
+Recall that, although both sides of the heart will pump the same amount of blood, the muscular layer is much
+thicker in the left ventricle compared to the right (see Figure 19.8). Like the right ventricle, the left also has
+trabeculae carneae, but there is no moderator band. The mitral valve is connected to papillary muscles via chordae
+tendineae. There are two papillary muscles on the left—the anterior and posterior—as opposed to three on the right.
+The left ventricle is the major pumping chamber for the systemic circuit; it ejects blood into the aorta through the
+aortic semilunar valve.
+
+Heart Valve Structure and Function
+A transverse section through the heart slightly above the level of the atrioventricular septum reveals all four heart
+valves along the same plane (Figure 19.12). The valves ensure unidirectional blood flow through the heart. Between
+the right atrium and the right ventricle is the right atrioventricular valve, or tricuspid valve. It typically consists of
+three flaps, or leaflets, made of endocardium reinforced with additional connective tissue. The flaps are connected
+by chordae tendineae to the papillary muscles, which control the opening and closing of the valves.
+
+FIGURE 19.12
+Heart Valves
+With the atria and major vessels removed, all four valves are clearly visible, although it is difficult to
+distinguish the three separate cusps of the tricuspid valve.
+
+Emerging from the right ventricle at the base of the pulmonary trunk is the pulmonary semilunar valve, or the
+pulmonary valve; it is also known as the pulmonic valve or the right semilunar valve. The pulmonary valve is
+comprised of three small flaps of endothelium reinforced with connective tissue. When the ventricle relaxes, the
+pressure differential causes blood to flow back into the ventricle from the pulmonary trunk. This flow of blood fills
+the pocket-like flaps of the pulmonary valve, causing the valve to close and producing an audible sound. Unlike the
+atrioventricular valves, there are no papillary muscles or chordae tendineae associated with the pulmonary valve.
+Located at the opening between the left atrium and left ventricle is the mitral valve, also called the bicuspid valve
+or the left atrioventricular valve. Structurally, this valve consists of two cusps, compared to the three cusps of the
+tricuspid valve. In a clinical setting, the valve is referred to as the mitral valve, rather than the bicuspid valve. The
+two cusps of the mitral valve are attached by chordae tendineae to two papillary muscles that project from the wall
+of the ventricle.
+At the base of the aorta is the aortic semilunar valve, or the aortic valve, which prevents backflow from the aorta. It
+normally is composed of three flaps. When the ventricle relaxes and blood attempts to flow back into the ventricle
+from the aorta, blood will fill the cusps of the valve, causing it to close and producing an audible sound.
+In Figure 19.13a, the two atrioventricular valves are open and the two semilunar valves are closed. This occurs
+when both atria and ventricles are relaxed and when the atria contract to pump blood into the ventricles. Figure
+19.13b shows a frontal view. Although only the left side of the heart is illustrated, the process is virtually identical
+on the right.
+FIGURE 19.13
+Blood Flow from the Left Atrium to the Left Ventricle
+(a) A transverse section through the heart illustrates the four
+heart valves. The two atrioventricular valves are open; the two semilunar valves are closed. The atria and vessels have been removed. (b) A
+frontal section through the heart illustrates blood flow through the mitral valve. When the mitral valve is open, it allows blood to move from
+the left atrium to the left ventricle. The aortic semilunar valve is closed to prevent backflow of blood from the aorta to the left ventricle.
+Figure 19.14a shows the atrioventricular valves closed while the two semilunar valves are open. This occurs when
+the ventricles contract to eject blood into the pulmonary trunk and aorta. Closure of the two atrioventricular valves
+19.1 • Heart Anatomy
+765
+prevents blood from being forced back into the atria. This stage can be seen from a frontal view in Figure 19.14b.
+FIGURE 19.14
+Blood Flow from the Left Ventricle into the Great Vessels
+(a) A transverse section through the heart illustrates the
+four heart valves during ventricular contraction. The two atrioventricular valves are closed, but the two semilunar valves are open. The atria
+and vessels have been removed. (b) A frontal view shows the closed mitral (bicuspid) valve that prevents backflow of blood into the left
+atrium. The aortic semilunar valve is open to allow blood to be ejected into the aorta.
+When the ventricles begin to contract, pressure within the ventricles rises and blood flows toward the area of lowest
+pressure, which is initially in the atria. This backflow causes the cusps of the tricuspid and mitral (bicuspid) valves to
+close. These valves are tied down to the papillary muscles by chordae tendineae. During the relaxation phase of the
+cardiac cycle, the papillary muscles are also relaxed and the tension on the chordae tendineae is slight (see Figure
+19.13b). However, as the myocardium of the ventricle contracts, so do the papillary muscles. This creates tension
+on the chordae tendineae (see Figure 19.14b), helping to hold the cusps of the atrioventricular valves in place and
+preventing them from being blown back into the atria.
+The aortic and pulmonary semilunar valves lack the chordae tendineae and papillary muscles associated with the
+atrioventricular valves. Instead, they consist of pocket-like folds of endocardium reinforced with additional
+connective tissue. When the ventricles relax and the change in pressure forces the blood toward the ventricles, the
+blood presses against these cusps and seals the openings.
+INTERACTIVE LINK
+Visit this site (http://openstax.org/l/heartvalve) to observe an echocardiogram of actual heart valves opening and
+closing. Although much of the heart has been “removed” from this gif loop so the chordae tendineae are not visible,
+why is their presence more critical for the atrioventricular valves (tricuspid and mitral) than the semilunar (aortic
+and pulmonary) valves?
+
+INTERACTIVE LINK
+Visit this site (http://openstax.org/l/heartsounds) for a free download, including excellent animations and audio of
+heart sounds.
+
+CAREER CONNECTION
+Cardiologist
+Cardiologists are medical doctors that specialize in the diagnosis and treatment of diseases of the heart. After
+completing 4 years of medical school, cardiologists complete a three-year residency in internal medicine followed
+by an additional three or more years in cardiology. Following this 10-year period of medical training and clinical
+experience, they qualify for a rigorous two-day examination administered by the Board of Internal Medicine that
+tests their academic training and clinical abilities, including diagnostics and treatment. After successful completion
+of this examination, a physician becomes a board-certified cardiologist. Some board-certified cardiologists may be
+invited to become a Fellow of the American College of Cardiology (FACC). This professional recognition is awarded to
+outstanding physicians based upon merit, including outstanding credentials, achievements, and community
+contributions to cardiovascular medicine.
+
+
+Disorders of the...
+Heart Valves
+When heart valves do not function properly, they are often described as incompetent and result in valvular heart
+disease, which can range from benign to lethal. Some of these conditions are congenital, that is, the individual
+was born with the defect, whereas others may be attributed to disease processes or trauma. Some malfunctions
+are treated with medications, others require surgery, and still others may be mild enough that the condition is
+merely monitored since treatment might trigger more serious consequences.
+Valvular disorders are often caused by carditis, or inflammation of the heart. One common trigger for this
+inflammation is rheumatic fever, or scarlet fever, an autoimmune response to the presence of a bacterium,
+Streptococcus pyogenes, normally a disease of childhood.
+While any of the heart valves may be involved in valve disorders, mitral regurgitation is the most common,
+detected in approximately 2 percent of the population, and the pulmonary semilunar valve is the least frequently
+involved. When a valve malfunctions, the flow of blood to a region will often be disrupted. The resulting
+inadequate flow of blood to this region will be described in general terms as an insufficiency. The specific type of
+insufficiency is named for the valve involved: aortic insufficiency, mitral insufficiency, tricuspid insufficiency, or
+pulmonary insufficiency.
+If one of the cusps of the valve is forced backward by the force of the blood, the condition is referred to as a
+prolapsed valve. Prolapse may occur if the chordae tendineae are damaged or broken, causing the closure
+mechanism to fail. The failure of the valve to close properly disrupts the normal one-way flow of blood and
+results in regurgitation, when the blood flows backward from its normal path. Using a stethoscope, the
+disruption to the normal flow of blood produces a heart murmur.
+Stenosis is a condition in which the heart valves become rigid and may calcify over time. The loss of flexibility of
+the valve interferes with normal function and may cause the heart to work harder to propel blood through the
+valve, which eventually weakens the heart. Aortic stenosis affects approximately 2 percent of the population
+over 65 years of age, and the percentage increases to approximately 4 percent in individuals over 85 years.
+Occasionally, one or more of the chordae tendineae will tear or the papillary muscle itself may die as a
+component of a myocardial infarction (heart attack). In this case, the patient’s condition will deteriorate
+dramatically and rapidly, and immediate surgical intervention may be required.
+Auscultation, or listening to a patient’s heart sounds, is one of the most useful diagnostic tools, since it is
+proven, safe, and inexpensive. The term auscultation is derived from the Latin for “to listen,” and the technique
+has been used for diagnostic purposes as far back as the ancient Egyptians. Valve and septal disorders will
+trigger abnormal heart sounds. If a valvular disorder is detected or suspected, a test called an echocardiogram,
+or simply an “echo,” may be ordered. Echocardiograms are sonograms of the heart and can help in the diagnosis
+of valve disorders as well as a wide variety of heart pathologies.
+
+INTERACTIVE LINK
+Visit this site (http://openstax.org/l/cardiologist) to learn more about cardiologists.
+
+CAREER CONNECTION
+Cardiovascular Technologist/Technician
+Cardiovascular technologists/technicians are trained professionals who perform a variety of imaging techniques,
+such as sonograms or echocardiograms, used by physicians to diagnose and treat diseases of the heart. Nearly all of
+these positions require an associate degree, and these technicians earn a median salary of $49,410 as of May 2010,
+according to the U.S. Bureau of Labor Statistics. Growth within the field is fast, projected at 29 percent from 2010 to
+2020.
+There is a considerable overlap and complementary skills between cardiac technicians and vascular technicians,
+and so the term cardiovascular technician is often used. Special certifications within the field require documenting
+appropriate experience and completing additional and often expensive certification examinations. These
+subspecialties include Certified Rhythm Analysis Technician (CRAT), Certified Cardiographic Technician (CCT),
+Registered Congenital Cardiac Sonographer (RCCS), Registered Cardiac Electrophysiology Specialist (RCES),
+Registered Cardiovascular Invasive Specialist (RCIS), Registered Cardiac Sonographer (RCS), Registered Vascular
+Specialist (RVS), and Registered Phlebology Sonographer (RPhS).
+
+INTERACTIVE LINK
+Visit this site (http://openstax.org/l/cardiotech) for more information on cardiovascular technologists/technicians.
+Coronary Circulation
+You will recall that the heart is a remarkable pump composed largely of cardiac muscle cells that are incredibly
+active throughout life. Like all other cells, a cardiomyocyte requires a reliable supply of oxygen and nutrients, and a
+way to remove wastes, so it needs a dedicated, complex, and extensive coronary circulation. And because of the
+critical and nearly ceaseless activity of the heart throughout life, this need for a blood supply is even greater than for
+a typical cell. However, coronary circulation is not continuous; rather, it cycles, reaching a peak when the heart
+muscle is relaxed and nearly ceasing while it is contracting.
+Coronary Arteries
+Coronary arteries supply blood to the myocardium and other components of the heart. The first portion of the aorta
+after it arises from the left ventricle gives rise to the coronary arteries. There are three dilations in the wall of the
+aorta just superior to the aortic semilunar valve. Two of these, the left posterior aortic sinus and anterior aortic
+sinus, give rise to the left and right coronary arteries, respectively. The third sinus, the right posterior aortic sinus,
+typically does not give rise to a vessel. Coronary vessel branches that remain on the surface of the artery and follow
+the sulci are called epicardial coronary arteries.
+The left coronary artery distributes blood to the left side of the heart, the left atrium and ventricle, and the
+interventricular septum. The circumflex artery arises from the left coronary artery and follows the coronary sulcus
+to the left. Eventually, it will fuse with the small branches of the right coronary artery. The larger anterior
+interventricular artery, also known as the left anterior descending artery (LAD), is the second major branch arising
+from the left coronary artery. It follows the anterior interventricular sulcus around the pulmonary trunk. Along the
+way it gives rise to numerous smaller branches that interconnect with the branches of the posterior interventricular
+artery, forming anastomoses. An anastomosis is an area where vessels unite to form interconnections that normally
+allow blood to circulate to a region even if there may be partial blockage in another branch. The anastomoses in the
+heart are very small. Therefore, this ability is somewhat restricted in the heart so a coronary artery blockage often
+results in death of the cells (myocardial infarction) supplied by the particular vessel.
+The right coronary artery proceeds along the coronary sulcus and distributes blood to the right atrium, portions of
+both ventricles, and the heart conduction system. Normally, one or more marginal arteries arise from the right
+coronary artery inferior to the right atrium. The marginal arteries supply blood to the superficial portions of the
+right ventricle. On the posterior surface of the heart, the right coronary artery gives rise to the posterior
+interventricular artery, also known as the posterior descending artery. It runs along the posterior portion of the
+interventricular sulcus toward the apex of the heart, giving rise to branches that supply the interventricular septum
+and portions of both ventricles. Figure 19.15 presents views of the coronary circulation from both the anterior and
+posterior views.
+
+FIGURE 19.15
+Coronary Circulation
+The anterior view of the heart shows the prominent coronary surface vessels. The posterior view
+of the heart shows the prominent coronary surface vessels.
+
+Diseases of the…
+Heart: Myocardial Infarction
+Myocardial infarction (MI) is the formal term for what is commonly referred to as a
+heart attack. It normally results from a lack of blood flow (ischemia) and oxygen (hypoxia) to a region of the
+heart, resulting in death of the cardiac muscle cells. An MI often occurs when a coronary artery is blocked by the
+buildup of atherosclerotic plaque consisting of lipids, cholesterol and fatty acids, and white blood cells, primarily
+macrophages. It can also occur when a portion of an unstable atherosclerotic plaque travels through the
+coronary arterial system and lodges in one of the smaller vessels. The resulting blockage restricts the flow of
+blood and oxygen to the myocardium and causes death of the tissue. MIs may be triggered by excessive
+exercise, in which the partially occluded artery is no longer able to pump sufficient quantities of blood, or severe
+stress, which may induce spasm of the smooth muscle in the walls of the vessel.
+In the case of acute MI, there is often sudden pain beneath the sternum (retrosternal pain) called angina
+pectoris, often radiating down the left arm in males but not in female patients. Until this anomaly between the
+sexes was discovered, many female patients suffering MIs were misdiagnosed and sent home. In addition,
+patients typically present with difficulty breathing and shortness of breath (dyspnea), irregular heartbeat
+(palpations), nausea and vomiting, sweating (diaphoresis), anxiety, and fainting (syncope), although not all of
+these symptoms may be present. Many of the symptoms are shared with other medical conditions, including
+anxiety attacks and simple indigestion, so differential diagnosis is critical. It is estimated that between 22 and
+64 percent of MIs present without any symptoms.
+An MI can be confirmed by examining the patient’s ECG, which frequently reveals alterations in the ST and Q
+components. Some classification schemes of MI are referred to as ST-elevated MI (STEMI) and non-elevated MI
+(non-STEMI). In addition, echocardiography or cardiac magnetic resonance imaging may be employed. Common
+blood tests indicating an MI include elevated levels of creatine kinase MB (an enzyme that catalyzes the
+conversion of creatine to phosphocreatine, consuming ATP) and cardiac troponin (the regulatory protein for
+muscle contraction), both of which are released by damaged cardiac muscle cells.
+Immediate treatments for MI are essential and include administering supplemental oxygen, aspirin that helps to
+break up clots, and nitroglycerine administered sublingually (under the tongue) to facilitate its absorption.
+Despite its unquestioned success in treatments and use since the 1880s, the mechanism of nitroglycerine is still
+incompletely understood but is believed to involve the release of nitric oxide, a known vasodilator, and
+endothelium-derived releasing factor, which also relaxes the smooth muscle in the tunica media of coronary
+vessels. Longer-term treatments include injections of thrombolytic agents such as streptokinase that dissolve
+the clot, the anticoagulant heparin, balloon angioplasty and stents to open blocked vessels, and bypass surgery
+to allow blood to pass around the site of blockage. If the damage is extensive, coronary replacement with a
+donor heart or coronary assist device, a sophisticated mechanical device that supplements the pumping activity
+of the heart, may be employed. Despite the attention, development of artificial hearts to augment the severely
+limited supply of heart donors has proven less than satisfactory but will likely improve in the future.
+MIs may trigger cardiac arrest, but the two are not synonymous. Important risk factors for MI include
+cardiovascular disease, age, smoking, high blood levels of the low-density lipoprotein (LDL, often referred to as
+“bad” cholesterol), low levels of high-density lipoprotein (HDL, or “good” cholesterol), hypertension, diabetes
+mellitus, obesity, lack of physical exercise, chronic kidney disease, excessive alcohol consumption, and use of
+illegal drugs.
+
+Coronary Veins
+Coronary veins drain the heart and generally parallel the large surface arteries (see Figure 19.15). The great
+cardiac vein can be seen initially on the surface of the heart following the interventricular sulcus, but it eventually
+flows along the coronary sulcus into the coronary sinus on the posterior surface. The great cardiac vein initially
+parallels the anterior interventricular artery and drains the areas supplied by this vessel. It receives several major
+branches, including the posterior cardiac vein, the middle cardiac vein, and the small cardiac vein. The posterior
+cardiac vein parallels and drains the areas supplied by the marginal artery branch of the circumflex artery. The
+middle cardiac vein parallels and drains the areas supplied by the posterior interventricular artery. The small
+cardiac vein parallels the right coronary artery and drains the blood from the posterior surfaces of the right atrium
+and ventricle. The coronary sinus is a large, thin-walled vein on the posterior surface of the heart lying within the
+atrioventricular sulcus and emptying directly into the right atrium. The anterior cardiac veins parallel the small
+cardiac arteries and drain the anterior surface of the right ventricle. Unlike these other cardiac veins, it bypasses the
+coronary sinus and drains directly into the right atrium.
+
+
+Disorders of the...
+Diseases of the…
+Heart: Coronary Artery Disease
+Coronary artery disease is the leading cause of death worldwide. It occurs when the buildup of plaque—a fatty
+material including cholesterol, connective tissue, white blood cells, and some smooth muscle cells—within the
+walls of the arteries obstructs the flow of blood and decreases the flexibility or compliance of the vessels. This
+condition is called atherosclerosis, a hardening of the arteries that involves the accumulation of plaque. As the
+coronary blood vessels become occluded, the flow of blood to the tissues will be restricted, a condition called
+ischemia that causes the cells to receive insufficient amounts of oxygen, called hypoxia. Figure 19.16 shows the
+blockage of coronary arteries highlighted by the injection of dye. Some individuals with coronary artery disease
+report pain radiating from the chest called angina pectoris, but others remain asymptomatic. If untreated,
+coronary artery disease can lead to MI or a heart attack.
+FIGURE 19.16
+Atherosclerotic Coronary Arteries
+In this coronary angiogram (X-ray), the dye makes visible two occluded
+coronary arteries. Such blockages can lead to decreased blood flow (ischemia) and insufficient oxygen (hypoxia) delivered to the
+cardiac tissues. If uncorrected, this can lead to cardiac muscle death (myocardial infarction).
+The disease progresses slowly and often begins in children and can be seen as fatty “streaks” in the vessels. It
+then gradually progresses throughout life. Well-documented risk factors include smoking, family history,
+hypertension, obesity, diabetes, high alcohol consumption, lack of exercise, stress, and hyperlipidemia or high
+circulating levels of lipids in the blood. Treatments may include medication, changes to diet and exercise,
+angioplasty with a balloon catheter, insertion of a stent, or coronary bypass procedure.
+Angioplasty is a procedure in which the occlusion is mechanically widened with a balloon. A specialized catheter
+with an expandable tip is inserted into a superficial vessel, normally in the leg, and then directed to the site of
+the occlusion. At this point, the balloon is inflated to compress the plaque material and to open the vessel to
+increase blood flow. Then, the balloon is deflated and retracted. A stent consisting of a specialized mesh is
+typically inserted at the site of occlusion to reinforce the weakened and damaged walls. Stent insertions have
+been routine in cardiology for more than 40 years.
+
+Coronary bypass surgery may also be performed. This surgical procedure grafts a replacement vessel obtained
+from another, less vital portion of the body to bypass the occluded area. This procedure is clearly effective in
+treating patients experiencing a MI, but overall does not increase longevity. Nor does it seem advisable in
+patients with stable although diminished cardiac capacity since frequently loss of mental acuity occurs following
+the procedure. Long-term changes to behavior, emphasizing diet and exercise plus a medicine regime tailored to
+lower blood pressure, lower cholesterol and lipids, and reduce clotting are equally as effective.
+

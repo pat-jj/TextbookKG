@@ -1,0 +1,285 @@
+17.3 The Pituitary Gland and Hypothalamus
+LEARNING OBJECTIVES
+By the end of this section, you will be able to:
+•
+Explain the interrelationships of the anatomy and functions of the hypothalamus and the posterior and anterior
+lobes of the pituitary gland
+•
+Identify the two hormones released from the posterior pituitary, their target cells, and their principal actions
+•
+Identify the six hormones produced by the anterior lobe of the pituitary gland, their target cells, their principal
+actions, and their regulation by the hypothalamus
+The hypothalamus–pituitary complex can be thought of as the “command center” of the endocrine system. This
+complex secretes several hormones that directly produce responses in target tissues, as well as hormones that
+regulate the synthesis and secretion of hormones of other glands. In addition, the hypothalamus–pituitary complex
+coordinates the messages of the endocrine and nervous systems. In many cases, a stimulus received by the nervous
+system must pass through the hypothalamus–pituitary complex to be translated into hormones that can initiate a
+response.
+Everyday Connection
+Bisphenol A and Endocrine Disruption
+You may have heard news reports about the effects of a chemical called bisphenol A (BPA) in various types of
+food packaging. BPA is used in the manufacturing of hard plastics and epoxy resins. Common food-related items
+that may contain BPA include the lining of aluminum cans, plastic food-storage containers, drinking cups, as well
+as baby bottles and “sippy” cups. Other uses of BPA include medical equipment, dental fillings, and the lining of
+water pipes.
+Research suggests that BPA is an endocrine disruptor, meaning that it negatively interferes with the endocrine
+system, particularly during the prenatal and postnatal development period. In particular, BPA mimics the
+hormonal effects of estrogens and has the opposite effect—that of androgens. The U.S. Food and Drug
+Administration (FDA) notes in their statement about BPA safety that although traditional toxicology studies have
+supported the safety of low levels of exposure to BPA, recent studies using novel approaches to test for subtle
+effects have led to some concern about the potential effects of BPA on the brain, behavior, and prostate gland in
+fetuses, infants, and young children. The FDA is currently facilitating decreased use of BPA in food-related
+materials. Many US companies have voluntarily removed BPA from baby bottles, “sippy” cups, and the linings of
+infant formula cans, and most plastic reusable water bottles sold today boast that they are “BPA free.” In
+contrast, both Canada and the European Union have completely banned the use of BPA in baby products.
+The potential harmful effects of BPA have been studied in both animal models and humans and include a large
+variety of health effects, such as developmental delay and disease. For example, prenatal exposure to BPA
+during the first trimester of human pregnancy may be associated with wheezing and aggressive behavior during
+childhood. Adults exposed to high levels of BPA may experience altered thyroid signaling and male sexual
+dysfunction. BPA exposure during the prenatal or postnatal period of development in animal models has been
+observed to cause neurological delays, changes in brain structure and function, sexual dysfunction, asthma, and
+increased risk for multiple cancers. In vitro studies have also shown that BPA exposure causes molecular
+changes that initiate the development of cancers of the breast, prostate, and brain. Although these studies have
+implicated BPA in numerous ill health effects, some experts caution that some of these studies may be flawed
+and that more research needs to be done. In the meantime, the FDA recommends that consumers take
+precautions to limit their exposure to BPA. In addition to purchasing foods in packaging free of BPA, consumers
+should avoid carrying or storing foods or liquids in bottles with the recycling code 3 or 7. Foods and liquids
+should not be microwave-heated in any form of plastic: use paper, glass, or ceramics instead.
+
+The hypothalamus is a structure of the diencephalon of the brain located anterior and inferior to the thalamus
+(Figure 17.7). It has both neural and endocrine functions, producing and secreting many hormones. In addition, the
+hypothalamus is anatomically and functionally related to the pituitary gland (or hypophysis), a bean-sized organ
+suspended from it by a stem called the infundibulum (or pituitary stalk). The pituitary gland is cradled within the
+sellaturcica of the sphenoid bone of the skull. It consists of two lobes that arise from distinct parts of embryonic
+tissue: the posterior pituitary (neurohypophysis) is neural tissue, whereas the anterior pituitary (also known as the
+adenohypophysis) is glandular tissue that develops from the primitive digestive tract. The hormones secreted by the
+posterior and anterior pituitary, and the intermediate zone between the lobes are summarized in Table 17.3.
+FIGURE 17.7
+Hypothalamus–Pituitary Complex
+The hypothalamus region lies inferior and anterior to the thalamus. It connects to the
+pituitary gland by the stalk-like infundibulum. The pituitary gland consists of an anterior and posterior lobe, with each lobe secreting
+different hormones in response to signals from the hypothalamus.
+Pituitary Hormones
+Pituitary lobe
+Associated hormones
+Chemical
+class
+Effect
+Anterior
+Growth hormone (GH)
+Protein
+Promotes growth of body tissues
+Anterior
+Prolactin (PRL)
+Peptide
+Promotes milk production from mammary
+glands
+Anterior
+Thyroid-stimulating hormone
+(TSH)
+Glycoprotein
+Stimulates thyroid hormone release from
+thyroid
+Anterior
+Adrenocorticotropic hormone
+(ACTH)
+Peptide
+Stimulates hormone release by adrenal
+cortex
+Anterior
+Follicle-stimulating hormone
+(FSH)
+Glycoprotein
+Stimulates gamete production in gonads
+Anterior
+Luteinizing hormone (LH)
+Glycoprotein
+Stimulates androgen production by
+gonads
+TABLE 17.3
+
+Pituitary lobe
+Associated hormones
+Chemical
+class
+Effect
+Posterior
+Antidiuretic hormone (ADH)
+Peptide
+Stimulates water reabsorption by kidneys
+Posterior
+Oxytocin
+Peptide
+Stimulates uterine contractions during
+childbirth
+Intermediate
+zone
+Melanocyte-stimulating
+hormone
+Peptide
+Stimulates melanin formation in
+melanocytes
+TABLE 17.3
+Posterior Pituitary
+The posterior pituitary is actually an extension of the neurons of the paraventricular and supraoptic nuclei of the
+hypothalamus. The cell bodies of these regions rest in the hypothalamus, but their axons descend as the
+hypothalamic–hypophyseal tract within the infundibulum, and end in axon terminals that comprise the posterior
+pituitary (Figure 17.8).
+FIGURE 17.8
+Posterior Pituitary
+Neurosecretory cells in the hypothalamus release oxytocin (OT) or ADH into the posterior lobe of the
+pituitary gland. These hormones are stored or released into the blood via the capillary plexus.
+The posterior pituitary gland does not produce hormones, but rather stores and secretes hormones produced by the
+hypothalamus. The paraventricular nuclei produce the hormone oxytocin, whereas the supraoptic nuclei produce
+ADH. These hormones travel along the axons into storage sites in the axon terminals of the posterior pituitary. In
+response to signals from the same hypothalamic neurons, the hormones are released from the axon terminals into
+the bloodstream.
+
+Oxytocin
+When fetal development is complete, the peptide-derived hormone oxytocin (tocia- = “childbirth”) stimulates
+uterine contractions and dilation of the cervix. Throughout most of pregnancy, oxytocin hormone receptors are not
+expressed at high levels in the uterus. Toward the end of pregnancy, the synthesis of oxytocin receptors in the
+uterus increases, and the smooth muscle cells of the uterus become more sensitive to its effects. Oxytocin is
+continually released throughout childbirth through a positive feedback mechanism. As noted earlier, oxytocin
+prompts uterine contractions that push the fetal head toward the cervix. In response, cervical stretching stimulates
+additional oxytocin to be synthesized by the hypothalamus and released from the pituitary. This increases the
+intensity and effectiveness of uterine contractions and prompts additional dilation of the cervix. The feedback loop
+continues until birth.
+Although the high blood levels of oxytocin begin to decrease immediately following birth, oxytocin continues to play
+a role in female and newborn health. First, oxytocin is necessary for the milk ejection reflex (commonly referred to
+as “let-down”) in breastfeeding people. As the newborn begins suckling, sensory receptors in the nipples transmit
+signals to the hypothalamus. In response, oxytocin is secreted and released into the bloodstream. Within seconds,
+cells in the milk ducts contract, ejecting milk into the infant’s mouth. Secondly, in ball people, oxytocin is thought to
+contribute to parent–newborn bonding, known as attachment. Oxytocin is also thought to be involved in feelings of
+love and closeness, as well as in the sexual response.
+Antidiuretic Hormone (ADH)
+The solute concentration of the blood, or blood osmolarity, may change in response to the consumption of certain
+foods and fluids, as well as in response to disease, injury, medications, or other factors. Blood osmolarity is
+constantly monitored by osmoreceptors—specialized cells within the hypothalamus that are particularly sensitive to
+the concentration of sodium ions and other solutes.
+In response to high blood osmolarity, which can occur during dehydration or following a very salty meal, the
+osmoreceptors signal the posterior pituitary to release antidiuretic hormone (ADH). The target cells of ADH are
+located in the tubular cells of the kidneys. Its effect is to increase epithelial permeability to water, allowing
+increased water reabsorption. The more water reabsorbed from the filtrate, the greater the amount of water that is
+returned to the blood and the less that is excreted in the urine. A greater concentration of water results in a reduced
+concentration of solutes. ADH is also known as vasopressin because, in very high concentrations, it causes
+constriction of blood vessels, which increases blood pressure by increasing peripheral resistance. The release of
+ADH is controlled by a negative feedback loop. As blood osmolarity decreases, the hypothalamic osmoreceptors
+sense the change and prompt a corresponding decrease in the secretion of ADH. As a result, less water is
+reabsorbed from the urine filtrate.
+Interestingly, drugs can affect the secretion of ADH. For example, alcohol consumption inhibits the release of ADH,
+resulting in increased urine production that can eventually lead to dehydration and a hangover. A disease called
+diabetes insipidus is characterized by chronic underproduction of ADH that causes chronic dehydration. Because
+little ADH is produced and secreted, not enough water is reabsorbed by the kidneys. Although patients feel thirsty,
+and increase their fluid consumption, this doesn’t effectively decrease the solute concentration in their blood
+because ADH levels are not high enough to trigger water reabsorption in the kidneys. Electrolyte imbalances can
+occur in severe cases of diabetes insipidus.
+Anterior Pituitary
+The anterior pituitary originates from the digestive tract in the embryo and migrates toward the brain during fetal
+development. There are three regions: the pars distalis is the most anterior, the pars intermedia is adjacent to the
+posterior pituitary, and the pars tuberalis is a slender “tube” that wraps the infundibulum.
+Recall that the posterior pituitary does not synthesize hormones, but merely stores them. In contrast, the anterior
+pituitary does manufacture hormones. However, the secretion of hormones from the anterior pituitary is regulated
+by two classes of hormones. These hormones—secreted by the hypothalamus—are the releasing hormones that
+stimulate the secretion of hormones from the anterior pituitary and the inhibiting hormones that inhibit secretion.
+Hypothalamic hormones are secreted by neurons, but enter the anterior pituitary through blood vessels (Figure
+17.9). Within the infundibulum is a bridge of capillaries that connects the hypothalamus to the anterior pituitary.
+
+This network, called the hypophyseal portal system, allows hypothalamic hormones to be transported to the
+anterior pituitary without first entering the systemic circulation. The system originates from the superior
+hypophyseal artery, which branches off the carotid arteries and transports blood to the hypothalamus. The branches
+of the superior hypophyseal artery form the hypophyseal portal system (see Figure 17.9). Hypothalamic releasing
+and inhibiting hormones travel through a primary capillary plexus to the portal veins, which carry them into the
+anterior pituitary. Hormones produced by the anterior pituitary (in response to releasing hormones) enter a
+secondary capillary plexus, and from there drain into the circulation.
+FIGURE 17.9
+Anterior Pituitary
+The anterior pituitary manufactures seven hormones. The hypothalamus produces separate hormones
+that stimulate or inhibit hormone production in the anterior pituitary. Hormones from the hypothalamus reach the anterior pituitary via the
+hypophyseal portal system.
+The anterior pituitary produces seven hormones. These are the growth hormone (GH), thyroid-stimulating hormone
+(TSH), adrenocorticotropic hormone (ACTH), follicle-stimulating hormone (FSH), luteinizing hormone (LH), beta
+endorphin, and prolactin. Of the hormones of the anterior pituitary, TSH, ACTH, FSH, and LH are collectively referred
+to as tropic hormones (trope- = “turning”) because they turn on or off the function of other endocrine glands.
+Growth Hormone
+The endocrine system regulates the growth of the human body, protein synthesis, and cellular replication. A major
+hormone involved in this process is growth hormone (GH), also called somatotropin—a protein hormone produced
+and secreted by the anterior pituitary gland. Its primary function is anabolic; it promotes protein synthesis and
+tissue building through direct and indirect mechanisms (Figure 17.10). GH levels are controlled by the release of
+GHRH and GHIH (also known as somatostatin) from the hypothalamus.
+
+FIGURE 17.10
+Hormonal Regulation of Growth
+Growth hormone (GH) directly accelerates the rate of protein synthesis in skeletal
+muscle and bones. Insulin-like growth factor 1 (IGF-1) is activated by growth hormone and indirectly supports the formation of new
+proteins in muscle cells and bone.
+A glucose-sparing effect occurs when GH stimulates lipolysis, or the breakdown of adipose tissue, releasing fatty
+acids into the blood. As a result, many tissues switch from glucose to fatty acids as their main energy source, which
+means that less glucose is taken up from the bloodstream.
+GH also initiates the diabetogenic effect in which GH stimulates the liver to break down glycogen to glucose, which
+is then deposited into the blood. The name “diabetogenic” is derived from the similarity in elevated blood glucose
+levels observed between individuals with untreated diabetes mellitus and individuals experiencing GH excess.
+Blood glucose levels rise as the result of a combination of glucose-sparing and diabetogenic effects.
+GH indirectly mediates growth and protein synthesis by triggering the liver and other tissues to produce a group of
+proteins called insulin-like growth factors (IGFs). These proteins enhance cellular proliferation and inhibit
+apoptosis, or programmed cell death. IGFs stimulate cells to increase their uptake of amino acids from the blood for
+protein synthesis. Skeletal muscle and cartilage cells are particularly sensitive to stimulation from IGFs.
+Dysfunction of the endocrine system’s control of growth can result in several disorders. For example, gigantism is a
+disorder in children that is caused by the secretion of abnormally large amounts of GH, resulting in excessive
+growth. A similar condition in adults is acromegaly, a disorder that results in the growth of bones in the face, hands,
+and feet in response to excessive levels of GH in individuals who have stopped growing. Abnormally low levels of GH
+in children can cause growth impairment—a disorder called pituitary dwarfism (also known as growth hormone
+deficiency).
+Thyroid-Stimulating Hormone
+The activity of the thyroid gland is regulated by thyroid-stimulating hormone (TSH), also called thyrotropin. TSH is
+released from the anterior pituitary in response to thyrotropin-releasing hormone (TRH) from the hypothalamus. As
+discussed shortly, it triggers the secretion of thyroid hormones by the thyroid gland. In a classic negative feedback
+loop, elevated levels of thyroid hormones in the bloodstream then trigger a drop in production of TRH and
+subsequently TSH.
+Adrenocorticotropic Hormone
+The adrenocorticotropic hormone (ACTH), also called corticotropin, stimulates the adrenal cortex (the more
+superficial “bark” of the adrenal glands) to secrete corticosteroid hormones such as cortisol. ACTH come from a
+precursor molecule known as pro-opiomelanocortin (POMC) which produces several biologically active molecules
+when cleaved, including ACTH, melanocyte-stimulating hormone, and the brain opioid peptides known as
+endorphins.
+The release of ACTH is regulated by the corticotropin-releasing hormone (CRH) from the hypothalamus in response
+to normal physiologic rhythms. A variety of stressors can also influence its release, and the role of ACTH in the
+stress response is discussed later in this chapter.
+Follicle-Stimulating Hormone and Luteinizing Hormone
+The endocrine glands secrete a variety of hormones that control the development and regulation of the reproductive
+system (these glands include the anterior pituitary, the adrenal cortex, and the gonads—the testes and the ovaries).
+Much of the development of the reproductive system occurs during puberty and is marked by the development of
+sex-specific characteristics in adolescents. Puberty is initiated by gonadotropin-releasing hormone (GnRH), a
+hormone produced and secreted by the hypothalamus. GnRH stimulates the anterior pituitary to secrete
+gonadotropins—hormones that regulate the function of the gonads. The levels of GnRH are regulated through a
+negative feedback loop; high levels of reproductive hormones inhibit the release of GnRH. Throughout life,
+gonadotropins regulate reproductive function and, in the case of females, the onset and cessation of reproductive
+capacity.
+The gonadotropins include two glycoprotein hormones: follicle-stimulating hormone (FSH) stimulates the
+production and maturation of sex cells, or gametes, including ova and sperm. FSH also promotes follicular growth;
+these follicles then release estrogens in ovaries. Luteinizing hormone (LH) triggers ovulation, as well as the
+production of estrogens and progesterone by the ovaries. LH stimulates production of testosterone by the testes.
+Prolactin
+As its name implies, prolactin (PRL) promotes lactation (milk production). During pregnancy, it contributes to
+development of the mammary glands, and after birth, it stimulates the mammary glands to produce breast milk.
+However, the effects of prolactin depend heavily upon the permissive effects of estrogens, progesterone, and other
+hormones. And as noted earlier, the let-down of milk occurs in response to stimulation from oxytocin.
+In non-pregnant females, prolactin secretion is inhibited by prolactin-inhibiting hormone (PIH), which is actually the
+neurotransmitter dopamine, and is released from neurons in the hypothalamus. Only during pregnancy do prolactin
+levels rise in response to prolactin-releasing hormone (PRH) from the hypothalamus.
+Intermediate Pituitary: Melanocyte-Stimulating Hormone
+The cells in the zone between the pituitary lobes secrete a hormone known as melanocyte-stimulating hormone
+(MSH) that is formed by cleavage of the pro-opiomelanocortin (POMC) precursor protein. Local production of MSH in
+the skin is responsible for melanin production in response to UV light exposure. The role of MSH made by the
+pituitary is more complicated. For instance, people with lighter skin generally have the same amount of MSH as
+people with darker skin. Nevertheless, this hormone is capable of darkening of the skin by inducing melanin
+production in the skin’s melanocytes. People also show increased MSH production during pregnancy; in combination
+with estrogens, it can lead to darker skin pigmentation, especially the skin of the areolas and labia minora. Figure
+17.11 is a summary of the pituitary hormones and their principal effects.
+
+FIGURE 17.11
+Major Pituitary Hormones
+Major pituitary hormones and their target organs.
+INTERACTIVE LINK
+Visit this link (http://openstax.org/l/roleofhypo) to watch an animation showing the role of the hypothalamus and the
+pituitary gland. Which hormone is released by the pituitary to stimulate the thyroid gland?

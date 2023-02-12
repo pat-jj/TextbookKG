@@ -1,0 +1,189 @@
+18.6 Blood Typing
+LEARNING OBJECTIVES
+By the end of this section, you will be able to:
+•
+Describe the two basic physiological consequences of transfusion of incompatible blood
+•
+Compare and contrast ABO and Rh blood groups
+•
+Identify which blood groups may be safely transfused into patients with different ABO types
+•
+Discuss the pathophysiology of hemolytic disease of the newborn
+Blood transfusions in humans were risky procedures until the discovery of the major human blood groups by Karl
+Landsteiner, an Austrian biologist and physician, in 1900. Until that point, physicians did not understand that death
+sometimes followed blood transfusions, when the type of donor blood infused into the patient was incompatible
+with the patient’s own blood. Blood groups are determined by the presence or absence of specific marker molecules
+on the plasma membranes of erythrocytes. With their discovery, it became possible for the first time to match
+patient-donor blood types and prevent transfusion reactions and deaths.
+Antigens, Antibodies, and Transfusion Reactions
+Antigens are substances that the body does not recognize as belonging to the “self” and that therefore trigger a
+defensive response from the leukocytes of the immune system. (Seek more content for additional information on
+immunity.) Here, we will focus on the role of immunity in blood transfusion reactions. With RBCs in particular, you
+may see the antigens referred to as isoantigens or agglutinogens (surface antigens) and the antibodies referred to as
+isoantibodies or agglutinins. In this chapter, we will use the more common terms antigens and antibodies.
+Antigens are generally large proteins, but may include other classes of organic molecules, including carbohydrates,
+lipids, and nucleic acids. Following an infusion of incompatible blood, erythrocytes with foreign antigens appear in
+the bloodstream and trigger an immune response. Proteins called antibodies (immunoglobulins), which are
+produced by certain B lymphocytes called plasma cells, attach to the antigens on the plasma membranes of the
+infused erythrocytes and cause them to adhere to one another.
+•
+Because the arms of the Y-shaped antibodies attach randomly to more than one nonself erythrocyte surface,
+they form clumps of erythrocytes. This process is called agglutination.
+•
+The clumps of erythrocytes block small blood vessels throughout the body, depriving tissues of oxygen and
+nutrients.
+•
+As the erythrocyte clumps are degraded, in a process called hemolysis, their hemoglobin is released into the
+bloodstream. This hemoglobin travels to the kidneys, which are responsible for filtration of the blood. However,
+the load of hemoglobin released can easily overwhelm the kidney’s capacity to clear it, and the patient can
+quickly develop kidney failure.
+More than 50 antigens have been identified on erythrocyte membranes, but the most significant in terms of their
+potential harm to patients are classified in two groups: the ABO blood group and the Rh blood group.
+The ABO Blood Group
+Although the ABO blood group name consists of three letters, ABO blood typing designates the presence or
+absence of just two antigens, A and B. Both are glycoproteins. People whose erythrocytes have A antigens on their
+erythrocyte membrane surfaces are designated blood type A, and those whose erythrocytes have B antigens are
+blood type B. People can also have both A and B antigens on their erythrocytes, in which case they are blood type
+AB. People with neither A nor B antigens are designated blood type O. ABO blood types are genetically determined.
+The body must be exposed to a foreign antigen before an antibody can be produced. ABO blood group antigens are
+found in foods and microbes throughout nature. Thus, the human immune system is exposed to A and B antigens at
+an early age and antibodies are formed naturally. Individuals with type A blood—without any prior exposure to
+incompatible blood—have naturally-formed antibodies to the B antigen circulating in their blood plasma. These
+antibodies, referred to as anti-B antibodies, will cause agglutination and hemolysis if they ever encounter
+erythrocytes with B antigens. Similarly, an individual with type B blood has naturally-formed anti-A antibodies.
+Individuals with type AB blood, which has both antigens, do not have naturally-formed antibodies to either of these.
+People with type O blood lack antigens A and B on their erythrocytes, but both anti-A and anti-B antibodies circulate
+in their blood plasma.
+Rh Blood Groups
+The Rh blood group is classified according to the presence or absence of a second erythrocyte antigen identified as
+Rh. (It was first discovered in a type of primate known as a rhesus macaque, which is often used in research,
+because its blood is similar to that of humans.) Although dozens of Rh antigens have been identified, only one,
+designated D, is clinically important. Those who have the Rh D antigen present on their erythrocytes—about 85
+percent of Americans—are described as Rh positive (Rh+) and those who lack it are Rh negative (Rh−). Note that the
+Rh group is distinct from the ABO group, so any individual, no matter their ABO blood type, may have or lack this Rh
+antigen. When identifying a patient’s blood type, the Rh group is designated by adding the word positive or negative
+to the ABO type. For example, A positive (A+) means ABO group A blood with the Rh antigen present, and AB
+negative (AB−) means ABO group AB blood without the Rh antigen.
+Table 18.2 summarizes the distribution of the ABO and Rh blood types within the United States.
+Summary of ABO and Rh Blood Types within the United States
+Blood Type
+Asian
+Black non-Hispanic
+Hispanic
+North American Indian
+White non-Hispanic
+A+
+27.3
+24.0
+28.7
+31.3
+33.0
+A−
+0.5
+1.9
+2.4
+3.8
+6.8
+B+
+25.0
+18.4
+9.2
+7.0
+9.1
+B−
+0.4
+1.3
+0.7
+0.9
+1.8
+AB+
+7.0
+4.0
+2.3
+2.2
+3.4
+AB−
+0.1
+0.3
+0.2
+0.3
+0.7
+TABLE 18.2
+
+Blood Type
+Asian
+Black non-Hispanic
+Hispanic
+North American Indian
+White non-Hispanic
+O+
+39.0
+46.6
+52.6
+50.0
+37.2
+O−
+0.7
+3.6
+3.9
+4.7
+8.0
+TABLE 18.2
+In contrast to the ABO group antibodies, which are preformed, antibodies to the Rh antigen are produced only in Rh−
+individuals after exposure to the antigen. This process, called sensitization, occurs following a transfusion with Rh-
+incompatible blood or, more commonly, with the birth of an Rh+ baby to an Rh− person. Problems are rare in a first
+pregnancy, since the baby’s Rh+ cells rarely cross the placenta (the organ of gas and nutrient exchange between the
+fetus and the pregnant person). However, during or immediately after birth, the Rh− parent can be exposed to the
+baby’s Rh+ cells (Figure 18.15). Research has shown that this occurs in about 13−14 percent of such pregnancies.
+After exposure, the immune system of the person who has given birth begins to generate anti-Rh antibodies. If the
+same person should then become pregnant with another Rh+ baby, the Rh antibodies they have produced can cross
+the placenta into the fetal bloodstream and destroy the fetal RBCs. This condition, known as hemolytic disease of
+the newborn (HDN) or erythroblastosis fetalis, may cause anemia in mild cases, but the agglutination and
+hemolysis can be so severe that without treatment the fetus may die in the womb or shortly after birth.
+FIGURE 18.15
+Erythroblastosis Fetalis
+The first exposure of an Rh− person to Rh+ erythrocytes during pregnancy induces
+sensitization. Anti-Rh antibodies begin to circulate in the pregnant person's bloodstream. A second exposure occurs with a subsequent
+pregnancy with an Rh+ fetus in the uterus. During that subsequent pregnancy, the pregnant person's anti-Rh antibodies may cross the
+placenta and enter the fetal bloodstream, causing agglutination and hemolysis of fetal erythrocytes.
+A drug known as RhoGAM, short for Rh immune globulin, can temporarily prevent the development of Rh antibodies
+in the Rh− parent, thereby averting this potentially serious disease for the fetus. RhoGAM antibodies destroy any
+fetal Rh+ erythrocytes that may cross the placental barrier. RhoGAM is normally administered to Rh− pregnant
+people during weeks 26−28 of pregnancy and within 72 hours following birth. It has proven remarkably effective in
+decreasing the incidence of HDN. Earlier we noted that the incidence of HDN in an Rh+ subsequent pregnancy to an
+Rh− person is about 13–14 percent without preventive treatment. Since the introduction of RhoGAM in 1968, the
+incidence has dropped to about 0.1 percent in the United States.
+Determining ABO Blood Types
+Clinicians are able to determine a patient’s blood type quickly and easily using commercially prepared antibodies.
+An unknown blood sample is allocated into separate wells. Into one well a small amount of anti-A antibody is
+added, and to another a small amount of anti-B antibody. If the antigen is present, the antibodies will cause visible
+agglutination of the cells (Figure 18.16). The blood should also be tested for Rh antibodies.
+FIGURE 18.16
+Cross Matching Blood Types
+This sample of a commercially produced “bedside” card enables quick typing of both a
+recipient’s and donor’s blood before transfusion. The card contains three reaction sites or wells. One is coated with an anti-A antibody, one
+with an anti-B antibody, and one with an anti-D antibody (tests for the presence of Rh factor D). Mixing a drop of blood and saline into each
+well enables the blood to interact with a preparation of type-specific antibodies, also called anti-seras. Agglutination of RBCs in a given site
+indicates a positive identification of the blood antigens, in this case A and Rh antigens for blood type A+. For the purpose of transfusion, the
+donor’s and recipient’s blood types must match.
+ABO Transfusion Protocols
+To avoid transfusion reactions, it is best to transfuse only matching blood types; that is, a type B+ recipient should
+ideally receive blood only from a type B+ donor and so on. That said, in emergency situations, when acute
+hemorrhage threatens the patient’s life, there may not be time for cross matching to identify blood type. In these
+cases, blood from a universal donor—an individual with type O− blood—may be transfused. Recall that type O
+erythrocytes do not display A or B antigens. Thus, anti-A or anti-B antibodies that might be circulating in the
+patient’s blood plasma will not encounter any erythrocyte surface antigens on the donated blood and therefore will
+not be provoked into a response. One problem with this designation of universal donor is if the O− individual had
+prior exposure to Rh antigen, Rh antibodies may be present in the donated blood. Also, introducing type O blood into
+an individual with type A, B, or AB blood will nevertheless introduce antibodies against both A and B antigens, as
+these are always circulating in the type O blood plasma. This may cause problems for the recipient, but because the
+volume of blood transfused is much lower than the volume of the patient’s own blood, the adverse effects of the
+relatively few infused plasma antibodies are typically limited. Rh factor also plays a role. If Rh− individuals receiving
+blood have had prior exposure to Rh antigen, antibodies for this antigen may be present in the blood and trigger
+agglutination to some degree. Although it is always preferable to cross match a patient’s blood before transfusing, in
+a true life-threatening emergency situation, this is not always possible, and these procedures may be implemented.
+A patient with blood type AB+ is known as the universal recipient. This patient can theoretically receive any type of
+blood, because the patient’s own blood—having both A and B antigens on the erythrocyte surface—does not
+produce anti-A or anti-B antibodies. In addition, an Rh+ patient can receive both Rh+ and Rh− blood. However, keep
+in mind that the donor’s blood will contain circulating antibodies, again with possible negative implications. Figure
+18.17 summarizes the blood types and compatibilities.

@@ -1,0 +1,30 @@
+17.7 The Pineal Gland
+LEARNING OBJECTIVES
+By the end of this section, you will be able to:
+•
+Describe the location and structure of the pineal gland
+•
+Discuss the function of melatonin
+Recall that the hypothalamus, part of the diencephalon of the brain, sits inferior and somewhat anterior to the
+thalamus. Inferior but somewhat posterior to the thalamus is the pineal gland, a tiny endocrine gland whose
+functions are not entirely clear. The pinealocyte cells that make up the pineal gland are known to produce and
+secrete the amine hormone melatonin, which is derived from serotonin.
+The secretion of melatonin varies according to the level of light received from the environment. When photons of
+light stimulate the retinas of the eyes, a nerve impulse is sent to a region of the hypothalamus called the
+suprachiasmatic nucleus (SCN), which is important in regulating biological rhythms. From the SCN, the nerve signal
+is carried to the spinal cord and eventually to the pineal gland, where the production of melatonin is inhibited. As a
+result, blood levels of melatonin fall, promoting wakefulness. In contrast, as light levels decline—such as during the
+evening—melatonin production increases, boosting blood levels and causing drowsiness.
+INTERACTIVE LINK
+Visit this link (http://openstax.org/l/melatonin) to view an animation describing the function of the hormone
+melatonin. What should you avoid doing in the middle of your sleep cycle that would lower melatonin?
+The secretion of melatonin may influence the body’s circadian rhythms, the dark-light fluctuations that affect not
+only sleepiness and wakefulness, but also appetite and body temperature. Interestingly, children have higher
+melatonin levels than adults, which may prevent the release of gonadotropins from the anterior pituitary, thereby
+inhibiting the onset of puberty. Finally, an antioxidant role of melatonin is the subject of current research.
+
+Jet lag occurs when a person travels across several time zones and feels sleepy during the day or wakeful at night.
+Traveling across multiple time zones significantly disturbs the light-dark cycle regulated by melatonin. It can take up
+to several days for melatonin synthesis to adjust to the light-dark patterns in the new environment, resulting in jet
+lag. Some air travelers take melatonin supplements to induce sleep.
+

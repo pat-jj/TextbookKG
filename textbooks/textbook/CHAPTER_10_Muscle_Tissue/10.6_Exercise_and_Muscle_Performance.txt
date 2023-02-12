@@ -1,0 +1,92 @@
+10.6 Exercise and Muscle Performance
+LEARNING OBJECTIVES
+By the end of this section, you will be able to:
+•
+Describe hypertrophy and atrophy
+•
+Explain how resistance exercise builds muscle
+•
+Explain how performance-enhancing substances affect muscle
+Physical training alters the appearance of skeletal muscles and can produce changes in muscle performance.
+Conversely, a lack of use can result in decreased performance and muscle appearance. Although muscle cells can
+change in size, new cells are not formed when muscles grow. Instead, structural proteins are added to muscle fibers
+in a process called hypertrophy, so cell diameter increases. The reverse, when structural proteins are lost and
+muscle mass decreases, is called atrophy. Age-related muscle atrophy is called sarcopenia. Cellular components of
+muscles can also undergo changes in response to changes in muscle use.
+Endurance Exercise
+Slow fibers are predominantly used in endurance exercises that require little force but involve numerous repetitions.
+The aerobic metabolism used by slow-twitch fibers allows them to maintain contractions over long periods.
+Endurance training modifies these slow fibers to make them even more efficient by producing more mitochondria to
+enable more aerobic metabolism and more ATP production. Endurance exercise can also increase the amount of
+myoglobin in a cell, as increased aerobic respiration increases the need for oxygen. Myoglobin is found in the
+sarcoplasm and acts as an oxygen storage supply for the mitochondria.
+The training can trigger the formation of more extensive capillary networks around the fiber, a process called
+angiogenesis, to supply oxygen and remove metabolic waste. To allow these capillary networks to supply the deep
+portions of the muscle, muscle mass does not greatly increase in order to maintain a smaller area for the diffusion of
+nutrients and gases. All of these cellular changes result in the ability to sustain low levels of muscle contractions for
+greater periods without fatiguing.
+The proportion of SO muscle fibers in muscle determines the suitability of that muscle for endurance, and may
+benefit those participating in endurance activities. Postural muscles have a large number of SO fibers and relatively
+few FO and FG fibers, to keep the back straight (Figure 10.18). Endurance athletes, like marathon-runners also
+would benefit from a larger proportion of SO fibers, but it is unclear if the most-successful marathoners are those
+with naturally high numbers of SO fibers, or whether the most successful marathon runners develop high numbers
+of SO fibers with repetitive training. Endurance training can result in overuse injuries such as stress fractures and
+joint and tendon inflammation.
+FIGURE 10.18
+Marathoners
+Long-distance runners have a large number of SO fibers and relatively few FO and FG fibers. (credit:
+“Tseo2”/Wikimedia Commons)
+Resistance Exercise
+Resistance exercises, as opposed to endurance exercise, require large amounts of FG fibers to produce short,
+powerful movements that are not repeated over long periods. The high rates of ATP hydrolysis and cross-bridge
+formation in FG fibers result in powerful muscle contractions. Muscles used for power have a higher ratio of FG to
+SO/FO fibers, and trained athletes possess even higher levels of FG fibers in their muscles. Resistance exercise
+affects muscles by increasing the formation of myofibrils, thereby increasing the thickness of muscle fibers. This
+added structure causes hypertrophy, or the enlargement of muscles, exemplified by the large skeletal muscles seen
+in body builders and other athletes (Figure 10.19). Because this muscular enlargement is achieved by the addition
+of structural proteins, athletes trying to build muscle mass often ingest large amounts of protein.
+
+FIGURE 10.19
+Hypertrophy
+Body builders have a large number of FG fibers and relatively few FO and SO fibers. (credit: Lin Mei/flickr)
+Except for the hypertrophy that follows an increase in the number of sarcomeres and myofibrils in a skeletal muscle,
+the cellular changes observed during endurance training do not usually occur with resistance training. There is
+usually no significant increase in mitochondria or capillary density. However, resistance training does increase the
+development of connective tissue, which adds to the overall mass of the muscle and helps to contain muscles as
+they produce increasingly powerful contractions. Tendons also become stronger to prevent tendon damage, as the
+force produced by muscles is transferred to tendons that attach the muscle to bone.
+For effective strength training, the intensity of the exercise must continually be increased. For instance, continued
+weight lifting without increasing the weight of the load does not increase muscle size. To produce ever-greater
+results, the weights lifted must become increasingly heavier, making it more difficult for muscles to move the load.
+The muscle then adapts to this heavier load, and an even heavier load must be used if even greater muscle mass is
+desired.
+If done improperly, resistance training can lead to overuse injuries of the muscle, tendon, or bone. These injuries
+can occur if the load is too heavy or if the muscles are not given sufficient time between workouts to recover or if
+joints are not aligned properly during the exercises. Cellular damage to muscle fibers that occurs after intense
+exercise includes damage to the sarcolemma and myofibrils. This muscle damage contributes to the feeling of
+soreness after strenuous exercise, but muscles gain mass as this damage is repaired, and additional structural
+proteins are added to replace the damaged ones. Overworking skeletal muscles can also lead to tendon damage and
+even skeletal damage if the load is too great for the muscles to bear.
+Performance-Enhancing Substances
+Some athletes attempt to boost their performance by using various agents that may enhance muscle performance.
+Anabolic steroids are one of the more widely known agents used to boost muscle mass and increase power output.
+Anabolic steroids are a form of testosterone, a male sex hormone that stimulates muscle formation, leading to
+increased muscle mass.
+Endurance athletes may also try to boost the availability of oxygen to muscles to increase aerobic respiration by
+using substances such as erythropoietin (EPO), a hormone normally produced in the kidneys, which triggers the
+production of red blood cells. The extra oxygen carried by these blood cells can then be used by muscles for aerobic
+respiration. Human growth hormone (hGH) is another supplement, and although it can facilitate building muscle
+mass, its main role is to promote the healing of muscle and other tissues after strenuous exercise. Increased hGH
+may allow for faster recovery after muscle damage, reducing the rest required after exercise, and allowing for more
+sustained high-level performance.
+Although performance-enhancing substances often do improve performance, most are banned by governing bodies
+in sports and are illegal for nonmedical purposes. Their use to enhance performance raises ethical issues of
+cheating because they give users an unfair advantage over nonusers. A greater concern, however, is that their use
+carries serious health risks. The side effects of these substances are often significant, nonreversible, and in some
+cases fatal. The physiological strain caused by these substances is often greater than what the body can handle,
+leading to effects that are unpredictable and dangerous. Anabolic steroid use has been linked to infertility,
+aggressive behavior, cardiovascular disease, and brain cancer.
+Similarly, some athletes have used creatine to increase power output. Creatine phosphate provides quick bursts of
+ATP to muscles in the initial stages of contraction. Increasing the amount of creatine available to cells is thought to
+produce more ATP and therefore increase explosive power output, although its effectiveness as a supplement has
+been questioned.

@@ -1,0 +1,159 @@
+26.4 Acid-Base Balance
+LEARNING OBJECTIVES
+By the end of this section, you will be able to:
+•
+Identify the most powerful buffer system in the body
+•
+Explain the way in which the respiratory system affects blood pH
+Proper physiological functioning depends on a very tight balance between the concentrations of acids and bases in
+the blood. Acid-balance balance is measured using the pH scale, as shown in Figure 26.15. A variety of buffering
+systems permits blood and other bodily fluids to maintain a narrow pH range, even in the face of perturbations. A
+buffer is a chemical system that prevents a radical change in fluid pH by dampening the change in hydrogen ion
+concentrations in the case of excess acid or base. Most commonly, the substance that absorbs the ions is either a
+weak acid, which takes up hydroxyl ions, or a weak base, which takes up hydrogen ions.
+
+FIGURE 26.15
+The pH Scale
+This chart shows where many common substances fall on the pH scale.
+
+Buffer Systems in the Body
+The buffer systems in the human body are extremely efficient, and different systems work at different rates. It takes
+only seconds for the chemical buffers in the blood to make adjustments to pH. The respiratory tract can adjust the
+blood pH upward in minutes by exhaling CO2 from the body. The renal system can also adjust blood pH through the
+excretion of hydrogen ions (H+) and the conservation of bicarbonate, but this process takes hours to days to have an
+effect.
+The buffer systems functioning in blood plasma include plasma proteins, phosphate, and bicarbonate and carbonic
+acid buffers. The kidneys help control acid-base balance by excreting hydrogen ions and generating bicarbonate
+that helps maintain blood plasma pH within a normal range. Protein buffer systems work predominantly inside cells.
+
+Protein Buffers in Blood Plasma and Cells
+Nearly all proteins can function as buffers. Proteins are made up of amino acids, which contain positively charged
+amino groups and negatively charged carboxyl groups. The charged regions of these molecules can bind hydrogen
+and hydroxyl ions, and thus function as buffers. Buffering by proteins accounts for two-thirds of the buffering power
+of the blood and most of the buffering within cells.
+
+Hemoglobin as a Buffer
+Hemoglobin is the principal protein inside of red blood cells and accounts for one-third of the mass of the cell.
+During the conversion of CO2 into bicarbonate, hydrogen ions liberated in the reaction are buffered by hemoglobin,
+which is reduced by the dissociation of oxygen. This buffering helps maintain normal pH. The process is reversed in
+the pulmonary capillaries to re-form CO2, which then can diffuse into the air sacs to be exhaled into the atmosphere.
+This process is discussed in detail in the chapter on the respiratory system.
+
+Phosphate Buffer
+Phosphates are found in the blood in two forms: sodium dihydrogen phosphate (NaH2PO4), which is a weak acid,
+and sodium monohydrogen phosphate (Na2HPO4), which is a weak base. When NaHPO4
+comes into contact with a strong acid, such as HCl, the base picks up a second hydrogen ion to form the weak acid NaH2PO4
+and sodium chloride, NaCl. When NaHPO4 (the weak acid) comes into contact with a strong base, such as sodium hydroxide
+(NaOH), the weak acid reverts back to the weak base and produces water. Acids and bases are still present, but they
+hold onto the ions.
+
+Bicarbonate-Carbonic Acid Buffer
+The bicarbonate-carbonic acid buffer works in a fashion similar to phosphate buffers. The bicarbonate is regulated
+in the blood by sodium, as are the phosphate ions. When sodium bicarbonate (NaHCO3), comes into contact with a
+strong acid, such as HCl, carbonic acid (H2CO3), which is a weak acid, and NaCl are formed. When carbonic acid
+comes into contact with a strong base, such as NaOH, bicarbonate and water are formed.
+As with the phosphate buffer, a weak acid or weak base captures the free ions, and a significant change in pH is
+prevented. Bicarbonate ions and carbonic acid are present in the blood in a 20:1 ratio if the blood pH is within the
+normal range. With 20 times more bicarbonate than carbonic acid, this capture system is most efficient at buffering
+changes that would make the blood more acidic. This is useful because most of the body’s metabolic wastes, such
+as lactic acid and ketone bodies, are acids. Carbonic acid levels in the blood are controlled by the expiration of CO2
+through the lungs. In red blood cells, carbonic anhydrase forces the dissociation of the acid, rendering the blood
+less acidic. Because of this acid dissociation, CO2 is exhaled (see equations above). The level of bicarbonate in the
+blood is controlled through the renal system, where bicarbonate ions in the renal filtrate are conserved and passed
+back into the blood. However, the bicarbonate buffer is the primary buffering system of the IF surrounding the cells
+in tissues throughout the body.
+
+Respiratory Regulation of Acid-Base Balance
+The respiratory system contributes to the balance of acids and bases in the body by regulating the blood levels of
+carbonic acid (Figure 26.16). CO2 in the blood readily reacts with water to form carbonic acid, and the levels of CO2
+and carbonic acid in the blood are in equilibrium. When the CO2 level in the blood rises (as it does when you hold
+your breath), the excess CO2 reacts with water to form additional carbonic acid, lowering blood pH. Increasing the
+rate and/or depth of respiration (which you might feel the “urge” to do after holding your breath) allows you to
+exhale more CO2. The loss of CO2 from the body reduces blood levels of carbonic acid and thereby adjusts the pH
+upward, toward normal levels. As you might have surmised, this process also works in the opposite direction.
+Excessive deep and rapid breathing (as in hyperventilation) rids the blood of CO2 and reduces the level of carbonic
+acid, making the blood too alkaline. This brief alkalosis can be remedied by rebreathing air that has been exhaled
+into a paper bag. Rebreathing exhaled air will rapidly bring blood pH down toward normal.
+
+FIGURE 26.16
+Respiratory Regulation of Blood pH
+The respiratory system can reduce blood pH by removing CO2 from the blood.
+
+The chemical reactions that regulate the levels of CO2 and carbonic acid occur in the lungs when blood travels
+through the lung’s pulmonary capillaries. Minor adjustments in breathing are usually sufficient to adjust the pH of
+the blood by changing how much CO2 is exhaled. In fact, doubling the respiratory rate for less than 1 minute,
+removing “extra” CO2, would increase the blood pH by 0.2. This situation is common if you are exercising
+strenuously over a period of time. To keep up the necessary energy production, you would produce excess CO2 (and
+lactic acid if exercising beyond your aerobic threshold). In order to balance the increased acid production, the
+respiration rate goes up to remove the CO2. This helps to keep you from developing acidosis.
+The body regulates the respiratory rate by the use of chemoreceptors, which primarily use CO2 as a signal.
+Peripheral blood sensors are found in the walls of the aorta and carotid arteries. These sensors signal the brain to
+provide immediate adjustments to the respiratory rate if CO2 levels rise or fall. Yet other sensors are found in the
+brain itself. Changes in the pH of CSF affect the respiratory center in the medulla oblongata, which can directly
+modulate breathing rate to bring the pH back into the normal range.
+Hypercapnia, or abnormally elevated blood levels of CO2, occurs in any situation that impairs respiratory functions,
+including pneumonia and congestive heart failure. Reduced breathing (hypoventilation) due to drugs such as
+morphine, barbiturates, or ethanol (or even just holding one’s breath) can also result in hypercapnia. Hypocapnia, or
+abnormally low blood levels of CO2, occurs with any cause of hyperventilation that drives off the CO2, such as
+salicylate toxicity, elevated room temperatures, fever, or hysteria.
+
+Renal Regulation of Acid-Base Balance
+The renal regulation of the body’s acid-base balance addresses the metabolic component of the buffering system.
+Whereas the respiratory system (together with breathing centers in the brain) controls the blood levels of carbonic
+acid by controlling the exhalation of CO2, the renal system controls the blood levels of bicarbonate. A decrease of
+blood bicarbonate can result from the inhibition of carbonic anhydrase by certain diuretics or from excessive
+bicarbonate loss due to diarrhea. Blood bicarbonate levels are also typically lower in people who have Addison’s
+disease (chronic adrenal insufficiency), in which aldosterone levels are reduced, and in people who have renal
+damage, such as chronic nephritis. Finally, low bicarbonate blood levels can result from elevated levels of ketones
+(common in unmanaged diabetes mellitus), which bind bicarbonate in the filtrate and prevent its conservation.
+Bicarbonate ions, HCO3-, found in the filtrate, are essential to the bicarbonate buffer system, yet the cells of the
+tubule are not permeable to bicarbonate ions. The steps involved in supplying bicarbonate ions to the system are
+seen in Figure 26.17 and are summarized below:
+•
+Step 1: Sodium ions are reabsorbed from the filtrate in exchange for H+ by an antiport mechanism in the apical
+membranes of cells lining the renal tubule.
+•
+Step 2: The cells produce bicarbonate ions that can be shunted to peritubular capillaries.
+•
+Step 3: When CO2 is available, the reaction is driven to the formation of carbonic acid, which dissociates to form
+a bicarbonate ion and a hydrogen ion.
+•
+Step 4: The bicarbonate ion passes into the peritubular capillaries and returns to the blood. The hydrogen ion is
+secreted into the filtrate, where it can become part of new water molecules and be reabsorbed as such, or
+removed in the urine.
+
+FIGURE 26.17
+Conservation of Bicarbonate in the Kidney
+Tubular cells are not permeable to bicarbonate; thus, bicarbonate is
+conserved rather than reabsorbed. Steps 1 and 2 of bicarbonate conservation are indicated.
+
+It is also possible that salts in the filtrate, such as sulfates, phosphates, or ammonia, will capture hydrogen ions. If
+this occurs, the hydrogen ions will not be available to combine with bicarbonate ions and produce CO2. In such
+cases, bicarbonate ions are not conserved from the filtrate to the blood, which will also contribute to a pH imbalance
+and acidosis.
+The hydrogen ions also compete with potassium to exchange with sodium in the renal tubules. If more potassium is
+present than normal, potassium, rather than the hydrogen ions, will be exchanged, and increased potassium enters
+the filtrate. When this occurs, fewer hydrogen ions in the filtrate participate in the conversion of bicarbonate into
+CO2 and less bicarbonate is conserved. If there is less potassium, more hydrogen ions enter the filtrate to be
+exchanged with sodium and more bicarbonate is conserved.
+Chloride ions are important in neutralizing positive ion charges in the body. If chloride is lost, the body uses
+bicarbonate ions in place of the lost chloride ions. Thus, lost chloride results in an increased reabsorption of
+bicarbonate by the renal system.
+
+Disorders of the...
+Acid-Base Balance: Ketoacidosis
+Diabetic acidosis, or ketoacidosis, occurs most frequently in people with poorly controlled diabetes mellitus.
+When certain tissues in the body cannot get adequate amounts of glucose, they depend on the breakdown of
+fatty acids for energy. When acetyl groups break off the fatty acid chains, the acetyl groups then non-
+enzymatically combine to form ketone bodies, acetoacetic acid, beta-hydroxybutyric acid, and acetone, all of
+which increase the acidity of the blood. In this condition, the brain isn’t supplied with enough of its
+fuel—glucose—to produce all of the ATP it requires to function.
+Ketoacidosis can be severe and, if not detected and treated properly, can lead to diabetic coma, which can be
+fatal. A common early symptom of ketoacidosis is deep, rapid breathing as the body attempts to drive off CO2
+and compensate for the acidosis. Another common symptom is fruity-smelling breath, due to the exhalation of
+acetone. Other symptoms include dry skin and mouth, a flushed face, nausea, vomiting, and stomach pain.
+Treatment for diabetic coma is ingestion or injection of sugar; its prevention is the proper daily administration of
+insulin.
+A person who is diabetic and uses insulin can initiate ketoacidosis if a dose of insulin is missed. Among people
+with type 2 diabetes, those of Hispanic and African-American descent are more likely to go into ketoacidosis
+than those of other ethnic backgrounds, although the reason for this is unknown.
