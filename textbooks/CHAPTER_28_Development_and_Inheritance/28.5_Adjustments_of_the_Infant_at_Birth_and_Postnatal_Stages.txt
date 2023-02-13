@@ -1,0 +1,108 @@
+28.5 Adjustments of the Infant at Birth and Postnatal Stages
+LEARNING OBJECTIVES
+By the end of this section, you will be able to:
+•
+Discuss the importance of an infant’s first breath
+•
+Explain the closing of the cardiac shunts
+•
+Describe thermoregulation in the newborn
+•
+Summarize the importance of intestinal flora in the newborn
+From a fetal perspective, the process of birth is a crisis. In the womb, the fetus was snuggled in a soft, warm, dark,
+and quiet world. The placenta provided nutrition and oxygen continuously. Suddenly, the contractions of labor and
+vaginal childbirth forcibly squeeze the fetus through the birth canal, limiting oxygenated blood flow during
+contractions and shifting the skull bones to accommodate the small space. After birth, the newborn’s system must
+make drastic adjustments to a world that is colder, brighter, and louder, and where they will experience hunger and
+thirst. The neonatal period (neo- = “new”; -natal = “birth”) spans the first to the thirtieth day of life outside of the
+uterus.
+
+Respiratory Adjustments
+Although the fetus “practices” breathing by inhaling amniotic fluid in utero, there is no air in the uterus and thus no
+true opportunity to breathe. (There is also no need to breathe because the placenta supplies the fetus with all the
+oxygenated blood it needs.) During gestation, the partially collapsed lungs are filled with amniotic fluid and exhibit
+very little metabolic activity. Several factors stimulate newborns to take their first breath at birth. First, labor
+contractions temporarily constrict umbilical blood vessels, reducing oxygenated blood flow to the fetus and
+elevating carbon dioxide levels in the blood. High carbon dioxide levels cause acidosis and stimulate the respiratory
+center in the brain, triggering the newborn to take a breath.
+The first breath typically is taken within 10 seconds of birth, after mucus is aspirated from the infant’s mouth and
+nose. The first breaths inflate the lungs to nearly full capacity and dramatically decrease lung pressure and
+resistance to blood flow, causing a major circulatory reconfiguration. Pulmonary alveoli open, and alveolar
+capillaries fill with blood. Amniotic fluid in the lungs drains or is absorbed, and the lungs immediately take over the
+task of the placenta, exchanging carbon dioxide for oxygen by the process of respiration.
+
+Circulatory Adjustments
+The process of clamping and cutting the umbilical cord collapses the umbilical blood vessels. In the absence of
+medical assistance, this occlusion would occur naturally within 20 minutes of birth because the Wharton’s jelly
+within the umbilical cord would swell in response to the lower temperature outside of the mother’s body, and the
+blood vessels would constrict. Natural occlusion has occurred when the umbilical cord is no longer pulsating. For
+the most part, the collapsed vessels atrophy and become fibrotic remnants, existing in the mature circulatory
+system as ligaments of the abdominal wall and liver. The ductus venosus degenerates to become the ligamentum
+venosum beneath the liver. Only the proximal sections of the two umbilical arteries remain functional, taking on the
+role of supplying blood to the upper part of the bladder (Figure 28.22).
+
+FIGURE 28.22
+Neonatal Circulatory System
+A newborn’s circulatory system reconfigures immediately after birth. The three fetal
+shunts have been closed permanently, facilitating blood flow to the liver and lungs.
+
+The newborn’s first breath is vital to initiate the transition from the fetal to the neonatal circulatory pattern. Inflation
+of the lungs decreases blood pressure throughout the pulmonary system, as well as in the right atrium and ventricle.
+In response to this pressure change, the flow of blood temporarily reverses direction through the foramen ovale,
+moving from the left to the right atrium, and blocking the shunt with two flaps of tissue. Within 1 year, the tissue
+flaps usually fuse over the shunt, turning the foramen ovale into the fossa ovalis. The ductus arteriosus constricts as
+a result of increased oxygen concentration, and becomes the ligamentum arteriosum. Closing of the ductus
+arteriosus ensures that all blood pumped to the pulmonary circuit will be oxygenated by the newly functional
+neonatal lungs.
+
+Thermoregulatory Adjustments
+The fetus floats in warm amniotic fluid that is maintained at a temperature of approximately 98.6°F with very little
+fluctuation. Birth exposes newborns to a cooler environment in which they have to regulate their own body
+temperature. Newborns have a higher ratio of surface area to volume than adults. This means that their body has
+less volume throughout which to produce heat, and more surface area from which to lose heat. As a result,
+newborns produce heat more slowly and lose it more quickly. Newborns also have immature musculature that limits
+their ability to generate heat by shivering. Moreover, their nervous systems are underdeveloped, so they cannot
+quickly constrict superficial blood vessels in response to cold. They also have little subcutaneous fat for insulation.
+All these factors make it harder for newborns to maintain their body temperature.
+Newborns, however, do have a special method for generating heat: nonshivering thermogenesis, which involves
+the breakdown of brown adipose tissue, or brown fat, which is distributed over the back, chest, and shoulders.
+Brown fat differs from the more familiar white fat in two ways:
+•
+It is highly vascularized. This allows for faster delivery of oxygen, which leads to faster cellular respiration.
+•
+It is packed with a special type of mitochondria that are able to engage in cellular respiration reactions that
+produce less ATP and more heat than standard cellular respiration reactions.
+
+The breakdown of brown fat occurs automatically upon exposure to cold, so it is an important heat regulator in
+newborns. During fetal development, the placenta secretes inhibitors that prevent metabolism of brown adipose fat
+and promote its accumulation in preparation for birth.
+
+Gastrointestinal and Urinary Adjustments
+In adults, the gastrointestinal tract harbors bacterial flora—trillions of bacteria that aid in digestion, produce
+vitamins, and protect from the invasion or replication of pathogens. In stark contrast, the fetal intestine is sterile.
+The first consumption of breast milk or formula floods the neonatal gastrointestinal tract with beneficial bacteria
+that begin to establish the bacterial flora.
+The fetal kidneys filter blood and produce urine, but the neonatal kidneys are still immature and inefficient at
+concentrating urine. Therefore, newborns produce very dilute urine, making it particularly important for infants to
+obtain sufficient fluids from breast milk or formula.
+
+HOMEOSTATIC IMBALANCES
+Homeostasis in the Newborn: Apgar Score
+In the minutes following birth, a newborn must undergo dramatic systemic changes to be able to survive outside the
+womb. An obstetrician, midwife, or nurse can estimate how well a newborn is doing by obtaining an Apgar score.
+The Apgar score was introduced in 1952 by the anesthesiologist Dr. Virginia Apgar as a method to assess the effects
+on the newborn of anesthesia given to the person giving birth. Healthcare providers now use it to assess the general
+wellbeing of the newborn, whether or not analgesics or anesthetics were used.
+Five criteria—skin color, heart rate, reflex, muscle tone, and respiration—are assessed, and each criterion is assigned
+a score of 0, 1, or 2. Scores are taken at 1 minute after birth and again at 5 minutes after birth. Each time that scores
+are taken, the five scores are added together. High scores (out of a possible 10) indicate the baby has made the
+transition from the womb well, whereas lower scores indicate that the baby may be in distress.
+The technique for determining an Apgar score is quick and easy, painless for the newborn, and does not require any
+instruments except for a stethoscope. A convenient way to remember the five scoring criteria is to apply the
+mnemonic APGAR, for “appearance” (skin color), “pulse” (heart rate), “grimace” (reflex), “activity” (muscle tone),
+and “respiration.”
+Of the five Apgar criteria, heart rate and respiration are the most critical. Poor scores for either of these
+measurements may indicate the need for immediate medical attention to resuscitate or stabilize the newborn. In
+general, any score lower than 7 at the 5-minute mark indicates that medical assistance may be needed. A total
+score below 5 indicates an emergency situation. Normally, a newborn will get an intermediate score of 1 for some of
+the Apgar criteria and will progress to a 2 by the 5-minute assessment. Scores of 8 or above are normal.

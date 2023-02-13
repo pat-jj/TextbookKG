@@ -1,0 +1,217 @@
+14.3 Motor Responses
+LEARNING OBJECTIVES
+By the end of this section, you will be able to:
+•
+List the components of the basic processing stream for the motor system
+•
+Describe the pathway of descending motor commands from the cortex to the skeletal muscles
+•
+Compare different descending pathways, both by structure and function
+•
+Explain the initiation of movement from the neurological connections
+•
+Describe several reflex arcs and their functional roles
+The defining characteristic of the somatic nervous system is that it controls skeletal muscles. Somatic senses inform
+the nervous system about the external environment, but the response to that is through voluntary muscle
+movement. The term “voluntary” suggests that there is a conscious decision to make a movement. However, some
+aspects of the somatic system use voluntary muscles without conscious control. One example is the ability of our
+breathing to switch to unconscious control while we are focused on another task. However, the muscles that are
+responsible for the basic process of breathing are also utilized for speech, which is entirely voluntary.
+Cortical Responses
+Let’s start with sensory stimuli that have been registered through receptor cells and the information relayed to the
+CNS along ascending pathways. In the cerebral cortex, the initial processing of sensory perception progresses to
+associative processing and then integration in multimodal areas of cortex. These levels of processing can lead to the
+incorporation of sensory perceptions into memory, but more importantly, they lead to a response. The completion of
+cortical processing through the primary, associative, and integrative sensory areas initiates a similar progression of
+motor processing, usually in different cortical areas.
+Whereas the sensory cortical areas are located in the occipital, temporal, and parietal lobes, motor functions are
+largely controlled by the frontal lobe (See Figure 13.7). The most anterior regions of the frontal lobe—the prefrontal
+areas—are important for executive functions, which are those cognitive functions that lead to goal-directed
+behaviors. These higher cognitive processes include working memory, which has been called a “mental scratch
+pad,” that can help organize and represent information that is not in the immediate environment. The prefrontal lobe
+is responsible for aspects of attention, such as inhibiting distracting thoughts and actions so that a person can focus
+on a goal and direct behavior toward achieving that goal.
+The functions of the prefrontal cortex are integral to the personality of an individual, because it is largely responsible
+for what a person intends to do and how they accomplish those plans. A famous case of damage to the prefrontal
+cortex is that of Phineas Gage, dating back to 1848. He was a railroad worker who had a metal spike impale his
+prefrontal cortex (Figure 14.27). He survived the accident, but according to second-hand accounts, his personality
+changed drastically. Friends described him as no longer acting like himself. Whereas he was a hardworking, amiable
+man before the accident, he turned into an irritable, temperamental, and lazy man after the accident. Many of the
+accounts of his change may have been inflated in the retelling, and some behavior was likely attributable to alcohol
+used as a pain medication. However, the accounts suggest that some aspects of his personality did change. Also,
+there is new evidence that though his life changed dramatically, he was able to become a functioning stagecoach
+driver, suggesting that the brain has the ability to recover even from major trauma such as this.
+
+FIGURE 14.27
+Phineas Gage
+The victim of an accident while working on a railroad in 1848, Phineas Gage had a large iron rod impaled
+through the prefrontal cortex of his frontal lobe. After the accident, his personality appeared to change, but he eventually learned to cope
+with the trauma and lived as a coach driver even after such a traumatic event. (credit b: John M. Harlow, MD)
+Secondary Motor Cortices
+In generating motor responses, the executive functions of the prefrontal cortex will need to initiate actual
+movements. One way to define the prefrontal area is any region of the frontal lobe that does not elicit movement
+when electrically stimulated. These are primarily in the anterior part of the frontal lobe. The regions of the frontal
+lobe that remain are the regions of the cortex that produce movement. The prefrontal areas project into the
+secondary motor cortices, which include the premotor cortex and the supplemental motor area.
+Two important regions that assist in planning and coordinating movements are located adjacent to the primary
+motor cortex. The premotor cortex is more lateral, whereas the supplemental motor area is more medial and
+superior. The premotor area aids in controlling movements of the core muscles to maintain posture during
+movement, whereas the supplemental motor area is hypothesized to be responsible for planning and coordinating
+movement. The supplemental motor area also manages sequential movements that are based on prior experience
+(that is, learned movements). Neurons in these areas are most active leading up to the initiation of movement. For
+example, these areas might prepare the body for the movements necessary to drive a car in anticipation of a traffic
+light changing.
+Adjacent to these two regions are two specialized motor planning centers. The frontal eye fields are responsible for
+moving the eyes in response to visual stimuli. There are direct connections between the frontal eye fields and the
+superior colliculus. Also, anterior to the premotor cortex and primary motor cortex is Broca’s area. This area is
+responsible for controlling movements of the structures of speech production. The area is named after a French
+surgeon and anatomist who studied patients who could not produce speech. They did not have impairments to
+understanding speech, only to producing speech sounds, suggesting a damaged or underdeveloped Broca’s area.
+Primary Motor Cortex
+The primary motor cortex is located in the precentral gyrus of the frontal lobe. A neurosurgeon, Walter Penfield,
+described much of the basic understanding of the primary motor cortex by electrically stimulating the surface of the
+cerebrum. Penfield would probe the surface of the cortex while the patient was only under local anesthesia so that
+he could observe responses to the stimulation. This led to the belief that the precentral gyrus directly stimulated
+muscle movement. We now know that the primary motor cortex receives input from several areas that aid in
+planning movement, and its principle output stimulates spinal cord neurons to stimulate skeletal muscle
+contraction.
+The primary motor cortex is arranged in a similar fashion to the primary somatosensory cortex, in that it has a
+topographical map of the body, creating a motor homunculus (see Figure 14.23). The neurons responsible for
+musculature in the feet and lower legs are in the medial wall of the precentral gyrus, with the thighs, trunk, and
+shoulder at the crest of the longitudinal fissure. The hand and face are in the lateral face of the gyrus. Also, the
+relative space allotted for the different regions is exaggerated in muscles that have greater enervation. The greatest
+amount of cortical space is given to muscles that perform fine, agile movements, such as the muscles of the fingers
+and the lower face. The “power muscles” that perform coarser movements, such as the buttock and back muscles,
+occupy much less space on the motor cortex.
+Descending Pathways
+The motor output from the cortex descends into the brain stem and to the spinal cord to control the musculature
+through motor neurons. Neurons located in the primary motor cortex, named Betz cells, are large cortical neurons
+that synapse with lower motor neurons in the brain stem or in the spinal cord. The two descending pathways
+travelled by the axons of Betz cells are the corticobulbar tract and the corticospinal tract, respectively. Both tracts
+are named for their origin in the cortex and their targets—either the brain stem (the term “bulbar” refers to the brain
+stem as the bulb, or enlargement, at the top of the spinal cord) or the spinal cord.
+These two descending pathways are responsible for the conscious or voluntary movements of skeletal muscles. Any
+motor command from the primary motor cortex is sent down the axons of the Betz cells to activate lower motor
+neurons in either the cranial motor nuclei or in the ventral horn of the spinal cord. The axons of the corticobulbar
+tract are ipsilateral, meaning they project from the cortex to the motor nucleus on the same side of the nervous
+system. Conversely, the axons of the corticospinal tract are largely contralateral, meaning that they cross the
+midline of the brain stem or spinal cord and synapse on the opposite side of the body. Therefore, the right motor
+cortex of the cerebrum controls muscles on the left side of the body, and vice versa.
+The corticospinal tract descends from the cortex through the deep white matter of the cerebrum. It then passes
+between the caudate nucleus and putamen of the basal nuclei as a bundle called the internal capsule. The tract
+then passes through the midbrain as the cerebral peduncles, after which it burrows through the pons. Upon
+entering the medulla, the tracts make up the large white matter tract referred to as the pyramids (Figure 14.28).
+The defining landmark of the medullary-spinal border is the pyramidal decussation, which is where most of the
+fibers in the corticospinal tract cross over to the opposite side of the brain. At this point, the tract separates into two
+parts, which have control over different domains of the musculature.
+
+FIGURE 14.28
+Corticospinal Tract
+The major descending tract that controls skeletal muscle movements is the corticospinal tract. It is
+composed of two neurons, the upper motor neuron and the lower motor neuron. The upper motor neuron has its cell body in the primary
+motor cortex of the frontal lobe and synapses on the lower motor neuron, which is in the ventral horn of the spinal cord and projects to the
+skeletal muscle in the periphery.
+Appendicular Control
+The lateral corticospinal tract is composed of the fibers that cross the midline at the pyramidal decussation (see
+Figure 14.28). The axons cross over from the anterior position of the pyramids in the medulla to the lateral column
+of the spinal cord. These axons are responsible for controlling appendicular muscles.
+This influence over the appendicular muscles means that the lateral corticospinal tract is responsible for moving the
+muscles of the arms and legs. The ventral horn in both the lower cervical spinal cord and the lumbar spinal cord
+both have wider ventral horns, representing the greater number of muscles controlled by these motor neurons. The
+cervical enlargement is particularly large because there is greater control over the fine musculature of the upper
+limbs, particularly of the fingers. The lumbar enlargement is not as significant in appearance because there is less
+fine motor control of the lower limbs.
+Axial Control
+The anterior corticospinal tract is responsible for controlling the muscles of the body trunk (see Figure 14.28).
+These axons do not decussate in the medulla. Instead, they remain in an anterior position as they descend the brain
+stem and enter the spinal cord. These axons then travel to the spinal cord level at which they synapse with a lower
+motor neuron. Upon reaching the appropriate level, the axons decussate, entering the ventral horn on the opposite
+side of the spinal cord from which they entered. In the ventral horn, these axons synapse with their corresponding
+lower motor neurons. The lower motor neurons are located in the medial regions of the ventral horn, because they
+control the axial muscles of the trunk.
+Because movements of the body trunk involve both sides of the body, the anterior corticospinal tract is not entirely
+contralateral. Some collateral branches of the tract will project into the ipsilateral ventral horn to control synergistic
+muscles on that side of the body, or to inhibit antagonistic muscles through interneurons within the ventral horn.
+Through the influence of both sides of the body, the anterior corticospinal tract can coordinate postural muscles in
+broad movements of the body. These coordinating axons in the anterior corticospinal tract are often considered
+bilateral, as they are both ipsilateral and contralateral.
+
+INTERACTIVE LINK
+Watch this video (http://openstax.org/l/motorpathway) to learn more about the descending motor pathway for the
+somatic nervous system. The autonomic connections are mentioned, which are covered in another chapter. From
+this brief video, only some of the descending motor pathway of the somatic nervous system is described. Which
+division of the pathway is described and which division is left out?
+Extrapyramidal Controls
+Other descending connections between the brain and the spinal cord are called the extrapyramidal system. The
+name comes from the fact that this system is outside the corticospinal pathway, which includes the pyramids in the
+medulla. A few pathways originating from the brain stem contribute to this system.
+The tectospinal tract projects from the midbrain to the spinal cord and is important for postural movements that
+are driven by the superior colliculus. The name of the tract comes from an alternate name for the superior colliculus,
+which is the tectum. The reticulospinal tract connects the reticular system, a diffuse region of gray matter in the
+brain stem, with the spinal cord. This tract influences trunk and proximal limb muscles related to posture and
+locomotion. The reticulospinal tract also contributes to muscle tone and influences autonomic functions. The
+vestibulospinal tract connects the brain stem nuclei of the vestibular system with the spinal cord. This allows
+posture, movement, and balance to be modulated on the basis of equilibrium information provided by the vestibular
+system.
+The pathways of the extrapyramidal system are influenced by subcortical structures. For example, connections
+between the secondary motor cortices and the extrapyramidal system modulate spine and cranium movements.
+The basal nuclei, which are important for regulating movement initiated by the CNS, influence the extrapyramidal
+system as well as its thalamic feedback to the motor cortex.
+The conscious movement of our muscles is more complicated than simply sending a single command from the
+precentral gyrus down to the proper motor neurons. During the movement of any body part, our muscles relay
+information back to the brain, and the brain is constantly sending “revised” instructions back to the muscles. The
+cerebellum is important in contributing to the motor system because it compares cerebral motor commands with
+proprioceptive feedback. The corticospinal fibers that project to the ventral horn of the spinal cord have branches
+that also synapse in the pons, which project to the cerebellum. Also, the proprioceptive sensations of the dorsal
+column system have a collateral projection to the medulla that projects to the cerebellum. These two streams of
+information are compared in the cerebellar cortex. Conflicts between the motor commands sent by the cerebrum
+and body position information provided by the proprioceptors cause the cerebellum to stimulate the red nucleus of
+the midbrain. The red nucleus then sends corrective commands to the spinal cord along the rubrospinal tract. The
+name of this tract comes from the word for red that is seen in the English word “ruby.”
+A good example of how the cerebellum corrects cerebral motor commands can be illustrated by walking in water. An
+original motor command from the cerebrum to walk will result in a highly coordinated set of learned movements.
+However, in water, the body cannot actually perform a typical walking movement as instructed. The cerebellum can
+alter the motor command, stimulating the leg muscles to take larger steps to overcome the water resistance. The
+cerebellum can make the necessary changes through the rubrospinal tract. Modulating the basic command to walk
+also relies on spinal reflexes, but the cerebellum is responsible for calculating the appropriate response. When the
+cerebellum does not work properly, coordination and balance are severely affected. The most dramatic example of
+this is during the overconsumption of alcohol. Alcohol inhibits the ability of the cerebellum to interpret
+proprioceptive feedback, making it more difficult to coordinate body movements, such as walking a straight line, or
+guide the movement of the hand to touch the tip of the nose.
+
+INTERACTIVE LINK
+Visit this site (http://openstax.org/l/NYTmotor) to read about an elderly woman who starts to lose the ability to
+control fine movements, such as speech and the movement of limbs. Many of the usual causes were ruled out. It
+was not a stroke, Parkinson’s disease, diabetes, or thyroid dysfunction. The next most obvious cause was
+medication, so her pharmacist had to be consulted. The side effect of a drug meant to help her sleep had resulted in
+changes in motor control. What regions of the nervous system are likely to be the focus of haloperidol side effects?
+Ventral Horn Output
+The somatic nervous system provides output strictly to skeletal muscles. The lower motor neurons, which are
+responsible for the contraction of these muscles, are found in the ventral horn of the spinal cord. These large,
+multipolar neurons have a corona of dendrites surrounding the cell body and an axon that extends out of the ventral
+horn. This axon travels through the ventral nerve root to join the emerging spinal nerve. The axon is relatively long
+because it needs to reach muscles in the periphery of the body. The diameters of cell bodies may be on the order of
+hundreds of micrometers to support the long axon; some axons are a meter in length, such as the lumbar motor
+neurons that innervate muscles in the first digits of the feet.
+The axons will also branch to innervate multiple muscle fibers. Together, the motor neuron and all the muscle fibers
+that it controls make up a motor unit. Motor units vary in size. Some may contain up to 1000 muscle fibers, such as
+in the quadriceps, or they may only have 10 fibers, such as in an extraocular muscle. The number of muscle fibers
+that are part of a motor unit corresponds to the precision of control of that muscle. Also, muscles that have finer
+motor control have more motor units connecting to them, and this requires a larger topographical field in the
+primary motor cortex.
+Motor neuron axons connect to muscle fibers at a neuromuscular junction. This is a specialized synaptic structure at
+which multiple axon terminals synapse with the muscle fiber sarcolemma. The synaptic end bulbs of the motor
+neurons secrete acetylcholine, which binds to receptors on the sarcolemma. The binding of acetylcholine opens
+ligand-gated ion channels, increasing the movement of cations across the sarcolemma. This depolarizes the
+sarcolemma, initiating muscle contraction. Whereas other synapses result in graded potentials that must reach a
+threshold in the postsynaptic target, activity at the neuromuscular junction reliably leads to muscle fiber contraction
+with every nerve impulse received from a motor neuron. However, the strength of contraction and the number of
+fibers that contract can be affected by the frequency of the motor neuron impulses.
+Reflexes
+This chapter began by introducing reflexes as an example of the basic elements of the somatic nervous system.
+Simple somatic reflexes do not include the higher centers discussed for conscious or voluntary aspects of
+movement. Reflexes can be spinal or cranial, depending on the nerves and central components that are involved.
+The example described at the beginning of the chapter involved heat and pain sensations from a hot stove causing
+withdrawal of the arm through a connection in the spinal cord that leads to contraction of the biceps brachii. The
+description of this withdrawal reflex was simplified, for the sake of the introduction, to emphasize the parts of the
+somatic nervous system. But to consider reflexes fully, more attention needs to be given to this example.

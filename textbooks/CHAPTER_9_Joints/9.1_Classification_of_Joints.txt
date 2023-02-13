@@ -1,0 +1,80 @@
+9.1 Classification of Joints
+LEARNING OBJECTIVES
+By the end of this section, you will be able to:
+•
+Distinguish between the functional and structural classifications for joints
+•
+Describe the three functional types of joints and give an example of each
+•
+List the three types of diarthrodial joints
+A joint, also called an articulation, is any place where adjacent bones or bone and cartilage come together
+(articulate with each other) to form a connection. Joints are classified both structurally and functionally. Structural
+classifications of joints take into account whether the adjacent bones are strongly anchored to each other by fibrous
+connective tissue or cartilage, or whether the adjacent bones articulate with each other within a fluid-filled space
+called a joint cavity. Functional classifications describe the degree of movement available between the bones,
+ranging from immobile, to slightly mobile, to freely moveable joints. The amount of movement available at a
+particular joint of the body is related to the functional requirements for that joint. Thus immobile or slightly
+moveable joints serve to protect internal organs, give stability to the body, and allow for limited body movement. In
+contrast, freely moveable joints allow for much more extensive movements of the body and limbs.
+Structural Classification of Joints
+The structural classification of joints is based on whether the articulating surfaces of the adjacent bones are directly
+connected by fibrous connective tissue or cartilage, or whether the articulating surfaces contact each other within a
+fluid-filled joint cavity. These differences serve to divide the joints of the body into three structural classifications. A
+fibrous joint is where the adjacent bones are united by fibrous connective tissue. At a cartilaginous joint, the bones
+are joined by hyaline cartilage or fibrocartilage. At a synovial joint, the articulating surfaces of the bones are not
+directly connected, but instead come into contact with each other within a joint cavity that is filled with a lubricating
+fluid. Synovial joints allow for free movement between the bones and are the most common joints of the body.
+Functional Classification of Joints
+The functional classification of joints is determined by the amount of mobility found between the adjacent bones.
+Joints are thus functionally classified as a synarthrosis or immobile joint, an amphiarthrosis or slightly moveable
+joint, or as a diarthrosis, which is a freely moveable joint (arthroun = “to fasten by a joint”). Depending on their
+location, fibrous joints may be functionally classified as a synarthrosis (immobile joint) or an amphiarthrosis (slightly
+mobile joint). Cartilaginous joints are also functionally classified as either a synarthrosis or an amphiarthrosis joint.
+All synovial joints are functionally classified as a diarthrosis joint.
+Synarthrosis
+An immobile or nearly immobile joint is called a synarthrosis. The immobile nature of these joints provide for a
+strong union between the articulating bones. This is important at locations where the bones provide protection for
+internal organs. Examples include sutures, the fibrous joints between the bones of the skull that surround and
+protect the brain (Figure 9.2), and the manubriosternal joint, the cartilaginous joint that unites the manubrium and
+body of the sternum for protection of the heart.
+
+FIGURE 9.2
+Suture Joints of Skull
+The suture joints of the skull are an example of a synarthrosis, an immobile or essentially immobile
+joint.
+Amphiarthrosis
+An amphiarthrosis is a joint that has limited mobility. An example of this type of joint is the cartilaginous joint that
+unites the bodies of adjacent vertebrae. Filling the gap between the vertebrae is a thick pad of fibrocartilage called
+an intervertebral disc (Figure 9.3). Each intervertebral disc strongly unites the vertebrae but still allows for a limited
+amount of movement between them. However, the small movements available between adjacent vertebrae can sum
+together along the length of the vertebral column to provide for large ranges of body movements.
+Another example of an amphiarthrosis is the pubic symphysis of the pelvis. This is a cartilaginous joint in which the
+pubic regions of the right and left hip bones are strongly anchored to each other by fibrocartilage. This joint normally
+has very little mobility. The strength of the pubic symphysis is important in conferring weight-bearing stability to the
+pelvis.
+FIGURE 9.3
+Intervertebral Disc
+An intervertebral disc unites the bodies of adjacent vertebrae within the vertebral column. Each disc
+allows for limited movement between the vertebrae and thus functionally forms an amphiarthrosis type of joint. Intervertebral discs are
+made of fibrocartilage and thereby structurally form a symphysis type of cartilaginous joint.
+Diarthrosis
+A freely mobile joint is classified as a diarthrosis. These types of joints include all synovial joints of the body, which
+provide the majority of body movements. Most diarthrotic joints are found in the appendicular skeleton and thus
+give the limbs a wide range of motion. These joints are divided into three categories, based on the number of axes of
+motion provided by each. An axis in anatomy is described as the movements in reference to the three anatomical
+planes: transverse, frontal, and sagittal. Thus, diarthroses are classified as uniaxial (for movement in one plane),
+biaxial (for movement in two planes), or multiaxial joints (for movement in all three anatomical planes).
+A uniaxial joint only allows for a motion in a single plane (around a single axis). The elbow joint, which only allows
+for bending or straightening, is an example of a uniaxial joint. A biaxial joint allows for motions within two planes.
+An example of a biaxial joint is a metacarpophalangeal joint (knuckle joint) of the hand. The joint allows for
+movement along one axis to produce bending or straightening of the finger, and movement along a second axis,
+which allows for spreading of the fingers away from each other and bringing them together. A joint that allows for
+the several directions of movement is called a multiaxial joint (polyaxial or triaxial joint). This type of diarthrotic
+joint allows for movement along three axes (Figure 9.4). The shoulder and hip joints are multiaxial joints. They allow
+the upper or lower limb to move in an anterior-posterior direction and a medial-lateral direction. In addition, the
+limb can also be rotated around its long axis. This third movement results in rotation of the limb so that its anterior
+surface is moved either toward or away from the midline of the body.
+FIGURE 9.4
+Multiaxial Joint
+A multiaxial joint, such as the hip joint, allows for three types of movement: anterior-posterior, medial-
+lateral, and rotational.

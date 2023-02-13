@@ -1,0 +1,156 @@
+6.4 Bone Formation and Development
+LEARNING OBJECTIVES
+By the end of this section, you will be able to:
+•
+Explain the function of cartilage
+•
+List the steps of intramembranous ossification
+•
+List the steps of endochondral ossification
+•
+Explain the growth activity at the epiphyseal plate
+•
+Compare and contrast the processes of modeling and remodeling
+In the early stages of embryonic development, the embryo’s skeleton consists of fibrous membranes and hyaline
+cartilage. By the sixth or seventh week of embryonic life, the actual process of bone development, ossification
+(osteogenesis), begins. There are two osteogenic pathways—intramembranous ossification and endochondral
+ossification—but bone is the same regardless of the pathway that produces it.
+Cartilage Templates
+Bone is a replacement tissue; that is, it uses a model tissue on which to lay down its mineral matrix. For skeletal
+development, the most common template is cartilage. During fetal development, a framework is laid down that
+determines where bones will form. This framework is a flexible, semi-solid matrix produced by chondroblasts and
+consists of hyaluronic acid, chondroitin sulfate, collagen fibers, and water. As the matrix surrounds and isolates
+chondroblasts, they are called chondrocytes. Unlike most connective tissues, cartilage is avascular, meaning that it
+has no blood vessels supplying nutrients and removing metabolic wastes. All of these functions are carried on by
+diffusion through the matrix. This is why damaged cartilage does not repair itself as readily as most tissues do.
+Throughout fetal development and into childhood growth and development, bone forms on the cartilaginous matrix.
+By the time a fetus is born, most of the cartilage has been replaced with bone. Some additional cartilage will be
+replaced throughout childhood, and some cartilage remains in the adult skeleton.
+Intramembranous Ossification
+During intramembranous ossification, compact and spongy bone develops directly from sheets of mesenchymal
+(undifferentiated) connective tissue. The flat bones of the face, most of the cranial bones, and the clavicles
+(collarbones) are formed via intramembranous ossification.
+The process begins when mesenchymal cells in the embryonic skeleton gather together and begin to differentiate
+into specialized cells (Figure 6.16a). Some of these cells will differentiate into capillaries, while others will become
+osteogenic cells and then osteoblasts. Although they will ultimately be spread out by the formation of bone tissue,
+early osteoblasts appear in a cluster called an ossification center.
+The osteoblasts secrete osteoid, uncalcified matrix, which calcifies (hardens) within a few days as mineral salts are
+deposited on it, thereby entrapping the osteoblasts within. Once entrapped, the osteoblasts become osteocytes
+(Figure 6.16b). As osteoblasts transform into osteocytes, osteogenic cells in the surrounding connective tissue
+differentiate into new osteoblasts.
+Osteoid (unmineralized bone matrix) secreted around the capillaries results in a trabecular matrix, while osteoblasts
+on the surface of the spongy bone become the periosteum (Figure 6.16c). The periosteum then creates a protective
+layer of compact bone superficial to the trabecular bone. The trabecular bone crowds nearby blood vessels, which
+eventually condense into red marrow (Figure 6.16d).
+
+FIGURE 6.16
+Intramembranous Ossification
+Intramembranous ossification follows four steps. (a) Mesenchymal cells group into
+clusters, and ossification centers form. (b) Secreted osteoid traps osteoblasts, which then become osteocytes. (c) Trabecular matrix and
+periosteum form. (d) Compact bone develops superficial to the trabecular bone, and crowded blood vessels condense into red marrow.
+Intramembranous ossification begins in utero during fetal development and continues on into adolescence. At birth,
+the skull and clavicles are not fully ossified nor are the sutures of the skull closed. This allows the skull and
+shoulders to deform during passage through the birth canal. The last bones to ossify via intramembranous
+ossification are the flat bones of the face, which reach their adult size at the end of the adolescent growth spurt.
+Endochondral Ossification
+In endochondral ossification, bone develops by replacing hyaline cartilage. Cartilage does not become bone.
+Instead, cartilage serves as a template to be completely replaced by new bone. Endochondral ossification takes
+much longer than intramembranous ossification. Bones at the base of the skull and long bones form via
+endochondral ossification.
+In a long bone, for example, at about 6 to 8 weeks after conception, some of the mesenchymal cells differentiate
+into chondrocytes (cartilage cells) that form the cartilaginous skeletal precursor of the bones (Figure 6.17a). Soon
+after, the perichondrium, a membrane that covers the cartilage, appears Figure 6.17b).
+
+FIGURE 6.17
+Endochondral Ossification
+Endochondral ossification follows five steps. (a) Mesenchymal cells differentiate into
+chondrocytes. (b) The cartilage model of the future bony skeleton and the perichondrium form. (c) Capillaries penetrate cartilage.
+Perichondrium transforms into periosteum. Periosteal collar develops. Primary ossification center develops. (d) Cartilage and chondrocytes
+continue to grow at ends of the bone. (e) Secondary ossification centers develop. (f) Cartilage remains at epiphyseal (growth) plate and at
+joint surface as articular cartilage.
+As more matrix is produced, the chondrocytes in the center of the cartilaginous model grow in size. As the matrix
+calcifies, nutrients can no longer reach the chondrocytes. This results in their death and the disintegration of the
+surrounding cartilage. Blood vessels invade the resulting spaces, not only enlarging the cavities but also carrying
+osteogenic cells with them, many of which will become osteoblasts. These enlarging spaces eventually combine to
+become the medullary cavity.
+As the cartilage grows, capillaries penetrate it. This penetration initiates the transformation of the perichondrium
+into the bone-producing periosteum. Here, the osteoblasts form a periosteal collar of compact bone around the
+cartilage of the diaphysis. By the second or third month of fetal life, bone cell development and ossification ramps
+up and creates the primary ossification center, a region deep in the periosteal collar where ossification begins
+(Figure 6.17c).
+While these deep changes are occurring, chondrocytes and cartilage continue to grow at the ends of the bone (the
+future epiphyses), which increases the bone’s length at the same time bone is replacing cartilage in the diaphyses.
+By the time the fetal skeleton is fully formed, cartilage only remains at the joint surface as articular cartilage and
+between the diaphysis and epiphysis as the epiphyseal plate, the latter of which is responsible for the longitudinal
+growth of bones. After birth, this same sequence of events (matrix mineralization, death of chondrocytes, invasion of
+blood vessels from the periosteum, and seeding with osteogenic cells that become osteoblasts) occurs in the
+epiphyseal regions, and each of these centers of activity is referred to as a secondary ossification center (Figure
+6.17e).
+How Bones Grow in Length
+The epiphyseal plate is the area of growth in a long bone. It is a layer of hyaline cartilage where ossification occurs in
+immature bones. On the epiphyseal side of the epiphyseal plate, cartilage is formed. On the diaphyseal side,
+cartilage is ossified, and the diaphysis grows in length. The epiphyseal plate is composed of four zones of cells and
+activity (Figure 6.18). The reserve zone is the region closest to the epiphyseal end of the plate and contains small
+chondrocytes within the matrix. These chondrocytes do not participate in bone growth but secure the epiphyseal
+plate to the osseous tissue of the epiphysis.
+
+FIGURE 6.18
+Longitudinal Bone Growth
+The epiphyseal plate is responsible for longitudinal bone growth.
+The proliferative zone is the next layer toward the diaphysis and contains stacks of slightly larger chondrocytes. It
+makes new chondrocytes (via mitosis) to replace those that die at the diaphyseal end of the plate. Chondrocytes in
+the next layer, the zone of maturation and hypertrophy, are older and larger than those in the proliferative zone.
+The more mature cells are situated closer to the diaphyseal end of the plate. The longitudinal growth of bone is a
+result of cellular division in the proliferative zone and the maturation of cells in the zone of maturation and
+hypertrophy.
+Most of the chondrocytes in the zone of calcified matrix, the zone closest to the diaphysis, are dead because the
+matrix around them has calcified. Capillaries and osteoblasts from the diaphysis penetrate this zone, and the
+osteoblasts secrete bone tissue on the remaining calcified cartilage. Thus, the zone of calcified matrix connects the
+epiphyseal plate to the diaphysis. A bone grows in length when osseous tissue is added to the diaphysis.
+Bones continue to grow in length until early adulthood. The rate of growth is controlled by hormones, which will be
+discussed later. When the chondrocytes in the epiphyseal plate cease their proliferation and bone replaces the
+cartilage, longitudinal growth stops. All that remains of the epiphyseal plate is the epiphyseal line (Figure 6.19).
+
+FIGURE 6.19
+Progression from Epiphyseal Plate to Epiphyseal Line
+As a bone matures, the epiphyseal plate progresses to an
+epiphyseal line. (a) Epiphyseal plates are visible in a growing bone. (b) Epiphyseal lines are the remnants of epiphyseal plates in a mature
+bone.
+How Bones Grow in Diameter
+While bones are increasing in length, they are also increasing in diameter; growth in diameter can continue even
+after longitudinal growth ceases. This is called appositional growth. Osteoclasts resorb old bone that lines the
+medullary cavity, while osteoblasts, via intramembranous ossification, produce new bone tissue beneath the
+periosteum. The erosion of old bone along the medullary cavity and the deposition of new bone beneath the
+periosteum not only increase the diameter of the diaphysis but also increase the diameter of the medullary cavity.
+This process is called modeling.
+Bone Remodeling
+The process in which matrix is resorbed on one surface of a bone and deposited on another is known as bone
+modeling. Modeling primarily takes place during a bone’s growth. However, in adult life, bone undergoes
+remodeling, in which resorption of old or damaged bone takes place on the same surface where osteoblasts lay
+new bone to replace that which is resorbed. Injury, exercise, and other activities lead to remodeling. Those
+influences are discussed later in the chapter, but even without injury or exercise, about 5 to 10 percent of the
+skeleton is remodeled annually just by destroying old bone and renewing it with fresh bone.
+Diseases of the…
+Skeletal System
+Osteogenesis imperfecta (OI) is a genetic disease in which bones do not form properly and
+therefore are fragile and break easily. It is also called brittle bone disease. The disease is present from birth and
+affects a person throughout life.
+The genetic mutation that causes OI affects the body’s production of collagen, one of the critical components of
+bone matrix. The severity of the disease can range from mild to severe. Those with the most severe forms of the
+disease sustain many more fractures than those with a mild form. Frequent and multiple fractures typically lead
+to bone deformities and short stature. Bowing of the long bones and curvature of the spine are also common in
+people afflicted with OI. Curvature of the spine makes breathing difficult because the lungs are compressed.
+Because collagen is such an important structural protein in many parts of the body, people with OI may also
+experience fragile skin, weak muscles, loose joints, easy bruising, frequent nosebleeds, brittle teeth, blue sclera,
+and hearing loss. There is no known cure for OI. Treatment focuses on helping the person retain as much
+independence as possible while minimizing fractures and maximizing mobility. Toward that end, safe exercises,
+like swimming, in which the body is less likely to experience collisions or compressive forces, are recommended.
+Braces to support legs, ankles, knees, and wrists are used as needed. Canes, walkers, or wheelchairs can also
+help compensate for weaknesses.
+When bones do break, casts, splints, or wraps are used. In some cases, metal rods may be surgically implanted
+into the long bones of the arms and legs. Research is currently being conducted on using bisphosphonates to
+treat OI. Smoking and being overweight are especially risky in people with OI, since smoking is known to
+weaken bones, and extra body weight puts additional stress on the bones.
+
+INTERACTIVE LINK
+Watch this video (http://openstax.org/l/bonegrows) to see how a bone grows.

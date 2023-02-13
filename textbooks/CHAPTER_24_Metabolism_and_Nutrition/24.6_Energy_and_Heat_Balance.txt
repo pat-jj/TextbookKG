@@ -1,0 +1,60 @@
+24.6 Energy and Heat Balance
+LEARNING OBJECTIVES
+By the end of this section, you will be able to:
+•
+Describe how the body regulates temperature
+•
+Explain the significance of the metabolic rate
+The body tightly regulates the body temperature through a process called thermoregulation, in which the body can
+maintain its temperature within certain boundaries, even when the surrounding temperature is very different. The
+core temperature of the body remains steady at around 36.5–37.5 °C (or 97.7–99.5 °F). In the process of ATP
+production by cells throughout the body, approximately 60 percent of the energy produced is in the form of heat
+used to maintain body temperature. Thermoregulation is an example of negative feedback.
+The hypothalamus in the brain is the master switch that works as a thermostat to regulate the body’s core
+temperature (Figure 24.23). If the temperature is too high, the hypothalamus can initiate several processes to lower
+it. These include increasing the circulation of the blood to the surface of the body to allow for the dissipation of heat
+through the skin and initiation of sweating to allow evaporation of water on the skin to cool its surface. Conversely, if
+the temperature falls below the set core temperature, the hypothalamus can initiate shivering to generate heat. The
+body uses more energy and generates more heat. In addition, thyroid hormone will stimulate more energy use and
+heat production by cells throughout the body. An environment is said to be thermoneutral when the body does not
+expend or release energy to maintain its core temperature. For a naked human, this is an ambient air temperature of
+around 84 °F. If the temperature is higher, for example, when wearing clothes, the body compensates with cooling
+mechanisms. The body loses heat through the mechanisms of heat exchange.
+
+FIGURE 24.23
+Hypothalamus Controls Thermoregulation
+The hypothalamus controls thermoregulation.
+
+Mechanisms of Heat Exchange
+When the environment is not thermoneutral, the body uses four mechanisms of heat exchange to maintain
+homeostasis: conduction, convection, radiation, and evaporation. Each of these mechanisms relies on the property
+of heat to flow from a higher concentration to a lower concentration; therefore, each of the mechanisms of heat
+exchange varies in rate according to the temperature and conditions of the environment.
+Conduction is the transfer of heat by two objects that are in direct contact with one another. It occurs when the skin
+comes in contact with a cold or warm object. For example, when holding a glass of ice water, the heat from your skin
+will warm the glass and in turn melt the ice. Alternatively, on a cold day, you might warm up by wrapping your cold
+hands around a hot mug of coffee. Only about 3 percent of the body’s heat is lost through conduction.
+Convection is the transfer of heat to the air surrounding the skin. The warmed air rises away from the body and is
+replaced by cooler air that is subsequently heated. Convection can also occur in water. When the water temperature
+is lower than the body’s temperature, the body loses heat by warming the water closest to the skin, which moves
+away to be replaced by cooler water. The convection currents created by the temperature changes continue to draw
+heat away from the body more quickly than the body can replace it, resulting in hyperthermia. About 15 percent of
+the body’s heat is lost through convection.
+Radiation is the transfer of heat via infrared waves. This occurs between any two objects when their temperatures
+differ. A radiator can warm a room via radiant heat. On a sunny day, the radiation from the sun warms the skin. The
+same principle works from the body to the environment. About 60 percent of the heat lost by the body is lost
+through radiation.
+Evaporation is the transfer of heat by the evaporation of water. Because it takes a great deal of energy for a water
+molecule to change from a liquid to a gas, evaporating water (in the form of sweat) takes with it a great deal of
+energy from the skin. However, the rate at which evaporation occurs depends on relative humidity—more sweat
+evaporates in lower humidity environments. Sweating is the primary means of cooling the body during exercise,
+whereas at rest, about 20 percent of the heat lost by the body occurs through evaporation.
+
+Metabolic Rate
+The metabolic rate is the amount of energy consumed minus the amount of energy expended by the body. The
+basal metabolic rate (BMR) describes the amount of daily energy expended by humans at rest, in a neutrally
+temperate environment, while in the postabsorptive state. It measures how much energy the body needs for
+normal, basic, daily activity. About 70 percent of all daily energy expenditure comes from the basic functions of the
+organs in the body. Another 20 percent comes from physical activity, and the remaining 10 percent is necessary for
+body thermoregulation or temperature control. This rate will be higher if a person is more active or has more lean
+body mass. As you age, the BMR generally decreases as the percentage of less lean muscle mass decreases.

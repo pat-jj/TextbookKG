@@ -1,0 +1,332 @@
+28.7 Patterns of Inheritance
+LEARNING OBJECTIVES
+By the end of this section, you will be able to:
+•
+Differentiate between genotype and phenotype
+•
+Describe how alleles determine a person’s traits
+•
+Summarize Mendel’s experiments and relate them to human genetics
+•
+Explain the inheritance of autosomal dominant and recessive and sex-linked genetic disorders
+We have discussed the events that lead to the development of a newborn. But what makes each newborn unique?
+The answer lies, of course, in the DNA in the sperm and oocyte that combined to produce that first diploid cell, the
+human zygote.
+
+From Genotype to Phenotype
+Each human body cell has a full complement of DNA stored in 23 pairs of chromosomes. Figure 28.24 shows the
+pairs in a systematic arrangement called a karyotype. Among these is one pair of chromosomes, called the sex
+chromosomes, that determines the sex of the individual (XX in females, XY in males). The remaining 22
+chromosome pairs are called autosomal chromosomes. Each of these chromosomes carries hundreds or even
+thousands of genes, each of which codes for the assembly of a particular protein—that is, genes are “expressed” as
+proteins. An individual’s complete genetic makeup is referred to as their genotype. The characteristics that the
+genes express, whether they are physical, behavioral, or biochemical, are a person’s phenotype.
+In genetics and reproduction, "parent" is often used to describe the individual organisms that contribute genetic
+material to offspring, usually in the form of gamete cells and their chromosomes. The concept of a genetic parent is
+distinct from social and legal concepts of parenthood, and may differ from those whom people consider their
+parents.
+You inherit one chromosome in each pair—a full complement of 23—from each parent. This occurs when the sperm
+and oocyte combine at the moment of your conception. Homologous chromosomes—those that make up a
+complementary pair—have genes for the same characteristics in the same location on the chromosome. Because
+one copy of a gene, an allele, is inherited from each parent, the alleles in these complementary pairs may vary. Take
+for example an allele that encodes for dimples. A child may inherit the allele encoding for dimples on the
+chromosome from the one parent and the allele that encodes for smooth skin (no dimples) on the chromosome
+from the other parent.
+
+FIGURE 28.24
+Chromosomal Complement of a Male
+Each pair of chromosomes contains hundreds to thousands of genes. The
+banding patterns are nearly identical for the two chromosomes within each pair, indicating the same organization of genes. As is visible in
+this karyotype, the only exception to this is the XY sex chromosome pair in males. (credit: National Human Genome Research Institute)
+
+Although a person can have two identical alleles for a single gene (a homozygous state), it is also possible for a
+person to have two different alleles (a heterozygous state). The two alleles can interact in several different ways.
+The expression of an allele can be dominant, for which the activity of this gene will mask the expression of a
+nondominant, or recessive, allele. Sometimes dominance is complete; at other times, it is incomplete. In some
+cases, both alleles are expressed at the same time in a form of expression known as codominance.
+In the simplest scenario, a single pair of genes will determine a single heritable characteristic. However, it is quite
+common for multiple genes to interact to confer a feature. For instance, eight or more genes—each with their own
+alleles—determine eye color in humans. Moreover, although any one person can only have two alleles corresponding
+to a given gene, more than two alleles commonly exist in a population. This phenomenon is called multiple alleles.
+For example, there are three different alleles that encode ABO blood type; these are designated IA, IB, and i.
+Over 100 years of theoretical and experimental genetics studies, and the more recent sequencing and annotation of
+the human genome, have helped scientists to develop a better understanding of how an individual’s genotype is
+expressed as their phenotype. This body of knowledge can help scientists and medical professionals to predict, or at
+least estimate, some of the features that an offspring will inherit by examining the genotypes or phenotypes of the
+parents. One important application of this knowledge is to identify an individual’s risk for certain heritable genetic
+disorders. However, most diseases have a multigenic pattern of inheritance and can also be affected by the
+environment, so examining the genotypes or phenotypes of a person’s parents will provide only limited information
+about the risk of inheriting a disease. Only for a handful of single-gene disorders can genetic testing allow clinicians
+to calculate the probability with which a child born to the two parents tested may inherit a specific disease.
+
+Mendel’s Theory of Inheritance
+Our contemporary understanding of genetics rests on the work of a nineteenth-century monk. Working in the
+mid-1800s, long before anyone knew about genes or chromosomes, Gregor Mendel discovered that garden peas
+transmit their physical characteristics to subsequent generations in a discrete and predictable fashion. When he
+mated, or crossed, two pure-breeding pea plants that differed by a certain characteristic, the first-generation
+offspring all looked like one of the parents. For instance, when he crossed tall and dwarf pure-breeding pea plants,
+all of the offspring were tall. Mendel called tallness dominant because it was expressed in offspring when it was
+present in a purebred parent. He called dwarfism recessive because it was masked in the offspring if one of the
+purebred parents possessed the dominant characteristic. Note that tallness and dwarfism are variations on the
+characteristic of height. Mendel called such a variation a trait. We now know that these traits are the expression of
+different alleles of the gene encoding height.
+Mendel performed thousands of crosses in pea plants with differing traits for a variety of characteristics. And he
+repeatedly came up with the same results—among the traits he studied, one was always dominant, and the other
+was always recessive. (Remember, however, that this dominant–recessive relationship between alleles is not always
+the case; some alleles are codominant, and sometimes dominance is incomplete.)
+Using his understanding of dominant and recessive traits, Mendel tested whether a recessive trait could be lost
+altogether in a pea lineage or whether it would resurface in a later generation. By crossing the second-generation
+offspring of purebred parents with each other, he showed that the latter was true: recessive traits reappeared in
+third-generation plants in a ratio of 3:1 (three offspring having the dominant trait and one having the recessive trait).
+Mendel then proposed that characteristics such as height were determined by heritable “factors” that were
+transmitted, one from each parent, and inherited in pairs by offspring.
+In the language of genetics, Mendel’s theory applied to humans says that if an individual receives two dominant
+alleles, one from each parent, the individual’s phenotype will express the dominant trait. If an individual receives
+two recessive alleles, then the recessive trait will be expressed in the phenotype. Individuals who have two identical
+alleles for a given gene, whether dominant or recessive, are said to be homozygous for that gene (homo- = “same”).
+Conversely, an individual who has one dominant allele and one recessive allele is said to be heterozygous for that
+gene (hetero- = “different” or “other”). In this case, the dominant trait will be expressed, and the individual will be
+phenotypically identical to an individual who possesses two dominant alleles for the trait.
+It is common practice in genetics to use capital and lowercase letters to represent dominant and recessive alleles.
+Using Mendel’s pea plants as an example, if a tall pea plant is homozygous, it will possess two tall alleles (TT). A
+dwarf pea plant must be homozygous because its dwarfism can only be expressed when two recessive alleles are
+present (tt). A heterozygous pea plant (Tt) would be tall and phenotypically indistinguishable from a tall homozygous
+pea plant because of the dominant tall allele. Mendel deduced that a 3:1 ratio of dominant to recessive would be
+produced by the random segregation of heritable factors (genes) when crossing two heterozygous pea plants. In
+other words, for any given gene, parents are equally likely to pass down either one of their alleles to their offspring in
+a haploid gamete, and the result will be expressed in a dominant–recessive pattern if both parents are heterozygous
+for the trait.
+Because of the random segregation of gametes, the laws of chance and probability come into play when predicting
+the likelihood of a given phenotype. Consider a cross between an individual with two dominant alleles for a trait (AA)
+and an individual with two recessive alleles for the same trait (aa). All of the parental gametes from the dominant
+individual would be A, and all of the parental gametes from the recessive individual would be a (Figure 28.25). All of
+the offspring of that second generation, inheriting one allele from each parent, would have the genotype Aa, and the
+probability of expressing the phenotype of the dominant allele would be 4 out of 4, or 100 percent.
+This seems simple enough, but the inheritance pattern gets interesting when the second-generation Aa individuals
+are crossed. In this generation, 50 percent of each parent’s gametes are A and the other 50 percent are a. By
+Mendel’s principle of random segregation, the possible combinations of gametes that the offspring can receive are
+AA, Aa, aA (which is the same as Aa), and aa. Because segregation and fertilization are random, each offspring has a
+25 percent chance of receiving any of these combinations. Therefore, if an Aa × Aa cross were performed 1000
+times, approximately 250 (25 percent) of the offspring would be AA; 500 (50 percent) would be Aa (that is, Aa plus
+aA); and 250 (25 percent) would be aa. The genotypic ratio for this inheritance pattern is 1:2:1. However, we have
+already established that AA and Aa (and aA) individuals all express the dominant trait (i.e., share the same
+phenotype), and can therefore be combined into one group. The result is Mendel’s third-generation phenotype ratio
+of 3:1.
+
+FIGURE 28.25
+Random Segregation
+In the formation of gametes, it is equally likely that either one of a pair alleles from one parent
+will be passed on to the offspring. This figure follows the possible combinations of alleles through two generations following a first-
+generation cross of homozygous dominant and homozygous recessive parents. The recessive phenotype, which is masked in the second
+generation, has a 1 in 4, or 25 percent, chance of reappearing in the third generation.
+
+Mendel’s observation of pea plants also included many crosses that involved multiple traits, which prompted him to
+formulate the principle of independent assortment. The law states that the members of one pair of genes (alleles)
+from a parent will sort independently from other pairs of genes during the formation of gametes. Applied to pea
+plants, that means that the alleles associated with the different traits of the plant, such as color, height, or seed
+type, will sort independently of one another. This holds true except when two alleles happen to be located close to
+one other on the same chromosome. Independent assortment provides for a great degree of diversity in offspring.
+Mendelian genetics represent the fundamentals of inheritance, but there are two important qualifiers to consider
+when applying Mendel’s findings to inheritance studies in humans. First, as we’ve already noted, not all genes are
+inherited in a dominant–recessive pattern. Although all diploid individuals have two alleles for every gene, allele
+pairs may interact to create several types of inheritance patterns, including incomplete dominance and
+codominance.
+Secondly, Mendel performed his studies using thousands of pea plants. He was able to identify a 3:1 phenotypic
+ratio in second-generation offspring because his large sample size overcame the influence of variability resulting
+from chance. In contrast, no human couple has ever had thousands of children. If we know that parents are both
+heterozygous for a recessive genetic disorder, we would predict that one in every four of their children would be
+affected by the disease. In real life, however, the influence of chance could change that ratio significantly. For
+example, if parents are both heterozygous for cystic fibrosis, a recessive genetic disorder that is expressed only
+when the individual has two defective alleles, we would expect one in four of their children to have cystic fibrosis.
+However, it is entirely possible for them to have seven children, none of whom is affected, or for them to have two
+children, both of whom are affected. For each individual child, the presence or absence of a single gene disorder
+depends on which alleles that child inherits from their parents.
+
+Autosomal Dominant Inheritance
+In the case of cystic fibrosis, the disorder is recessive to the normal phenotype. However, a genetic abnormality may
+be dominant to the normal phenotype. When the dominant allele is located on one of the 22 pairs of autosomes
+(non-sex chromosomes), we refer to its inheritance pattern as autosomal dominant. An example of an autosomal
+dominant disorder is neurofibromatosis type I, a disease that induces tumor formation within the nervous system
+that leads to skin and skeletal deformities. Consider a couple in which one parent is heterozygous for this disorder
+(and who therefore has neurofibromatosis), Nn, and one parent is homozygous for the normal gene, nn. The
+heterozygous parent would have a 50 percent chance of passing the dominant allele for this disorder to their
+offspring, and the homozygous parent would always pass the normal allele. Therefore, four possible offspring
+genotypes are equally likely to occur: Nn, Nn, nn, and nn. That is, every child of this couple would have a 50 percent
+chance of inheriting neurofibromatosis. This inheritance pattern is shown in Figure 28.26, in a form called a Punnett
+square, named after its creator, the British geneticist Reginald Punnett.
+
+FIGURE 28.26
+Autosomal Dominant Inheritance
+Inheritance pattern of an autosomal dominant disorder, such as neurofibromatosis,
+is shown in a Punnett square.
+
+Other genetic diseases that are inherited in this pattern are achondroplastic dwarfism, Marfan syndrome, and
+Huntington’s disease. Because autosomal dominant disorders are expressed by the presence of just one gene, an
+individual with the disorder will know that they have at least one faulty gene. The expression of the disease may
+manifest later in life, after the childbearing years, which is the case in Huntington’s disease (discussed in more detail
+later in this section).
+
+Autosomal Recessive Inheritance
+When a genetic disorder is inherited in an autosomal recessive pattern, the disorder corresponds to the recessive
+phenotype. Heterozygous individuals will not display symptoms of this disorder, because their unaffected gene will
+compensate. Such an individual is called a carrier. Carriers for an autosomal recessive disorder may never know
+their genotype unless they have a child with the disorder.
+An example of an autosomal recessive disorder is cystic fibrosis (CF), which we introduced earlier. CF is
+characterized by the chronic accumulation of a thick, tenacious mucus in the lungs and digestive tract. Decades ago,
+children with CF rarely lived to adulthood. With advances in medical technology, the average lifespan in developed
+countries has increased into middle adulthood. CF is a relatively common disorder that occurs in approximately
+30,000 people in the United States. A child born to two CF carriers would have a 25 percent chance of inheriting the
+disease. This is the same 3:1 dominant:recessive ratio that Mendel observed in his pea plants would apply here. The
+pattern is shown in Figure 28.27, using a diagram that tracks the likely incidence of an autosomal recessive disorder
+on the basis of parental genotypes.
+On the other hand, a child born to a CF carrier and someone with two unaffected alleles would have a 0 percent
+probability of inheriting CF, but would have a 50 percent chance of being a carrier. Other examples of autosome
+recessive genetic illnesses include the blood disorder sickle-cell anemia, the fatal neurological disorder Tay–Sachs
+disease, and the metabolic disorder phenylketonuria.
+
+FIGURE 28.27
+Autosomal Recessive Inheritance
+The inheritance pattern of an autosomal recessive disorder with two carrier parents
+reflects a 3:1 probability of expression among offspring. (credit: U.S. National Library of Medicine)
+
+X-linked Dominant or Recessive Inheritance
+An X-linked transmission pattern involves genes located on the X chromosome of the 23rd pair (Figure 28.28).
+Recall that a male has one X and one Y chromosome. When a male transmits a Y chromosome, the child is male, and
+when a male parent transmits an X chromosome, the child is female. A female can transmit only an X chromosome,
+as both her sex chromosomes are X chromosomes.
+When an abnormal allele for a gene that occurs on the X chromosome is dominant over the normal allele, the
+pattern is described as X-linked dominant. This is the case with vitamin D–resistant rickets: an affected male would
+pass the disease gene to all of the female offspring, but none of the male offspring, because the male transmits only
+the Y chromosome to male offspring (see Figure 28.28a). If it is the female parent who is affected, all of the
+offspring—male or female—would have a 50 percent chance of inheriting the disorder because the female parent
+can only pass an X chromosome on to children (see Figure 28.28b). For an affected female, the inheritance pattern
+would be identical to that of an autosomal dominant inheritance pattern in which one parent is heterozygous and
+the other is homozygous for the normal gene.
+
+FIGURE 28.28
+X-Linked Patterns of Inheritance
+A chart of X-linked dominant inheritance patterns differs depending on which parent
+is affected with the disease. (credit: U.S. National Library of Medicine)
+
+X-linked recessive inheritance is much more common because females can be carriers of the disease yet still have
+a normal phenotype. Diseases transmitted by X-linked recessive inheritance include color blindness, the blood-
+clotting disorder hemophilia, and some forms of muscular dystrophy. For an example of X-linked recessive
+inheritance, consider parents in which the female is an unaffected carrier and the male is normal. None of the
+female offspring would have the disease because they receive a normal gene from their male parent. However, they
+have a 50 percent chance of receiving the disease gene from their female parent and becoming a carrier. In contrast,
+50 percent of the male offspring would be affected (Figure 28.29).
+With X-linked recessive diseases, males either have the disease or are genotypically normal—they cannot be
+carriers. Females, however, can be genotypically normal, a carrier who is phenotypically normal, or affected with the
+disease. A female can inherit the gene for an X-linked recessive illness when the female parent is a carrier or
+affected, or the male parent is affected. Female offspring will be affected by the disease only if they inherit an X-
+linked recessive gene from both parents. As you can imagine, X-linked recessive disorders affect many more males
+than females. For example, color blindness affects at least 1 in 20 males, but only about 1 in 400 females.
+
+FIGURE 28.29
+X-Linked Recessive Inheritance
+Given two parents in which the male is normal and the female is a carrier of an X-linked
+recessive disorder, a male offspring would have a 50 percent probability of being affected with the disorder, whereas female offspring
+would either be carriers or entirely unaffected. (credit: U.S. National Library of Medicine)
+
+Other Inheritance Patterns: Incomplete Dominance, Codominance, and Lethal Alleles
+Not all genetic disorders are inherited in a dominant–recessive pattern. In incomplete dominance, the offspring
+express a heterozygous phenotype that is intermediate between one parent’s homozygous dominant trait and the
+other parent’s homozygous recessive trait. An example of this can be seen in snapdragons when red-flowered plants
+and white-flowered plants are crossed to produce pink-flowered plants. In humans, incomplete dominance occurs
+with one of the genes for hair texture. When one parent passes a curly hair allele (the incompletely dominant allele)
+and the other parent passes a straight-hair allele, the effect on the offspring will be intermediate, resulting in hair
+that is wavy.
+Codominance is characterized by the equal, distinct, and simultaneous expression of both parents’ different alleles.
+This pattern differs from the intermediate, blended features seen in incomplete dominance. A classic example of
+codominance in humans is ABO blood type. People are blood type A if they have an allele for an enzyme that
+facilitates the production of surface antigen A on their erythrocytes. This allele is designated IA. In the same
+manner, people are blood type B if they express an enzyme for the production of surface antigen B. People who have
+alleles for both enzymes (IA and IB) produce both surface antigens A and B. As a result, they are blood type AB.
+Because the effect of both alleles (or enzymes) is observed, we say that the IA and IB alleles are codominant. There
+is also a third allele that determines blood type. This allele (i) produces a nonfunctional enzyme. People who have
+two i alleles do not produce either A or B surface antigens: they have type O blood. If a person has IA and i alleles,
+the person will have blood type A. Notice that it does not make any difference whether a person has two IA alleles or
+one IA and one i allele. In both cases, the person is blood type A. Because IA masks i, we say that IA is dominant to i.
+Table 28.4 summarizes the expression of blood type.
+
+Expression of Blood Types
+Blood type
+Genotype
+Pattern of inheritance
+A
+IAIA or IAi
+IA is dominant to i
+B
+IBIB or IBi
+IB is dominant to i
+AB
+IAIB
+IA is co-dominant to IB
+O
+ii
+Two recessive alleles
+TABLE 28.4
+
+Certain combinations of alleles can be lethal, meaning they prevent the individual from developing in utero, or cause
+a shortened life span. In recessive lethal inheritance patterns, a child who is born to two heterozygous (carrier)
+parents and who inherited the faulty allele from both would not survive. An example of this is Tay–Sachs, a fatal
+disorder of the nervous system. In this disorder, parents with one copy of the allele for the disorder are carriers. If
+they both transmit their abnormal allele, their offspring will develop the disease and will die in childhood, usually
+before age 5.
+Dominant lethal inheritance patterns are much more rare because neither heterozygotes nor homozygotes survive.
+Of course, dominant lethal alleles that arise naturally through mutation and cause miscarriages or stillbirths are
+never transmitted to subsequent generations. However, some dominant lethal alleles, such as the allele for
+Huntington’s disease, cause a shortened life span but may not be identified until after the person reaches
+reproductive age and has children. Huntington’s disease causes irreversible nerve cell degeneration and death in
+100 percent of affected individuals, but it may not be expressed until the individual reaches middle age. In this way,
+dominant lethal alleles can be maintained in the human population. Individuals with a family history of Huntington’s
+disease are typically offered genetic counseling, which can help them decide whether or not they wish to be tested
+for the faulty gene.
+
+Mutations
+A mutation is a change in the sequence of DNA nucleotides that may or may not affect a person’s phenotype.
+Mutations can arise spontaneously from errors during DNA replication, or they can result from environmental insults
+such as radiation, certain viruses, or exposure to tobacco smoke or other toxic chemicals. Because genes encode for
+the assembly of proteins, a mutation in the nucleotide sequence of a gene can change amino acid sequence and,
+consequently, a protein’s structure and function. Spontaneous mutations occurring during meiosis are thought to
+account for many spontaneous abortions (miscarriages).
+
+Chromosomal Disorders
+Sometimes a genetic disease is not caused by a mutation in a gene, but by the presence of an incorrect number of
+chromosomes. For example, Down syndrome is caused by having three copies of chromosome 21. This is known as
+trisomy 21. The most common cause of trisomy 21 is chromosomal nondisjunction during meiosis. The frequency of
+nondisjunction events appears to increase with age, so the frequency of bearing a child with Down syndrome
+increases in females over 36. The age of the male parent matters less because nondisjunction is much less likely to
+occur in a sperm than in an egg.
+Whereas Down syndrome is caused by having three copies of a chromosome, Turner syndrome is caused by having
+just one copy of the X chromosome. This is known as monosomy. The affected child is always female. Women with
+Turner syndrome are sterile because their sexual organs do not mature.
+
+CAREER CONNECTION
+Genetic Counselor
+Given the intricate orchestration of gene expression, cell migration, and cell differentiation during prenatal
+development, it is amazing that the vast majority of newborns are healthy and free of major birth defects. When a
+person over 35 is pregnant or intends to become pregnant, or their partner is over 55, or if there is a family history of
+a genetic disorder, they may want to speak to a genetic counselor to discuss the likelihood that their child may be
+affected by a genetic or chromosomal disorder. A genetic counselor can interpret a couple’s family history and
+estimate the risks to their future offspring.
+For many genetic diseases, a DNA test can determine whether a person is a carrier. For instance, carrier status for
+Fragile X, an X-linked disorder associated with intellectual disabilites, or for cystic fibrosis can be determined with a
+simple blood draw to obtain DNA for testing. A genetic counselor can educate a couple about the implications of
+such a test and help them decide whether to undergo testing. For chromosomal disorders, the available testing
+options include a blood test, amniocentesis (in which amniotic fluid is tested), and chorionic villus sampling (in
+which tissue from the placenta is tested). Each of these has advantages and drawbacks. A genetic counselor can
+also help a couple cope with the news that either one or both partners is a carrier of a genetic illness, or that their
+unborn child has been diagnosed with a chromosomal disorder or other birth defect.
+To become a genetic counselor, one needs to complete a 4-year undergraduate program and then obtain a Master of
+Science in Genetic Counseling from an accredited university. Board certification is attained after passing
+examinations by the American Board of Genetic Counseling. Genetic counselors are essential professionals in many
+branches of medicine, but there is a particular demand for preconception and prenatal genetic counselors.
+
+INTERACTIVE LINK
+Visit the National Society of Genetic Counselors website (http://openstax.org/l/gencounselor1) for more information
+about genetic counselors.
+
+INTERACTIVE LINK
+Visit the American Board of Genetic Counselors, Inc., website (http://openstax.org/l/gencounselor2) for more
+information about genetic counselors.

@@ -1,0 +1,107 @@
+24.4 Protein Metabolism
+LEARNING OBJECTIVES
+By the end of this section, you will be able to:
+•
+Describe how the body digests proteins
+•
+Explain how the urea cycle prevents toxic concentrations of nitrogen
+•
+Differentiate between glucogenic and ketogenic amino acids
+•
+Explain how protein can be used for energy
+Much of the body is made of protein, and these proteins take on a myriad of forms. They represent cell signaling
+receptors, signaling molecules, structural members, enzymes, intracellular trafficking components, extracellular
+matrix scaffolds, ion pumps, ion channels, oxygen and CO2 transporters (hemoglobin). That is not even the complete
+list! There is protein in bones (collagen), muscles, and tendons; the hemoglobin that transports oxygen; and
+enzymes that catalyze all biochemical reactions. Protein is also used for growth and repair. Amid all these necessary
+functions, proteins also hold the potential to serve as a metabolic fuel source. Proteins are not stored for later use,
+so excess proteins must be converted into glucose or triglycerides, and used to supply energy or build energy
+reserves. Although the body can synthesize proteins from amino acids, food is an important source of those amino
+acids, especially because humans cannot synthesize all of the 20 amino acids used to build proteins.
+The digestion of proteins begins in the stomach. When protein-rich foods enter the stomach, they are greeted by a
+mixture of the enzyme pepsin and hydrochloric acid (HCl; 0.5 percent). The latter produces an environmental pH of
+1.5–3.5 that denatures proteins within food. Pepsin cuts proteins into smaller polypeptides and their constituent
+amino acids. When the food-gastric juice mixture (chyme) enters the small intestine, the pancreas releases sodium
+bicarbonate to neutralize the HCl. This helps to protect the lining of the intestine. The small intestine also releases
+digestive hormones, including secretin and CCK, which stimulate digestive processes to break down the proteins
+further. Secretin also stimulates the pancreas to release sodium bicarbonate. The pancreas releases most of the
+digestive enzymes, including the proteases trypsin, chymotrypsin, and elastase, which aid protein digestion.
+Together, all of these enzymes break complex proteins into smaller individual amino acids (Figure 24.17), which are
+then transported across the intestinal mucosa to be used to create new proteins, or to be converted into fats or
+acetyl CoA and used in the Krebs cycle.
+
+FIGURE 24.17
+Digestive Enzymes and Hormones
+Enzymes in the stomach and small intestine break down proteins into amino acids.
+HCl in the stomach aids in proteolysis, and hormones secreted by intestinal cells direct the digestive processes.
+
+In order to avoid breaking down the proteins that make up the pancreas and small intestine, pancreatic enzymes are
+released as inactive proenzymes that are only activated in the small intestine. In the pancreas, vesicles store
+trypsin and chymotrypsin as trypsinogen and chymotrypsinogen. Once released into the small intestine, an
+enzyme found in the wall of the small intestine, called enterokinase, binds to trypsinogen and converts it into its
+active form, trypsin. Trypsin then binds to chymotrypsinogen to convert it into the active chymotrypsin. Trypsin and
+chymotrypsin break down large proteins into smaller peptides, a process called proteolysis. These smaller peptides
+are catabolized into their constituent amino acids, which are transported across the apical surface of the intestinal
+mucosa in a process that is mediated by sodium-amino acid transporters. These transporters bind sodium and then
+bind the amino acid to transport it across the membrane. At the basal surface of the mucosal cells, the sodium and
+amino acid are released. The sodium can be reused in the transporter, whereas the amino acids are transferred into
+the bloodstream to be transported to the liver and cells throughout the body for protein synthesis.
+Freely available amino acids are used to create proteins. If amino acids exist in excess, the body has no capacity or
+mechanism for their storage; thus, they are converted into glucose or ketones, or they are decomposed. Amino acid
+decomposition results in hydrocarbons and nitrogenous waste. However, high concentrations of nitrogenous
+byproducts are toxic. The urea cycle processes nitrogen and facilitates its excretion from the body.
+
+Urea Cycle
+The urea cycle is a set of biochemical reactions that produces urea from ammonium ions in order to prevent a toxic
+level of ammonium in the body. It occurs primarily in the liver and, to a lesser extent, in the kidney. Prior to the urea
+cycle, ammonium ions are produced from the breakdown of amino acids. In these reactions, an amine group, or
+ammonium ion, from the amino acid is exchanged with a keto group on another molecule. This transamination
+event creates a molecule that is necessary for the Krebs cycle and an ammonium ion that enters into the urea cycle
+to be eliminated.
+In the urea cycle, ammonium is combined with CO2, resulting in urea and water. The urea is eliminated through the
+kidneys in the urine (Figure 24.18).
+
+FIGURE 24.18
+Urea Cycle
+Nitrogen is transaminated, creating ammonia and intermediates of the Krebs cycle. Ammonia is processed in
+the urea cycle to produce urea that is eliminated through the kidneys.
+
+Amino acids can also be used as a source of energy, especially in times of starvation. Because the processing of
+amino acids results in the creation of metabolic intermediates, including pyruvate, acetyl CoA, acetoacyl CoA,
+oxaloacetate, and α-ketoglutarate, amino acids can serve as a source of energy production through the Krebs cycle
+(Figure 24.19). Figure 24.20 summarizes the pathways of catabolism and anabolism for carbohydrates, lipids, and
+proteins.
+
+FIGURE 24.19
+Energy from Amino Acids
+Amino acids can be broken down into precursors for glycolysis or the Krebs cycle. Amino
+acids (in bold) can enter the cycle through more than one pathway.
+
+FIGURE 24.20
+Catabolic and Anabolic Pathways
+Nutrients follow a complex pathway from ingestion through anabolism and
+catabolism to energy production.
+
+Disorders of the...
+Metabolism: Pyruvate Dehydrogenase Complex Deficiency and Phenylketonuria
+Pyruvate dehydrogenase complex deficiency (PDCD) and phenylketonuria (PKU) are genetic disorders. Pyruvate
+dehydrogenase is the enzyme that converts pyruvate into acetyl CoA, the molecule necessary to begin the Krebs
+cycle to produce ATP. With low levels of the pyruvate dehydrogenase complex (PDC), the rate of cycling through
+the Krebs cycle is dramatically reduced. This results in a decrease in the total amount of energy that is produced
+by the cells of the body. PDC deficiency results in a neurodegenerative disease that ranges in severity,
+depending on the levels of the PDC enzyme. It may cause developmental defects, muscle spasms, and death.
+Treatments can include diet modification, vitamin supplementation, and gene therapy; however, damage to the
+central nervous system usually cannot be reversed.
+PKU affects about 1 in every 15,000 births in the United States. People afflicted with PKU lack sufficient activity
+of the enzyme phenylalanine hydroxylase and are therefore unable to break down phenylalanine into tyrosine
+adequately. Because of this, levels of phenylalanine rise to toxic levels in the body, which results in damage to
+the central nervous system and brain. Symptoms include delayed neurological development, hyperactivity,
+intellectual disability, seizures, rash, tremors, and uncontrolled movements of the arms and legs. Pregnant
+people with PKU are at a high risk for exposing the fetus to too much phenylalanine, which can cross the
+placenta and affect fetal development. Babies exposed to excess phenylalanine in utero may present with heart
+defects, physical and/or intellectual disability, and microcephaly. Every infant in the United States and Canada is
+tested at birth to determine whether PKU is present. The earlier a modified diet is begun, the less severe the
+symptoms will be. The person must closely follow a strict diet that is low in phenylalanine to avoid symptoms
+and damage. Phenylalanine is found in high concentrations in artificial sweeteners, including aspartame.
+Therefore, these sweeteners must be avoided. Some animal products and certain starches are also high in
+phenylalanine, and intake of these foods should be carefully monitored.

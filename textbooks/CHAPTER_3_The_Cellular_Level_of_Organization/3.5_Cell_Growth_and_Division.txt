@@ -1,0 +1,184 @@
+3.5 Cell Growth and Division
+LEARNING OBJECTIVES
+By the end of this section, you will be able to:
+•
+Describe the stages of the cell cycle
+•
+Discuss how the cell cycle is regulated
+•
+Describe the implications of losing control over the cell cycle
+•
+Describe the stages of mitosis and cytokinesis, in order
+So far in this chapter, you have read numerous times of the importance and prevalence of cell division. While there
+are a few cells in the body that do not undergo cell division (such as gametes, red blood cells, most neurons, and
+some muscle cells), most somatic cells divide regularly. A somatic cell is a general term for a body cell, and all
+human cells, except for the cells that produce eggs and sperm (which are referred to as germ cells), are somatic
+cells. Somatic cells contain two copies of each of their chromosomes (one copy received from each parent). A
+homologous pair of chromosomes is the two copies of a single chromosome found in each somatic cell. The human
+is a diploid organism, having 23 homologous pairs of chromosomes in each of the somatic cells. The condition of
+having pairs of chromosomes is known as diploidy.
+Cells in the body replace themselves over the lifetime of a person. For example, the cells lining the gastrointestinal
+tract must be frequently replaced when constantly “worn off” by the movement of food through the gut. But what
+triggers a cell to divide, and how does it prepare for and complete cell division? The cell cycle is the sequence of
+events in the life of the cell from the moment it is created at the end of a previous cycle of cell division until it then
+divides itself, generating two new cells.
+
+The Cell Cycle
+One “turn” or cycle of the cell cycle consists of two general phases: interphase, followed by mitosis and cytokinesis.
+Interphase is the period of the cell cycle during which the cell is not dividing. The majority of cells are in interphase
+most of the time. Mitosis is the division of genetic material, during which the cell nucleus breaks down and two new,
+fully functional, nuclei are formed. Cytokinesis divides the cytoplasm into two distinctive cells.
+Interphase
+A cell grows and carries out all normal metabolic functions and processes in a period called G1 (Figure 3.30). G1
+phase (gap 1 phase) is the first gap, or growth phase in the cell cycle. For cells that will divide again, G1 is followed
+by replication of the DNA, during the S phase. The S phase (synthesis phase) is period during which a cell replicates
+its DNA.
+FIGURE 3.30
+Cell Cycle
+The two major phases of the cell cycle include mitosis (designated M), when the cell divides, and interphase,
+when the cell grows and performs all of its normal functions. Interphase is further subdivided into G1, S, and G2 phases.
+After the synthesis phase, the cell proceeds through the G2 phase. The G2 phase is a second gap phase, during
+which the cell continues to grow and makes the necessary preparations for mitosis. Between G1, S, and G2 phases,
+cells will vary the most in their duration of the G1 phase. It is here that a cell might spend a couple of hours, or many
+days. The S phase typically lasts between 8-10 hours and the G2 phase approximately 5 hours. In contrast to these
+phases, the G0 phase is a resting phase of the cell cycle. Cells that have temporarily stopped dividing and are resting
+(a common condition) and cells that have permanently ceased dividing (like nerve cells) are said to be in G0.
+The Structure of Chromosomes
+Billions of cells in the human body divide every day. During the synthesis phase (S, for DNA synthesis) of interphase,
+the amount of DNA within the cell precisely doubles. Therefore, after DNA replication but before cell division, each
+cell actually contains two copies of each chromosome. Each copy of the chromosome is referred to as a sister
+chromatid and is physically bound to the other copy.(Note that the term "sister chromatid" is used regardless of the
+sex of the person.) The centromere is the structure that attaches one sister chromatid to another. Because a human
+cell has 46 chromosomes, during this phase, there are 92 chromatids (46 × 2) in the cell. Make sure not to confuse
+the concept of a pair of chromatids (one chromosome and its exact copy attached during mitosis) and a homologous
+pair of chromosomes (two paired chromosomes which were inherited separately, one from each parent) (Figure
+3.31).
+
+FIGURE 3.31
+A Homologous Pair of Chromosomes with their Attached Sister Chromatids
+The red and blue colors correspond to a
+homologous pair of chromosomes. Each member of the pair was separately inherited from one parent. Each chromosome in the
+homologous pair is also bound to an identical sister chromatid, which is produced by DNA replication, and results in the familiar “X” shape.
+Mitosis and Cytokinesis
+The mitotic phase of the cell typically takes between 1 and 2 hours. During this phase, a cell undergoes two major
+processes. First, it completes mitosis, during which the contents of the nucleus are equitably pulled apart and
+distributed between its two halves. Cytokinesis then occurs, dividing the cytoplasm and cell body into two new cells.
+Mitosis is divided into four major stages that take place after interphase (Figure 3.32) and in the following order:
+prophase, metaphase, anaphase, and telophase. The process is then followed by cytokinesis.
+FIGURE 3.32
+Cell Division: Mitosis Followed by Cytokinesis
+The stages of cell division oversee the separation of identical genetic
+material into two new nuclei, followed by the division of the cytoplasm.
+
+Prophase is the first phase of mitosis, during which the loosely packed chromatin coils and condenses into visible
+chromosomes. During prophase, each chromosome becomes visible with its identical partner attached, forming the
+familiar X-shape of sister chromatids. The nucleolus disappears early during this phase, and the nuclear envelope
+also disintegrates.
+A major occurrence during prophase concerns a very important structure that contains the origin site for
+microtubule growth. Recall the cellular structures called centrioles that serve as origin points from which
+microtubules extend. These tiny structures also play a very important role during mitosis. A centrosome is a pair of
+centrioles together. The cell contains two centrosomes side-by-side, which begin to move apart during prophase. As
+the centrosomes migrate to two different sides of the cell, microtubules begin to extend from each like long fingers
+from two hands extending toward each other. The mitotic spindle is the structure composed of the centrosomes
+and their emerging microtubules.
+Near the end of prophase there is an invasion of the nuclear area by microtubules from the mitotic spindle. The
+nuclear membrane has disintegrated, and the microtubules attach themselves to the centromeres that adjoin pairs
+of sister chromatids. The kinetochore is a protein structure on the centromere that is the point of attachment
+between the mitotic spindle and the sister chromatids. This stage is referred to as late prophase or “prometaphase”
+to indicate the transition between prophase and metaphase.
+Metaphase is the second stage of mitosis. During this stage, the sister chromatids, with their attached microtubules,
+line up along a linear plane in the middle of the cell. A metaphase plate forms between the centrosomes that are
+now located at either end of the cell. The metaphase plate is the name for the plane through the center of the
+spindle on which the sister chromatids are positioned. The microtubules are now poised to pull apart the sister
+chromatids and bring one from each pair to each side of the cell.
+Anaphase is the third stage of mitosis. Anaphase takes place over a few minutes, when the pairs of sister
+chromatids are separated from one another, forming individual chromosomes once again. These chromosomes are
+pulled to opposite ends of the cell by their kinetochores, as the microtubules shorten. Each end of the cell receives
+one partner from each pair of sister chromatids, ensuring that the two new daughter cells will contain identical
+genetic material.
+Telophase is the final stage of mitosis. Telophase is characterized by the formation of two new daughter nuclei at
+either end of the dividing cell. These newly formed nuclei surround the genetic material, which uncoils such that the
+chromosomes return to loosely packed chromatin. Nucleoli also reappear within the new nuclei, and the mitotic
+spindle breaks apart, each new cell receiving its own complement of DNA, organelles, membranes, and centrioles.
+At this point, the cell is already beginning to split in half as cytokinesis begins.
+The cleavage furrow is a contractile band made up of microfilaments that forms around the midline of the cell
+during cytokinesis. (Recall that microfilaments consist of actin.) This contractile band squeezes the two cells apart
+until they finally separate. Two new cells are now formed. One of these cells (the “stem cell”) enters its own cell
+cycle; able to grow and divide again at some future time. The other cell transforms into the functional cell of the
+tissue, typically replacing an “old” cell there.
+Imagine a cell that completed mitosis but never underwent cytokinesis. In some cases, a cell may divide its genetic
+material and grow in size, but fail to undergo cytokinesis. This results in larger cells with more than one nucleus.
+Usually this is an unwanted aberration and can be a sign of cancerous cells.
+Cell Cycle Control
+A very elaborate and precise system of regulation controls direct the way cells proceed from one phase to the next
+in the cell cycle and begin mitosis. The control system involves molecules within the cell as well as external triggers.
+These internal and external control triggers provide “stop” and “advance” signals for the cell. Precise regulation of
+the cell cycle is critical for maintaining the health of an organism, and loss of cell cycle control can lead to cancer.
+Mechanisms of Cell Cycle Control
+As the cell proceeds through its cycle, each phase involves certain processes that must be completed before the cell
+should advance to the next phase. A checkpoint is a point in the cell cycle at which the cycle can be signaled to
+move forward or stopped. At each of these checkpoints, different varieties of molecules provide the stop or go
+signals, depending on certain conditions within the cell. A cyclin is one of the primary classes of cell cycle control
+molecules (Figure 3.33). A cyclin-dependent kinase (CDK) is one of a group of molecules that work together with
+cyclins to determine progression past cell checkpoints. By interacting with many additional molecules, these
+triggers push the cell cycle forward unless prevented from doing so by “stop” signals, if for some reason the cell is
+not ready. At the G1 checkpoint, the cell must be ready for DNA synthesis to occur. At the G2 checkpoint the cell
+must be fully prepared for mitosis. Even during mitosis, a crucial stop and go checkpoint in metaphase ensures that
+the cell is fully prepared to complete cell division. The metaphase checkpoint ensures that all sister chromatids are
+properly attached to their respective microtubules and lined up at the metaphase plate before the signal is given to
+separate them during anaphase.
+FIGURE 3.33
+Control of the Cell Cycle
+Cells proceed through the cell cycle under the control of a variety of molecules, such as cyclins
+and cyclin-dependent kinases. These control molecules determine whether or not the cell is prepared to move into the following stage.
+The Cell Cycle Out of Control: Implications
+Most people understand that cancer or tumors are caused by abnormal cells that multiply continuously. If the
+abnormal cells continue to divide unstopped, they can damage the tissues around them, spread to other parts of the
+body, and eventually result in death. In healthy cells, the tight regulation mechanisms of the cell cycle prevent this
+from happening, while failures of cell cycle control can cause unwanted and excessive cell division. Failures of
+control may be caused by inherited genetic abnormalities that compromise the function of certain “stop” and “go”
+signals. Environmental insult that damages DNA can also cause dysfunction in those signals. Often, a combination of
+both genetic predisposition and environmental factors lead to cancer.
+The process of a cell escaping its normal control system and becoming cancerous may actually happen throughout
+the body quite frequently. Fortunately, certain cells of the immune system are capable of recognizing cells that have
+become cancerous and destroying them. However, in certain cases the cancerous cells remain undetected and
+continue to proliferate. If the resulting tumor does not pose a threat to surrounding tissues, it is said to be benign
+and can usually be easily removed. If capable of damage, the tumor is considered malignant and the patient is
+diagnosed with cancer.
+HOMEOSTATIC IMBALANCES
+Cancer Arises from Homeostatic Imbalances
+Cancer is an extremely complex condition, capable of arising from a wide variety of genetic and environmental
+causes. Typically, mutations or aberrations in a cell’s DNA that compromise normal cell cycle control systems lead
+to cancerous tumors. Cell cycle control is an example of a homeostatic mechanism that maintains proper cell
+function and health. While progressing through the phases of the cell cycle, a large variety of intracellular molecules
+provide stop and go signals to regulate movement forward to the next phase. These signals are maintained in an
+intricate balance so that the cell only proceeds to the next phase when it is ready. This homeostatic control of the
+cell cycle can be thought of like a car’s cruise control. Cruise control will continually apply just the right amount of
+acceleration to maintain a desired speed, unless the driver hits the brakes, in which case the car will slow down.
+Similarly, the cell includes molecular messengers, such as cyclins, that push the cell forward in its cycle.
+In addition to cyclins, a class of proteins that are encoded by genes called proto-oncogenes provide important
+signals that regulate the cell cycle and move it forward. Examples of proto-oncogene products include cell-surface
+receptors for growth factors, or cell-signaling molecules, two classes of molecules that can promote DNA replication
+and cell division. In contrast, a second class of genes known as tumor suppressor genes sends stop signals during a
+cell cycle. For example, certain protein products of tumor suppressor genes signal potential problems with the DNA
+and thus stop the cell from dividing, while other proteins signal the cell to die if it is damaged beyond repair. Some
+tumor suppressor proteins also signal a sufficient surrounding cellular density, which indicates that the cell need not
+presently divide. The latter function is uniquely important in preventing tumor growth: normal cells exhibit a
+phenomenon called “contact inhibition;” thus, extensive cellular contact with neighboring cells causes a signal that
+stops further cell division.
+These two contrasting classes of genes, proto-oncogenes and tumor suppressor genes, are like the accelerator and
+brake pedal of the cell’s own “cruise control system,” respectively. Under normal conditions, these stop and go
+signals are maintained in a homeostatic balance. Generally speaking, there are two ways that the cell’s cruise
+control can lose control: a malfunctioning (overactive) accelerator, or a malfunctioning (underactive) brake. When
+compromised through a mutation, or otherwise altered, proto-oncogenes can be converted to oncogenes, which
+produce oncoproteins that push a cell forward in its cycle and stimulate cell division even when it is undesirable to
+do so. For example, a cell that should be programmed to self-destruct (a process called apoptosis) due to extensive
+DNA damage might instead be triggered to proliferate by an oncoprotein. On the other hand, a dysfunctional tumor
+suppressor gene may fail to provide the cell with a necessary stop signal, also resulting in unwanted cell division and
+proliferation.
+A delicate homeostatic balance between the many proto-oncogenes and tumor suppressor genes delicately
+controls the cell cycle and ensures that only healthy cells replicate. Therefore, a disruption of this homeostatic
+balance can cause aberrant cell division and cancerous growths.
+INTERACTIVE LINK
+Visit this link (http://openstax.org/l/mitosis) to learn about mitosis. Mitosis results in two identical diploid cells.
+What structures forms during prophase?

@@ -1,0 +1,83 @@
+24.5 Metabolic States of the Body
+LEARNING OBJECTIVES
+By the end of this section, you will be able to:
+•
+Describe what defines each of the three metabolic states
+•
+Describe the processes that occur during the absorptive state of metabolism
+•
+Describe the processes that occur during the postabsorptive state of metabolism
+•
+Explain how the body processes glucose when the body is starved of fuel
+You eat periodically throughout the day; however, your organs, especially the brain, need a continuous supply of
+glucose. How does the body meet this constant demand for energy? Your body processes the food you eat both to
+use immediately and, importantly, to store as energy for later demands. If there were no method in place to store
+excess energy, you would need to eat constantly in order to meet energy demands. Distinct mechanisms are in place
+to facilitate energy storage, and to make stored energy available during times of fasting and starvation.
+
+The Absorptive State
+The absorptive state, or the fed state, occurs after a meal when your body is digesting the food and absorbing the
+nutrients (anabolism exceeds catabolism). Digestion begins the moment you put food into your mouth, as the food
+is broken down into its constituent parts to be absorbed through the intestine. The digestion of carbohydrates
+begins in the mouth, whereas the digestion of proteins and fats begins in the stomach and small intestine. The
+constituent parts of these carbohydrates, fats, and proteins are transported across the intestinal wall and enter the
+bloodstream (sugars and amino acids) or the lymphatic system (fats). From the intestines, these systems transport
+them to the liver, adipose tissue, or muscle cells that will process and use, or store, the energy.
+Depending on the amounts and types of nutrients ingested, the absorptive state can linger for up to 4 hours. The
+ingestion of food and the rise of glucose concentrations in the bloodstream stimulate pancreatic beta cells to
+release insulin into the bloodstream, where it initiates the absorption of blood glucose by liver hepatocytes, and by
+adipose and muscle cells. Once inside these cells, glucose is immediately converted into glucose-6-phosphate. By
+doing this, a concentration gradient is established where glucose levels are higher in the blood than in the cells. This
+allows for glucose to continue moving from the blood to the cells where it is needed. Insulin also stimulates the
+storage of glucose as glycogen in the liver and muscle cells where it can be used for later energy needs of the body.
+Insulin also promotes the synthesis of protein in muscle. As you will see, muscle protein can be catabolized and
+used as fuel in times of starvation.
+If energy is exerted shortly after eating, the dietary fats and sugars that were just ingested will be processed and
+used immediately for energy. If not, the excess glucose is stored as glycogen in the liver and muscle cells, or as fat in
+adipose tissue; excess dietary fat is also stored as triglycerides in adipose tissues.
+
+Figure 24.21 summarizes the metabolic processes occurring in the body during the absorptive state.
+FIGURE 24.21
+Absorptive State
+During the absorptive state, the body digests food and absorbs the nutrients.
+
+The Postabsorptive State
+The postabsorptive state, or the fasting state, occurs when the food has been digested, absorbed, and stored. You
+commonly fast overnight, but skipping meals during the day puts your body in the postabsorptive state as well.
+During this state, the body must rely initially on stored glycogen. Glucose levels in the blood begin to drop as it is
+absorbed and used by the cells. In response to the decrease in glucose, insulin levels also drop. Glycogen and
+triglyceride storage slows. However, due to the demands of the tissues and organs, blood glucose levels must be
+maintained in the normal range of 80–120 mg/dL. In response to a drop in blood glucose concentration, the
+hormone glucagon is released from the alpha cells of the pancreas. Glucagon acts upon the liver cells, where it
+inhibits the synthesis of glycogen and stimulates the breakdown of stored glycogen back into glucose. This glucose
+is released from the liver to be used by the peripheral tissues and the brain. As a result, blood glucose levels begin
+to rise. Gluconeogenesis will also begin in the liver to replace the glucose that has been used by the peripheral
+tissues.
+After ingestion of food, fats and proteins are processed as described previously; however, the glucose processing
+changes a bit. The peripheral tissues preferentially absorb glucose. The liver, which normally absorbs and processes
+glucose, will not do so after a prolonged fast. The gluconeogenesis that has been ongoing in the liver will continue
+after fasting to replace the glycogen stores that were depleted in the liver. After these stores have been replenished,
+excess glucose that is absorbed by the liver will be converted into triglycerides and fatty acids for long-term storage.
+Figure 24.22 summarizes the metabolic processes occurring in the body during the postabsorptive state.
+
+FIGURE 24.22
+Postabsorptive State
+During the postabsorptive state, the body must rely on stored glycogen for energy.
+
+Starvation
+When the body is deprived of nourishment for an extended period of time, it goes into “survival mode.” The first
+priority for survival is to provide enough glucose or fuel for the brain. The second priority is the conservation of
+amino acids for proteins. Therefore, the body uses ketones to satisfy the energy needs of the brain and other
+glucose-dependent organs, and to maintain proteins in the cells (see Figure 24.2). Because glucose levels are very
+low during starvation, glycolysis will shut off in cells that can use alternative fuels. For example, muscles will switch
+from using glucose to fatty acids as fuel. As previously explained, fatty acids can be converted into acetyl CoA and
+processed through the Krebs cycle to make ATP. Pyruvate, lactate, and alanine from muscle cells are not converted
+into acetyl CoA and used in the Krebs cycle, but are exported to the liver to be used in the synthesis of glucose. As
+starvation continues, and more glucose is needed, glycerol from fatty acids can be liberated and used as a source
+for gluconeogenesis.
+After several days of starvation, ketone bodies become the major source of fuel for the heart and other organs. As
+starvation continues, fatty acids and triglyceride stores are used to create ketones for the body. This prevents the
+continued breakdown of proteins that serve as carbon sources for gluconeogenesis. Once these stores are fully
+depleted, proteins from muscles are released and broken down for glucose synthesis. Overall survival is dependent
+on the amount of fat and protein stored in the body.
+

@@ -1,0 +1,122 @@
+24.3 Lipid Metabolism
+LEARNING OBJECTIVES
+By the end of this section, you will be able to:
+•
+Explain how energy can be derived from fat
+•
+Explain the purpose and process of ketogenesis
+•
+Describe the process of ketone body oxidation
+•
+Explain the purpose and the process of lipogenesis
+Fats (or triglycerides) within the body are ingested as food or synthesized by adipocytes or hepatocytes from
+carbohydrate precursors (Figure 24.11). Lipid metabolism entails the oxidation of fatty acids to either generate
+energy or synthesize new lipids from smaller constituent molecules. Lipid metabolism is associated with
+carbohydrate metabolism, as products of glucose (such as acetyl CoA) can be converted into lipids.
+
+FIGURE 24.11
+Triglyceride Broken Down into a Monoglyceride
+A triglyceride molecule (a) breaks down into a monoglyceride (b).
+
+Lipid metabolism begins in the intestine where ingested triglycerides are broken down into smaller chain fatty acids
+and subsequently into monoglyceride molecules (see Figure 24.11b) by pancreatic lipases, enzymes that break
+down fats after they are emulsified by bile salts. When food reaches the small intestine in the form of chyme, a
+digestive hormone called cholecystokinin (CCK) is released by intestinal cells in the intestinal mucosa. CCK
+stimulates the release of pancreatic lipase from the pancreas and stimulates the contraction of the gallbladder to
+release stored bile salts into the intestine. CCK also travels to the brain, where it can act as a hunger suppressant.
+Together, the pancreatic lipases and bile salts break down triglycerides into free fatty acids. These fatty acids can be
+transported across the intestinal membrane. However, once they cross the membrane, they are recombined to again
+form triglyceride molecules. Within the intestinal cells, these triglycerides are packaged along with cholesterol
+molecules in phospholipid vesicles called chylomicrons (Figure 24.12). The chylomicrons enable fats and
+cholesterol to move within the aqueous environment of your lymphatic and circulatory systems. Chylomicrons leave
+the enterocytes by exocytosis and enter the lymphatic system via lacteals in the villi of the intestine. From the
+lymphatic system, the chylomicrons are transported to the circulatory system. Once in the circulation, they can
+either go to the liver or be stored in fat cells (adipocytes) that comprise adipose (fat) tissue found throughout the
+body.
+
+FIGURE 24.12
+Chylomicrons
+Chylomicrons contain triglycerides, cholesterol molecules, and other apolipoproteins (protein molecules).
+They function to carry these water-insoluble molecules from the intestine, through the lymphatic system, and into the bloodstream, which
+carries the lipids to adipose tissue for storage.
+
+Lipolysis
+To obtain energy from fat, triglycerides must first be broken down by hydrolysis into their two principal components,
+fatty acids and glycerol. This process, called lipolysis, takes place in the cytoplasm. The resulting fatty acids are
+oxidized by β-oxidation into acetyl CoA, which is used by the Krebs cycle. The glycerol that is released from
+triglycerides after lipolysis directly enters the glycolysis pathway as DHAP. Because one triglyceride molecule yields
+three fatty acid molecules with as much as 16 or more carbons in each one, fat molecules yield more energy than
+carbohydrates and are an important source of energy for the human body. Triglycerides yield more than twice the
+energy per unit mass when compared to carbohydrates and proteins. Therefore, when glucose levels are low,
+triglycerides can be converted into acetyl CoA molecules and used to generate ATP through aerobic respiration.
+The breakdown of fatty acids, called fatty acid oxidation or beta (β)-oxidation, begins in the cytoplasm, where fatty
+acids are converted into fatty acyl CoA molecules. This fatty acyl CoA combines with carnitine to create a fatty acyl
+carnitine molecule, which helps to transport the fatty acid across the mitochondrial membrane. Once inside the
+mitochondrial matrix, the fatty acyl carnitine molecule is converted back into fatty acyl CoA and then into acetyl CoA
+(Figure 24.13). The newly formed acetyl CoA enters the Krebs cycle and is used to produce ATP in the same way as
+acetyl CoA derived from pyruvate.
+
+FIGURE 24.13
+Breakdown of Fatty Acids
+During fatty acid oxidation, triglycerides can be broken down into acetyl CoA molecules and
+used for energy when glucose levels are low.
+
+Ketogenesis
+If excessive acetyl CoA is created from the oxidation of fatty acids and the Krebs cycle is overloaded and cannot
+handle it, the acetyl CoA is diverted to create ketone bodies. These ketone bodies can serve as a fuel source if
+glucose levels are too low in the body. Ketones serve as fuel in times of prolonged starvation or when patients suffer
+from uncontrolled diabetes and cannot utilize most of the circulating glucose. In both cases, fat stores are liberated
+to generate energy through the Krebs cycle and will generate ketone bodies when too much acetyl CoA
+accumulates.
+In this ketone synthesis reaction, excess acetyl CoA is converted into hydroxymethylglutaryl CoA (HMG CoA). HMG
+CoA is a precursor of cholesterol and is an intermediate that is subsequently converted into β-hydroxybutyrate, the
+primary ketone body in the blood (Figure 24.14).
+
+FIGURE 24.14
+Ketogenesis
+Excess acetyl CoA is diverted from the Krebs cycle to the ketogenesis pathway. This reaction occurs in the
+mitochondria of liver cells. The result is the production of β-hydroxybutyrate, the primary ketone body found in the blood.
+
+Ketone Body Oxidation
+Organs that have classically been thought to be dependent solely on glucose, such as the brain, can actually use
+ketones as an alternative energy source. This keeps the brain functioning when glucose is limited. When ketones are
+produced faster than they can be used, they can be broken down into CO2 and acetone. The acetone is removed by
+exhalation. One symptom of ketogenesis is that the patient’s breath smells sweet like alcohol. This effect provides
+one way of telling if a person with diabetes is properly controlling the disease. The carbon dioxide produced can
+acidify the blood, leading to diabetic ketoacidosis, a dangerous condition in people with diabetes.
+Ketones oxidize to produce energy for the brain. beta (β)-hydroxybutyrate is oxidized to acetoacetate and NADH is
+released. An HS-CoA molecule is added to acetoacetate, forming acetoacetyl CoA. The carbon within the
+acetoacetyl CoA that is not bonded to the CoA then detaches, splitting the molecule in two. This carbon then
+attaches to another free HS-CoA, resulting in two acetyl CoA molecules. These two acetyl CoA molecules are then
+processed through the Krebs cycle to generate energy (Figure 24.15).
+
+FIGURE 24.15
+Ketone Oxidation
+When glucose is limited, ketone bodies can be oxidized to produce acetyl CoA to be used in the Krebs
+cycle to generate energy.
+
+Lipogenesis
+When glucose levels are plentiful, the excess acetyl CoA generated by glycolysis can be converted into fatty acids,
+triglycerides, cholesterol, steroids, and bile salts. This process, called lipogenesis, creates lipids (fat) from the
+acetyl CoA and takes place in the cytoplasm of adipocytes (fat cells) and hepatocytes (liver cells). When you eat
+more glucose or carbohydrates than your body needs, your system uses acetyl CoA to turn the excess into fat.
+Although there are several metabolic sources of acetyl CoA, it is most commonly derived from glycolysis. Acetyl CoA
+availability is significant, because it initiates lipogenesis. Lipogenesis begins with acetyl CoA and advances by the
+subsequent addition of two carbon atoms from another acetyl CoA; this process is repeated until fatty acids are the
+appropriate length. Because this is a bond-creating anabolic process, ATP is consumed. However, the creation of
+triglycerides and lipids is an efficient way of storing the energy available in carbohydrates. Triglycerides and lipids,
+high-energy molecules, are stored in adipose tissue until they are needed.
+Although lipogenesis occurs in the cytoplasm, the necessary acetyl CoA is created in the mitochondria and cannot
+be transported across the mitochondrial membrane. To solve this problem, pyruvate is converted into both
+oxaloacetate and acetyl CoA. Two different enzymes are required for these conversions. Oxaloacetate forms via the
+action of pyruvate carboxylase, whereas the action of pyruvate dehydrogenase creates acetyl CoA. Oxaloacetate
+and acetyl CoA combine to form citrate, which can cross the mitochondrial membrane and enter the cytoplasm. In
+the cytoplasm, citrate is converted back into oxaloacetate and acetyl CoA. Oxaloacetate is converted into malate
+and then into pyruvate. Pyruvate crosses back across the mitochondrial membrane to wait for the next cycle of
+lipogenesis. The acetyl CoA is converted into malonyl CoA that is used to synthesize fatty acids. Figure 24.16
+summarizes the pathways of lipid metabolism.
+
+FIGURE 24.16
+Lipid Metabolism
+Lipids may follow one of several pathways during metabolism. Glycerol and fatty acids follow different
+pathways.

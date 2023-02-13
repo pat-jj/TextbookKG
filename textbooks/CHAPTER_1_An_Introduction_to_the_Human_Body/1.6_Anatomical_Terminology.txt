@@ -1,0 +1,161 @@
+1.6 Anatomical Terminology
+LEARNING OBJECTIVES
+By the end of this section, you will be able to:
+•
+Demonstrate the anatomical position
+•
+Describe the human body using directional and regional terms
+•
+Identify three planes most commonly used in the study of anatomy
+•
+Distinguish between the posterior (dorsal) and the anterior (ventral) body cavities, identifying their subdivisions
+and representative organs found in each
+•
+Describe serous membrane and explain its function
+Anatomists and health care providers use terminology that can be bewildering to the uninitiated. However, the
+purpose of this language is not to confuse, but rather to increase precision and reduce medical errors. For example,
+is a scar “above the wrist” located on the forearm two or three inches away from the hand? Or is it at the base of the
+hand? Is it on the palm-side or back-side? By using precise anatomical terminology, we eliminate ambiguity.
+Anatomical terms derive from ancient Greek and Latin words. Because these languages are no longer used in
+everyday conversation, the meaning of their words does not change.
+Anatomical terms are made up of roots, prefixes, and suffixes. The root of a term often refers to an organ, tissue, or
+condition, whereas the prefix or suffix often describes the root. For example, in the disorder hypertension, the prefix
+“hyper-” means “high” or “over,” and the root word “tension” refers to pressure, so the word “hypertension” refers
+to abnormally high blood pressure.
+Anatomical Position
+To further increase precision, anatomists standardize the way in which they view the body. Just as maps are
+normally oriented with north at the top, the standard body “map,” or anatomical position, is that of the body
+standing upright, with the feet at shoulder width and parallel, toes forward. The upper limbs are held out to each
+side, and the palms of the hands face forward as illustrated in Figure 1.12. Using this standard position reduces
+confusion. It does not matter how the body being described is oriented, the terms are used as if it is in anatomical
+position. For example, a scar in the “anterior (front) carpal (wrist) region” would be present on the palm side of the
+wrist. The term “anterior” would be used even if the hand were palm down on a table.
+
+FIGURE 1.12
+Regions of the Human Body
+The human body is shown in anatomical position in an (a) anterior view and a (b) posterior
+view. The regions of the body are labeled in boldface.
+A body that is lying down is described as either prone or supine. Prone describes a face-down orientation, and
+supine describes a face up orientation. These terms are sometimes used in describing the position of the body
+during specific physical examinations or surgical procedures.
+Regional Terms
+The human body’s numerous regions have specific terms to help increase precision (see Figure 1.12). Notice that
+the term “brachium” or “arm” is reserved for the “upper arm” and “antebrachium” or “forearm” is used rather than
+“lower arm.” Similarly, “femur” or “thigh” is correct, and “leg” or “crus” is reserved for the portion of the lower limb
+between the knee and the ankle. You will be able to describe the body’s regions using the terms from the figure.
+Directional Terms
+Certain directional anatomical terms appear throughout this and any other anatomy textbook (Figure 1.13). These
+terms are essential for describing the relative locations of different body structures. For instance, an anatomist
+might describe one band of tissue as “inferior to” another or a physician might describe a tumor as “superficial to” a
+deeper body structure. Commit these terms to memory to avoid confusion when you are studying or describing the
+locations of particular body parts.
+•
+Anterior (or ventral) Describes the front or direction toward the front of the body. The toes are anterior to the
+foot.
+•
+Posterior (or dorsal) Describes the back or direction toward the back of the body. The popliteus is posterior to
+the patella.
+•
+Superior (or cranial) describes a position above or higher than another part of the body proper. The orbits are
+superior to the oris.
+•
+Inferior (or caudal) describes a position below or lower than another part of the body proper; near or toward
+the tail (in humans, the coccyx, or lowest part of the spinal column). The pelvis is inferior to the abdomen.
+•
+Lateral describes the side or direction toward the side of the body. The thumb (pollex) is lateral to the digits.
+•
+Medial describes the middle or direction toward the middle of the body. The hallux is the medial toe.
+•
+Proximal describes a position in a limb that is nearer to the point of attachment or the trunk of the body. The
+brachium is proximal to the antebrachium.
+•
+Distal describes a position in a limb that is farther from the point of attachment or the trunk of the body. The
+crus is distal to the femur.
+•
+Superficial describes a position closer to the surface of the body. The skin is superficial to the bones.
+•
+Deep describes a position farther from the surface of the body. The brain is deep to the skull.
+FIGURE 1.13
+Directional Terms Applied to the Human Body
+Paired directional terms are shown as applied to the human body.
+Body Planes
+A section is a two-dimensional surface of a three-dimensional structure that has been cut. Modern medical imaging
+devices enable clinicians to obtain “virtual sections” of living bodies. We call these scans. Body sections and scans
+can be correctly interpreted, however, only if the viewer understands the plane along which the section was made. A
+plane is an imaginary two-dimensional surface that passes through the body. There are three planes commonly
+referred to in anatomy and medicine, as illustrated in Figure 1.14.
+•
+The sagittal plane is the plane that divides the body or an organ vertically into right and left sides. If this
+vertical plane runs directly down the middle of the body, it is called the midsagittal or median plane. If it divides
+the body into unequal right and left sides, it is called a parasagittal plane or less commonly a longitudinal
+section.
+•
+The frontal plane is the plane that divides the body or an organ into an anterior (front) portion and a posterior
+(rear) portion. The frontal plane is often referred to as a coronal plane. (“Corona” is Latin for “crown.”)
+•
+The transverse plane is the plane that divides the body or organ horizontally into upper and lower portions.
+
+Transverse planes produce images referred to as cross sections.
+FIGURE 1.14
+Planes of the Body
+The three planes most commonly used in anatomical and medical imaging are the sagittal, frontal (or
+coronal), and transverse plane.
+Body Cavities and Serous Membranes
+The body maintains its internal organization by means of membranes, sheaths, and other structures that separate
+compartments. The dorsal (posterior) cavity and the ventral (anterior) cavity are the largest body compartments
+(Figure 1.15). These cavities contain and protect delicate internal organs, and the ventral cavity allows for significant
+changes in the size and shape of the organs as they perform their functions. The lungs, heart, stomach, and
+intestines, for example, can expand and contract without distorting other tissues or disrupting the activity of nearby
+organs.
+FIGURE 1.15
+Dorsal and Ventral Body Cavities
+The ventral cavity includes the thoracic and abdominopelvic cavities and their
+subdivisions. The dorsal cavity includes the cranial and spinal cavities.
+
+Subdivisions of the Posterior (Dorsal) and Anterior (Ventral) Cavities
+The posterior (dorsal) and anterior (ventral) cavities are each subdivided into smaller cavities. In the posterior
+(dorsal) cavity, the cranial cavity houses the brain, and the spinal cavity (or vertebral cavity) encloses the spinal
+cord. Just as the brain and spinal cord make up a continuous, uninterrupted structure, the cranial and spinal cavities
+that house them are also continuous. The brain and spinal cord are protected by the bones of the skull and vertebral
+column and by cerebrospinal fluid, a colorless fluid produced by the brain, which cushions the brain and spinal cord
+within the posterior (dorsal) cavity.
+The anterior (ventral) cavity has two main subdivisions: the thoracic cavity and the abdominopelvic cavity (see
+Figure 1.15). The thoracic cavity is the more superior subdivision of the anterior cavity, and it is enclosed by the rib
+cage. The thoracic cavity contains the lungs and the heart, which is located in the mediastinum. The diaphragm
+forms the floor of the thoracic cavity and separates it from the more inferior abdominopelvic cavity. The
+abdominopelvic cavity is the largest cavity in the body. Although no membrane physically divides the
+abdominopelvic cavity, it can be useful to distinguish between the abdominal cavity, the division that houses the
+digestive organs, and the pelvic cavity, the division that houses the organs of reproduction.
+Abdominal Regions and Quadrants
+To promote clear communication, for instance about the location of a patient’s abdominal pain or a suspicious mass,
+health care providers typically divide up the cavity into either nine regions or four quadrants (Figure 1.16).
+FIGURE 1.16
+Regions and Quadrants of the Peritoneal Cavity
+There are (a) nine abdominal regions and (b) four abdominal
+quadrants in the peritoneal cavity.
+The more detailed regional approach subdivides the cavity with one horizontal line immediately inferior to the ribs
+and one immediately superior to the pelvis, and two vertical lines drawn as if dropped from the midpoint of each
+clavicle (collarbone). There are nine resulting regions. The simpler quadrants approach, which is more commonly
+used in medicine, subdivides the cavity with one horizontal and one vertical line that intersect at the patient’s
+umbilicus (navel).
+Membranes of the Anterior (Ventral) Body Cavity
+A serous membrane (also referred to a serosa) is one of the thin membranes that cover the walls and organs in the
+thoracic and abdominopelvic cavities. The parietal layers of the membranes line the walls of the body cavity (pariet-
+refers to a cavity wall). The visceral layer of the membrane covers the organs (the viscera). Between the parietal and
+visceral layers is a very thin, fluid-filled serous space, or cavity (Figure 1.17).
+
+FIGURE 1.17
+Serous Membrane
+Serous membrane lines the pericardial cavity and reflects back to cover the heart—much the same
+way that an underinflated balloon would form two layers surrounding a fist.
+There are three serous cavities and their associated membranes. The pleura is the serous membrane that encloses
+the pleural cavity; the pleural cavity surrounds the lungs. The pericardium is the serous membrane that encloses
+the pericardial cavity; the pericardial cavity surrounds the heart. The peritoneum is the serous membrane that
+encloses the peritoneal cavity; the peritoneal cavity surrounds several organs in the abdominopelvic cavity. The
+serous membranes form fluid-filled sacs, or cavities, that are meant to cushion and reduce friction on internal
+organs when they move, such as when the lungs inflate or the heart beats. Both the parietal and visceral serosa
+secrete the thin, slippery serous fluid located within the serous cavities. The pleural cavity reduces friction between
+the lungs and the body wall. Likewise, the pericardial cavity reduces friction between the heart and the wall of the
+pericardium. The peritoneal cavity reduces friction between the abdominal and pelvic organs and the body wall.
+Therefore, serous membranes provide additional protection to the viscera they enclose by reducing friction that
+could lead to inflammation of the organs.

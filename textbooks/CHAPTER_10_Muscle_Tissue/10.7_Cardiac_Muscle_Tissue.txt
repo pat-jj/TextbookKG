@@ -1,0 +1,77 @@
+10.7 Cardiac Muscle Tissue
+LEARNING OBJECTIVES
+By the end of this section, you will be able to:
+•
+Describe intercalated discs and gap junctions
+•
+Describe a desmosome
+Cardiac muscle tissue is only found in the heart. Highly coordinated contractions of cardiac muscle pump blood into
+the vessels of the circulatory system. Similar to skeletal muscle, cardiac muscle is striated and organized into
+sarcomeres, possessing the same banding organization as skeletal muscle (Figure 10.21). However, cardiac muscle
+fibers are shorter than skeletal muscle fibers and usually contain only one nucleus, which is located in the central
+region of the cell. Cardiac muscle fibers also possess many mitochondria and myoglobin, as ATP is produced
+primarily through aerobic metabolism. Cardiac muscle fibers cells also are extensively branched and are connected
+to one another at their ends by intercalated discs. An intercalated disc allows the cardiac muscle cells to contract in
+a wave-like pattern so that the heart can work as a pump.
+
+Everyday Connection
+Aging and Muscle Tissue
+Although atrophy due to disuse can often be reversed with exercise, muscle atrophy with age, referred to as
+sarcopenia, is irreversible. This is a primary reason why even highly trained athletes succumb to declining
+performance with age. This decline is noticeable in athletes whose sports require strength and powerful
+movements, such as sprinting, whereas the effects of age are less noticeable in endurance athletes such as
+marathon runners or long-distance cyclists. As muscles age, muscle fibers die, and they are replaced by
+connective tissue and adipose tissue (Figure 10.20). Because those tissues cannot contract and generate force
+as muscle can, muscles lose the ability to produce powerful contractions. The decline in muscle mass causes a
+loss of strength, including the strength required for posture and mobility. This may be caused by a reduction in
+FG fibers that hydrolyze ATP quickly to produce short, powerful contractions. Muscles in older people
+sometimes possess greater numbers of SO fibers, which are responsible for longer contractions and do not
+produce powerful movements. There may also be a reduction in the size of motor units, resulting in fewer fibers
+being stimulated and less muscle tension being produced.
+FIGURE 10.20
+Atrophy
+Muscle mass is reduced as muscles atrophy with disuse.
+Sarcopenia can be delayed to some extent by exercise, as training adds structural proteins and causes cellular
+changes that can offset the effects of atrophy. Increased exercise can produce greater numbers of cellular
+mitochondria, increase capillary density, and increase the mass and strength of connective tissue. The effects of
+age-related atrophy are especially pronounced in people who are sedentary, as the loss of muscle cells is
+displayed as functional impairments such as trouble with locomotion, balance, and posture. This can lead to a
+decrease in quality of life and medical problems, such as joint problems because the muscles that stabilize
+bones and joints are weakened. Problems with locomotion and balance can also cause various injuries due to
+falls.
+
+FIGURE 10.21
+Cardiac Muscle Tissue
+Cardiac muscle tissue is only found in the heart. LM × 1600. (Micrograph provided by the
+Regents of University of Michigan Medical School © 2012)
+INTERACTIVE LINK
+View the University of Michigan WebScope (http://openstax.org/l/cardmuscleMG) to explore the tissue sample in
+greater detail.
+Intercalated discs are part of the sarcolemma and contain two structures important in cardiac muscle contraction:
+gap junctions and desmosomes. A gap junction forms channels between adjacent cardiac muscle fibers that allow
+the depolarizing current produced by cations to flow from one cardiac muscle cell to the next. This joining is called
+electric coupling, and in cardiac muscle it allows the quick transmission of action potentials and the coordinated
+contraction of the entire heart. This network of electrically connected cardiac muscle cells creates a functional unit
+of contraction called a syncytium. The remainder of the intercalated disc is composed of desmosomes. A
+desmosome is a cell structure that anchors the ends of cardiac muscle fibers together so the cells do not pull apart
+during the stress of individual fibers contracting (Figure 10.22).
+FIGURE 10.22
+Cardiac Muscle
+Intercalated discs are part of the cardiac muscle sarcolemma and they contain gap junctions and
+desmosomes.
+
+Contractions of the heart (heartbeats) are controlled by specialized cardiac muscle cells called pacemaker cells that
+directly control heart rate. Although cardiac muscle cannot be consciously controlled, the pacemaker cells respond
+to signals from the autonomic nervous system (ANS) to speed up or slow down the heart rate. The pacemaker cells
+can also respond to various hormones that modulate heart rate to control blood pressure.
+The wave of contraction that allows the heart to work as a unit, called a functional syncytium, begins with the
+pacemaker cells. This group of cells is self-excitable and able to depolarize to threshold and fire action potentials on
+their own, a feature called autorhythmicity; they do this at set intervals which determine heart rate. Because they
+are connected with gap junctions to surrounding muscle fibers and the specialized fibers of the heart’s conduction
+system, the pacemaker cells are able to transfer the depolarization to the other cardiac muscle fibers in a manner
+that allows the heart to contract in a coordinated manner.
+Another feature of cardiac muscle is its relatively long action potentials in its fibers, having a sustained
+depolarization “plateau.” The plateau is produced by Ca++ entry though voltage-gated calcium channels in the
+sarcolemma of cardiac muscle fibers. This sustained depolarization (and Ca++ entry) provides for a longer
+contraction than is produced by an action potential in skeletal muscle. Unlike skeletal muscle, a large percentage of
+the Ca++ that initiates contraction in cardiac muscles comes from outside the cell rather than from the SR.

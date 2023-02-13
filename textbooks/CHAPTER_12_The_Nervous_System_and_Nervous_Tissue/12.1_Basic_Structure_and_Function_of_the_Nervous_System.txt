@@ -1,0 +1,214 @@
+12.1 Basic Structure and Function of the Nervous System
+LEARNING OBJECTIVES
+By the end of this section, you will be able to:
+•
+Identify the anatomical and functional divisions of the nervous system
+•
+Relate the functional and structural differences between gray matter and white matter structures of the nervous
+system to the structure of neurons
+•
+List the basic functions of the nervous system
+The picture you have in your mind of the nervous system probably includes the brain, the nervous tissue contained
+within the cranium, and the spinal cord, the extension of nervous tissue within the vertebral column. That suggests
+it is made of two organs—and you may not even think of the spinal cord as an organ—but the nervous system is a
+very complex structure. Within the brain, many different and separate regions are responsible for many different and
+separate functions. It is as if the nervous system is composed of many organs that all look similar and can only be
+differentiated using tools such as the microscope or electrophysiology. In comparison, it is easy to see that the
+stomach is different than the esophagus or the liver, so you can imagine the digestive system as a collection of
+specific organs.
+The Central and Peripheral Nervous Systems
+The nervous system can be divided into two major regions: the central and peripheral nervous systems. The central
+nervous system (CNS) is the brain and spinal cord, and the peripheral nervous system (PNS) is everything else
+(Figure 12.2). The brain is contained within the cranial cavity of the skull, and the spinal cord is contained within the
+vertebral cavity of the vertebral column. It is a bit of an oversimplification to say that the CNS is what is inside these
+two cavities and the peripheral nervous system is outside of them, but that is one way to start to think about it. In
+actuality, there are some elements of the peripheral nervous system that are within the cranial or vertebral cavities.
+The peripheral nervous system is so named because it is on the periphery—meaning beyond the brain and spinal
+cord. Depending on different aspects of the nervous system, the dividing line between central and peripheral is not
+necessarily universal.
+FIGURE 12.2
+Central and Peripheral Nervous System
+The structures of the PNS are referred to as ganglia and nerves, which can be
+seen as distinct structures. The equivalent structures in the CNS are not obvious from this overall perspective and are best examined in
+prepared tissue under the microscope.
+Nervous tissue, present in both the CNS and PNS, contains two basic types of cells: neurons and glial cells. A glial
+cell is one of a variety of cells that provide a framework of tissue that supports the neurons and their activities. The
+neuron is the more functionally important of the two, in terms of the communicative function of the nervous system.
+To describe the functional divisions of the nervous system, it is important to understand the structure of a neuron.
+Neurons are cells and therefore have a soma, or cell body, but they also have extensions of the cell; each extension
+is generally referred to as a process. There is one important process that every neuron has called an axon, which is
+the fiber that connects a neuron with its target. Another type of process that branches off from the soma is the
+dendrite. Dendrites are responsible for receiving most of the input from other neurons. Looking at nervous tissue,
+there are regions that predominantly contain cell bodies and regions that are largely composed of just axons. These
+two regions within nervous system structures are often referred to as gray matter (the regions with many cell
+bodies and dendrites) or white matter (the regions with many axons). Figure 12.3 demonstrates the appearance of
+these regions in the brain and spinal cord. The colors ascribed to these regions are what would be seen in “fresh,” or
+unstained, nervous tissue. Gray matter is not necessarily gray. It can be pinkish because of blood content, or even
+slightly tan, depending on how long the tissue has been preserved. But white matter is white because axons are
+insulated by a lipid-rich substance called myelin. Lipids can appear as white (“fatty”) material, much like the fat on
+a raw piece of chicken or beef. Actually, gray matter may have that color ascribed to it because next to the white
+matter, it is just darker—hence, gray.
+The distinction between gray matter and white matter is most often applied to central nervous tissue, which has
+large regions that can be seen with the unaided eye. When looking at peripheral structures, often a microscope is
+used and the tissue is stained with artificial colors. That is not to say that central nervous tissue cannot be stained
+and viewed under a microscope, but unstained tissue is most likely from the CNS—for example, a frontal section of
+the brain or cross section of the spinal cord.
+FIGURE 12.3
+Gray Matter and White Matter
+A brain removed during an autopsy, with a partial section removed, shows white matter
+surrounded by gray matter. Gray matter makes up the outer cortex of the brain. (credit: modification of work by “Suseno”/Wikimedia
+Commons)
+Regardless of the appearance of stained or unstained tissue, the cell bodies of neurons or axons can be located in
+discrete anatomical structures that need to be named. Those names are specific to whether the structure is central
+or peripheral. A localized collection of neuron cell bodies in the CNS is referred to as a nucleus. In the PNS, a cluster
+of neuron cell bodies is referred to as a ganglion. Figure 12.4 indicates how the term nucleus has a few different
+meanings within anatomy and physiology. It is the center of an atom, where protons and neutrons are found; it is the
+center of a cell, where the DNA is found; and it is a center of some function in the CNS. There is also a potentially
+confusing use of the word ganglion (plural = ganglia) that has a historical explanation. In the central nervous system,
+there is a group of nuclei that are connected together and were once called the basal ganglia before “ganglion”
+became accepted as a description for a peripheral structure. Some sources refer to this group of nuclei as the “basal
+nuclei” to avoid confusion.
+
+FIGURE 12.4
+What Is a Nucleus?
+(a) The nucleus of an atom contains its protons and neutrons. (b) The nucleus of a cell is the
+organelle that contains DNA. (c) A nucleus in the CNS is a localized center of function with the cell bodies of several neurons, shown here
+circled in red. (credit c: “Was a bee”/Wikimedia Commons)
+Terminology applied to bundles of axons also differs depending on location. A bundle of axons, or fibers, found in
+the CNS is called a tract whereas the same thing in the PNS would be called a nerve. There is an important point to
+make about these terms, which is that they can both be used to refer to the same bundle of axons. When those
+axons are in the PNS, the term is nerve, but if they are CNS, the term is tract. The most obvious example of this is the
+axons that project from the retina into the brain. Those axons are called the optic nerve as they leave the eye, but
+when they are inside the cranium, they are referred to as the optic tract. There is a specific place where the name
+changes, which is the optic chiasm, but they are still the same axons (Figure 12.5). A similar situation outside of
+science can be described for some roads. Imagine a road called “Broad Street” in a town called “Anyville.” The road
+leaves Anyville and goes to the next town over, called “Hometown.” When the road crosses the line between the two
+towns and is in Hometown, its name changes to “Main Street.” That is the idea behind the naming of the retinal
+axons. In the PNS, they are called the optic nerve, and in the CNS, they are the optic tract. Table 12.1 helps to clarify
+which of these terms apply to the central or peripheral nervous systems.
+FIGURE 12.5
+Optic Nerve Versus Optic Tract
+This drawing of the connections of the eye to the brain shows the optic nerve extending
+from the eye to the chiasm, where the structure continues as the optic tract. The same axons extend from the eye to the brain through
+these two bundles of fibers, but the chiasm represents the border between peripheral and central.
+INTERACTIVE LINK
+In 2003, the Nobel Prize in Physiology or Medicine was awarded to Paul C. Lauterbur and Sir Peter Mansfield for
+discoveries related to magnetic resonance imaging (MRI). This is a tool to see the structures of the body (not just the
+nervous system) that depends on magnetic fields associated with certain atomic nuclei. The utility of this technique
+454
+12 • The Nervous System and Nervous Tissue
+Access for free at openstax.org
+in the nervous system is that fat tissue and water appear as different shades between black and white. Because
+white matter is fatty (from myelin) and gray matter is not, they can be easily distinguished in MRI images. Try this
+PhET simulation (http://openstax.org/l/nobel_2) that demonstrates the use of this technology and compares it with
+other types of imaging technologies. Also, the results from an MRI session are compared with images obtained from
+X-ray or computed tomography. How do the imaging techniques shown in this game indicate the separation of white
+and gray matter compared with the freshly dissected tissue shown earlier?
+Structures of the CNS and PNS
+CNS
+PNS
+Group of Neuron Cell Bodies (i.e., gray matter)
+Nucleus
+Ganglion
+Bundle of Axons (i.e., white matter)
+Tract
+Nerve
+TABLE 12.1
+Functional Divisions of the Nervous System
+The nervous system can also be divided on the basis of its functions, but anatomical divisions and functional
+divisions are different. The CNS and the PNS both contribute to the same functions, but those functions can be
+attributed to different regions of the brain (such as the cerebral cortex or the hypothalamus) or to different ganglia in
+the periphery. The problem with trying to fit functional differences into anatomical divisions is that sometimes the
+same structure can be part of several functions. For example, the optic nerve carries signals from the retina that are
+either used for the conscious perception of visual stimuli, which takes place in the cerebral cortex, or for the
+reflexive responses of smooth muscle tissue that are processed through the hypothalamus.
+There are two ways to consider how the nervous system is divided functionally. First, the basic functions of the
+nervous system are sensation, integration, and response. Secondly, control of the body can be somatic or
+autonomic—divisions that are largely defined by the structures that are involved in the response. There is also a
+region of the peripheral nervous system that is called the enteric nervous system that is responsible for a specific
+set of the functions within the realm of autonomic control related to gastrointestinal functions.
+Basic Functions
+The nervous system is involved in receiving information about the environment around us (sensation) and
+generating responses to that information (motor responses). The nervous system can be divided into regions that
+are responsible for sensation (sensory functions) and for the response (motor functions). But there is a third
+function that needs to be included. Sensory input needs to be integrated with other sensations, as well as with
+memories, emotional state, or learning (cognition). Some regions of the nervous system are termed integration or
+association areas. The process of integration combines sensory perceptions and higher cognitive functions such as
+memories, learning, and emotion to produce a response.
+Sensation. The first major function of the nervous system is sensation—receiving information about the environment
+to gain input about what is happening outside the body (or, sometimes, within the body). The sensory functions of
+the nervous system register the presence of a change from homeostasis or a particular event in the environment,
+known as a stimulus. The senses we think of most are the “big five”: taste, smell, touch, sight, and hearing. The
+stimuli for taste and smell are both chemical substances (molecules, compounds, ions, etc.), touch is physical or
+mechanical stimuli that interact with the skin, sight is light stimuli, and hearing is the perception of sound, which is a
+physical stimulus similar to some aspects of touch. There are actually more senses than just those, but that list
+represents the major senses. Those five are all senses that receive stimuli from the outside world, and of which
+there is conscious perception. Additional sensory stimuli might be from the internal environment (inside the body),
+such as the stretch of an organ wall or the concentration of certain ions in the blood.
+Response. The nervous system produces a response on the basis of the stimuli perceived by sensory structures. An
+obvious response would be the movement of muscles, such as withdrawing a hand from a hot stove, but there are
+broader uses of the term. The nervous system can cause the contraction of all three types of muscle tissue. For
+example, skeletal muscle contracts to move the skeleton, cardiac muscle is influenced as heart rate increases
+during exercise, and smooth muscle contracts as the digestive system moves food along the digestive tract.
+Responses also include the neural control of glands in the body as well, such as the production and secretion of
+sweat by the eccrine and merocrine sweat glands found in the skin to lower body temperature.
+Responses can be divided into those that are voluntary or conscious (contraction of skeletal muscle) and those that
+are involuntary (contraction of smooth muscles, regulation of cardiac muscle, activation of glands). Voluntary
+responses are governed by the somatic nervous system and involuntary responses are governed by the autonomic
+nervous system, which are discussed in the next section.
+Integration. Stimuli that are received by sensory structures are communicated to the nervous system where that
+information is processed. This is called integration. Stimuli are compared with, or integrated with, other stimuli,
+memories of previous stimuli, or the state of a person at a particular time. This leads to the specific response that
+will be generated. Seeing a baseball pitched to a batter will not automatically cause the batter to swing. The
+trajectory of the ball and its speed will need to be considered. Maybe the count is three balls and one strike, and the
+batter wants to let this pitch go by in the hope of getting a walk to first base. Or maybe the batter’s team is so far
+ahead, it would be fun to just swing away.
+Controlling the Body
+The nervous system can be divided into two parts mostly on the basis of a functional difference in responses. The
+somatic nervous system (SNS) is responsible for conscious perception and voluntary motor responses. Voluntary
+motor response means the contraction of skeletal muscle, but those contractions are not always voluntary in the
+sense that you have to want to perform them. Some somatic motor responses are reflexes, and often happen
+without a conscious decision to perform them. If your friend jumps out from behind a corner and yells “Boo!” you
+will be startled and you might scream or leap back. You didn’t decide to do that, and you may not have wanted to
+give your friend a reason to laugh at your expense, but it is a reflex involving skeletal muscle contractions. Other
+motor responses become automatic (in other words, unconscious) as a person learns motor skills (referred to as
+“habit learning” or “procedural memory”).
+The autonomic nervous system (ANS) is responsible for involuntary control of the body, usually for the sake of
+homeostasis (regulation of the internal environment). Sensory input for autonomic functions can be from sensory
+structures tuned to external or internal environmental stimuli. The motor output extends to smooth and cardiac
+muscle as well as glandular tissue. The role of the autonomic system is to regulate the organ systems of the body,
+which usually means to control homeostasis. Sweat glands, for example, are controlled by the autonomic system.
+When you are hot, sweating helps cool your body down. That is a homeostatic mechanism. But when you are
+nervous, you might start sweating also. That is not homeostatic, it is the physiological response to an emotional
+state.
+There is another division of the nervous system that describes functional responses. The enteric nervous system
+(ENS) is responsible for controlling the smooth muscle and glandular tissue in your digestive system. It is a large
+part of the PNS, and is not dependent on the CNS. It is sometimes valid, however, to consider the enteric system to
+be a part of the autonomic system because the neural structures that make up the enteric system are a component
+of the autonomic output that regulates digestion. There are some differences between the two, but for our purposes
+here there will be a good bit of overlap. See Figure 12.6 for examples of where these divisions of the nervous system
+can be found.
+
+FIGURE 12.6
+Somatic, Autonomic, and Enteric Structures of the Nervous System
+Somatic structures include the spinal nerves, both
+motor and sensory fibers, as well as the sensory ganglia (posterior root ganglia and cranial nerve ganglia). Autonomic structures are found
+in the nerves also, but include the sympathetic and parasympathetic ganglia. The enteric nervous system includes the nervous tissue within
+the organs of the digestive tract.
+INTERACTIVE LINK
+Visit this site (http://openstax.org/l/troublewstairs) to read about a woman that notices that her daughter is having
+trouble walking up the stairs. This leads to the discovery of a hereditary condition that affects the brain and spinal
+cord. The electromyography and MRI tests indicated deficiencies in the spinal cord and cerebellum, both of which
+are responsible for controlling coordinated movements. To what functional division of the nervous system would
+these structures belong?
+Everyday Connection
+How Much of Your Brain Do You Use?
+Have you ever heard the claim that humans only use 10 percent of their brains? Maybe you have seen an
+advertisement on a website saying that there is a secret to unlocking the full potential of your mind—as if there
+were 90 percent of your brain sitting idle, just waiting for you to use it. If you see an ad like that, don’t click. It
+isn’t true.
+An easy way to see how much of the brain a person uses is to take measurements of brain activity while
+performing a task. An example of this kind of measurement is functional magnetic resonance imaging (fMRI),
+which generates a map of the most active areas and can be generated and presented in three dimensions
+(Figure 12.7). This procedure is different from the standard MRI technique because it is measuring changes in
+the tissue in time with an experimental condition or event.

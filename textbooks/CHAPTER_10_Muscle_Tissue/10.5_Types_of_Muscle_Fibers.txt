@@ -1,0 +1,49 @@
+10.5 Types of Muscle Fibers
+LEARNING OBJECTIVES
+By the end of this section, you will be able to:
+•
+Describe the types of skeletal muscle fibers
+•
+Explain fast and slow muscle fibers
+Two criteria to consider when classifying the types of muscle fibers are how fast some fibers contract relative to
+others, and how fibers produce ATP. Using these criteria, there are three main types of skeletal muscle fibers. Slow
+oxidative (SO) fibers contract relatively slowly and use aerobic respiration (oxygen and glucose) to produce ATP.
+Fast oxidative (FO) fibers have fast contractions and primarily use aerobic respiration, but because they may switch
+to anaerobic respiration (glycolysis), can fatigue more quickly than SO fibers. Lastly, fast glycolytic (FG) fibers have
+fast contractions and primarily use anaerobic glycolysis. The FG fibers fatigue more quickly than the others. Most
+skeletal muscles in a human contain(s) all three types, although in varying proportions.
+The speed of contraction is dependent on how quickly myosin’s ATPase hydrolyzes ATP to produce cross-bridge
+action. Fast fibers hydrolyze ATP approximately twice as quickly as slow fibers, resulting in much quicker cross-
+bridge cycling (which pulls the thin filaments toward the center of the sarcomeres at a faster rate). The primary
+metabolic pathway used by a muscle fiber determines whether the fiber is classified as oxidative or glycolytic. If a
+fiber primarily produces ATP through aerobic pathways it is oxidative. More ATP can be produced during each
+metabolic cycle, making the fiber more resistant to fatigue. Glycolytic fibers primarily create ATP through anaerobic
+glycolysis, which produces less ATP per cycle. As a result, glycolytic fibers fatigue at a quicker rate.
+The oxidative fibers contain many more mitochondria than the glycolytic fibers, because aerobic metabolism, which
+uses oxygen (O2) in the metabolic pathway, occurs in the mitochondria. The SO fibers possess a large number of
+mitochondria and are capable of contracting for longer periods because of the large amount of ATP they can
+produce, but they have a relatively small diameter and do not produce a large amount of tension. SO fibers are
+extensively supplied with blood capillaries to supply O2 from the red blood cells in the bloodstream. The SO fibers
+also possess myoglobin, an O2-carrying molecule similar to O2-carrying hemoglobin in the red blood cells. The
+myoglobin stores some of the needed O2 within the fibers themselves (and gives SO fibers their red color). All of
+these features allow SO fibers to produce large quantities of ATP, which can sustain muscle activity without fatiguing
+for long periods of time.
+The fact that SO fibers can function for long periods without fatiguing makes them useful in maintaining posture,
+producing isometric contractions, stabilizing bones and joints, and making small movements that happen often but
+do not require large amounts of energy. They do not produce high tension, and thus they are not used for powerful,
+fast movements that require high amounts of energy and rapid cross-bridge cycling.
+FO fibers are sometimes called intermediate fibers because they possess characteristics that are intermediate
+between fast fibers and slow fibers. They produce ATP relatively quickly, more quickly than SO fibers, and thus can
+produce relatively high amounts of tension. They are oxidative because they produce ATP aerobically, possess high
+amounts of mitochondria, and do not fatigue quickly. However, FO fibers do not possess significant myoglobin,
+giving them a lighter color than the red SO fibers. FO fibers are used primarily for movements, such as walking, that
+require more energy than postural control but less energy than an explosive movement, such as sprinting. FO fibers
+are useful for this type of movement because they produce more tension than SO fibers but they are more fatigue-
+resistant than FG fibers.
+FG fibers primarily use anaerobic glycolysis as their ATP source. They have a large diameter and possess high
+amounts of glycogen, which is used in glycolysis to generate ATP quickly to produce high levels of tension. Because
+they do not primarily use aerobic metabolism, they do not possess substantial numbers of mitochondria or
+significant amounts of myoglobin and therefore have a white color. FG fibers are used to produce rapid, forceful
+contractions to make quick, powerful movements. These fibers fatigue quickly, permitting them to only be used for
+short periods. Most muscles possess a mixture of each fiber type. The predominant fiber type in a muscle is
+determined by the primary function of the muscle.

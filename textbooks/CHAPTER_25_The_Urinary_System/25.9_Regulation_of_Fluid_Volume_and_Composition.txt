@@ -1,0 +1,124 @@
+25.9 Regulation of Fluid Volume and Composition
+LEARNING OBJECTIVES
+By the end of this section, you will be able to:
+•
+Explain the mechanism of action of diuretics
+•
+Explain why the differential permeability or impermeability of specific sections of the nephron tubules is
+necessary for urine formation
+The major hormones influencing total body water are ADH, aldosterone, and ANH. Circumstances that lead to fluid
+depletion in the body include blood loss and dehydration. Homeostasis requires that volume and osmolarity be
+preserved. Blood volume is important in maintaining sufficient blood pressure, and there are nonrenal mechanisms
+involved in its preservation, including vasoconstriction, which can act within seconds of a drop in pressure. Thirst
+mechanisms are also activated to promote the consumption of water lost through respiration, evaporation, or
+urination. Hormonal mechanisms are activated to recover volume while maintaining a normal osmotic environment.
+These mechanisms act principally on the kidney.
+
+Volume-sensing Mechanisms
+The body cannot directly measure blood volume, but blood pressure can be measured. Blood pressure often reflects
+blood volume and is measured by baroreceptors in the aorta and carotid sinuses. When blood pressure increases,
+baroreceptors send more frequent action potentials to the central nervous system, leading to widespread
+vasodilation. Included in this vasodilation are the afferent arterioles supplying the glomerulus, resulting in increased
+GFR, and water loss by the kidneys. If pressure decreases, fewer action potentials travel to the central nervous
+system, resulting in more sympathetic stimulation-producing vasoconstriction, which will result in decreased
+filtration and GFR, and water loss.
+Decreased blood pressure is also sensed by the granular cells in the afferent arteriole of the JGA. In response, the
+enzyme renin is released. You saw earlier in the chapter that renin activity leads to an almost immediate rise in
+blood pressure as activated angiotensin II produces vasoconstriction. The rise in pressure is sustained by the
+aldosterone effects initiated by angiotensin II; this includes an increase in Na+ retention and water volume. As an
+aside, late in the menstrual cycle, progesterone has a modest influence on water retention. Due to its structural
+similarity to aldosterone, progesterone binds to the aldosterone receptor in the collecting duct of the kidney,
+causing the same, albeit weaker, effect on Na+ and water retention.
+Cardiomyocytes of the atria also respond to greater stretch (as blood pressure rises) by secreting ANH. ANH
+opposes the action of aldosterone by inhibiting the recovery of Na+ by the DCT and collecting ducts. More Na+ is lost,
+and as water follows, total blood volume and pressure decline. In low-pressure states, ANH does not seem to have
+much effect.
+ADH is also called vasopressin. Early researchers found that in cases of unusually high secretion of ADH, the
+hormone caused vasoconstriction (vasopressor activity, hence the name). Only later were its antidiuretic properties
+identified. Synthetic ADH is still used occasionally to stem life-threatening esophagus bleeding in alcoholics.
+When blood volume drops 5–10 percent, causing a decrease in blood pressure, there is a rapid and significant
+increase in ADH release from the posterior pituitary. Immediate vasoconstriction to increase blood pressure is the
+result. ADH also causes activation of aquaporin channels in the collecting ducts to affect the recovery of water to
+help restore vascular volume.
+
+Diuretics and Fluid Volume
+A diuretic is a compound that increases urine volume. Three familiar drinks contain diuretic compounds: coffee, tea,
+and alcohol. The caffeine in coffee and tea works by promoting vasodilation in the nephron, which increases GFR.
+Alcohol increases GFR by inhibiting ADH release from the posterior pituitary, resulting in less water recovery by the
+collecting duct. In cases of high blood pressure, diuretics may be prescribed to reduce blood volume and, thereby,
+reduce blood pressure. The most frequently prescribed anti-hypertensive diuretic is hydrochlorothiazide. It inhibits
+the Na+/ Cl– symporter in the DCT and collecting duct. The result is a loss of Na+ with water following passively by
+osmosis.
+Osmotic diuretics promote water loss by osmosis. An example is the indigestible sugar mannitol, which is most
+often administered to reduce brain swelling after head injury. However, it is not the only sugar that can produce a
+diuretic effect. In cases of poorly controlled diabetes mellitus, glucose levels exceed the capacity of the tubular
+glucose symporters, resulting in glucose in the urine. The unrecovered glucose becomes a powerful osmotic
+diuretic. Classically, in the days before glucose could be detected in the blood and urine, clinicians identified
+diabetes mellitus by the three Ps: polyuria (diuresis), polydipsia (increased thirst), and polyphagia (increased
+hunger).
+
+Regulation of Extracellular Na+
+Sodium has a very strong osmotic effect and attracts water. It plays a larger role in the osmolarity of the plasma than
+any other circulating component of the blood. If there is too much Na+ present, either due to poor control or excess
+dietary consumption, a series of metabolic problems ensue. There is an increase in total volume of water, which
+leads to hypertension (high blood pressure). Over a long period, this increases the risk of serious complications such
+as heart attacks, strokes, and aneurysms. It can also contribute to system-wide edema (swelling).
+Mechanisms for regulating Na+ concentration include the renin–angiotensin–aldosterone system and ADH (see
+Figure 25.14). Aldosterone stimulates the uptake of Na+ on the apical cell membrane of cells in the DCT and
+collecting ducts, whereas ADH helps to regulate Na+ concentration indirectly by regulating the reabsorption of
+water.
+
+Regulation of Extracellular K+
+Potassium is present in a 30-fold greater concentration inside the cell than outside the cell. A generalization can be
+made that K+ and Na+ concentrations will move in opposite directions. When more Na+ is reabsorbed, more K+ is
+secreted; when less Na+ is reabsorbed (leading to excretion by the kidney), more K+ is retained. When aldosterone
+causes a recovery of Na+ in the nephron, a negative electrical gradient is created that promotes the secretion of K+
+and Cl– into the lumen.
+
+Regulation of Cl–
+Chloride is important in acid–base balance in the extracellular space and has other functions, such as in the
+stomach, where it combines with hydrogen ions in the stomach lumen to form hydrochloric acid, aiding digestion. Its
+close association with Na+ in the extracellular environment makes it the dominant anion of this compartment, and
+its regulation closely mirrors that of Na+.
+
+Regulation of Ca++ and Phosphate
+The parathyroid glands monitor and respond to circulating levels of Ca++ in the blood. When levels drop too low, PTH
+is released to stimulate the DCT to reabsorb Ca++ from the forming urine. When levels are adequate or high, less PTH
+is released and more Ca++ remains in the forming urine to be lost. Phosphate levels move in the opposite direction.
+When Ca++ levels are low, PTH inhibits reabsorption of
+so that its blood level drops, allowing Ca++ levels to
+rise. PTH also stimulates the renal conversion of calcidiol into calcitriol, the active form of vitamin D. Calcitriol then
+stimulates the intestines to absorb more Ca++ from the diet.
+
+Regulation of H+, Bicarbonate, and pH
+The acid–base homeostasis of the body is a function of chemical buffers and physiologic buffering provided by the
+lungs and kidneys. Buffers, especially proteins,
+, and ammonia have a very large capacity to absorb or
+release H+ as needed to resist a change in pH. They can act within fractions of a second. The lungs can rid the body
+of excess acid very rapidly (seconds to minutes) through the conversion of HCO3– into CO2, which is then exhaled. It
+is rapid but has limited capacity in the face of a significant acid challenge. The kidneys can rid the body of both acid
+and base. The renal capacity is large but slow (minutes to hours). The cells of the PCT actively secrete H+ into the
+forming urine as Na+ is reabsorbed. The body rids itself of excess H+ and raises blood pH. In the collecting ducts, the
+apical surfaces of intercalated cells have proton pumps that actively secrete H+ into the luminal, forming urine to
+remove it from the body.
+As hydrogen ions are pumped into the forming urine, it is buffered by bicarbonate (HCO3–), H2PO4– (dihydrogen
+phosphate ion), or ammonia (forming NH4+, ammonium ion). Urine pH typically varies in a normal range from 4.5 to 8.0.
+
+Regulation of Nitrogen Wastes
+Nitrogen wastes are produced by the breakdown of proteins during normal metabolism. Proteins are broken down
+into amino acids, which in turn are deaminated by having their nitrogen groups removed. Deamination converts the
+amino (NH2) groups into ammonia (NH3), ammonium ion (NH4+), urea, or uric acid (Figure 25.22). Ammonia is
+extremely toxic, so most of it is very rapidly converted into urea in the liver. Human urinary wastes typically contain
+primarily urea with small amounts of ammonium and very little uric acid.
+
+FIGURE 25.22
+Nitrogen Wastes
+
+Elimination of Drugs and Hormones
+Water-soluble drugs may be excreted in the urine and are influenced by one or all of the following processes:
+glomerular filtration, tubular secretion, or tubular reabsorption. Drugs that are structurally small can be filtered by
+the glomerulus with the filtrate. Large drug molecules such as heparin or those that are bound to plasma proteins
+cannot be filtered and are not readily eliminated. Some drugs can be eliminated by carrier proteins that enable
+secretion of the drug into the tubule lumen. There are specific carriers that eliminate basic (such as dopamine or
+histamine) or acidic drugs (such as penicillin or indomethacin). As is the case with other substances, drugs may be
+both filtered and reabsorbed passively along a concentration gradient.
