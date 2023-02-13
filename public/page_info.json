@@ -578,6 +578,15 @@
                   "28.5_Adjustments_of_the_Infant_at_Birth_and_Postnatal_Stages": "1250",
                   "28.6_Lactation": "1252",
                   "28.7_Patterns_of_Inheritance": "1256"
+            },
+            "in_sections": {
+                  "28.1 Fertilization": 1,
+                  "28.2 Embryonic Development": 6,
+                  "28.3 Fetal Development": 17,
+                  "28.4 Changes During Pregnancy, Labor, and Birth": 22,
+                  "28.5 Adjustments of the Infant at Birth and Postnatal Stages": 28,
+                  "28.6 Lactation": 30,
+                  "28.7 Patterns of Inheritance": 34
             }
       }
 }

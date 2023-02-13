@@ -8,6 +8,7 @@
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
     "bootstrap": "^5.2.3",
+    "file-saver": "^2.0.5",
     "fs": "^0.0.1-security",
     "pdf-parse": "^1.1.1",
     "pdfjs-dist": "^3.3.122",
@@ -48,5 +49,4 @@
   "devDependencies": {
     "@types/react-pdf": "^6.2.0"
   }
-
 }

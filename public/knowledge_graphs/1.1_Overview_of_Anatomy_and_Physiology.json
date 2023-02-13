@@ -1,0 +1,367 @@
+{
+  "nodes": [
+    {
+      "id": "Human anatomy",
+      "label": "Human anatomy",
+      "color": "#00FF00"
+    },
+    {
+      "id": "body's structures",
+      "label": "body's structures",
+      "color": "#ffffff"
+    },
+    {
+      "id": "Greek root",
+      "label": "Greek root",
+      "color": "#ffffff"
+    },
+    {
+      "id": "observing exterior of body",
+      "label": "observing exterior of body",
+      "color": "#ffffff"
+    },
+    {
+      "id": "dissecting bodies of dead",
+      "label": "dissecting bodies of dead",
+      "color": "#ffffff"
+    },
+    {
+      "id": "Dissection",
+      "label": "Dissection",
+      "color": "#ffffff"
+    },
+    {
+      "id": "medical schools",
+      "label": "medical schools",
+      "color": "#ffffff"
+    },
+    {
+      "id": "anatomy courses",
+      "label": "anatomy courses",
+      "color": "#ffffff"
+    },
+    {
+      "id": "pathology labs",
+      "label": "pathology labs",
+      "color": "#ffffff"
+    },
+    {
+      "id": "Imaging techniques",
+      "label": "Imaging techniques",
+      "color": "#ffffff"
+    },
+    {
+      "id": "structures inside living body",
+      "label": "structures inside living body",
+      "color": "#ffffff"
+    },
+    {
+      "id": "Gross anatomy",
+      "label": "Gross anatomy",
+      "color": "#ffffff"
+    },
+    {
+      "id": "larger structures of body",
+      "label": "larger structures of body",
+      "color": "#ffffff"
+    },
+    {
+      "id": "macroscopic anatomy",
+      "label": "macroscopic anatomy",
+      "color": "#ffffff"
+    },
+    {
+      "id": "Microscopic anatomy",
+      "label": "Microscopic anatomy",
+      "color": "#ffffff"
+    },
+    {
+      "id": "cytology",
+      "label": "cytology",
+      "color": "#ffffff"
+    },
+    {
+      "id": "histology",
+      "label": "histology",
+      "color": "#ffffff"
+    },
+    {
+      "id": "Technology of microscopes",
+      "label": "Technology of microscopes",
+      "color": "#ffffff"
+    },
+    {
+      "id": "smaller and smaller structures of body",
+      "label": "smaller and smaller structures of body",
+      "color": "#ffffff"
+    },
+    {
+      "id": "FIGURE 1.2 Gross and Microscopic Anatomy (a)",
+      "label": "FIGURE 1.2 Gross and Microscopic Anatomy (a)",
+      "color": "#ffffff"
+    },
+    {
+      "id": "brain",
+      "label": "brain",
+      "color": "#ffffff"
+    },
+    {
+      "id": "FIGURE 1.2 Gross and Microscopic Anatomy (b)",
+      "label": "FIGURE 1.2 Gross and Microscopic Anatomy (b)",
+      "color": "#00FF00"
+    },
+    {
+      "id": "Micrograph of nerve cells from the brain",
+      "label": "Micrograph of nerve cells from the brain",
+      "color": "#ffffff"
+    },
+    {
+      "id": "WriterHound",
+      "label": "WriterHound",
+      "color": "#ffffff"
+    },
+    {
+      "id": "Regents of University of Michigan Medical School",
+      "label": "Regents of University of Michigan Medical School",
+      "color": "#ffffff"
+    },
+    {
+      "id": "exterior of body",
+      "label": "exterior of body",
+      "color": "#ffffff"
+    },
+    {
+      "id": "wounds of soldiers",
+      "label": "wounds of soldiers",
+      "color": "#ffffff"
+    },
+    {
+      "id": "dissecting bodies",
+      "label": "dissecting bodies",
+      "color": "#ffffff"
+    },
+    {
+      "id": "imaging techniques",
+      "label": "imaging techniques",
+      "color": "#ffffff"
+    },
+    {
+      "id": "larger structures",
+      "label": "larger structures",
+      "color": "#ffffff"
+    },
+    {
+      "id": "structures",
+      "label": "structures",
+      "color": "#ffffff"
+    },
+    {
+      "id": "cells",
+      "label": "cells",
+      "color": "#ffffff"
+    },
+    {
+      "id": "tissues",
+      "label": "tissues",
+      "color": "#ffffff"
+    },
+    {
+      "id": "Microscopes",
+      "label": "Microscopes",
+      "color": "#ffffff"
+    },
+    {
+      "id": "smaller structures",
+      "label": "smaller structures",
+      "color": "#ffffff"
+    }
+  ],
+  "edges": [
+    {
+      "from": "Human anatomy",
+      "to": "body's structures",
+      "label": "is the scientific study of",
+      "id": "3a7edc2c-a871-4419-9714-d987ce21a771"
+    },
+    {
+      "from": "Human anatomy",
+      "to": "Greek root",
+      "label": "comes from",
+      "id": "91a6478a-b529-4425-a7a3-d54a7d95517c"
+    },
+    {
+      "from": "Human anatomy",
+      "to": "observing exterior of body",
+      "label": "was first studied by",
+      "id": "156d663d-3750-4367-8ab2-48189e632268"
+    },
+    {
+      "from": "Human anatomy",
+      "to": "dissecting bodies of dead",
+      "label": "was augmented by",
+      "id": "b924f33c-b5aa-4ddf-a680-8030894a8b7a"
+    },
+    {
+      "from": "Dissection",
+      "to": "medical schools",
+      "label": "is used in",
+      "id": "1f61b186-b201-4eef-a6ea-7ae66d3e1cc8"
+    },
+    {
+      "from": "Dissection",
+      "to": "anatomy courses",
+      "label": "is used in",
+      "id": "5607ad35-c9bd-4ecb-8000-643bb0fd1eea"
+    },
+    {
+      "from": "Dissection",
+      "to": "pathology labs",
+      "label": "is used in",
+      "id": "866a5091-f8d0-4690-be32-0b2f1e4055bc"
+    },
+    {
+      "from": "Imaging techniques",
+      "to": "structures inside living body",
+      "label": "allow clinicians to visualize",
+      "id": "4cf604be-a3a0-4236-a713-c1250da5d2f4"
+    },
+    {
+      "from": "Gross anatomy",
+      "to": "larger structures of body",
+      "label": "is the study of",
+      "id": "f9ef0375-fb1d-4152-87ed-fecec5e68b99"
+    },
+    {
+      "from": "Gross anatomy",
+      "to": "macroscopic anatomy",
+      "label": "is also referred to as",
+      "id": "2d43ca01-5cc4-4c74-a978-4975b830d9e1"
+    },
+    {
+      "from": "Microscopic anatomy",
+      "to": "cytology",
+      "label": "includes",
+      "id": "0def9a03-a095-4ae9-9750-b8da0d64cfb3"
+    },
+    {
+      "from": "Microscopic anatomy",
+      "to": "histology",
+      "label": "includes",
+      "id": "befd7178-1e55-4793-bf63-bd7a3ed377d1"
+    },
+    {
+      "from": "Technology of microscopes",
+      "to": "smaller and smaller structures of body",
+      "label": "has allowed anatomists to observe",
+      "id": "e8ed09b7-ac25-4959-9e6a-16ae80865929"
+    },
+    {
+      "from": "FIGURE 1.2 Gross and Microscopic Anatomy (a)",
+      "to": "Gross anatomy",
+      "label": "related to",
+      "id": "013ad9f3-4e96-495d-bfaa-a7a2a20e73e1"
+    },
+    {
+      "from": "FIGURE 1.2 Gross and Microscopic Anatomy (a)",
+      "to": "brain",
+      "label": "related to",
+      "id": "ff6fecf8-a89b-45e3-9c7d-2bb7ba0afa67"
+    },
+    {
+      "from": "FIGURE 1.2 Gross and Microscopic Anatomy (b)",
+      "to": "Gross anatomy",
+      "label": "related to",
+      "id": "49447aa7-53cd-4381-abd2-4e9d97df1e44"
+    },
+    {
+      "from": "FIGURE 1.2 Gross and Microscopic Anatomy (b)",
+      "to": "brain",
+      "label": "related to",
+      "id": "d64411ba-cb92-420b-9be8-b2139455f227"
+    },
+    {
+      "from": "FIGURE 1.2 Gross and Microscopic Anatomy (b)",
+      "to": "Microscopic anatomy",
+      "label": "related to",
+      "id": "5a727fd6-1698-4fd4-b3b4-fdba276af22b"
+    },
+    {
+      "from": "Micrograph of nerve cells from the brain",
+      "to": "brain",
+      "label": "related to",
+      "id": "e33031f6-6b5d-430c-a7d8-b2928288e24f"
+    },
+    {
+      "from": "Micrograph of nerve cells from the brain",
+      "to": "Microscopic anatomy",
+      "label": "related to",
+      "id": "79f745a5-15b6-4e76-b101-2585845ce045"
+    },
+    {
+      "from": "WriterHound",
+      "to": "FIGURE 1.2 Gross and Microscopic Anatomy (a)",
+      "label": "credit for",
+      "id": "ee4b5878-3c03-49da-9196-8fbfcb0f599c"
+    },
+    {
+      "from": "Regents of University of Michigan Medical School",
+      "to": "FIGURE 1.2 Gross and Microscopic Anatomy (b)",
+      "label": "credit for",
+      "id": "e36bc5a9-f14f-4879-8d38-e2a5033242d7"
+    },
+    {
+      "from": "Human anatomy",
+      "to": "exterior of body",
+      "label": "observed by",
+      "id": "bc91f9da-6b16-4c83-841f-628c310c76bd"
+    },
+    {
+      "from": "Human anatomy",
+      "to": "wounds of soldiers",
+      "label": "observed by",
+      "id": "baa70087-1973-410c-9182-0392bc9b8b52"
+    },
+    {
+      "from": "Human anatomy",
+      "to": "dissecting bodies",
+      "label": "observed by",
+      "id": "699c7393-6e8f-4c64-b3ee-8e48bbeff436"
+    },
+    {
+      "from": "Human anatomy",
+      "to": "imaging techniques",
+      "label": "observed by",
+      "id": "0688c5fd-04cc-466a-b2a2-2e50bca0bcf7"
+    },
+    {
+      "from": "Gross anatomy",
+      "to": "larger structures",
+      "label": "study of",
+      "id": "e3a73f33-a724-4b4d-9ea8-873a92c009c3"
+    },
+    {
+      "from": "Microscopic anatomy",
+      "to": "structures",
+      "label": "study of",
+      "id": "062c4907-81c4-454c-8438-18db89b7dc3a"
+    },
+    {
+      "from": "Microscopic anatomy",
+      "to": "cells",
+      "label": "study of",
+      "id": "bb64d5a1-c564-4c66-b881-7f8daf427e92"
+    },
+    {
+      "from": "Microscopic anatomy",
+      "to": "tissues",
+      "label": "study of",
+      "id": "0ef6949b-b345-4351-9a32-6a559c8f26a3"
+    },
+    {
+      "from": "Microscopes",
+      "to": "smaller structures",
+      "label": "used to observe",
+      "id": "32e4fd15-d5fe-4932-8a70-5a1432c0b82a"
+    }
+  ]
+}

@@ -6,6 +6,7 @@ Compare and contrast anatomy and physiology, including their specializations and
 •
 Discuss the fundamental relationship between anatomy and physiology
 
+===
 Human anatomy is the scientific study of the body’s structures. Some of these structures are very small and can
 only be observed and analyzed with the assistance of a microscope. Other larger structures can readily be seen,
 manipulated, measured, and weighed. The word “anatomy” comes from a Greek root that means “to cut apart.”
@@ -23,11 +24,17 @@ devices (Figure 1.2 b). Microscopic anatomy includes cytology, the study of cell
 As the technology of microscopes has advanced, anatomists have been able to observe smaller and smaller
 structures of the body, from slices of large structures like the heart, to the three-dimensional structures of large
 molecules in the body.
+===
+
+===
 FIGURE 1.2
 Gross and Microscopic Anatomy
 (a) Gross anatomy considers large structures such as the brain. (b) Microscopic anatomy
 can deal with the same structures, though at a different scale. This is a micrograph of nerve cells from the brain. LM × 1600. (credit a:
 “WriterHound”/Wikimedia Commons; credit b: Micrograph provided by the Regents of University of Michigan Medical School © 2012)
+===
+
+===
 Anatomists take two general approaches to the study of the body’s structures: regional and systemic. Regional
 anatomy is the study of the interrelationships of all of the structures in a specific body region, such as the abdomen.
 Studying regional anatomy helps us appreciate the interrelationships of body structures, such as how muscles,
@@ -59,3 +66,4 @@ unique arrangement of the bones of the human hand if you had no conception of th
 Fortunately, your understanding of how the human hand manipulates tools—from pens to cell phones—helps you
 appreciate the unique alignment of the thumb in opposition to the four fingers, making your hand a structure that
 allows you to pinch and grasp objects and type text messages.
+===
