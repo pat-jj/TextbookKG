@@ -13,7 +13,9 @@ FIGURE 1.3
 Levels of Structural Organization of the Human Body
 The organization of the body often is discussed in terms of six
 distinct levels of increasing complexity, from the smallest chemical building blocks to a unique human organism.
-The Levels of Organization
+
+===
+The Levels of Organization.
 To study the chemical level of organization, scientists consider the simplest building blocks of matter: subatomic
 particles, atoms and molecules. All matter in the universe is composed of one or more unique pure substances
 called elements, familiar examples of which are hydrogen, oxygen, carbon, nitrogen, calcium, and iron. The smallest
@@ -39,11 +41,15 @@ People often use the words "female" and "male" to describe two different concept
 and our biological sex as determined by our chromosomes, hormones, organs, and other physical characteristics.
 For some people, gender identity is different from biological sex or their sex assigned at birth. Throughout this book,
 "female" and "male" refer to sex only, and the typical anatomy and physiology of XX and XY individuals is discussed.
+===
 
+===
 FIGURE 1.4
-Organ Systems of the Human Body
+Organ Systems of the Human Body.
 Organs that work together are grouped into organ systems.
+===
 
+===
 FIGURE 1.5
 Organ Systems of the Human Body (continued)
 Organs that work together are grouped into organ systems.
@@ -51,3 +57,4 @@ The organism level is the highest level of organization. An organism is a living
 that can independently perform all physiologic functions necessary for life. In multicellular organisms, including
 humans, all cells, tissues, organs, and organ systems of the body work together to maintain the life and health of the
 organism.
+===

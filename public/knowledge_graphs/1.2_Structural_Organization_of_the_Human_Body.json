@@ -1,0 +1,522 @@
+{
+  "nodes": [
+    {
+      "id": "subatomic particles",
+      "label": "subatomic particles",
+      "color": "#00FF00"
+    },
+    {
+      "id": "atoms",
+      "label": "atoms",
+      "color": "#00FF00"
+    },
+    {
+      "id": "molecules",
+      "label": "molecules",
+      "color": "#00FF00"
+    },
+    {
+      "id": "elements",
+      "label": "elements",
+      "color": "#00FF00"
+    },
+    {
+      "id": "proton",
+      "label": "proton",
+      "color": "#00FF00"
+    },
+    {
+      "id": "electron",
+      "label": "electron",
+      "color": "#00FF00"
+    },
+    {
+      "id": "neutron",
+      "label": "neutron",
+      "color": "#00FF00"
+    },
+    {
+      "id": "water molecules",
+      "label": "water molecules",
+      "color": "#00FF00"
+    },
+    {
+      "id": "proteins",
+      "label": "proteins",
+      "color": "#00FF00"
+    },
+    {
+      "id": "sugars",
+      "label": "sugars",
+      "color": "#00FF00"
+    },
+    {
+      "id": "cell",
+      "label": "cell",
+      "color": "#00FF00"
+    },
+    {
+      "id": "bacteria",
+      "label": "bacteria",
+      "color": "#00FF00"
+    },
+    {
+      "id": "cytoplasm",
+      "label": "cytoplasm",
+      "color": "#00FF00"
+    },
+    {
+      "id": "organelles",
+      "label": "organelles",
+      "color": "#00FF00"
+    },
+    {
+      "id": "tissue",
+      "label": "tissue",
+      "color": "#00FF00"
+    },
+    {
+      "id": "organ",
+      "label": "organ",
+      "color": "#00FF00"
+    },
+    {
+      "id": "organ system",
+      "label": "organ system",
+      "color": "#00FF00"
+    },
+    {
+      "id": "gender identity",
+      "label": "gender identity",
+      "color": "#00FF00"
+    },
+    {
+      "id": "biological sex",
+      "label": "biological sex",
+      "color": "#00FF00"
+    },
+    {
+      "id": "XX",
+      "label": "XX",
+      "color": "#00FF00"
+    },
+    {
+      "id": "XY",
+      "label": "XY",
+      "color": "#00FF00"
+    },
+    {
+      "id": "atom",
+      "label": "atom",
+      "color": "#00FF00"
+    },
+    {
+      "id": "living things",
+      "label": "living things",
+      "color": "#00FF00"
+    },
+    {
+      "id": "flexible membranes",
+      "label": "flexible membranes",
+      "color": "#00FF00"
+    },
+    {
+      "id": "Figure 1.4",
+      "label": "Figure 1.4",
+      "color": "#00FF00"
+    },
+    {
+      "id": "Figure 1.5",
+      "label": "Figure 1.5",
+      "color": "#00FF00"
+    },
+    {
+      "id": "sex assigned at birth",
+      "label": "sex assigned at birth",
+      "color": "#00FF00"
+    },
+    {
+      "id": "female",
+      "label": "female",
+      "color": "#FF00FF"
+    },
+    {
+      "id": "male",
+      "label": "male",
+      "color": "#0000FF"
+    },
+    {
+      "id": "body structures",
+      "label": "body structures",
+      "color": "#ffffff"
+    },
+    {
+      "id": "living organism",
+      "label": "living organism",
+      "color": "#ffffff"
+    },
+    {
+      "id": "similar cells",
+      "label": "similar cells",
+      "color": "#ffffff"
+    },
+    {
+      "id": "body",
+      "label": "body",
+      "color": "#ffffff"
+    },
+    {
+      "id": "two or more tissue types",
+      "label": "two or more tissue types",
+      "color": "#ffffff"
+    },
+    {
+      "id": "organs",
+      "label": "organs",
+      "color": "#ffffff"
+    },
+    {
+      "id": "major functions",
+      "label": "major functions",
+      "color": "#ffffff"
+    },
+    {
+      "id": "physiological needs",
+      "label": "physiological needs",
+      "color": "#ffffff"
+    },
+    {
+      "id": "sex",
+      "label": "sex",
+      "color": "#ffffff"
+    },
+    {
+      "id": "cellular structure",
+      "label": "cellular structure",
+      "color": "#ffffff"
+    },
+    {
+      "id": "",
+      "label": "",
+      "color": "#ffffff"
+    },
+    {
+      "id": "perform major functions",
+      "label": "perform major functions",
+      "color": "#ffffff"
+    },
+    {
+      "id": "meet physiological needs of the body",
+      "label": "meet physiological needs of the body",
+      "color": "#ffffff"
+    },
+    {
+      "id": "Organ Systems of the Human Body",
+      "label": "Organ Systems of the Human Body",
+      "color": "#ffffff"
+    },
+    {
+      "id": "Organism",
+      "label": "Organism",
+      "color": "#ffffff"
+    },
+    {
+      "id": "Cellular Structure",
+      "label": "Cellular Structure",
+      "color": "#ffffff"
+    },
+    {
+      "id": "Physiologic Functions",
+      "label": "Physiologic Functions",
+      "color": "#ffffff"
+    },
+    {
+      "id": "Cells",
+      "label": "Cells",
+      "color": "#ffffff"
+    },
+    {
+      "id": "Tissues",
+      "label": "Tissues",
+      "color": "#ffffff"
+    },
+    {
+      "id": "Organs",
+      "label": "Organs",
+      "color": "#ffffff"
+    },
+    {
+      "id": "Organ Systems",
+      "label": "Organ Systems",
+      "color": "#ffffff"
+    },
+    {
+      "id": "Life and Health",
+      "label": "Life and Health",
+      "color": "#ffffff"
+    },
+    {
+      "id": "Life",
+      "label": "Life",
+      "color": "#ffffff"
+    },
+    {
+      "id": "Multicellular Organisms",
+      "label": "Multicellular Organisms",
+      "color": "#ffffff"
+    },
+    {
+      "id": "Humans",
+      "label": "Humans",
+      "color": "#ffffff"
+    }
+  ],
+  "edges": [
+    {
+      "from": "subatomic particles",
+      "to": "atoms",
+      "label": "composed of",
+      "id": "d70d268a-cb3c-49d8-969f-d185d48b1a54"
+    },
+    {
+      "from": "atoms",
+      "to": "subatomic particles",
+      "label": "composed of",
+      "id": "d942c8c3-84f2-449a-834f-cdeb74625f30"
+    },
+    {
+      "from": "atoms",
+      "to": "molecules",
+      "label": "combine to form",
+      "id": "89d3909b-7f2a-4297-bd0e-57c1024c665d"
+    },
+    {
+      "from": "molecules",
+      "to": "atoms",
+      "label": "made up of",
+      "id": "de7e69be-da2d-4101-b600-2fa580c64dc4"
+    },
+    {
+      "from": "molecules",
+      "to": "body structures",
+      "label": "chemical building blocks of",
+      "id": "621e3f16-b69e-4ea9-bf1a-1d4e60269e39"
+    },
+    {
+      "from": "cell",
+      "to": "living organism",
+      "label": "smallest independently functioning unit of",
+      "id": "1ab19121-42b5-44e9-b67f-a46f9de747f6"
+    },
+    {
+      "from": "cell",
+      "to": "cytoplasm",
+      "label": "enclose",
+      "id": "4e80e25c-b71d-44fc-a1b0-9c6f94a92bee"
+    },
+    {
+      "from": "cell",
+      "to": "organelles",
+      "label": "enclose",
+      "id": "169b9aed-d884-4896-a35f-4656d38f3cde"
+    },
+    {
+      "from": "tissue",
+      "to": "similar cells",
+      "label": "group of",
+      "id": "4f90b6f8-d318-44e3-91e3-2fbd85180dcd"
+    },
+    {
+      "from": "organ",
+      "to": "body",
+      "label": "anatomically distinct structure of",
+      "id": "66ad74a8-6b06-41ab-8762-b52bcf45f99c"
+    },
+    {
+      "from": "organ",
+      "to": "two or more tissue types",
+      "label": "anatomically distinct structure of the body",
+      "id": "3aef1513-f445-4e89-9736-1f9f52174711"
+    },
+    {
+      "from": "organ system",
+      "to": "organs",
+      "label": "group of",
+      "id": "2ff5c641-6fdb-4a37-94e2-97c704e68de6"
+    },
+    {
+      "from": "organ system",
+      "to": "major functions",
+      "label": "perform",
+      "id": "aaa33425-bc8e-4f83-a92e-159dd3abf370"
+    },
+    {
+      "from": "organ system",
+      "to": "physiological needs",
+      "label": "meet",
+      "id": "5f885a01-1888-4048-8830-b83ccf5ecc44"
+    },
+    {
+      "from": "gender identity",
+      "to": "biological sex",
+      "label": "different from",
+      "id": "cd290397-51bc-488e-bc7d-2435e41a97d8"
+    },
+    {
+      "from": "female",
+      "to": "sex",
+      "label": "refers to",
+      "id": "8a933f69-b905-4ed3-81e5-815d3ed4392c"
+    },
+    {
+      "from": "male",
+      "to": "sex",
+      "label": "refers to",
+      "id": "b6ecbdf7-21bb-4b78-bea4-67d0dc887799"
+    },
+    {
+      "from": "bacteria",
+      "to": "cellular structure",
+      "label": "smallest independently-living organisms",
+      "id": "e8789a40-0eb5-43d7-8aaa-c1391aa5b651"
+    },
+    {
+      "from": "bacteria",
+      "to": "",
+      "label": "single cell",
+      "id": "ca484440-6706-4756-8fe5-aec1cfe58e2c"
+    },
+    {
+      "from": "organ system",
+      "to": "perform major functions",
+      "label": "group of organs",
+      "id": "3b00bead-9a29-4a8d-88b6-a20256180fd9"
+    },
+    {
+      "from": "organ system",
+      "to": "meet physiological needs of the body",
+      "label": "group of organs",
+      "id": "32b5930a-4608-4e5d-a03f-866e5137b53b"
+    },
+    {
+      "from": "Organ Systems of the Human Body",
+      "to": "Organism",
+      "label": "part of",
+      "id": "94bbaa01-6568-4490-8fc4-af1f6728101b"
+    },
+    {
+      "from": "Organism",
+      "to": "Organism",
+      "label": "highest level of organization",
+      "id": "d5c09d21-90ce-4c44-905f-f57856e5172f"
+    },
+    {
+      "from": "Cellular Structure",
+      "to": "Organism",
+      "label": "part of",
+      "id": "e3b75930-f9e3-4504-bb06-3c9a9fe53ab9"
+    },
+    {
+      "from": "Physiologic Functions",
+      "to": "Organism",
+      "label": "part of",
+      "id": "2093b70f-c675-4f0b-aba1-f12f3d2b6bc3"
+    },
+    {
+      "from": "Cells",
+      "to": "Organism",
+      "label": "part of",
+      "id": "af837d0b-4c60-46e8-b4fd-1730fd3d89a3"
+    },
+    {
+      "from": "Tissues",
+      "to": "Organism",
+      "label": "part of",
+      "id": "164b595b-420f-4c5c-9b56-d7a354c61942"
+    },
+    {
+      "from": "Organs",
+      "to": "Organism",
+      "label": "part of",
+      "id": "4fe594c4-dc39-44d6-b62e-f6ebbf891fef"
+    },
+    {
+      "from": "Organ Systems",
+      "to": "Organism",
+      "label": "maintain life and health of",
+      "id": "32d8a4ee-7cb7-43e5-894e-644390085192"
+    },
+    {
+      "from": "Organism",
+      "to": "Life and Health",
+      "label": "maintains",
+      "id": "3f6d626e-1fd0-4ebd-98dc-a1940ab08bd0"
+    },
+    {
+      "from": "biological sex",
+      "to": "gender identity",
+      "label": "different from",
+      "id": "0b06261f-4bdf-48ab-ab13-9195cd3c2967"
+    },
+    {
+      "from": "sex assigned at birth",
+      "to": "gender identity",
+      "label": "different from",
+      "id": "0a77dc3e-12ac-4de5-8b9f-0060c9f797b2"
+    },
+    {
+      "from": "molecules",
+      "to": "elements",
+      "label": "composed of",
+      "id": "f607f00f-574f-415b-8bab-c1e493c61619"
+    },
+    {
+      "from": "Organism",
+      "to": "Organ Systems of the Human Body",
+      "label": "highest level of organization",
+      "id": "486fed3d-5814-4ece-8f60-d4ff358a4bef"
+    },
+    {
+      "from": "Organism",
+      "to": "Cellular Structure",
+      "label": "living being",
+      "id": "3d2148f3-94b4-407e-952f-f307654555a0"
+    },
+    {
+      "from": "Organism",
+      "to": "Life",
+      "label": "able to perform physiologic functions",
+      "id": "1a6f867a-1e1a-4c84-8d0d-29b6045814c0"
+    },
+    {
+      "from": "Multicellular Organisms",
+      "to": "Humans",
+      "label": "including",
+      "id": "fa0ee897-4cd2-4be7-9407-643b23e2ba04"
+    },
+    {
+      "from": "Humans",
+      "to": "Cells",
+      "label": "made up of",
+      "id": "3d9f39f3-0432-4942-be49-93e8c7b39cc3"
+    },
+    {
+      "from": "Humans",
+      "to": "Tissues",
+      "label": "made up of",
+      "id": "29df016f-e0e6-4631-a098-91f1189ce7ed"
+    },
+    {
+      "from": "Humans",
+      "to": "Organs",
+      "label": "made up of",
+      "id": "fa3e677b-3e9e-41bd-8e6a-63809a02742a"
+    },
+    {
+      "from": "Humans",
+      "to": "Organ Systems",
+      "label": "made up of",
+      "id": "116f358c-ad31-488f-afe9-193a1187f7e8"
+    }
+  ]
+}

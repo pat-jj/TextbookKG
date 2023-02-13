@@ -1,3 +1,5 @@
 /.history
 textbook.pdf
 node_modules
+.ipynb_checkpoints
+.DS_Store

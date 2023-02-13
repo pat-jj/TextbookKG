@@ -282,7 +282,7 @@ function App() {
   }
 
   const outputGraph = () => {
-    handleSave(`${selectedSection}.json`);
+    handleSave(`${selectedSection.replaceAll(' ', '_')}.json`);
   }
 
   const regenerateGraph = async () => {
@@ -307,7 +307,7 @@ function App() {
       } else {
         console.log("Wait graph to be updated ... (10s)")
         await delay(10000);
-        handleSave(`${selectedSection}.json`);
+        // handleSave(`${selectedSection}.json`);
         document.body.style.cursor = 'default'; 
         document.getElementsByClassName("generateButton")[0].disabled = false;
       }
@@ -389,6 +389,8 @@ function App() {
       .then(response => response.text())
       .then(TEXT => setSelectedText(extractTextBetweenDelimiters(TEXT)));
 
+      clearState()
+      resumeGraph()
       console.log(selectedText);
     }
   }, [selectedSection]);
@@ -501,7 +503,7 @@ function App() {
               <input className="apiKeyTextField" type="password" placeholder="Enter your OpenAI API key..."></input>
             </div>
           </center>
-          <p className='footer'>Pro tip: don't take a screenshot! You can right-click and save the graph as a .png  📸</p>
+          <p className='footer'>Developed by Partick Jiang @ UIUC</p>
         </div>
 		</div>
 

@@ -12,6 +12,8 @@ Compare and contrast growth, differentiation, and reproduction
 The different organ systems each have different functions and therefore unique roles to perform in physiology.
 These many functions can be summarized in terms of a few that we might consider definitive of human life:
 organization, metabolism, responsiveness, movement, development, and reproduction.
+
+===
 Organization
 A human body consists of trillions of cells organized in a way that maintains distinct internal compartments. These
 compartments keep body cells separated from external environmental threats and keep the cells moist and
@@ -27,6 +29,9 @@ such as the lungs, heart, and kidneys separate from others.
 The body’s largest organ system is the integumentary system, which includes the skin and its associated structures,
 such as hair and nails. The surface tissue of skin is a barrier that protects internal structures and fluids from
 potentially harmful microorganisms and other toxins.
+===
+
+===
 Metabolism
 The first law of thermodynamics holds that energy can neither be created nor destroyed—it can only change form.
 Your basic function as an organism is to consume (ingest) energy and molecules in the foods you eat, convert some
@@ -43,24 +48,33 @@ can use their parts to assemble the structures and substances needed for life.
 Taken together, these two processes are called metabolism. Metabolism is the sum of all anabolic and catabolic
 reactions that take place in the body (Figure 1.6). Both anabolism and catabolism occur simultaneously and
 continuously to keep you alive.
-
-FIGURE 1.6
-Metabolism
-Anabolic reactions are building reactions, and they consume energy. Catabolic reactions break materials down
-and release energy. Metabolism includes both anabolic and catabolic reactions.
 Every cell in your body makes use of a chemical compound, adenosine triphosphate (ATP), to store and release
 energy. The cell stores energy in the synthesis (anabolism) of ATP, then moves the ATP molecules to the location
 where energy is needed to fuel cellular activities. Then the ATP is broken down (catabolism) and a controlled
 amount of energy is released, which is used by the cell to perform a particular job.
+===
+
+===
+FIGURE 1.6
+Metabolism
+Anabolic reactions are building reactions, and they consume energy. Catabolic reactions break materials down
+and release energy. Metabolism includes both anabolic and catabolic reactions.
+===
+
 INTERACTIVE LINK
 View this animation (http://openstax.org/l/metabolic) to learn more about metabolic processes. Which organs of the
 body likely carry out anabolic processes? What about catabolic processes?
+
+===
 Responsiveness
 Responsiveness is the ability of an organism to adjust to changes in its internal and external environments. An
 example of responsiveness to external stimuli could include moving toward sources of food and water and away
 from perceived dangers. Changes in an organism’s internal environment, such as increased body temperature, can
 cause the responses of sweating and the dilation of blood vessels in the skin in order to decrease body temperature,
 as shown by the runners in Figure 1.7.
+===
+
+===
 Movement
 Human movement includes not only actions at the joints of the body, but also the motion of individual organs and
 even individual cells. As you read these words, red and white blood cells are moving throughout your body, muscle
@@ -70,12 +84,17 @@ move air into and out of your lungs, to push blood throughout your body, and to 
 through your digestive tract. Consciously, of course, you contract your skeletal muscles to move the bones of your
 skeleton to get from one place to another (as the runners are doing in Figure 1.7), and to carry out all of the activities
 of your daily life.
+===
 
+===
 FIGURE 1.7
 Marathon Runners
 Runners demonstrate two characteristics of living humans—responsiveness and movement. Anatomic
 structures and physiological processes allow runners to coordinate the action of muscle groups and sweat in response to rising internal
 body temperature. (credit: Phil Roeder/flickr)
+===
+
+===
 Development, growth and reproduction
 Development is all of the changes the body goes through in life. Development includes the process of
 differentiation, in which unspecialized cells become specialized in structure and function to perform certain tasks
@@ -86,3 +105,4 @@ within very narrow limits, increasing the size of existing cells.
 Reproduction is the formation of a new organism from parent organisms. In humans, reproduction is carried out by
 the male and female reproductive systems. Because death will come to all complex organisms, without
 reproduction, the line of organisms would end.
+===
