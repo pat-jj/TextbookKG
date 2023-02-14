@@ -1,0 +1,313 @@
+{
+  "nodes": [
+    {
+      "id": "Posterior (Dorsal) Cavity",
+      "label": "Posterior (Dorsal) Cavity",
+      "color": "#ffffff"
+    },
+    {
+      "id": "Anterior (Ventral) Cavity",
+      "label": "Anterior (Ventral) Cavity",
+      "color": "#ffffff"
+    },
+    {
+      "id": "Cranial Cavity",
+      "label": "Cranial Cavity",
+      "color": "#ffffff"
+    },
+    {
+      "id": "Brain",
+      "label": "Brain",
+      "color": "#ffffff"
+    },
+    {
+      "id": "Spinal Cavity",
+      "label": "Spinal Cavity",
+      "color": "#ffffff"
+    },
+    {
+      "id": "Spinal Cord",
+      "label": "Spinal Cord",
+      "color": "#ffffff"
+    },
+    {
+      "id": "Bones of Skull",
+      "label": "Bones of Skull",
+      "color": "#ffffff"
+    },
+    {
+      "id": "Vertebral Column",
+      "label": "Vertebral Column",
+      "color": "#ffffff"
+    },
+    {
+      "id": "Cerebrospinal Fluid",
+      "label": "Cerebrospinal Fluid",
+      "color": "#ffffff"
+    },
+    {
+      "id": "#FFFFFF",
+      "label": "#FFFFFF",
+      "color": "#ffffff"
+    },
+    {
+      "id": "Thoracic Cavity",
+      "label": "Thoracic Cavity",
+      "color": "#ffffff"
+    },
+    {
+      "id": "Rib Cage",
+      "label": "Rib Cage",
+      "color": "#ffffff"
+    },
+    {
+      "id": "Lungs",
+      "label": "Lungs",
+      "color": "#ffffff"
+    },
+    {
+      "id": "Heart",
+      "label": "Heart",
+      "color": "#ffffff"
+    },
+    {
+      "id": "Mediastinum",
+      "label": "Mediastinum",
+      "color": "#ffffff"
+    },
+    {
+      "id": "Diaphragm",
+      "label": "Diaphragm",
+      "color": "#ffffff"
+    },
+    {
+      "id": "Abdominopelvic Cavity",
+      "label": "Abdominopelvic Cavity",
+      "color": "#ffffff"
+    },
+    {
+      "id": "Abdominal Cavity",
+      "label": "Abdominal Cavity",
+      "color": "#ffffff"
+    },
+    {
+      "id": "Digestive Organs",
+      "label": "Digestive Organs",
+      "color": "#ffffff"
+    },
+    {
+      "id": "Pelvic Cavity",
+      "label": "Pelvic Cavity",
+      "color": "#ffffff"
+    },
+    {
+      "id": "Organs of Reproduction",
+      "label": "Organs of Reproduction",
+      "color": "#ffffff"
+    },
+    {
+      "id": "Spinal Cavity (or Vertebral Cavity)",
+      "label": "Spinal Cavity (or Vertebral Cavity)",
+      "color": "#ffffff"
+    },
+    {
+      "id": "Bones of Skull and Vertebral Column",
+      "label": "Bones of Skull and Vertebral Column",
+      "color": "#ffffff"
+    }
+  ],
+  "edges": [
+    {
+      "from": "Posterior (Dorsal) Cavity",
+      "to": "Anterior (Ventral) Cavity",
+      "label": "subdivision of",
+      "id": "c4df87ee-2d20-4cb6-b146-e021e0a5b3a8"
+    },
+    {
+      "from": "Cranial Cavity",
+      "to": "Brain",
+      "label": "houses",
+      "id": "ca04643b-c107-4a7e-a3e3-c90681a2b49f"
+    },
+    {
+      "from": "Spinal Cavity",
+      "to": "Spinal Cord",
+      "label": "houses",
+      "id": "fe6f07d6-989f-4fcb-8d58-5d2f3c016b41"
+    },
+    {
+      "from": "Brain",
+      "to": "Spinal Cord",
+      "label": "continuous with",
+      "id": "da7e5d89-557f-421b-bfb0-f604ba3faf50"
+    },
+    {
+      "from": "Cranial Cavity",
+      "to": "Spinal Cavity",
+      "label": "continuous with",
+      "id": "f1571b0e-ac22-401a-a6d3-b96451004c5b"
+    },
+    {
+      "from": "Brain",
+      "to": "Bones of Skull",
+      "label": "protected by",
+      "id": "d69468cd-0ced-4d0b-8551-7d67ca61f375"
+    },
+    {
+      "from": "Brain",
+      "to": "Vertebral Column",
+      "label": "protected by",
+      "id": "21cb1411-79bb-48b0-a166-659fde4dc76e"
+    },
+    {
+      "from": "Brain",
+      "to": "Cerebrospinal Fluid",
+      "label": "protected by",
+      "id": "f80c7e75-8478-43c9-b257-6d23e1fe1404"
+    },
+    {
+      "from": "Cerebrospinal Fluid",
+      "to": "#FFFFFF",
+      "label": "color",
+      "id": "9b2e702f-8716-4c9a-8fb6-49ab46386bc7"
+    },
+    {
+      "from": "Anterior (Ventral) Cavity",
+      "to": "Posterior (Dorsal) Cavity",
+      "label": "subdivision of",
+      "id": "626362c1-e48d-4258-94fc-b1af05e99b68"
+    },
+    {
+      "from": "Thoracic Cavity",
+      "to": "Anterior (Ventral) Cavity",
+      "label": "subdivision of",
+      "id": "1c2f5bdf-6b89-4766-a41e-022c9a1c6eba"
+    },
+    {
+      "from": "Thoracic Cavity",
+      "to": "Rib Cage",
+      "label": "enclosed by",
+      "id": "5a3103c0-7c27-4efa-9181-43d5e04a1b3e"
+    },
+    {
+      "from": "Thoracic Cavity",
+      "to": "Lungs",
+      "label": "contains",
+      "id": "ad4e6f97-3fd4-4bfc-af3a-d0ec2b6e8a6d"
+    },
+    {
+      "from": "Thoracic Cavity",
+      "to": "Heart",
+      "label": "contains",
+      "id": "cd7aa3e7-64b7-4dd6-8a6a-11922bf0bf91"
+    },
+    {
+      "from": "Heart",
+      "to": "Mediastinum",
+      "label": "located in",
+      "id": "03c63dde-afaa-4878-a7ae-a9d97b7177b2"
+    },
+    {
+      "from": "Diaphragm",
+      "to": "Thoracic Cavity",
+      "label": "forms floor of",
+      "id": "01b30986-1d2c-4932-a327-db2874b695cb"
+    },
+    {
+      "from": "Diaphragm",
+      "to": "Abdominopelvic Cavity",
+      "label": "separates",
+      "id": "922f010c-4f32-4351-aaca-65acbe6fcddf"
+    },
+    {
+      "from": "Abdominal Cavity",
+      "to": "Digestive Organs",
+      "label": "houses",
+      "id": "24da6c7a-fae3-459a-855f-7a35da95b0c8"
+    },
+    {
+      "from": "Pelvic Cavity",
+      "to": "Organs of Reproduction",
+      "label": "houses",
+      "id": "55ffa9eb-a92c-4999-8378-130e5d6b1dd5"
+    },
+    {
+      "from": "Posterior (Dorsal) Cavity",
+      "to": "Cranial Cavity",
+      "label": "subdivided into",
+      "id": "b43171d6-6cd4-43d0-843a-fb16adde186b"
+    },
+    {
+      "from": "Posterior (Dorsal) Cavity",
+      "to": "Spinal Cavity",
+      "label": "subdivided into",
+      "id": "b97407f3-4e78-4a9c-bc23-df6dfffc9ed3"
+    },
+    {
+      "from": "Anterior (Ventral) Cavity",
+      "to": "Thoracic Cavity",
+      "label": "subdivision of",
+      "id": "2dcbcb5c-a11c-4563-abb4-9fdf52f05bf9"
+    },
+    {
+      "from": "Anterior (Ventral) Cavity",
+      "to": "Abdominopelvic Cavity",
+      "label": "subdivision of",
+      "id": "8a12d768-ba63-43c5-8712-d7ea5386eee2"
+    },
+    {
+      "from": "Thoracic Cavity",
+      "to": "Abdominopelvic Cavity",
+      "label": "separated from",
+      "id": "37c4fba3-06c1-4fd1-9497-2f430b3c8214"
+    },
+    {
+      "from": "Abdominopelvic Cavity",
+      "to": "Abdominal Cavity",
+      "label": "divided into",
+      "id": "f580c016-055a-42e7-835e-6a36503a201f"
+    },
+    {
+      "from": "Abdominopelvic Cavity",
+      "to": "Pelvic Cavity",
+      "label": "divided into",
+      "id": "0cb64ba4-2f09-4596-949f-f409967c3e8c"
+    },
+    {
+      "from": "Spinal Cavity (or Vertebral Cavity)",
+      "to": "Spinal Cord",
+      "label": "encloses",
+      "id": "eb6619c0-fe69-4187-8236-18e87153a722"
+    },
+    {
+      "from": "Brain",
+      "to": "Bones of Skull and Vertebral Column",
+      "label": "protected by",
+      "id": "f9c72070-d411-4859-97f4-7e2232913238"
+    },
+    {
+      "from": "Spinal Cord",
+      "to": "Bones of Skull and Vertebral Column",
+      "label": "protected by",
+      "id": "6697ef64-7167-4179-a418-37cb5ae30b75"
+    },
+    {
+      "from": "Thoracic Cavity",
+      "to": "Diaphragm",
+      "label": "floor of",
+      "id": "b32a0474-2f0c-45bc-9e09-6fc8a9054797"
+    },
+    {
+      "from": "Abdominopelvic Cavity",
+      "to": "Digestive Organs",
+      "label": "houses",
+      "id": "dc1ca489-4868-4fc0-bb78-2f9975525521"
+    },
+    {
+      "from": "Abdominopelvic Cavity",
+      "to": "Organs of Reproduction",
+      "label": "houses",
+      "id": "6574ee3a-7759-4a09-9bcb-1ff9eee72433"
+    }
+  ]
+}

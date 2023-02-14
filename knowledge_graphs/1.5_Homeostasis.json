@@ -329,6 +329,51 @@
       "id": "Blood clotting",
       "label": "Blood clotting",
       "color": "#ffffff"
+    },
+    {
+      "id": "First contractions of labor",
+      "label": "First contractions of labor",
+      "color": "#ffffff"
+    },
+    {
+      "id": "stronger contractions of smooth muscles of uterus",
+      "label": "stronger contractions of smooth muscles of uterus",
+      "color": "#ffffff"
+    },
+    {
+      "id": "penetrating wound",
+      "label": "penetrating wound",
+      "color": "#ffffff"
+    },
+    {
+      "id": "Excessive blood loss",
+      "label": "Excessive blood loss",
+      "color": "#ffffff"
+    },
+    {
+      "id": "Vital organs",
+      "label": "Vital organs",
+      "color": "#ffffff"
+    },
+    {
+      "id": "if perfusion is severely reduced",
+      "label": "if perfusion is severely reduced",
+      "color": "#ffffff"
+    },
+    {
+      "id": "by releasing substances in injured blood vessel wall",
+      "label": "by releasing substances in injured blood vessel wall",
+      "color": "#ffffff"
+    },
+    {
+      "id": "local area based on tightly controlled availability of clotting proteins",
+      "label": "local area based on tightly controlled availability of clotting proteins",
+      "color": "#ffffff"
+    },
+    {
+      "id": "true",
+      "label": "true",
+      "color": "#ffffff"
     }
   ],
   "edges": [
@@ -571,6 +616,54 @@
       "to": "release of more clotting substances",
       "label": "stimulates",
       "id": "2ff74b02-a353-43e5-bb0e-13c620460daf"
+    },
+    {
+      "from": "First contractions of labor",
+      "to": "baby toward cervix",
+      "label": "push",
+      "id": "0b39924a-ccc5-47a9-9d8e-b88a55521779"
+    },
+    {
+      "from": "Oxytocin",
+      "to": "stronger contractions of smooth muscles of uterus",
+      "label": "causes",
+      "id": "21ae2c48-619c-4949-8e68-239d972ad61c"
+    },
+    {
+      "from": "Reversing extreme damage to body",
+      "to": "penetrating wound",
+      "label": "follows",
+      "id": "841ab8d7-dfcc-423a-b9a0-15756bbae553"
+    },
+    {
+      "from": "Excessive blood loss",
+      "to": "blood pressure and perfusion",
+      "label": "reduces",
+      "id": "6aa34c84-02cc-4dda-a6eb-4491ced61b23"
+    },
+    {
+      "from": "Vital organs",
+      "to": "if perfusion is severely reduced",
+      "label": "shut down",
+      "id": "fb4421a1-3662-4499-879a-de7ef54b2d19"
+    },
+    {
+      "from": "Body",
+      "to": "by releasing substances in injured blood vessel wall",
+      "label": "responds to potential catastrophe",
+      "id": "b207e622-547b-4819-be24-de00697c7496"
+    },
+    {
+      "from": "Clotting",
+      "to": "local area based on tightly controlled availability of clotting proteins",
+      "label": "contained in",
+      "id": "763dc031-83ac-4611-940a-68014da826b4"
+    },
+    {
+      "from": "Cascade of events",
+      "to": "true",
+      "label": "adaptive and life-saving",
+      "id": "71c3596e-54e1-4967-93c5-9426b0329cab"
     }
   ]
 }
