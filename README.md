@@ -10,3 +10,12 @@ Rename the text book to textbook.pdf and place it into ``` ./textbooks ``` folde
 ``` bash
 mv textbook.pdf ./textbooks
 ```
+
+## Step 2. Process the data
+
+
+## Step 3. Play with it!
+``` bash
+npm install
+npm start
+```

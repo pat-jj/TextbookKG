@@ -1,0 +1,576 @@
+{
+  "nodes": [
+    {
+      "id": "Normal childbirth",
+      "label": "Normal childbirth",
+      "color": "#ffffff"
+    },
+    {
+      "id": "positive feedback loop",
+      "label": "positive feedback loop",
+      "color": "#ffffff"
+    },
+    {
+      "id": "Positive feedback loop",
+      "label": "Positive feedback loop",
+      "color": "#ffffff"
+    },
+    {
+      "id": "change in body's status",
+      "label": "change in body's status",
+      "color": "#ffffff"
+    },
+    {
+      "id": "Stimulus",
+      "label": "Stimulus",
+      "color": "#ffffff"
+    },
+    {
+      "id": "baby toward cervix",
+      "label": "baby toward cervix",
+      "color": "#ffffff"
+    },
+    {
+      "id": "Cervix",
+      "label": "Cervix",
+      "color": "#ffffff"
+    },
+    {
+      "id": "stretch-sensitive nerve cells",
+      "label": "stretch-sensitive nerve cells",
+      "color": "#ffffff"
+    },
+    {
+      "id": "Nerve cells",
+      "label": "Nerve cells",
+      "color": "#ffffff"
+    },
+    {
+      "id": "brain",
+      "label": "brain",
+      "color": "#ffffff"
+    },
+    {
+      "id": "Brain",
+      "label": "Brain",
+      "color": "#ffffff"
+    },
+    {
+      "id": "pituitary gland",
+      "label": "pituitary gland",
+      "color": "#ffffff"
+    },
+    {
+      "id": "Pituitary gland",
+      "label": "Pituitary gland",
+      "color": "#ffffff"
+    },
+    {
+      "id": "hormone oxytocin",
+      "label": "hormone oxytocin",
+      "color": "#ffffff"
+    },
+    {
+      "id": "Oxytocin",
+      "label": "Oxytocin",
+      "color": "#ffffff"
+    },
+    {
+      "id": "stronger contractions of smooth muscles",
+      "label": "stronger contractions of smooth muscles",
+      "color": "#ffffff"
+    },
+    {
+      "id": "Smooth muscles",
+      "label": "Smooth muscles",
+      "color": "#ffffff"
+    },
+    {
+      "id": "baby further down birth canal",
+      "label": "baby further down birth canal",
+      "color": "#ffffff"
+    },
+    {
+      "id": "Cycle",
+      "label": "Cycle",
+      "color": "#ffffff"
+    },
+    {
+      "id": "when baby is born",
+      "label": "when baby is born",
+      "color": "#ffffff"
+    },
+    {
+      "id": "Stretching of cervix",
+      "label": "Stretching of cervix",
+      "color": "#ffffff"
+    },
+    {
+      "id": "release of oxytocin",
+      "label": "release of oxytocin",
+      "color": "#ffffff"
+    },
+    {
+      "id": "Reversing extreme damage to body",
+      "label": "Reversing extreme damage to body",
+      "color": "#ffffff"
+    },
+    {
+      "id": "blood loss",
+      "label": "blood loss",
+      "color": "#ffffff"
+    },
+    {
+      "id": "Blood loss",
+      "label": "Blood loss",
+      "color": "#ffffff"
+    },
+    {
+      "id": "blood pressure and perfusion",
+      "label": "blood pressure and perfusion",
+      "color": "#ffffff"
+    },
+    {
+      "id": "Perfusion",
+      "label": "Perfusion",
+      "color": "#ffffff"
+    },
+    {
+      "id": "vital organs will shut down",
+      "label": "vital organs will shut down",
+      "color": "#ffffff"
+    },
+    {
+      "id": "Body",
+      "label": "Body",
+      "color": "#ffffff"
+    },
+    {
+      "id": "potential catastrophe",
+      "label": "potential catastrophe",
+      "color": "#ffffff"
+    },
+    {
+      "id": "Injured blood vessel wall",
+      "label": "Injured blood vessel wall",
+      "color": "#ffffff"
+    },
+    {
+      "id": "substances",
+      "label": "substances",
+      "color": "#ffffff"
+    },
+    {
+      "id": "Substances",
+      "label": "Substances",
+      "color": "#ffffff"
+    },
+    {
+      "id": "process of blood clotting",
+      "label": "process of blood clotting",
+      "color": "#ffffff"
+    },
+    {
+      "id": "Step of clotting",
+      "label": "Step of clotting",
+      "color": "#ffffff"
+    },
+    {
+      "id": "release of more clotting substances",
+      "label": "release of more clotting substances",
+      "color": "#ffffff"
+    },
+    {
+      "id": "Clotting",
+      "label": "Clotting",
+      "color": "#ffffff"
+    },
+    {
+      "id": "local area",
+      "label": "local area",
+      "color": "#ffffff"
+    },
+    {
+      "id": "Local area",
+      "label": "Local area",
+      "color": "#ffffff"
+    },
+    {
+      "id": "tightly controlled availability of clotting proteins",
+      "label": "tightly controlled availability of clotting proteins",
+      "color": "#ffffff"
+    },
+    {
+      "id": "Cascade of events",
+      "label": "Cascade of events",
+      "color": "#ffffff"
+    },
+    {
+      "id": "life-saving",
+      "label": "life-saving",
+      "color": "#ffffff"
+    },
+    {
+      "id": "Contractions of labor",
+      "label": "Contractions of labor",
+      "color": "#ffffff"
+    },
+    {
+      "id": "pituitary gland to release oxytocin",
+      "label": "pituitary gland to release oxytocin",
+      "color": "#ffffff"
+    },
+    {
+      "id": "stronger contractions of uterus",
+      "label": "stronger contractions of uterus",
+      "color": "#ffffff"
+    },
+    {
+      "id": "Uterus",
+      "label": "Uterus",
+      "color": "#ffffff"
+    },
+    {
+      "id": "Penetrating wound",
+      "label": "Penetrating wound",
+      "color": "#ffffff"
+    },
+    {
+      "id": "excessive blood loss",
+      "label": "excessive blood loss",
+      "color": "#ffffff"
+    },
+    {
+      "id": "substances that begin process of blood clotting",
+      "label": "substances that begin process of blood clotting",
+      "color": "#ffffff"
+    },
+    {
+      "id": "Clotting proteins",
+      "label": "Clotting proteins",
+      "color": "#ffffff"
+    },
+    {
+      "id": "availability",
+      "label": "availability",
+      "color": "#ffffff"
+    },
+    {
+      "id": "Negative Feedback System",
+      "label": "Negative Feedback System",
+      "color": "#00FF00"
+    },
+    {
+      "id": "Body Temperature",
+      "label": "Body Temperature",
+      "color": "#ffffff"
+    },
+    {
+      "id": "37°C (98.6°F)",
+      "label": "37°C (98.6°F)",
+      "color": "#ffffff"
+    },
+    {
+      "id": "fluctuates within a few degrees above and below the set point",
+      "label": "fluctuates within a few degrees above and below the set point",
+      "color": "#ffffff"
+    },
+    {
+      "id": "Negative Feedback",
+      "label": "Negative Feedback",
+      "color": "#ffffff"
+    },
+    {
+      "id": "sensor",
+      "label": "sensor",
+      "color": "#ffffff"
+    },
+    {
+      "id": "control center",
+      "label": "control center",
+      "color": "#ffffff"
+    },
+    {
+      "id": "effector",
+      "label": "effector",
+      "color": "#ffffff"
+    },
+    {
+      "id": "physiological value",
+      "label": "physiological value",
+      "color": "#ffffff"
+    },
+    {
+      "id": "value to the normal range",
+      "label": "value to the normal range",
+      "color": "#ffffff"
+    },
+    {
+      "id": "reverse the situation",
+      "label": "reverse the situation",
+      "color": "#ffffff"
+    },
+    {
+      "id": "stronger contractions of smooth muscles in uterus",
+      "label": "stronger contractions of smooth muscles in uterus",
+      "color": "#ffffff"
+    },
+    {
+      "id": "Cycle of stretching",
+      "label": "Cycle of stretching",
+      "color": "#ffffff"
+    },
+    {
+      "id": "blood clotting",
+      "label": "blood clotting",
+      "color": "#ffffff"
+    },
+    {
+      "id": "Blood clotting",
+      "label": "Blood clotting",
+      "color": "#ffffff"
+    }
+  ],
+  "edges": [
+    {
+      "from": "Normal childbirth",
+      "to": "positive feedback loop",
+      "label": "driven by",
+      "id": "345ab7c2-256b-4c67-b23c-d44246e8b2b1"
+    },
+    {
+      "from": "Positive feedback loop",
+      "to": "change in body's status",
+      "label": "results in",
+      "id": "4d7a1392-69aa-4453-9cf4-46a225f6d84d"
+    },
+    {
+      "from": "Stimulus",
+      "to": "baby toward cervix",
+      "label": "pushes",
+      "id": "7b6293ba-da4a-48f7-a432-ecbe69e643d1"
+    },
+    {
+      "from": "Cervix",
+      "to": "stretch-sensitive nerve cells",
+      "label": "contains",
+      "id": "ee04afd0-7db6-4c66-9a3f-29a2f82df8a6"
+    },
+    {
+      "from": "Nerve cells",
+      "to": "brain",
+      "label": "send messages to",
+      "id": "adc4cfb4-c161-4147-8699-e4cabc164a95"
+    },
+    {
+      "from": "Brain",
+      "to": "pituitary gland",
+      "label": "causes",
+      "id": "7e64172d-8f3c-462a-a427-6eb3fa4cae72"
+    },
+    {
+      "from": "Pituitary gland",
+      "to": "hormone oxytocin",
+      "label": "release",
+      "id": "437ff1fb-78e6-4e6a-aa90-a263c4399693"
+    },
+    {
+      "from": "Oxytocin",
+      "to": "stronger contractions of smooth muscles",
+      "label": "causes",
+      "id": "787ec3a3-c360-4e76-a1bf-d5063ed31b53"
+    },
+    {
+      "from": "Smooth muscles",
+      "to": "baby further down birth canal",
+      "label": "push",
+      "id": "bebbed20-503c-428b-aaa1-2cd8f6fc453a"
+    },
+    {
+      "from": "Cycle",
+      "to": "when baby is born",
+      "label": "stops",
+      "id": "f4130b9a-cf95-4dfc-a2c6-9e7309224a22"
+    },
+    {
+      "from": "Stretching of cervix",
+      "to": "release of oxytocin",
+      "label": "halts",
+      "id": "aa27755d-1a61-4b48-bb56-5fbaf4c61c2a"
+    },
+    {
+      "from": "Reversing extreme damage to body",
+      "to": "blood loss",
+      "label": "centers on",
+      "id": "7c51e802-73de-4bf9-b150-743c3acad240"
+    },
+    {
+      "from": "Blood loss",
+      "to": "blood pressure and perfusion",
+      "label": "reduces",
+      "id": "5871ff00-ea89-47a1-b2b0-0f9892176abd"
+    },
+    {
+      "from": "Perfusion",
+      "to": "vital organs will shut down",
+      "label": "severely reduced",
+      "id": "bea8310a-4a6e-400f-a267-b43503b1b4a8"
+    },
+    {
+      "from": "Body",
+      "to": "potential catastrophe",
+      "label": "responds to",
+      "id": "5a6058c2-9f95-4b0c-b1cf-c2669b5e8796"
+    },
+    {
+      "from": "Injured blood vessel wall",
+      "to": "substances",
+      "label": "release",
+      "id": "1d5ed477-866e-40d9-8f69-2a7f9fde03d7"
+    },
+    {
+      "from": "Substances",
+      "to": "process of blood clotting",
+      "label": "begin",
+      "id": "e77e45b0-d98b-4b08-87f1-b8c9be206da0"
+    },
+    {
+      "from": "Step of clotting",
+      "to": "release of more clotting substances",
+      "label": "stimulates",
+      "id": "5204df1b-0e35-4513-b697-f87831c25733"
+    },
+    {
+      "from": "Clotting",
+      "to": "local area",
+      "label": "contained in",
+      "id": "dca8097e-f7eb-43bf-8b9f-cab45aacac37"
+    },
+    {
+      "from": "Local area",
+      "to": "tightly controlled availability of clotting proteins",
+      "label": "based on",
+      "id": "9aae2294-e359-47e5-9473-31fe6c932410"
+    },
+    {
+      "from": "Cascade of events",
+      "to": "life-saving",
+      "label": "adaptive",
+      "id": "66e0ccfc-5935-415e-889e-68f8e2a56899"
+    },
+    {
+      "from": "Contractions of labor",
+      "to": "baby toward cervix",
+      "label": "push",
+      "id": "df53513f-e7d6-4945-bba8-ce7f05f35547"
+    },
+    {
+      "from": "Brain",
+      "to": "pituitary gland to release oxytocin",
+      "label": "causes",
+      "id": "1b982594-5bd3-4bf0-8cf2-2b522152a1f6"
+    },
+    {
+      "from": "Oxytocin",
+      "to": "stronger contractions of uterus",
+      "label": "causes",
+      "id": "f0dc163e-d315-4397-9b56-96de2f55459a"
+    },
+    {
+      "from": "Uterus",
+      "to": "baby further down birth canal",
+      "label": "pushes",
+      "id": "36f1cde2-17d5-4919-a476-d1109bb30965"
+    },
+    {
+      "from": "Penetrating wound",
+      "to": "excessive blood loss",
+      "label": "most immediate threat is",
+      "id": "55f013f0-0161-4d6c-98c1-13b7714d8f89"
+    },
+    {
+      "from": "Injured blood vessel wall",
+      "to": "substances that begin process of blood clotting",
+      "label": "releases",
+      "id": "06d43f7a-2b09-44e4-9648-6a1ec3128ea5"
+    },
+    {
+      "from": "Clotting proteins",
+      "to": "availability",
+      "label": "tightly controlled",
+      "id": "7855df5d-d98c-4c2e-a9d4-2e591f296ce1"
+    },
+    {
+      "from": "Body Temperature",
+      "to": "37°C (98.6°F)",
+      "label": "set point",
+      "id": "a1e84d84-e03c-459a-a9cc-51bbd1f34cb8"
+    },
+    {
+      "from": "Body Temperature",
+      "to": "fluctuates within a few degrees above and below the set point",
+      "label": "normal range",
+      "id": "7c20be3a-83cb-4cb0-8e63-ef09c4b8ab0d"
+    },
+    {
+      "from": "Negative Feedback",
+      "to": "sensor",
+      "label": "has components",
+      "id": "3c7b6696-d800-445c-8200-61072a8da1bd"
+    },
+    {
+      "from": "Negative Feedback",
+      "to": "control center",
+      "label": "has components",
+      "id": "f5ea7a45-813c-4dc6-a11e-c70ba8e2aef3"
+    },
+    {
+      "from": "Negative Feedback",
+      "to": "effector",
+      "label": "activates",
+      "id": "1f711585-32e5-4dd0-b17d-772a447208e2"
+    },
+    {
+      "from": "Negative Feedback",
+      "to": "physiological value",
+      "label": "monitors",
+      "id": "4c187fe6-4d4a-4ffa-b030-0ebee25f151a"
+    },
+    {
+      "from": "Negative Feedback",
+      "to": "value to the normal range",
+      "label": "compares",
+      "id": "098ed196-1269-4bc7-a49f-d503900e1a85"
+    },
+    {
+      "from": "Negative Feedback",
+      "to": "reverse the situation",
+      "label": "causes change",
+      "id": "5dcbbaa0-be49-4ce1-aa91-59d3839af06f"
+    },
+    {
+      "from": "Oxytocin",
+      "to": "stronger contractions of smooth muscles in uterus",
+      "label": "causes",
+      "id": "f261ec0d-1e74-4a30-9d97-7ffe377616e1"
+    },
+    {
+      "from": "Cycle of stretching",
+      "to": "when baby is born",
+      "label": "halts",
+      "id": "8a6d1a0a-3c5f-44cd-af3a-9ef2ec2fa0f1"
+    },
+    {
+      "from": "Reversing extreme damage to body",
+      "to": "blood clotting",
+      "label": "centers on",
+      "id": "0ef58530-3327-4aaa-a4ed-00247c7d3d5f"
+    },
+    {
+      "from": "Blood clotting",
+      "to": "release of more clotting substances",
+      "label": "stimulates",
+      "id": "2ff74b02-a353-43e5-bb0e-13c620460daf"
+    }
+  ]
+}

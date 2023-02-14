@@ -12,12 +12,16 @@ provided us with air to breathe, water to drink, and food to eat, but these are 
 Although you may rarely think about it, you also cannot live outside of a certain range of temperature and pressure
 that the surface of our planet and its atmosphere provides. The next sections explore these four requirements of
 life.
+
+===
 Oxygen
 Atmospheric air is only about 20 percent oxygen, but that oxygen is a key component of the chemical reactions that
 keep the body alive, including the reactions that produce ATP. Brain cells are especially sensitive to lack of oxygen
 because of their requirement for a high-and-steady production of ATP. Brain damage is likely within five minutes
 without oxygen, and death is likely within ten minutes.
+===
 
+===
 Nutrients
 A nutrient is a substance in foods and beverages that is essential to human survival. The three basic classes of
 nutrients are water, the energy-yielding and body-building nutrients, and the micronutrients (vitamins and
@@ -40,6 +44,9 @@ contribute to the body’s structure. Your body can store some of the micronutri
 reserves if you fail to consume them in your diet for a few days or weeks. Some others micronutrients, such as
 vitamin C and most of the B vitamins, are water-soluble and cannot be stored, so you need to consume them every
 day or two.
+===
+
+===
 Narrow Range of Temperature
 You have probably seen news stories about athletes who died of heat stroke, or hikers who died of exposure to cold.
 Such deaths occur because the chemical reactions upon which the body depends can only take place within a
@@ -52,7 +59,9 @@ body, cooling it. Adequate water (from the extracellular fluid in the body) is n
 adequate fluid intake is essential to balance that loss during the sweat response. Not surprisingly, the sweat
 response is much less effective in a humid environment because the air is already saturated with water. Thus, the
 sweat on the skin’s surface is not able to evaporate, and internal body temperature can get dangerously high.
+===
 
+===
 FIGURE 1.8
 Extreme Heat
 Humans acclimate to some degree to repeated exposure to high temperatures. (credit: McKay Savage/flickr)
@@ -66,6 +75,9 @@ blood from cooling there and so that the body’s core can stay warm. Even when 
 stable, however, tissues exposed to severe cold, especially the fingers and toes, can develop frostbite when blood
 flow to the extremities has been much reduced. This form of tissue damage can be permanent and lead to gangrene,
 requiring amputation of the affected region.
+===
+
+===
 Everyday Connection
 Controlled Hypothermia
 As you have learned, the body continuously engages in coordinated physiological processes to maintain a stable
@@ -85,7 +97,9 @@ who have suffered a cardiac arrest. In the emergency department, the physician i
 patient’s body temperature to approximately 91 degrees. This condition, which is maintained for 24 hours,
 slows the patient’s metabolic rate. Because the patient’s organs require less blood to function, the heart’s
 workload is reduced.
+===
 
+===
 Narrow Range of Atmospheric Pressure
 Pressure is a force exerted by a substance that is in contact with another substance. Atmospheric pressure is
 pressure exerted by the mixture of gases (primarily nitrogen and oxygen) in the Earth’s atmosphere. Although you
@@ -104,6 +118,9 @@ FIGURE 1.9
 Harsh Conditions
 Climbers on Mount Everest must accommodate extreme cold, low oxygen levels, and low barometric
 pressure in an environment hostile to human life. (credit: Melanie Ko/flickr)
+===
+
+===
 HOMEOSTATIC IMBALANCES
 Decompression Sickness
 Decompression sickness (DCS) is a condition in which gases dissolved in the blood or in other body tissues are no
@@ -135,3 +152,4 @@ The dynamic pressure of body fluids is also important to human survival. For exa
 pressure exerted by blood as it flows within blood vessels, must be great enough to enable blood to reach all body
 tissues, and yet low enough to ensure that the delicate blood vessels can withstand the friction and force of the
 pulsating flow of pressurized blood.
+===

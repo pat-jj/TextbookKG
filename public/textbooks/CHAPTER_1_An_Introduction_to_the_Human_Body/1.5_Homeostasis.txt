@@ -5,6 +5,8 @@ By the end of this section, you will be able to:
 Discuss the role of homeostasis in healthy functioning
 •
 Contrast negative and positive feedback, giving one physiologic example of each mechanism
+
+===
 Maintaining homeostasis requires that the body continuously monitor its internal conditions. From body
 temperature to blood pressure to levels of certain nutrients, each physiological condition has a particular set point.
 A set point is the physiological value around which the normal range fluctuates. A normal range is the restricted set
@@ -21,7 +23,9 @@ component of a feedback system that monitors a physiological value. This value i
 The control center is the component in a feedback system that compares the value to the normal range. If the value
 deviates too much from the set point, then the control center activates an effector. An effector is the component in
 a feedback system that causes a change to reverse the situation and return the value to the normal range.
+===
 
+===
 FIGURE 1.10
 Negative Feedback System
 In a negative feedback system, a stimulus—a deviation from a set point—is resisted through
@@ -57,7 +61,9 @@ increases metabolic activity and heat production in cells throughout the body. T
 glands to release epinephrine (adrenaline), a hormone that causes the breakdown of glycogen into glucose, which
 can be used as an energy source. The breakdown of glycogen into glucose also results in increased metabolism and
 heat production.
+===
 
+===
 INTERACTIVE LINK
 Water concentration in the body is critical for proper functioning. A person’s body retains very tight control on water
 levels without conscious control by the person. Watch this video (http://openstax.org/l/H2Ocon) to learn more about
@@ -71,6 +77,9 @@ Childbirth at full term is an example of a situation in which the maintenance of
 Enormous changes in a person’s body are required to expel the baby at the end of pregnancy. And the events of
 childbirth, once begun, must progress rapidly to a conclusion or the life of a person giving bith and the baby are at
 risk. The extreme muscular work of labor and delivery are the result of a positive feedback system (Figure 1.11).
+===
+
+===
 FIGURE 1.11
 Positive Feedback Loop
 Normal childbirth is driven by a positive feedback loop. A positive feedback loop results in a
@@ -90,3 +99,4 @@ substances in the injured blood vessel wall that begin the process of blood clot
 it stimulates the release of more clotting substances. This accelerates the processes of clotting and sealing off the
 damaged area. Clotting is contained in a local area based on the tightly controlled availability of clotting proteins.
 This is an adaptive, life-saving cascade of events.
+===
