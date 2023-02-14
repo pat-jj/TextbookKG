@@ -145,7 +145,7 @@ function App() {
   };
 
   const queryStatelessPrompt = async (prompt, apiKey) => {
-    fetch('prompts/stateless.prompt')
+    fetch('/TextbookKG/prompts/stateless.prompt')
       .then(response => response.text())
       .then(text => text.replace("$prompt", prompt))
       .then(prompt => {
@@ -305,7 +305,7 @@ function App() {
   const delay = ms => new Promise(res => setTimeout(res, ms));
 
   const resumeGraph = () => {
-    let file_path = `./knowledge_graphs/${selectedSection.replaceAll(" ", "_")}.json`;
+    let file_path = `/TextbookKG/knowledge_graphs/${selectedSection.replaceAll(" ", "_")}.json`;
       
     // TODO: connect Google Drive
     fetch(file_path, { method: 'HEAD' })
@@ -372,11 +372,11 @@ function App() {
   const [inSections, setInSections] = useState([]);
 	const [numPages, setNumPages] = useState(null);
 	const [pageNumber, setPageNumber] = useState(1);
-	const [pdfFile, setPdfFile] = useState('textbook-1.pdf');
+	const [pdfFile, setPdfFile] = useState('/TextbookKG/textbook-1.pdf');
   const [chapters, setChapters] = useState([]);
 
   useEffect(() => {
-    fetch('page_info.json')
+    fetch('/TextbookKG/page_info.json')
       .then(response => response.json())
       .then(jsonData => {
         setChapters(Object.entries(jsonData));
@@ -426,7 +426,7 @@ function App() {
     if (selectedSection) {
       let chapter_num = Array.from(Array.from(Array.from(Object.entries(selectedChapter["in_sections"]))[0])[0])[0];
       let chapter_name = `CHAPTER_${chapter_num}_${selectedChapter.name}`;
-      let file_path = `./textbooks/${chapter_name}/${selectedSection.replaceAll(" ", "_")}.txt`;
+      let file_path = `/TextbookKG/textbooks/${chapter_name}/${selectedSection.replaceAll(" ", "_")}.txt`;
       
       console.log(chapter_name);
       console.log(selectedSection);
@@ -461,11 +461,11 @@ function App() {
 	};
 
   const handleChapterSelect = (eventKey) => {
-    fetch('page_info.json')
+    fetch('/TextbookKG/page_info.json')
       .then(response => response.json())
       .then(jsonData => {
         setSelectedChapter(jsonData[`CHAPTER_${eventKey}`]);
-        setPdfFile(`textbook-${eventKey}.pdf`);
+        setPdfFile(`/TextbookKG/textbook-${eventKey}.pdf`);
         setPageNumber(1);
       });
   };
