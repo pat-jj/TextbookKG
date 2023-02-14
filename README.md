@@ -1,4 +1,4 @@
-# HealthKG
+# TextbookKG
 
 
 ## Play with it!
