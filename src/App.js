@@ -195,7 +195,7 @@ function App() {
   };
 
   const queryStatefulPrompt = async (prompt, apiKey) => {
-    fetch('prompts/stateful.prompt')
+    fetch('/TextbookKG/prompts/stateful.prompt')
       .then(response => response.text())
       .then(text => text.replace("$prompt", prompt))
       .then(text => text.replace("$state", JSON.stringify(graphState)))
