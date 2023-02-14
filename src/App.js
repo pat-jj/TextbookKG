@@ -372,6 +372,7 @@ function App() {
   const [selectedChapter, setSelectedChapter] = useState(null);
   const [selectedSection, setSelectedSection] = useState(null);
   const [selectedText, setSelectedText] = useState([null]);
+  const [rawText, setRawText] = useState([null]);
   const [inSections, setInSections] = useState([]);
 	const [numPages, setNumPages] = useState(null);
 	const [pageNumber, setPageNumber] = useState(1);
@@ -436,13 +437,20 @@ function App() {
       console.log(file_path)
       fetch(file_path)
       .then(response => response.text())
-      .then(TEXT => setSelectedText(extractTextBetweenDelimiters(TEXT)));
-
+      .then(TEXT => setRawText(TEXT));
+    
       clearState()
       resumeGraph()
       console.log(selectedText);
     }
   }, [selectedSection]);
+
+  useEffect(() => {
+    if (rawText) {
+      setSelectedText(extractTextBetweenDelimiters(rawText));
+      console.log(selectedText)
+    }
+  }, [rawText]);
 
 	const onDocumentLoadSuccess = ({ numPages }) => {
 		setNumPages(numPages);
@@ -549,6 +557,14 @@ function App() {
             <div className='inputContainer1'>
                   <button className="generateButton" onClick={regenerateGraph}>Re-generate (Update)</button>
                   <input className="apiKeyTextField" type="password" placeholder="Enter OpenAI API key ..."></input>
+            </div>
+            <div className='inputContainer2'>
+              <textarea
+                className='sectionText'
+                value={rawText} // ...force the input's value to match the state variable...
+                onChange={e => setRawText(e.target.value)} // ... and update the state variable on any edits!
+              />
+              <h1 className="instruction"><img src={require('./instruction.png')} width='370' height="670" /></h1>
             </div>
           </center>
           <p className='footer'>Developed by Patrick Jiang @ UIUC</p>

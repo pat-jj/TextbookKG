@@ -98,6 +98,14 @@
   margin-top: 0px;
 }
 
+.inputContainer2 {
+  width: 100%;
+  display: flex;
+  /* margin: 0 auto; */
+  /* align-items: center; */
+  margin-top: 0px;
+}
+
 
 .apiKeyTextField {
   border: 1px solid rgb(0, 0, 0);
@@ -122,6 +130,20 @@
   outline: none;
   padding: 0 10px;
   width: 25%;
+  /* margin-top: 20px; */
+}
+
+.sectionText{
+  border: 1px solid rgb(0, 0, 0);
+  border-radius: 5px;
+  box-shadow: 0 0 5px rgb(0 0 0 / 10%);
+  display: block;
+  font-size: 16px;
+  height: 900px;
+  outline: none;
+  padding: 0 10px;
+  width: 76%;
+  margin-top: 5px;
   /* margin-top: 20px; */
 }
 
