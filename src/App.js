@@ -1,6 +1,6 @@
 import './App.css';
 import Graph from "react-graph-vis";
-import React, { useState } from "react";
+import React, { useState, useRef } from "react";
 import { useEffect } from 'react';
 import { Document, Page } from 'react-pdf/dist/esm/entry.webpack';
 import 'bootstrap/dist/css/bootstrap.css';
@@ -47,6 +47,22 @@ function App() {
     })
   };
 
+  const[selectedEdge, setSelectedEdge] = useState(null)
+  const[eventState, setEventState] = useState( 
+    {
+      select: ({ nodes, edges }) => {
+        console.log("Selected nodes:");
+        console.log(nodes);
+        console.log("Selected edges:");
+        console.log(edges);
+        setSelectedEdge(edges[0]);
+        // alert("Selected node: " + nodes);
+      },
+      // doubleClick: ({ pointer: { canvas } }) => {
+      //   createNode(canvas.x, canvas.y);
+      // }
+    }
+  );
 
   const updateGraph = async (updates) => {
     // updates will be provided as a list of lists
@@ -242,14 +258,44 @@ function App() {
   }
 
 
-  const createGraph = () => {
-    document.body.style.cursor = 'wait';
+  // const createGraph = () => {
+  //   document.body.style.cursor = 'wait';
 
-    document.getElementsByClassName("generateButton")[0].disabled = true;
-    const prompt = document.getElementsByClassName("searchBar")[0].value;
-    const apiKey = document.getElementsByClassName("apiKeyTextField")[0].value;
+  //   document.getElementsByClassName("generateButton")[0].disabled = true;
+  //   const prompt = document.getElementsByClassName("searchBar")[0].value;
+  //   const apiKey = document.getElementsByClassName("apiKeyTextField")[0].value;
 
-    queryPrompt(prompt, apiKey);
+  //   queryPrompt(prompt, apiKey);
+  // }
+
+  function editEdgeLabel(graph, id, newLabel) {
+    const edgeIndex = graph.edges.findIndex(edge => edge.id === id);
+    if (edgeIndex === -1) {
+      console.error(`Edge with id "${id}" not found.`);
+      return graph;
+    }
+  
+    const updatedEdge = {
+      ...graph.edges[edgeIndex],
+      label: newLabel
+    };
+    const updatedEdges = [
+      ...graph.edges.slice(0, edgeIndex),
+      updatedEdge,
+      ...graph.edges.slice(edgeIndex + 1)
+    ];
+    return {
+      ...graph,
+      edges: updatedEdges
+    };
+  }
+
+  const editEdge = () => {
+    const modifiedEdge = document.getElementsByClassName("edgeModify")[0].value;
+    if (modifiedEdge != "") {
+      setGraphState(editEdgeLabel(graphState, selectedEdge, modifiedEdge));
+      alert("The label of edge " + selectedEdge + " is changed to " + modifiedEdge);
+    }
   }
 
   const handleSave = (save_path) => {
@@ -407,11 +453,6 @@ function App() {
 			pageNumber + 1 >= numPages ? numPages : pageNumber + 1,
 		);
 
-	const handleSelect = (eventKey) => {
-		setPdfFile(`textbook-${eventKey}.pdf`);
-		setPageNumber(1);
-	};
-
   const handlePageNumberChange = (event) => {
 		const newPageNumber = parseInt(event.target.value, 10);
 		if (newPageNumber >= 1 && newPageNumber <= numPages) {
@@ -491,19 +532,23 @@ function App() {
         </nav>
           {/* <p className='subheaderText'>Build complex, directed graphs to add structure to your ideas using natural language. Understand the relationships between people, systems, and maybe solve a mystery.</p> */}
           <div className='graphContainer'>
-            <Graph graph={graphState} options={options} style={{ height: "640px" }} />
+            <Graph graph={graphState} options={options} events={eventState} style={{ height: "640px" }} />
           </div>
           <center>
             <div className='inputContainer'>
               {/* <input className="searchBar" placeholder="Describe your graph..."></input> */}
               <button className="resumeButton" onClick={resumeGraph}>Resume</button>
-              <button className="generateButton" onClick={regenerateGraph}>Re-generate (Update)</button>
+              <input className="edgeModify" placeholder="Change the edge to ..."></input>
+              <button className="modifyButton" onClick={editEdge}>Modify</button>
               <button className="outButton" onClick={outputGraph}>Output</button>
               <button className="clearButton" onClick={clearState}>Clear</button>
-              <input className="apiKeyTextField" type="password" placeholder="Enter your OpenAI API key..."></input>
+            </div>
+            <div className='inputContainer1'>
+                  <button className="generateButton" onClick={regenerateGraph}>Re-generate (Update)</button>
+                  <input className="apiKeyTextField" type="password" placeholder="Enter OpenAI API key ..."></input>
             </div>
           </center>
-          <p className='footer'>Developed by Partick Jiang @ UIUC</p>
+          <p className='footer'>Developed by Patrick Jiang @ UIUC</p>
         </div>
 		</div>
 

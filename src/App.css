@@ -77,31 +77,27 @@
   font-size: 13px;
   text-align: center;
   margin: 0 auto;
-  margin-left: 800px;
+  margin-left: 1200px;
   margin-bottom: 100px;
 }
 
 .inputContainer {
   width: 100%;
-  margin: 0 auto;
-  margin-top: 10px;
-  margin-bottom: 50px;
+  /* margin: 0 auto; */
+  height: 50px;
+  display: flex;
+  margin-top: 5px;
+  margin-bottom: 0px;
 }
 
-.searchBar {
-  border: 1px solid rgb(0, 0, 0);
-  border-radius: 5px;
-  box-shadow: 0 0 5px rgb(0 0 0 / 10%);
-  display: block;
-  font-size: 16px;
-  height: 50px;
-  outline: none;
-  padding: 0 10px;
-  width: 90%;
-  margin-left: auto;
-  margin-right: auto;
-  margin-bottom: 20px;
+.inputContainer1 {
+  width: 100%;
+  display: flex;
+  /* margin: 0 auto; */
+  /* align-items: center; */
+  margin-top: 0px;
 }
+
 
 .apiKeyTextField {
   border: 1px solid rgb(0, 0, 0);
@@ -112,10 +108,21 @@
   height: 50px;
   outline: none;
   padding: 0 10px;
-  width: 90%;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 20px;
+  width: 34.8%;
+  margin-top: 5px;
+}
+
+.edgeModify {
+  border: 1px solid rgb(0, 0, 0);
+  border-radius: 5px;
+  box-shadow: 0 0 5px rgb(0 0 0 / 10%);
+  display: block;
+  font-size: 16px;
+  height: 50px;
+  outline: none;
+  padding: 0 10px;
+  width: 25%;
+  /* margin-top: 20px; */
 }
 
 .generateButton {
@@ -130,6 +137,7 @@
   width: 20%;
   display: inline-block;
   margin-right: 5px;
+  margin-top: 5px;
 }
 
 .generateButton:hover {
@@ -150,7 +158,7 @@
   font-size: 16px;
   height: 50px;
   outline: none;
-  width: 20%;
+  width: 24%;
   margin-left: auto;
   margin-right: auto;
   display: inline-block;
@@ -172,8 +180,8 @@
   outline: none;
   width: 20%;
   display: inline-block;
-  margin-left: 5px;
-  margin-right: 10px;
+  /* margin-left: 5px; */
+  margin-right: 5px;
 }
 
 .resumeButton:hover {
@@ -192,9 +200,28 @@
   width: 20%;
   display: inline-block;
   margin-left: 5px;
-  margin-right: 5px;
 }
 
 .outButton:hover {
   background-color: rgba(236, 244, 187, 0.8);
 }
+
+.modifyButton {
+  background-color: rgb(242, 73, 35);
+  border: 1px solid rgb(0, 0, 0);
+  border-radius: 5px;
+  color: rgb(0, 0, 0);
+  cursor: pointer;
+  font-size: 16px;
+  height: 50px;
+  outline: none;
+  width: 9.5%;
+  display: inline-block;
+  margin-left: 5px;
+}
+
+.modifyButton:hover {
+  background-color: rgba(231, 126, 94, 0.8);
+}
+
+
