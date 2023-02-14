@@ -1,0 +1,78 @@
+6.2 Bone Classification
+LEARNING OBJECTIVES
+By the end of this section, you will be able to:
+•
+Classify bones according to their shapes
+•
+Describe the function of each category of bones
+The 206 bones that compose the adult skeleton are divided into five categories based on their shapes (Figure 6.6).
+Their shapes and their functions are related such that each categorical shape of bone has a distinct function.
+
+FIGURE 6.6
+Classifications of Bones
+Bones are classified according to their shape.
+Long Bones
+A long bone is one that is cylindrical in shape, being longer than it is wide. Keep in mind, however, that the term
+describes the shape of a bone, not its size. Long bones are found in the arms (humerus, ulna, radius) and legs
+(femur, tibia, fibula), as well as in the fingers (metacarpals, phalanges) and toes (metatarsals, phalanges). Long
+bones function as levers; they move when muscles contract.
+Short Bones
+A short bone is one that is cube-like in shape, being approximately equal in length, width, and thickness. The only
+short bones in the human skeleton are in the carpals of the wrists and the tarsals of the ankles. Short bones provide
+stability and support as well as some limited motion.
+
+Flat Bones
+The term “flat bone” is somewhat of a misnomer because, although a flat bone is typically thin, it is also often
+curved. Examples include the cranial (skull) bones, the scapulae (shoulder blades), the sternum (breastbone), and
+the ribs. Flat bones serve as points of attachment for muscles and often protect internal organs.
+Irregular Bones
+An irregular bone is one that does not have any easily characterized shape and therefore does not fit any other
+classification. These bones tend to have more complex shapes, like the vertebrae that support the spinal cord and
+protect it from compressive forces. Many facial bones, particularly the ones containing sinuses, are classified as
+irregular bones.
+Sesamoid Bones
+A sesamoid bone is a small, round bone that, as the name suggests, is shaped like a sesame seed. These bones
+form in tendons (the sheaths of tissue that connect bones to muscles) where a great deal of pressure is generated in
+a joint. The sesamoid bones protect tendons by helping them overcome compressive forces. Sesamoid bones vary in
+number and placement from person to person but are typically found in tendons associated with the feet, hands,
+and knees. The patellae (singular = patella) are the only sesamoid bones found in common with every person. Table
+6.1 reviews bone classifications with their associated features, functions, and examples.
+Bone Classifications
+Bone
+classification
+Features
+Function(s)
+Examples
+Long
+Cylinder-like shape, longer
+than it is wide
+Leverage
+Femur, tibia, fibula, metatarsals,
+humerus, ulna, radius,
+metacarpals, phalanges
+Short
+Cube-like shape,
+approximately equal in
+length, width, and thickness
+Provide stability, support,
+while allowing for some
+motion
+Carpals, tarsals
+Flat
+Thin and curved
+Points of attachment for
+muscles; protectors of
+internal organs
+Sternum, ribs, scapulae, cranial
+bones
+Irregular
+Complex shape
+Protect internal organs
+Vertebrae, facial bones
+Sesamoid
+Small and round; embedded
+in tendons
+Protect tendons from
+compressive forces
+Patellae
+TABLE 6.1

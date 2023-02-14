@@ -1,0 +1,243 @@
+18.3 Erythrocytes
+LEARNING OBJECTIVES
+By the end of this section, you will be able to:
+•
+Describe the anatomy of erythrocytes
+•
+Discuss the various steps in the lifecycle of an erythrocyte
+•
+Explain the composition and function of hemoglobin
+The erythrocyte, commonly known as a red blood cell (or RBC), is by far the most common formed element: A
+single drop of blood contains millions of erythrocytes and just thousands of leukocytes. Specifically, males have
+about 5.4 million erythrocytes per microliter (µL) of blood, and females have approximately 4.8 million per µL. In
+fact, erythrocytes are estimated to make up about 25 percent of the total cells in the body. As you can imagine, they
+are quite small cells, with a mean diameter of only about 7–8 micrometers (µm) (Figure 18.5). The primary functions
+of erythrocytes are to pick up inhaled oxygen from the lungs and transport it to the body’s tissues, and to pick up
+some (about 24 percent) carbon dioxide waste at the tissues and transport it to the lungs for exhalation.
+Erythrocytes remain within the vascular network. Although leukocytes typically leave the blood vessels to perform
+their defensive functions, movement of erythrocytes from the blood vessels is abnormal.
+
+FIGURE 18.5
+Summary of Formed Elements in Blood
+Shape and Structure of Erythrocytes
+As an erythrocyte matures in the red bone marrow, it extrudes its nucleus and most of its other organelles. During
+the first day or two that it is in the circulation, an immature erythrocyte, known as a reticulocyte, will still typically
+contain remnants of organelles. Reticulocytes should comprise approximately 1–2 percent of the erythrocyte count
+and provide a rough estimate of the rate of RBC production, with abnormally low or high rates indicating deviations
+in the production of these cells. These remnants, primarily of networks (reticulum) of ribosomes, are quickly shed,
+however, and mature, circulating erythrocytes have few internal cellular structural components. Lacking
+mitochondria, for example, they rely on anaerobic respiration. This means that they do not utilize any of the oxygen
+they are transporting, so they can deliver it all to the tissues. They also lack endoplasmic reticula and do not
+synthesize proteins. Erythrocytes do, however, contain some structural proteins that help the blood cells maintain
+their unique structure and enable them to change their shape to squeeze through capillaries. This includes the
+protein spectrin, a cytoskeletal protein element.
+Erythrocytes are biconcave disks; that is, they are plump at their periphery and very thin in the center (Figure 18.6).
+Since they lack most organelles, there is more interior space for the presence of the hemoglobin molecules that, as
+you will see shortly, transport gases. The biconcave shape also provides a greater surface area across which gas
+exchange can occur, relative to its volume; a sphere of a similar diameter would have a lower surface area-to-
+volume ratio. In the capillaries, the oxygen carried by the erythrocytes can diffuse into the plasma and then through
+the capillary walls to reach the cells, whereas some of the carbon dioxide produced by the cells as a waste product
+diffuses into the capillaries to be picked up by the erythrocytes. Capillary beds are extremely narrow, slowing the
+passage of the erythrocytes and providing an extended opportunity for gas exchange to occur. However, the space
+within capillaries can be so minute that, despite their own small size, erythrocytes may have to fold in on
+themselves if they are to make their way through. Fortunately, their structural proteins like spectrin are flexible,
+allowing them to bend over themselves to a surprising degree, then spring back again when they enter a wider
+vessel. In wider vessels, erythrocytes may stack up much like a roll of coins, forming a rouleaux, from the French
+word for “roll.”
+FIGURE 18.6
+Shape of Red Blood Cells
+Erythrocytes are biconcave discs with very shallow centers. This shape optimizes the ratio of
+surface area to volume, facilitating gas exchange. It also enables them to fold up as they move through narrow blood vessels.
+Hemoglobin
+Hemoglobin is a large molecule made up of proteins and iron. It consists of four folded chains of a protein called
+globin, designated alpha 1 and 2, and beta 1 and 2 (Figure 18.7a). Each of these globin molecules is bound to a red
+pigment molecule called heme, which contains an ion of iron (Fe2+) (Figure 18.7b).
+FIGURE 18.7
+Hemoglobin
+(a) A molecule of hemoglobin contains four globin proteins, each of which is bound to one molecule of the
+iron-containing pigment heme. (b) A single erythrocyte can contain 300 million hemoglobin molecules, and thus more than 1 billion oxygen
+molecules.
+Each iron ion in the heme can bind to one oxygen molecule; therefore, each hemoglobin molecule can transport four
+oxygen molecules. An individual erythrocyte may contain about 300 million hemoglobin molecules, and therefore
+can bind to and transport up to 1.2 billion oxygen molecules (see Figure 18.7b).
+In the lungs, hemoglobin picks up oxygen, which binds to the iron ions, forming oxyhemoglobin. The bright red,
+oxygenated hemoglobin travels to the body tissues, where it releases some of the oxygen molecules, becoming
+darker red deoxyhemoglobin, sometimes referred to as reduced hemoglobin. Oxygen release depends on the need
+for oxygen in the surrounding tissues, so hemoglobin rarely if ever leaves all of its oxygen behind. In the capillaries,
+carbon dioxide enters the bloodstream. About 76 percent dissolves in the plasma, some of it remaining as dissolved
+CO2, and the remainder forming bicarbonate ion. About 23–24 percent of it binds to the amino acids in hemoglobin,
+forming a molecule known as carbaminohemoglobin. From the capillaries, the hemoglobin carries carbon dioxide
+back to the lungs, where it releases it for exchange of oxygen.
+Changes in the levels of RBCs can have significant effects on the body’s ability to effectively deliver oxygen to the
+tissues. Ineffective hematopoiesis results in insufficient numbers of RBCs and results in one of several forms of
+anemia. An overproduction of RBCs produces a condition called polycythemia. The primary drawback with
+polycythemia is not a failure to directly deliver enough oxygen to the tissues, but rather the increased viscosity of
+the blood, which makes it more difficult for the heart to circulate the blood.
+In patients with insufficient hemoglobin, the tissues may not receive sufficient oxygen, resulting in another form of
+anemia. In determining oxygenation of tissues, the value of greatest interest in healthcare is the percent saturation;
+that is, the percentage of hemoglobin sites occupied by oxygen in a patient’s blood. Clinically this value is commonly
+referred to simply as “percent sat.”
+Percent saturation is normally monitored using a device known as a pulse oximeter, which is applied to a thin part of
+the body, typically the tip of the patient’s finger. The device works by sending two different wavelengths of light (one
+red, the other infrared) through the finger and measuring the light with a photodetector as it exits. Hemoglobin
+absorbs light differentially depending upon its saturation with oxygen. The machine calibrates the amount of light
+received by the photodetector against the amount absorbed by the partially oxygenated hemoglobin and presents
+the data as percent saturation. Normal pulse oximeter readings range from 95–100 percent. Lower percentages
+reflect hypoxemia, or low blood oxygen. The term hypoxia is more generic and simply refers to low oxygen levels.
+Oxygen levels are also directly monitored from free oxygen in the plasma typically following an arterial stick. When
+this method is applied, the amount of oxygen present is expressed in terms of partial pressure of oxygen or simply
+PO2 or PO2 and is typically recorded in units of millimeters of mercury, mm Hg.
+
+The kidneys filter about 180 liters (~380 pints) of blood in an average adult each day, or about 20 percent of the
+total resting volume, and thus serve as ideal sites for receptors that determine oxygen saturation. In response to
+hypoxemia, less oxygen will exit the vessels supplying the kidney, resulting in hypoxia (low oxygen concentration) in
+the tissue fluid of the kidney where oxygen concentration is actually monitored. Interstitial fibroblasts within the
+kidney secrete EPO, thereby increasing erythrocyte production and restoring oxygen levels. In a classic negative-
+feedback loop, as oxygen saturation rises, EPO secretion falls, and vice versa, thereby maintaining homeostasis.
+Populations dwelling at high elevations, with inherently lower levels of oxygen in the atmosphere, naturally maintain
+a hematocrit higher than people living at sea level. Consequently, people traveling to high elevations may experience
+symptoms of hypoxemia, such as fatigue, headache, and shortness of breath, for a few days after their arrival. In
+response to the hypoxemia, the kidneys secrete EPO to step up the production of erythrocytes until homeostasis is
+achieved once again. To avoid the symptoms of hypoxemia, or altitude sickness, mountain climbers typically rest for
+several days to a week or more at a series of camps situated at increasing elevations to allow EPO levels and,
+consequently, erythrocyte counts to rise. When climbing the tallest peaks, such as Mt. Everest and K2 in the
+Himalayas, many mountain climbers rely upon bottled oxygen as they near the summit.
+Lifecycle of Erythrocytes
+Production of erythrocytes in the marrow occurs at the staggering rate of more than 2 million cells per second. For
+this production to occur, a number of raw materials must be present in adequate amounts. These include the same
+nutrients that are essential to the production and maintenance of any cell, such as glucose, lipids, and amino acids.
+However, erythrocyte production also requires several trace elements:
+•
+Iron. We have said that each heme group in a hemoglobin molecule contains an ion of the trace mineral iron. On
+average, less than 20 percent of the iron we consume is absorbed. Heme iron, from animal foods such as meat,
+poultry, and fish, is absorbed more efficiently than non-heme iron from plant foods. Upon absorption, iron
+becomes part of the body’s total iron pool. The bone marrow, liver, and spleen can store iron in the protein
+compounds ferritin and hemosiderin. Ferroportin transports the iron across the intestinal cell plasma
+membranes and from its storage sites into tissue fluid where it enters the blood. When EPO stimulates the
+production of erythrocytes, iron is released from storage, bound to transferrin, and carried to the red marrow
+where it attaches to erythrocyte precursors.
+•
+Copper. A trace mineral, copper is a component of two plasma proteins, hephaestin and ceruloplasmin. Without
+these, hemoglobin could not be adequately produced. Located in intestinal villi, hephaestin enables iron to be
+absorbed by intestinal cells. Ceruloplasmin transports copper. Both enable the oxidation of iron from Fe2+ to
+Fe3+, a form in which it can be bound to its transport protein, transferrin, for transport to body cells. In a state
+of copper deficiency, the transport of iron for heme synthesis decreases, and iron can accumulate in tissues,
+where it can eventually lead to organ damage.
+•
+Zinc. The trace mineral zinc functions as a co-enzyme that facilitates the synthesis of the heme portion of
+hemoglobin.
+•
+B vitamins. The B vitamins folate and vitamin B12 function as co-enzymes that facilitate DNA synthesis. Thus,
+both are critical for the synthesis of new cells, including erythrocytes.
+Erythrocytes live up to 120 days in the circulation, after which the worn-out cells are removed by a type of myeloid
+phagocytic cell called a macrophage, located primarily within the bone marrow, liver, and spleen. The components
+of the degraded erythrocytes’ hemoglobin are further processed as follows:
+•
+Globin, the protein portion of hemoglobin, is broken down into amino acids, which can be sent back to the bone
+marrow to be used in the production of new erythrocytes. Hemoglobin that is not phagocytized is broken down
+in the circulation, releasing alpha and beta chains that are removed from circulation by the kidneys.
+•
+The iron contained in the heme portion of hemoglobin may be stored in the liver or spleen, primarily in the form
+of ferritin or hemosiderin, or carried through the bloodstream by transferrin to the red bone marrow for
+recycling into new erythrocytes.
+•
+The non-iron portion of heme is degraded into the waste product biliverdin, a green pigment, and then into
+another waste product, bilirubin, a yellow pigment. Bilirubin binds to albumin and travels in the blood to the
+liver, which uses it in the manufacture of bile, a compound released into the intestines to help emulsify dietary
+fats. In the large intestine, bacteria breaks the bilirubin apart from the bile and converts it to urobilinogen and
+then into stercobilin. It is then eliminated from the body in the feces. Broad-spectrum antibiotics typically
+eliminate these bacteria as well and may alter the color of feces. The kidneys also remove any circulating
+bilirubin and other related metabolic byproducts such as urobilins and secrete them into the urine.
+The breakdown pigments formed from the destruction of hemoglobin can be seen in a variety of situations. At the
+site of an injury, biliverdin from damaged RBCs produces some of the dramatic colors associated with a bruise. With
+a failing liver, bilirubin cannot be removed effectively from circulation and causes the body to assume a yellowish
+tinge associated with jaundice. Stercobilins within the feces produce the typical brown color associated with this
+waste. And the yellow of urine is associated with the urobilins.
+The erythrocyte lifecycle is summarized in Figure 18.8.
+
+FIGURE 18.8
+Erythrocyte Lifecycle
+Erythrocytes are produced in the bone marrow and sent into the circulation. At the end of their
+lifecycle, they are destroyed by macrophages, and their components are recycled.
+Disorders of Erythrocytes
+The size, shape, and number of erythrocytes, and the number of hemoglobin molecules can have a major impact on
+a person’s health. When the number of RBCs or hemoglobin is deficient, the general condition is called anemia.
+There are more than 400 types of anemia and more than 3.5 million Americans suffer from this condition. Anemia
+can be broken down into three major groups: those caused by blood loss, those caused by faulty or decreased RBC
+production, and those caused by excessive destruction of RBCs. Clinicians often use two groupings in diagnosis: The
+kinetic approach focuses on evaluating the production, destruction, and removal of RBCs, whereas the
+morphological approach examines the RBCs themselves, paying particular emphasis to their size. A common test is
+the mean corpuscle volume (MCV), which measures size. Normal-sized cells are referred to as normocytic, smaller-
+than-normal cells are referred to as microcytic, and larger-than-normal cells are referred to as macrocytic.
+Reticulocyte counts are also important and may reveal inadequate production of RBCs. The effects of the various
+anemias are widespread, because reduced numbers of RBCs or hemoglobin will result in lower levels of oxygen
+being delivered to body tissues. Since oxygen is required for tissue functioning, anemia produces fatigue, lethargy,
+and an increased risk for infection. An oxygen deficit in the brain impairs the ability to think clearly, and may prompt
+headaches and irritability. Lack of oxygen leaves the patient short of breath, even as the heart and lungs work harder
+in response to the deficit.
+Blood loss anemias are fairly straightforward. In addition to bleeding from wounds or other lesions, these forms of
+anemia may be due to ulcers, hemorrhoids, inflammation of the stomach (gastritis), and some cancers of the
+gastrointestinal tract. The excessive use of aspirin or other nonsteroidal anti-inflammatory drugs such as ibuprofen
+can trigger ulceration and gastritis. Excessive menstruation and loss of blood during childbirth are also potential
+causes.
+Anemias caused by faulty or decreased RBC production include sickle cell anemia, iron deficiency anemia, vitamin
+deficiency anemia, and diseases of the bone marrow and stem cells.
+•
+A characteristic change in the shape of erythrocytes is seen in sickle cell disease (also referred to as sickle cell
+anemia). A genetic disorder, it is caused by production of an abnormal type of hemoglobin, called hemoglobin S,
+which delivers less oxygen to tissues and causes erythrocytes to assume a sickle (or crescent) shape, especially
+at low oxygen concentrations (Figure 18.9). These abnormally shaped cells can then become lodged in narrow
+capillaries because they are unable to fold in on themselves to squeeze through, blocking blood flow to tissues
+and causing a variety of serious problems from painful joints to delayed growth and even blindness and
+cerebrovascular accidents (strokes). Sickle cell anemia is a genetic condition particularly found in individuals of
+African descent.
+FIGURE 18.9
+Sickle Cells
+Sickle cell anemia is caused by a mutation in one of the hemoglobin genes. Erythrocytes produce an
+abnormal type of hemoglobin, which causes the cell to take on a sickle or crescent shape. (credit: Janice Haney Carr)
+•
+Iron deficiency anemia is the most common type and results when the amount of available iron is insufficient to
+allow production of sufficient heme. This condition can occur in individuals with a deficiency of iron in the diet
+and is especially common in teens and children as well as in vegans and vegetarians. Additionally, iron
+deficiency anemia may be caused by either an inability to absorb and transport iron or slow, chronic bleeding.
+•
+Vitamin-deficient anemias generally involve insufficient vitamin B12 and folate.
+◦
+Megaloblastic anemia involves a deficiency of vitamin B12 and/or folate, and often involves diets deficient in
+these essential nutrients. Lack of meat or a viable alternate source, and overcooking or eating insufficient
+amounts of vegetables may lead to a lack of folate.
+◦
+Pernicious anemia is caused by poor absorption of vitamin B12 and is often seen in patients with Crohn’s
+disease (a severe intestinal disorder often treated by surgery), surgical removal of the intestines or stomach
+(common in some weight loss surgeries), intestinal parasites, and AIDS.
+◦
+Pregnancies, some medications, excessive alcohol consumption, and some diseases such as celiac disease
+are also associated with vitamin deficiencies. It is essential to provide sufficient folic acid during the early
+stages of pregnancy to reduce the risk of neurological defects, including spina bifida, a failure of the neural
+tube to close.
+•
+Assorted disease processes can also interfere with the production and formation of RBCs and hemoglobin. If
+myeloid stem cells are defective or replaced by cancer cells, there will be insufficient quantities of RBCs
+produced.
+◦
+Aplastic anemia is the condition in which there are deficient numbers of RBC stem cells. Aplastic anemia is
+often inherited, or it may be triggered by radiation, medication, chemotherapy, or infection.
+◦
+Thalassemia is an inherited condition typically occurring in individuals from the Middle East, the
+Mediterranean, African, and Southeast Asia, in which maturation of the RBCs does not proceed normally. The
+most severe form is called Cooley’s anemia.
+◦
+Lead exposure from industrial sources or even dust from paint chips of iron-containing paints or pottery that
+has not been properly glazed may also lead to destruction of the red marrow.
+•
+Various disease processes also can lead to anemias. These include chronic kidney diseases often associated
+with a decreased production of EPO, hypothyroidism, some forms of cancer, lupus, and rheumatoid arthritis.
+In contrast to anemia, an elevated RBC count is called polycythemia and is detected in a patient’s elevated
+hematocrit. It can occur transiently in a person who is dehydrated; when water intake is inadequate or water losses
+are excessive, the plasma volume falls. As a result, the hematocrit rises. For reasons mentioned earlier, a mild form
+of polycythemia is chronic but normal in people living at high altitudes. Some elite athletes train at high elevations
+specifically to induce this phenomenon. Finally, a type of bone marrow disease called polycythemia vera (from the
+Greek vera = “true”) causes an excessive production of immature erythrocytes. Polycythemia vera can dangerously
+elevate the viscosity of blood, raising blood pressure and making it more difficult for the heart to pump blood
+throughout the body. It is a relatively rare disease that occurs more often in males than in females, and is more
+likely to be present in elderly patients those over 60 years of age.

@@ -1,0 +1,505 @@
+23.7 Chemical Digestion and Absorption: A Closer Look
+LEARNING OBJECTIVES
+By the end of this section, you will be able to:
+•
+Identify the locations and primary secretions involved in the chemical digestion of carbohydrates, proteins,
+lipids, and nucleic acids
+•
+Compare and contrast absorption of the hydrophilic and hydrophobic nutrients
+As you have learned, the process of mechanical digestion is relatively simple. It involves the physical breakdown of
+food but does not alter its chemical makeup. Chemical digestion, on the other hand, is a complex process that
+reduces food into its chemical building blocks, which are then absorbed to nourish the cells of the body (Figure
+23.28). In this section, you will look more closely at the processes of chemical digestion and absorption.
+
+FIGURE 23.28
+Digestion and Absorption
+Digestion begins in the mouth and continues as food travels through the small intestine.
+Most absorption occurs in the small intestine.
+
+Chemical Digestion
+Large food molecules (for example, proteins, lipids, nucleic acids, and starches) must be broken down into subunits
+that are small enough to be absorbed by the lining of the alimentary canal. This is accomplished by enzymes
+through hydrolysis. The many enzymes involved in chemical digestion are summarized in Table 23.8.
+
+The Digestive Enzymes
+Enzyme
+Category
+Enzyme Name
+Source
+Substrate
+Product
+Salivary
+Enzymes
+Lingual lipase
+Lingual
+glands
+Triglycerides
+Free fatty acids, and mono- and
+diglycerides
+Salivary
+Enzymes
+Salivary
+amylase
+Salivary
+glands
+Polysaccharides
+Disaccharides and
+trisaccharides
+Gastric
+enzymes
+Gastric lipase
+Chief cells
+Triglycerides
+Fatty acids and
+monoacylglycerides
+Gastric
+enzymes
+Pepsin*
+Chief cells
+Proteins
+Peptides
+TABLE 23.8 *These enzymes have been activated by other substances.
+
+Enzyme
+Category
+Enzyme Name
+Source
+Substrate
+Product
+Brush
+border
+enzymes
+α-Dextrinase
+Small
+intestine
+α-Dextrins
+Glucose
+Brush
+border
+enzymes
+Enteropeptidase
+Small
+intestine
+Trypsinogen
+Trypsin
+Brush
+border
+enzymes
+Lactase
+Small
+intestine
+Lactose
+Glucose and galactose
+Brush
+border
+enzymes
+Maltase
+Small
+intestine
+Maltose
+Glucose
+Brush
+border
+enzymes
+Nucleosidases
+and
+phosphatases
+Small
+intestine
+Nucleotides
+Phosphates, nitrogenous bases,
+and pentoses
+Brush
+border
+enzymes
+Peptidases
+Small
+intestine
+•
+Aminopeptidase: amino
+acids at the amino end of
+peptides
+•
+Dipeptidase: dipeptides
+•
+Aminopeptidase: amino
+acids and peptides
+•
+Dipeptidase: amino acids
+Brush
+border
+enzymes
+Sucrase
+Small
+intestine
+Sucrose
+Glucose and fructose
+Pancreatic
+enzymes
+Carboxy-
+peptidase*
+Pancreatic
+acinar
+cells
+Amino acids at the carboxyl
+end of peptides
+Amino acids and peptides
+Pancreatic
+enzymes
+Chymotrypsin*
+Pancreatic
+acinar
+cells
+Proteins
+Peptides
+Pancreatic
+enzymes
+Elastase*
+Pancreatic
+acinar
+cells
+Proteins
+Peptides
+Pancreatic
+enzymes
+Nucleases
+Pancreatic
+acinar
+cells
+•
+Ribonuclease: ribonucleic
+acids
+•
+Deoxyribonuclease:
+deoxyribonucleic acids
+Nucleotides
+TABLE 23.8 *These enzymes have been activated by other substances.
+
+
+Enzyme
+Category
+Enzyme Name
+Source
+Substrate
+Product
+Pancreatic
+enzymes
+Pancreatic
+amylase
+Pancreatic
+acinar
+cells
+Polysaccharides (starches)
+α-Dextrins, disaccharides
+(maltose), trisaccharides
+(maltotriose)
+Pancreatic
+enzymes
+Pancreatic
+lipase
+Pancreatic
+acinar
+cells
+Triglycerides that have been
+emulsified by bile salts
+Fatty acids and
+monoacylglycerides
+Pancreatic
+enzymes
+Trypsin*
+Pancreatic
+acinar
+cells
+Proteins
+Peptides
+TABLE 23.8 *These enzymes have been activated by other substances.
+
+Carbohydrate Digestion
+The average American diet is about 50 percent carbohydrates, which may be classified according to the number of
+monomers they contain of simple sugars (monosaccharides and disaccharides) and/or complex sugars
+(polysaccharides). Glucose, galactose, and fructose are the three monosaccharides that are commonly consumed
+and are readily absorbed. Your digestive system is also able to break down the disaccharide sucrose (regular table
+sugar: glucose + fructose), lactose (milk sugar: glucose + galactose), and maltose (grain sugar: glucose + glucose),
+and the polysaccharides glycogen and starch (chains of monosaccharides). Your bodies do not produce enzymes
+that can break down most fibrous polysaccharides, such as cellulose. While indigestible polysaccharides do not
+provide any nutritional value, they do provide dietary fiber, which helps propel food through the alimentary canal.
+The chemical digestion of starches begins in the mouth and has been reviewed above.
+In the small intestine, pancreatic amylase does the ‘heavy lifting’ for starch and carbohydrate digestion (Figure
+23.29). After amylases break down starch into smaller fragments, the brush border enzyme α-dextrinase starts
+working on α-dextrin, breaking off one glucose unit at a time. Three brush border enzymes hydrolyze sucrose,
+lactose, and maltose into monosaccharides. Sucrase splits sucrose into one molecule of fructose and one molecule
+of glucose; maltase breaks down maltose and maltotriose into two and three glucose molecules, respectively; and
+lactase breaks down lactose into one molecule of glucose and one molecule of galactose. Insufficient lactase can
+lead to lactose intolerance.
+
+FIGURE 23.29
+Carbohydrate Digestion Flow Chart
+Carbohydrates are broken down into their monomers in a series of steps.
+
+Protein Digestion
+Proteins are polymers composed of amino acids linked by peptide bonds to form long chains. Digestion reduces
+them to their constituent amino acids. You usually consume about 15 to 20 percent of your total calorie intake as
+protein.
+The digestion of protein starts in the stomach, where HCl and pepsin break proteins into smaller polypeptides,
+which then travel to the small intestine (Figure 23.30). Chemical digestion in the small intestine is continued by
+pancreatic enzymes, including chymotrypsin and trypsin, each of which act on specific bonds in amino acid
+sequences. At the same time, the cells of the brush border secrete enzymes such as aminopeptidase and
+dipeptidase, which further break down peptide chains. This results in molecules small enough to enter the
+bloodstream (Figure 23.31).
+
+FIGURE 23.30
+Digestion of Protein
+The digestion of protein begins in the stomach and is completed in the small intestine.
+
+FIGURE 23.31
+Digestion of Protein Flow Chart
+Proteins are successively broken down into their amino acid components.
+
+Lipid Digestion
+A healthy diet limits lipid intake to 35 percent of total calorie intake. The most common dietary lipids are
+triglycerides, which are made up of a glycerol molecule bound to three fatty acid chains. Small amounts of dietary
+cholesterol and phospholipids are also consumed.
+The three lipases responsible for lipid digestion are lingual lipase, gastric lipase, and pancreatic lipase. However,
+because the pancreas is the only consequential source of lipase, virtually all lipid digestion occurs in the small
+intestine. Pancreatic lipase breaks down each triglyceride into two free fatty acids and a monoglyceride. The fatty
+acids include both short-chain (less than 10 to 12 carbons) and long-chain fatty acids.
+
+Nucleic Acid Digestion
+The nucleic acids DNA and RNA are found in most of the foods you eat. Two types of pancreatic nuclease are
+responsible for their digestion: deoxyribonuclease, which digests DNA, and ribonuclease, which digests RNA. The
+nucleotides produced by this digestion are further broken down by two intestinal brush border enzymes
+(nucleosidase and phosphatase) into pentoses, phosphates, and nitrogenous bases, which can be absorbed
+through the alimentary canal wall. The large food molecules that must be broken down into subunits are
+summarized Table 23.9
+
+Absorbable Food Substances
+Source
+Substance
+Carbohydrates
+Monosaccharides: glucose, galactose, and fructose
+Proteins
+Single amino acids, dipeptides, and tripeptides
+TABLE 23.9
+1042
+23 • The Digestive System
+Access for free at openstax.org
+Source
+Substance
+Triglycerides
+Monoacylglycerides, glycerol, and free fatty acids
+Nucleic acids
+Pentose sugars, phosphates, and nitrogenous bases
+TABLE 23.9
+
+Absorption
+The mechanical and digestive processes have one goal: to convert food into molecules small enough to be absorbed
+by the epithelial cells of the intestinal villi. The absorptive capacity of the alimentary canal is almost endless. Each
+day, the alimentary canal processes up to 10 liters of food, liquids, and GI secretions, yet less than one liter enters
+the large intestine. Almost all ingested food, 80 percent of electrolytes, and 90 percent of water are absorbed in the
+small intestine. Although the entire small intestine is involved in the absorption of water and lipids, most absorption
+of carbohydrates and proteins occurs in the jejunum. Notably, bile salts and vitamin B12 are absorbed in the terminal
+ileum. By the time chyme passes from the ileum into the large intestine, it is essentially indigestible food residue
+(mainly plant fibers like cellulose), some water, and millions of bacteria (Figure 23.32).
+
+FIGURE 23.32
+Digestive Secretions and Absorption of Water
+Absorption is a complex process, in which nutrients from digested food are harvested.
+
+Absorption can occur through five mechanisms: (1) active transport, (2) passive diffusion, (3) facilitated diffusion,
+(4) co-transport (or secondary active transport), and (5) endocytosis. As you will recall from Chapter 3, active
+transport refers to the movement of a substance across a cell membrane going from an area of lower concentration
+to an area of higher concentration (up the concentration gradient). In this type of transport, proteins within the cell
+membrane act as “pumps,” using cellular energy (ATP) to move the substance. Passive diffusion refers to the
+movement of substances from an area of higher concentration to an area of lower concentration, while facilitated
+diffusion refers to the movement of substances from an area of higher to an area of lower concentration using a
+carrier protein in the cell membrane. Co-transport uses the movement of one molecule through the membrane from
+higher to lower concentration to power the movement of another from lower to higher. Finally, endocytosis is a
+transportation process in which the cell membrane engulfs material. It requires energy, generally in the form of ATP.
+Because the cell’s plasma membrane is made up of hydrophobic phospholipids, water-soluble nutrients must use
+transport molecules embedded in the membrane to enter cells. Moreover, substances cannot pass between the
+epithelial cells of the intestinal mucosa because these cells are bound together by tight junctions. Thus, substances
+can only enter blood capillaries by passing through the apical surfaces of epithelial cells and into the interstitial
+fluid. Water-soluble nutrients enter the capillary blood in the villi and travel to the liver via the hepatic portal vein.
+In contrast to the water-soluble nutrients, lipid-soluble nutrients can diffuse through the plasma membrane. Once
+inside the cell, they are packaged for transport via the base of the cell and then enter the lacteals of the villi to be
+transported by lymphatic vessels to the systemic circulation via the thoracic duct. The absorption of most nutrients
+through the mucosa of the intestinal villi requires active transport fueled by ATP. The routes of absorption for each
+food category are summarized in Table 23.10.
+
+Absorption in the Alimentary Canal
+Food
+Breakdown
+products
+Absorption mechanism
+Entry to
+bloodstream
+Destination
+Carbohydrates
+Glucose
+Co-transport with sodium ions
+Capillary
+blood in villi
+Liver via hepatic
+portal vein
+Carbohydrates
+Galactose
+Co-transport with sodium ions
+Capillary
+blood in villi
+Liver via hepatic
+portal vein
+Carbohydrates
+Fructose
+Facilitated diffusion
+Capillary
+blood in villi
+Liver via hepatic
+portal vein
+Protein
+Amino acids
+Co-transport with sodium ions
+Capillary
+blood in villi
+Liver via hepatic
+portal vein
+Lipids
+Long-chain fatty
+acids
+Diffusion into intestinal cells,
+where they are combined with
+proteins to create chylomicrons
+Lacteals of
+villi
+Systemic
+circulation via
+lymph entering
+thoracic duct
+Lipids
+Monoacylglycerides
+Diffusion into intestinal cells,
+where they are combined with
+proteins to create chylomicrons
+Lacteals of
+villi
+Systemic
+circulation via
+lymph entering
+thoracic duct
+Lipids
+Short-chain fatty
+acids
+Simple diffusion
+Capillary
+blood in villi
+Liver via hepatic
+portal vein
+TABLE 23.10
+
+Food
+Breakdown
+products
+Absorption mechanism
+Entry to
+bloodstream
+Destination
+Lipids
+Glycerol
+Simple diffusion
+Capillary
+blood in villi
+Liver via hepatic
+portal vein
+Nucleic Acids
+Nucleic acid
+digestion products
+Active transport via membrane
+carriers
+Capillary
+blood in villi
+Liver via hepatic
+portal vein
+TABLE 23.10
+
+Carbohydrate Absorption
+All carbohydrates are absorbed in the form of monosaccharides. The small intestine is highly efficient at this,
+absorbing monosaccharides at an estimated rate of 120 grams per hour. All normally digested dietary carbohydrates
+are absorbed; indigestible fibers are eliminated in the feces. The monosaccharides glucose and galactose are
+transported into the epithelial cells by common protein carriers via secondary active transport (that is, co-transport
+with sodium ions). The monosaccharides leave these cells via facilitated diffusion and enter the capillaries through
+intercellular clefts. The monosaccharide fructose (which is in fruit) is absorbed and transported by facilitated
+diffusion alone. The monosaccharides combine with the transport proteins immediately after the disaccharides are
+broken down.
+
+Protein Absorption
+Active transport mechanisms, primarily in the duodenum and jejunum, absorb most proteins as their breakdown
+products, amino acids. Almost all (95 to 98 percent) protein is digested and absorbed in the small intestine. The
+type of carrier that transports an amino acid varies. Most carriers are linked to the active transport of sodium. Short
+chains of two amino acids (dipeptides) or three amino acids (tripeptides) are also transported actively. However,
+after they enter the absorptive epithelial cells, they are broken down into their amino acids before leaving the cell
+and entering the capillary blood via diffusion.
+
+Lipid Absorption
+About 95 percent of lipids are absorbed in the small intestine. Bile salts not only speed up lipid digestion, they are
+also essential to the absorption of the end products of lipid digestion. Short-chain fatty acids are relatively water
+soluble and can enter the absorptive cells (enterocytes) directly. The small size of short-chain fatty acids enables
+them to be absorbed by enterocytes via simple diffusion, and then take the same path as monosaccharides and
+amino acids into the blood capillary of a villus.
+The large and hydrophobic long-chain fatty acids and monoacylglycerides are not so easily suspended in the watery
+intestinal chyme. However, bile salts and lecithin resolve this issue by enclosing them in a micelle, which is a tiny
+sphere with polar (hydrophilic) ends facing the watery environment and hydrophobic tails turned to the interior,
+creating a receptive environment for the long-chain fatty acids. The core also includes cholesterol and fat-soluble
+vitamins. Without micelles, lipids would sit on the surface of chyme and never come in contact with the absorptive
+surfaces of the epithelial cells. Micelles can easily squeeze between microvilli and get very near the luminal cell
+surface. At this point, lipid substances exit the micelle and are absorbed via simple diffusion.
+The free fatty acids and monoacylglycerides that enter the epithelial cells are reincorporated into triglycerides. The
+triglycerides are mixed with phospholipids and cholesterol, and surrounded with a protein coat. This new complex,
+called a chylomicron, is a water-soluble lipoprotein. After being processed by the Golgi apparatus, chylomicrons are
+released from the cell (Figure 23.33). Too big to pass through the basement membranes of blood capillaries,
+chylomicrons instead enter the large pores of lacteals. The lacteals come together to form the lymphatic vessels.
+The chylomicrons are transported in the lymphatic vessels and empty through the thoracic duct into the subclavian
+vein of the circulatory system. Once in the bloodstream, the enzyme lipoprotein lipase breaks down the
+triglycerides of the chylomicrons into free fatty acids and glycerol. These breakdown products then pass through
+capillary walls to be used for energy by cells or stored in adipose tissue as fat. Liver cells combine the remaining
+chylomicron remnants with proteins, forming lipoproteins that transport cholesterol in the blood.
+
+FIGURE 23.33
+Lipid Absorption
+Unlike amino acids and simple sugars, lipids are transformed as they are absorbed through epithelial
+cells.
+
+Nucleic Acid Absorption
+The products of nucleic acid digestion—pentose sugars, nitrogenous bases, and phosphate ions—are transported by
+carriers across the villus epithelium via active transport. These products then enter the bloodstream.
+Mineral Absorption
+The electrolytes absorbed by the small intestine are from both GI secretions and ingested foods. Since electrolytes
+dissociate into ions in water, most are absorbed via active transport throughout the entire small intestine. During
+absorption, co-transport mechanisms result in the accumulation of sodium ions inside the cells, whereas anti-port
+mechanisms reduce the potassium ion concentration inside the cells. To restore the sodium-potassium gradient
+across the cell membrane, a sodium-potassium pump requiring ATP pumps sodium out and potassium in.
+In general, all minerals that enter the intestine are absorbed, whether you need them or not. Iron and calcium are
+exceptions; they are absorbed in the duodenum in amounts that meet the body’s current requirements, as follows:
+Iron—The ionic iron needed for the production of hemoglobin is absorbed into mucosal cells via active transport.
+Once inside mucosal cells, ionic iron binds to the protein ferritin, creating iron-ferritin complexes that store iron until
+needed. When the body has enough iron, most of the stored iron is lost when worn-out epithelial cells slough off.
+When the body needs iron because, for example, it is lost during acute or chronic bleeding, there is increased uptake
+of iron from the intestine and accelerated release of iron into the bloodstream. Since females experience significant
+iron loss during menstruation, they have around four times as many iron transport proteins in their intestinal
+epithelial cells as do males.
+Calcium—Blood levels of ionic calcium determine the absorption of dietary calcium. When blood levels of ionic
+calcium drop, parathyroid hormone (PTH) secreted by the parathyroid glands stimulates the release of calcium ions
+from bone matrices and increases the reabsorption of calcium by the kidneys. PTH also upregulates the activation of
+vitamin D in the kidney, which then facilitates intestinal calcium ion absorption.
+
+Vitamin Absorption
+The small intestine absorbs the vitamins that occur naturally in food and supplements. Fat-soluble vitamins (A, D, E,
+and K) are absorbed along with dietary lipids in micelles via simple diffusion. This is why you are advised to eat
+some fatty foods when you take fat-soluble vitamin supplements. Most water-soluble vitamins (including most B
+vitamins and vitamin C) also are absorbed by simple diffusion. An exception is vitamin B12, which is a very large
+molecule. Intrinsic factor secreted in the stomach binds to vitamin B12, preventing its digestion and creating a
+complex that binds to mucosal receptors in the terminal ileum, where it is taken up by endocytosis.
+Water Absorption
+Each day, about nine liters of fluid enter the small intestine. About 2.3 liters are ingested in foods and beverages,
+and the rest is from GI secretions. About 90 percent of this water is absorbed in the small intestine. Water
+absorption is driven by the concentration gradient of the water: The concentration of water is higher in chyme than it
+is in epithelial cells. Thus, water moves down its concentration gradient from the chyme into cells. As noted earlier,
+much of the remaining water is then absorbed in the colon.

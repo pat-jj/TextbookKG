@@ -1,0 +1,260 @@
+15.1 Divisions of the Autonomic Nervous System
+LEARNING OBJECTIVES
+By the end of this section, you will be able to:
+•
+Name the components that generate the sympathetic and parasympathetic responses of the autonomic
+nervous system
+•
+Explain the differences in output connections within the two divisions of the autonomic nervous system
+•
+Describe the signaling molecules and receptor proteins involved in communication within the two divisions of
+the autonomic nervous system
+The nervous system can be divided into two functional parts: the somatic nervous system and the autonomic
+nervous system. The major differences between the two systems are evident in the responses that each produces.
+The somatic nervous system causes contraction of skeletal muscles. The autonomic nervous system controls
+cardiac and smooth muscle, as well as glandular tissue. The somatic nervous system is associated with voluntary
+responses (though many can happen without conscious awareness, like breathing), and the autonomic nervous
+system is associated with involuntary responses, such as those related to homeostasis.
+The autonomic nervous system regulates many of the internal organs through a balance of two aspects, or divisions.
+In addition to the endocrine system, the autonomic nervous system is instrumental in homeostatic mechanisms in
+the body. The two divisions of the autonomic nervous system are the sympathetic division and the
+parasympathetic division. The sympathetic system is associated with the fight-or-flight response, and
+parasympathetic activity is referred to by the epithet of rest and digest. Homeostasis is the balance between the
+two systems. At each target effector, dual innervation determines activity. For example, the heart receives
+connections from both the sympathetic and parasympathetic divisions. One causes heart rate to increase, whereas
+the other causes heart rate to decrease.
+
+INTERACTIVE LINK
+Watch this video (http://openstax.org/l/fightflight) to learn more about adrenaline and the fight-or-flight response.
+When someone is said to have a rush of adrenaline, the image of bungee jumpers or skydivers usually comes to
+mind. But adrenaline, also known as epinephrine, is an important chemical in coordinating the body’s fight-or-flight
+response. In this video, you look inside the physiology of the fight-or-flight response, as envisioned for a firefighter.
+His body’s reaction is the result of the sympathetic division of the autonomic nervous system causing system-wide
+changes as it prepares for extreme responses. What two changes does adrenaline bring about to help the skeletal
+muscle response?
+Sympathetic Division of the Autonomic Nervous System
+To respond to a threat—to fight or to run away—the sympathetic system causes divergent effects as many different
+effector organs are activated together for a common purpose. More oxygen needs to be inhaled and delivered to
+skeletal muscle. The respiratory, cardiovascular, and musculoskeletal systems are all activated together.
+Additionally, sweating keeps the excess heat that comes from muscle contraction from causing the body to
+overheat. The digestive system shuts down so that blood is not absorbing nutrients when it should be delivering
+oxygen to skeletal muscles. To coordinate all these responses, the connections in the sympathetic system diverge
+from a limited region of the central nervous system (CNS) to a wide array of ganglia that project to the many effector
+organs simultaneously. The complex set of structures that compose the output of the sympathetic system make it
+possible for these disparate effectors to come together in a coordinated, systemic change.
+The sympathetic division of the autonomic nervous system influences the various organ systems of the body through
+connections emerging from the thoracic and upper lumbar spinal cord. It is referred to as the thoracolumbar
+system to reflect this anatomical basis. A central neuron in the lateral horn of any of these spinal regions projects
+to ganglia adjacent to the vertebral column through the ventral spinal roots. The majority of ganglia of the
+sympathetic system belong to a network of sympathetic chain ganglia that runs alongside the vertebral column.
+The ganglia appear as a series of clusters of neurons linked by axonal bridges. There are typically 23 ganglia in the
+chain on either side of the spinal column. Three correspond to the cervical region, 12 are in the thoracic region, four
+are in the lumbar region, and four correspond to the sacral region. The cervical and sacral levels are not connected
+to the spinal cord directly through the spinal roots, but through ascending or descending connections through the
+bridges within the chain.
+A diagram that shows the connections of the sympathetic system is somewhat like a circuit diagram that shows the
+electrical connections between different receptacles and devices. In Figure 15.2, the “circuits” of the sympathetic
+system are intentionally simplified.
+
+FIGURE 15.2
+Connections of Sympathetic Division of the Autonomic Nervous System
+Neurons from the lateral horn of the spinal
+cord (preganglionic nerve fibers - solid lines)) project to the chain ganglia on either side of the vertebral column or to collateral
+(prevertebral) ganglia that are anterior to the vertebral column in the abdominal cavity. Axons from these ganglionic neurons
+(postganglionic nerve fibers - dotted lines) then project to target effectors throughout the body.
+To continue with the analogy of the circuit diagram, there are three different types of “junctions” that operate within
+the sympathetic system (Figure 15.3). The first type is most direct: the sympathetic nerve projects to the chain
+ganglion at the same level as the target effector (the organ, tissue, or gland to be innervated). An example of this
+type is spinal nerve T1 that synapses with the T1 chain ganglion to innervate the trachea. The fibers of this branch
+are called white rami communicantes (singular = ramus communicans); they are myelinated and therefore referred
+to as white (see Figure 15.3a). The axon from the central neuron (the preganglionic fiber shown as a solid line)
+synapses with the ganglionic neuron (with the postganglionic fiber shown as a dashed line). This neuron then
+projects to a target effector—in this case, the trachea—via gray rami communicantes, which are unmyelinated
+axons.
+In some cases, the target effectors are located superior or inferior to the spinal segment at which the preganglionic
+fiber emerges. With respect to the “wiring” involved, the synapse with the ganglionic neuron occurs at chain ganglia
+superior or inferior to the location of the central neuron. An example of this is spinal nerve T1 that innervates the
+eye. The spinal nerve tracks up through the chain until it reaches the superior cervical ganglion, where it synapses
+with the postganglionic neuron (see Figure 15.3b). The cervical ganglia are referred to as paravertebral ganglia,
+given their location adjacent to prevertebral ganglia in the sympathetic chain.
+Not all axons from the central neurons terminate in the chain ganglia. Additional branches from the ventral nerve
+root continue through the chain and on to one of the collateral ganglia as the greater splanchnic nerve or lesser
+splanchnic nerve. For example, the greater splanchnic nerve at the level of T5 synapses with a collateral ganglion
+outside the chain before making the connection to the postganglionic nerves that innervate the stomach (see Figure
+15.3c).
+Collateral ganglia, also called prevertebral ganglia, are situated anterior to the vertebral column and receive
+inputs from splanchnic nerves as well as central sympathetic neurons. They are associated with controlling organs
+in the abdominal cavity, and are also considered part of the enteric nervous system. The three collateral ganglia are
+the celiac ganglion, the superior mesenteric ganglion, and the inferior mesenteric ganglion (see Figure 15.2). The
+word celiac is derived from the Latin word “coelom,” which refers to a body cavity (in this case, the abdominal
+cavity), and the word mesenteric refers to the digestive system.
+
+FIGURE 15.3
+Sympathetic Connections and Chain Ganglia
+The axon from a central sympathetic neuron in the spinal cord can project
+to the periphery in a number of different ways. (a) The fiber can project out to the ganglion at the same level and synapse on a ganglionic
+neuron. (b) A branch can project to more superior or inferior ganglion in the chain. (c) A branch can project through the white ramus
+communicans, but not terminate on a ganglionic neuron in the chain. Instead, it projects through one of the splanchnic nerves to a
+collateral ganglion or the adrenal medulla (not pictured).
+An axon from the central neuron that projects to a sympathetic ganglion is referred to as a preganglionic fiber or
+neuron, and represents the output from the CNS to the ganglion. Because the sympathetic ganglia are adjacent to
+the vertebral column, preganglionic sympathetic fibers are relatively short, and they are myelinated. A
+postganglionic fiber—the axon from a ganglionic neuron that projects to the target effector—represents the output
+of a ganglion that directly influences the organ. Compared with the preganglionic fibers, postganglionic sympathetic
+fibers are long because of the relatively greater distance from the ganglion to the target effector. These fibers are
+unmyelinated. (Note that the term “postganglionic neuron” may be used to describe the projection from a ganglion
+to the target. The problem with that usage is that the cell body is in the ganglion, and only the fiber is postganglionic.
+Typically, the term neuron applies to the entire cell.)
+One type of preganglionic sympathetic fiber does not terminate in a ganglion. These are the axons from central
+sympathetic neurons that project to the adrenal medulla, the interior portion of the adrenal gland. These axons are
+still referred to as preganglionic fibers, but the target is not a ganglion. The adrenal medulla releases signaling
+molecules into the bloodstream, rather than using axons to communicate with target structures. The cells in the
+adrenal medulla that are contacted by the preganglionic fibers are called chromaffin cells. These cells are
+neurosecretory cells that develop from the neural crest along with the sympathetic ganglia, reinforcing the idea that
+the gland is, functionally, a sympathetic ganglion.
+The projections of the sympathetic division of the autonomic nervous system diverge widely, resulting in a broad
+influence of the system throughout the body. As a response to a threat, the sympathetic system would increase
+heart rate and breathing rate and cause blood flow to the skeletal muscle to increase and blood flow to the digestive
+system to decrease. Sweat gland secretion should also increase as part of an integrated response. All of those
+physiological changes are going to be required to occur together to run away from the hunting lioness, or the
+modern equivalent. This divergence is seen in the branching patterns of preganglionic sympathetic neurons—a
+single preganglionic sympathetic neuron may have 10–20 targets. An axon that leaves a central neuron of the lateral
+horn in the thoracolumbar spinal cord will pass through the white ramus communicans and enter the sympathetic
+chain, where it will branch toward a variety of targets. At the level of the spinal cord at which the preganglionic
+sympathetic fiber exits the spinal cord, a branch will synapse on a neuron in the adjacent chain ganglion. Some
+branches will extend up or down to a different level of the chain ganglia. Other branches will pass through the chain
+ganglia and project through one of the splanchnic nerves to a collateral ganglion. Finally, some branches may project
+through the splanchnic nerves to the adrenal medulla. All of these branches mean that one preganglionic neuron
+can influence different regions of the sympathetic system very broadly, by acting on widely distributed organs.
+Parasympathetic Division of the Autonomic Nervous System
+The parasympathetic system can also be referred to as the craniosacral system (or outflow) because the
+preganglionic neurons are located in nuclei of the brain stem and the lateral horn of the sacral spinal cord.
+The connections, or “circuits,” of the parasympathetic division are similar to the general layout of the sympathetic
+division with a few specific differences (Figure 15.4). The preganglionic fibers from the cranial region travel in cranial
+nerves, whereas preganglionic fibers from the sacral region travel in spinal nerves. The targets of these fibers are
+terminal ganglia, which are located near—or even within—the target effector. These ganglia are often referred to as
+intramural ganglia when they are found within the walls of the target organ. The postganglionic fiber projects from
+the terminal ganglia a short distance to the target effector, or to the specific target tissue within the organ.
+Comparing the relative lengths of axons in the parasympathetic system, the preganglionic fibers are long and the
+postganglionic fibers are short because the ganglia are close to—and sometimes within—the target effectors.
+The cranial component of the parasympathetic system is based in particular nuclei of the brain stem. In the
+midbrain, the Edinger–Westphal nucleus is part of the oculomotor complex, and axons from those neurons travel
+with the fibers in the oculomotor nerve (cranial nerve III) that innervate the extraocular muscles. The preganglionic
+parasympathetic fibers within cranial nerve III terminate in the ciliary ganglion, which is located in the posterior
+orbit. The postganglionic parasympathetic fibers then project to the smooth muscle of the iris to control pupillary
+size. In the upper medulla, the salivatory nuclei contain neurons with axons that project through the facial and
+glossopharyngeal nerves to ganglia that control salivary glands. Tear production is influenced by parasympathetic
+fibers in the facial nerve, which activate a ganglion, and ultimately the lacrimal (tear) gland. Neurons in the dorsal
+nucleus of the vagus nerve and the nucleus ambiguus project through the vagus nerve (cranial nerve X) to the
+terminal ganglia of the thoracic and abdominal cavities. Parasympathetic preganglionic fibers primarily influence the
+heart, bronchi, and esophagus in the thoracic cavity and the stomach, liver, pancreas, gall bladder, and small
+intestine of the abdominal cavity. The postganglionic fibers from the ganglia activated by the vagus nerve are often
+incorporated into the structure of the organ, such as the mesenteric plexus of the digestive tract organs and the
+intramural ganglia.
+
+FIGURE 15.4
+Connections of Parasympathetic Division of the Autonomic Nervous System
+Neurons from brain-stem nuclei, or from
+the lateral horn of the sacral spinal cord, project to terminal ganglia near or within the various organs of the body. Axons from these
+ganglionic neurons then project the short distance to those target effectors.
+Chemical Signaling in the Autonomic Nervous System
+Where an autonomic neuron connects with a target, there is a synapse. The electrical signal of the action potential
+causes the release of a signaling molecule, which will bind to receptor proteins on the target cell. Synapses of the
+autonomic system are classified as either cholinergic, meaning that acetylcholine (ACh) is released, or adrenergic,
+meaning that norepinephrine is released. The terms cholinergic and adrenergic refer not only to the signaling
+molecule that is released but also to the class of receptors that each binds.
+The cholinergic system includes two classes of receptor: the nicotinic receptor and the muscarinic receptor. Both
+receptor types bind to ACh and cause changes in the target cell. The nicotinic receptor is a ligand-gated cation
+channel and the muscarinic receptor is a G protein–coupled receptor. The receptors are named for, and
+differentiated by, other molecules that bind to them. Whereas nicotine will bind to the nicotinic receptor, and
+muscarine will bind to the muscarinic receptor, there is no cross-reactivity between the receptors. The situation is
+similar to locks and keys. Imagine two locks—one for a classroom and the other for an office—that are opened by
+two separate keys. The classroom key will not open the office door and the office key will not open the classroom
+door. This is similar to the specificity of nicotine and muscarine for their receptors. However, a master key can open
+multiple locks, such as a master key for the Biology Department that opens both the classroom and the office doors.
+This is similar to ACh that binds to both types of receptors. The molecules that define these receptors are not
+crucial—they are simply tools for researchers to use in the laboratory. These molecules are exogenous, meaning
+that they are made outside of the human body, so a researcher can use them without any confounding endogenous
+results (results caused by the molecules produced in the body).
+The adrenergic system also has two types of receptors, named the alpha (α)-adrenergic receptor and beta (β)-
+adrenergic receptor. Unlike cholinergic receptors, these receptor types are not classified by which drugs can bind
+to them. All of them are G protein–coupled receptors. There are two types of α-adrenergic receptors, termed α1, and
+α2, and there are three types of β-adrenergic receptors, termed β1, β2 and β3. An additional aspect of the adrenergic
+system is that there is a second signaling molecule called epinephrine. The chemical difference between
+norepinephrine and epinephrine is the addition of a methyl group (CH3) in epinephrine. The prefix “nor-” actually
+refers to this chemical difference, in which a methyl group is missing.
+The term adrenergic should remind you of the word adrenaline, which is associated with the fight-or-flight response
+described at the beginning of the chapter. Adrenaline and epinephrine are two names for the same molecule. The
+adrenal gland (in Latin, ad- = “on top of”; renal = “kidney”) secretes adrenaline. The ending “-ine” refers to the
+chemical being derived, or extracted, from the adrenal gland. A similar construction from Greek instead of Latin
+results in the word epinephrine (epi- = “above”; nephr- = “kidney”). In scientific usage, epinephrine is preferred in
+the United States, whereas adrenaline is preferred in Great Britain, because “adrenalin” was once a registered,
+proprietary drug name in the United States. Though the drug is no longer sold, the convention of referring to this
+molecule by the two different names persists. Similarly, norepinephrine and noradrenaline are two names for the
+same molecule.
+Having understood the cholinergic and adrenergic systems, their role in the autonomic system is relatively simple to
+understand. All preganglionic fibers, both sympathetic and parasympathetic, release ACh. All ganglionic
+neurons—the targets of these preganglionic fibers—have nicotinic receptors in their cell membranes. The nicotinic
+receptor is a ligand-gated cation channel that results in depolarization of the postsynaptic membrane. The
+postganglionic parasympathetic fibers also release ACh, but the receptors on their targets are muscarinic receptors,
+which are G protein–coupled receptors and do not exclusively cause depolarization of the postsynaptic membrane.
+Postganglionic sympathetic fibers release norepinephrine, except for fibers that project to sweat glands and to
+blood vessels associated with skeletal muscles, which release ACh (Table 15.1).
+
+Autonomic System Signaling Molecules
+Sympathetic
+Parasympathetic
+Preganglionic
+Acetylcholine → nicotinic receptor
+Acetylcholine →
+nicotinic receptor
+Postganglionic
+Norepinephrine → α- or β-adrenergic receptors
+Acetylcholine → muscarinic receptor (associated with sweat glands and
+the blood vessels associated with skeletal muscles only
+Acetylcholine →
+muscarinic
+receptor
+TABLE 15.1
+Signaling molecules can belong to two broad groups. Neurotransmitters are released at synapses, whereas
+hormones are released into the bloodstream. These are simplistic definitions, but they can help to clarify this point.
+Acetylcholine can be considered a neurotransmitter because it is released by axons at synapses. The adrenergic
+system, however, presents a challenge. Postganglionic sympathetic fibers release norepinephrine, which can be
+considered a neurotransmitter. But the adrenal medulla releases epinephrine and norepinephrine into circulation, so
+they should be considered hormones.
+What are referred to here as synapses may not fit the strictest definition of synapse. Some sources will refer to the
+connection between a postganglionic fiber and a target effector as neuroeffector junctions; neurotransmitters, as
+defined above, would be called neuromodulators. The structure of postganglionic connections are not the typical
+synaptic end bulb that is found at the neuromuscular junction, but rather are chains of swellings along the length of
+a postganglionic fiber called a varicosity (Figure 15.5).
+FIGURE 15.5
+Autonomic Varicosities
+The connection between autonomic fibers and target effectors is not the same as the typical
+synapse, such as the neuromuscular junction. Instead of a synaptic end bulb, a neurotransmitter is released from swellings along the length
+of a fiber that makes an extended network of connections in the target effector.
+Everyday Connection
+Fight or Flight? What About Fright and Freeze?
+The original usage of the epithet “fight or flight” comes from a scientist named Walter Cannon who worked at
+Harvard in 1915. The concept of homeostasis and the functioning of the sympathetic system had been
+introduced in France in the previous century. Cannon expanded the idea, and introduced the idea that an animal
+responds to a threat by preparing to stand and fight or run away. The nature of this response was thoroughly
+explained in a book on the physiology of pain, hunger, fear, and rage.
+When students learn about the sympathetic system and the fight-or-flight response, they often stop and wonder
+about other responses. If you were faced with a lioness running toward you as pictured at the beginning of this
+chapter, would you run or would you stand your ground? Some people would say that they would freeze and not
+know what to do. So isn’t there really more to what the autonomic system does than fight, flight, rest, or digest.
+What about fear and paralysis in the face of a threat?
+The common epithet of “fight or flight” is being enlarged to be “fight, flight, or fright” or even “fight, flight, fright,
+or freeze.” Cannon’s original contribution was a catchy phrase to express some of what the nervous system does
+in response to a threat, but it is incomplete. The sympathetic system is responsible for the physiological
+responses to emotional states. The name “sympathetic” can be said to mean that (sym- = “together”; -pathos =
+“pain,” “suffering,” or “emotion”).
+
+
+INTERACTIVE LINK
+Watch this video (http://openstax.org/l/nervsystem1) to learn more about the nervous system. As described in this
+video, the nervous system has a way to deal with threats and stress that is separate from the conscious control of
+the somatic nervous system. The system comes from a time when threats were about survival, but in the modern
+age, these responses become part of stress and anxiety. This video describes how the autonomic system is only part
+of the response to threats, or stressors. What other organ system gets involved, and what part of the brain
+coordinates the two systems for the entire response, including epinephrine (adrenaline) and cortisol?

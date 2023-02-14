@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/TextbookKG/static/css/main.b2689f4c.css",
+    "main.js": "/TextbookKG/static/js/main.e48d7707.js",
+    "static/js/787.354d86df.chunk.js": "/TextbookKG/static/js/787.354d86df.chunk.js",
+    "pdf.worker.js": "/TextbookKG/463889cbefd5c1b16938ddf10d61bf01.js",
+    "static/media/logo.png": "/TextbookKG/static/media/logo.eae3fd5f84444b6abe4f.png",
+    "index.html": "/TextbookKG/index.html",
+    "main.b2689f4c.css.map": "/TextbookKG/static/css/main.b2689f4c.css.map",
+    "main.e48d7707.js.map": "/TextbookKG/static/js/main.e48d7707.js.map",
+    "787.354d86df.chunk.js.map": "/TextbookKG/static/js/787.354d86df.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b2689f4c.css",
+    "static/js/main.e48d7707.js"
+  ]
+}

@@ -1,0 +1,237 @@
+INTRODUCTION
+CHAPTER 26
+Fluid, Electrolyte, and Acid-Base Balance
+CHAPTER OBJECTIVES
+After studying this chapter, you will be able to:
+•
+Identify the body’s main fluid compartments
+•
+Define plasma osmolality and identify two ways in which plasma osmolality is maintained
+•
+Identify the six ions most important to the function of the body
+•
+Define buffer and discuss the role of buffers in the body
+•
+Explain why bicarbonate must be conserved rather than reabsorbed in the kidney
+•
+Identify the normal range of blood pH and name the conditions where one has a blood pH that is either too
+high or too low
+Homeostasis, or the maintenance of constant conditions in the body, is a fundamental property of
+all living things. In the human body, the substances that participate in chemical reactions must remain within
+narrows ranges of concentration. Too much or too little of a single substance can disrupt your bodily functions.
+Because metabolism relies on reactions that are all interconnected, any disruption might affect multiple organs or
+even organ systems. Water is the most ubiquitous substance in the chemical reactions of life. The interactions of
+various aqueous solutions—solutions in which water is the solvent—are continuously monitored and adjusted by a
+large suite of interconnected feedback systems in your body. Understanding the ways in which the body maintains
+these critical balances is key to understanding good health.
+
+26.1 Body Fluids and Fluid Compartments
+LEARNING OBJECTIVES
+By the end of this section, you will be able to:
+•
+Explain the importance of water in the body
+•
+Contrast the composition of the intracellular fluid with that of the extracellular fluid
+•
+Explain the importance of protein channels in the movement of solutes
+•
+Identify the causes and symptoms of edema
+
+The chemical reactions of life take place in aqueous solutions. The dissolved substances in a solution are called
+solutes. In the human body, solutes vary in different parts of the body, but may include proteins—including those
+that transport lipids, carbohydrates, and, very importantly, electrolytes. Often in medicine, a mineral dissociated
+from a salt that carries an electrical charge (an ion) is called an electrolyte. For instance, sodium ions (Na+) and
+chloride ions (Cl-) are often referred to as electrolytes.
+In the body, water moves through semi-permeable membranes of cells and from one compartment of the body to
+another by a process called osmosis. Osmosis is basically the diffusion of water from regions of higher concentration
+of water to regions of lower concentration of water, along an osmotic gradient across a semi-permeable membrane.
+As a result, water will move into and out of cells and tissues, depending on the relative concentrations of the water
+and solutes found there. An appropriate balance of solutes inside and outside of cells must be maintained to ensure
+normal function.
+
+Body Water Content
+Human beings are mostly water, ranging from about 75 percent of body mass in infants to about 50–60 percent in
+adults, to as low as 45 percent in old age. The percent of body water changes with development, because the
+proportions of the body given over to each organ and to muscles, fat, bone, and other tissues change from infancy to
+adulthood (Figure 26.2). Your brain and kidneys have the highest proportions of water, which composes 80–85
+percent of their masses. In contrast, teeth have the lowest proportion of water, at 8–10 percent.
+
+FIGURE 26.2
+Water Content of the Body’s Organs and Tissues
+Water content varies in different body organs and tissues, from as
+little as 8 percent in the teeth to as much as 85 percent in the brain.
+
+Fluid Compartments
+Body fluids can be discussed in terms of their specific fluid compartment, a location that is largely separate from
+another compartment by some form of a physical barrier. The intracellular fluid (ICF) compartment is the system
+that includes all fluid enclosed in cells by their plasma membranes. Extracellular fluid (ECF) surrounds all cells in
+the body. Extracellular fluid has two primary constituents: the fluid component of the blood (called plasma) and the
+interstitial fluid (IF) that surrounds all cells not in the blood (Figure 26.3).
+
+FIGURE 26.3
+Fluid Compartments in the Human Body
+The intracellular fluid (ICF) is the fluid within cells. The interstitial fluid (IF) is
+part of the extracellular fluid (ECF) between the cells. Blood plasma is the second part of the ECF. Materials travel between cells and the
+plasma in capillaries through the IF.
+
+Intracellular Fluid
+The ICF lies within cells and is the principal component of the cytosol/cytoplasm. The ICF makes up about 60
+percent of the total water in the human body, and in an average-size adult male, the ICF accounts for about 25 liters
+(seven gallons) of fluid (Figure 26.4). This fluid volume tends to be very stable, because the amount of water in living
+cells is closely regulated. If the amount of water inside a cell falls to a value that is too low, the cytosol becomes too
+concentrated with solutes to carry on normal cellular activities; if too much water enters a cell, the cell may burst
+and be destroyed.
+
+FIGURE 26.4
+A Pie Graph Showing the Proportion of Total Body Fluid in Each of the Body’s Fluid Compartments
+Most of the
+water in the body is intracellular fluid. The second largest volume is the interstitial fluid, which surrounds cells that are not blood cells.
+
+Extracellular Fluid
+The ECF accounts for the other one-third of the body’s water content. Approximately 20 percent of the ECF is found
+in plasma. Plasma travels through the body in blood vessels and transports a range of materials, including blood
+cells, proteins (including clotting factors and antibodies), electrolytes, nutrients, gases, and wastes. Gases,
+nutrients, and waste materials travel between capillaries and cells through the IF. Cells are separated from the IF by
+a selectively permeable cell membrane that helps regulate the passage of materials between the IF and the interior
+of the cell.
+The body has other water-based ECF. These include the cerebrospinal fluid that bathes the brain and spinal cord,
+lymph, the synovial fluid in joints, the pleural fluid in the pleural cavities, the pericardial fluid in the cardiac sac, the
+peritoneal fluid in the peritoneal cavity, and the aqueous humor of the eye. Because these fluids are outside of cells,
+these fluids are also considered components of the ECF compartment.
+
+Composition of Body Fluids
+The compositions of the two components of the ECF—plasma and IF—are more similar to each other than either is to
+the ICF (Figure 26.5). Blood plasma has high concentrations of sodium, chloride, bicarbonate, and protein. The IF
+has high concentrations of sodium, chloride, and bicarbonate, but a relatively lower concentration of protein. In
+contrast, the ICF has elevated amounts of potassium, phosphate, magnesium, and protein. Overall, the ICF contains
+high concentrations of potassium and phosphate (
+), whereas both plasma and the ECF contain high
+concentrations of sodium and chloride.
+
+FIGURE 26.5
+The Concentrations of Different Elements in Key Bodily Fluids
+The graph shows the composition of the ICF, IF, and
+plasma. The compositions of plasma and IF are similar to one another but are quite different from the composition of the ICF.
+
+INTERACTIVE LINK
+Watch this video (http://openstax.org/l/bodyfluids) to learn more about body fluids, fluid compartments, and
+electrolytes. When blood volume decreases due to sweating, from what source is water taken in by the blood?
+
+Most body fluids are neutral in charge. Thus, cations, or positively charged ions, and anions, or negatively charged
+ions, are balanced in fluids. As seen in the previous graph, sodium (Na+) ions and chloride (Cl-) ions are
+concentrated in the ECF of the body, whereas potassium (K+) ions are concentrated inside cells. Although sodium
+and potassium can “leak” through “pores” into and out of cells, respectively, the high levels of potassium and low
+levels of sodium in the ICF are maintained by sodium-potassium pumps in the cell membranes. These pumps use
+the energy supplied by ATP to pump sodium out of the cell and potassium into the cell (Figure 26.6).
+
+FIGURE 26.6
+The Sodium-Potassium Pump
+The sodium-potassium pump is powered by ATP to transfer sodium out of the cytoplasm
+and into the ECF. The pump also transfers potassium out of the ECF and into the cytoplasm. (credit: modification of work by Mariana Ruiz
+Villarreal)
+
+Fluid Movement between Compartments
+Hydrostatic pressure, the force exerted by a fluid against a wall, causes movement of fluid between compartments.
+The hydrostatic pressure of blood is the pressure exerted by blood against the walls of the blood vessels by the
+pumping action of the heart. In capillaries, hydrostatic pressure (also known as capillary blood pressure) is higher
+than the opposing “colloid osmotic pressure” in blood—a “constant” pressure primarily produced by circulating
+albumin—at the arteriolar end of the capillary (Figure 26.7). This pressure forces plasma and nutrients out of the
+capillaries and into surrounding tissues. Fluid and the cellular wastes in the tissues enter the capillaries at the
+venule end, where the hydrostatic pressure is less than the osmotic pressure in the vessel. Filtration pressure
+squeezes fluid from the plasma in the blood to the IF surrounding the tissue cells. The surplus fluid in the interstitial
+space that is not returned directly back to the capillaries is drained from tissues by the lymphatic system, and then
+re-enters the vascular system at the subclavian veins.
+
+FIGURE 26.7
+Capillary Exchange
+Net filtration occurs near the arterial end of the capillary since capillary hydrostatic pressure (CHP) is
+greater than blood colloidal osmotic pressure (BCOP). There is no net movement of fluid near the midpoint of the capillary since CHP =
+BCOP. Net reabsorption occurs near the venous end of the capillary since BCOP is greater than CHP.
+
+INTERACTIVE LINK
+Watch this video (http://openstax.org/l/dynamicfluid) to see an explanation of the dynamics of fluid in the body’s
+compartments. What happens in the tissue when capillary blood pressure is less than osmotic pressure?
+
+Hydrostatic pressure is especially important in governing the movement of water in the nephrons of the kidneys to
+ensure proper filtering of the blood to form urine. As hydrostatic pressure in the kidneys increases, the amount of
+water leaving the capillaries also increases, and more urine filtrate is formed. If hydrostatic pressure in the kidneys
+drops too low, as can happen in dehydration, the functions of the kidneys will be impaired, and less nitrogenous
+wastes will be removed from the bloodstream. Extreme dehydration can result in kidney failure.
+Fluid also moves between compartments along an osmotic gradient. Recall that an osmotic gradient is produced by
+the difference in concentration of all solutes on either side of a semi-permeable membrane. The magnitude of the
+osmotic gradient is proportional to the difference in the concentration of solutes on one side of the cell membrane
+to that on the other side. Water will move by osmosis from the side where its concentration is high (and the
+concentration of solute is low) to the side of the membrane where its concentration is low (and the concentration of
+solute is high). In the body, water moves by osmosis from plasma to the IF (and the reverse) and from the IF to the
+ICF (and the reverse). In the body, water moves constantly into and out of fluid compartments as conditions change
+in different parts of the body.
+For example, if you are sweating, you will lose water through your skin. Sweating depletes your tissues of water and
+increases the solute concentration in those tissues. As this happens, water diffuses from your blood into sweat
+glands and surrounding skin tissues that have become dehydrated because of the osmotic gradient. Additionally, as
+water leaves the blood, it is replaced by the water in other tissues throughout your body that are not dehydrated. If
+this continues, dehydration spreads throughout the body. When a dehydrated person drinks water and rehydrates,
+the water is redistributed by the same gradient, but in the opposite direction, replenishing water in all of the tissues.
+
+Solute Movement between Compartments
+The movement of some solutes between compartments is active, which consumes energy and is an active transport
+process, whereas the movement of other solutes is passive, which does not require energy. Active transport allows
+cells to move a specific substance against its concentration gradient through a membrane protein, requiring energy
+in the form of ATP. For example, the sodium-potassium pump employs active transport to pump sodium out of cells
+and potassium into cells, with both substances moving against their concentration gradients.
+Passive transport of a molecule or ion depends on its ability to pass through the membrane, as well as the existence
+of a concentration gradient that allows the molecules to diffuse from an area of higher concentration to an area of
+lower concentration. Some molecules, like gases, lipids, and water itself (which also utilizes water channels in the
+membrane called aquaporins), slip fairly easily through the cell membrane; others, including polar molecules like
+glucose, amino acids, and ions do not. Some of these molecules enter and leave cells using facilitated transport,
+whereby the molecules move down a concentration gradient through specific protein channels in the membrane.
+This process does not require energy. For example, glucose is transferred into cells by glucose transporters that use
+facilitated transport (Figure 26.8).
+
+FIGURE 26.8
+Facilitated Diffusion
+Glucose molecules use facilitated diffusion to move down a concentration gradient through the
+carrier protein channels in the membrane. (credit: modification of work by Mariana Ruiz Villarreal)
+
+Disorders of the...
+Fluid Balance: Edema
+Edema is the accumulation of excess water in the tissues. It is most common in the soft tissues of the
+extremities. The physiological causes of edema include water leakage from blood capillaries. Edema is almost
+always caused by an underlying medical condition, by the use of certain therapeutic drugs, by pregnancy, by
+localized injury, or by an allergic reaction. In the limbs, the symptoms of edema include swelling of the
+subcutaneous tissues, an increase in the normal size of the limb, and stretched, tight skin. One quick way to
+check for subcutaneous edema localized in a limb is to press a finger into the suspected area. Edema is likely if
+the depression persists for several seconds after the finger is removed (which is called “pitting”).
+Pulmonary edema is excess fluid in the air sacs of the lungs, a common symptom of heart and/or kidney failure.
+People with pulmonary edema likely will experience difficulty breathing, and they may experience chest pain.
+Pulmonary edema can be life threatening, because it compromises gas exchange in the lungs, and anyone
+having symptoms should immediately seek medical care.
+In pulmonary edema resulting from heart failure, excessive leakage of water occurs because fluids get “backed
+up” in the pulmonary capillaries of the lungs, when the left ventricle of the heart is unable to pump sufficient
+blood into the systemic circulation. Because the left side of the heart is unable to pump out its normal volume of
+blood, the blood in the pulmonary circulation gets “backed up,” starting with the left atrium, then into the
+pulmonary veins, and then into pulmonary capillaries. The resulting increased hydrostatic pressure within
+pulmonary capillaries, as blood is still coming in from the pulmonary arteries, causes fluid to be pushed out of
+them and into lung tissues.
+Other causes of edema include damage to blood vessels and/or lymphatic vessels, or a decrease in osmotic
+pressure in chronic and severe liver disease, where the liver is unable to manufacture plasma proteins (Figure
+26.9). A decrease in the normal levels of plasma proteins results in a decrease of colloid osmotic pressure
+(which counterbalances the hydrostatic pressure) in the capillaries. This process causes loss of water from the
+blood to the surrounding tissues, resulting in edema.
+
+FIGURE 26.9
+Edema
+An allergic reaction can cause capillaries in the hand to leak excess fluid that accumulates in the tissues.
+(credit: Jane Whitney)
+
+Mild, transient edema of the feet and legs may be caused by sitting or standing in the same position for long
+periods of time, as in the work of a toll collector or a supermarket cashier. This is because deep veins in the
+lower limbs rely on skeletal muscle contractions to push on the veins and thus “pump” blood back to the heart.
+Otherwise, the venous blood pools in the lower limbs and can leak into surrounding tissues.
+Medications that can result in edema include vasodilators, calcium channel blockers used to treat hypertension,
+non-steroidal anti-inflammatory drugs, estrogen therapies, and some diabetes medications. Underlying medical
+conditions that can contribute to edema include congestive heart failure, kidney damage and kidney disease,
+disorders that affect the veins of the legs, and cirrhosis and other liver disorders.
+Therapy for edema usually focuses on elimination of the cause. Activities that can reduce the effects of the
+condition include appropriate exercises to keep the blood and lymph flowing through the affected areas. Other
+therapies include elevation of the affected part to assist drainage, massage and compression of the areas to
+move the fluid out of the tissues, and decreased salt intake to decrease sodium and water retention.

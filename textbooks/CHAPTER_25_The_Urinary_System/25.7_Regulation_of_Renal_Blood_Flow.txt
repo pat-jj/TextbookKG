@@ -1,0 +1,96 @@
+25.7 Regulation of Renal Blood Flow
+LEARNING OBJECTIVES
+By the end of this section, you will be able to:
+•
+Describe the myogenic and tubuloglomerular feedback mechanisms and explain how they affect urine volume
+and composition
+•
+Describe the function of the juxtaglomerular apparatus
+It is vital that the flow of blood through the kidney be at a suitable rate to allow for filtration. This rate determines
+how much solute is retained or discarded, how much water is retained or discarded, and ultimately, the osmolarity
+of blood and the blood pressure of the body.
+
+Sympathetic Nerves
+The kidneys are innervated by the sympathetic neurons of the autonomic nervous system via the celiac plexus and
+splanchnic nerves. Reduction of sympathetic stimulation results in vasodilation and increased blood flow through
+the kidneys during resting conditions. When the frequency of action potentials increases, the arteriolar smooth
+muscle constricts (vasoconstriction), resulting in diminished glomerular flow, so less filtration occurs. Under
+conditions of stress, sympathetic nervous activity increases, resulting in the direct vasoconstriction of afferent
+arterioles (norepinephrine effect) as well as stimulation of the adrenal medulla. The adrenal medulla, in turn,
+produces a generalized vasoconstriction through the release of epinephrine. This includes vasoconstriction of the
+afferent arterioles, further reducing the volume of blood flowing through the kidneys. This process redirects blood to
+other organs with more immediate needs. If blood pressure falls, the sympathetic nerves will also stimulate the
+release of renin. Additional renin increases production of the powerful vasoconstrictor angiotensin II. Angiotensin
+II, as discussed above, will also stimulate aldosterone production to augment blood volume through retention of
+more Na+ and water. Only a 10 mm Hg pressure differential across the glomerulus is required for normal GFR, so
+very small changes in afferent arterial pressure significantly increase or decrease GFR.
+
+Autoregulation
+The kidneys are very effective at regulating the rate of blood flow over a wide range of blood pressures. Your blood
+pressure will decrease when you are relaxed or sleeping. It will increase when exercising. Yet, despite these
+changes, the filtration rate through the kidney will change very little. This is due to two internal autoregulatory
+mechanisms that operate without outside influence: the myogenic mechanism and the tubuloglomerular feedback
+mechanism.
+
+Arteriole Myogenic Mechanism
+The myogenic mechanism regulating blood flow within the kidney depends upon a characteristic shared by most
+smooth muscle cells of the body. When you stretch a smooth muscle cell, it contracts; when you stop, it relaxes,
+restoring its resting length. This mechanism works in the afferent arteriole that supplies the glomerulus. When blood
+pressure increases, smooth muscle cells in the wall of the arteriole are stretched and respond by contracting to
+resist the pressure, resulting in little change in flow. When blood pressure drops, the same smooth muscle cells
+relax to lower resistance, allowing a continued even flow of blood.
+
+Tubuloglomerular Feedback
+The tubuloglomerular feedback mechanism involves the JGA and a paracrine signaling mechanism utilizing ATP,
+adenosine, and nitric oxide (NO). This mechanism stimulates either contraction or relaxation of afferent arteriolar
+smooth muscle cells (Table 25.7). Recall that the DCT is in intimate contact with the afferent and efferent arterioles
+of the glomerulus. Specialized macula densa cells in this segment of the tubule respond to changes in the fluid flow
+rate and Na+ concentration. As GFR increases, there is less time for NaCl to be reabsorbed in the PCT, resulting in
+higher osmolarity in the filtrate. The increased fluid movement more strongly deflects single nonmotile cilia on
+macula densa cells. This increased osmolarity of the forming urine, and the greater flow rate within the DCT,
+activates macula densa cells to respond by releasing ATP and adenosine (a metabolite of ATP). ATP and adenosine
+act locally as paracrine factors to stimulate the myogenic juxtaglomerular cells of the afferent arteriole to constrict,
+slowing blood flow and reducing GFR. Conversely, when GFR decreases, less Na+ is in the forming urine, and most
+will be reabsorbed before reaching the macula densa, which will result in decreased ATP and adenosine, allowing
+the afferent arteriole to dilate and increase GFR. NO has the opposite effect, relaxing the afferent arteriole at the
+same time ATP and adenosine are stimulating it to contract. Thus, NO fine-tunes the effects of adenosine and ATP
+on GFR.
+
+Paracrine Mechanisms Controlling Glomerular Filtration Rate
+Change in
+GFR
+NaCl Absorption
+Role of ATP and adenosine/Role of NO
+Effect on GFR
+Increased
+GFR
+Tubular NaCl
+increases
+ATP and adenosine increase, causing
+vasoconstriction
+Vasoconstriction slows
+GFR
+Decreased
+GFR
+Tubular NaCl
+decreases
+ATP and adenosine decrease, causing
+vasodilation
+Vasodilation increases
+GFR
+Increased
+GFR
+Tubular NaCl
+increases
+NO increases, causing vasodilation
+Vasodilation increases
+GFR
+Decreased
+GFR
+Tubular NaCl
+decreases
+NO decreases, causing vasoconstricton
+Vasoconstriction
+decreases GFR
+TABLE 25.7
+

@@ -1,0 +1,105 @@
+8.5 Development of the Appendicular Skeleton
+LEARNING OBJECTIVES
+By the end of this section, you will be able to:
+•
+Describe the growth and development of the embryonic limb buds
+•
+Discuss the appearance of primary and secondary ossification centers
+Embryologically, the appendicular skeleton arises from mesenchyme, a type of embryonic tissue that can
+differentiate into many types of tissues, including bone or muscle tissue. Mesenchyme gives rise to the bones of the
+upper and lower limbs, as well as to the pectoral and pelvic girdles. Development of the limbs begins near the end of
+the fourth embryonic week, with the upper limbs appearing first. Thereafter, the development of the upper and
+lower limbs follows similar patterns, with the lower limbs lagging behind the upper limbs by a few days.
+Limb Growth
+Each upper and lower limb initially develops as a small bulge called a limb bud, which appears on the lateral side of
+the early embryo. The upper limb bud appears near the end of the fourth week of development, with the lower limb
+bud appearing shortly after (Figure 8.20).
+FIGURE 8.20
+Embryo at Seven Weeks
+Limb buds are visible in an embryo at the end of the seventh week of development (embryo
+derived from an ectopic pregnancy). (credit: Ed Uthman/flickr)
+Initially, the limb buds consist of a core of mesenchyme covered by a layer of ectoderm. The ectoderm at the end of
+the limb bud thickens to form a narrow crest called the apical ectodermal ridge. This ridge stimulates the
+underlying mesenchyme to rapidly proliferate, producing the outgrowth of the developing limb. As the limb bud
+elongates, cells located farther from the apical ectodermal ridge slow their rates of cell division and begin to
+differentiate. In this way, the limb develops along a proximal-to-distal axis.
+During the sixth week of development, the distal ends of the upper and lower limb buds expand and flatten into a
+paddle shape. This region will become the hand or foot. The wrist or ankle areas then appear as a constriction that
+develops at the base of the paddle. Shortly after this, a second constriction on the limb bud appears at the future
+site of the elbow or knee. Within the paddle, areas of tissue undergo cell death, producing separations between the
+growing fingers and toes. Also during the sixth week of development, mesenchyme within the limb buds begins to
+differentiate into hyaline cartilage that will form models of the future limb bones.
+The early outgrowth of the upper and lower limb buds initially has the limbs positioned so that the regions that will
+become the palm of the hand or the bottom of the foot are facing medially toward the body, with the future thumb or
+big toe both oriented toward the head. During the seventh week of development, the upper limb rotates laterally by
+90 degrees, so that the palm of the hand faces anteriorly and the thumb points laterally. In contrast, the lower limb
+undergoes a 90-degree medial rotation, thus bringing the big toe to the medial side of the foot.
+INTERACTIVE LINK
+Watch this animation (http://openstax.org/l/limbbuds) to follow the development and growth of the upper and lower
+limb buds. On what days of embryonic development do these events occur: (a) first appearance of the upper limb
+bud (limb ridge); (b) the flattening of the distal limb to form the handplate or footplate; and (c) the beginning of limb
+rotation?
+Ossification of Appendicular Bones
+All of the girdle and limb bones, except for the clavicle, develop by the process of endochondral ossification. This
+process begins as the mesenchyme within the limb bud differentiates into hyaline cartilage to form cartilage models
+for future bones. By the twelfth week, a primary ossification center will have appeared in the diaphysis (shaft) region
+of the long bones, initiating the process that converts the cartilage model into bone. A secondary ossification center
+will appear in each epiphysis (expanded end) of these bones at a later time, usually after birth. The primary and
+secondary ossification centers are separated by the epiphyseal plate, a layer of growing hyaline cartilage. This plate
+is located between the diaphysis and each epiphysis. It continues to grow and is responsible for the lengthening of
+the bone. The epiphyseal plate is retained for many years, until the bone reaches its final, adult size, at which time
+the epiphyseal plate disappears and the epiphysis fuses to the diaphysis. (Seek additional content on ossification in
+the chapter on bone tissue.)
+Small bones, such as the phalanges, will develop only one secondary ossification center and will thus have only a
+single epiphyseal plate. Large bones, such as the femur, will develop several secondary ossification centers, with an
+epiphyseal plate associated with each secondary center. Thus, ossification of the femur begins at the end of the
+seventh week with the appearance of the primary ossification center in the diaphysis, which rapidly expands to
+ossify the shaft of the bone prior to birth. Secondary ossification centers develop at later times. Ossification of the
+distal end of the femur, to form the condyles and epicondyles, begins shortly before birth. Secondary ossification
+centers also appear in the femoral head late in the first year after birth, in the greater trochanter during the fourth
+year, and in the lesser trochanter between the ages of 9 and 10 years. Once these areas have ossified, their fusion to
+the diaphysis and the disappearance of each epiphyseal plate follow a reversed sequence. Thus, the lesser
+trochanter is the first to fuse, doing so at the onset of puberty (around 11 years of age), followed by the greater
+trochanter approximately 1 year later. The femoral head fuses between the ages of 14–17 years, whereas the distal
+condyles of the femur are the last to fuse, between the ages of 16–19 years. Knowledge of the age at which different
+epiphyseal plates disappear is important when interpreting radiographs taken of children. Since the cartilage of an
+epiphyseal plate is less dense than bone, the plate will appear dark in a radiograph image. Thus, a normal
+epiphyseal plate may be mistaken for a bone fracture.
+The clavicle is the one appendicular skeleton bone that does not develop via endochondral ossification. Instead, the
+clavicle develops through the process of intramembranous ossification. During this process, mesenchymal cells
+differentiate directly into bone-producing cells, which produce the clavicle directly, without first making a cartilage
+model. Because of this early production of bone, the clavicle is the first bone of the body to begin ossification, with
+ossification centers appearing during the fifth week of development. However, ossification of the clavicle is not
+complete until age 25.
+Disorders of the...
+Appendicular System: Congenital Clubfoot
+Clubfoot, also known as talipes, is a congenital (present at birth) disorder of unknown cause and is the most
+common deformity of the lower limb. It affects the foot and ankle, causing the foot to be twisted inward at a
+sharp angle, like the head of a golf club (Figure 8.21). Clubfoot has a frequency of about 1 out of every 1,000
+births, and is twice as likely to occur in a male child as in a female child. In 50 percent of cases, both feet are
+affected.
+FIGURE 8.21
+Clubfoot
+Clubfoot is a common deformity of the ankle and foot that is present at birth. Most cases are corrected
+without surgery, and affected individuals will grow up to lead normal, active lives. (credit: James W. Hanson)
+At birth, children with a clubfoot have the heel turned inward and the anterior foot twisted so that the lateral
+side of the foot is facing inferiorly, commonly due to ligaments or leg muscles attached to the foot that are
+shortened or abnormally tight. These pull the foot into an abnormal position, resulting in bone deformities. Other
+symptoms may include bending of the ankle that lifts the heel of the foot and an extremely high foot arch. Due to
+the limited range of motion in the affected foot, it is difficult to place the foot into the correct position.
+Additionally, the affected foot may be shorter than normal, and the calf muscles are usually underdeveloped on
+the affected side. Despite the appearance, this is not a painful condition for newborns. However, it must be
+treated early to avoid future pain and impaired walking ability.
+Although the cause of clubfoot is idiopathic (unknown), evidence indicates that fetal position within the uterus is
+not a contributing factor. Genetic factors are involved, because clubfoot tends to run within families. Cigarette
+smoking during pregnancy has been linked to the development of clubfoot, particularly in families with a history
+of clubfoot.
+Previously, clubfoot required extensive surgery. Today, 90 percent of cases are successfully treated without
+surgery using new corrective casting techniques. The best chance for a full recovery requires that clubfoot
+treatment begin during the first 2 weeks after birth. Corrective casting gently stretches the foot, which is
+followed by the application of a holding cast to keep the foot in the proper position. This stretching and casting is
+repeated weekly for several weeks. In severe cases, surgery may also be required, after which the foot typically
+remains in a cast for 6 to 8 weeks. After the cast is removed following either surgical or nonsurgical treatment,
+the child will be required to wear a brace part-time (at night) for up to 4 years. In addition, special exercises will
+be prescribed, and the child must also wear special shoes. Close monitoring by the parents and adherence to
+postoperative instructions are imperative in minimizing the risk of relapse.

@@ -1,0 +1,608 @@
+{
+  "nodes": [
+    {
+      "id": "Narrow Range of Temperature",
+      "label": "Narrow Range of Temperature",
+      "color": "#00FF00"
+    },
+    {
+      "id": "body temperature",
+      "label": "body temperature",
+      "color": "#ffffff"
+    },
+    {
+      "id": "37°C (98.6°F)",
+      "label": "37°C (98.6°F)",
+      "color": "#ffffff"
+    },
+    {
+      "id": "chemical reactions",
+      "label": "chemical reactions",
+      "color": "#ffffff"
+    },
+    {
+      "id": "enzymes",
+      "label": "enzymes",
+      "color": "#ffffff"
+    },
+    {
+      "id": "metabolism",
+      "label": "metabolism",
+      "color": "#ffffff"
+    },
+    {
+      "id": "body",
+      "label": "body",
+      "color": "#ffffff"
+    },
+    {
+      "id": "heat",
+      "label": "heat",
+      "color": "#ffffff"
+    },
+    {
+      "id": "water",
+      "label": "water",
+      "color": "#ffffff"
+    },
+    {
+      "id": "sweat",
+      "label": "sweat",
+      "color": "#ffffff"
+    },
+    {
+      "id": "fluid intake",
+      "label": "fluid intake",
+      "color": "#ffffff"
+    },
+    {
+      "id": "sweat response",
+      "label": "sweat response",
+      "color": "#ffffff"
+    },
+    {
+      "id": "humid environment",
+      "label": "humid environment",
+      "color": "#ffffff"
+    },
+    {
+      "id": "Body",
+      "label": "Body",
+      "color": "#ffffff"
+    },
+    {
+      "id": "Clinical Term",
+      "label": "Clinical Term",
+      "color": "#ffffff"
+    },
+    {
+      "id": "Hypothermia",
+      "label": "Hypothermia",
+      "color": "#ffffff"
+    },
+    {
+      "id": "Controlled Hypothermia",
+      "label": "Controlled Hypothermia",
+      "color": "#ffffff"
+    },
+    {
+      "id": "Organ",
+      "label": "Organ",
+      "color": "#ffffff"
+    },
+    {
+      "id": "Person",
+      "label": "Person",
+      "color": "#ffffff"
+    },
+    {
+      "id": "Decrease Risk of Damage",
+      "label": "Decrease Risk of Damage",
+      "color": "#ffffff"
+    },
+    {
+      "id": "Patient",
+      "label": "Patient",
+      "color": "#ffffff"
+    },
+    {
+      "id": "Heart",
+      "label": "Heart",
+      "color": "#ffffff"
+    },
+    {
+      "id": "Emergency Department Physicians",
+      "label": "Emergency Department Physicians",
+      "color": "#ffffff"
+    },
+    {
+      "id": "Condition",
+      "label": "Condition",
+      "color": "#ffffff"
+    },
+    {
+      "id": "Patient's Organs",
+      "label": "Patient's Organs",
+      "color": "#ffffff"
+    },
+    {
+      "id": "Heart's Workload",
+      "label": "Heart's Workload",
+      "color": "#ffffff"
+    },
+    {
+      "id": "Extreme Heat",
+      "label": "Extreme Heat",
+      "color": "#00FF00"
+    },
+    {
+      "id": "Humans",
+      "label": "Humans",
+      "color": "#ffffff"
+    },
+    {
+      "id": "high temperatures",
+      "label": "high temperatures",
+      "color": "#ffffff"
+    },
+    {
+      "id": "cold",
+      "label": "cold",
+      "color": "#ffffff"
+    },
+    {
+      "id": "shivering",
+      "label": "shivering",
+      "color": "#ffffff"
+    },
+    {
+      "id": "breakdown",
+      "label": "breakdown",
+      "color": "#ffffff"
+    },
+    {
+      "id": "red blood cells",
+      "label": "red blood cells",
+      "color": "#ffffff"
+    },
+    {
+      "id": "oxygen",
+      "label": "oxygen",
+      "color": "#ffffff"
+    },
+    {
+      "id": "brain",
+      "label": "brain",
+      "color": "#ffffff"
+    },
+    {
+      "id": "blood circulation",
+      "label": "blood circulation",
+      "color": "#ffffff"
+    },
+    {
+      "id": "extremities",
+      "label": "extremities",
+      "color": "#ffffff"
+    },
+    {
+      "id": "fingers",
+      "label": "fingers",
+      "color": "#ffffff"
+    },
+    {
+      "id": "frostbite",
+      "label": "frostbite",
+      "color": "#ffffff"
+    },
+    {
+      "id": "blood flow",
+      "label": "blood flow",
+      "color": "#ffffff"
+    },
+    {
+      "id": "tissue damage",
+      "label": "tissue damage",
+      "color": "#ffffff"
+    },
+    {
+      "id": "gangrene",
+      "label": "gangrene",
+      "color": "#ffffff"
+    },
+    {
+      "id": "amputation",
+      "label": "amputation",
+      "color": "#ffffff"
+    },
+    {
+      "id": "Nutrients",
+      "label": "Nutrients",
+      "color": "#00FF00"
+    },
+    {
+      "id": "Water",
+      "label": "Water",
+      "color": "#00FF00"
+    },
+    {
+      "id": "Energy-yielding nutrients",
+      "label": "Energy-yielding nutrients",
+      "color": "#00FF00"
+    },
+    {
+      "id": "Body-building nutrients",
+      "label": "Body-building nutrients",
+      "color": "#00FF00"
+    },
+    {
+      "id": "Micronutrients",
+      "label": "Micronutrients",
+      "color": "#00FF00"
+    },
+    {
+      "id": "Vitamins",
+      "label": "Vitamins",
+      "color": "#00FF00"
+    },
+    {
+      "id": "Minerals",
+      "label": "Minerals",
+      "color": "#00FF00"
+    },
+    {
+      "id": "Carbohydrates",
+      "label": "Carbohydrates",
+      "color": "#00FF00"
+    },
+    {
+      "id": "Lipids",
+      "label": "Lipids",
+      "color": "#00FF00"
+    },
+    {
+      "id": "Proteins",
+      "label": "Proteins",
+      "color": "#00FF00"
+    },
+    {
+      "id": "Plant foods",
+      "label": "Plant foods",
+      "color": "#00FF00"
+    },
+    {
+      "id": "Animal foods",
+      "label": "Animal foods",
+      "color": "#00FF00"
+    },
+    {
+      "id": "ATP",
+      "label": "ATP",
+      "color": "#00FF00"
+    },
+    {
+      "id": "Macronutrients",
+      "label": "Macronutrients",
+      "color": "#00FF00"
+    },
+    {
+      "id": "Vitamin C",
+      "label": "Vitamin C",
+      "color": "#00FF00"
+    },
+    {
+      "id": "B Vitamins",
+      "label": "B Vitamins",
+      "color": "#00FF00"
+    },
+    {
+      "id": "Decompression Sickness",
+      "label": "Decompression Sickness",
+      "color": "#ffffff"
+    },
+    {
+      "id": "underwater divers",
+      "label": "underwater divers",
+      "color": "#ffffff"
+    },
+    {
+      "id": "pilots",
+      "label": "pilots",
+      "color": "#ffffff"
+    },
+    {
+      "id": "joint pain",
+      "label": "joint pain",
+      "color": "#ffffff"
+    },
+    {
+      "id": "headache",
+      "label": "headache",
+      "color": "#ffffff"
+    },
+    {
+      "id": "disturbances of vision",
+      "label": "disturbances of vision",
+      "color": "#ffffff"
+    },
+    {
+      "id": "hyperbaric chamber",
+      "label": "hyperbaric chamber",
+      "color": "#ffffff"
+    },
+    {
+      "id": "reduction in barometric pressure",
+      "label": "reduction in barometric pressure",
+      "color": "#ffffff"
+    },
+    {
+      "id": "rapid decrease of pressure",
+      "label": "rapid decrease of pressure",
+      "color": "#ffffff"
+    },
+    {
+      "id": "blood pressure",
+      "label": "blood pressure",
+      "color": "#00FF00"
+    },
+    {
+      "id": "human survival",
+      "label": "human survival",
+      "color": "#ffffff"
+    }
+  ],
+  "edges": [
+    {
+      "from": "body temperature",
+      "to": "37°C (98.6°F)",
+      "label": "range",
+      "id": "fece1635-2246-457d-8360-b9f2f8b79902"
+    },
+    {
+      "from": "chemical reactions",
+      "to": "body temperature",
+      "label": "depend on",
+      "id": "a81c558c-7258-4e01-8e90-9d475c436ca1"
+    },
+    {
+      "from": "enzymes",
+      "to": "chemical reactions",
+      "label": "facilitate",
+      "id": "1ffcdd22-4d31-4897-a01b-faa686579187"
+    },
+    {
+      "from": "metabolism",
+      "to": "chemical reactions",
+      "label": "depend on",
+      "id": "862b3728-38f2-4c26-89ab-07bcfff9b9b1"
+    },
+    {
+      "from": "body",
+      "to": "heat",
+      "label": "response to",
+      "id": "cf771574-b618-440f-9913-d80159d2e1f9"
+    },
+    {
+      "from": "water",
+      "to": "sweat",
+      "label": "produce",
+      "id": "cfcdbb3c-f245-4f0a-a51c-497960fc0d90"
+    },
+    {
+      "from": "fluid intake",
+      "to": "sweat response",
+      "label": "essential for",
+      "id": "63cfd78c-e857-43e8-b560-8512eca8629c"
+    },
+    {
+      "from": "humid environment",
+      "to": "sweat response",
+      "label": "inhibit",
+      "id": "46f415b3-ee8e-4851-b2b4-0ecdfd294ec7"
+    },
+    {
+      "from": "Body",
+      "to": "Clinical Term",
+      "label": "maintains temperature",
+      "id": "22d9ba10-3c4a-4db5-8a9f-7f852167ec81"
+    },
+    {
+      "from": "Clinical Term",
+      "to": "Hypothermia",
+      "label": "abnormally low body temperature",
+      "id": "d2e9b95a-c911-45e8-b319-fc1ee154610c"
+    },
+    {
+      "from": "Hypothermia",
+      "to": "Controlled Hypothermia",
+      "label": "clinically induced",
+      "id": "b8f2d679-2c1f-4752-99ac-ef7cb24155c5"
+    },
+    {
+      "from": "Controlled Hypothermia",
+      "to": "Organ",
+      "label": "reduce metabolic rate",
+      "id": "671d6a24-1975-4ab9-b9bc-8bbc09b01e1d"
+    },
+    {
+      "from": "Controlled Hypothermia",
+      "to": "Person",
+      "label": "reduce metabolic rate",
+      "id": "0ca47135-c3c8-4bbd-93ab-3888757f5726"
+    },
+    {
+      "from": "Controlled Hypothermia",
+      "to": "Decrease Risk of Damage",
+      "label": "used during open-heart surgery",
+      "id": "e771d090-2453-47df-83b0-14ea314c5d8e"
+    },
+    {
+      "from": "Controlled Hypothermia",
+      "to": "Patient",
+      "label": "cooled to 25-32°C",
+      "id": "811017a5-a68e-45f7-8084-9369982ab545"
+    },
+    {
+      "from": "Controlled Hypothermia",
+      "to": "Heart",
+      "label": "maintained at temperature below 15°C",
+      "id": "65f8bc7d-bae5-4bb9-ac9c-dacfe4a6939d"
+    },
+    {
+      "from": "Controlled Hypothermia",
+      "to": "Emergency Department Physicians",
+      "label": "used to reduce damage to heart",
+      "id": "663a5e32-a189-472e-a28b-666ec1592602"
+    },
+    {
+      "from": "Emergency Department Physicians",
+      "to": "Patient",
+      "label": "lower body temperature to 91°F",
+      "id": "0d822be0-6f20-4eb2-94a7-a7f2b3abd056"
+    },
+    {
+      "from": "Patient",
+      "to": "Condition",
+      "label": "slows metabolic rate",
+      "id": "58edb3f1-3122-4f69-888c-861e830f3ce4"
+    },
+    {
+      "from": "Condition",
+      "to": "Patient",
+      "label": "maintained for 24 hours",
+      "id": "d193a168-4bd9-4783-b765-c67d60648b23"
+    },
+    {
+      "from": "Patient's Organs",
+      "to": "Heart's Workload",
+      "label": "require less blood to function",
+      "id": "0e864b1c-c1e4-49d4-ba96-477ee3712284"
+    },
+    {
+      "from": "Humans",
+      "to": "high temperatures",
+      "label": "acclimate",
+      "id": "34c8f774-7907-4d96-99d9-25efb81f1fac"
+    },
+    {
+      "from": "body",
+      "to": "cold",
+      "label": "respond",
+      "id": "1182889a-a38c-45c5-81b5-02859f2e1b71"
+    },
+    {
+      "from": "shivering",
+      "to": "heat",
+      "label": "generate",
+      "id": "336e2486-0d31-4a34-ad23-b64bcb57dbfb"
+    },
+    {
+      "from": "breakdown",
+      "to": "heat",
+      "label": "generate",
+      "id": "17ff2d02-efa0-4035-ade9-e442d669c665"
+    },
+    {
+      "from": "red blood cells",
+      "to": "oxygen",
+      "label": "give up",
+      "id": "6e268466-b07d-484e-919c-e2eac1ea77df"
+    },
+    {
+      "from": "oxygen",
+      "to": "brain",
+      "label": "deny",
+      "id": "d7d3b1ac-ae56-4461-9532-b0a0be82e3ab"
+    },
+    {
+      "from": "blood circulation",
+      "to": "extremities",
+      "label": "reduce",
+      "id": "0ff2389c-72a1-4d3d-8bdc-951947f31736"
+    },
+    {
+      "from": "fingers",
+      "to": "frostbite",
+      "label": "develop",
+      "id": "562a5eb2-42da-4ef8-85d9-9be2cfb721b9"
+    },
+    {
+      "from": "blood flow",
+      "to": "extremities",
+      "label": "reduce",
+      "id": "b54e1d93-089f-40b8-9fd2-0186a5cfd741"
+    },
+    {
+      "from": "tissue damage",
+      "to": "gangrene",
+      "label": "permanent",
+      "id": "e64b97c1-3d39-40f6-a5c1-93ba64145e3b"
+    },
+    {
+      "from": "gangrene",
+      "to": "amputation",
+      "label": "require",
+      "id": "404db3be-2b50-4cfe-bce8-84edb3adaf80"
+    },
+    {
+      "from": "Decompression Sickness",
+      "to": "underwater divers",
+      "label": "affects",
+      "id": "16cb903a-c86f-4d1b-95c5-705144dbc95f"
+    },
+    {
+      "from": "Decompression Sickness",
+      "to": "pilots",
+      "label": "affects",
+      "id": "722f96be-2eb8-4164-ad99-50688b4928e9"
+    },
+    {
+      "from": "Decompression Sickness",
+      "to": "joint pain",
+      "label": "symptoms",
+      "id": "33d90846-209d-434d-9dac-6634c3ea689d"
+    },
+    {
+      "from": "Decompression Sickness",
+      "to": "headache",
+      "label": "symptoms",
+      "id": "229d484b-0f06-4467-bc16-7bc8cb6a53fe"
+    },
+    {
+      "from": "Decompression Sickness",
+      "to": "disturbances of vision",
+      "label": "symptoms",
+      "id": "e8d4cf1a-6eaa-4265-823c-0aed1239145e"
+    },
+    {
+      "from": "Decompression Sickness",
+      "to": "oxygen",
+      "label": "treatment",
+      "id": "41a3e080-9b1c-43de-b994-db3a99842e6b"
+    },
+    {
+      "from": "Decompression Sickness",
+      "to": "hyperbaric chamber",
+      "label": "treatment",
+      "id": "72762614-eeef-4869-94fb-0dbd4c62cbb6"
+    },
+    {
+      "from": "Decompression Sickness",
+      "to": "reduction in barometric pressure",
+      "label": "caused by",
+      "id": "a9d8e5e1-4933-48b7-bf06-1771b1f580df"
+    },
+    {
+      "from": "Decompression Sickness",
+      "to": "rapid decrease of pressure",
+      "label": "caused by",
+      "id": "e0899034-94ce-4865-9048-915ba6d0ac28"
+    },
+    {
+      "from": "blood pressure",
+      "to": "human survival",
+      "label": "important to",
+      "id": "aab1dcf4-efae-4601-aba9-5e6e7725e75c"
+    }
+  ]
+}

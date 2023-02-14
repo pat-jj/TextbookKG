@@ -1,0 +1,357 @@
+27.1 Anatomy and Physiology of the Testicular Reproductive System
+LEARNING OBJECTIVES
+By the end of this section, you will be able to:
+•
+Describe the structure and function of the organs of the testicular reproductive system
+•
+Describe the structure and function of the sperm cell
+•
+Explain the events during spermatogenesis that produce haploid sperm from diploid cells
+•
+Identify the importance of testosterone in reproductive function
+People often use the words "female" and "male" to describe two different concepts: our sense of gender identity,
+and our biological sex as determined by our X/Y chromosomes, hormones, sex organs, and other physical
+characteristics. For some people, gender identity is different from biological sex or their sex assigned at birth. In this
+chapter and the next chapter, "female" and "male" refer to sex only, and the typical reproductive anatomy of XX and
+XY individuals is discussed.
+Unique for its role in reproduction, a gamete is a specialized sex cell, which in humans carries 23
+chromosomes—one half the number in body cells. In almost all sexually reproducing species, these two haploid
+cells differ in size; the smaller gamete is called the male gamete and the larger one is called the female gamete. At
+fertilization, the chromosomes in one male gamete, called a sperm (or spermatozoon), combine with the
+chromosomes in one female gamete, called an oocyte. The function of the male, or testicular, reproductive system
+(Figure 27.2) is to produce sperm and transfer them to the female reproductive tract. The paired testes are a crucial
+component in this process, as they produce both sperm and androgens, the hormones that support male
+reproductive physiology. In male humans, the most important androgen is testosterone. For people with a penis,
+several accessory organs and ducts aid the process of sperm maturation and transport the sperm and other seminal
+components to the penis, which may deliver sperm to the female reproductive tract. In this section, we examine
+each of these different structures, and discuss the process of sperm production and transport.
+
+FIGURE 27.2
+Testicular Reproductive System
+The structures of the testicular reproductive system include the testes, the
+epididymides, the penis, and the ducts and glands that produce and carry semen. Sperm exit the scrotum through the ductus deferens,
+which is bundled in the spermatic cord. The seminal vesicles and prostate gland add fluids to the sperm to create semen.
+
+Scrotum
+The testes are located in a skin-covered, highly pigmented, muscular sack called the scrotum that extends from the
+body behind the penis (see Figure 27.2). This location is important in sperm production, which occurs within the
+testes, and proceeds more efficiently when the testes are kept 2 to 4°C below core body temperature.
+The dartos muscle makes up the subcutaneous muscle layer of the scrotum (Figure 27.3). It continues internally to
+make up the scrotal septum, a wall that divides the scrotum into two compartments, each housing one testis.
+Descending from the internal oblique muscle of the abdominal wall are the two cremaster muscles, which cover
+each testis like a muscular net. By contracting simultaneously, the dartos and cremaster muscles can elevate the
+testes in cold weather (or water), moving the testes closer to the body and decreasing the surface area of the
+scrotum to retain heat. Alternatively, as the environmental temperature increases, the scrotum relaxes, moving the
+testes farther from the body core and increasing scrotal surface area, which promotes heat loss. Externally, the
+scrotum has a raised medial thickening on the surface called the raphae.
+
+FIGURE 27.3
+The Scrotum and Testes
+This anterior view shows the structures of the scrotum and testes.
+
+Testes
+The testes (singular = testis) are the male gonads—that is, the male reproductive organs. They produce both sperm
+and androgens, such as testosterone, and are active throughout the reproductive lifespan.
+Paired ovals, adult testes are each approximately 4 to 5 cm in length and are housed within the scrotum (see Figure
+27.3). They are surrounded by two distinct layers of protective connective tissue (Figure 27.4). The outer tunica
+vaginalis is a serous membrane that has both a parietal and a thin visceral layer. Beneath the tunica vaginalis is the
+tunica albuginea, a tough, white, dense connective tissue layer covering the testis itself. Not only does the tunica
+albuginea cover the outside of the testis, it also invaginates to form septa that divide the testis into 300 to 400
+structures called lobules. Within the lobules, sperm develop in structures called seminiferous tubules. During the
+seventh month of the developmental period of a male fetus, each testis moves through the abdominal musculature
+to descend into the scrotal cavity. This is called the “descent of the testis.” Cryptorchidism is the clinical term used
+when one or both of the testes fail to descend into the scrotum prior to birth.
+
+FIGURE 27.4
+Anatomy of the Testis
+This sagittal view shows the seminiferous tubules, the site of sperm production. Formed sperm
+are transferred to the epididymis, where they mature. They leave the epididymis during an ejaculation via the ductus deferens.
+
+The tightly coiled seminiferous tubules form the bulk of each testis. They are composed of developing sperm cells
+surrounding a lumen, the hollow center of the tubule, where formed sperm are released into the duct system of the
+testis. Specifically, from the lumens of the seminiferous tubules, sperm move into the straight tubules (or tubuli
+recti), and from there into a fine meshwork of tubules called the rete testes. Sperm leave the rete testes, and the
+testis itself, through the 15 to 20 efferent ductules that cross the tunica albuginea.
+Inside the seminiferous tubules are six different cell types. These include supporting cells called sustentacular
+cells, as well as five types of developing sperm cells called germ cells. Germ cell development progresses from the
+basement membrane—at the perimeter of the tubule—toward the lumen. Let’s look more closely at these cell types.
+
+Sertoli Cells
+Surrounding all stages of the developing sperm cells are elongate, branching Sertoli cells. Sertoli cells are a type of
+supporting cell called a sustentacular cell, or sustentocyte, that are typically found in epithelial tissue. Sertoli cells
+secrete signaling molecules that promote sperm production and can control whether germ cells live or die. They
+extend physically around the germ cells from the peripheral basement membrane of the seminiferous tubules to the
+lumen. Tight junctions between these sustentacular cells create the blood–testis barrier, which keeps bloodborne
+substances from reaching the germ cells and, at the same time, keeps surface antigens on developing germ cells
+from escaping into the bloodstream and prompting an autoimmune response.
+
+Germ Cells
+The least mature cells, the spermatogonia (singular = spermatogonium), line the basement membrane inside the
+tubule. Spermatogonia are the stem cells of the testis, which means that they are still able to differentiate into a
+variety of different cell types throughout adulthood. Spermatogonia divide to produce primary and secondary
+spermatocytes, then spermatids, which finally produce formed sperm. The process that begins with spermatogonia
+and concludes with the production of sperm is called spermatogenesis.
+
+Spermatogenesis
+As just noted, spermatogenesis occurs in the seminiferous tubules that form the bulk of each testis (see Figure
+27.4). The process begins at puberty, after which time sperm are produced constantly throughout a male's life. One
+production cycle, from spermatogonia through formed sperm, takes approximately 64 days. A new cycle starts
+approximately every 16 days, although this timing is not synchronous across the seminiferous tubules. Sperm
+counts—the total number of sperm a person produces—slowly decline after age 35, and some studies suggest that
+smoking can lower sperm counts irrespective of age.
+The process of spermatogenesis begins with mitosis of the diploid spermatogonia (Figure 27.5). Because these cells
+are diploid (2n), they each have a complete copy of the person's genetic material, or 46 chromosomes. However,
+mature gametes are haploid (1n), containing 23 chromosomes—meaning that daughter cells of spermatogonia must
+undergo a second cellular division through the process of meiosis.
+
+FIGURE 27.5
+Spermatogenesis
+(a) Mitosis of a spermatogonial stem cell involves a single cell division that results in two identical,
+diploid daughter cells (spermatogonia to primary spermatocyte). Meiosis has two rounds of cell division: primary spermatocyte to
+secondary spermatocyte, and then secondary spermatocyte to spermatid. This produces four haploid daughter cells (spermatids). (b) In
+this electron micrograph of a cross-section of a seminiferous tubule from a rat, the lumen is the light-shaded area in the center of the
+image. The location of the primary spermatocytes is near the basement membrane, and the early spermatids are approaching the lumen
+(tissue source: rat). EM × 900. (Micrograph provided by the Regents of University of Michigan Medical School © 2012)
+
+Two identical diploid cells result from spermatogonia mitosis. One of these cells remains a spermatogonium, and
+the other becomes a primary spermatocyte, the next stage in the process of spermatogenesis. As in mitosis, DNA is
+replicated in a primary spermatocyte, before it undergoes a cell division called meiosis I. During meiosis I each of
+the 23 pairs of chromosomes separates. This results in two cells, called secondary spermatocytes, each with only
+half the number of chromosomes. Now a second round of cell division (meiosis II) occurs in both of the secondary
+spermatocytes. During meiosis II each of the 23 replicated chromosomes divides, similar to what happens during
+mitosis. Thus, meiosis results in separating the chromosome pairs. This second meiotic division results in a total of
+four cells with only half of the number of chromosomes. Each of these new cells is a spermatid. Although haploid,
+early spermatids look very similar to cells in the earlier stages of spermatogenesis, with a round shape, central
+nucleus, and large amount of cytoplasm. A process called spermiogenesis transforms these early spermatids,
+reducing the cytoplasm, and beginning the formation of the parts of a true sperm. The fifth stage of germ cell
+formation—spermatozoa, or formed sperm—is the end result of this process, which occurs in the portion of the
+tubule nearest the lumen. Eventually, the sperm are released into the lumen and are moved along a series of ducts
+in the testis toward a structure called the epididymis for the next step of sperm maturation.
+
+Structure of Formed Sperm
+Sperm are smaller than most cells in the body; in fact, the volume of a sperm cell is 85,000 times less than that of
+the female gamete. Approximately 100 to 300 million sperm are produced each day, whereas females typically
+ovulate only one oocyte per month. As is true for most cells in the body, the structure of sperm cells speaks to their
+function. Sperm have a distinctive head, mid-piece, and tail region (Figure 27.6). The head of the sperm contains the
+extremely compact haploid nucleus with very little cytoplasm. These qualities contribute to the overall small size of
+the sperm (the head is only 5 μm long). A structure called the acrosome covers most of the head of the sperm cell as
+a “cap” that is filled with lysosomal enzymes important for preparing sperm to participate in fertilization. Tightly
+packed mitochondria fill the mid-piece of the sperm. ATP produced by these mitochondria will power the flagellum,
+which extends from the neck and the mid-piece through the tail of the sperm, enabling it to move the entire sperm
+cell. The central strand of the flagellum, the axial filament, is formed from one centriole inside the maturing sperm
+cell during the final stages of spermatogenesis.
+
+FIGURE 27.6
+Structure of Sperm
+Sperm cells are divided into a head, containing DNA; a mid-piece, containing mitochondria; and a tail,
+providing motility. The acrosome is oval and somewhat flattened.
+
+Sperm Transport
+To fertilize an egg without medical intervention, sperm must be moved from the seminiferous tubules in the testes,
+through the epididymis, and—later during ejaculation—along the length of the penis and out into the female
+reproductive tract.
+
+Role of the Epididymis
+From the lumen of the seminiferous tubules, the immotile sperm are surrounded by testicular fluid and moved to
+the epididymis (plural = epididymides), a coiled tube attached to the testis where newly formed sperm continue to
+mature (see Figure 27.4). Though the epididymis does not take up much room in its tightly coiled state, it would be
+approximately 6 m (20 feet) long if straightened. It takes an average of 12 days for sperm to move through the coils
+of the epididymis, with the shortest recorded transit time in humans being one day. Sperm enter the head of the
+epididymis and are moved along predominantly by the contraction of smooth muscles lining the epididymal tubes.
+As they are moved along the length of the epididymis, the sperm further mature and acquire the ability to move
+under their own power. Once inside the female reproductive tract, they will use this ability to move independently
+toward the unfertilized egg. The more mature sperm are then stored in the tail of the epididymis (the final section)
+until ejaculation occurs.
+
+Duct System
+During ejaculation, sperm exit the tail of the epididymis and are pushed by smooth muscle contraction to the ductus
+deferens (also called the vas deferens). The ductus deferens is a thick, muscular tube that is bundled together
+inside the scrotum with connective tissue, blood vessels, and nerves into a structure called the spermatic cord (see
+Figure 27.2 and Figure 27.3). Because the ductus deferens is physically accessible within the scrotum, surgical
+sterilization to interrupt sperm delivery can be performed by cutting and sealing a small section of the ductus (vas)
+deferens. This procedure is called a vasectomy, and it is an effective form of birth control. Although it may be
+possible to reverse a vasectomy, clinicians consider the procedure permanent, and advise people to undergo it only
+if they are certain they no longer wish to have children.
+
+INTERACTIVE LINK
+Interactive Link Feature
+Watch this video (http://openstax.org/l/vasectomy) to learn about a vasectomy. As described in this video, a
+vasectomy is a procedure in which a small section of the ductus (vas) deferens is removed from the scrotum. This
+interrupts the path taken by sperm through the ductus deferens. If sperm do not exit through the vas, either
+because the person has had a vasectomy or has not ejaculated, in what region of the testis do they remain?
+
+From each epididymis, each ductus deferens extends superiorly into the abdominal cavity through the inguinal
+canal in the abdominal wall. From here, the ductus deferens continues posteriorly to the pelvic cavity, ending
+posterior to the bladder where it dilates in a region called the ampulla (meaning “flask”).
+Sperm make up only 5 percent of the final volume of semen, the thick, milky fluid that is ejaculated. The bulk of
+semen is produced by three critical accessory glands of the male reproductive system: the seminal vesicles, the
+prostate, and the bulbourethral glands.
+
+Seminal Vesicles
+As sperm pass through the ampulla of the ductus deferens at ejaculation, they mix with fluid from the associated
+seminal vesicle (see Figure 27.2). The paired seminal vesicles are glands that contribute approximately 60 percent
+of the semen volume. Seminal vesicle fluid contains large amounts of fructose, which is used by the sperm
+mitochondria to generate ATP to allow movement through the female reproductive tract.
+The fluid, now containing both sperm and seminal vesicle secretions, next moves into the associated ejaculatory
+duct, a short structure formed from the ampulla of the ductus deferens and the duct of the seminal vesicle. The
+paired ejaculatory ducts transport the seminal fluid into the next structure, the prostate gland.
+
+Prostate Gland
+As shown in Figure 27.2, the centrally located prostate gland sits anterior to the rectum at the base of the bladder
+surrounding the prostatic urethra (the portion of the urethra that runs within the prostate). About the size of a
+walnut, the prostate is formed of both muscular and glandular tissues. It excretes an alkaline, milky fluid to the
+passing seminal fluid—now called semen—that is critical to first coagulate and then decoagulate the semen
+following ejaculation. The temporary thickening of semen helps retain it within the female reproductive tract,
+providing time for sperm to utilize the fructose provided by seminal vesicle secretions. When the semen regains its
+fluid state, sperm can then pass farther into the female reproductive tract.
+The prostate normally doubles in size during puberty. At approximately age 25, it gradually begins to enlarge again.
+This enlargement does not usually cause problems; however, abnormal growth of the prostate, or benign prostatic
+hyperplasia (BPH), can cause constriction of the urethra as it passes through the middle of the prostate gland,
+leading to a number of lower urinary tract symptoms, such as a frequent and intense urge to urinate, a weak stream,
+and a sensation that the bladder has not emptied completely. By age 60, approximately 40 percent of males have
+some degree of BPH. By age 80, the number of affected individuals has jumped to as many as 80 percent.
+Treatments for BPH attempt to relieve the pressure on the urethra so that urine can flow more normally. Mild to
+moderate symptoms are treated with medication, whereas severe enlargement of the prostate is treated by surgery
+in which a portion of the prostate tissue is removed.
+Another common disorder involving the prostate is prostate cancer. According to the Centers for Disease Control
+and Prevention (CDC), prostate cancer is the second most common cancer in males. However, some forms of
+prostate cancer grow very slowly and thus may not ever require treatment. Aggressive forms of prostate cancer, in
+contrast, involve metastasis to vulnerable organs like the lungs and brain. There is no link between BPH and
+prostate cancer, but the symptoms are similar. Prostate cancer is detected by a medical history, a blood test, and a
+rectal exam that allows physicians to palpate the prostate and check for unusual masses. If a mass is detected, the
+cancer diagnosis is confirmed by biopsy of the cells.
+
+Bulbourethral Glands
+The final addition to semen is made by two bulbourethral glands (or Cowper’s glands) that release a thick, salty
+fluid that lubricates the end of the urethra and the vagina, and helps to clean urine residues from the penile urethra.
+The fluid from these accessory glands is released after the male becomes sexually aroused, and shortly before the
+release of the semen. It is therefore sometimes called pre-ejaculate. It is important to note that, in addition to the
+lubricating proteins, it is possible for bulbourethral fluid to pick up sperm already present in the urethra, and
+therefore it may be able to cause pregnancy.
+
+INTERACTIVE LINK
+Interactive Link Feature
+Watch this video (http://openstax.org/l/spermpath) to explore the structures of the male reproductive system and
+the path of sperm, which starts in the testes and ends as the sperm leave the penis through the urethra. Where are
+sperm deposited after they leave the ejaculatory duct?
+
+The Penis
+The penis is the male organ of copulation (sexual intercourse). It is flaccid for non-sexual actions, such as urination,
+and turgid and rod-like with sexual arousal. When erect, the stiffness of the organ allows it to penetrate into the
+vagina and deposit semen into the female reproductive tract.
+
+FIGURE 27.7
+Cross-Sectional Anatomy of the Penis
+Three columns of erectile tissue make up most of the volume of the penis.
+
+The shaft of the penis surrounds the urethra (Figure 27.7). The shaft is composed of three column-like chambers of
+erectile tissue that span the length of the shaft. Each of the two larger lateral chambers is called a corpus
+cavernosum (plural = corpora cavernosa). Together, these make up the bulk of the penis. The corpus spongiosum,
+which can be felt as a raised ridge on the erect penis, is a smaller chamber that surrounds the spongy, or penile,
+urethra. The end of the penis, called the glans penis, has a high concentration of nerve endings, resulting in very
+sensitive skin that influences the likelihood of ejaculation (see Figure 27.2). The skin from the shaft extends down
+over the glans and forms a collar called the prepuce (or foreskin). The foreskin also contains a dense concentration
+of nerve endings, and both lubricate and protect the sensitive skin of the glans penis. A surgical procedure called
+circumcision, often performed for religious or social reasons, removes the prepuce, typically within days of birth.
+Both sexual arousal and REM sleep (during which dreaming occurs) can induce an erection. Penile erections are the
+result of vasocongestion, or engorgement of the tissues because of more arterial blood flowing into the penis than is
+leaving in the veins. During sexual arousal, nitric oxide (NO) is released from nerve endings near blood vessels
+within the corpora cavernosa and spongiosum. Release of NO activates a signaling pathway that results in relaxation
+of the smooth muscles that surround the penile arteries, causing them to dilate. This dilation increases the amount
+of blood that can enter the penis and induces the endothelial cells in the penile arterial walls to also secrete NO and
+perpetuate the vasodilation. The rapid increase in blood volume fills the erectile chambers, and the increased
+pressure of the filled chambers compresses the thin-walled penile venules, preventing venous drainage of the penis.
+The result of this increased blood flow to the penis and reduced blood return from the penis is erection. Depending
+on the flaccid dimensions of a penis, it can increase in size slightly or greatly during erection, with the average length
+of an erect penis measuring approximately 15 cm.
+
+Testosterone
+Testosterone, an androgen, is a steroid hormone produced by Leydig cells. The alternate term for Leydig cells,
+interstitial cells, reflects their location between the seminiferous tubules in the testes. In male embryos,
+testosterone is secreted by Leydig cells by the seventh week of development, with peak concentrations reached in
+the second trimester. This early release of testosterone results in the anatomical differentiation of the male sexual
+organs. In childhood, testosterone concentrations are low. They increase during puberty, activating characteristic
+physical changes and initiating spermatogenesis.
+
+Disorders of the...
+Male Reproductive System
+Erectile dysfunction (ED) is a condition in which a person has difficulty either initiating or maintaining an
+erection. The combined prevalence of minimal, moderate, and complete ED is approximately 40 percent in
+males at age 40, and reaches nearly 70 percent by 70 years of age. In addition to aging, ED is associated with
+diabetes, vascular disease, psychiatric disorders, prostate disorders, the use of some drugs such as certain
+antidepressants, and problems with the testes resulting in low testosterone concentrations. These physical and
+emotional conditions can lead to interruptions in the vasodilation pathway and result in an inability to achieve an
+erection.
+Recall that the release of NO induces relaxation of the smooth muscles that surround the penile arteries, leading
+to the vasodilation necessary to achieve an erection. To reverse the process of vasodilation, an enzyme called
+phosphodiesterase (PDE) degrades a key component of the NO signaling pathway called cGMP. There are
+several different forms of this enzyme, and PDE type 5 is the type of PDE found in the tissues of the penis.
+Scientists discovered that inhibiting PDE5 increases blood flow, and allows vasodilation of the penis to occur.
+PDEs and the vasodilation signaling pathway are found in the vasculature in other parts of the body. In the
+1990s, clinical trials of a PDE5 inhibitor called sildenafil were initiated to treat hypertension and angina pectoris
+(chest pain caused by poor blood flow through the heart). The trial showed that the drug was not effective at
+treating heart conditions, but many men experienced erection and priapism (erection lasting longer than 4
+hours). Because of this, a clinical trial was started to investigate the ability of sildenafil to promote erections in
+men suffering from ED. In 1998, the FDA approved the drug, marketed as Viagra®. Since approval of the drug,
+sildenafil and similar PDE inhibitors now generate over a billion dollars a year in sales, and are reported to be
+effective in treating approximately 70 to 85 percent of cases of ED. Importantly, men with health
+problems—especially those with cardiac disease taking nitrates—should avoid Viagra or talk to their physician to
+find out if they are a candidate for the use of this drug, as deaths have been reported for at-risk users.
+
+Functions of Testosterone
+The continued presence of testosterone is necessary to keep the male reproductive system working properly, and
+Leydig cells produce approximately 6 to 7 mg of testosterone per day. Testicular steroidogenesis (the manufacture
+of androgens, including testosterone) results in testosterone concentrations that are 100 times higher in the testes
+than in the circulation. Maintaining these normal concentrations of testosterone promotes spermatogenesis,
+whereas low levels of testosterone can lead to infertility. In addition to intratesticular secretion, testosterone is also
+released into the systemic circulation and plays an important role in muscle development, bone growth, the
+development of secondary sex characteristics, and maintaining libido (sex drive) in both males and females. In
+females, the ovaries secrete small amounts of testosterone, although most is converted to estradiol. A small amount
+of testosterone is also secreted by the adrenal glands in both sexes.
+
+Control of Testosterone
+The regulation of testosterone concentrations throughout the body is critical for male reproductive function. The
+intricate interplay between the endocrine system and the reproductive system is shown in Figure 27.8.
+
+FIGURE 27.8
+Regulation of Testosterone Production
+The hypothalamus and pituitary gland regulate the production of testosterone
+and the cells that assist in spermatogenesis. GnRH activates the anterior pituitary to produce LH and FSH, which in turn stimulate Leydig
+cells and Sertoli cells, respectively. The system is a negative feedback loop because the end products of the pathway, testosterone and
+inhibin, interact with the activity of GnRH to inhibit their own production.
+
+The regulation of Leydig cell production of testosterone begins outside of the testes. The hypothalamus and the
+pituitary gland in the brain integrate external and internal signals to control testosterone synthesis and secretion.
+The regulation begins in the hypothalamus. Pulsatile release of a hormone called gonadotropin-releasing hormone
+(GnRH) from the hypothalamus stimulates the endocrine release of hormones from the pituitary gland. Binding of
+GnRH to its receptors on the anterior pituitary gland stimulates release of the two gonadotropins: luteinizing
+hormone (LH) and follicle-stimulating hormone (FSH). These two hormones are critical for reproductive function in
+all humans. In the testes, FSH binds predominantly to the Sertoli cells within the seminiferous tubules to promote
+spermatogenesis. FSH also stimulates the Sertoli cells to produce hormones called inhibins, which function to
+inhibit FSH release from the pituitary, thus reducing testosterone secretion. These polypeptide hormones correlate
+directly with Sertoli cell function and sperm number; inhibin B can be used as a marker of spermatogenic activity. LH
+binds to receptors on Leydig cells in the testes and upregulates the production of testosterone.
+A negative feedback loop predominantly controls the synthesis and secretion of both FSH and LH. Low blood
+concentrations of testosterone stimulate the hypothalamic release of GnRH. GnRH then stimulates the anterior
+pituitary to secrete LH into the bloodstream. In the testis, LH binds to LH receptors on Leydig cells and stimulates
+the release of testosterone. When concentrations of testosterone in the blood reach a critical threshold,
+testosterone itself will bind to androgen receptors on both the hypothalamus and the anterior pituitary, inhibiting
+the synthesis and secretion of GnRH and LH, respectively. When the blood concentrations of testosterone once
+again decline, testosterone no longer interacts with the receptors to the same degree and GnRH and LH are once
+again secreted, stimulating more testosterone production. This same process occurs with FSH and inhibin to control
+spermatogenesis.
+
+Aging and the...
+Male Reproductive System
+Declines in Leydig cell activity can occur in males beginning at 40 to 50 years of age. The resulting reduction in
+circulating testosterone concentrations can lead to symptoms of andropause, also known as male menopause.
+While the reduction in sex steroids is akin to female menopause, there is no clear sign—such as a lack of a
+menstrual period—to denote the initiation of andropause. Instead, people with this condition report feelings of
+fatigue, reduced muscle mass, depression, anxiety, irritability, loss of libido, and insomnia. A reduction in
+spermatogenesis resulting in lowered fertility is also reported, and sexual dysfunction can also be associated
+with andropausal symptoms.
+Whereas some researchers believe that certain aspects of andropause are difficult to tease apart from aging in
+general, testosterone replacement is sometimes prescribed to alleviate some symptoms. Recent studies have
+shown a benefit from androgen replacement therapy on the new onset of depression in elderly males; however,
+other studies caution against testosterone replacement for long-term treatment of andropause symptoms,
+showing that high doses can sharply increase the risk of both heart disease and prostate cancer.

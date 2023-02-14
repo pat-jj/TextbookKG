@@ -1,0 +1,590 @@
+{
+  "nodes": [
+    {
+      "id": "Organization A",
+      "label": "Organization A",
+      "color": "#00FF00"
+    },
+    {
+      "id": "trillions of cells",
+      "label": "trillions of cells",
+      "color": "#ffffff"
+    },
+    {
+      "id": "internal compartments",
+      "label": "internal compartments",
+      "color": "#ffffff"
+    },
+    {
+      "id": "body cells",
+      "label": "body cells",
+      "color": "#ffffff"
+    },
+    {
+      "id": "external environmental threats",
+      "label": "external environmental threats",
+      "color": "#ffffff"
+    },
+    {
+      "id": "internal body fluids",
+      "label": "internal body fluids",
+      "color": "#ffffff"
+    },
+    {
+      "id": "intestinal tract",
+      "label": "intestinal tract",
+      "color": "#ffffff"
+    },
+    {
+      "id": "more bacterial cells",
+      "label": "more bacterial cells",
+      "color": "#ffffff"
+    },
+    {
+      "id": "cell membrane",
+      "label": "cell membrane",
+      "color": "#ffffff"
+    },
+    {
+      "id": "intracellular environment",
+      "label": "intracellular environment",
+      "color": "#ffffff"
+    },
+    {
+      "id": "extracellular environment",
+      "label": "extracellular environment",
+      "color": "#ffffff"
+    },
+    {
+      "id": "blood vessels",
+      "label": "blood vessels",
+      "color": "#ffffff"
+    },
+    {
+      "id": "blood inside a closed circulatory system",
+      "label": "blood inside a closed circulatory system",
+      "color": "#ffffff"
+    },
+    {
+      "id": "nerves and muscles",
+      "label": "nerves and muscles",
+      "color": "#ffffff"
+    },
+    {
+      "id": "connective tissue sheaths",
+      "label": "connective tissue sheaths",
+      "color": "#ffffff"
+    },
+    {
+      "id": "internal membranes",
+      "label": "internal membranes",
+      "color": "#ffffff"
+    },
+    {
+      "id": "major organs",
+      "label": "major organs",
+      "color": "#ffffff"
+    },
+    {
+      "id": "integumentary system",
+      "label": "integumentary system",
+      "color": "#ffffff"
+    },
+    {
+      "id": "skin and its associated structures",
+      "label": "skin and its associated structures",
+      "color": "#ffffff"
+    },
+    {
+      "id": "surface tissue of skin",
+      "label": "surface tissue of skin",
+      "color": "#ffffff"
+    },
+    {
+      "id": "internal structures and fluids",
+      "label": "internal structures and fluids",
+      "color": "#ffffff"
+    },
+    {
+      "id": "moist and nourished",
+      "label": "moist and nourished",
+      "color": "#ffffff"
+    },
+    {
+      "id": "countless microorganisms",
+      "label": "countless microorganisms",
+      "color": "#ffffff"
+    },
+    {
+      "id": "more bacterial cells than the total of all human cells in the body",
+      "label": "more bacterial cells than the total of all human cells in the body",
+      "color": "#ffffff"
+    },
+    {
+      "id": "cells",
+      "label": "cells",
+      "color": "#ffffff"
+    },
+    {
+      "id": "plasma membrane",
+      "label": "plasma membrane",
+      "color": "#ffffff"
+    },
+    {
+      "id": "separate from the extracellular environment",
+      "label": "separate from the extracellular environment",
+      "color": "#ffffff"
+    },
+    {
+      "id": "body's largest organ system",
+      "label": "body's largest organ system",
+      "color": "#ffffff"
+    },
+    {
+      "id": "skin and its associated structures, such as hair and nails",
+      "label": "skin and its associated structures, such as hair and nails",
+      "color": "#ffffff"
+    },
+    {
+      "id": "",
+      "label": "",
+      "color": "#ffffff"
+    },
+    {
+      "id": "Movement",
+      "label": "Movement",
+      "color": "#FF0000"
+    },
+    {
+      "id": "Human movement",
+      "label": "Human movement",
+      "color": "#ffffff"
+    },
+    {
+      "id": "actions",
+      "label": "actions",
+      "color": "#ffffff"
+    },
+    {
+      "id": "motion",
+      "label": "motion",
+      "color": "#ffffff"
+    },
+    {
+      "id": "individual organs",
+      "label": "individual organs",
+      "color": "#ffffff"
+    },
+    {
+      "id": "individual cells",
+      "label": "individual cells",
+      "color": "#ffffff"
+    },
+    {
+      "id": "muscle cells",
+      "label": "muscle cells",
+      "color": "#ffffff"
+    },
+    {
+      "id": "glands",
+      "label": "glands",
+      "color": "#ffffff"
+    },
+    {
+      "id": "body functions",
+      "label": "body functions",
+      "color": "#ffffff"
+    },
+    {
+      "id": "muscle groups",
+      "label": "muscle groups",
+      "color": "#ffffff"
+    },
+    {
+      "id": "air",
+      "label": "air",
+      "color": "#ffffff"
+    },
+    {
+      "id": "blood",
+      "label": "blood",
+      "color": "#ffffff"
+    },
+    {
+      "id": "digestive tract",
+      "label": "digestive tract",
+      "color": "#ffffff"
+    },
+    {
+      "id": "skeletal muscles",
+      "label": "skeletal muscles",
+      "color": "#ffffff"
+    },
+    {
+      "id": "bones",
+      "label": "bones",
+      "color": "#ffffff"
+    },
+    {
+      "id": "daily life",
+      "label": "daily life",
+      "color": "#ffffff"
+    },
+    {
+      "id": "fluids and organelles",
+      "label": "fluids and organelles",
+      "color": "#ffffff"
+    },
+    {
+      "id": "internal structures and fluids from potentially harmful microorganisms and other toxins",
+      "label": "internal structures and fluids from potentially harmful microorganisms and other toxins",
+      "color": "#ffffff"
+    },
+    {
+      "id": "bacterial cells",
+      "label": "bacterial cells",
+      "color": "#ffffff"
+    },
+    {
+      "id": "cannot be allowed to circulate freely inside the body",
+      "label": "cannot be allowed to circulate freely inside the body",
+      "color": "#ffffff"
+    },
+    {
+      "id": "separate them from surrounding structures",
+      "label": "separate them from surrounding structures",
+      "color": "#ffffff"
+    },
+    {
+      "id": "chest and abdomen",
+      "label": "chest and abdomen",
+      "color": "#ffffff"
+    },
+    {
+      "id": "keep major organs separate from others",
+      "label": "keep major organs separate from others",
+      "color": "#ffffff"
+    },
+    {
+      "id": "includes the skin and its associated structures",
+      "label": "includes the skin and its associated structures",
+      "color": "#ffffff"
+    },
+    {
+      "id": "potentially harmful microorganisms and other toxins",
+      "label": "potentially harmful microorganisms and other toxins",
+      "color": "#ffffff"
+    },
+    {
+      "id": "nerves",
+      "label": "nerves",
+      "color": "#ffffff"
+    },
+    {
+      "id": "surrounding structures",
+      "label": "surrounding structures",
+      "color": "#ffffff"
+    },
+    {
+      "id": "skin",
+      "label": "skin",
+      "color": "#ffffff"
+    }
+  ],
+  "edges": [
+    {
+      "from": "Organization A",
+      "to": "trillions of cells",
+      "label": "consists of",
+      "id": "43c540db-f403-4470-8081-cc8c6650d1e6"
+    },
+    {
+      "from": "internal compartments",
+      "to": "body cells",
+      "label": "keep",
+      "id": "2ef78619-0eca-430c-98b2-ddefce60bc39"
+    },
+    {
+      "from": "body cells",
+      "to": "external environmental threats",
+      "label": "separated from",
+      "id": "27a3ef48-351a-4a58-94fa-2d5aeb0b6544"
+    },
+    {
+      "from": "intestinal tract",
+      "to": "more bacterial cells",
+      "label": "home to",
+      "id": "2598453c-86e8-4314-98b1-baee4564ac5b"
+    },
+    {
+      "from": "cell membrane",
+      "to": "intracellular environment",
+      "label": "separates",
+      "id": "09edd7cb-dc9a-4510-a9bd-b790ee96fd0e"
+    },
+    {
+      "from": "intracellular environment",
+      "to": "extracellular environment",
+      "label": "separate from",
+      "id": "714d9c46-7ae8-4e2b-9ba7-6e84c793267f"
+    },
+    {
+      "from": "blood vessels",
+      "to": "blood inside a closed circulatory system",
+      "label": "keep",
+      "id": "f1729bb4-052e-4bd2-8b82-c6305b68d5d5"
+    },
+    {
+      "from": "nerves and muscles",
+      "to": "connective tissue sheaths",
+      "label": "wrapped in",
+      "id": "e9b10aa5-c14b-424c-97d4-84014f694f6f"
+    },
+    {
+      "from": "internal membranes",
+      "to": "major organs",
+      "label": "keeps",
+      "id": "25c3da8c-8755-4014-8b7f-b55e11b3e729"
+    },
+    {
+      "from": "integumentary system",
+      "to": "skin and its associated structures",
+      "label": "includes",
+      "id": "9d206729-86e1-48d2-878a-7711a010082f"
+    },
+    {
+      "from": "surface tissue of skin",
+      "to": "internal structures and fluids",
+      "label": "barrier that protects",
+      "id": "101eefde-98aa-4fb4-b818-09ebec862dc2"
+    },
+    {
+      "from": "internal compartments",
+      "to": "external environmental threats",
+      "label": "keep body cells separated from",
+      "id": "617ab910-4f75-4af9-a30f-fb1328ec32b9"
+    },
+    {
+      "from": "internal compartments",
+      "to": "moist and nourished",
+      "label": "keep body cells",
+      "id": "c5fe47d2-3c12-47a8-8823-5996349bb8b8"
+    },
+    {
+      "from": "internal compartments",
+      "to": "countless microorganisms",
+      "label": "separate internal body fluids from",
+      "id": "c8e7da68-0ebe-4f27-80c1-1829858b52e8"
+    },
+    {
+      "from": "intestinal tract",
+      "to": "more bacterial cells than the total of all human cells in the body",
+      "label": "home to",
+      "id": "f83c66dc-1d0c-400b-8ec9-0372f3b12401"
+    },
+    {
+      "from": "cells",
+      "to": "plasma membrane",
+      "label": "have a cell membrane",
+      "id": "8310a4dd-401a-4453-99e5-dc7e3d733f42"
+    },
+    {
+      "from": "plasma membrane",
+      "to": "separate from the extracellular environment",
+      "label": "keeps the intracellular environment",
+      "id": "29795c31-50ac-4cb3-8cad-5cf5538edc73"
+    },
+    {
+      "from": "body's largest organ system",
+      "to": "skin and its associated structures, such as hair and nails",
+      "label": "integumentary system",
+      "id": "16e04bf5-a76e-41a1-a065-80a4b3071a71"
+    },
+    {
+      "from": "surface tissue of skin",
+      "to": "",
+      "label": "barrier that protects internal structures and fluids from potentially harmful microorganisms and other toxins",
+      "id": "d6a1a644-09fa-40bf-886a-c4ee201c0969"
+    },
+    {
+      "from": "Movement",
+      "to": "Human movement",
+      "label": "includes",
+      "id": "c52c431b-5660-4174-aefc-a82756dbbb58"
+    },
+    {
+      "from": "Movement",
+      "to": "actions",
+      "label": "involves",
+      "id": "ca1c9260-b309-49c1-8481-26f146954d24"
+    },
+    {
+      "from": "Movement",
+      "to": "motion",
+      "label": "involves",
+      "id": "a897aac0-d271-4e4f-b83c-fdb1d4528d28"
+    },
+    {
+      "from": "Movement",
+      "to": "individual organs",
+      "label": "involves",
+      "id": "3ff8f7b5-0db5-47f0-8a05-660b76ba1d8a"
+    },
+    {
+      "from": "Movement",
+      "to": "individual cells",
+      "label": "involves",
+      "id": "b38e9c58-6554-4f48-9f8e-4b41a14124e5"
+    },
+    {
+      "from": "Movement",
+      "to": "muscle cells",
+      "label": "involves",
+      "id": "fc485518-57fb-414c-9850-e7229ea19799"
+    },
+    {
+      "from": "Movement",
+      "to": "glands",
+      "label": "involves",
+      "id": "068114d1-70b5-49cc-9aa6-8310f205831f"
+    },
+    {
+      "from": "Movement",
+      "to": "body functions",
+      "label": "involves",
+      "id": "34cd1e9c-a100-4b1c-9fe1-5569a492d391"
+    },
+    {
+      "from": "Movement",
+      "to": "muscle groups",
+      "label": "involves",
+      "id": "662089f3-f8d0-4035-a2e6-d745f06618eb"
+    },
+    {
+      "from": "Movement",
+      "to": "air",
+      "label": "involves",
+      "id": "1cc4424b-705e-4582-bbce-e3c65499e0af"
+    },
+    {
+      "from": "Movement",
+      "to": "blood",
+      "label": "involves",
+      "id": "f3d75516-9800-438e-ab2d-2639ddf5ca6b"
+    },
+    {
+      "from": "Movement",
+      "to": "digestive tract",
+      "label": "involves",
+      "id": "41c10ed6-81c9-4886-b979-6e818ca639ca"
+    },
+    {
+      "from": "Movement",
+      "to": "skeletal muscles",
+      "label": "involves",
+      "id": "f84c9d5c-009e-4959-ba24-b91dc8b2c45c"
+    },
+    {
+      "from": "Movement",
+      "to": "bones",
+      "label": "involves",
+      "id": "085908a5-6413-4271-bb72-164ae4e1d7ab"
+    },
+    {
+      "from": "Movement",
+      "to": "daily life",
+      "label": "enables",
+      "id": "7c3516d3-b40f-4c54-8149-b0b75be3419a"
+    },
+    {
+      "from": "plasma membrane",
+      "to": "fluids and organelles",
+      "label": "keeps the intracellular environment",
+      "id": "fe6af8ac-59e3-4df5-8147-4b15a32a09b5"
+    },
+    {
+      "from": "plasma membrane",
+      "to": "extracellular environment",
+      "label": "separate from",
+      "id": "11d6a214-708a-4418-a4b1-a81ec47aba96"
+    },
+    {
+      "from": "body's largest organ system",
+      "to": "integumentary system",
+      "label": "is",
+      "id": "cbf7b1f7-a8cd-484d-af1f-747397c323f5"
+    },
+    {
+      "from": "integumentary system",
+      "to": "skin and its associated structures, such as hair and nails",
+      "label": "includes",
+      "id": "6ba86f6d-b3fc-403a-a968-440f4235c458"
+    },
+    {
+      "from": "surface tissue of skin",
+      "to": "internal structures and fluids from potentially harmful microorganisms and other toxins",
+      "label": "is a barrier that protects",
+      "id": "19abae4f-830d-4382-bdb8-b9e7f597bc0b"
+    },
+    {
+      "from": "bacterial cells",
+      "to": "cannot be allowed to circulate freely inside the body",
+      "label": "outside the body",
+      "id": "56ba9016-4288-4a02-bc4c-993136ed4d3a"
+    },
+    {
+      "from": "nerves and muscles",
+      "to": "separate them from surrounding structures",
+      "label": "wrapped in connective tissue sheaths",
+      "id": "03c1325f-76b2-4054-b7b9-8f5ae93a25c4"
+    },
+    {
+      "from": "chest and abdomen",
+      "to": "keep major organs separate from others",
+      "label": "variety of internal membranes",
+      "id": "253af411-3a9f-44a7-bb9a-78b721077e4a"
+    },
+    {
+      "from": "body's largest organ system",
+      "to": "includes the skin and its associated structures",
+      "label": "integumentary system",
+      "id": "22847010-695c-4d92-9098-cfa698d3930d"
+    },
+    {
+      "from": "surface tissue of skin",
+      "to": "potentially harmful microorganisms and other toxins",
+      "label": "barrier that protects",
+      "id": "53ba12bc-1c63-4018-b258-8132e7b277a4"
+    },
+    {
+      "from": "cell membrane",
+      "to": "extracellular environment",
+      "label": "separates",
+      "id": "3aa63e0b-623c-463d-b45c-6ac77a3dcff1"
+    },
+    {
+      "from": "blood vessels",
+      "to": "blood",
+      "label": "keeps",
+      "id": "3467807c-690d-47e6-b5d3-c7852fa6c508"
+    },
+    {
+      "from": "nerves",
+      "to": "surrounding structures",
+      "label": "separated from",
+      "id": "cd1cb2a4-d313-4cf4-aa81-3b2ca3768cb3"
+    },
+    {
+      "from": "connective tissue sheaths",
+      "to": "nerves and muscles",
+      "label": "separates",
+      "id": "3fc6d354-caa5-4951-b79b-e2f9593d794c"
+    },
+    {
+      "from": "integumentary system",
+      "to": "skin",
+      "label": "includes",
+      "id": "ed4e74db-9bca-429d-a1c6-4302fbf4d417"
+    }
+  ]
+}

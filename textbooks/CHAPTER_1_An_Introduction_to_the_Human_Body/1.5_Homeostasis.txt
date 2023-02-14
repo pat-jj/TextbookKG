@@ -1,0 +1,102 @@
+1.5 Homeostasis
+LEARNING OBJECTIVES
+By the end of this section, you will be able to:
+•
+Discuss the role of homeostasis in healthy functioning
+•
+Contrast negative and positive feedback, giving one physiologic example of each mechanism
+
+===
+Maintaining homeostasis requires that the body continuously monitor its internal conditions. From body
+temperature to blood pressure to levels of certain nutrients, each physiological condition has a particular set point.
+A set point is the physiological value around which the normal range fluctuates. A normal range is the restricted set
+of values that is optimally healthful and stable. For example, the set point for normal human body temperature is
+approximately 37°C (98.6°F) Physiological parameters, such as body temperature and blood pressure, tend to
+fluctuate within a normal range a few degrees above and below that point. Control centers in the brain and other
+parts of the body monitor and react to deviations from homeostasis using negative feedback. Negative feedback is
+a mechanism that reverses a deviation from the set point. Therefore, negative feedback maintains body parameters
+within their normal range. The maintenance of homeostasis by negative feedback goes on throughout the body at all
+times, and an understanding of negative feedback is thus fundamental to an understanding of human physiology.
+Negative Feedback
+A negative feedback system has three basic components (Figure 1.10a). A sensor, also referred to a receptor, is a
+component of a feedback system that monitors a physiological value. This value is reported to the control center.
+The control center is the component in a feedback system that compares the value to the normal range. If the value
+deviates too much from the set point, then the control center activates an effector. An effector is the component in
+a feedback system that causes a change to reverse the situation and return the value to the normal range.
+===
+
+===
+FIGURE 1.10
+Negative Feedback System
+In a negative feedback system, a stimulus—a deviation from a set point—is resisted through
+a physiological process that returns the body to homeostasis. (a) A negative feedback system has five basic parts. (b) Body temperature is
+regulated by negative feedback.
+In order to set the system in motion, a stimulus must drive a physiological parameter beyond its normal range (that
+is, beyond homeostasis). This stimulus is “heard” by a specific sensor. For example, in the control of blood glucose,
+specific endocrine cells in the pancreas detect excess glucose (the stimulus) in the bloodstream. These pancreatic
+beta cells respond to the increased level of blood glucose by releasing the hormone insulin into the bloodstream.
+The insulin signals skeletal muscle fibers, fat cells (adipocytes), and liver cells to take up the excess glucose,
+removing it from the bloodstream. As glucose concentration in the bloodstream drops, the decrease in
+concentration—the actual negative feedback—is detected by pancreatic alpha cells, and insulin release stops. This
+prevents blood sugar levels from continuing to drop below the normal range.
+Humans have a similar temperature regulation feedback system that works by promoting either heat loss or heat
+gain (Figure 1.10b). When the brain’s temperature regulation center receives data from the sensors indicating that
+the body’s temperature exceeds its normal range, it stimulates a cluster of brain cells referred to as the “heat-loss
+center.” This stimulation has three major effects:
+•
+Blood vessels in the skin begin to dilate allowing more blood from the body core to flow to the surface of the
+skin allowing the heat to radiate into the environment.
+•
+As blood flow to the skin increases, sweat glands are activated to increase their output. As the sweat
+evaporates from the skin surface into the surrounding air, it takes heat with it.
+•
+The depth of respiration increases, and a person may breathe through an open mouth instead of through the
+nasal passageways. This further increases heat loss from the lungs.
+In contrast, activation of the brain’s heat-gain center by exposure to cold reduces blood flow to the skin, and blood
+returning from the limbs is diverted into a network of deep veins. This arrangement traps heat closer to the body
+core and restricts heat loss. If heat loss is severe, the brain triggers an increase in random signals to skeletal
+muscles, causing them to contract and producing shivering. The muscle contractions of shivering release heat while
+using up ATP. The brain triggers the thyroid gland in the endocrine system to release thyroid hormone, which
+increases metabolic activity and heat production in cells throughout the body. The brain also signals the adrenal
+glands to release epinephrine (adrenaline), a hormone that causes the breakdown of glycogen into glucose, which
+can be used as an energy source. The breakdown of glycogen into glucose also results in increased metabolism and
+heat production.
+===
+
+===
+INTERACTIVE LINK
+Water concentration in the body is critical for proper functioning. A person’s body retains very tight control on water
+levels without conscious control by the person. Watch this video (http://openstax.org/l/H2Ocon) to learn more about
+water concentration in the body. Which organ has primary control over the amount of water in the body?
+Positive Feedback
+Positive feedback intensifies a change in the body’s physiological condition rather than reversing it. A deviation
+from the normal range results in more change, and the system moves farther away from the normal range. Positive
+feedback in the body is normal only when there is a definite end point. Childbirth and the body’s response to blood
+loss are two examples of positive feedback loops that are normal but are activated only when needed.
+Childbirth at full term is an example of a situation in which the maintenance of the existing body state is not desired.
+Enormous changes in a person’s body are required to expel the baby at the end of pregnancy. And the events of
+childbirth, once begun, must progress rapidly to a conclusion or the life of a person giving bith and the baby are at
+risk. The extreme muscular work of labor and delivery are the result of a positive feedback system (Figure 1.11).
+===
+
+===
+FIGURE 1.11
+Positive Feedback Loop
+Normal childbirth is driven by a positive feedback loop. A positive feedback loop results in a
+change in the body’s status, rather than a return to homeostasis.
+The first contractions of labor (the stimulus) push the baby toward the cervix (the lowest part of the uterus). The
+cervix contains stretch-sensitive nerve cells that monitor the degree of stretching (the sensors). These nerve cells
+send messages to the brain, which in turn causes the pituitary gland at the base of the brain to release the hormone
+oxytocin into the bloodstream. Oxytocin causes stronger contractions of the smooth muscles in of the uterus (the
+effectors), pushing the baby further down the birth canal. This causes even greater stretching of the cervix. The
+cycle of stretching, oxytocin release, and increasingly more forceful contractions stops only when the baby is born.
+At this point, the stretching of the cervix halts, stopping the release of oxytocin.
+A second example of positive feedback centers on reversing extreme damage to the body. Following a penetrating
+wound, the most immediate threat is excessive blood loss. Less blood circulating means reduced blood pressure
+and reduced perfusion (penetration of blood) to the brain and other vital organs. If perfusion is severely reduced,
+vital organs will shut down and the person will die. The body responds to this potential catastrophe by releasing
+substances in the injured blood vessel wall that begin the process of blood clotting. As each step of clotting occurs,
+it stimulates the release of more clotting substances. This accelerates the processes of clotting and sealing off the
+damaged area. Clotting is contained in a local area based on the tightly controlled availability of clotting proteins.
+This is an adaptive, life-saving cascade of events.
+===

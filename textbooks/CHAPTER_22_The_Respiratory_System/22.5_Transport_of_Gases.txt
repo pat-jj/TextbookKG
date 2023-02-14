@@ -1,0 +1,175 @@
+22.5 Transport of Gases
+LEARNING OBJECTIVES
+By the end of this section, you will be able to:
+•
+Describe the principles of oxygen transport
+•
+Describe the structure of hemoglobin
+•
+Compare and contrast fetal and adult hemoglobin
+•
+Describe the principles of carbon dioxide transport
+The other major activity in the lungs is the process of respiration, the process of gas exchange. The function of
+respiration is to provide oxygen for use by body cells during cellular respiration and to eliminate carbon dioxide, a
+waste product of cellular respiration, from the body. In order for the exchange of oxygen and carbon dioxide to
+occur, both gases must be transported between the external and internal respiration sites. Although carbon dioxide
+is more soluble than oxygen in blood, both gases require a specialized transport system for the majority of the gas
+molecules to be moved between the lungs and other tissues.
+
+Oxygen Transport in the Blood
+Even though oxygen is transported via the blood, you may recall that oxygen is not very soluble in liquids. A small
+amount of oxygen does dissolve in the blood and is transported in the bloodstream, but it is only about 1.5% of the
+total amount. The majority of oxygen molecules are carried from the lungs to the body’s tissues by a specialized
+transport system, which relies on the erythrocyte—the red blood cell. Erythrocytes contain a metalloprotein,
+hemoglobin, which serves to bind oxygen molecules to the erythrocyte (Figure 22.25). Heme is the portion of
+hemoglobin that contains iron, and it is heme that binds oxygen. Each hemoglobin molecule contains four iron-
+containing heme molecules, and because of this, one hemoglobin molecule is capable of carrying up to four
+molecules of oxygen. As oxygen diffuses across the respiratory membrane from the alveolus to the capillary, it also
+diffuses into the red blood cell and is bound by hemoglobin. The following reversible chemical reaction describes
+the production of the final product, oxyhemoglobin (HbO2), which is formed when oxygen binds to hemoglobin.
+Oxyhemoglobin is a bright red-colored molecule that contributes to the bright red color of oxygenated blood.
+In this formula, Hb represents reduced hemoglobin, that is, hemoglobin that does not have oxygen bound to it.
+There are multiple factors involved in how readily heme binds to and dissociates from oxygen, which will be
+discussed in the subsequent sections.
+
+FIGURE 22.25
+Erythrocyte and Hemoglobin
+Hemoglobin consists of four subunits, each of which contains one molecule of iron.
+
+Function of Hemoglobin
+Hemoglobin is composed of subunits, a protein structure that is referred to as a quaternary structure. Each of the
+four subunits that make up hemoglobin is arranged in a ring-like fashion, with an iron atom covalently bound to the
+heme in the center of each subunit. Binding of the first oxygen molecule causes a conformational change in
+hemoglobin that allows the second molecule of oxygen to bind more readily. As each molecule of oxygen is bound, it
+further facilitates the binding of the next molecule, until all four heme sites are occupied by oxygen. The opposite
+occurs as well: After the first oxygen molecule dissociates and is “dropped off” at the tissues, the next oxygen
+molecule dissociates more readily. When all four heme sites are occupied, the hemoglobin is said to be saturated.
+When one to three heme sites are occupied, the hemoglobin is said to be partially saturated. Therefore, when
+considering the blood as a whole, the percent of the available heme units that are bound to oxygen at a given time is
+called hemoglobin saturation. Hemoglobin saturation of 100 percent means that every heme unit in all of the
+erythrocytes of the body is bound to oxygen. In a healthy individual with normal hemoglobin levels, hemoglobin
+saturation generally ranges from 95 percent to 99 percent.
+
+Oxygen Dissociation from Hemoglobin
+Partial pressure is an important aspect of the binding of oxygen to and disassociation from heme. An
+oxygen–hemoglobin dissociation curve is a graph that describes the relationship of partial pressure to the binding
+of oxygen to heme and its subsequent dissociation from heme (Figure 22.26). Remember that gases travel from an
+area of higher partial pressure to an area of lower partial pressure. In addition, the affinity of an oxygen molecule for
+heme increases as more oxygen molecules are bound. Therefore, in the oxygen–hemoglobin saturation curve, as the
+partial pressure of oxygen increases, a proportionately greater number of oxygen molecules are bound by heme. Not
+surprisingly, the oxygen–hemoglobin saturation/dissociation curve also shows that the lower the partial pressure of
+oxygen, the fewer oxygen molecules are bound to heme. As a result, the partial pressure of oxygen plays a major
+role in determining the degree of binding of oxygen to heme at the site of the respiratory membrane, as well as the
+degree of dissociation of oxygen from heme at the site of body tissues.
+
+FIGURE 22.26
+Oxygen-Hemoglobin Dissociation and Effects of pH and Temperature
+These three graphs show (a) the relationship
+between the partial pressure of oxygen and hemoglobin saturation, (b) the effect of pH on the oxygen–hemoglobin dissociation curve, and
+(c) the effect of temperature on the oxygen–hemoglobin dissociation curve.
+
+The mechanisms behind the oxygen–hemoglobin saturation/dissociation curve also serve as automatic control
+mechanisms that regulate how much oxygen is delivered to different tissues throughout the body. This is important
+because some tissues have a higher metabolic rate than others. Highly active tissues, such as muscle, rapidly use
+oxygen to produce ATP, lowering the partial pressure of oxygen in the tissue to about 20 mm Hg. The partial
+pressure of oxygen inside capillaries is about 100 mm Hg, so the difference between the two becomes quite high,
+about 80 mm Hg. As a result, a greater number of oxygen molecules dissociate from hemoglobin and enter the
+tissues. The reverse is true of tissues, such as adipose (body fat), which have lower metabolic rates. Because less
+oxygen is used by these cells, the partial pressure of oxygen within such tissues remains relatively high, resulting in
+fewer oxygen molecules dissociating from hemoglobin and entering the tissue interstitial fluid. Although venous
+blood is said to be deoxygenated, some oxygen is still bound to hemoglobin in its red blood cells. This provides an
+oxygen reserve that can be used when tissues suddenly demand more oxygen.
+Factors other than partial pressure also affect the oxygen–hemoglobin saturation/dissociation curve. For example, a
+higher temperature promotes hemoglobin and oxygen to dissociate faster, whereas a lower temperature inhibits
+dissociation (see Figure 22.26, middle). However, the human body tightly regulates temperature, so this factor may
+not affect gas exchange throughout the body. The exception to this is in highly active tissues, which may release a
+larger amount of energy than is given off as heat. As a result, oxygen readily dissociates from hemoglobin, which is a
+mechanism that helps to provide active tissues with more oxygen.
+Certain hormones, such as androgens, epinephrine, thyroid hormones, and growth hormone, can affect the
+oxygen–hemoglobin saturation/disassociation curve by stimulating the production of a compound called
+2,3-bisphosphoglycerate (BPG) by erythrocytes. BPG is a byproduct of glycolysis. Because erythrocytes do not
+contain mitochondria, glycolysis is the sole method by which these cells produce ATP. BPG promotes the
+disassociation of oxygen from hemoglobin. Therefore, the greater the concentration of BPG, the more readily oxygen
+dissociates from hemoglobin, despite its partial pressure.
+The pH of the blood is another factor that influences the oxygen–hemoglobin saturation/dissociation curve (see
+Figure 22.26). The Bohr effect is a phenomenon that arises from the relationship between pH and oxygen’s affinity
+for hemoglobin: A lower, more acidic pH promotes oxygen dissociation from hemoglobin. In contrast, a higher, or
+more basic, pH inhibits oxygen dissociation from hemoglobin. The greater the amount of carbon dioxide in the
+blood, the more molecules that must be converted, which in turn generates hydrogen ions and thus lowers blood
+pH. Furthermore, blood pH may become more acidic when certain byproducts of cell metabolism, such as lactic
+acid, carbonic acid, and carbon dioxide, are released into the bloodstream.
+
+Hemoglobin of the Fetus
+The fetus has its own circulation with its own erythrocytes; however, it is dependent on the pregnant person for
+oxygen. Blood is supplied to the fetus by way of the umbilical cord, which is connected to the placenta and
+separated from maternal blood by the chorion. The mechanism of gas exchange at the chorion is similar to gas
+exchange at the respiratory membrane. However, the partial pressure of oxygen is lower in the maternal blood in the
+placenta, at about 35 to 50 mm Hg, than it is in maternal arterial blood. The difference in partial pressures between
+maternal and fetal blood is not large, as the partial pressure of oxygen in fetal blood at the placenta is about 20 mm
+Hg. Therefore, there is not as much diffusion of oxygen into the fetal blood supply. The fetus’ hemoglobin overcomes
+this problem by having a greater affinity for oxygen than maternal hemoglobin (Figure 22.27). Both fetal and adult
+hemoglobin have four subunits, but two of the subunits of fetal hemoglobin have a different structure that causes
+fetal hemoglobin to have a greater affinity for oxygen than does adult hemoglobin.
+
+FIGURE 22.27
+Oxygen-Hemoglobin Dissociation Curves in Fetus and Adult
+Fetal hemoglobin has a greater affinity for oxygen than
+does adult hemoglobin.
+
+Carbon Dioxide Transport in the Blood
+Carbon dioxide is transported by three major mechanisms. The first mechanism of carbon dioxide transport is by
+blood plasma, as some carbon dioxide molecules dissolve in the blood. The second mechanism is transport in the
+form of bicarbonate (HCO3–), which also dissolves in plasma. The third mechanism of carbon dioxide transport is
+similar to the transport of oxygen by erythrocytes (Figure 22.28).
+
+FIGURE 22.28
+Carbon Dioxide Transport
+Carbon dioxide is transported by three different methods: (a) in erythrocytes; (b) after
+forming carbonic acid (H2CO3 ), which is dissolved in plasma; (c) and in plasma.
+
+Dissolved Carbon Dioxide
+Although carbon dioxide is not considered to be highly soluble in blood, a small fraction—about 7 to 10 percent—of
+the carbon dioxide that diffuses into the blood from the tissues dissolves in plasma. The dissolved carbon dioxide
+then travels in the bloodstream and when the blood reaches the pulmonary capillaries, the dissolved carbon dioxide
+diffuses across the respiratory membrane into the alveoli, where it is then exhaled during pulmonary ventilation.
+
+Bicarbonate Buffer
+A large fraction—about 70 percent—of the carbon dioxide molecules that diffuse into the blood is transported to the
+lungs as bicarbonate. Most bicarbonate is produced in erythrocytes after carbon dioxide diffuses into the capillaries,
+and subsequently into red blood cells. Carbonic anhydrase (CA) causes carbon dioxide and water to form carbonic
+acid (H2CO3), which dissociates into two ions: bicarbonate (HCO3–) and hydrogen (H+). The following formula
+depicts this reaction:
+Bicarbonate tends to build up in the erythrocytes, so that there is a greater concentration of bicarbonate in the
+erythrocytes than in the surrounding blood plasma. As a result, some of the bicarbonate will leave the erythrocytes
+and move down its concentration gradient into the plasma in exchange for chloride (Cl–) ions. This phenomenon is
+referred to as the chloride shift and occurs because by exchanging one negative ion for another negative ion,
+neither the electrical charge of the erythrocytes nor that of the blood is altered.
+At the pulmonary capillaries, the chemical reaction that produced bicarbonate (shown above) is reversed, and
+carbon dioxide and water are the products. Much of the bicarbonate in the plasma re-enters the erythrocytes in
+exchange for chloride ions. Hydrogen ions and bicarbonate ions join to form carbonic acid, which is converted into
+carbon dioxide and water by carbonic anhydrase. Carbon dioxide diffuses out of the erythrocytes and into the
+plasma, where it can further diffuse across the respiratory membrane into the alveoli to be exhaled during
+pulmonary ventilation.
+
+Carbaminohemoglobin
+About 20 percent of carbon dioxide is bound by hemoglobin and is transported to the lungs. Carbon dioxide does not
+bind to iron as oxygen does; instead, carbon dioxide binds amino acid moieties on the globin portions of hemoglobin
+to form carbaminohemoglobin, which forms when hemoglobin and carbon dioxide bind. When hemoglobin is not
+transporting oxygen, it tends to have a bluish-purple tone to it, creating the darker maroon color typical of
+deoxygenated blood. The following formula depicts this reversible reaction:
+Similar to the transport of oxygen by heme, the binding and dissociation of carbon dioxide to and from hemoglobin is
+dependent on the partial pressure of carbon dioxide. Because carbon dioxide is released from the lungs, blood that
+leaves the lungs and reaches body tissues has a lower partial pressure of carbon dioxide than is found in the tissues.
+As a result, carbon dioxide leaves the tissues because of its higher partial pressure, enters the blood, and then
+moves into red blood cells, binding to hemoglobin. In contrast, in the pulmonary capillaries, the partial pressure of
+carbon dioxide is high compared to within the alveoli. As a result, carbon dioxide dissociates readily from
+hemoglobin and diffuses across the respiratory membrane into the air.
+In addition to the partial pressure of carbon dioxide, the oxygen saturation of hemoglobin and the partial pressure of
+oxygen in the blood also influence the affinity of hemoglobin for carbon dioxide. The Haldane effect is a
+phenomenon that arises from the relationship between the partial pressure of oxygen and the affinity of hemoglobin
+for carbon dioxide. Hemoglobin that is saturated with oxygen does not readily bind carbon dioxide. However, when
+oxygen is not bound to heme and the partial pressure of oxygen is low, hemoglobin readily binds to carbon dioxide.
+
+INTERACTIVE LINK
+Watch this video (http://openstax.org/l/oxyblood) to see the transport of oxygen from the lungs to the tissues. Why
+is oxygenated blood bright red, whereas deoxygenated blood tends to be more of a purple color?

@@ -1,0 +1,412 @@
+23.5 The Small and Large Intestines
+LEARNING OBJECTIVES
+By the end of this section, you will be able to:
+•
+Compare and contrast the location and gross anatomy of the small and large intestines
+•
+Identify three main adaptations of the small intestine wall that increase its absorptive capacity
+•
+Describe the mechanical and chemical digestion of chyme upon its release into the small intestine
+•
+List three features unique to the wall of the large intestine and identify their contributions to its function
+•
+Identify the beneficial roles of the bacterial flora in digestive system functioning
+•
+Trace the pathway of food waste from its point of entry into the large intestine through its exit from the body as
+feces
+The word intestine is derived from a Latin root meaning “internal,” and indeed, the two organs together nearly fill the
+interior of the abdominal cavity. In addition, called the small and large bowel, or colloquially the “guts,” they
+constitute the greatest mass and length of the alimentary canal and, with the exception of ingestion, perform all
+digestive system functions.
+
+The Small Intestine
+Chyme released from the stomach enters the small intestine, which is the primary digestive organ in the body. Not
+only is this where most digestion occurs, it is also where practically all absorption occurs. The longest part of the
+alimentary canal, the small intestine is about 3.05 meters (10 feet) long in a living person (but about twice as long in
+a cadaver due to the loss of muscle tone). Since this makes it about five times longer than the large intestine, you
+might wonder why it is called “small.” In fact, its name derives from its relatively smaller diameter of only about
+2.54 cm (1 in), compared with 7.62 cm (3 in) for the large intestine. As we’ll see shortly, in addition to its length, the
+folds and projections of the lining of the small intestine work to give it an enormous surface area, which is
+approximately 200 m2, more than 100 times the surface area of your skin. This large surface area is necessary for
+complex processes of digestion and absorption that occur within it.
+
+Structure
+The coiled tube of the small intestine is subdivided into three regions. From proximal (at the stomach) to distal,
+these are the duodenum, jejunum, and ileum (Figure 23.18).
+The shortest region is the 25.4-cm (10-in) duodenum, which begins at the pyloric sphincter. Just past the pyloric
+sphincter, it bends posteriorly behind the peritoneum, becoming retroperitoneal, and then makes a C-shaped curve
+around the head of the pancreas before ascending anteriorly again to return to the peritoneal cavity and join the
+jejunum. The duodenum can therefore be subdivided into four segments: the superior, descending, horizontal, and
+ascending duodenum.
+Of particular interest is the hepatopancreatic ampulla (ampulla of Vater). Located in the duodenal wall, the ampulla
+marks the transition from the anterior portion of the alimentary canal to the mid-region, and is where the bile duct
+(through which bile passes from the liver) and the main pancreatic duct (through which pancreatic juice passes
+from the pancreas) join. This ampulla opens into the duodenum at a tiny volcano-shaped structure called the major
+duodenal papilla. The hepatopancreatic sphincter (sphincter of Oddi) regulates the flow of both bile and
+pancreatic juice from the ampulla into the duodenum.
+
+FIGURE 23.18
+Small Intestine
+The three regions of the small intestine are the duodenum, jejunum, and ileum.
+
+The jejunum is about 0.9 meters (3 feet) long (in life) and runs from the duodenum to the ileum. Jejunum means
+“empty” in Latin and supposedly was so named by the ancient Greeks who noticed it was always empty at death. No
+clear demarcation exists between the jejunum and the final segment of the small intestine, the ileum.
+The ileum is the longest part of the small intestine, measuring about 1.8 meters (6 feet) in length. It is thicker, more
+vascular, and has more developed mucosal folds than the jejunum. The ileum joins the cecum, the first portion of the
+large intestine, at the ileocecal sphincter (or valve). The jejunum and ileum are tethered to the posterior abdominal
+wall by the mesentery. The large intestine frames these three parts of the small intestine.
+Parasympathetic nerve fibers from the vagus nerve and sympathetic nerve fibers from the thoracic splanchnic nerve
+provide extrinsic innervation to the small intestine. The superior mesenteric artery is its main arterial supply. Veins
+run parallel to the arteries and drain into the superior mesenteric vein. Nutrient-rich blood from the small intestine
+is then carried to the liver via the hepatic portal vein.
+
+Histology
+The wall of the small intestine is composed of the same four layers typically present in the alimentary system.
+However, three features of the mucosa and submucosa are unique. These features, which increase the absorptive
+surface area of the small intestine more than 600-fold, include circular folds, villi, and microvilli (Figure 23.19).
+These adaptations are most abundant in the proximal two-thirds of the small intestine, where the majority of
+absorption occurs.
+
+FIGURE 23.19
+Histology of the Small Intestine
+(a) The absorptive surface of the small intestine is vastly enlarged by the presence of
+circular folds, villi, and microvilli. (b) Micrograph of the circular folds. (c) Micrograph of the villi. (d) Electron micrograph of the microvilli.
+From left to right, LM x 56, LM x 508, EM x 196,000. (credit b-d: Micrograph provided by the Regents of University of Michigan Medical
+School © 2012)
+
+Circular folds
+Also called a plica circulare, a circular fold is a deep ridge in the mucosa and submucosa. Beginning near the
+proximal part of the duodenum and ending near the middle of the ileum, these folds facilitate absorption. Their
+shape causes the chyme to spiral, rather than move in a straight line, through the small intestine. Spiraling slows the
+movement of chyme and provides the time needed for nutrients to be fully absorbed.
+
+Villi
+Within the circular folds are small (0.5–1 mm long) hairlike vascularized projections called villi (singular = villus)
+that give the mucosa a furry texture. There are about 20 to 40 villi per square millimeter, increasing the surface area
+of the epithelium tremendously. The mucosal epithelium, primarily composed of absorptive cells, covers the villi. In
+addition to muscle and connective tissue to support its structure, each villus contains a capillary bed composed of
+one arteriole and one venule, as well as a lymphatic capillary called a lacteal. The breakdown products of
+carbohydrates and proteins (sugars and amino acids) can enter the bloodstream directly, but lipid breakdown
+products are absorbed by the lacteals and transported to the bloodstream via the lymphatic system.
+
+Microvilli
+As their name suggests, microvilli (singular = microvillus) are much smaller (1 µm) than villi. They are cylindrical
+apical surface extensions of the plasma membrane of the mucosa’s epithelial cells, and are supported by
+microfilaments within those cells. Although their small size makes it difficult to see each microvillus, their combined
+microscopic appearance suggests a mass of bristles, which is termed the brush border. Fixed to the surface of the
+microvilli membranes are enzymes that finish digesting carbohydrates and proteins. There are an estimated 200
+million microvilli per square millimeter of small intestine, greatly expanding the surface area of the plasma
+membrane and thus greatly enhancing absorption.
+
+Intestinal Glands
+In addition to the three specialized absorptive features just discussed, the mucosa between the villi is dotted with
+deep crevices that each lead into a tubular intestinal gland (crypt of Lieberkühn), which is formed by cells that line
+the crevices (see Figure 23.19). These produce intestinal juice, a slightly alkaline (pH 7.4 to 7.8) mixture of water
+and mucus. Each day, about 0.95 to 1.9 liters (1 to 2 quarts) are secreted in response to the distention of the small
+intestine or the irritating effects of chyme on the intestinal mucosa.
+The submucosa of the duodenum is the only site of the complex mucus-secreting duodenal glands (Brunner’s
+glands), which produce a bicarbonate-rich alkaline mucus that buffers the acidic chyme as it enters from the
+stomach.
+The roles of the cells in the small intestinal mucosa are detailed in Table 23.7.
+
+Cells of the Small Intestinal Mucosa
+Cell type
+Location in the
+mucosa
+Function
+Absorptive
+Epithelium/intestinal
+glands
+Digestion and absorption of nutrients in chyme
+Goblet
+Epithelium/intestinal
+glands
+Secretion of mucus
+Paneth
+Intestinal glands
+Secretion of the bactericidal enzyme lysozyme; phagocytosis
+G cells
+Intestinal glands of
+duodenum
+Secretion of the hormone intestinal gastrin
+I cells
+Intestinal glands of
+duodenum
+Secretion of the hormone cholecystokinin, which stimulates release of
+pancreatic juices and bile
+K cells
+Intestinal glands
+Secretion of the hormone glucose-dependent insulinotropic peptide,
+which stimulates the release of insulin
+M cells
+Intestinal glands of
+duodenum and
+jejunum
+Secretion of the hormone motilin, which accelerates gastric emptying,
+stimulates intestinal peristalsis, and stimulates the production of pepsin
+S cells
+Intestinal glands
+Secretion of the hormone secretin
+TABLE 23.7
+
+Intestinal MALT
+The lamina propria of the small intestine mucosa is studded with quite a bit of MALT. In addition to solitary
+lymphatic nodules, aggregations of intestinal MALT, which are typically referred to as Peyer’s patches, are
+concentrated in the distal ileum, and serve to keep bacteria from entering the bloodstream. Peyer’s patches are
+most prominent in young people and become less distinct as you age, which coincides with the general activity of
+our immune system.
+
+INTERACTIVE LINK
+Watch this animation (http://openstax.org/l/sintestine) that depicts the structure of the small intestine, and, in
+particular, the villi. Epithelial cells continue the digestion and absorption of nutrients and transport these nutrients
+to the lymphatic and circulatory systems. In the small intestine, the products of food digestion are absorbed by
+different structures in the villi. Which structure absorbs and transports fats?
+
+Mechanical Digestion in the Small Intestine
+The movement of intestinal smooth muscles includes both segmentation and a form of peristalsis called migrating
+motility complexes. The kind of peristaltic mixing waves seen in the stomach are not observed here.
+If you could see into the small intestine when it was going through segmentation, it would look as if the contents
+were being shoved incrementally back and forth, as the rings of smooth muscle repeatedly contract and then relax.
+Segmentation in the small intestine does not force chyme through the tract. Instead, it combines the chyme with
+digestive juices and pushes food particles against the mucosa to be absorbed. The duodenum is where the most
+rapid segmentation occurs, at a rate of about 12 times per minute. In the ileum, segmentations are only about eight
+times per minute (Figure 23.20).
+
+FIGURE 23.20
+Segmentation
+Segmentation separates chyme and then pushes it back together, mixing it and providing time for
+digestion and absorption.
+
+When most of the chyme has been absorbed, the small intestinal wall becomes less distended. At this point, the
+localized segmentation process is replaced by transport movements. The duodenal mucosa secretes the hormone
+motilin, which initiates peristalsis in the form of a migrating motility complex. These complexes, which begin in the
+duodenum, force chyme through a short section of the small intestine and then stop. The next contraction begins a
+little bit farther down than the first, forces chyme a bit farther through the small intestine, then stops. These
+complexes move slowly down the small intestine, forcing chyme on the way, taking around 90 to 120 minutes to
+finally reach the end of the ileum. At this point, the process is repeated, starting in the duodenum.
+The ileocecal valve, a sphincter, is usually in a constricted state, but when motility in the ileum increases, this
+sphincter relaxes, allowing food residue to enter the first portion of the large intestine, the cecum. Relaxation of the
+ileocecal sphincter is controlled by both nerves and hormones. First, digestive activity in the stomach provokes the
+gastroileal reflex, which increases the force of ileal segmentation. Second, the stomach releases the hormone
+gastrin, which enhances ileal motility, thus relaxing the ileocecal sphincter. After chyme passes through, backward
+pressure helps close the sphincter, preventing backflow into the ileum. Because of this reflex, your lunch is
+completely emptied from your stomach and small intestine by the time you eat your dinner. It takes about 3 to 5
+hours for all chyme to leave the small intestine.
+
+Chemical Digestion in the Small Intestine
+The digestion of proteins and carbohydrates, which partially occurs in the stomach, is completed in the small
+intestine with the aid of intestinal and pancreatic juices. Lipids arrive in the intestine largely undigested, so much of
+the focus here is on lipid digestion, which is facilitated by bile and the enzyme pancreatic lipase.
+Moreover, intestinal juice combines with pancreatic juice to provide a liquid medium that facilitates absorption. The
+intestine is also where most water is absorbed, via osmosis. The small intestine’s absorptive cells also synthesize
+digestive enzymes and then place them in the plasma membranes of the microvilli. This distinguishes the small
+intestine from the stomach; that is, enzymatic digestion occurs not only in the lumen, but also on the luminal
+surfaces of the mucosal cells.
+For optimal chemical digestion, chyme must be delivered from the stomach slowly and in small amounts. This is
+because chyme from the stomach is typically hypertonic, and if large quantities were forced all at once into the
+small intestine, the resulting osmotic water loss from the blood into the intestinal lumen would result in potentially
+life-threatening low blood volume. In addition, continued digestion requires an upward adjustment of the low pH of
+stomach chyme, along with rigorous mixing of the chyme with bile and pancreatic juices. Both processes take time,
+so the pumping action of the pylorus must be carefully controlled to prevent the duodenum from being
+overwhelmed with chyme.
+
+The Large Intestine
+The large intestine is the terminal part of the alimentary canal. The primary function of this organ is to finish
+absorption of nutrients and water, synthesize certain vitamins, form feces, and eliminate feces from the body.
+
+Structure
+The large intestine runs from the appendix to the anus. It frames the small intestine on three sides. Despite its being
+about one-half as long as the small intestine, it is called large because it is more than twice the diameter of the
+small intestine, about 3 inches.
+
+Subdivisions
+The large intestine is subdivided into four main regions: the cecum, the colon, the rectum, and the anus. The
+ileocecal valve, located at the opening between the ileum and the large intestine, controls the flow of chyme from
+the small intestine to the large intestine.
+
+Cecum
+The first part of the large intestine is the cecum, a sac-like structure that is suspended inferior to the ileocecal valve.
+It is about 6 cm (2.4 in) long, receives the contents of the ileum, and continues the absorption of water and salts.
+The appendix (or vermiform appendix) is a winding tube that attaches to the cecum. Although the 7.6-cm (3-in)
+long appendix contains lymphoid tissue, suggesting an immunologic function, this organ is generally considered
+vestigial. However, at least one recent report postulates a survival advantage conferred by the appendix: In
+diarrheal illness, the appendix may serve as a bacterial reservoir to repopulate the enteric bacteria for those
+surviving the initial phases of the illness. Moreover, its twisted anatomy provides a haven for the accumulation and
+multiplication of enteric bacteria. The mesoappendix, the mesentery of the appendix, tethers it to the mesentery of
+the ileum.
+
+Disorders of the...
+Small Intestine: Lactose Intolerance
+Lactose intolerance is a condition characterized by indigestion caused by dairy products. It occurs when the
+absorptive cells of the small intestine do not produce enough lactase, the enzyme that digests the milk sugar
+lactose. In most mammals, lactose intolerance increases with age. In contrast, some human populations are
+able to maintain the ability to produce lactase as adults.
+In people with lactose intolerance, the lactose in chyme is not digested. Bacteria in the large intestine ferment
+the undigested lactose, a process that produces gas. In addition to gas, symptoms include abdominal cramps,
+bloating, and diarrhea. Symptom severity ranges from mild discomfort to severe pain; however, symptoms
+resolve once the lactose is eliminated in feces.
+The hydrogen breath test is used to help diagnose lactose intolerance. Lactose-tolerant people have very little
+hydrogen in their breath. Those with lactose intolerance exhale hydrogen, which is one of the gases produced by
+the bacterial fermentation of lactose in the colon. After the hydrogen is absorbed from the intestine, it is
+transported through blood vessels into the lungs. There are a number of lactose-free dairy products available in
+grocery stores. In addition, dietary supplements are available. Taken with food, they provide lactase to help
+digest lactose.
+
+Colon
+The cecum blends seamlessly with the colon. Upon entering the colon, the food residue first travels up the
+ascending colon on the right side of the abdomen. At the inferior surface of the liver, the colon bends to form the
+right colic flexure (hepatic flexure) and becomes the transverse colon. The region defined as hindgut begins with
+the last third of the transverse colon and continues on. Food residue passing through the transverse colon travels
+across to the left side of the abdomen, where the colon angles sharply immediately inferior to the spleen, at the left
+colic flexure (splenic flexure). From there, food residue passes through the descending colon, which runs down the
+left side of the posterior abdominal wall. After entering the pelvis inferiorly, it becomes the s-shaped sigmoid colon,
+which extends medially to the midline (Figure 23.21). The ascending and descending colon, and the rectum
+(discussed next) are located in the retroperitoneum. The transverse and sigmoid colon are tethered to the posterior
+abdominal wall by the mesocolon.
+
+FIGURE 23.21
+Large Intestine
+The large intestine includes the cecum, colon, and rectum.
+
+HOMEOSTATIC IMBALANCES
+Colorectal Cancer
+Each year, approximately 140,000 Americans are diagnosed with colorectal cancer, and another 49,000 die from it,
+making it one of the most deadly malignancies. People with a family history of colorectal cancer are at increased
+risk. Smoking, excessive alcohol consumption, and a diet high in animal fat and protein also increase the risk.
+Despite popular opinion to the contrary, studies support the conclusion that dietary fiber and calcium do not reduce
+the risk of colorectal cancer.
+Colorectal cancer may be signaled by constipation or diarrhea, cramping, abdominal pain, and rectal bleeding.
+Bleeding from the rectum may be either obvious or occult (hidden in feces). Since most colon cancers arise from
+benign mucosal growths called polyps, cancer prevention is focused on identifying these polyps. The colonoscopy is
+both diagnostic and therapeutic. Colonoscopy not only allows identification of precancerous polyps, the procedure
+also enables them to be removed before they become malignant. Screening for fecal occult blood tests and
+colonoscopy is recommended for those over 50 years of age.
+
+Rectum
+Food residue leaving the sigmoid colon enters the rectum in the pelvis, near the third sacral vertebra. The final 20.3
+cm (8 in) of the alimentary canal, the rectum extends anterior to the sacrum and coccyx. Even though rectum is
+Latin for “straight,” this structure follows the curved contour of the sacrum and has three lateral bends that create a
+trio of internal transverse folds called the rectal valves. These valves help separate the feces from gas to prevent
+the simultaneous passage of feces and gas.
+
+Anal Canal
+Finally, food residue reaches the last part of the large intestine, the anal canal, which is located in the perineum,
+completely outside of the abdominopelvic cavity. This 3.8–5 cm (1.5–2 in) long structure opens to the exterior of the
+body at the anus. The anal canal includes two sphincters. The internal anal sphincter is made of smooth muscle,
+and its contractions are involuntary. The external anal sphincter is made of skeletal muscle, which is under
+voluntary control. Except when defecating, both usually remain closed.
+
+Histology
+There are several notable differences between the walls of the large and small intestines (Figure 23.22). For
+example, few enzyme-secreting cells are found in the wall of the large intestine, and there are no circular folds or
+villi. Other than in the anal canal, the mucosa of the colon is simple columnar epithelium made mostly of
+enterocytes (absorptive cells) and goblet cells. In addition, the wall of the large intestine has far more intestinal
+glands, which contain a vast population of enterocytes and goblet cells. These goblet cells secrete mucus that eases
+the movement of feces and protects the intestine from the effects of the acids and gases produced by enteric
+bacteria. The enterocytes absorb water and salts as well as vitamins produced by your intestinal bacteria.
+
+FIGURE 23.22
+Histology of the large Intestine
+(a) The histologies of the large intestine and small intestine (not shown) are adapted for
+the digestive functions of each organ. (b) This micrograph shows the colon’s simple columnar epithelium and goblet cells. LM x 464. (credit
+b: Micrograph provided by the Regents of University of Michigan Medical School © 2012)
+
+Anatomy
+Three features are unique to the large intestine: teniae coli, haustra, and epiploic appendages (Figure 23.23). The
+teniae coli are three bands of smooth muscle that make up the longitudinal muscle layer of the muscularis of the
+large intestine, except at its terminal end. Tonic contractions of the teniae coli bunch up the colon into a succession
+of pouches called haustra (singular = haustrum), which are responsible for the wrinkled appearance of the colon.
+Attached to the teniae coli are small, fat-filled sacs of visceral peritoneum called epiploic appendages. The purpose
+of these is unknown. Although the rectum and anal canal have neither teniae coli nor haustra, they do have well-
+developed layers of muscularis that create the strong contractions needed for defecation.
+
+FIGURE 23.23
+Teniae Coli, Haustra, and Epiploic Appendages
+
+The stratified squamous epithelial mucosa of the anal canal connects to the skin on the outside of the anus. This
+mucosa varies considerably from that of the rest of the colon to accommodate the high level of abrasion as feces
+pass through. The anal canal’s mucous membrane is organized into longitudinal folds, each called an anal column,
+which house a grid of arteries and veins. Two superficial venous plexuses are found in the anal canal: one within the
+anal columns and one at the anus.
+Depressions between the anal columns, each called an anal sinus, secrete mucus that facilitates defecation. The
+pectinate line (or dentate line) is a horizontal, jagged band that runs circumferentially just below the level of the
+anal sinuses, and represents the junction between the hindgut and external skin. The mucosa above this line is fairly
+insensitive, whereas the area below is very sensitive. The resulting difference in pain threshold is due to the fact that
+the upper region is innervated by visceral sensory fibers, and the lower region is innervated by somatic sensory fibers.
+
+Bacterial Flora
+Most bacteria that enter the alimentary canal are killed by lysozyme, defensins, HCl, or protein-digesting enzymes.
+However, trillions of bacteria live within the large intestine and are referred to as the bacterial flora. Most of the
+more than 700 species of these bacteria are nonpathogenic commensal organisms that cause no harm as long as
+they stay in the gut lumen. In fact, many facilitate chemical digestion and absorption, and some synthesize certain
+vitamins, mainly biotin, pantothenic acid, and vitamin K. Some are linked to increased immune response. A refined
+system prevents these bacteria from crossing the mucosal barrier. First, peptidoglycan, a component of bacterial
+cell walls, activates the release of chemicals by the mucosa’s epithelial cells, which draft immune cells, especially
+dendritic cells, into the mucosa. Dendritic cells open the tight junctions between epithelial cells and extend probes
+into the lumen to evaluate the microbial antigens. The dendritic cells with antigens then travel to neighboring
+lymphoid follicles in the mucosa where T cells inspect for antigens. This process triggers an IgA-mediated response,
+if warranted, in the lumen that blocks the commensal organisms from infiltrating the mucosa and setting off a far
+greater, widespread systematic reaction.
+
+Digestive Functions of the Large Intestine
+The residue of chyme that enters the large intestine contains few nutrients except water, which is reabsorbed as the
+residue lingers in the large intestine, typically for 12 to 24 hours. Thus, it may not surprise you that the large
+intestine can be completely removed without significantly affecting digestive functioning. For example, in severe
+cases of inflammatory bowel disease, the large intestine can be removed by a procedure known as a colectomy.
+Often, a new fecal pouch can be crafted from the small intestine and sutured to the anus, but if not, an ileostomy
+can be created by bringing the distal ileum through the abdominal wall, allowing the watery chyme to be collected in
+a bag-like adhesive appliance.
+
+Mechanical Digestion
+In the large intestine, mechanical digestion begins when chyme moves from the ileum into the cecum, an activity
+regulated by the ileocecal sphincter. Right after you eat, peristalsis in the ileum forces chyme into the cecum. When
+the cecum is distended with chyme, contractions of the ileocecal sphincter strengthen. Once chyme enters the
+cecum, colon movements begin.
+Mechanical digestion in the large intestine includes a combination of three types of movements. The presence of
+food residues in the colon stimulates a slow-moving haustral contraction. This type of movement involves sluggish
+segmentation, primarily in the transverse and descending colons. When a haustrum is distended with chyme, its
+muscle contracts, pushing the residue into the next haustrum. These contractions occur about every 30 minutes,
+and each last about 1 minute. These movements also mix the food residue, which helps the large intestine absorb
+water. The second type of movement is peristalsis, which, in the large intestine, is slower than in the more proximal
+portions of the alimentary canal. The third type is a mass movement. These strong waves start midway through the
+transverse colon and quickly force the contents toward the rectum. Mass movements usually occur three or four
+times per day, either while you eat or immediately afterward. Distension in the stomach and the breakdown
+products of digestion in the small intestine provoke the gastrocolic reflex, which increases motility, including mass
+movements, in the colon. Fiber in the diet both softens the stool and increases the power of colonic contractions,
+optimizing the activities of the colon.
+
+Chemical Digestion
+Although the glands of the large intestine secrete mucus, they do not secrete digestive enzymes. Therefore,
+chemical digestion in the large intestine occurs exclusively because of bacteria in the lumen of the colon. Through
+the process of saccharolytic fermentation, bacteria break down some of the remaining carbohydrates. This results
+in the discharge of hydrogen, carbon dioxide, and methane gases that create flatus (gas) in the colon; flatulence is
+excessive flatus. Each day, up to 1500 mL of flatus is produced in the colon. More is produced when you eat foods
+such as beans, which are rich in otherwise indigestible sugars and complex carbohydrates like soluble dietary fiber.
+Absorption, Feces Formation, and Defecation
+The small intestine absorbs about 90 percent of the water you ingest (either as liquid or within solid food). The large
+intestine absorbs most of the remaining water, a process that converts the liquid chyme residue into semisolid feces
+(“stool”). Feces is composed of undigested food residues, unabsorbed digested substances, millions of bacteria, old
+epithelial cells from the GI mucosa, inorganic salts, and enough water to let it pass smoothly out of the body. Of
+every 500 mL (17 ounces) of food residue that enters the cecum each day, about 150 mL (5 ounces) become feces.
+Feces are eliminated through contractions of the rectal muscles. You help this process by a voluntary procedure
+called Valsalva’s maneuver, in which you increase intra-abdominal pressure by contracting your diaphragm and
+abdominal wall muscles, and closing your glottis.
+The process of defecation begins when mass movements force feces from the colon into the rectum, stretching the
+rectal wall and provoking the defecation reflex, which eliminates feces from the rectum. This parasympathetic reflex
+is mediated by the spinal cord. It contracts the sigmoid colon and rectum, relaxes the internal anal sphincter, and
+initially contracts the external anal sphincter. The presence of feces in the anal canal sends a signal to the brain,
+which gives you the choice of voluntarily opening the external anal sphincter (defecating) or keeping it temporarily
+closed. If you decide to delay defecation, it takes a few seconds for the reflex contractions to stop and the rectal
+walls to relax. The next mass movement will trigger additional defecation reflexes until you defecate.
+If defecation is delayed for an extended time, additional water is absorbed, making the feces firmer and potentially
+leading to constipation. On the other hand, if the waste matter moves too quickly through the intestines, not enough
+water is absorbed, and diarrhea can result. This can be caused by the ingestion of foodborne pathogens. In general,
+diet, health, and stress determine the frequency of bowel movements. The number of bowel movements varies
+greatly between individuals, ranging from two or three per day to three or four per week.
+
+INTERACTIVE LINK
+By watching this animation (http://openstax.org/l/foodgroups) you will see that for the various food
+groups—proteins, fats, and carbohydrates—digestion begins in different parts of the digestion system, though all end
+in the same place. Of the three major food classes (carbohydrates, fats, and proteins), which is digested in the
+mouth, the stomach, and the small intestine?
