@@ -3,9 +3,9 @@
 .headerText {
   font-family: 'Noticia Text';
   font-weight: 900;
-  font-size: 60px;
+  font-size: 38px;
   text-align: center;
-  padding-top: 40px;
+  padding-top: 10px;
 }
 
 .subheaderText {
@@ -26,19 +26,6 @@
   margin: 10px auto;
 }
 
-/* .container {
-  display: grid;
-  grid-template-columns: 50% 50%;
-  grid-template-areas: "pdf-viewer knowledge-graph";
-}
-
-.pdf-viewer {
-  grid-area: pdf-viewer;
-}
-
-.knowledge-graph {
-  grid-area: knowledge-graph;
-} */
 
 /* @media (min-width: 768px) {
   .container {
@@ -60,15 +47,23 @@
 
 .graphContainer {
   width: 100%;
-  height: 600px;
+  height: 710px;
   background-color: rgb(255, 255, 255);
   border-radius: 10px;
-  overflow: hidden;
   border: 1px solid rgb(0, 0, 0);
   box-shadow: 0 0 5px rgb(0 0 0 / 10%);
   margin: 0 auto;
   margin-top: 0px;
   margin-bottom: 0px;
+}
+
+.knowledge_graph{
+  width: 50%;
+  
+}
+
+.pdf_viewer{
+  width: 50%
 }
 
 .footer {
@@ -77,8 +72,6 @@
   font-size: 13px;
   text-align: center;
   margin: 0 auto;
-  margin-left: 1200px;
-  margin-bottom: 100px;
 }
 
 .inputContainer {
@@ -126,7 +119,7 @@
   box-shadow: 0 0 5px rgb(0 0 0 / 10%);
   display: block;
   font-size: 16px;
-  height: 50px;
+  height: 100%;
   outline: none;
   padding: 0 10px;
   width: 25%;
@@ -137,14 +130,20 @@
   border: 1px solid rgb(0, 0, 0);
   border-radius: 5px;
   box-shadow: 0 0 5px rgb(0 0 0 / 10%);
-  display: block;
+  display: flex;
   font-size: 16px;
   height: 900px;
   outline: none;
   padding: 0 10px;
-  width: 76%;
+  width: 100%;
   margin-top: 5px;
   /* margin-top: 20px; */
+}
+
+.instruction{
+  width: 80%;
+  height: 100%;
+  margin-top: 5px;
 }
 
 .generateButton {
@@ -198,7 +197,7 @@
   color: rgb(0, 0, 0);
   cursor: pointer;
   font-size: 16px;
-  height: 50px;
+  height: 100%;
   outline: none;
   width: 20%;
   display: inline-block;
@@ -217,7 +216,7 @@
   color: rgb(0, 0, 0);
   cursor: pointer;
   font-size: 16px;
-  height: 50px;
+  height: 100%;
   outline: none;
   width: 20%;
   display: inline-block;
@@ -235,7 +234,7 @@
   color: rgb(0, 0, 0);
   cursor: pointer;
   font-size: 16px;
-  height: 50px;
+  height: 100%;
   outline: none;
   width: 9.5%;
   display: inline-block;

@@ -496,79 +496,102 @@ function App() {
     handleSectionSelectKey(eventKey.split('_')[0]);
   };
 
+  const [windowWidth, setWindowWidth] = useState(window.innerWidth);
+  const [windowHeight, setWindowHeight] = useState(window.innerHeight);
+
+  useEffect(() => {
+    const handleResize = () => {
+      setWindowWidth(window.innerWidth);
+      setWindowHeight(window.innerHeight);
+    };
+    window.addEventListener('resize', handleResize);
+    return () => {
+      window.removeEventListener('resize', handleResize);
+    };
+  }, []);
+
+
 	return (
-		<div style={{ display: 'flex', flexDirection: 'row' }}>
-      <div className='pdf_viewer' style={{ flex: 1 }}>
-          <nav style={{ display: 'flex', alignItems: 'center' }}>
-              <DropdownButton onSelect={handleChapterSelect} id="dropdown-basic-button" title="Select Chapter">
-                  {chapters.map((chapter) => (
-                    <Dropdown.Item key={chapter[0]} eventKey={parseInt(chapter[0].split("_")[1], 10)}>
-                      Chapter {parseInt(chapter[0].split("_")[1], 10)}: {chapter[1].name.replaceAll("_", " ")}
+		<div style={{ display: 'flex', flexDirection: 'row'}}>
+      <div className='pdf_viewer'>
+        <nav style={{ display: 'flex', flexDirection: 'row'}}>
+            <nav style={{ display: 'flex', flexDirection: 'column'}}>
+              <nav style={{ display: 'flex', alignItems: 'center' }}>
+                  <DropdownButton onSelect={handleChapterSelect} id="dropdown-basic-button" title="Select Chapter">
+                      {chapters.map((chapter) => (
+                        <Dropdown.Item key={chapter[0]} eventKey={parseInt(chapter[0].split("_")[1], 10)}>
+                          Chapter {parseInt(chapter[0].split("_")[1], 10)}: {chapter[1].name.replaceAll("_", " ")}
+                        </Dropdown.Item>
+                      ))}
+                  </DropdownButton>{" "}
+                  <DropdownButton onSelect={handleSectionSelect} id="dropdown-basic-button" title="Select Section">
+                  {inSections.map((section) => (
+                    <Dropdown.Item key={section[0]} eventKey={section[0] + '_' + section[1]}>
+                      {section[0]}
                     </Dropdown.Item>
                   ))}
-              </DropdownButton>{" "}
-              <DropdownButton onSelect={handleSectionSelect} id="dropdown-basic-button" title="Select Section">
-              {inSections.map((section) => (
-                <Dropdown.Item key={section[0]} eventKey={section[0] + '_' + section[1]}>
-                  {section[0]}
-                </Dropdown.Item>
-              ))}
-              </DropdownButton>
-          </nav>
-          <nav style={{ display: 'flex', alignItems: 'center' }}>
-            <button onClick={goToPrevPage}>Prev</button>
-            <button onClick={goToNextPage}>Next</button>
-            <Form.Control
-              type="text"
-              value={pageNumber}
-              onChange={handlePageNumberChange}
-              style={{ width: '50px' }}
-              />
-          </nav>
+                  </DropdownButton>
 
-            <p>
-            ✨ Page {pageNumber} of {numPages} ✨ <span style={{ fontWeight: 'bold' }}>{selectedSection}</span>
-            </p>
+              </nav>
+
+              <nav style={{ display: 'flex', alignItems: 'center' }}>
+                <button onClick={goToPrevPage}>Prev</button>
+                <button onClick={goToNextPage}>Next</button>
+                <Form.Control
+                  type="text"
+                  value={pageNumber}
+                  onChange={handlePageNumberChange}
+                  style={{ width: '10%' }}
+                  />
+                 <p>
+                ✨ Page {pageNumber} of {numPages} ✨ <span style={{ fontWeight: 'bold' }}>{selectedSection}</span>
+                </p>
+              </nav>
+            </nav>
+
+          </nav>
             
           <Document
             file={pdfFile}
             onLoadSuccess={onDocumentLoadSuccess}
           >
-            <Page scale={1.3} pageNumber={pageNumber} />
+            <Page scale={1.1} pageNumber={pageNumber} />
           </Document>
       </div>
-        <div className='knowledge_graph' style={{ flex: 1.5 }}>
+
+
+      <div className='knowledge_graph'>
         <nav>
-          <h1 className="headerText"><img src={require('./logo.png')} width="200" height="180" /> TextbookKG </h1>
+            <h1 className="headerText"><img src={require('./logo.png')} width="100" height="90" /> TextbookKG </h1>
         </nav>
           {/* <p className='subheaderText'>Build complex, directed graphs to add structure to your ideas using natural language. Understand the relationships between people, systems, and maybe solve a mystery.</p> */}
-          <div className='graphContainer'>
-            <Graph graph={graphState} options={options} events={eventState} style={{ height: "640px" }} />
-          </div>
-          <center>
-            <div className='inputContainer'>
-              {/* <input className="searchBar" placeholder="Describe your graph..."></input> */}
-              <button className="resumeButton" onClick={resumeGraph}>Resume</button>
-              <input className="edgeModify" placeholder="Change the edge to ..."></input>
-              <button className="modifyButton" onClick={editEdge}>Modify</button>
-              <button className="outButton" onClick={outputGraph}>Output</button>
-              <button className="clearButton" onClick={clearState}>Clear</button>
-            </div>
-            <div className='inputContainer1'>
-                  <button className="generateButton" onClick={regenerateGraph}>Re-generate (Update)</button>
-                  <input className="apiKeyTextField" type="password" placeholder="Enter OpenAI API key ..."></input>
-            </div>
-            <div className='inputContainer2'>
-              <textarea
-                className='sectionText'
-                value={rawText} // ...force the input's value to match the state variable...
-                onChange={e => setRawText(e.target.value)} // ... and update the state variable on any edits!
-              />
-              <h1 className="instruction"><img src={require('./instruction.png')} width='370' height="670" /></h1>
-            </div>
-          </center>
-          <p className='footer'>Developed by Patrick Jiang @ UIUC</p>
+        <div className='graphContainer'><Graph graph={graphState} options={options} events={eventState} style={{ height: "710px" }} /></div>
+         
+        <div className='inputContainer'>
+          {/* <input className="searchBar" placeholder="Describe your graph..."></input> */}
+          <button className="resumeButton" onClick={resumeGraph}>Resume</button>
+          <input className="edgeModify" placeholder="Change the edge to ..."></input>
+          <button className="modifyButton" onClick={editEdge}>Modify</button>
+          <button className="outButton" onClick={outputGraph}>Output</button>
+          <button className="clearButton" onClick={clearState}>Clear</button>
         </div>
+
+        <div className='inputContainer1'>
+              <button className="generateButton" onClick={regenerateGraph}>Re-generate (Update)</button>
+              <input className="apiKeyTextField" type="password" placeholder="Enter OpenAI API key ..."></input>
+        </div>
+
+        <div className='inputContainer2' style={{ display: 'flex', flexDirection: 'column'}}>
+          <textarea
+            className='sectionText'
+            value={rawText} // ...force the input's value to match the state variable...
+            onChange={e => setRawText(e.target.value)} // ... and update the state variable on any edits!
+          />
+          <h1 className="instruction"><img src={require('./instruction.png')} width='100%' height="100%" /></h1>
+        </div>
+        
+        <p className='footer'>Developed by Patrick Jiang @ UIUC</p>
+      </div>
 		</div>
 
 	);
