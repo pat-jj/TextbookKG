@@ -25,13 +25,14 @@ const DEFAULT_PARAMS = {
 
 const SELECTED_PROMPT = "STATELESS"
 
+
 const options = {
   layout: {
     hierarchical: false
   },
   edges: {
     color: "#34495e",
-    smooth: {type: "curvedCW"}
+    smooth: true
   }
 };
 
@@ -496,20 +497,6 @@ function App() {
     handleSectionSelectPage(eventKey.split('_')[1]);
     handleSectionSelectKey(eventKey.split('_')[0]);
   };
-
-  const [windowWidth, setWindowWidth] = useState(window.innerWidth);
-  const [windowHeight, setWindowHeight] = useState(window.innerHeight);
-
-  useEffect(() => {
-    const handleResize = () => {
-      setWindowWidth(window.innerWidth);
-      setWindowHeight(window.innerHeight);
-    };
-    window.addEventListener('resize', handleResize);
-    return () => {
-      window.removeEventListener('resize', handleResize);
-    };
-  }, []);
 
 
 	return (
