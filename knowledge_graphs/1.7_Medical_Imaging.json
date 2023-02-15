@@ -1,0 +1,535 @@
+{
+  "nodes": [
+    {
+      "id": "FIGURE 1.18 X-Ray of a Hand",
+      "label": "FIGURE 1.18 X-Ray of a Hand",
+      "color": "#ffffff"
+    },
+    {
+      "id": "Trace Meek/flickr",
+      "label": "Trace Meek/flickr",
+      "color": "#ffffff"
+    },
+    {
+      "id": "X-ray",
+      "label": "X-ray",
+      "color": "#ffffff"
+    },
+    {
+      "id": "irradiation",
+      "label": "irradiation",
+      "color": "#ffffff"
+    },
+    {
+      "id": "viewing fractures",
+      "label": "viewing fractures",
+      "color": "#ffffff"
+    },
+    {
+      "id": "dentistry",
+      "label": "dentistry",
+      "color": "#ffffff"
+    },
+    {
+      "id": "proper shielding",
+      "label": "proper shielding",
+      "color": "#ffffff"
+    },
+    {
+      "id": "limiting exposure",
+      "label": "limiting exposure",
+      "color": "#ffffff"
+    },
+    {
+      "id": "Modern Medical Imaging X-rays",
+      "label": "Modern Medical Imaging X-rays",
+      "color": "#ffffff"
+    },
+    {
+      "id": "two-dimensional image",
+      "label": "two-dimensional image",
+      "color": "#ffffff"
+    },
+    {
+      "id": "single angle",
+      "label": "single angle",
+      "color": "#ffffff"
+    },
+    {
+      "id": "more recent medical imaging technologies",
+      "label": "more recent medical imaging technologies",
+      "color": "#ffffff"
+    },
+    {
+      "id": "integrated",
+      "label": "integrated",
+      "color": "#ffffff"
+    },
+    {
+      "id": "analyzed",
+      "label": "analyzed",
+      "color": "#ffffff"
+    },
+    {
+      "id": "computers",
+      "label": "computers",
+      "color": "#ffffff"
+    },
+    {
+      "id": "three-dimensional images",
+      "label": "three-dimensional images",
+      "color": "#ffffff"
+    },
+    {
+      "id": "images",
+      "label": "images",
+      "color": "#ffffff"
+    },
+    {
+      "id": "aspects of body functioning",
+      "label": "aspects of body functioning",
+      "color": "#ffffff"
+    },
+    {
+      "id": "CT scan",
+      "label": "CT scan",
+      "color": "#ffffff"
+    },
+    {
+      "id": "radiation",
+      "label": "radiation",
+      "color": "#ffffff"
+    },
+    {
+      "id": "MRI",
+      "label": "MRI",
+      "color": "#00FF00"
+    },
+    {
+      "id": "PET scan",
+      "label": "PET scan",
+      "color": "#ffffff"
+    },
+    {
+      "id": "radiopharmaceuticals",
+      "label": "radiopharmaceuticals",
+      "color": "#ffffff"
+    },
+    {
+      "id": "Ultrasound technology",
+      "label": "Ultrasound technology",
+      "color": "#ffffff"
+    },
+    {
+      "id": "no electromagnetic radiation",
+      "label": "no electromagnetic radiation",
+      "color": "#ffffff"
+    },
+    {
+      "id": "exposes patients to radiation",
+      "label": "exposes patients to radiation",
+      "color": "#ffffff"
+    },
+    {
+      "id": "no radiation",
+      "label": "no radiation",
+      "color": "#ffffff"
+    },
+    {
+      "id": "higher cost",
+      "label": "higher cost",
+      "color": "#ffffff"
+    },
+    {
+      "id": "patient discomfort",
+      "label": "patient discomfort",
+      "color": "#ffffff"
+    },
+    {
+      "id": "high energy electromagnetic radiation",
+      "label": "high energy electromagnetic radiation",
+      "color": "#ffffff"
+    },
+    {
+      "id": "X-ray machine",
+      "label": "X-ray machine",
+      "color": "#ffffff"
+    },
+    {
+      "id": "specially treated metallic plate",
+      "label": "specially treated metallic plate",
+      "color": "#ffffff"
+    },
+    {
+      "id": "X-ray plate",
+      "label": "X-ray plate",
+      "color": "#ffffff"
+    },
+    {
+      "id": "soft tissues",
+      "label": "soft tissues",
+      "color": "#ffffff"
+    },
+    {
+      "id": "hard tissues",
+      "label": "hard tissues",
+      "color": "#ffffff"
+    },
+    {
+      "id": "hard body structures",
+      "label": "hard body structures",
+      "color": "#ffffff"
+    },
+    {
+      "id": "damaging cells",
+      "label": "damaging cells",
+      "color": "#ffffff"
+    },
+    {
+      "id": "cancer",
+      "label": "cancer",
+      "color": "#ffffff"
+    },
+    {
+      "id": "enhancements",
+      "label": "enhancements",
+      "color": "#ffffff"
+    },
+    {
+      "id": "medical imaging",
+      "label": "medical imaging",
+      "color": "#ffffff"
+    },
+    {
+      "id": "body region",
+      "label": "body region",
+      "color": "#ffffff"
+    },
+    {
+      "id": "Computed Tomography",
+      "label": "Computed Tomography",
+      "color": "#ffffff"
+    },
+    {
+      "id": "uses computers",
+      "label": "uses computers",
+      "color": "#ffffff"
+    },
+    {
+      "id": "several cross-sectional X-rays",
+      "label": "several cross-sectional X-rays",
+      "color": "#ffffff"
+    },
+    {
+      "id": "minute details",
+      "label": "minute details",
+      "color": "#ffffff"
+    },
+    {
+      "id": "1970s",
+      "label": "1970s",
+      "color": "#ffffff"
+    },
+    {
+      "id": "principle",
+      "label": "principle",
+      "color": "#ffffff"
+    },
+    {
+      "id": "body",
+      "label": "body",
+      "color": "#ffffff"
+    },
+    {
+      "id": "different levels",
+      "label": "different levels",
+      "color": "#ffffff"
+    },
+    {
+      "id": "motorized platform",
+      "label": "motorized platform",
+      "color": "#ffffff"
+    },
+    {
+      "id": "CAT scanner",
+      "label": "CAT scanner",
+      "color": "#ffffff"
+    },
+    {
+      "id": "360 degrees",
+      "label": "360 degrees",
+      "color": "#ffffff"
+    },
+    {
+      "id": "two-dimensional view",
+      "label": "two-dimensional view",
+      "color": "#ffffff"
+    }
+  ],
+  "edges": [
+    {
+      "from": "FIGURE 1.18 X-Ray of a Hand",
+      "to": "Trace Meek/flickr",
+      "label": "credit",
+      "id": "ec9df1b7-0279-449b-88ca-af961c1ed576"
+    },
+    {
+      "from": "X-ray",
+      "to": "irradiation",
+      "label": "disadvantage",
+      "id": "feec507d-97ef-403f-a5fb-006db9ea93ff"
+    },
+    {
+      "from": "X-ray",
+      "to": "viewing fractures",
+      "label": "advantage",
+      "id": "2cc1b4fb-7524-497a-a2d4-a7d708c06741"
+    },
+    {
+      "from": "X-ray",
+      "to": "dentistry",
+      "label": "advantage",
+      "id": "fd87ec0e-8153-4a07-8d92-4a661e887e58"
+    },
+    {
+      "from": "X-ray",
+      "to": "proper shielding",
+      "label": "attenuated by",
+      "id": "8f9400bf-e07c-436e-8007-bd073ca349ff"
+    },
+    {
+      "from": "X-ray",
+      "to": "limiting exposure",
+      "label": "attenuation",
+      "id": "be3bb361-e75b-4462-8b29-755204a49146"
+    },
+    {
+      "from": "Modern Medical Imaging X-rays",
+      "to": "two-dimensional image",
+      "label": "can depict",
+      "id": "122fb105-0b30-468e-ab5c-13ccd9d385d2"
+    },
+    {
+      "from": "Modern Medical Imaging X-rays",
+      "to": "single angle",
+      "label": "can depict",
+      "id": "3a289eb0-8a1f-446e-9d78-216e40a73775"
+    },
+    {
+      "from": "more recent medical imaging technologies",
+      "to": "integrated",
+      "label": "produce data",
+      "id": "51f0717c-a8df-47d1-8f1e-080659ddb90a"
+    },
+    {
+      "from": "more recent medical imaging technologies",
+      "to": "analyzed",
+      "label": "produce data",
+      "id": "47cc178a-76c9-4fa2-a5b6-0b60e0ecc03f"
+    },
+    {
+      "from": "more recent medical imaging technologies",
+      "to": "computers",
+      "label": "produce data",
+      "id": "c50bea4b-633d-4cdf-a052-361a056e52f8"
+    },
+    {
+      "from": "more recent medical imaging technologies",
+      "to": "three-dimensional images",
+      "label": "produce",
+      "id": "0a9953f0-7a8c-475e-9a4a-4f22b1359df2"
+    },
+    {
+      "from": "more recent medical imaging technologies",
+      "to": "images",
+      "label": "produce",
+      "id": "0217dfac-3d95-4421-94a7-469c0f3913b7"
+    },
+    {
+      "from": "more recent medical imaging technologies",
+      "to": "aspects of body functioning",
+      "label": "reveal",
+      "id": "4b6fc719-e6bf-4371-aeca-dbd87fc70ebc"
+    },
+    {
+      "from": "CT scan",
+      "to": "radiation",
+      "label": "uses",
+      "id": "ccae5ada-fd87-4648-b4ac-b9433eee3b39"
+    },
+    {
+      "from": "PET scan",
+      "to": "radiopharmaceuticals",
+      "label": "uses",
+      "id": "10b87660-9112-471f-bcf5-7d577dde4745"
+    },
+    {
+      "from": "Ultrasound technology",
+      "to": "no electromagnetic radiation",
+      "label": "uses",
+      "id": "3c08e8f2-6056-433e-b0d4-a650676788bc"
+    },
+    {
+      "from": "CT scan",
+      "to": "exposes patients to radiation",
+      "label": "disadvantage",
+      "id": "d1a6e16d-2411-4da5-a3c3-fc042ebb92e3"
+    },
+    {
+      "from": "MRI",
+      "to": "no radiation",
+      "label": "advantage",
+      "id": "9bcffbc1-6438-49eb-902f-79a85da8b3de"
+    },
+    {
+      "from": "MRI",
+      "to": "higher cost",
+      "label": "disadvantage",
+      "id": "020f05db-b767-4fc2-a948-e6270ca8d60f"
+    },
+    {
+      "from": "MRI",
+      "to": "patient discomfort",
+      "label": "disadvantage",
+      "id": "ad3fe915-e08a-44ce-b4b9-843bfef8ebcd"
+    },
+    {
+      "from": "X-ray",
+      "to": "high energy electromagnetic radiation",
+      "label": "form of",
+      "id": "b4249176-a3c1-4066-81e3-b186212fce55"
+    },
+    {
+      "from": "X-ray",
+      "to": "X-ray machine",
+      "label": "emitted from",
+      "id": "0e0b09a4-8d21-474a-8a8a-91672e138e4f"
+    },
+    {
+      "from": "X-ray",
+      "to": "specially treated metallic plate",
+      "label": "directed toward",
+      "id": "cf5095d4-52ed-4074-910b-0436d585486a"
+    },
+    {
+      "from": "X-ray",
+      "to": "X-ray plate",
+      "label": "darkens",
+      "id": "06a51dba-3d0c-4353-af48-5ceeed3ab049"
+    },
+    {
+      "from": "X-ray",
+      "to": "soft tissues",
+      "label": "impeded by",
+      "id": "a393ab0f-07c8-4c3f-aa07-0506ff46a1b8"
+    },
+    {
+      "from": "X-ray",
+      "to": "hard tissues",
+      "label": "blocks",
+      "id": "8d4c9102-3282-4dc1-a36f-f3bda1d36914"
+    },
+    {
+      "from": "X-ray",
+      "to": "hard body structures",
+      "label": "visualize",
+      "id": "bd41ece0-2fde-4fa5-bb68-7ed19bf1b65e"
+    },
+    {
+      "from": "X-ray",
+      "to": "damaging cells",
+      "label": "capable of",
+      "id": "d755306f-b39d-426d-9747-398b3d1085b1"
+    },
+    {
+      "from": "X-ray",
+      "to": "cancer",
+      "label": "initiating changes",
+      "id": "6ba1c169-94d4-4d59-9b9b-d09039e893fb"
+    },
+    {
+      "from": "X-ray",
+      "to": "enhancements",
+      "label": "refinements",
+      "id": "885800e4-ed5c-4515-8a32-984a2576038d"
+    },
+    {
+      "from": "X-ray",
+      "to": "medical imaging",
+      "label": "workhorse",
+      "id": "e64f342e-61ae-43c8-9134-bc9f728cbb20"
+    },
+    {
+      "from": "X-ray",
+      "to": "body region",
+      "label": "two-dimensional image",
+      "id": "d5b031dd-e596-4d58-ace1-80d5ec56b97a"
+    },
+    {
+      "from": "Computed Tomography",
+      "to": "uses computers",
+      "label": "noninvasive imaging technique",
+      "id": "93970a6c-04a8-4b29-a6bd-ea77554dd460"
+    },
+    {
+      "from": "Computed Tomography",
+      "to": "several cross-sectional X-rays",
+      "label": "analyze",
+      "id": "3e2aef09-8d04-4750-8c67-a3394db940e9"
+    },
+    {
+      "from": "Computed Tomography",
+      "to": "minute details",
+      "label": "reveal",
+      "id": "5dbf3549-95e7-43ea-86a3-29f74e72cc82"
+    },
+    {
+      "from": "Computed Tomography",
+      "to": "1970s",
+      "label": "invented in",
+      "id": "42cb41db-d9a5-4c33-895b-c502b6abaa17"
+    },
+    {
+      "from": "Computed Tomography",
+      "to": "principle",
+      "label": "based on",
+      "id": "54db77dd-9a88-4c01-b16a-591cdba93076"
+    },
+    {
+      "from": "Computed Tomography",
+      "to": "body",
+      "label": "X-rays pass through",
+      "id": "70c3c18b-7862-4ba4-ac56-ecf5f9eb332c"
+    },
+    {
+      "from": "Computed Tomography",
+      "to": "different levels",
+      "label": "absorbed or reflected",
+      "id": "238999fe-0f0e-435f-a936-09040e942d77"
+    },
+    {
+      "from": "Computed Tomography",
+      "to": "motorized platform",
+      "label": "patient lies on",
+      "id": "8dfb57af-78b5-4233-8e02-76886f08d978"
+    },
+    {
+      "from": "Computed Tomography",
+      "to": "CAT scanner",
+      "label": "computerized axial tomography",
+      "id": "62502073-bb87-4b39-9640-c41ebc3d7b1f"
+    },
+    {
+      "from": "Computed Tomography",
+      "to": "360 degrees",
+      "label": "rotates",
+      "id": "b0d78559-5137-47a6-b0cd-5512d0c3d238"
+    },
+    {
+      "from": "Computed Tomography",
+      "to": "two-dimensional view",
+      "label": "X-ray images",
+      "id": "a1215c5e-7735-4a74-8add-6fa51d0b0705"
+    }
+  ]
+}

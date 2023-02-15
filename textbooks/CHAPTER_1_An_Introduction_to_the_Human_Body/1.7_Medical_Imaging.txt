@@ -5,6 +5,7 @@ By the end of this section, you will be able to:
 Discuss the uses and drawbacks of X-ray imaging
 •
 Identify four modern medical imaging techniques and how they are used
+
 For thousands of years, fear of the dead and legal sanctions limited the ability of anatomists and physicians to study
 the internal structures of the human body. An inability to control bleeding, infection, and pain made surgeries
 infrequent, and those that were performed—such as wound suturing, amputations, tooth and tumor removals, skull
@@ -24,7 +25,6 @@ with a metal compound. In 1895, Röntgen made the first durable record of the in
 experiments with X-rays, and by 1900, X-rays were widely used to detect a variety of injuries and diseases. In 1901,
 Röntgen was awarded the first Nobel Prize for physics for his work in this field.
 The X-ray is a form of high energy electromagnetic radiation with a short wavelength capable of penetrating solids
-
 and ionizing gases. As they are used in medicine, X-rays are emitted from an X-ray machine and directed toward a
 specially treated metallic plate placed behind the patient’s body. The beam of radiation results in darkening of the
 X-ray plate. X-rays are slightly impeded by soft tissues, which show up as gray on the X-ray plate, whereas hard
@@ -32,6 +32,7 @@ tissues, such as bone, largely block the rays, producing a light-toned “shadow
 visualize hard body structures such as teeth and bones (Figure 1.18). Like many forms of high energy radiation,
 however, X-rays are capable of damaging cells and initiating changes that can lead to cancer. This danger of
 excessive exposure to X-rays was not fully appreciated for many years after their widespread use.
+
 FIGURE 1.18
 X-Ray of a Hand
 High energy electromagnetic radiation allows the internal structures of the body, such as bones, to be
@@ -65,10 +66,14 @@ and the thoracic and abdominal viscera. Its level of detail is so precise that i
 size of a mass down to a millimeter. The main disadvantage of CT scanning is that it exposes patients to a dose of
 radiation many times higher than that of X-rays. In fact, children who undergo CT scans are at increased risk of
 developing cancer, as are adults who have multiple CT scans.
+
+
 INTERACTIVE LINK
 A CT or CAT scan relies on a circling scanner that revolves around the patient’s body. Watch this video
 (http://openstax.org/l/CATscan) to learn more about CT and CAT scans. What type of radiation does a CT scanner
 use?
+
+
 Magnetic Resonance Imaging
 Magnetic resonance imaging (MRI) is a noninvasive medical imaging technique based on a phenomenon of nuclear
 physics discovered in the 1930s, in which matter exposed to magnetic fields and radio waves was found to emit
