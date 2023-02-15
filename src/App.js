@@ -30,7 +30,8 @@ const options = {
     hierarchical: false
   },
   edges: {
-    color: "#34495e"
+    color: "#34495e",
+    smooth: {type: "curvedCW"}
   }
 };
 
