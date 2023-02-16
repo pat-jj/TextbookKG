@@ -86,9 +86,10 @@
 .inputContainer1 {
   width: 100%;
   display: flex;
+  height: 100px;
   /* margin: 0 auto; */
   /* align-items: center; */
-  margin-top: 0px;
+  margin-top: px;
 }
 
 .inputContainer2 {
@@ -96,7 +97,7 @@
   display: flex;
   /* margin: 0 auto; */
   /* align-items: center; */
-  margin-top: 0px;
+  margin-top: 10px;
 }
 
 
@@ -109,7 +110,7 @@
   height: 50px;
   outline: none;
   padding: 0 10px;
-  width: 44.9%;
+  width: 33.1%;
   margin-top: 5px;
 }
 
@@ -154,7 +155,7 @@
 }
 
 .instruction{
-  width: 80%;
+  width: 100%;
   height: 100%;
   margin-top: 5px;
 }
@@ -170,7 +171,6 @@
   outline: none;
   width: 20%;
   display: inline-block;
-  margin-right: 5px;
   margin-top: 5px;
 }
 
@@ -197,6 +197,7 @@
   margin-right: auto;
   display: inline-block;
   margin-left: 5px;
+  margin-top: 5px;
 }
 
 .clearButton:hover {
@@ -229,11 +230,12 @@
   color: rgb(0, 0, 0);
   cursor: pointer;
   font-size: 16px;
-  height: 100%;
+  height: 50px;
   outline: none;
   width: 10%;
   display: inline-block;
   margin-left: 5px;
+  margin-top: 5px;
 }
 
 .outButton:hover {
@@ -241,7 +243,7 @@
 }
 
 .modifyEdgeButton {
-  background-color: rgb(242, 73, 35);
+  background-color: rgb(138, 120, 254);
   border: 1px solid rgb(0, 0, 0);
   border-radius: 5px;
   color: rgb(0, 0, 0);
@@ -251,10 +253,31 @@
   outline: none;
   width: 9.5%;
   display: inline-block;
-  margin-left: 5px;
 }
 
 .modifyNodeButton {
+  background-color: rgb(138, 120, 254);
+  border: 1px solid rgb(0, 0, 0);
+  border-radius: 5px;
+  color: rgb(0, 0, 0);
+  cursor: pointer;
+  font-size: 16px;
+  height: 100%;
+  outline: none;
+  width: 9.5%;
+  display: inline-block;
+  margin-right: 5px;
+}
+
+.modifyNodeButton:hover {
+  background-color: rgba(185, 175, 249, 0.8);
+}
+
+.modifyEdgeButton:hover {
+  background-color: rgba(185, 175, 249, 0.8);
+}
+
+.deleteNodeButton{
   background-color: rgb(242, 73, 35);
   border: 1px solid rgb(0, 0, 0);
   border-radius: 5px;
@@ -266,11 +289,53 @@
   width: 9.5%;
   display: inline-block;
   margin-left: 5px;
+}
+
+.deleteEdgeButton{
+  background-color: rgb(242, 73, 35);
+  border: 1px solid rgb(0, 0, 0);
+  border-radius: 5px;
+  color: rgb(0, 0, 0);
+  cursor: pointer;
+  font-size: 16px;
+  height: 100%;
+  outline: none;
+  width: 9.5%;
+  display: inline-block;
+  margin-left: 5px;
+}
+
+.deleteNodeButton:hover {
+  background-color: rgba(248, 116, 104, 0.8);
+}
+
+.deleteEdgeButton:hover {
+  background-color: rgba(248, 116, 104, 0.8);
+}
+
+.create{
+  width: 20%;
+  height: 100%;
+  margin-top: 5px;
+}
+
+.createButton{
+  background-color: rgb(251, 225, 30);
+  border: 1px solid rgb(0, 0, 0);
+  border-radius: 5px;
+  color: rgb(0, 0, 0);
+  cursor: pointer;
+  font-size: 16px;
+  height: 90%;
+  outline: none;
+  width: 9.5%;
+  display: inline-block;
+  margin-top: 5px;
   margin-right: 5px;
 }
 
-.modifyButton:hover {
-  background-color: rgba(231, 126, 94, 0.8);
+.createButton:hover {
+  background-color: rgba(238, 243, 153, 0.8);
 }
 
 

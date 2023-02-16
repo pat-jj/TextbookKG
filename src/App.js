@@ -284,13 +284,32 @@ function App() {
   
     const updatedEdge = {
       ...graph.edges[edgeIndex],
-      label: newLabel
+      label: newLabel,
+      color: "#8A78FE"
     };
     const updatedEdges = [
       ...graph.edges.slice(0, edgeIndex),
       updatedEdge,
       ...graph.edges.slice(edgeIndex + 1)
     ];
+    return {
+      ...graph,
+      edges: updatedEdges
+    };
+  }
+
+  function deleteEdgeFunc(graph, id) {
+    const edgeIndex = graph.edges.findIndex(edge => edge.id === id);
+    if (edgeIndex === -1) {
+      console.error(`Edge with id "${id}" not found.`);
+      return graph;
+    }
+  
+    const updatedEdges = [
+      ...graph.edges.slice(0, edgeIndex),
+      ...graph.edges.slice(edgeIndex + 1)
+    ];
+  
     return {
       ...graph,
       edges: updatedEdges
@@ -307,7 +326,8 @@ function App() {
     const updatedNode = {
       ...graph.nodes[nodeIndex],
       id: newId,
-      label: newLabel
+      label: newLabel,
+      color: "#8A78FE"
     };
     const updatedNodes = [
       ...graph.nodes.slice(0, nodeIndex),
@@ -338,12 +358,72 @@ function App() {
     };
   }
 
+  function deleteNodeFunc(graph, id) {
+    const nodeIndex = graph.nodes.findIndex(node => node.id === id);
+    if (nodeIndex === -1) {
+      console.error(`Node with id "${id}" not found.`);
+      return graph;
+    }
+  
+    const connectedEdges = graph.edges.filter(edge => edge.source === id || edge.target === id);
+    const updatedEdges = graph.edges.filter(edge => !connectedEdges.includes(edge));
+    const updatedNodes = [
+      ...graph.nodes.slice(0, nodeIndex),
+      ...graph.nodes.slice(nodeIndex + 1)
+    ];
+  
+    return {
+      nodes: updatedNodes,
+      edges: updatedEdges
+    };
+  }
+
+  function addNodeAndEdge(graph, nodes, edges) {
+    const newGraph = {
+      nodes: [...graph.nodes],
+      edges: [...graph.edges]
+    };
+  
+    // Create nodes
+    nodes.forEach(node => {
+      const newNode = {
+        id: node.id,
+        label: node.label,
+        color: node.color
+      };
+  
+      newGraph.nodes.push(newNode);
+      console.log(newNode);
+    });
+    if (edges !== null) {
+      edges.forEach(edge => {
+        const newEdge = {
+          from: edge.from,
+          to: edge.to,
+          label: edge.label,
+          color: edge.color
+        };
+        newGraph.edges.push(newEdge);
+        console.log(newEdge);
+      });
+    }
+    // Create edges
+  
+    setGraphState(newGraph);
+  }
+  
+
   const editEdge = () => {
     const modifiedEdge = document.getElementsByClassName("edgeModify")[0].value;
     if (modifiedEdge != "") {
       setGraphState(editEdgeLabel(graphState, selectedEdge, modifiedEdge));
       alert("The label of edge " + selectedEdge + " is changed to " + modifiedEdge);
     }
+  }
+
+  const deleteEdge = () => {
+    setGraphState(deleteEdgeFunc(graphState, selectedEdge));
+    alert("The edge " + selectedEdge + " is deleted");
   }
 
   const editNode = () => {
@@ -353,6 +433,43 @@ function App() {
       alert(`The id and label of node ${selectedNode} are changed to ${modifiedNode}`);
     }
   };
+
+  const deleteNode = () => {
+      setGraphState(deleteNodeFunc(graphState, selectedNode));
+      alert("The node " + selectedNode + " is deleted");
+    
+  }
+
+  const createNodeEdge = () => {
+    const node1Add = document.getElementsByClassName("node1Add")[0].value;
+    const edgeAdd = document.getElementsByClassName("edgeAdd")[0].value;
+    const node2Add = document.getElementsByClassName("node2Add")[0].value;
+
+    console.log(node1Add, edgeAdd, node2Add);
+
+    var nodes = null;
+    if (node1Add !== "") {
+      nodes = [{ id: node1Add, label: node1Add, color: '#FCE238' }]
+    }
+
+    if (node2Add !== "") {
+      nodes = [
+        { id: node1Add, label: node1Add, color: '#FCE238' },
+        { id: node2Add, label: node2Add, color: '#FCE238' }
+      ]
+    }
+
+    var edges = null;
+    if (edgeAdd !== "") {
+      edges = [
+        { from: node1Add, to: node2Add, label: edgeAdd, color: '#FCE238' },
+      ];
+    }
+
+    console.log(nodes, edges);
+
+    addNodeAndEdge(graphState, nodes, edges);
+  }
 
   const handleSave = (save_path) => {
     const blob = new Blob([JSON.stringify(graphState, null, 2)], { type: 'application/json;charset=utf-8' });
@@ -620,13 +737,21 @@ function App() {
           <button className="modifyNodeButton" onClick={editNode}>Modify Node</button>
           <input className="edgeModify" placeholder="Change the edge to ..."></input>
           <button className="modifyEdgeButton" onClick={editEdge}>Modify Edge</button>
-          <button className="outButton" onClick={outputGraph}>Output</button>
-          <button className="clearButton" onClick={clearState}>Clear</button>
+          <button className="deleteNodeButton" onClick={deleteNode}>Delete Node</button>
+          <button className="deleteEdgeButton" onClick={deleteEdge}>Delete Edge</button>
         </div>
 
         <div className='inputContainer1'>
-              <button className="generateButton" onClick={regenerateGraph}>Re-generate (Update)</button>
-              <input className="apiKeyTextField" type="password" placeholder="Enter OpenAI API key ..."></input>
+          <div className='create' style={{ display: 'flex', flexDirection: 'column'}}>
+            <input className="node1Add" placeholder="Node 1"></input>
+            <input className="edgeAdd" placeholder="Edge"></input>
+            <input className="node2Add" placeholder="Node 2"></input>
+          </div>
+          <button className="createButton" onClick={createNodeEdge}>Create</button>
+          <input className="apiKeyTextField" type="password" placeholder="Enter OpenAI API key ..."></input>
+          <button className="generateButton" onClick={regenerateGraph}>Re-generate (Update)</button>
+          <button className="outButton" onClick={outputGraph}>Output</button>
+          <button className="clearButton" onClick={clearState}>Clear</button>
         </div>
 
         <div className='inputContainer2' style={{ display: 'flex', flexDirection: 'column'}}>
