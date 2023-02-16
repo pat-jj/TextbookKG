@@ -53,6 +53,7 @@ function App() {
   };
 
   const[selectedEdge, setSelectedEdge] = useState(null)
+  const[selectedNode, setSelectedNode] = useState(null)
   const[eventState, setEventState] = useState( 
     {
       select: ({ nodes, edges }) => {
@@ -61,6 +62,7 @@ function App() {
         console.log("Selected edges:");
         console.log(edges);
         setSelectedEdge(edges[0]);
+        setSelectedNode(nodes[0]);
         // alert("Selected node: " + nodes);
       },
       // doubleClick: ({ pointer: { canvas } }) => {
@@ -262,17 +264,6 @@ function App() {
     }
   }
 
-
-  // const createGraph = () => {
-  //   document.body.style.cursor = 'wait';
-
-  //   document.getElementsByClassName("generateButton")[0].disabled = true;
-  //   const prompt = document.getElementsByClassName("searchBar")[0].value;
-  //   const apiKey = document.getElementsByClassName("apiKeyTextField")[0].value;
-
-  //   queryPrompt(prompt, apiKey);
-  // }
-
   function editEdgeLabel(graph, id, newLabel) {
     const edgeIndex = graph.edges.findIndex(edge => edge.id === id);
     if (edgeIndex === -1) {
@@ -295,6 +286,47 @@ function App() {
     };
   }
 
+  function editNodeIdAndLabel(graph, id, newId, newLabel) {
+    const nodeIndex = graph.nodes.findIndex(node => node.id === id);
+    if (nodeIndex === -1) {
+      console.error(`Node with id "${id}" not found.`);
+      return graph;
+    }
+  
+    const updatedNode = {
+      ...graph.nodes[nodeIndex],
+      id: newId,
+      label: newLabel
+    };
+    const updatedNodes = [
+      ...graph.nodes.slice(0, nodeIndex),
+      updatedNode,
+      ...graph.nodes.slice(nodeIndex + 1)
+    ];
+  
+    const updatedEdges = graph.edges.map(edge => {
+      if (edge.from === id) {
+        return {
+          ...edge,
+          from: newId
+        };
+      } else if (edge.to === id) {
+        return {
+          ...edge,
+          to: newId
+        };
+      } else {
+        return edge;
+      }
+    });
+  
+    return {
+      ...graph,
+      nodes: updatedNodes,
+      edges: updatedEdges
+    };
+  }
+
   const editEdge = () => {
     const modifiedEdge = document.getElementsByClassName("edgeModify")[0].value;
     if (modifiedEdge != "") {
@@ -302,6 +334,14 @@ function App() {
       alert("The label of edge " + selectedEdge + " is changed to " + modifiedEdge);
     }
   }
+
+  const editNode = () => {
+    const modifiedNode = document.getElementsByClassName("nodeModify")[0].value;
+    if (modifiedNode !== "") {
+      setGraphState(editNodeIdAndLabel(graphState, selectedNode, modifiedNode, modifiedNode));
+      alert(`The id and label of node ${selectedNode} are changed to ${modifiedNode}`);
+    }
+  };
 
   const handleSave = (save_path) => {
     const blob = new Blob([JSON.stringify(graphState, null, 2)], { type: 'application/json;charset=utf-8' });
@@ -558,8 +598,10 @@ function App() {
         <div className='inputContainer'>
           {/* <input className="searchBar" placeholder="Describe your graph..."></input> */}
           <button className="resumeButton" onClick={resumeGraph}>Resume</button>
+          <input className="nodeModify" placeholder="Change the node to ..."></input>
+          <button className="modifyNodeButton" onClick={editNode}>Modify Node</button>
           <input className="edgeModify" placeholder="Change the edge to ..."></input>
-          <button className="modifyButton" onClick={editEdge}>Modify</button>
+          <button className="modifyEdgeButton" onClick={editEdge}>Modify Edge</button>
           <button className="outButton" onClick={outputGraph}>Output</button>
           <button className="clearButton" onClick={clearState}>Clear</button>
         </div>
