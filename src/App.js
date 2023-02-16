@@ -53,6 +53,7 @@ function App() {
   };
 
   const[selectedEdge, setSelectedEdge] = useState(null)
+  const[selectedEdgeLabel, setSelectedEdgeLabel] = useState(null)
   const[selectedNode, setSelectedNode] = useState(null)
   const[eventState, setEventState] = useState( 
     {
@@ -70,6 +71,16 @@ function App() {
       // }
     }
   );
+
+  useEffect(() => {
+    if (selectedEdge) {
+      const edgeIndex = graphState.edges.findIndex(edge => edge.id === selectedEdge);
+      setSelectedEdgeLabel(graphState.edges[edgeIndex].label);
+    
+    } else {
+      setSelectedEdgeLabel(null);
+    }
+  }, [selectedEdge]);
 
   const updateGraph = async (updates) => {
     // updates will be provided as a list of lists
@@ -593,7 +604,14 @@ function App() {
             <h1 className="headerText"><img src={require('./logo.png')} width="100" height="90" /> TextbookKG </h1>
         </nav>
           {/* <p className='subheaderText'>Build complex, directed graphs to add structure to your ideas using natural language. Understand the relationships between people, systems, and maybe solve a mystery.</p> */}
-        <div className='graphContainer'><Graph graph={graphState} options={options} events={eventState} style={{ height: "710px" }} /></div>
+        <div className='graphContainer'>
+          <Graph graph={graphState} options={options} events={eventState} style={{ height: "680px" }} />
+        <p><pre>
+             Selected Node: <span style={{ fontWeight: 'bold' }}>{selectedNode}</span> {"\n"}
+             Selected Edge: <span style={{ fontWeight: 'bold' }}>{selectedEdgeLabel}</span>
+        </pre></p>
+        
+        </div>
          
         <div className='inputContainer'>
           {/* <input className="searchBar" placeholder="Describe your graph..."></input> */}
