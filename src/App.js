@@ -548,6 +548,7 @@ function App() {
 	const [pageNumber, setPageNumber] = useState(1);
 	const [pdfFile, setPdfFile] = useState('/TextbookKG/textbook-1.pdf');
   const [chapters, setChapters] = useState([]);
+  const [docSize, setDocSize] = useState(1.1);
 
   useEffect(() => {
     fetch('/TextbookKG/page_info.json')
@@ -626,7 +627,13 @@ function App() {
 		setNumPages(numPages);
 	};
 
-	const goToPrevPage = () =>
+	const zoomIn = () =>
+		setDocSize(docSize + 0.1 > 1.5 ? 1.5 : docSize + 0.1);
+
+	const zoomOut = () =>
+    setDocSize(docSize - 0.1 < 0.5 ? 0.5 : docSize - 0.1);
+
+  const goToPrevPage = () =>
 		setPageNumber(pageNumber - 1 <= 1 ? 1 : pageNumber - 1);
 
 	const goToNextPage = () =>
@@ -691,6 +698,8 @@ function App() {
               </nav>
 
               <nav style={{ display: 'flex', alignItems: 'center' }}>
+                <button onClick={zoomOut}>➖</button>
+                <button onClick={zoomIn}>➕</button>
                 <button onClick={goToPrevPage}>Prev</button>
                 <button onClick={goToNextPage}>Next</button>
                 <Form.Control
@@ -711,7 +720,7 @@ function App() {
             file={pdfFile}
             onLoadSuccess={onDocumentLoadSuccess}
           >
-            <Page scale={1.1} pageNumber={pageNumber} />
+            <Page scale={docSize} pageNumber={pageNumber} />
           </Document>
       </div>
 
