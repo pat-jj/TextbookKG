@@ -744,7 +744,7 @@ function App() {
         <div className='inputContainer1'>
           <div className='create' style={{ display: 'flex', flexDirection: 'column'}}>
             <input className="node1Add" placeholder="Node 1"></input>
-            <input className="edgeAdd" placeholder="Edge"></input>
+            <input className="edgeAdd" placeholder="Edge (from Node 1 to 2)"></input>
             <input className="node2Add" placeholder="Node 2"></input>
           </div>
           <button className="createButton" onClick={createNodeEdge}>Create</button>
