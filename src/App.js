@@ -478,8 +478,8 @@ function App() {
   const delay = ms => new Promise(res => setTimeout(res, ms));
 
   const resumeGraph = () => {
-    let file_path = `/TextbookKG/knowledge_graphs/${selectedSection.replaceAll(" ", "_")}.json`;
-      
+    let file_path = `https://storage.googleapis.com/textbook_kg/knowledge_graphs/${selectedSection.replaceAll(" ", "_")}.json`;
+    
     // TODO: connect Google Drive
     fetch(file_path, { method: 'HEAD' })
       .then(response => {
@@ -628,7 +628,7 @@ function App() {
 	};
 
 	const zoomIn = () =>
-		setDocSize(docSize + 0.1 > 1.5 ? 1.5 : docSize + 0.1);
+		setDocSize(docSize + 0.1 > 2.0 ? 2.0 : docSize + 0.1);
 
 	const zoomOut = () =>
     setDocSize(docSize - 0.1 < 0.5 ? 0.5 : docSize - 0.1);
