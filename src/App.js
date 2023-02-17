@@ -508,10 +508,13 @@ function App() {
 
 
   const [credentialResponse, setCredentialResponse] = useState(null);
+  const [accessToken, setAccessToekn] = useState(null);
 
   function handleLoginSuccess(response) {
     console.log('Login success:', response);
+    const token = response.tokenObj.access_token;
     setCredentialResponse(response);
+    setAccessToekn(token);
   }
 
   function handleLoginFailure(error) {
@@ -536,7 +539,7 @@ function App() {
     fetch(uploadUrl, {
       method: 'POST',
       headers: {
-        Authorization: `Bearer ${credentialResponse.accessToken}`,
+        Authorization: `Bearer ${accessToken}`,
         'Content-Type': file.type,
         'Content-Length': file.size,
       },
@@ -544,6 +547,7 @@ function App() {
     })
       .then((response) => {
         console.log(`File ${objectName} uploaded successfully.`);
+        alert(`File ${objectName} uploaded successfully to ${projectId}/${bucketName}.`);
       })
       .catch((error) => {
         console.error(`Error uploading file ${objectName}.`, error);
@@ -824,7 +828,8 @@ function App() {
                     console.log('Login Failed');
                     }}
                     cookiePolicy={'single_host_origin'}
-                    responseType="code,token"
+                    responseType='id_token token'
+                    scope='openid profile email'
                   />
               </GoogleOAuthProvider>
             </div>
