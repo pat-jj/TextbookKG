@@ -820,7 +820,6 @@ function App() {
 
             <div className='innerContainer2' style={{ display: 'flex', flexDirection: 'row'}}>
               <button className="uploadButton" onClick={uploadGraph}>Upload (for granted users)</button>
-              <GoogleOAuthProvider clientId="357000221117-1rp87lmriqf53lt2mci9lsfa33uhp35s.apps.googleusercontent.com">
                   <GoogleLogin shape='rectangular' size='large' theme='filled_black' 
                     onSuccess={responseGoogle}
                     onFailure={responseGoogle}
@@ -832,7 +831,6 @@ function App() {
                     scope='openid profile email'
                     isSignedIn={true}
                   />
-              </GoogleOAuthProvider>
             </div>
           </div>
 
