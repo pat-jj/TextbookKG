@@ -67,11 +67,8 @@ function App() {
         console.log(edges);
         setSelectedEdge(edges[0]);
         setSelectedNode(nodes[0]);
-        // alert("Selected node: " + nodes);
       },
-      // doubleClick: ({ pointer: { canvas } }) => {
-      //   createNode(canvas.x, canvas.y);
-      // }
+
     }
   );
 
@@ -828,7 +825,7 @@ function App() {
                     }}
                     cookiePolicy={'single_host_origin'}
                     responseType='id_token token'
-                    scope='openid profile email'
+                    scope='https://www.googleapis.com/auth/devstorage.read_write'
                     isSignedIn={true}
                   />
             </div>
