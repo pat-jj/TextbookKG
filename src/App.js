@@ -2,14 +2,15 @@ import './App.css';
 import Graph from "react-graph-vis";
 import React, { useState, useRef } from "react";
 import { useEffect } from 'react';
-import axios from 'axios';
 import { Document, Page } from 'react-pdf/dist/esm/entry.webpack';
 import 'bootstrap/dist/css/bootstrap.css';
 import DropdownButton from 'react-bootstrap/DropdownButton';
 import Dropdown from 'react-bootstrap/Dropdown';
 import Form from 'react-bootstrap/Form';
 import { saveAs } from 'file-saver';
-import { GoogleLogin, GoogleOAuthProvider } from '@react-oauth/google';
+import { GoogleLogin } from '@react-oauth/google';
+import fireBase from "./firebaseConfig.js"
+import { ref, uploadBytesResumable, getDownloadURL, getStorage } from "firebase/storage";
 import { pdfjs } from 'react-pdf';
 
 pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.min.js`;
@@ -484,18 +485,35 @@ function App() {
       .then(response => {
         if (response.ok) {
           console.log(`The file "${file_path}" exists.`);
+          fetch(file_path)
+          .then(response => response.json())
+          .then(graph => setGraphState(graph))
         } else {
           console.log(`The file "${file_path}" does not exist.`);
         }
       })
       .catch(error => {
+        const storage = getStorage(fireBase)
+        const path = "knowledge_graphs"
+        const objectName = `${path}/${selectedSection.replaceAll(' ', '_')}.json`;
+        const storageRef = ref(storage, objectName);
+  
+        getDownloadURL(storageRef)
+        .then((url) => {
+          // Use the fetch API to load the contents of the file as JSON
+          fetch(url)
+            .then(response => response.json())
+            .then(graph => setGraphState(graph));
+        })
+        .catch((error) => {
+          console.error('Fail to load from firebase', error);
+        });
         console.error('There was a problem with the fetch operation:', error);
 
       });
+    
 
-    fetch(file_path)
-      .then(response => response.json())
-      .then(graph => setGraphState(graph));
+    
   
   }
 
@@ -509,15 +527,10 @@ function App() {
 
   const responseGoogle = (response) => {
     console.log(response);
-    if (response && response.credential) {
-      const token = response.credential;
-      setCredentialResponse(response);
-      setAccessToekn(token);
-    } else {
-      console.error('No access token found in response object.');
-    }
+    setCredentialResponse(response);  
   }
 
+  const [percent, setPercent] = useState(0);
 
   const uploadGraph = () => {
     if (credentialResponse === null) {
@@ -525,30 +538,34 @@ function App() {
       return
     }
 
-    const projectId = "uiuc-jimeng-sunlab";
-    const bucketName = 'textbook_kg';
     const path = "knowledge_graphs"
     const objectName = `${path}/${selectedSection.replaceAll(' ', '_')}.json`;
-    const uploadUrl = `https://storage.googleapis.com/upload/storage/v1/b/${bucketName}/o?uploadType=media&name=${objectName}`;
 
     const file = new Blob([JSON.stringify(graphState, null, 2)], { type: 'application/json;charset=utf-8' });
+    const storage = getStorage(fireBase)
+    const storageRef = ref(storage, `/${objectName}`);
+    const uploadTask = uploadBytesResumable(storageRef, file);
 
-    fetch(uploadUrl, {
-      method: 'POST',
-      headers: {
-        Authorization: `Bearer ${accessToken}`,
-        'Content-Type': file.type,
-        'Content-Length': file.size,
-      },
-      body: file,
-    })
-      .then((response) => {
-        console.log(`File ${objectName} uploaded successfully.`);
-        alert(`File ${objectName} uploaded successfully to ${projectId}/${bucketName}.`);
-      })
-      .catch((error) => {
-        console.error(`Error uploading file ${objectName}.`, error);
-    });
+    uploadTask.on(
+        "state_changed",
+        (snapshot) => {
+          const percent = Math.round(
+              (snapshot.bytesTransferred / snapshot.totalBytes) * 100
+          );
+      
+            // update progress
+            setPercent(percent);
+        },
+          (err) => console.log(err),
+          () => {
+          // download url
+              getDownloadURL(uploadTask.snapshot.ref).then((url) => {
+              console.log(url);
+              return;
+          });
+          }
+        );
+      alert(`/${objectName} has been successfully uploaded to firebase!`);
 
   }
 
