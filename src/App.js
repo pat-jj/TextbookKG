@@ -512,8 +512,8 @@ function App() {
 
   const responseGoogle = (response) => {
     console.log(response);
-    if (response.tokenObj && response.tokenObj.access_token) {
-      const token = response.tokenObj.access_token;
+    if (response.tokenObj && response.tokenObj.credential) {
+      const token = response.tokenObj.credential;
       setCredentialResponse(response);
       setAccessToekn(token);
     } else {
