@@ -100,6 +100,24 @@
   margin-top: 10px;
 }
 
+.outerContainer1 {
+  width: 100%;
+  display: flex;
+
+}
+
+.innerContainer1 {
+  width: 100%;
+  display: flex;
+
+}
+
+.innerContainer2{
+  width: 100%;
+  display: flex;
+  margin-top: 5px; 
+}
+
 
 .apiKeyTextField {
   border: 1px solid rgb(0, 0, 0);
@@ -110,7 +128,7 @@
   height: 50px;
   outline: none;
   padding: 0 10px;
-  width: 33.1%;
+  width: 50%;
   margin-top: 5px;
 }
 
@@ -169,7 +187,7 @@
   font-size: 16px;
   height: 50px;
   outline: none;
-  width: 20%;
+  width: 23.7%;
   display: inline-block;
   margin-top: 5px;
 }
@@ -192,7 +210,7 @@
   font-size: 16px;
   height: 50px;
   outline: none;
-  width: 10%;
+  width: 12.5%;
   margin-left: auto;
   margin-right: auto;
   display: inline-block;
@@ -232,7 +250,7 @@
   font-size: 16px;
   height: 50px;
   outline: none;
-  width: 10%;
+  width: 12.5%;
   display: inline-block;
   margin-left: 5px;
   margin-top: 5px;
@@ -315,7 +333,7 @@
 
 .create{
   width: 20%;
-  height: 100%;
+  height: 95%;
   margin-top: 5px;
 }
 
@@ -326,7 +344,7 @@
   color: rgb(0, 0, 0);
   cursor: pointer;
   font-size: 16px;
-  height: 90%;
+  height: 95%;
   outline: none;
   width: 9.5%;
   display: inline-block;
@@ -337,5 +355,61 @@
 .createButton:hover {
   background-color: rgba(238, 243, 153, 0.8);
 }
+
+.node1Add{
+  border: 1px solid rgb(0, 0, 0);
+  border-radius: 5px;
+  box-shadow: 0 0 5px rgb(0 0 0 / 10%);
+  display: block;
+  font-size: 16px;
+  height: 33.3%;
+  outline: none;
+  padding: 0 5px;
+  width: 100%; 
+}
+
+.edgeAdd{
+  border: 1px solid rgb(0, 0, 0);
+  border-radius: 5px;
+  box-shadow: 0 0 5px rgb(0 0 0 / 10%);
+  display: block;
+  font-size: 16px;
+  height: 33.3%;
+  outline: none;
+  padding: 0 5px;
+  width: 100%; 
+}
+
+.node2Add{
+  border: 1px solid rgb(0, 0, 0);
+  border-radius: 5px;
+  box-shadow: 0 0 5px rgb(0 0 0 / 10%);
+  display: block;
+  font-size: 16px;
+  height: 33.3%;
+  outline: none;
+  padding: 0 5px;
+  width: 100%; 
+}
+
+
+.uploadButton {
+  background-color: rgb(18, 245, 185);
+  border: 1px solid rgb(0, 0, 0);
+  border-radius: 5px;
+  color: rgb(0, 0, 0);
+  cursor: pointer;
+  font-size: 16px;
+  height: 100%;
+  outline: none;
+  width: 40.5%;
+  display: inline-block;
+  
+}
+
+.uploadButton:hover {
+  background-color: rgba(50, 246, 207, 0.8);
+}
+
 
 

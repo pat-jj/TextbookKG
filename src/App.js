@@ -2,15 +2,18 @@ import './App.css';
 import Graph from "react-graph-vis";
 import React, { useState, useRef } from "react";
 import { useEffect } from 'react';
+import axios from 'axios';
 import { Document, Page } from 'react-pdf/dist/esm/entry.webpack';
 import 'bootstrap/dist/css/bootstrap.css';
 import DropdownButton from 'react-bootstrap/DropdownButton';
 import Dropdown from 'react-bootstrap/Dropdown';
 import Form from 'react-bootstrap/Form';
 import { saveAs } from 'file-saver';
-
+import { GoogleLogin, GoogleOAuthProvider } from '@react-oauth/google';
 import { pdfjs } from 'react-pdf';
+
 pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.min.js`;
+
 
 // GraphGPT Module
 
@@ -480,7 +483,6 @@ function App() {
   const resumeGraph = () => {
     let file_path = `https://storage.googleapis.com/textbook_kg/knowledge_graphs/${selectedSection.replaceAll(" ", "_")}.json`;
     
-    // TODO: connect Google Drive
     fetch(file_path, { method: 'HEAD' })
       .then(response => {
         if (response.ok) {
@@ -502,6 +504,51 @@ function App() {
 
   const outputGraph = () => {
     handleSave(`${selectedSection.replaceAll(' ', '_')}.json`);
+  }
+
+
+  const [credentialResponse, setCredentialResponse] = useState(null);
+
+  function handleLoginSuccess(response) {
+    console.log('Login success:', response);
+    setCredentialResponse(response);
+  }
+
+  function handleLoginFailure(error) {
+    console.log('Login failure:', error);
+  }
+
+
+  const uploadGraph = () => {
+    if (credentialResponse === null) {
+      alert("Please login your google account first!")
+      return
+    }
+
+    const projectId = "uiuc-jimeng-sunlab";
+    const bucketName = 'textbook_kg';
+    const path = "knowledge_graphs"
+    const objectName = `${path}/${selectedSection.replaceAll(' ', '_')}.json`;
+    const uploadUrl = `https://storage.googleapis.com/upload/storage/v1/b/${bucketName}/o?uploadType=media&name=${objectName}`;
+
+    const file = new Blob([JSON.stringify(graphState, null, 2)], { type: 'application/json;charset=utf-8' });
+
+    fetch(uploadUrl, {
+      method: 'POST',
+      headers: {
+        Authorization: `Bearer ${credentialResponse.accessToken}`,
+        'Content-Type': file.type,
+        'Content-Length': file.size,
+      },
+      body: file,
+    })
+      .then((response) => {
+        console.log(`File ${objectName} uploaded successfully.`);
+      })
+      .catch((error) => {
+        console.error(`Error uploading file ${objectName}.`, error);
+    });
+
   }
 
   const regenerateGraph = async () => {
@@ -729,7 +776,7 @@ function App() {
         <nav>
             <h1 className="headerText"><img src={require('./logo.png')} width="100" height="90" /> TextbookKG </h1>
         </nav>
-          {/* <p className='subheaderText'>Build complex, directed graphs to add structure to your ideas using natural language. Understand the relationships between people, systems, and maybe solve a mystery.</p> */}
+
         <div className='graphContainer'>
           <Graph graph={graphState} options={options} events={eventState} style={{ height: "680px" }} />
         <p><pre>
@@ -753,14 +800,36 @@ function App() {
         <div className='inputContainer1'>
           <div className='create' style={{ display: 'flex', flexDirection: 'column'}}>
             <input className="node1Add" placeholder="Node 1"></input>
-            <input className="edgeAdd" placeholder="Edge (from Node 1 to 2)"></input>
+            <input className="edgeAdd" placeholder="Edge (Node 1->2)"></input>
             <input className="node2Add" placeholder="Node 2"></input>
           </div>
+          
           <button className="createButton" onClick={createNodeEdge}>Create</button>
-          <input className="apiKeyTextField" type="password" placeholder="Enter OpenAI API key ..."></input>
-          <button className="generateButton" onClick={regenerateGraph}>Re-generate (Update)</button>
-          <button className="outButton" onClick={outputGraph}>Output</button>
-          <button className="clearButton" onClick={clearState}>Clear</button>
+          
+          <div className='outerContainer1' style={{ display: 'flex', flexDirection: 'column'}}>
+            <div className='innerContainer1' style={{ display: 'flex', flexDirection: 'row'}}>
+              <input className="apiKeyTextField" type="password" placeholder="Enter OpenAI API key ..."></input>
+              <button className="generateButton" onClick={regenerateGraph}>Re-generate (Update)</button>
+              <button className="outButton" onClick={outputGraph}>Output</button>
+              <button className="clearButton" onClick={clearState}>Clear</button>
+            </div>
+
+            <div className='innerContainer2' style={{ display: 'flex', flexDirection: 'row'}}>
+              <button className="uploadButton" onClick={uploadGraph}>Upload (for granted users)</button>
+              <GoogleOAuthProvider clientId="357000221117-1rp87lmriqf53lt2mci9lsfa33uhp35s.apps.googleusercontent.com">
+                  <GoogleLogin shape='rectangular' size='large' theme='filled_black' 
+                    onSuccess={handleLoginSuccess}
+                    onFailure={handleLoginFailure}
+                    onError={() => {
+                    console.log('Login Failed');
+                    }}
+                    cookiePolicy={'single_host_origin'}
+                    responseType="code,token"
+                  />
+              </GoogleOAuthProvider>
+            </div>
+          </div>
+
         </div>
 
         <div className='inputContainer2' style={{ display: 'flex', flexDirection: 'column'}}>
