@@ -825,7 +825,7 @@ function App() {
                     }}
                     cookiePolicy={'single_host_origin'}
                     responseType='id_token token'
-                    scope='https://www.googleapis.com/auth/devstorage.read_write'
+                    scope='https://www.googleapis.com/auth/cloud-platform'
                     isSignedIn={true}
                   />
             </div>
