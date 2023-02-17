@@ -510,15 +510,15 @@ function App() {
   const [credentialResponse, setCredentialResponse] = useState(null);
   const [accessToken, setAccessToekn] = useState(null);
 
-  function handleLoginSuccess(response) {
-    console.log('Login success:', response);
-    const token = response.tokenObj.access_token;
-    setCredentialResponse(response);
-    setAccessToekn(token);
-  }
-
-  function handleLoginFailure(error) {
-    console.log('Login failure:', error);
+  const responseGoogle = (response) => {
+    console.log(response);
+    if (response.tokenObj && response.tokenObj.access_token) {
+      const token = response.tokenObj.access_token;
+      setCredentialResponse(response);
+      setAccessToekn(token);
+    } else {
+      console.error('No access token found in response object.');
+    }
   }
 
 
@@ -822,14 +822,15 @@ function App() {
               <button className="uploadButton" onClick={uploadGraph}>Upload (for granted users)</button>
               <GoogleOAuthProvider clientId="357000221117-1rp87lmriqf53lt2mci9lsfa33uhp35s.apps.googleusercontent.com">
                   <GoogleLogin shape='rectangular' size='large' theme='filled_black' 
-                    onSuccess={handleLoginSuccess}
-                    onFailure={handleLoginFailure}
+                    onSuccess={responseGoogle}
+                    onFailure={responseGoogle}
                     onError={() => {
                     console.log('Login Failed');
                     }}
                     cookiePolicy={'single_host_origin'}
                     responseType='id_token token'
                     scope='openid profile email'
+                    isSignedIn={true}
                   />
               </GoogleOAuthProvider>
             </div>
