@@ -481,7 +481,7 @@ function App() {
   const resumeGraph = () => {
     let file_path = `https://storage.googleapis.com/textbook_kg/knowledge_graphs/${selectedSection.replaceAll(" ", "_")}.json`;
     
-    fetch(file_path, { method: 'HEAD' })
+    fetch(file_path, { method: 'GET'})
       .then(response => {
         if (response.ok) {
           console.log(`The file "${file_path}" exists.`);
@@ -521,13 +521,18 @@ function App() {
     handleSave(`${selectedSection.replaceAll(' ', '_')}.json`);
   }
 
-
+  const [loggedIn, setLoggedIn] = useState(false);
   const [credentialResponse, setCredentialResponse] = useState(null);
   const [accessToken, setAccessToekn] = useState(null);
 
   const responseGoogle = (response) => {
     console.log(response);
-    setCredentialResponse(response);  
+    setCredentialResponse(response);
+    setLoggedIn(true);
+  }
+
+  function handleLogoutSuccess() {
+    setLoggedIn(false);
   }
 
   const [percent, setPercent] = useState(0);
@@ -843,7 +848,6 @@ function App() {
                     cookiePolicy={'single_host_origin'}
                     responseType='id_token token'
                     scope='https://www.googleapis.com/auth/cloud-platform'
-                    isSignedIn={true}
                   />
             </div>
           </div>
