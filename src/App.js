@@ -489,27 +489,26 @@ function App() {
           .then(response => response.json())
           .then(graph => setGraphState(graph))
         } else {
-          console.log(`The file "${file_path}" does not exist.`);
+          // load KG from firebase
+          const storage = getStorage(fireBase)
+          const path = "knowledge_graphs"
+          const objectName = `${path}/${selectedSection.replaceAll(' ', '_')}.json`;
+          const storageRef = ref(storage, objectName);
+    
+          getDownloadURL(storageRef)
+          .then((url) => {
+            // Use the fetch API to load the contents of the file as JSON
+            fetch(url)
+              .then(response => response.json())
+              .then(graph => setGraphState(graph));
+          })
+          .catch((error) => {
+            console.error('Fail to load from firebase', error);
+          });
         }
       })
       .catch(error => {
-        const storage = getStorage(fireBase)
-        const path = "knowledge_graphs"
-        const objectName = `${path}/${selectedSection.replaceAll(' ', '_')}.json`;
-        const storageRef = ref(storage, objectName);
-  
-        getDownloadURL(storageRef)
-        .then((url) => {
-          // Use the fetch API to load the contents of the file as JSON
-          fetch(url)
-            .then(response => response.json())
-            .then(graph => setGraphState(graph));
-        })
-        .catch((error) => {
-          console.error('Fail to load from firebase', error);
-        });
         console.error('There was a problem with the fetch operation:', error);
-
       });
     
 
@@ -521,24 +520,24 @@ function App() {
     handleSave(`${selectedSection.replaceAll(' ', '_')}.json`);
   }
 
-  const [loggedIn, setLoggedIn] = useState("false");
+  const [loggedIn, setLoggedIn] = useState("Logged Out");
   const [credentialResponse, setCredentialResponse] = useState(null);
   const [accessToken, setAccessToekn] = useState(null);
 
   const responseGoogle = (response) => {
     console.log(response);
     setCredentialResponse(response);
-    setLoggedIn("true");
+    setLoggedIn("Logged In");
   }
 
   const logOut = () => {
     googleLogout();
     setCredentialResponse(null);
-    setLoggedIn("false");
+    setLoggedIn("Logged Out");
   };
 
   function handleLogoutSuccess() {
-    setLoggedIn("false");
+    setLoggedIn("Logged Out");
   }
 
   const [percent, setPercent] = useState(0);
@@ -844,7 +843,7 @@ function App() {
             </div>
 
             <div className='innerContainer2' style={{ display: 'flex', flexDirection: 'row'}}>
-              <button className="uploadButton" onClick={uploadGraph}>Upload (for granted users)</button>
+              <button className="uploadButton" onClick={uploadGraph}>Upload</button>
               <GoogleLogin shape='rectangular' size='large' theme='filled_blue' type='icon'
                 onSuccess={responseGoogle}
                 onFailure={responseGoogle}
@@ -857,7 +856,7 @@ function App() {
               />
               <div className='innerContainer3' style={{ display: 'flex', flexDirection: 'column'}}>
                 <button className='logoutButton' onClick={logOut}>Log out</button>
-                <p className='loginStatus'> Logged in: {loggedIn} </p>
+                <p className='loginStatus'> {loggedIn} </p>
               </div>
             </div>
           </div>
