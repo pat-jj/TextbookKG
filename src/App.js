@@ -8,7 +8,7 @@ import DropdownButton from 'react-bootstrap/DropdownButton';
 import Dropdown from 'react-bootstrap/Dropdown';
 import Form from 'react-bootstrap/Form';
 import { saveAs } from 'file-saver';
-import { GoogleLogin } from '@react-oauth/google';
+import { GoogleLogin, googleLogout } from '@react-oauth/google';
 import fireBase from "./firebaseConfig.js"
 import { ref, uploadBytesResumable, getDownloadURL, getStorage } from "firebase/storage";
 import { pdfjs } from 'react-pdf';
@@ -521,18 +521,24 @@ function App() {
     handleSave(`${selectedSection.replaceAll(' ', '_')}.json`);
   }
 
-  const [loggedIn, setLoggedIn] = useState(false);
+  const [loggedIn, setLoggedIn] = useState("false");
   const [credentialResponse, setCredentialResponse] = useState(null);
   const [accessToken, setAccessToekn] = useState(null);
 
   const responseGoogle = (response) => {
     console.log(response);
     setCredentialResponse(response);
-    setLoggedIn(true);
+    setLoggedIn("true");
   }
 
+  const logOut = () => {
+    googleLogout();
+    setCredentialResponse(null);
+    setLoggedIn("false");
+  };
+
   function handleLogoutSuccess() {
-    setLoggedIn(false);
+    setLoggedIn("false");
   }
 
   const [percent, setPercent] = useState(0);
@@ -839,16 +845,20 @@ function App() {
 
             <div className='innerContainer2' style={{ display: 'flex', flexDirection: 'row'}}>
               <button className="uploadButton" onClick={uploadGraph}>Upload (for granted users)</button>
-                  <GoogleLogin shape='rectangular' size='large' theme='filled_black' 
-                    onSuccess={responseGoogle}
-                    onFailure={responseGoogle}
-                    onError={() => {
-                    console.log('Login Failed');
-                    }}
-                    cookiePolicy={'single_host_origin'}
-                    responseType='id_token token'
-                    scope='https://www.googleapis.com/auth/cloud-platform'
-                  />
+              <GoogleLogin shape='rectangular' size='large' theme='filled_blue' type='icon'
+                onSuccess={responseGoogle}
+                onFailure={responseGoogle}
+                onError={() => {
+                console.log('Login Failed');
+                }}
+                cookiePolicy={'single_host_origin'}
+                responseType='id_token token'
+                scope='https://www.googleapis.com/auth/cloud-platform'
+              />
+              <div className='innerContainer3' style={{ display: 'flex', flexDirection: 'column'}}>
+                <button className='logoutButton' onClick={logOut}>Log out</button>
+                <p className='loginStatus'> Logged in: {loggedIn} </p>
+              </div>
             </div>
           </div>
 
