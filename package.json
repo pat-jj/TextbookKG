@@ -23,6 +23,8 @@
     "react-bootstrap": "^2.7.1",
     "react-dom": "^18.2.0",
     "react-graph-vis": "^1.0.7",
+    "react-native": "^0.71.3",
+    "react-native-web": "^0.18.12",
     "react-pdf": "^6.2.2",
     "react-pdfobject": "^1.2.0",
     "react-scripts": "5.0.1",

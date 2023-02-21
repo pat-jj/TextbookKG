@@ -10,8 +10,10 @@ import Form from 'react-bootstrap/Form';
 import { saveAs } from 'file-saver';
 import { GoogleLogin, googleLogout } from '@react-oauth/google';
 import fireBase from "./firebaseConfig.js"
+import useWindowDimensions from "./windowSize"
 import { ref, uploadBytesResumable, getDownloadURL, getStorage } from "firebase/storage";
 import { pdfjs } from 'react-pdf';
+import {Dimensions} from 'react-native';
 
 pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.min.js`;
 
@@ -748,6 +750,9 @@ function App() {
     handleSectionSelectKey(eventKey.split('_')[0]);
   };
 
+  // const { win_height, win_width } = useWindowDimensions();
+  const win_width = Dimensions.get('window').width;
+  const win_height = Dimensions.get('window').height;
 
 	return (
 		<div style={{ display: 'flex', flexDirection: 'row'}}>
@@ -802,11 +807,11 @@ function App() {
 
       <div className='knowledge_graph'>
         <nav>
-            <h1 className="headerText"><img src={require('./logo.png')} width="100" height="90" /> TextbookKG </h1>
+            <h1 className="headerText" width={win_width * 0.5} height={win_height * 0.1}><img src={require('./logo.png')} width={win_width * 0.05} height={win_height * 0.1} /> TextbookKG </h1>
         </nav>
 
         <div className='graphContainer'>
-          <Graph graph={graphState} options={options} events={eventState} style={{ height: "680px" }} />
+          <Graph graph={graphState} options={options} events={eventState} style={{ height: win_height * 0.75 }} />
         <p><pre>
              Selected Node: <span style={{ fontWeight: 'bold' }}>{selectedNode}</span> {"\n"}
              Selected Edge: <span style={{ fontWeight: 'bold' }}>{selectedEdgeLabel}</span>
