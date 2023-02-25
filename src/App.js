@@ -784,6 +784,14 @@ function App() {
       matches.push(match[1].trim().replaceAll('\n', ' '));
     }
   
+    if (matches.length === 0 && typeof text === 'string' && text.length > 0) {
+      // divide the text into smaller chunks of 500 tokens
+      let tokens = text.split(' ');
+      for (let i = 0; i < tokens.length; i += 500) {
+        matches.push(tokens.slice(i, i + 500).join(' '));
+      }
+    }
+  
     return matches;
   }
 
