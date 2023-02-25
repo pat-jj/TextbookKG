@@ -61,6 +61,8 @@ function App() {
   const[selectedEdge, setSelectedEdge] = useState(null)
   const[selectedEdgeLabel, setSelectedEdgeLabel] = useState(null)
   const[selectedNode, setSelectedNode] = useState(null)
+  const[selectedNodeFrom, setSelectedNodeFrom] = useState(null)
+  const[selectedNodeTo, setSelectedNodeTo] = useState(null)
   const[eventState, setEventState] = useState( 
     {
       select: ({ nodes, edges }) => {
@@ -79,11 +81,25 @@ function App() {
     if (selectedEdge) {
       const edgeIndex = graphState.edges.findIndex(edge => edge.id === selectedEdge);
       setSelectedEdgeLabel(graphState.edges[edgeIndex].label);
+      setSelectedNodeFrom(graphState.edges[edgeIndex].from);
+      setSelectedNodeTo(graphState.edges[edgeIndex].to);
+
+      // Update the input values
+      document.getElementsByClassName("node1Add")[0].value = graphState.edges[edgeIndex].from;
+      document.getElementsByClassName("edgeAdd")[0].value = graphState.edges[edgeIndex].label;
+      document.getElementsByClassName("node2Add")[0].value = graphState.edges[edgeIndex].to;
     
     } else {
       setSelectedEdgeLabel(null);
+      setSelectedNodeFrom(null);
+      setSelectedNodeTo(null);
+
+      // Reset the input values
+      document.getElementsByClassName("node1Add")[0].value = "";
+      document.getElementsByClassName("edgeAdd")[0].value = "";
+      document.getElementsByClassName("node2Add")[0].value = "";
     }
-  }, [selectedEdge]);
+  }, [selectedEdge, graphState.edges]);
 
   const updateGraph = async (updates) => {
     // updates will be provided as a list of lists
@@ -142,7 +158,7 @@ function App() {
         // update the color of the node
         node.color = color;
 
-      } else if (update.length === 2 && update[0] == "DELETE") {
+      } else if (update.length === 2 && update[0] === "DELETE") {
         // delete the node at the given index
         const [_, index] = update;
 
@@ -414,26 +430,38 @@ function App() {
   
     setGraphState(newGraph);
   }
-  
-
-  const editEdge = () => {
-    const modifiedEdge = document.getElementsByClassName("edgeModify")[0].value;
-    if (modifiedEdge != "") {
-      setGraphState(editEdgeLabel(graphState, selectedEdge, modifiedEdge));
-      alert("The label of edge " + selectedEdge + " is changed to " + modifiedEdge);
-    }
-  }
 
   const deleteEdge = () => {
     setGraphState(deleteEdgeFunc(graphState, selectedEdge));
     alert("The edge " + selectedEdge + " is deleted");
   }
 
-  const editNode = () => {
-    const modifiedNode = document.getElementsByClassName("nodeModify")[0].value;
-    if (modifiedNode !== "") {
-      setGraphState(editNodeIdAndLabel(graphState, selectedNode, modifiedNode, modifiedNode));
-      alert(`The id and label of node ${selectedNode} are changed to ${modifiedNode}`);
+  const editNodeAndEdge = () => {
+    const modifiedNodeFrom = document.getElementsByClassName("node1Add")[0].value;
+    const modifiedEdgeLabel = document.getElementsByClassName("edgeAdd")[0].value;
+    const modifiedNodeTo = document.getElementsByClassName("node2Add")[0].value;
+    if (modifiedEdgeLabel !== "" && modifiedEdgeLabel !== selectedEdgeLabel) {
+      setGraphState(graphState => editEdgeLabel(graphState, selectedEdge, modifiedEdgeLabel));
+    }
+    if (modifiedNodeFrom !== "" && modifiedNodeFrom !== selectedNodeFrom) {
+      setGraphState(graphState => editNodeIdAndLabel(graphState, selectedNodeFrom, modifiedNodeFrom, modifiedNodeFrom));
+    }
+    if (modifiedNodeTo !== "" && modifiedNodeTo !== selectedNodeTo) {
+      setGraphState(graphState => editNodeIdAndLabel(graphState, selectedNodeTo, modifiedNodeTo, modifiedNodeTo));
+    }
+    const alerts = [];
+    if (modifiedEdgeLabel !== "" && modifiedEdgeLabel !== selectedEdgeLabel) {
+      alerts.push(`The label of edge ${selectedEdgeLabel} has been changed to ${modifiedEdgeLabel}`);
+    }
+    if (modifiedNodeFrom !== "" && modifiedNodeFrom !== selectedNodeFrom) {
+      alerts.push(`The id and label of node ${selectedNodeFrom} have been changed to ${modifiedNodeFrom}`);
+    }
+    if (modifiedNodeTo !== "" && modifiedNodeTo !== selectedNodeTo) {
+      alerts.push(`The id and label of node ${selectedNodeTo} have been changed to ${modifiedNodeTo}`);
+    }
+  
+    if (alerts.length > 0) {
+      alert(alerts.join("\n"));
     }
   };
 
@@ -813,42 +841,35 @@ function App() {
         <div className='graphContainer'>
           <Graph graph={graphState} options={options} events={eventState} style={{ height: win_height * 0.75 }} />
         <p><pre>
-             Selected Node: <span style={{ fontWeight: 'bold' }}>{selectedNode}</span> {"\n"}
+             Selected Node: <span style={{ fontWeight: 'bold' }}>{selectedNodeFrom} | {selectedNodeTo}</span> {"\n"}
              Selected Edge: <span style={{ fontWeight: 'bold' }}>{selectedEdgeLabel}</span>
         </pre></p>
         
         </div>
          
-        <div className='inputContainer'>
-          {/* <input className="searchBar" placeholder="Describe your graph..."></input> */}
-          <button className="resumeButton" onClick={resumeGraph}>Resume</button>
-          <input className="nodeModify" placeholder="Change the node to ..."></input>
-          <button className="modifyNodeButton" onClick={editNode}>Modify Node</button>
-          <input className="edgeModify" placeholder="Change the edge to ..."></input>
-          <button className="modifyEdgeButton" onClick={editEdge}>Modify Edge</button>
-          <button className="deleteNodeButton" onClick={deleteNode}>Delete Node</button>
-          <button className="deleteEdgeButton" onClick={deleteEdge}>Delete Edge</button>
-        </div>
 
         <div className='inputContainer1'>
-          <div className='create' style={{ display: 'flex', flexDirection: 'column'}}>
-            <input className="node1Add" placeholder="Node 1"></input>
-            <input className="edgeAdd" placeholder="Edge (Node 1->2)"></input>
-            <input className="node2Add" placeholder="Node 2"></input>
+          <div className='nodeEdgeBox' style={{ display: 'flex', flexDirection: 'column'}}>
+            <input className="node1Add" placeholder="Node (from)"></input>
+            <input className="edgeAdd" placeholder="Edge"></input>
+            <input className="node2Add" placeholder="Node (to)"></input>
+          </div>
+          <div className='nodeEdgeButtonBox' style={{ display: 'flex', flexDirection: 'column'}}>
+            <div className='createModifyButtonBox' style={{ display: 'flex', flexDirection: 'row'}}>
+              <button className="modifyButton" onClick={editNodeAndEdge}>Modify</button>
+              <button className="createButton" onClick={createNodeEdge}>Create</button>
+            </div>
+            <div className='deleteButtonBox' style={{ display: 'flex', flexDirection: 'row'}}>
+              <button className="deleteNodeButton" onClick={deleteNode}>Delete Node</button>
+              <button className="deleteEdgeButton" onClick={deleteEdge}>Delete Edge</button>
+            </div>
           </div>
           
-          <button className="createButton" onClick={createNodeEdge}>Create</button>
-          
-          <div className='outerContainer1' style={{ display: 'flex', flexDirection: 'column'}}>
+          <div className='generalButtonBox' style={{ display: 'flex', flexDirection: 'column'}}>
             <div className='innerContainer1' style={{ display: 'flex', flexDirection: 'row'}}>
-              <input className="apiKeyTextField" type="password" placeholder="Enter OpenAI API key ..."></input>
-              <button className="generateButton" onClick={regenerateGraph}>Re-generate (Update)</button>
-              <button className="outButton" onClick={outputGraph}>Output</button>
+              <button className="resumeButton" onClick={resumeGraph}>Resume</button>
+              <button className="outputButton" onClick={outputGraph}>Output</button>
               <button className="clearButton" onClick={clearState}>Clear</button>
-            </div>
-
-            <div className='innerContainer2' style={{ display: 'flex', flexDirection: 'row'}}>
-              <button className="uploadButton" onClick={uploadGraph}>Upload</button>
               <GoogleLogin shape='rectangular' size='large' theme='filled_blue' type='icon'
                 onSuccess={responseGoogle}
                 onFailure={responseGoogle}
@@ -859,10 +880,16 @@ function App() {
                 responseType='id_token token'
                 scope='https://www.googleapis.com/auth/cloud-platform'
               />
-              <div className='innerContainer3' style={{ display: 'flex', flexDirection: 'column'}}>
+              <div className='loginContainer' style={{ display: 'flex', flexDirection: 'column'}}>
                 <button className='logoutButton' onClick={logOut}>Log out</button>
                 <p className='loginStatus'> {loggedIn} </p>
               </div>
+              <button className="uploadButton" onClick={uploadGraph}>Upload</button>
+            </div>
+
+            <div className='innerContainer2' style={{ display: 'flex', flexDirection: 'row'}}>
+            <input className="apiKeyTextField" type="password" placeholder="Enter OpenAI API key ..."></input>
+              <button className="generateButton" onClick={regenerateGraph}>Re-generate (Update)</button>
             </div>
           </div>
 

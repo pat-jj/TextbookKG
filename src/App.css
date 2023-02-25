@@ -79,34 +79,39 @@
   margin-top: 10px;
 }
 
-.outerContainer1 {
+.generalButtonBox {
   width: 100%;
   display: flex;
+  margin-top: 5px;
+  margin-left: 5px;
 
 }
 
 .innerContainer1 {
   width: 100%;
+  height: 45%;
   display: flex;
 
 }
 
 .innerContainer2{
   width: 100%;
+  height: 40;
   display: flex;
   margin-top: 5px; 
+  border: 2px solid rgb(255, 0, 0);
 }
 
-.innerContainer3{
+.loginContainer{
   width: 100%;
+  height: 100%;
   display: flex;
 }
 
 
 .apiKeyTextField {
-  border: 1px solid rgb(255, 0, 0);
+  border: 0px solid rgb(255, 255, 255);
   border-radius: 5px;
-  border-width: 3px;
   box-shadow: 0 0 5px rgb(0 0 0 / 10%);
   display: block;
   font-size: 16px;
@@ -114,33 +119,6 @@
   outline: none;
   padding: 0 10px;
   width: 50%;
-  margin-top: 5px;
-}
-
-.edgeModify {
-  border: 1px solid rgb(0, 0, 0);
-  border-radius: 5px;
-  box-shadow: 0 0 5px rgb(0 0 0 / 10%);
-  display: block;
-  font-size: 16px;
-  height: 100%;
-  outline: none;
-  padding: 0 10px;
-  width: 25%;
-  /* margin-top: 20px; */
-}
-
-.nodeModify {
-  border: 1px solid rgb(0, 0, 0);
-  border-radius: 5px;
-  box-shadow: 0 0 5px rgb(0 0 0 / 10%);
-  display: block;
-  font-size: 16px;
-  height: 100%;
-  outline: none;
-  padding: 0 10px;
-  width: 25%;
-  /* margin-top: 20px; */
 }
 
 .sectionText{
@@ -165,17 +143,16 @@
 
 .generateButton {
   background-color: rgb(122, 193, 237);
-  border: 1px solid rgb(255, 0, 0);
+  border: 0px solid rgb(252, 252, 252);
   border-radius: 5px;
-  border-width: 3px;
+  border-width: 1.5px;
   color: rgb(0, 0, 0);
   cursor: pointer;
   font-size: 16px;
   height: 50px;
   outline: none;
-  width: 23.7%;
+  width: 50%;
   display: inline-block;
-  margin-top: 5px;
 }
 
 .generateButton:hover {
@@ -194,14 +171,14 @@
   color: rgb(0, 0, 0);
   cursor: pointer;
   font-size: 16px;
-  height: 50px;
+  height: 100%;
   outline: none;
-  width: 12.5%;
+  width: 20%;
   margin-left: auto;
   margin-right: auto;
   display: inline-block;
   margin-left: 5px;
-  margin-top: 5px;
+  margin-right: 5px;
 }
 
 .clearButton:hover {
@@ -217,72 +194,34 @@
   font-size: 16px;
   height: 100%;
   outline: none;
-  width: 10%;
+  width: 20%;
   display: inline-block;
-  /* margin-left: 5px; */
-  margin-right: 5px;
 }
 
 .resumeButton:hover {
   background-color: rgba(184, 249, 200, 0.8);
 }
 
-.outButton {
+.outputButton {
   background-color: rgb(237, 196, 32);
   border: 1px solid rgb(0, 0, 0);
   border-radius: 5px;
   color: rgb(0, 0, 0);
   cursor: pointer;
   font-size: 16px;
-  height: 50px;
+  height: 100%;
   outline: none;
-  width: 12.5%;
+  width: 20%;
   display: inline-block;
   margin-left: 5px;
-  margin-top: 5px;
 }
 
 .outButton:hover {
   background-color: rgba(236, 244, 187, 0.8);
 }
 
-.modifyEdgeButton {
-  background-color: rgb(138, 120, 254);
-  border: 1px solid rgb(0, 0, 0);
-  border-radius: 5px;
-  color: rgb(0, 0, 0);
-  cursor: pointer;
-  font-size: 16px;
-  height: 100%;
-  outline: none;
-  width: 9.5%;
-  display: inline-block;
-}
-
-.modifyNodeButton {
-  background-color: rgb(138, 120, 254);
-  border: 1px solid rgb(0, 0, 0);
-  border-radius: 5px;
-  color: rgb(0, 0, 0);
-  cursor: pointer;
-  font-size: 16px;
-  height: 100%;
-  outline: none;
-  width: 9.5%;
-  display: inline-block;
-  margin-right: 5px;
-}
-
-.modifyNodeButton:hover {
-  background-color: rgba(185, 175, 249, 0.8);
-}
-
-.modifyEdgeButton:hover {
-  background-color: rgba(185, 175, 249, 0.8);
-}
-
 .deleteNodeButton{
-  background-color: rgb(242, 73, 35);
+  background-color: rgb(249, 122, 93);
   border: 1px solid rgb(0, 0, 0);
   border-radius: 5px;
   color: rgb(0, 0, 0);
@@ -290,13 +229,12 @@
   font-size: 16px;
   height: 100%;
   outline: none;
-  width: 9.5%;
+  width: 100%;
   display: inline-block;
-  margin-left: 5px;
 }
 
 .deleteEdgeButton{
-  background-color: rgb(242, 73, 35);
+  background-color: rgb(249, 122, 93);
   border: 1px solid rgb(0, 0, 0);
   border-radius: 5px;
   color: rgb(0, 0, 0);
@@ -304,9 +242,9 @@
   font-size: 16px;
   height: 100%;
   outline: none;
-  width: 9.5%;
+  width: 100%;
   display: inline-block;
-  margin-left: 5px;
+
 }
 
 .deleteNodeButton:hover {
@@ -317,10 +255,26 @@
   background-color: rgba(248, 116, 104, 0.8);
 }
 
-.create{
-  width: 20%;
-  height: 95%;
+.nodeEdgeBox{
+  width: 40%;
+  height: 100%;
   margin-top: 5px;
+}
+
+.nodeEdgeButtonBox{
+  width: 40%;
+  height: 100%;
+  margin-top: 5px;
+}
+
+.createModifyButtonBox{
+  width: 100%;
+  height: 100%;
+}
+
+.deleteButtonBox{
+  width: 100%;
+  height: 100%;
 }
 
 .createButton{
@@ -330,16 +284,32 @@
   color: rgb(0, 0, 0);
   cursor: pointer;
   font-size: 16px;
-  height: 95%;
+  height: 100%;
   outline: none;
-  width: 9.5%;
+  width: 100%;
   display: inline-block;
-  margin-top: 5px;
-  margin-right: 5px;
+
 }
 
 .createButton:hover {
   background-color: rgba(238, 243, 153, 0.8);
+}
+
+.modifyButton {
+  background-color: rgb(138, 120, 254);
+  border: 1px solid rgb(0, 0, 0);
+  border-radius: 5px;
+  color: rgb(0, 0, 0);
+  cursor: pointer;
+  font-size: 16px;
+  height: 100%;
+  outline: none;
+  width: 100%;
+  display: inline-block;
+}
+
+.modifyButton:hover {
+  background-color: rgba(185, 175, 249, 0.8);
 }
 
 .node1Add{
@@ -386,9 +356,9 @@
   color: rgb(0, 0, 0);
   cursor: pointer;
   font-size: 16px;
-  height: 72%;
+  height: 100%;
   outline: none;
-  width: 52%;
+  width: 100%;
   display: inline-block;
   
 }
@@ -405,7 +375,8 @@
   cursor: pointer;
   font-size: 12px;
   outline: none;
-  width: 20%;
+  height: 50%;
+  width: 100%;
   display: inline-block;
 
 }
@@ -417,7 +388,8 @@
 .loginStatus {
   background-color: rgb(255, 242, 0);
   border-radius: 5px;
-  width: 20%;
+  height: 60%;
+  width: 100%;
   font-size: 12px;
   text-align: center;
 }
