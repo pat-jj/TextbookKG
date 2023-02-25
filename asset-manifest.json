@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/TextbookKG/static/css/main.22ae41c1.css",
-    "main.js": "/TextbookKG/static/js/main.402b358f.js",
+    "main.css": "/TextbookKG/static/css/main.06645a99.css",
+    "main.js": "/TextbookKG/static/js/main.247da512.js",
     "static/js/787.354d86df.chunk.js": "/TextbookKG/static/js/787.354d86df.chunk.js",
     "pdf.worker.js": "/TextbookKG/09de5e5bc1f5e0a2ef52b33dbebed10f.js",
     "static/media/instruction.png": "/TextbookKG/static/media/instruction.0d173449ab09d57118ad.png",
     "static/media/logo.png": "/TextbookKG/static/media/logo.eae3fd5f84444b6abe4f.png",
     "index.html": "/TextbookKG/index.html",
-    "main.22ae41c1.css.map": "/TextbookKG/static/css/main.22ae41c1.css.map",
-    "main.402b358f.js.map": "/TextbookKG/static/js/main.402b358f.js.map",
+    "main.06645a99.css.map": "/TextbookKG/static/css/main.06645a99.css.map",
+    "main.247da512.js.map": "/TextbookKG/static/js/main.247da512.js.map",
     "787.354d86df.chunk.js.map": "/TextbookKG/static/js/787.354d86df.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.22ae41c1.css",
-    "static/js/main.402b358f.js"
+    "static/css/main.06645a99.css",
+    "static/js/main.247da512.js"
   ]
 }
