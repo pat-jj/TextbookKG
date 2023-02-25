@@ -1,7 +1,9 @@
 import './App.css';
 import Graph from "react-graph-vis";
-import React, { useState, useRef } from "react";
-import { useEffect } from 'react';
+import React, { useState } from "react";
+import SelectSearch from 'react-select-search';
+import './style.css'
+import { useEffect, useRef } from 'react';
 import { Document, Page } from 'react-pdf/dist/esm/entry.webpack';
 import 'bootstrap/dist/css/bootstrap.css';
 import DropdownButton from 'react-bootstrap/DropdownButton';
@@ -10,7 +12,6 @@ import Form from 'react-bootstrap/Form';
 import { saveAs } from 'file-saver';
 import { GoogleLogin, googleLogout } from '@react-oauth/google';
 import fireBase from "./firebaseConfig.js"
-import useWindowDimensions from "./windowSize"
 import { ref, uploadBytesResumable, getDownloadURL, getStorage } from "firebase/storage";
 import { pdfjs } from 'react-pdf';
 import {Dimensions} from 'react-native';
@@ -52,11 +53,17 @@ function App() {
   );
 
   const clearState = () => {
+    setSelectedEdge(null)
+    setSelectedEdgeLabel(null)
+    setSelectedNodeFrom(null)
+    setSelectedNodeTo(null)
+    setSelectedNode(null)
     setGraphState({
       nodes: [],
       edges: []
     })
   };
+
 
   const[selectedEdge, setSelectedEdge] = useState(null)
   const[selectedEdgeLabel, setSelectedEdgeLabel] = useState(null)
@@ -76,6 +83,26 @@ function App() {
 
     }
   );
+
+  const graphRef = useRef(null);
+
+  useEffect(() => {
+    if (selectedNodeFrom) {
+      graphRef.current.Network.focus(selectedNodeFrom);
+      graphRef.current.Network.selectNodes([selectedNodeFrom]);
+    } else {
+      graphRef.current.Network.unselectAll();
+    }
+  }, [selectedNodeFrom]);
+
+  useEffect(() => {
+    if (selectedNodeTo) {
+      graphRef.current.Network.focus(selectedNodeTo);
+      graphRef.current.Network.selectNodes([selectedNodeTo]);
+    } else {
+      graphRef.current.Network.unselectAll();
+    }
+  }, [selectedNodeTo]);
 
   useEffect(() => {
     if (selectedEdge) {
@@ -100,6 +127,28 @@ function App() {
       document.getElementsByClassName("node2Add")[0].value = "";
     }
   }, [selectedEdge, graphState.edges]);
+
+
+  useEffect(() => {
+    if (selectedNodeFrom) {
+      document.getElementsByClassName("node1Add")[0].value = selectedNodeFrom;
+    
+    } else {
+      document.getElementsByClassName("node1Add")[0].value = "";
+
+    }
+  }, [selectedNodeFrom]);
+
+  useEffect(() => {
+    if (selectedNodeTo) {
+      document.getElementsByClassName("node2Add")[0].value = selectedNodeTo;
+    
+    } else {
+      document.getElementsByClassName("node2Add")[0].value = "";
+
+    }
+  }, [selectedNodeTo]);
+
 
   const updateGraph = async (updates) => {
     // updates will be provided as a list of lists
@@ -541,9 +590,6 @@ function App() {
         console.error('There was a problem with the fetch operation:', error);
       });
     
-
-    
-  
   }
 
   const outputGraph = () => {
@@ -569,6 +615,45 @@ function App() {
   function handleLogoutSuccess() {
     setLoggedIn("Logged Out");
   }
+
+  const nodeOptions = graphState.nodes.map((node) => ({
+    name: node.label,
+    value: node.id,
+  }));
+
+  const [filteredEdges, setFilteredEdges] = useState(null);
+
+  const edgeOptions = filteredEdges !== null ? filteredEdges.map((edge) => ({
+    name: edge.label,
+    value: edge.id,
+  })) : graphState.edges.map((edge) => ({
+    name: edge.label,
+    value: edge.id,
+  }));
+
+  const handleNodeFromSelect = (value) => {
+    setSelectedNodeFrom(value[0]);
+    if (value.length > 0) { 
+      const edges = graphState.edges.filter(edge => edge.from === value[0]);
+      setFilteredEdges(edges);
+    } else {
+      setFilteredEdges(null);
+    }
+  };
+
+  const handleEdgeSelect = (value) => {
+    setSelectedEdge(value[0]);
+  };
+
+  const handleNodeToSelect = (value) => {
+    setSelectedNodeTo(value[0]); 
+  };
+
+  const [showSelectSearchBox, setShowSelectSearchBox] = useState(true);
+
+  const toggleSelectSearchBox = () => {
+    setShowSelectSearchBox(!showSelectSearchBox);
+  };
 
   const [percent, setPercent] = useState(0);
 
@@ -831,6 +916,42 @@ function App() {
             <Page scale={docSize} pageNumber={pageNumber} />
           </Document>
       </div>
+      <div className='selectSearchBoxMain' style={{ display: 'flex', flexDirection: 'column'}}>
+        <button className='listButton' onClick={toggleSelectSearchBox}>
+          {showSelectSearchBox ? 'Hide' : 'Show'} List
+        </button>
+        {showSelectSearchBox && (
+          <div className='selectSearchBox' style={{ display: 'flex', flexDirection: 'column'}}>
+              <SelectSearch
+                options={nodeOptions}
+                value={[selectedNodeFrom]}
+                onChange={handleNodeFromSelect}
+                placeholder="Select a node (from)"
+                search
+                multiple
+                emptyMessage="No nodes found"
+              />
+              <SelectSearch
+                options={edgeOptions}
+                value={[selectedEdge]}
+                onChange={handleEdgeSelect}
+                placeholder="Select an edge"
+                search
+                multiple
+                emptyMessage="No edges found"
+              />
+              <SelectSearch
+                options={nodeOptions}
+                value={[selectedNodeTo]}
+                onChange={handleNodeToSelect}
+                placeholder="Select a node (to)"
+                search
+                multiple
+                emptyMessage="No nodes found"
+              />
+            </div>
+          )}
+      </div>
 
 
       <div className='knowledge_graph'>
@@ -839,7 +960,7 @@ function App() {
         </nav>
 
         <div className='graphContainer'>
-          <Graph graph={graphState} options={options} events={eventState} style={{ height: win_height * 0.75 }} />
+          <Graph graph={graphState} ref={graphRef} options={options} events={eventState} style={{ height: win_height * 0.75 }} />
         <p><pre>
              Selected Node: <span style={{ fontWeight: 'bold' }}>{selectedNodeFrom} | {selectedNodeTo}</span> {"\n"}
              Selected Edge: <span style={{ fontWeight: 'bold' }}>{selectedEdgeLabel}</span>
@@ -903,6 +1024,7 @@ function App() {
           />
           <h1 className="instruction"><img src={require('./instruction.png')} width='100%' height="100%" /></h1>
         </div>
+
         
         <p className='footer'>Developed by Patrick Jiang @ UIUC</p>
       </div>

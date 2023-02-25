@@ -41,8 +41,41 @@
   
 }
 
+.selectSearchBoxMain{
+  height: 100%;
+  width: 20%;
+  margin-top: 5%;
+  float: right;
+}
+.selectSearchBox{
+  height: 90%;
+  width: 100%;
+}
+
+.listButton {
+  background-color: rgb(182, 243, 247);
+  border: 1px solid rgb(254, 164, 158);
+  border-radius: 180px;
+  color: rgb(0, 0, 0);
+  cursor: pointer;
+  font-size: 18px;
+  font-weight: bold;
+  font-style:normal;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  height: 10%;
+  outline: none;
+  width: 20%;
+  float: right;
+  margin-left: 80%;
+  
+}
+
+.listButton:hover {
+  background-color: rgba(239, 239, 239, 0.8);
+}
+
 .pdf_viewer{
-  width: 50%
+  width: 30%
 }
 
 .footer {
@@ -393,6 +426,8 @@
   font-size: 12px;
   text-align: center;
 }
+
+
 
 
 
