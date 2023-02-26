@@ -85,10 +85,19 @@ function App() {
   );
 
   const graphRef = useRef(null);
+  const animationOptions = {
+    animation: {
+      duration: 2000,
+      easingFunction: "easeInQuad"
+    }
+  }
 
   useEffect(() => {
-    if (selectedNodeFrom) {
-      graphRef.current.Network.focus(selectedNodeFrom);
+    if (selectedNodeFrom && !disableNodeAnimation) {
+      graphRef.current.Network.focus(selectedNodeFrom, animationOptions);
+      graphRef.current.Network.selectNodes([selectedNodeFrom]);
+      setDisableNodeAnimation(true)
+    } else if (selectedNodeFrom && disableNodeAnimation){
       graphRef.current.Network.selectNodes([selectedNodeFrom]);
     } else {
       graphRef.current.Network.unselectAll();
@@ -96,8 +105,11 @@ function App() {
   }, [selectedNodeFrom]);
 
   useEffect(() => {
-    if (selectedNodeTo) {
-      graphRef.current.Network.focus(selectedNodeTo);
+    if (selectedNodeTo && !disableNodeAnimation) {
+      graphRef.current.Network.focus(selectedNodeTo, animationOptions);
+      graphRef.current.Network.selectNodes([selectedNodeTo]);
+      setDisableNodeAnimation(true)
+    } else if (selectedNodeTo && disableNodeAnimation) {
       graphRef.current.Network.selectNodes([selectedNodeTo]);
     } else {
       graphRef.current.Network.unselectAll();
@@ -105,8 +117,12 @@ function App() {
   }, [selectedNodeTo]);
 
   useEffect(() => {
-    if (selectedEdge) {
+    if (selectedEdge && !disableEdgeAnimation) {
       const edgeIndex = graphState.edges.findIndex(edge => edge.id === selectedEdge);
+
+      graphRef.current.Network.focus(graphState.edges[edgeIndex].to, animationOptions);
+      graphRef.current.Network.selectEdges([selectedEdge]);
+
       setSelectedEdgeLabel(graphState.edges[edgeIndex].label);
       setSelectedNodeFrom(graphState.edges[edgeIndex].from);
       setSelectedNodeTo(graphState.edges[edgeIndex].to);
@@ -116,6 +132,17 @@ function App() {
       document.getElementsByClassName("edgeAdd")[0].value = graphState.edges[edgeIndex].label;
       document.getElementsByClassName("node2Add")[0].value = graphState.edges[edgeIndex].to;
     
+    } else if (selectedEdge && disableEdgeAnimation){
+      const edgeIndex = graphState.edges.findIndex(edge => edge.id === selectedEdge);
+      setSelectedEdgeLabel(graphState.edges[edgeIndex].label);
+      setSelectedNodeFrom(graphState.edges[edgeIndex].from);
+      setSelectedNodeTo(graphState.edges[edgeIndex].to);
+
+      // Update the input values
+      document.getElementsByClassName("node1Add")[0].value = graphState.edges[edgeIndex].from;
+      document.getElementsByClassName("edgeAdd")[0].value = graphState.edges[edgeIndex].label;
+      document.getElementsByClassName("node2Add")[0].value = graphState.edges[edgeIndex].to;
+
     } else {
       setSelectedEdgeLabel(null);
       setSelectedNodeFrom(null);
@@ -125,6 +152,8 @@ function App() {
       document.getElementsByClassName("node1Add")[0].value = "";
       document.getElementsByClassName("edgeAdd")[0].value = "";
       document.getElementsByClassName("node2Add")[0].value = "";
+
+      graphRef.current.Network.unselectAll();
     }
   }, [selectedEdge, graphState.edges]);
 
@@ -631,10 +660,14 @@ function App() {
     value: edge.id,
   }));
 
+  const [disableNodeAnimation, setDisableNodeAnimation] = useState(true)
+  const [disableEdgeAnimation, setDisableEdgeAnimation] = useState(true)
+
   const handleNodeFromSelect = (value) => {
     setSelectedNodeFrom(value[0]);
     if (value.length > 0) { 
       const edges = graphState.edges.filter(edge => edge.from === value[0]);
+      setDisableNodeAnimation(false)
       setFilteredEdges(edges);
     } else {
       setFilteredEdges(null);
@@ -643,10 +676,22 @@ function App() {
 
   const handleEdgeSelect = (value) => {
     setSelectedEdge(value[0]);
+    if (value.length > 0) { 
+      setDisableEdgeAnimation(false);
+    } else {
+      setDisableEdgeAnimation(true);
+    }
   };
 
   const handleNodeToSelect = (value) => {
     setSelectedNodeTo(value[0]); 
+    if (value.length > 0) { 
+      const edges = graphState.edges.filter(edge => edge.to === value[0]);
+      setDisableNodeAnimation(false)
+      setFilteredEdges(edges);
+    } else {
+      setFilteredEdges(null);
+    }
   };
 
   const [showSelectSearchBox, setShowSelectSearchBox] = useState(true);
