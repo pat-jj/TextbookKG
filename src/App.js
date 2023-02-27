@@ -98,7 +98,11 @@ function App() {
       graphRef.current.Network.selectNodes([selectedNodeFrom]);
       setDisableNodeAnimation(true)
     } else if (selectedNodeFrom && disableNodeAnimation){
-      graphRef.current.Network.selectNodes([selectedNodeFrom]);
+      try {
+        graphRef.current.Network.selectNodes([selectedNodeFrom]);
+      } catch {
+        console.log("delete nodes")
+      }
     } else {
       graphRef.current.Network.unselectAll();
     }
@@ -110,7 +114,11 @@ function App() {
       graphRef.current.Network.selectNodes([selectedNodeTo]);
       setDisableNodeAnimation(true)
     } else if (selectedNodeTo && disableNodeAnimation) {
-      graphRef.current.Network.selectNodes([selectedNodeTo]);
+      try {
+        graphRef.current.Network.selectNodes([selectedNodeTo]);
+      } catch {
+        console.log("delete nodes")
+      }
     } else {
       graphRef.current.Network.unselectAll();
     }
@@ -133,15 +141,19 @@ function App() {
       document.getElementsByClassName("node2Add")[0].value = graphState.edges[edgeIndex].to;
     
     } else if (selectedEdge && disableEdgeAnimation){
-      const edgeIndex = graphState.edges.findIndex(edge => edge.id === selectedEdge);
-      setSelectedEdgeLabel(graphState.edges[edgeIndex].label);
-      setSelectedNodeFrom(graphState.edges[edgeIndex].from);
-      setSelectedNodeTo(graphState.edges[edgeIndex].to);
-
-      // Update the input values
-      document.getElementsByClassName("node1Add")[0].value = graphState.edges[edgeIndex].from;
-      document.getElementsByClassName("edgeAdd")[0].value = graphState.edges[edgeIndex].label;
-      document.getElementsByClassName("node2Add")[0].value = graphState.edges[edgeIndex].to;
+      try{
+        const edgeIndex = graphState.edges.findIndex(edge => edge.id === selectedEdge);
+        setSelectedEdgeLabel(graphState.edges[edgeIndex].label);
+        setSelectedNodeFrom(graphState.edges[edgeIndex].from);
+        setSelectedNodeTo(graphState.edges[edgeIndex].to);
+  
+        // Update the input values
+        document.getElementsByClassName("node1Add")[0].value = graphState.edges[edgeIndex].from;
+        document.getElementsByClassName("edgeAdd")[0].value = graphState.edges[edgeIndex].label;
+        document.getElementsByClassName("node2Add")[0].value = graphState.edges[edgeIndex].to;
+      } catch {
+        console.log("delete edge")
+      }
 
     } else {
       setSelectedEdgeLabel(null);
@@ -456,6 +468,9 @@ function App() {
   }
 
   function deleteNodeFunc(graph, id) {
+    setSelectedNodeFrom(null)
+    setSelectedNodeTo(null)
+    console.log(selectedNode)
     const nodeIndex = graph.nodes.findIndex(node => node.id === id);
     if (nodeIndex === -1) {
       console.error(`Node with id "${id}" not found.`);
