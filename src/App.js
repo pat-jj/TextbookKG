@@ -126,19 +126,25 @@ function App() {
 
   useEffect(() => {
     if (selectedEdge && !disableEdgeAnimation) {
-      const edgeIndex = graphState.edges.findIndex(edge => edge.id === selectedEdge);
+      try {
+        const edgeIndex = graphState.edges.findIndex(edge => edge.id === selectedEdge);
 
-      graphRef.current.Network.focus(graphState.edges[edgeIndex].to, animationOptions);
-      graphRef.current.Network.selectEdges([selectedEdge]);
+        graphRef.current.Network.focus(graphState.edges[edgeIndex].to, animationOptions);
+        graphRef.current.Network.selectEdges([selectedEdge]);
 
-      setSelectedEdgeLabel(graphState.edges[edgeIndex].label);
-      setSelectedNodeFrom(graphState.edges[edgeIndex].from);
-      setSelectedNodeTo(graphState.edges[edgeIndex].to);
+        setSelectedEdgeLabel(graphState.edges[edgeIndex].label);
+        setSelectedNodeFrom(graphState.edges[edgeIndex].from);
+        setSelectedNodeTo(graphState.edges[edgeIndex].to);
 
-      // Update the input values
-      document.getElementsByClassName("node1Add")[0].value = graphState.edges[edgeIndex].from;
-      document.getElementsByClassName("edgeAdd")[0].value = graphState.edges[edgeIndex].label;
-      document.getElementsByClassName("node2Add")[0].value = graphState.edges[edgeIndex].to;
+        // Update the input values
+        document.getElementsByClassName("node1Add")[0].value = graphState.edges[edgeIndex].from;
+        document.getElementsByClassName("edgeAdd")[0].value = graphState.edges[edgeIndex].label;
+        document.getElementsByClassName("node2Add")[0].value = graphState.edges[edgeIndex].to;
+
+        setDisableEdgeAnimation(true)
+      } catch {
+        console.log("Error")
+      }
     
     } else if (selectedEdge && disableEdgeAnimation){
       try{
