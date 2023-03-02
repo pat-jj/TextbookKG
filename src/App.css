@@ -247,6 +247,7 @@
   width: 20%;
   display: inline-block;
   margin-left: 5px;
+  margin-right: 5px;
 }
 
 .outputButton:hover {
@@ -391,7 +392,7 @@
   font-size: 16px;
   height: 100%;
   outline: none;
-  width: 100%;
+  width: 40%;
   display: inline-block;
   
 }
