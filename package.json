@@ -17,7 +17,7 @@
     "firebase": "^9.17.1",
     "fs": "^0.0.1-security",
     "pdf-parse": "^1.1.1",
-    "pdfjs-dist": "^3.3.122",
+    "pdfjs-dist": "^3.7.107",
     "pdfobject": "^2.2.8",
     "react": "^18.2.0",
     "react-bootstrap": "^2.7.1",
@@ -33,6 +33,8 @@
     "react-select": "^5.7.0",
     "react-select-search": "^4.1.6",
     "stream": "^0.0.2",
+    "uuid": "^9.0.0",
+    "v4": "^0.0.1",
     "web-vitals": "^2.1.4",
     "worker-loader": "^3.0.7"
   },

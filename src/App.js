@@ -15,9 +15,9 @@ import fireBase from "./firebaseConfig.js"
 import { ref, uploadBytesResumable, getDownloadURL, getStorage } from "firebase/storage";
 import { pdfjs } from 'react-pdf';
 import {Dimensions} from 'react-native';
+import "react-pdf/dist/esm/Page/AnnotationLayer.css"
 
 pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.min.js`;
-
 
 // GraphGPT Module
 
@@ -798,13 +798,32 @@ function App() {
   const [selectedChapter, setSelectedChapter] = useState(null);
   const [selectedSection, setSelectedSection] = useState(null);
   const [selectedText, setSelectedText] = useState([null]);
-  const [rawText, setRawText] = useState([null]);
+  const [rawText, setRawText] = useState('===\n');
   const [inSections, setInSections] = useState([]);
 	const [numPages, setNumPages] = useState(null);
 	const [pageNumber, setPageNumber] = useState(1);
 	const [pdfFile, setPdfFile] = useState('/TextbookKG/textbook-1.pdf');
   const [chapters, setChapters] = useState([]);
   const [docSize, setDocSize] = useState(1.1);
+  const [uploadedFile, setUploadedFile] = useState(null);
+  const [isFileUploaded, setIsFileUploaded] = useState(false);
+  const [showDropdowns, setShowDropdowns] = useState(false);
+  const [contentPage, setContentPage] = useState("");
+
+  const pdfjsLib = require('pdfjs-dist/build/pdf');
+  pdfjsLib.GlobalWorkerOptions.workerSrc = '//cdnjs.cloudflare.com/ajax/libs/pdf.js/3.7.107/pdf.worker.min.js';
+
+  async function extractTextFromPDF(url, pageNumber) {
+    const pdf = await pdfjsLib.getDocument(url).promise;
+    let textContent = '';
+    const page = await pdf.getPage(pageNumber);
+    const textContentObj = await page.getTextContent();
+    const strings = textContentObj.items.map(item => item.str);
+    textContent += strings.join(' ') + "\n";
+    textContent += "===\n";
+    
+    return textContent;
+  }
 
   useEffect(() => {
     fetch('/TextbookKG/page_info.json')
@@ -822,7 +841,13 @@ function App() {
   }, [selectedChapter]);
 
   useEffect(() => {
-    if (selectedChapter && pageNumber) {
+    if (!showDropdowns) {
+      clearState()
+    }
+  }, [showDropdowns]);
+
+  useEffect(() => {
+    if (showDropdowns && selectedChapter && pageNumber) {
       let selectedSection;
       let inSections = Object.entries(selectedChapter["in_sections"]);
       for (let i = 0; i < inSections.length; i++) {
@@ -912,6 +937,18 @@ function App() {
 		}
 	};
 
+  const handleAddContent = () => {
+    setContentPage(contentPage + pageNumber.toString() + ', ');
+    extractTextFromPDF(pdfFile, pageNumber).then((text) => {
+      setRawText(rawText + text);
+    })
+  }
+
+  const handleClearContent = () => {
+    setContentPage('');
+    setRawText('===\n');
+  }
+
   const handleChapterSelect = (eventKey) => {
     fetch('/TextbookKG/page_info.json')
       .then(response => response.json())
@@ -947,20 +984,42 @@ function App() {
         <nav style={{ display: 'flex', flexDirection: 'row'}}>
             <nav style={{ display: 'flex', flexDirection: 'column'}}>
               <nav style={{ display: 'flex', alignItems: 'center' }}>
-                  <DropdownButton onSelect={handleChapterSelect} id="dropdown-basic-button" title="Select Chapter">
-                      {chapters.map((chapter) => (
-                        <Dropdown.Item key={chapter[0]} eventKey={parseInt(chapter[0].split("_")[1], 10)}>
-                          Chapter {parseInt(chapter[0].split("_")[1], 10)}: {chapter[1].name.replaceAll("_", " ")}
-                        </Dropdown.Item>
-                      ))}
-                  </DropdownButton>{" "}
-                  <DropdownButton onSelect={handleSectionSelect} id="dropdown-basic-button" title="Select Section">
-                  {inSections.map((section) => (
-                    <Dropdown.Item key={section[0]} eventKey={section[0] + '_' + section[1]}>
-                      {section[0]}
-                    </Dropdown.Item>
-                  ))}
-                  </DropdownButton>
+                  <div className='uploadPDFButton'>
+                    <input 
+                      id="fileUpload" // add an id to the input
+                      style={{display: 'none'}} // hide the input
+                      type='file'
+                      onChange={(event) => {
+                        const fileURL = URL.createObjectURL(event.target.files[0]);
+                        setUploadedFile(fileURL);
+                        setPdfFile(fileURL);
+                        setPageNumber(1);
+                        setIsFileUploaded(true);
+                      }}
+                      accept=".pdf"
+                    />
+                    <label htmlFor="fileUpload">Upload PDF</label> {/* add a label that triggers the hidden input when clicked */}
+                  </div>
+                    <button className='textbookButton' onClick={() => setShowDropdowns(!showDropdowns)}>Textbooks</button>
+
+                  {showDropdowns && (
+                    <>
+                      <DropdownButton onSelect={handleChapterSelect} id="dropdown-basic-button" title="Select Chapter">
+                        {chapters.map((chapter) => (
+                          <Dropdown.Item key={chapter[0]} eventKey={parseInt(chapter[0].split("_")[1], 10)}>
+                            Chapter {parseInt(chapter[0].split("_")[1], 10)}: {chapter[1].name.replaceAll("_", " ")}
+                          </Dropdown.Item>
+                        ))}
+                      </DropdownButton>{" "}
+                      <DropdownButton onSelect={handleSectionSelect} id="dropdown-basic-button" title="Select Section">
+                        {inSections.map((section) => (
+                          <Dropdown.Item key={section[0]} eventKey={section[0] + '_' + section[1]}>
+                            {section[0]}
+                          </Dropdown.Item>
+                        ))}
+                      </DropdownButton>
+                    </>
+                  )}
 
               </nav>
 
@@ -976,8 +1035,15 @@ function App() {
                   style={{ width: '10%' }}
                   />
                  <p>
-                ✨ Page {pageNumber} of {numPages} ✨ <span style={{ fontWeight: 'bold' }}>{selectedSection}</span>
+                ✨ Page {pageNumber} of {numPages} ✨ {showDropdowns && (<span style={{ fontWeight: 'bold' }}>{selectedSection}</span>)}
                 </p>
+                {isFileUploaded && !showDropdowns && (
+                  <button className='addContentButton' onClick={handleAddContent}>Add This Page To KG</button>
+                )}
+                {isFileUploaded && !showDropdowns && (
+                  <button className='clearListButton' onClick={handleClearContent}>Clear List</button>
+                )}
+
               </nav>
             </nav>
 
@@ -987,7 +1053,7 @@ function App() {
             file={pdfFile}
             onLoadSuccess={onDocumentLoadSuccess}
           >
-            <Page scale={docSize} pageNumber={pageNumber} />
+            <Page scale={docSize} pageNumber={pageNumber} renderTextLayer={false}/>
           </Document>
       </div>
       <div className='selectSearchBoxMain' style={{ display: 'flex', flexDirection: 'column'}}>
@@ -1032,6 +1098,9 @@ function App() {
         <nav>
             <h1 className="headerText" width={win_width * 0.5} height={win_height * 0.1}><img src={require('./logo.png')} width={win_width * 0.05} height={win_height * 0.1} /> TextbookKG </h1>
         </nav>
+        <div className='contentList'>
+            <h1 style={{ fontSize: '14px' }} className="contentText">Contained Page(s): {contentPage}</h1>
+        </div>
 
         <div className='graphContainer'>
           <Graph graph={graphState} ref={graphRef} options={options} events={eventState} style={{ height: win_height * 0.75 }} />
