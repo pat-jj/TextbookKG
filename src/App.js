@@ -15,6 +15,7 @@ import fireBase from "./firebaseConfig.js"
 import { ref, uploadBytesResumable, getDownloadURL, getStorage } from "firebase/storage";
 import { pdfjs } from 'react-pdf';
 import {Dimensions} from 'react-native';
+import Tesseract from 'tesseract.js';
 import "react-pdf/dist/esm/Page/AnnotationLayer.css"
 
 pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.min.js`;
@@ -809,6 +810,7 @@ function App() {
   const [isFileUploaded, setIsFileUploaded] = useState(false);
   const [showDropdowns, setShowDropdowns] = useState(false);
   const [contentPage, setContentPage] = useState("");
+  const [ocrProgress, setOcrProgress] = useState(0);
 
   const pdfjsLib = require('pdfjs-dist/build/pdf');
   pdfjsLib.GlobalWorkerOptions.workerSrc = '//cdnjs.cloudflare.com/ajax/libs/pdf.js/3.7.107/pdf.worker.min.js';
@@ -824,6 +826,36 @@ function App() {
     
     return textContent;
   }
+
+  async function extractTextFromPDF_OCR(url, pageNumber) {
+    const pdf = await pdfjsLib.getDocument(url).promise;
+    const page = await pdf.getPage(pageNumber);
+    const viewport = page.getViewport({ scale: 3.0 });
+
+    const canvas = document.createElement('canvas');
+    const context = canvas.getContext('2d');
+    canvas.height = viewport.height;
+    canvas.width = viewport.width;
+
+    await page.render({ canvasContext: context, viewport: viewport }).promise;
+
+    const imageUrl = canvas.toDataURL();
+
+    console.log(imageUrl);
+
+    const result = await Tesseract.recognize(imageUrl, 'eng', {
+      logger: m => {
+        if (m.status === 'recognizing text') {
+          setOcrProgress(m.progress);
+        }
+      }
+    });
+    let textContent = result.data.text;
+    textContent += "===\n";
+    return textContent;
+  }
+
+  
 
   useEffect(() => {
     fetch('/TextbookKG/page_info.json')
@@ -944,6 +976,13 @@ function App() {
     })
   }
 
+  const handleAddContent_OCR = () => {
+    setContentPage(contentPage + pageNumber.toString() + ', ');
+    extractTextFromPDF_OCR(pdfFile, pageNumber).then((text) => {
+      setRawText(rawText + text);
+    })
+  }
+
   const handleClearContent = () => {
     setContentPage('');
     setRawText('===\n');
@@ -1034,15 +1073,9 @@ function App() {
                   onChange={handlePageNumberChange}
                   style={{ width: '10%' }}
                   />
-                 <p>
+                 <p style={{ width: '50%' }}>
                 ✨ Page {pageNumber} of {numPages} ✨ {showDropdowns && (<span style={{ fontWeight: 'bold' }}>{selectedSection}</span>)}
                 </p>
-                {isFileUploaded && !showDropdowns && (
-                  <button className='addContentButton' onClick={handleAddContent}>Add This Page To KG</button>
-                )}
-                {isFileUploaded && !showDropdowns && (
-                  <button className='clearListButton' onClick={handleClearContent}>Clear List</button>
-                )}
 
               </nav>
             </nav>
@@ -1055,6 +1088,24 @@ function App() {
           >
             <Page scale={docSize} pageNumber={pageNumber} renderTextLayer={false}/>
           </Document>
+          {isFileUploaded && !showDropdowns && (
+                  <button className='addContentButton' onClick={handleAddContent}>Add To KG</button>
+          )}
+          {isFileUploaded && !showDropdowns && (
+            <button className='ocrContentButton' onClick={handleAddContent_OCR}>OCR To KG</button>
+          )}
+          {isFileUploaded && !showDropdowns && (
+            <button className='clearListButton' onClick={handleClearContent}>Clear</button>
+          )}
+          {isFileUploaded && !showDropdowns && (
+            <div className="ocrProgressContainer">
+              <p>
+                ✨ OCR Progress ✨
+              </p>
+              <progress id="ocrProgressBar" value={ocrProgress} max="1"></progress>
+            </div>
+          )}
+
       </div>
       <div className='selectSearchBoxMain' style={{ display: 'flex', flexDirection: 'column'}}>
         <button className='listButton' onClick={toggleSelectSearchBox}>
@@ -1096,10 +1147,10 @@ function App() {
 
       <div className='knowledge_graph'>
         <nav>
-            <h1 className="headerText" width={win_width * 0.5} height={win_height * 0.1}><img src={require('./logo.png')} width={win_width * 0.05} height={win_height * 0.1} /> TextbookKG </h1>
+            <h1 className="headerText" width={win_width * 0.5} height={win_height * 0.1}><img src={require('./logo.png')} width={win_width * 0.06} height={win_height * 0.1} /> TextbookKG </h1>
         </nav>
         <div className='contentList'>
-            <h1 style={{ fontSize: '14px' }} className="contentText">Contained Page(s): {contentPage}</h1>
+          {!showDropdowns &&(<h1 style={{ fontSize: '14px' }} className="contentText">Contained Page(s): {contentPage}</h1>)}
         </div>
 
         <div className='graphContainer'>
