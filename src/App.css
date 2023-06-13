@@ -275,7 +275,7 @@
 
 
 .generateButton {
-  background-color: rgb(122, 193, 237);
+  background-color: rgb(159, 209, 239);
   border: 0px solid rgb(252, 252, 252);
   border-radius: 5px;
   border-width: 1.5px;
@@ -290,6 +290,24 @@
 
 .generateButton:hover {
   background-color: rgba(175, 232, 233, 0.8);
+}
+
+.generateExtButton {
+  background-color: rgb(243, 178, 216);
+  border: 0px solid rgb(252, 252, 252);
+  border-radius: 5px;
+  border-width: 1.5px;
+  color: rgb(0, 0, 0);
+  cursor: pointer;
+  font-size: 16px;
+  height: 50px;
+  outline: none;
+  width: 50%;
+  display: inline-block;
+}
+
+.generateExtButton:hover {
+  background-color: rgba(244, 222, 237, 0.8);
 }
 
 .generateButton:disabled {

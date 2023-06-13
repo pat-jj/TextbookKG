@@ -312,18 +312,77 @@ function App() {
           .then((response) => {
             const { choices } = response;
             const text = choices[0].text;
-            console.log(text);
+          
+            // Remove the last incomplete JSON object if there is any
+            let formattedText = text.trim();
+            if (formattedText.endsWith('{') || formattedText.endsWith('[')) {
+              formattedText = formattedText.substring(0, formattedText.length - 1);
+            }
+        
+          
+            console.log(formattedText);
+          
+            try {
+              const updates = JSON.parse(formattedText);
+              console.log(updates);
+              updateGraph(updates);
+            } catch (error) {
+              console.error('Failed to parse JSON:', error);
+            }
+          });
+      })
+  };
 
-            const updates = JSON.parse(text);
-            console.log(updates);
+  const queryStatelessPromptExt = async (prompt, apiKey) => {
+    fetch('/TextbookKG/prompts/stateless_ext.prompt')
+      .then(response => response.text())
+      .then(text => text.replace("$prompt", prompt))
+      .then(prompt => {
+        console.log(prompt)
 
-            updateGraph(updates);
+        const params = { ...DEFAULT_PARAMS, prompt: prompt, stop: "\n" };
 
-            // document.getElementsByClassName("searchBar")[0].value = "";
-            // document.getElementsByClassName("generateButton")[0].disabled = false;
-          }).catch((error) => {
-            console.log(error);
-            // alert(error);
+        const requestOptions = {
+          method: 'POST',
+          headers: {
+            'Content-Type': 'application/json',
+            'Authorization': 'Bearer ' + String(apiKey)
+          },
+          body: JSON.stringify(params)
+        };
+        fetch('https://api.openai.com/v1/completions', requestOptions)
+          .then(response => {
+            if (!response.ok) {
+              switch (response.status) {
+                case 401: // 401: Unauthorized: API key is wrong
+                  throw new Error('Please double-check your API key.');
+                case 429: // 429: Too Many Requests: Need to pay
+                  throw new Error('You exceeded your current quota, please check your plan and billing details.');
+                default:
+                  throw new Error('Something went wrong with the request, please check the Network log');
+              }
+            }
+            return response.json();
+          })
+          .then((response) => {
+            const { choices } = response;
+            const text = choices[0].text;
+          
+            // Remove the last incomplete JSON object if there is any
+            let formattedText = text.trim();
+            if (formattedText.endsWith('{') || formattedText.endsWith('[')) {
+              formattedText = formattedText.substring(0, formattedText.length - 1);
+            }
+          
+            console.log(formattedText);
+          
+            try {
+              const updates = JSON.parse(formattedText);
+              console.log(updates);
+              updateGraph(updates);
+            } catch (error) {
+              console.error('Failed to parse JSON:', error);
+            }
           });
       })
   };
@@ -382,6 +441,18 @@ function App() {
   const queryPrompt = async (prompt, apiKey) => {
     if (SELECTED_PROMPT === "STATELESS") {
       await queryStatelessPrompt(prompt, apiKey);
+    } else if (SELECTED_PROMPT === "STATEFUL") {
+      await queryStatefulPrompt(prompt, apiKey);
+    } else {
+      alert("Please select a prompt");
+      document.body.style.cursor = 'default';
+      document.getElementsByClassName("generateButton")[0].disabled = false;
+    }
+  }
+
+  const queryPromptExt = async (prompt, apiKey) => {
+    if (SELECTED_PROMPT === "STATELESS") {
+      await queryStatelessPromptExt(prompt, apiKey);
     } else if (SELECTED_PROMPT === "STATEFUL") {
       await queryStatefulPrompt(prompt, apiKey);
     } else {
@@ -777,6 +848,37 @@ function App() {
       if (i < selectedText.length) {
         console.log(selectedText[i]);
         await queryPrompt(selectedText[i], apiKey);
+        i++;
+        await callQueryPrompt();
+      
+      } else {
+        console.log("Wait graph to be updated ... (10s)")
+        await delay(10000);
+        // handleSave(`${selectedSection}.json`);
+        document.body.style.cursor = 'default'; 
+        document.getElementsByClassName("generateButton")[0].disabled = false;
+      }
+    };
+    await callQueryPrompt(); 
+    
+  }
+
+  const regenerateGraphExt = async () => {
+    document.body.style.cursor = 'wait';
+    document.getElementsByClassName("generateButton")[0].disabled = true;
+    const apiKey = document.getElementsByClassName("apiKeyTextField")[0].value;
+  
+    if (selectedText.length === 0) {
+      document.body.style.cursor = 'default';
+      console.log("No selected quality text to prompt the graph ...");
+    }
+    
+    let i = 0;
+    
+    const callQueryPrompt = async () => {
+      if (i < selectedText.length) {
+        console.log(selectedText[i]);
+        await queryPromptExt(selectedText[i], apiKey);
         i++;
         await callQueryPrompt();
       
@@ -1202,8 +1304,9 @@ function App() {
             </div>
 
             <div className='innerContainer2' style={{ display: 'flex', flexDirection: 'row'}}>
-            <input className="apiKeyTextField" type="password" placeholder="Enter OpenAI API key ..."></input>
-              <button className="generateButton" onClick={regenerateGraph}>Re-generate (Update)</button>
+            <input className="apiKeyTextField" type="password" placeholder="OpenAI API key ..."></input>
+              <button className="generateButton" onClick={regenerateGraph}>Generate (normal)</button>
+              <button className="generateExtButton" onClick={regenerateGraphExt}>Generate (extension)</button>
             </div>
           </div>
 
