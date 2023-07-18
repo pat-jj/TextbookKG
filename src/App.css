@@ -41,12 +41,27 @@
   
 }
 
-.selectSearchBoxMain{
+.sideToolBar{
   height: 100%;
   width: 20%;
   margin-top: 5%;
   float: right;
 }
+
+.selectSearchBoxMain{
+  height: 50%;
+  width: 100%;
+  margin-top: 5%;
+  float: right;
+}
+
+.userLibrary{
+  height: 50%;
+  width: 100%;
+  margin-top: 5%;
+  float: right;
+}
+
 .selectSearchBox{
   height: 90%;
   width: 100%;
@@ -500,6 +515,17 @@
   width: 100%; 
 }
 
+.kgFileName{
+  border: 1px solid rgb(0, 0, 0);
+  border-radius: 5px;
+  box-shadow: 0 0 5px rgb(0 0 0 / 10%);
+  display: block;
+  font-size: 16px;
+  height: 100%;
+  outline: none;
+  padding: 0 5px;
+  width: 100%; 
+}
 
 .uploadButton {
   background-color: rgb(18, 245, 185);

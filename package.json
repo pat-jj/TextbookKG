@@ -16,6 +16,7 @@
     "file-saver": "^2.0.5",
     "firebase": "^9.17.1",
     "fs": "^0.0.1-security",
+    "jwt-decode": "^3.1.2",
     "pdf-parse": "^1.1.1",
     "pdfjs-dist": "^3.7.107",
     "pdfobject": "^2.2.8",

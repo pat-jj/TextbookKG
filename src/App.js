@@ -11,8 +11,9 @@ import Dropdown from 'react-bootstrap/Dropdown';
 import Form from 'react-bootstrap/Form';
 import { saveAs } from 'file-saver';
 import { GoogleLogin, googleLogout } from '@react-oauth/google';
+import jwt_decode from "jwt-decode";
 import fireBase from "./firebaseConfig.js"
-import { ref, uploadBytesResumable, getDownloadURL, getStorage } from "firebase/storage";
+import { ref, uploadBytesResumable, getDownloadURL, getStorage, listAll } from "firebase/storage";
 import { pdfjs } from 'react-pdf';
 import {Dimensions} from 'react-native';
 import Tesseract from 'tesseract.js';
@@ -718,25 +719,94 @@ function App() {
     handleSave(`${selectedSection.replaceAll(' ', '_')}.json`);
   }
 
+  // Google Login & Identity Services
+  const [user, setUser] = useState(null);
   const [loggedIn, setLoggedIn] = useState("Logged Out");
-  const [credentialResponse, setCredentialResponse] = useState(null);
-  const [accessToken, setAccessToekn] = useState(null);
+  const [userRepoOptions, setUserRepoOptions] = useState([])
+  const [selectedFile, setSelectedFile] = useState(null);
 
-  const responseGoogle = (response) => {
-    console.log(response);
-    setCredentialResponse(response);
-    setLoggedIn("Logged In");
-  }
+  const handleSelectedFile = (selectedOption) => {
+    setSelectedFile(selectedOption);
+    console.log(selectedOption);
+    const kg_file_name = selectedOption;
+    const path = "kg_users"
+    const objectName = `${path}/${user.email}/${kg_file_name}`;
+    const storage = getStorage(fireBase)
+    const storageRef = ref(storage, `/${objectName}`);
 
-  const logOut = () => {
-    googleLogout();
-    setCredentialResponse(null);
-    setLoggedIn("Logged Out");
+    getDownloadURL(storageRef)
+    .then((url) => {
+      // Use the fetch API to load the contents of the file as JSON
+      fetch(url)
+        .then(response => response.json())
+        .then(graph => setGraphState(graph));
+    })
+    .catch((error) => {
+      console.error('Fail to load from firebase', error);
+    });
+    
   };
+  
 
-  function handleLogoutSuccess() {
+  function handleUserRepoInit(email) {
+    listFiles_self(email)
+  }
+
+  const listFiles_self = (email) => {
+    const path = "kg_users";
+    const folderName = `${path}/${email}`;
+    const storage = getStorage(fireBase);
+    const listRef = ref(storage, folderName);
+  
+    listAll(listRef)
+      .then((res) => {
+        return Promise.all(
+          res.items.map((itemRef) => 
+            getDownloadURL(itemRef).then((url) => ({
+              name: itemRef.name,
+              // value: url,
+              value: itemRef.name,
+            }))
+          )
+        );
+      })
+      .then((filesList) => {
+        setUserRepoOptions(filesList); // change the state with React Hook
+      })
+      .catch((error) => {
+        console.log(error);
+      });
+  }
+
+  function handleCallbackResponse(response) {
+    console.log("Encoded JWT ID token: " + response.credential);  
+    var userObject = jwt_decode(response.credential);
+    console.log(userObject);
+    setUser(userObject);
+    setLoggedIn("Logged in as " + userObject.name);
+    handleUserRepoInit(userObject.email);
+  }
+
+  function handleSignOut(event) {
+    setUser(null);
     setLoggedIn("Logged Out");
   }
+
+  useEffect(() => {
+    /* global google*/
+    google.accounts.id.initialize({
+      client_id: "497566497653-8pje9meu5q10ch9vro2nuept9bdacgu5.apps.googleusercontent.com",
+      callback: handleCallbackResponse
+    });
+
+    google.accounts.id.renderButton(
+      document.getElementById("signInDiv"),
+      { shape:'rectangular', size:'large', theme:'filled_blue', type:'icon'}
+      // { shape:'rectangular', size:'small', theme:'outline'}
+    );
+  }, [])
+
+
 
   const nodeOptions = graphState.nodes.map((node) => ({
     name: node.label,
@@ -793,10 +863,18 @@ function App() {
     setShowSelectSearchBox(!showSelectSearchBox);
   };
 
+  const [showUserRepo, setShowUserRepo] = useState(true);
+
+  const toggleUserRepoBox = () => {
+    setShowUserRepo(!showUserRepo);
+  };
+
   const [percent, setPercent] = useState(0);
 
-  const uploadGraph = () => {
-    if (credentialResponse === null) {
+
+  // upload graph 
+  const uploadGraph_textbook = () => {
+    if (user === null) {
       alert("Please login your google account first!")
       return
     }
@@ -831,6 +909,45 @@ function App() {
       alert(`/${objectName} has been successfully uploaded to firebase!`);
 
   }
+
+  const uploadGraph_self = () => {
+    if (user === null) {
+      alert("Please login your google account first!")
+      return
+    }
+    const file_name = document.getElementsByClassName("kgFileName")[0].value;
+    const path = "kg_users"
+    const objectName = `${path}/${user.email}/${file_name}.json`;
+
+    const file = new Blob([JSON.stringify(graphState, null, 2)], { type: 'application/json;charset=utf-8' });
+    const storage = getStorage(fireBase)
+    const storageRef = ref(storage, `/${objectName}`);
+    const uploadTask = uploadBytesResumable(storageRef, file);
+
+    uploadTask.on(
+        "state_changed",
+        (snapshot) => {
+          const percent = Math.round(
+              (snapshot.bytesTransferred / snapshot.totalBytes) * 100
+          );
+      
+            // update progress
+            setPercent(percent);
+        },
+          (err) => console.log(err),
+          () => {
+          // download url
+              getDownloadURL(uploadTask.snapshot.ref).then((url) => {
+              console.log(url);
+              return;
+          });
+          }
+        );
+      alert(`/${objectName} has been successfully uploaded to firebase!`);
+
+  }
+
+
 
   const regenerateGraph = async () => {
     document.body.style.cursor = 'wait';
@@ -1139,9 +1256,9 @@ function App() {
                       }}
                       accept=".pdf"
                     />
-                    <label htmlFor="fileUpload">Upload PDF</label> {/* add a label that triggers the hidden input when clicked */}
+                    <label htmlFor="fileUpload">Upload a PDF</label> {/* add a label that triggers the hidden input when clicked */}
                   </div>
-                    <button className='textbookButton' onClick={() => setShowDropdowns(!showDropdowns)}>Textbooks</button>
+                    <button className='textbookButton' onClick={() => setShowDropdowns(!showDropdowns)}>Built-in Textbooks</button>
 
                   {showDropdowns && (
                     <>
@@ -1191,7 +1308,7 @@ function App() {
             <Page scale={docSize} pageNumber={pageNumber} renderTextLayer={false}/>
           </Document>
           {isFileUploaded && !showDropdowns && (
-                  <button className='addContentButton' onClick={handleAddContent}>Add To KG</button>
+            <button className='addContentButton' onClick={handleAddContent}>Add To KG</button>
           )}
           {isFileUploaded && !showDropdowns && (
             <button className='ocrContentButton' onClick={handleAddContent_OCR}>OCR To KG</button>
@@ -1209,47 +1326,69 @@ function App() {
           )}
 
       </div>
-      <div className='selectSearchBoxMain' style={{ display: 'flex', flexDirection: 'column'}}>
-        <button className='listButton' onClick={toggleSelectSearchBox}>
-          {showSelectSearchBox ? 'Hide' : 'Show'} List
-        </button>
-        {showSelectSearchBox && (
-          <div className='selectSearchBox' style={{ display: 'flex', flexDirection: 'column'}}>
-              <SelectSearch
-                options={nodeOptions}
-                value={[selectedNodeFrom]}
-                onChange={handleNodeFromSelect}
-                placeholder="Select a node (from)"
-                search
-                multiple
-                emptyMessage="No nodes found"
-              />
-              <SelectSearch
-                options={edgeOptions}
-                value={[selectedEdge]}
-                onChange={handleEdgeSelect}
-                placeholder="Select an edge"
-                search
-                multiple
-                emptyMessage="No edges found"
-              />
-              <SelectSearch
-                options={nodeOptions}
-                value={[selectedNodeTo]}
-                onChange={handleNodeToSelect}
-                placeholder="Select a node (to)"
-                search
-                multiple
-                emptyMessage="No nodes found"
-              />
-            </div>
-          )}
+      <div className='sideToolBar' style={{ display: 'flex', flexDirection: 'column'}}>
+        <div className='selectSearchBoxMain' style={{ display: 'flex', flexDirection: 'column'}}>
+          <button className='listButton' onClick={toggleSelectSearchBox}>
+            {showSelectSearchBox ? 'Hide' : 'Show'} N/E List
+          </button>
+          {showSelectSearchBox && (
+            <div className='selectSearchBox' style={{ display: 'flex', flexDirection: 'column'}}>
+                <SelectSearch
+                  options={nodeOptions}
+                  value={[selectedNodeFrom]}
+                  onChange={handleNodeFromSelect}
+                  placeholder="Select a node (from)"
+                  search
+                  multiple
+                  emptyMessage="No nodes found"
+                />
+                <SelectSearch
+                  options={edgeOptions}
+                  value={[selectedEdge]}
+                  onChange={handleEdgeSelect}
+                  placeholder="Select an edge"
+                  search
+                  multiple
+                  emptyMessage="No edges found"
+                />
+                <SelectSearch
+                  options={nodeOptions}
+                  value={[selectedNodeTo]}
+                  onChange={handleNodeToSelect}
+                  placeholder="Select a node (to)"
+                  search
+                  multiple
+                  emptyMessage="No nodes found"
+                />
+              </div>
+            )}
+        </div>
+        {userRepoOptions.length > 0 &&
+          <div className='userLibrary' style={{ display: 'flex', flexDirection: 'column'}}>
+            <button className='listButton' onClick={toggleUserRepoBox}>
+              {showUserRepo ? 'Hide' : 'Show'} User Repo
+            </button>
+            {showUserRepo && (
+              <div className='selectSearchBox' style={{ display: 'flex', flexDirection: 'column'}}>
+                  <SelectSearch
+                    options={userRepoOptions}
+                    value={[selectedFile]}
+                    onChange={handleSelectedFile}
+                    placeholder="Select a file"
+                    search
+                    multiple
+                    emptyMessage="No file found"
+                  />
+                </div>
+              )}
+          </div>
+        }
       </div>
 
 
       <div className='knowledge_graph'>
         <nav>
-            <h1 className="headerText" width={win_width * 0.5} height={win_height * 0.1}><img src={require('./logo.png')} width={win_width * 0.06} height={win_height * 0.1} /> TextbookKG </h1>
+            <h1 className="headerText" width={win_width * 0.5} height={win_height * 0.1}> KGSphere </h1>
         </nav>
         <div className='contentList'>
           {!showDropdowns &&(<h1 style={{ fontSize: '14px' }} className="contentText">Contained Page(s): {contentPage}</h1>)}
@@ -1286,21 +1425,16 @@ function App() {
             <div className='innerContainer1' style={{ display: 'flex', flexDirection: 'row'}}>
               <button className="resumeButton" onClick={resumeGraph}>Reset</button>
               <button className="outputButton" onClick={outputGraph}>Download</button>
-              <GoogleLogin shape='rectangular' size='large' theme='filled_blue' type='icon'
-                onSuccess={responseGoogle}
-                onFailure={responseGoogle}
-                onError={() => {
-                console.log('Login Failed');
-                }}
-                cookiePolicy={'single_host_origin'}
-                responseType='id_token token'
-                scope='https://www.googleapis.com/auth/cloud-platform'
-              />
+
+              <div id="signInDiv"></div>
               <div className='loginContainer' style={{ display: 'flex', flexDirection: 'column'}}>
-                <button className='logoutButton' onClick={logOut}>Log out</button>
+                <button className='logoutButton' onClick={handleSignOut}>Log out</button>
                 <p className='loginStatus'> {loggedIn} </p>
               </div>
-              <button className="uploadButton" onClick={uploadGraph}>Save</button>
+
+              {!showDropdowns && <input className="kgFileName" placeholder="file name"></input>}
+              {showDropdowns && <button className="uploadButton" onClick={uploadGraph_textbook}>Save</button>}
+              {!showDropdowns && <button className="uploadButton" onClick={uploadGraph_self}>Save</button>}
             </div>
 
             <div className='innerContainer2' style={{ display: 'flex', flexDirection: 'row'}}>
