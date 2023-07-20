@@ -7,4 +7,4 @@ npm install
 npm start
 ```
 
-To save your pdf and graph on our Google Firebase server, please email me (pj20@illinois.edu).
+To save your pdf and graph on our Google Firebase server, please email me (pj20@illinois.edu) to authorize your google account.
