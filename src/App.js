@@ -1453,7 +1453,7 @@ function App() {
             value={rawText} // ...force the input's value to match the state variable...
             onChange={e => setRawText(e.target.value)} // ... and update the state variable on any edits!
           />
-          <h1 className="instruction"><img src={require('./instruction.png')} width='100%' height="100%" /></h1>
+          {/* <h1 className="instruction"><img src={require('./instruction.png')} width='100%' height="100%" /></h1> */}
         </div>
 
         
