@@ -7,6 +7,4 @@ npm install
 npm start
 ```
 
-## Advanced Tutorial
-
-### Customize your own data (Coming soon ...)
+To save your pdf and graph on our Google Firebase server, please email me (pj20@illinois.edu).

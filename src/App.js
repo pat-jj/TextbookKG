@@ -783,7 +783,7 @@ function App() {
     var userObject = jwt_decode(response.credential);
     console.log(userObject);
     setUser(userObject);
-    setLoggedIn("Logged in as " + userObject.name);
+    setLoggedIn(userObject.name);
     handleUserRepoInit(userObject.email);
   }
 
@@ -1424,6 +1424,7 @@ function App() {
           <div className='generalButtonBox' style={{ display: 'flex', flexDirection: 'column'}}>
             <div className='innerContainer1' style={{ display: 'flex', flexDirection: 'row'}}>
               <button className="resumeButton" onClick={resumeGraph}>Reset</button>
+              <button className="clearButton" onClick={clearState}>Clear</button>
               <button className="outputButton" onClick={outputGraph}>Download</button>
 
               <div id="signInDiv"></div>

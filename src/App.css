@@ -340,8 +340,6 @@
   height: 100%;
   outline: none;
   width: 20%;
-  margin-left: auto;
-  margin-right: auto;
   display: inline-block;
   margin-left: 5px;
   margin-right: 5px;
@@ -379,7 +377,7 @@
   outline: none;
   width: 20%;
   display: inline-block;
-  margin-left: 5px;
+  margin-left: 0px;
   margin-right: 5px;
 }
 
