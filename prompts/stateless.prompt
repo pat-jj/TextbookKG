@@ -11,5 +11,5 @@ prompt: Alice is Bob's roommate. Make her node green.
 updates:
 [["Alice", "roommate", "Bob"], ["Alice", "#00FF00"]]
 
-prompt: $prompt
+prompt: $TEXT$
 updates:
