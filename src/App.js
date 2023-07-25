@@ -812,6 +812,10 @@ function App() {
     listFiles_self(email)
   }
 
+  function refreshRepo(email) {
+    listFiles_self(email)
+  }
+
   const listFiles_self = (email) => {
     const path = "kg_users";
     const folderName = `${path}/${email}`;
@@ -1578,7 +1582,7 @@ const uploadText = () => {
               </div>
             )}
         </div>
-        {userRepoOptions.length > 0 &&
+        {user &&
           <div className='userLibrary' style={{ display: 'flex', flexDirection: 'column'}}>
             <button className='listButtonRepo' onClick={toggleUserRepoBox}>
               {showUserRepo ? 'Hide' : 'Show'} User Repo
@@ -1598,9 +1602,9 @@ const uploadText = () => {
               )}
           </div>
         }
-        {userRepoOptions.length > 0 && <div className='promptButtonBox' style={{ display: 'flex', flexDirection: 'row'}}>
+        {user  && <div className='promptButtonBox' style={{ display: 'flex', flexDirection: 'row'}}>
           <button className="loadFileButton" onClick={handleSelectedFile}>Load File</button>
-          <button className="refreshRepoButton" onClick={handleUserRepoInit(user.email)}>Refresh Repo</button>
+          <button className="refreshRepoButton" onClick={refreshRepo(user.email)}>Refresh Repo</button>
           <button className="deleteFileButton" onClick={deleteFile}>Delete File</button>
           
         </div>}
