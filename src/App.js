@@ -1681,8 +1681,6 @@ const uploadText = () => {
                   { <input className="textFileName" placeholder="text file name"></input>}
                   <button className="uploadTextButton" onClick={uploadText}>Save Text</button>
         </div>
-
-        
         <p className='footer'>Developed by Patrick Jiang @ UIUC</p>
       </div>
 		</div>
