@@ -7,6 +7,20 @@
   padding-top: 0.5em;
 }
 
+.headerPrompt {
+  font-family: 'Noticia Text';
+  font-weight: 300;
+  text-align: left;
+  padding-top: 0.1em;
+}
+
+.headerTextbox {
+  font-family: 'Noticia Text';
+  font-weight: 300;
+  text-align: left;
+  padding-top: 0.0em;
+}
+
 
 /* @media (min-width: 768px) {
   .container {
@@ -58,7 +72,8 @@
 .userLibrary{
   height: 50%;
   width: 100%;
-  margin-top: 5%;
+  margin-top: auto;
+  margin-bottom: 0;
   float: right;
 }
 
@@ -69,7 +84,7 @@
 
 .listButton {
   background-color: rgb(182, 243, 247);
-  border: 1px solid rgb(254, 164, 158);
+  border: 1px solid rgb(255, 13, 0);
   border-radius: 180px;
   color: rgb(0, 0, 0);
   cursor: pointer;
@@ -86,7 +101,29 @@
 }
 
 .listButton:hover {
-  background-color: rgba(239, 239, 239, 0.8);
+  background-color: rgba(171, 220, 233, 0.8);
+}
+
+.listButtonRepo {
+  background-color: rgb(109, 231, 129);
+  border: 1px solid rgb(255, 255, 0);
+  border-radius: 180px;
+  color: rgb(0, 0, 0);
+  cursor: pointer;
+  font-size: 18px;
+  font-weight: bold;
+  font-style:normal;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  height: 10%;
+  outline: none;
+  width: 20%;
+  float: right;
+  margin-left: 80%;
+  
+}
+
+.listButtonRepo:hover {
+  background-color: rgba(156, 227, 159, 0.8);
 }
 
 .pdf_viewer{
@@ -127,12 +164,21 @@
   margin-top: 10px;
 }
 
+.promptContainer {
+  width: 100%;
+  display: flex;
+  /* margin: 0 auto; */
+  /* align-items: center; */
+  margin-top: 10px;
+}
+
 .generalButtonBox {
+  height: 100px;
   width: 100%;
   display: flex;
   margin-top: 5px;
   margin-left: 5px;
-
+  margin-right: 0;
 }
 
 .innerContainer1 {
@@ -151,9 +197,11 @@
 }
 
 .loginContainer{
-  width: 100%;
+  width: 20%;
   height: 100%;
   display: flex;
+  margin-left: auto; 
+  margin-right: 0;
 }
 
 
@@ -180,8 +228,24 @@
   padding: 0 10px;
   width: 100%;
   margin-top: 5px;
-  /* margin-top: 20px; */
 }
+
+.promptText{
+  border: 1px solid rgb(222, 190, 114);
+  border-width: 5px;
+  border-radius: 15px;
+  box-shadow: 0 0 5px rgb(0 0 0 / 10%);
+  display: flex;
+  font-size: 16px;
+  height: 400px;
+  outline: none;
+  padding: 0 10px;
+  width: 140%;
+  margin-top: 5px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 
 .instruction{
   width: 80%;
@@ -237,7 +301,7 @@
   font-size: 16px;
   height: 50px;
   outline: none;
-  width: 120px;
+  width: 150px;
   display: inline-block;
   text-align: center; 
 }
@@ -255,7 +319,7 @@
   font-size: 16px;
   height: 50px;
   outline: none;
-  width: 120px;
+  width: 150px;
   display: inline-block;
   text-align: center; 
 }
@@ -366,6 +430,59 @@
   background-color: rgba(184, 249, 200, 0.8);
 }
 
+.resetPromptButton {
+  background-color: rgb(201, 230, 216);
+  border: 1px solid rgb(0, 0, 0);
+  border-radius: 5px;
+  color: rgb(0, 0, 0);
+  cursor: pointer;
+  font-size: 16px;
+  height: 50px;
+  outline: none;
+  width: 15%;
+  display: inline-block;
+}
+
+.savePromptButton:hover {
+  background-color: rgba(184, 249, 200, 0.8);
+}
+
+.resetTextButton {
+  background-color: rgb(201, 230, 216);
+  border: 1px solid rgb(0, 0, 0);
+  border-radius: 5px;
+  color: rgb(0, 0, 0);
+  cursor: pointer;
+  font-size: 16px;
+  height: 50px;
+  outline: none;
+  width: 15%;
+  display: inline-block;
+}
+
+.saveTextButton:hover {
+  background-color: rgba(184, 249, 200, 0.8);
+}
+
+.savePromptButton {
+  background-color: rgb(201, 230, 216);
+  border: 1px solid rgb(0, 0, 0);
+  border-radius: 5px;
+  color: rgb(0, 0, 0);
+  cursor: pointer;
+  font-size: 16px;
+  height: 50px;
+  outline: none;
+  width: 280px;
+  display: inline-block;
+  margin-left: 0;
+  margin-right: 0;
+}
+
+.resetPromptButton:hover {
+  background-color: rgba(184, 249, 200, 0.8);
+}
+
 .outputButton {
   background-color: rgb(237, 196, 32);
   border: 1px solid rgb(0, 0, 0);
@@ -441,6 +558,19 @@
   width: 100%;
   height: 100%;
 }
+
+.textButtonBox{
+  width: 100%;
+  height: 50px;
+}
+
+.promptButtonBox{
+  width: 100%;
+  height: 50%;
+  margin-right: 0;
+  margin-left: auto;
+}
+
 
 .createButton{
   background-color: rgb(251, 225, 30);
@@ -525,6 +655,43 @@
   width: 100%; 
 }
 
+.pdfFileName{
+  border: 1px solid rgb(0, 0, 0);
+  border-radius: 5px;
+  box-shadow: 0 0 5px rgb(0 0 0 / 10%);
+  display: block;
+  font-size: 16px;
+  height: 50px;
+  outline: none;
+  padding: 0 5px;
+  width: 120px; 
+}
+
+.promptFileName{
+  border: 1px solid rgb(0, 0, 0);
+  border-radius: 5px;
+  box-shadow: 0 0 5px rgb(0 0 0 / 10%);
+  display: block;
+  font-size: 16px;
+  height: 50px;
+  outline: none;
+  padding: 0 5px;
+  width: 20%; 
+}
+
+.textFileName{
+  border: 1px solid rgb(0, 0, 0);
+  border-radius: 5px;
+  box-shadow: 0 0 5px rgb(0 0 0 / 10%);
+  display: block;
+  font-size: 16px;
+  height: 50px;
+  outline: none;
+  padding: 0 5px;
+  width: 180px; 
+}
+
+
 .uploadButton {
   background-color: rgb(18, 245, 185);
   border: 1px solid rgb(0, 0, 0);
@@ -540,6 +707,60 @@
 }
 
 .uploadButton:hover {
+  background-color: rgba(50, 246, 207, 0.8);
+}
+
+.uploadPDFCloudButton {
+  background-color: rgb(18, 245, 185);
+  border: 1px solid rgb(0, 0, 0);
+  border-radius: 5px;
+  color: rgb(0, 0, 0);
+  cursor: pointer;
+  font-size: 16px;
+  height: 50px;
+  outline: none;
+  width: 120px;
+  display: inline-block;
+  
+}
+
+.uploadPDFCloudButton:hover {
+  background-color: rgba(50, 246, 207, 0.8);
+}
+
+.uploadPromptButton {
+  background-color: rgb(18, 245, 185);
+  border: 1px solid rgb(0, 0, 0);
+  border-radius: 5px;
+  color: rgb(0, 0, 0);
+  cursor: pointer;
+  font-size: 16px;
+  height: 50px;
+  outline: none;
+  width: 20%;
+  display: inline-block;
+  
+}
+
+.uploadPromptButton:hover {
+  background-color: rgba(50, 246, 207, 0.8);
+}
+
+.uploadTextButton {
+  background-color: rgb(18, 245, 185);
+  border: 1px solid rgb(0, 0, 0);
+  border-radius: 5px;
+  color: rgb(0, 0, 0);
+  cursor: pointer;
+  font-size: 16px;
+  height: 50px;
+  outline: none;
+  width: 15%;
+  display: inline-block;
+  
+}
+
+.uploadTextButton:hover {
   background-color: rgba(50, 246, 207, 0.8);
 }
 
@@ -568,6 +789,45 @@
   width: 100%;
   font-size: 12px;
   text-align: center;
+}
+
+.deleteFileButton{
+  background-color: rgb(249, 122, 93);
+  border: 1px solid rgb(0, 0, 0);
+  border-radius: 5px;
+  color: rgb(0, 0, 0);
+  cursor: pointer;
+  font-size: 16px;
+  height: 100%;
+  outline: none;
+  width: 30%;
+  display: inline-block;
+}
+
+.loadFileButton{
+  background-color: rgb(133, 236, 86);
+  border: 1px solid rgb(0, 0, 0);
+  border-radius: 5px;
+  color: rgb(0, 0, 0);
+  cursor: pointer;
+  font-size: 16px;
+  height: 100%;
+  outline: none;
+  width: 30%;
+  display: inline-block;
+}
+
+.refreshRepoButton{
+  background-color: rgb(146, 191, 221);
+  border: 1px solid rgb(0, 0, 0);
+  border-radius: 5px;
+  color: rgb(0, 0, 0);
+  cursor: pointer;
+  font-size: 16px;
+  height: 100%;
+  outline: none;
+  width: 30%;
+  display: inline-block;
 }
 
 

@@ -13,7 +13,7 @@ import { saveAs } from 'file-saver';
 import { GoogleLogin, googleLogout } from '@react-oauth/google';
 import jwt_decode from "jwt-decode";
 import fireBase from "./firebaseConfig.js"
-import { ref, uploadBytesResumable, getDownloadURL, getStorage, listAll } from "firebase/storage";
+import { ref, uploadBytesResumable, getDownloadURL, getStorage, listAll, deleteObject } from "firebase/storage";
 import { pdfjs } from 'react-pdf';
 import {Dimensions} from 'react-native';
 import Tesseract from 'tesseract.js';
@@ -279,60 +279,72 @@ function App() {
     setGraphState(current_graph);
   };
 
-  const queryStatelessPrompt = async (prompt, apiKey) => {
+  const [userPrompt, setUserPrompt] = useState("");
+
+  const initPrompt = () => {
     fetch('/TextbookKG/prompts/stateless.prompt')
       .then(response => response.text())
-      .then(text => text.replace("$prompt", prompt))
-      .then(prompt => {
-        console.log(prompt)
+      .then(text => setUserPrompt(text))
+      .then(console.log(userPrompt))
+  }
 
-        const params = { ...DEFAULT_PARAMS, prompt: prompt, stop: "\n" };
+  useEffect(() => {
+    initPrompt();
+  }, []);
 
-        const requestOptions = {
-          method: 'POST',
-          headers: {
-            'Content-Type': 'application/json',
-            'Authorization': 'Bearer ' + String(apiKey)
-          },
-          body: JSON.stringify(params)
-        };
-        fetch('https://api.openai.com/v1/completions', requestOptions)
-          .then(response => {
-            if (!response.ok) {
-              switch (response.status) {
-                case 401: // 401: Unauthorized: API key is wrong
-                  throw new Error('Please double-check your API key.');
-                case 429: // 429: Too Many Requests: Need to pay
-                  throw new Error('You exceeded your current quota, please check your plan and billing details.');
-                default:
-                  throw new Error('Something went wrong with the request, please check the Network log');
-              }
-            }
-            return response.json();
-          })
-          .then((response) => {
-            const { choices } = response;
-            const text = choices[0].text;
-          
-            // Remove the last incomplete JSON object if there is any
-            let formattedText = text.trim();
-            if (formattedText.endsWith('{') || formattedText.endsWith('[')) {
-              formattedText = formattedText.substring(0, formattedText.length - 1);
-            }
-        
-          
-            console.log(formattedText);
-          
-            try {
-              const updates = JSON.parse(formattedText);
-              console.log(updates);
-              updateGraph(updates);
-            } catch (error) {
-              console.error('Failed to parse JSON:', error);
-            }
-          });
+  const queryStatelessPrompt = async (userText, apiKey, userPrompt) => {
+    const replacedPrompt = userPrompt.replace("$TEXT$", userText);
+    
+    console.log(replacedPrompt)
+  
+    const params = { ...DEFAULT_PARAMS, prompt: replacedPrompt, stop: "\n" };
+  
+    const requestOptions = {
+      method: 'POST',
+      headers: {
+        'Content-Type': 'application/json',
+        'Authorization': 'Bearer ' + String(apiKey)
+      },
+      body: JSON.stringify(params)
+    };
+    
+    fetch('https://api.openai.com/v1/completions', requestOptions)
+      .then(response => {
+        if (!response.ok) {
+          switch (response.status) {
+            case 401: // 401: Unauthorized: API key is wrong
+              throw new Error('Please double-check your API key.');
+            case 429: // 429: Too Many Requests: Need to pay
+              throw new Error('You exceeded your current quota, please check your plan and billing details.');
+            default:
+              throw new Error('Something went wrong with the request, please check the Network log');
+          }
+        }
+        return response.json();
       })
+      .then((response) => {
+        const { choices } = response;
+        const text = choices[0].text;
+      
+        // Remove the last incomplete JSON object if there is any
+        let formattedText = text.trim();
+        if (formattedText.endsWith('{') || formattedText.endsWith('[')) {
+          formattedText = formattedText.substring(0, formattedText.length - 1);
+        }
+    
+      
+        console.log(formattedText);
+      
+        try {
+          const updates = JSON.parse(formattedText);
+          console.log(updates);
+          updateGraph(updates);
+        } catch (error) {
+          console.error('Failed to parse JSON:', error);
+        }
+      });
   };
+  
 
   const queryStatelessPromptExt = async (prompt, apiKey) => {
     fetch('/TextbookKG/prompts/stateless_ext.prompt')
@@ -439,11 +451,11 @@ function App() {
       })
   };
 
-  const queryPrompt = async (prompt, apiKey) => {
+  const queryPrompt = async (text, apiKey, prompt) => {
     if (SELECTED_PROMPT === "STATELESS") {
-      await queryStatelessPrompt(prompt, apiKey);
+      await queryStatelessPrompt(text, apiKey, prompt);
     } else if (SELECTED_PROMPT === "STATEFUL") {
-      await queryStatefulPrompt(prompt, apiKey);
+      await queryStatefulPrompt(text, apiKey, prompt);
     } else {
       alert("Please select a prompt");
       document.body.style.cursor = 'default';
@@ -725,10 +737,16 @@ function App() {
   const [userRepoOptions, setUserRepoOptions] = useState([])
   const [selectedFile, setSelectedFile] = useState(null);
 
-  const handleSelectedFile = (selectedOption) => {
+  const handleSelected = (selectedOption) => {
     setSelectedFile(selectedOption);
-    console.log(selectedOption);
-    const kg_file_name = selectedOption;
+
+  }
+
+  const handleSelectedFile = () => {
+    // setSelectedFile(selectedOption);
+    console.log(selectedFile);
+    const kg_file_name = selectedFile[0];
+    console.log(kg_file_name)
     const path = "kg_users"
     const objectName = `${path}/${user.email}/${kg_file_name}`;
     const storage = getStorage(fireBase)
@@ -736,17 +754,59 @@ function App() {
 
     getDownloadURL(storageRef)
     .then((url) => {
-      // Use the fetch API to load the contents of the file as JSON
-      fetch(url)
-        .then(response => response.json())
-        .then(graph => setGraphState(graph));
+      if (kg_file_name.endsWith('.json')) {
+        // Use the fetch API to load the contents of the file as JSON
+        fetch(url)
+          .then(response => response.json())
+          .then(graph => setGraphState(graph));
+      } else if (kg_file_name.endsWith('.pdf')) {
+        // Set the URL as the source for the PDF file
+        setPdfFile(url);
+        setPageNumber(1);
+        setIsFileUploaded(true);
+      } else if (kg_file_name.endsWith('.prompt')) {
+        // Use the fetch API to load the contents of the file as text
+        fetch(url)
+          .then(response => response.text())
+          .then(text => setUserPrompt(text));
+      } else if (kg_file_name.endsWith('.text')) {
+        // Use the fetch API to load the contents of the file as text
+        fetch(url)
+          .then(response => response.text())
+          .then(text => setRawText(text));
+      }
     })
     .catch((error) => {
       console.error('Fail to load from firebase', error);
     });
-    
   };
+
+  const deleteFile = () => {
+    if (!selectedFile) {
+      console.log('No file selected for deletion');
+      return;
+    }
   
+    const kg_file_name = selectedFile[0];
+    const path = "kg_users"
+    const objectName = `${path}/${user.email}/${kg_file_name}`;
+    const storage = getStorage(fireBase)
+    const storageRef = ref(storage, `/${objectName}`);
+  
+    // Delete the file
+    deleteObject(storageRef)
+      .then(() => {
+        console.log('File deleted successfully');
+        setSelectedFile(null); // Reset selected file
+        // Here, you might want to also update your UI to reflect the file deletion
+      })
+      .catch((error) => {
+        console.error('Fail to delete file from firebase', error);
+      });
+      listFiles_self(user.email)
+
+    };
+
 
   function handleUserRepoInit(email) {
     listFiles_self(email)
@@ -783,13 +843,14 @@ function App() {
     var userObject = jwt_decode(response.credential);
     console.log(userObject);
     setUser(userObject);
-    setLoggedIn(userObject.name);
+    setLoggedIn(userObject.name.split(' ')[0]);
     handleUserRepoInit(userObject.email);
   }
 
   function handleSignOut(event) {
     setUser(null);
     setLoggedIn("Logged Out");
+    setUserRepoOptions(0);
   }
 
   useEffect(() => {
@@ -943,11 +1004,134 @@ function App() {
           });
           }
         );
+      listFiles_self(user.email)
       alert(`/${objectName} has been successfully uploaded to firebase!`);
 
   }
 
+  const uploadPDF_Cloud = () => {
+    if (user === null) {
+      alert("Please login your google account first!")
+      return;
+    }
+    if (!uploadedFile) {
+      alert("Please upload a PDF file first!")
+      return;
+    }
+    
+    const file_name = document.getElementsByClassName("pdfFileName")[0].value;
+    const path = "kg_users";
+    const objectName = `${path}/${user.email}/${file_name}.pdf`;
+  
+    const storage = getStorage(fireBase);
+    const storageRef = ref(storage, `/${objectName}`);
+    const uploadTask = uploadBytesResumable(storageRef, uploadedFile); // upload the uploadedFile
+  
+    uploadTask.on(
+      "state_changed",
+      (snapshot) => {
+        const percent = Math.round(
+          (snapshot.bytesTransferred / snapshot.totalBytes) * 100
+        );
+  
+        // update progress
+        setPercent(percent);
+      },
+      (err) => console.log(err),
+      () => {
+        // download url
+        getDownloadURL(uploadTask.snapshot.ref).then((url) => {
+          console.log(url);
+          return;
+        });
+      }
+    );
+    listFiles_self(user.email)
+    alert(`/${objectName} has been successfully uploaded to firebase!`);
+  };
 
+
+  const uploadPrompt = () => {
+    if (user === null) {
+      alert("Please login your google account first!")
+      return;
+    }
+    
+    const file_name = document.getElementsByClassName("promptFileName")[0].value;
+    const text_prompt = document.getElementsByClassName("promptText")[0].value;
+    const path = "kg_users";
+    const objectName = `${path}/${user.email}/${file_name}.prompt`;
+
+    const file = new Blob([text_prompt], { type: 'text/plain;charset=utf-8' }); // convert the text to a blob
+
+    const storage = getStorage(fireBase);
+    const storageRef = ref(storage, `/${objectName}`);
+    const uploadTask = uploadBytesResumable(storageRef, file); // upload the blob
+  
+    uploadTask.on(
+      "state_changed",
+      (snapshot) => {
+        const percent = Math.round(
+          (snapshot.bytesTransferred / snapshot.totalBytes) * 100
+        );
+  
+        // update progress
+        setPercent(percent);
+      },
+      (err) => console.log(err),
+      () => {
+        // download url
+        getDownloadURL(uploadTask.snapshot.ref).then((url) => {
+          console.log(url);
+          return;
+        });
+      }
+    );
+    listFiles_self(user.email)
+    alert(`/${objectName} has been successfully uploaded to firebase!`);
+};
+
+
+const uploadText = () => {
+  if (user === null) {
+    alert("Please login your google account first!")
+    return;
+  }
+  
+  const file_name = document.getElementsByClassName("textFileName")[0].value;
+  const text_content = rawText
+  const path = "kg_users";
+  const objectName = `${path}/${user.email}/${file_name}.text`;
+
+  const file = new Blob([text_content], { type: 'text/plain;charset=utf-8' }); // convert the text to a blob
+
+  const storage = getStorage(fireBase);
+  const storageRef = ref(storage, `/${objectName}`);
+  const uploadTask = uploadBytesResumable(storageRef, file); // upload the blob
+
+  uploadTask.on(
+    "state_changed",
+    (snapshot) => {
+      const percent = Math.round(
+        (snapshot.bytesTransferred / snapshot.totalBytes) * 100
+      );
+
+      // update progress
+      setPercent(percent);
+    },
+    (err) => console.log(err),
+    () => {
+      // download url
+      getDownloadURL(uploadTask.snapshot.ref).then((url) => {
+        console.log(url);
+        return;
+      });
+    }
+  );
+  listFiles_self(user.email)
+  alert(`/${objectName} has been successfully uploaded to firebase!`);
+};
+  
 
   const regenerateGraph = async () => {
     document.body.style.cursor = 'wait';
@@ -964,7 +1148,7 @@ function App() {
     const callQueryPrompt = async () => {
       if (i < selectedText.length) {
         console.log(selectedText[i]);
-        await queryPrompt(selectedText[i], apiKey);
+        await queryPrompt(selectedText[i], apiKey, userPrompt);
         i++;
         await callQueryPrompt();
       
@@ -995,7 +1179,7 @@ function App() {
     const callQueryPrompt = async () => {
       if (i < selectedText.length) {
         console.log(selectedText[i]);
-        await queryPromptExt(selectedText[i], apiKey);
+        await queryPromptExt(selectedText[i], apiKey, userPrompt);
         i++;
         await callQueryPrompt();
       
@@ -1249,10 +1433,11 @@ function App() {
                       type='file'
                       onChange={(event) => {
                         const fileURL = URL.createObjectURL(event.target.files[0]);
-                        setUploadedFile(fileURL);
+                        setUploadedFile(event.target.files[0]);
                         setPdfFile(fileURL);
                         setPageNumber(1);
                         setIsFileUploaded(true);
+                        console.log(userPrompt)
                       }}
                       accept=".pdf"
                     />
@@ -1308,15 +1493,24 @@ function App() {
             <Page scale={docSize} pageNumber={pageNumber} renderTextLayer={false}/>
           </Document>
           {isFileUploaded && !showDropdowns && (
-            <button className='addContentButton' onClick={handleAddContent}>Add To KG</button>
+          <div className='textButtonBox' style={{ display: 'flex', flexDirection: 'row'}}>
+            { (
+              <button className='addContentButton' onClick={handleAddContent}>Add To 📖 Text</button>
+            )}
+            { (
+              <button className='ocrContentButton' onClick={handleAddContent_OCR}>OCR To 📖 Text</button>
+            )}
+            { (
+              <button className='clearListButton' onClick={handleClearContent}>Clear</button>
+            )}
+            { <input className="pdfFileName" placeholder="PDF file name"></input>}
+            { (
+            <button className="uploadPDFCloudButton" onClick={uploadPDF_Cloud}>Save PDF</button>
+            )}
+          </div>
           )}
-          {isFileUploaded && !showDropdowns && (
-            <button className='ocrContentButton' onClick={handleAddContent_OCR}>OCR To KG</button>
-          )}
-          {isFileUploaded && !showDropdowns && (
-            <button className='clearListButton' onClick={handleClearContent}>Clear</button>
-          )}
-          {isFileUploaded && !showDropdowns && (
+
+          { (
             <div className="ocrProgressContainer">
               <p>
                 ✨ OCR Progress ✨
@@ -1324,9 +1518,30 @@ function App() {
               <progress id="ocrProgressBar" value={ocrProgress} max="1"></progress>
             </div>
           )}
+          <div className='prompyContainer' style={{ display: 'flex', flexDirection: 'column'}}>
+          <h1 className="headerPrompt" width={win_width * 0.5} height={win_height * 0.1}> 🔍 Prompt </h1>
+          <textarea
+            className='promptText'
+            value={userPrompt} // ...force the input's value to match the state variable...
+            onChange={e => setUserPrompt(e.target.value)} // ... and update the state variable on any edits!
+          />
+          {/* <h1 className="instruction"><img src={require('./instruction.png')} width='100%' height="100%" /></h1> */}
+          </div>
+
+          <div className='promptButtonBox' style={{ display: 'flex', flexDirection: 'row'}}>
+            <button className="resetPromptButton" onClick={initPrompt}>Reset</button>
+            { <input className="promptFileName" placeholder="prompt file name"></input>}
+            <button className="uploadPromptButton" onClick={uploadPrompt}>Save Prompt</button>
+          </div>
 
       </div>
+
       <div className='sideToolBar' style={{ display: 'flex', flexDirection: 'column'}}>
+        <div className='loginContainer' style={{ display: 'flex', flexDirection: 'column'}}>
+              <div id="signInDiv"></div>
+              <button className='logoutButton' onClick={handleSignOut}>Log out</button>
+              <p className='loginStatus'> {loggedIn} </p>
+        </div>
         <div className='selectSearchBoxMain' style={{ display: 'flex', flexDirection: 'column'}}>
           <button className='listButton' onClick={toggleSelectSearchBox}>
             {showSelectSearchBox ? 'Hide' : 'Show'} N/E List
@@ -1365,7 +1580,7 @@ function App() {
         </div>
         {userRepoOptions.length > 0 &&
           <div className='userLibrary' style={{ display: 'flex', flexDirection: 'column'}}>
-            <button className='listButton' onClick={toggleUserRepoBox}>
+            <button className='listButtonRepo' onClick={toggleUserRepoBox}>
               {showUserRepo ? 'Hide' : 'Show'} User Repo
             </button>
             {showUserRepo && (
@@ -1373,7 +1588,7 @@ function App() {
                   <SelectSearch
                     options={userRepoOptions}
                     value={[selectedFile]}
-                    onChange={handleSelectedFile}
+                    onChange={handleSelected}
                     placeholder="Select a file"
                     search
                     multiple
@@ -1383,6 +1598,13 @@ function App() {
               )}
           </div>
         }
+        {userRepoOptions.length > 0 && <div className='promptButtonBox' style={{ display: 'flex', flexDirection: 'row'}}>
+          <button className="loadFileButton" onClick={handleSelectedFile}>Load File</button>
+          <button className="refreshRepoButton" onClick={handleUserRepoInit(user.email)}>Refresh Repo</button>
+          <button className="deleteFileButton" onClick={deleteFile}>Delete File</button>
+          
+        </div>}
+
       </div>
 
 
@@ -1427,15 +1649,9 @@ function App() {
               <button className="clearButton" onClick={clearState}>Clear</button>
               <button className="outputButton" onClick={outputGraph}>Download</button>
 
-              <div id="signInDiv"></div>
-              <div className='loginContainer' style={{ display: 'flex', flexDirection: 'column'}}>
-                <button className='logoutButton' onClick={handleSignOut}>Log out</button>
-                <p className='loginStatus'> {loggedIn} </p>
-              </div>
-
               {!showDropdowns && <input className="kgFileName" placeholder="file name"></input>}
-              {showDropdowns && <button className="uploadButton" onClick={uploadGraph_textbook}>Save</button>}
-              {!showDropdowns && <button className="uploadButton" onClick={uploadGraph_self}>Save</button>}
+              {showDropdowns && <button className="uploadButton" onClick={uploadGraph_textbook}>Save Graph</button>}
+              {!showDropdowns && <button className="uploadButton" onClick={uploadGraph_self}>Save Graph</button>}
             </div>
 
             <div className='innerContainer2' style={{ display: 'flex', flexDirection: 'row'}}>
@@ -1448,12 +1664,18 @@ function App() {
         </div>
 
         <div className='inputContainer2' style={{ display: 'flex', flexDirection: 'column'}}>
+        <h1 className="headerTextbox" width={win_width * 0.5} height={win_height * 0.1}> 📖 Text</h1>
           <textarea
             className='sectionText'
             value={rawText} // ...force the input's value to match the state variable...
             onChange={e => setRawText(e.target.value)} // ... and update the state variable on any edits!
           />
           {/* <h1 className="instruction"><img src={require('./instruction.png')} width='100%' height="100%" /></h1> */}
+        </div>
+        <div className='promptButtonBox' style={{ display: 'flex', flexDirection: 'row'}}>
+                  <button className="resetTextButton" onClick={handleClearContent}>Clear Text</button>
+                  { <input className="textFileName" placeholder="text file name"></input>}
+                  <button className="uploadTextButton" onClick={uploadText}>Save Text</button>
         </div>
 
         
