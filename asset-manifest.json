@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/TextbookKG/static/css/main.af29020b.css",
-    "main.js": "/TextbookKG/static/js/main.66285359.js",
+    "main.css": "/TextbookKG/static/css/main.861618a2.css",
+    "main.js": "/TextbookKG/static/js/main.b6cf61f2.js",
     "static/js/787.354d86df.chunk.js": "/TextbookKG/static/js/787.354d86df.chunk.js",
     "pdf.worker.js": "/TextbookKG/09de5e5bc1f5e0a2ef52b33dbebed10f.js",
     "index.html": "/TextbookKG/index.html",
-    "main.af29020b.css.map": "/TextbookKG/static/css/main.af29020b.css.map",
-    "main.66285359.js.map": "/TextbookKG/static/js/main.66285359.js.map",
+    "main.861618a2.css.map": "/TextbookKG/static/css/main.861618a2.css.map",
+    "main.b6cf61f2.js.map": "/TextbookKG/static/js/main.b6cf61f2.js.map",
     "787.354d86df.chunk.js.map": "/TextbookKG/static/js/787.354d86df.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.af29020b.css",
-    "static/js/main.66285359.js"
+    "static/css/main.861618a2.css",
+    "static/js/main.b6cf61f2.js"
   ]
 }
