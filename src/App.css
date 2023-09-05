@@ -565,8 +565,8 @@
 }
 
 .promptButtonBox{
-  width: 100%;
-  height: 3%;
+  width: 90%;
+  height: 10%;
   margin-right: 0;
   margin-left: auto;
 }
@@ -792,42 +792,57 @@
 }
 
 .deleteFileButton{
-  background-color: rgb(249, 122, 93);
+  z-index: 9999;
+  background-color: rgb(240, 146, 124);
   border: 1px solid rgb(0, 0, 0);
   border-radius: 5px;
   color: rgb(0, 0, 0);
   cursor: pointer;
   font-size: 16px;
-  height: 100%;
+  height: 50px;
   outline: none;
   width: 30%;
   display: inline-block;
+}
+
+.deleteFileButton:hover {
+  background-color: rgba(255, 0, 0, 0.8);
 }
 
 .loadFileButton{
-  background-color: rgb(133, 236, 86);
+  z-index: 9999;
+  background-color: rgb(173, 229, 147);
   border: 1px solid rgb(0, 0, 0);
   border-radius: 5px;
   color: rgb(0, 0, 0);
   cursor: pointer;
   font-size: 16px;
-  height: 100%;
+  height: 50px;
   outline: none;
   width: 30%;
   display: inline-block;
 }
 
+.loadFileButton:hover {
+  background-color: rgba(179, 244, 129, 0.8);
+}
+
 .refreshRepoButton{
-  background-color: rgb(146, 191, 221);
+  z-index: 9999;
+  background-color: rgb(181, 209, 228);
   border: 1px solid rgb(0, 0, 0);
   border-radius: 5px;
   color: rgb(0, 0, 0);
   cursor: pointer;
   font-size: 16px;
-  height: 100%;
+  height: 50px;
   outline: none;
   width: 30%;
   display: inline-block;
+}
+
+.refreshRepoButton:hover {
+  background-color: rgba(125, 227, 239, 0.8);
 }
 
 

@@ -1602,7 +1602,7 @@ const uploadText = () => {
               )}
           </div>
         }
-        {user  && <div className='promptButtonBox' style={{ display: 'flex', flexDirection: 'row'}}>
+        {user  && showUserRepo && <div className='promptButtonBox' style={{ display: 'flex', flexDirection: 'row'}}>
           <button className="loadFileButton" onClick={handleSelectedFile}>Load File</button>
           <button className="refreshRepoButton" onClick={refreshRepo(user.email)}>Refresh Repo</button>
           <button className="deleteFileButton" onClick={deleteFile}>Delete File</button>
