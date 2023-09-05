@@ -1499,7 +1499,7 @@ const uploadText = () => {
           {isFileUploaded && !showDropdowns && (
           <div className='textButtonBox' style={{ display: 'flex', flexDirection: 'row'}}>
             { (
-              <button className='addContentButton' onClick={handleAddContent}>Add To 📖 Text</button>
+              <button className='addContentButton' onClick={handleAddContent}>Copy To 📖 Text</button>
             )}
             { (
               <button className='ocrContentButton' onClick={handleAddContent_OCR}>OCR To 📖 Text</button>
