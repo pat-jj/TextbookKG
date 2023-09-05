@@ -568,7 +568,7 @@
   width: 90%;
   height: 10%;
   margin-right: 0;
-  margin-left: auto;
+  margin-left: 0;
 }
 
 
@@ -676,7 +676,7 @@
   height: 50px;
   outline: none;
   padding: 0 5px;
-  width: 20%; 
+  width: 40%; 
 }
 
 .textFileName{

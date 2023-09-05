@@ -1654,8 +1654,8 @@ const uploadText = () => {
               <button className="outputButton" onClick={outputGraph}>Download</button>
 
               {!showDropdowns && <input className="kgFileName" placeholder="file name"></input>}
-              {showDropdowns && <button className="uploadButton" onClick={uploadGraph_textbook}>Save Graph</button>}
-              {!showDropdowns && <button className="uploadButton" onClick={uploadGraph_self}>Save Graph</button>}
+              {showDropdowns && <button className="uploadButton" onClick={uploadGraph_textbook}>Save</button>}
+              {!showDropdowns && <button className="uploadButton" onClick={uploadGraph_self}>Save</button>}
             </div>
 
             <div className='innerContainer2' style={{ display: 'flex', flexDirection: 'row'}}>
