@@ -1161,7 +1161,6 @@ const uploadText = () => {
   const regenerateGraph = async () => {
     document.body.style.cursor = 'wait';
     document.getElementsByClassName("generateButton")[0].disabled = true;
-        
     const apiKey = document.getElementsByClassName("apiKeyTextField")[0].value;
     
     if (selectedText.length === 0) {
@@ -1467,7 +1466,7 @@ const uploadText = () => {
                       }}
                       accept=".pdf"
                     />
-                    <label htmlFor="fileUpload">Upload a PDF</label> {/* add a label that triggers the hidden input when clicked */}
+                    <label htmlFor="fileUpload">PDF Upload</label> {/* add a label that triggers the hidden input when clicked */}
                   </div>
                     <button className='textbookButton' onClick={() => setShowDropdowns(!showDropdowns)}>Built-in Textbooks</button>
 
@@ -1648,8 +1647,10 @@ const uploadText = () => {
                     width: '100%',
                     height: '34%',
                 }}
-                maxHeight="200%" // or any other value you prefer
-                minHeight="34%"  // or any other value you prefer
+                maxWidth="200%" // or any other value you prefer
+                minWidth="40%"  // or any other value you prefer
+                maxHeight="200%" // existing value
+                minHeight="34%"  // existing value
             >
         <div>
         <div className="drag-handle" style={{ cursor: 'move', padding: '5px', backgroundColor: '#F2FAF9', borderBottom: '1px solid #ccc' }}>

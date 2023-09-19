@@ -56,6 +56,7 @@
 }
 
 .graphContainer {
+  overflow: auto;
   background-color: rgb(255, 255, 255);
   border-radius: 1em;
   border: 1px solid rgb(0, 0, 0);
@@ -280,7 +281,7 @@
 
 .uploadPDFButton label {
   background-color: rgb(170, 235, 224);
-  border: 1px solid rgb(0, 0, 0);
+  border: 2px solid rgb(8, 0, 255);
   border-radius: 5px;
   color: rgb(0, 0, 0);
   cursor: pointer;
@@ -291,15 +292,18 @@
   display: inline-block;
   padding: 6px; 
   text-align: center; 
+  font-size: 17px;
+  font-weight: bold;
+  font-family: 'Times New Roman', serif;
 }
 
 .uploadPDFButton label:hover {
-  background-color: rgba(111, 204, 167, 0.8);
+  background-color: rgba(168, 255, 255, 0.8);
 }
 
 .textbookButton {
   background-color: rgb(226, 222, 250);
-  border: 1px solid rgb(0, 0, 0);
+  border: 2px solid rgb(199, 72, 253);
   border-radius: 5px;
   color: rgb(0, 0, 0);
   cursor: pointer;
@@ -310,10 +314,14 @@
   display: inline-block;
   padding: 6px; 
   text-align: center; 
+  font-size: 17px;
+  font-weight: bold;
+  font-family: 'Times New Roman', serif;
+  margin-left: 10px;
 }
 
 .textbookButton:hover {
-  background-color: rgba(185, 175, 249, 0.8);
+  background-color: rgba(250, 211, 249, 0.8);
 }
 
 
@@ -741,6 +749,9 @@
   outline: none;
   width: 40%;
   display: inline-block;
+  font-size: 17px;
+  font-weight: bold;
+  font-family: 'Times New Roman', serif;
   
 }
 
