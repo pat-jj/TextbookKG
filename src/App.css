@@ -21,6 +21,12 @@
   padding-top: 0.0em;
 }
 
+.dragger_0 {
+  font-family: 'Noticia Text';
+  font-weight: 1000;
+  float: right;
+}
+
 
 /* @media (min-width: 768px) {
   .container {
@@ -39,6 +45,15 @@
     width: 1170px;
   }
 } */
+.drag-handle {
+  background-color: rgb(255, 255, 255);
+  border-radius: 1em;
+  border: 1px solid rgb(0, 0, 0);
+  box-shadow: 0 0 5px rgb(0 0 0 / 10%);
+  margin: 0 auto;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
 
 .graphContainer {
   background-color: rgb(255, 255, 255);
@@ -50,16 +65,26 @@
   margin-bottom: 0px;
 }
 
+.kg_sidetoolbar_textbox{
+  width: 70%;
+  float: right;
+}
+
+.kg_sidetoolbar{
+  width: 100%;
+}
+
 .knowledge_graph{
-  width: 50%;
+  width: 75%;
+  float: right;
   
 }
 
 .sideToolBar{
-  height: 100%;
-  width: 20%;
-  margin-top: 5%;
-  float: right;
+  height: 30%;
+  width: 25%;
+  margin-top: 1.8%;
+  float: left;
 }
 
 .selectSearchBoxMain{
@@ -84,7 +109,7 @@
 
 .listButton {
   background-color: rgb(182, 243, 247);
-  border: 1px solid rgb(255, 13, 0);
+  border: 1px solid rgb(241, 254, 191);
   border-radius: 180px;
   color: rgb(0, 0, 0);
   cursor: pointer;
@@ -134,8 +159,7 @@
   font-family: 'Noticia Text';
   font-weight: 400;
   font-size: 13px;
-  text-align: center;
-  margin: 0 auto;
+  text-align: right;
 }
 
 .inputContainer {
@@ -157,11 +181,12 @@
 }
 
 .inputContainer2 {
-  width: 100%;
+  width: 75%;
   display: flex;
   /* margin: 0 auto; */
   /* align-items: center; */
-  margin-top: 10px;
+  margin-top: 100px;
+  float: right;
 }
 
 .promptContainer {
@@ -571,6 +596,13 @@
   margin-left: 0;
 }
 
+.textButtonBox{
+  width: 90%;
+  height: 10%;
+  margin-right: 0;
+  margin-left: 25%;
+}
+
 
 .createButton{
   background-color: rgb(251, 225, 30);
@@ -765,7 +797,7 @@
 }
 
 .logoutButton {
-  background-color: rgb(163, 232, 243);
+  background-color: rgb(252, 193, 167);
   border: 1px solid rgb(65, 113, 243);
   border-radius: 5px;
   color: rgb(0, 0, 0);

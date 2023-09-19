@@ -18,6 +18,9 @@ import { pdfjs } from 'react-pdf';
 import {Dimensions} from 'react-native';
 import Tesseract from 'tesseract.js';
 import "react-pdf/dist/esm/Page/AnnotationLayer.css"
+import Draggable from 'react-draggable';
+import { Resizable } from 're-resizable';
+
 
 pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.min.js`;
 
@@ -1539,95 +1542,118 @@ const uploadText = () => {
           </div>
 
       </div>
+      <div className='kg_sidetoolbar_textbox'>
 
+      <Draggable handle=".drag-handle">
+      <div className="kg_sidetoolbar">
       <div className='sideToolBar' style={{ display: 'flex', flexDirection: 'column'}}>
-        <div className='loginContainer' style={{ display: 'flex', flexDirection: 'column'}}>
-              <div id="signInDiv"></div>
-              <button className='logoutButton' onClick={handleSignOut}>Log out</button>
-              <p className='loginStatus'> {loggedIn} </p>
-        </div>
-        <div className='selectSearchBoxMain' style={{ display: 'flex', flexDirection: 'column'}}>
-          <button className='listButton' onClick={toggleSelectSearchBox}>
-            {showSelectSearchBox ? 'Hide' : 'Show'} N/E List
-          </button>
-          {showSelectSearchBox && (
-            <div className='selectSearchBox' style={{ display: 'flex', flexDirection: 'column'}}>
-                <SelectSearch
-                  options={nodeOptions}
-                  value={[selectedNodeFrom]}
-                  onChange={handleNodeFromSelect}
-                  placeholder="Select a node (from)"
-                  search
-                  multiple
-                  emptyMessage="No nodes found"
-                />
-                <SelectSearch
-                  options={edgeOptions}
-                  value={[selectedEdge]}
-                  onChange={handleEdgeSelect}
-                  placeholder="Select an edge"
-                  search
-                  multiple
-                  emptyMessage="No edges found"
-                />
-                <SelectSearch
-                  options={nodeOptions}
-                  value={[selectedNodeTo]}
-                  onChange={handleNodeToSelect}
-                  placeholder="Select a node (to)"
-                  search
-                  multiple
-                  emptyMessage="No nodes found"
-                />
-              </div>
-            )}
-        </div>
-        {user &&
-          <div className='userLibrary' style={{ display: 'flex', flexDirection: 'column'}}>
-            <button className='listButtonRepo' onClick={toggleUserRepoBox}>
-              {showUserRepo ? 'Hide' : 'Show'} User Repo
-            </button>
-            {showUserRepo && (
-              <div className='selectSearchBox' style={{ display: 'flex', flexDirection: 'column'}}>
-                  <SelectSearch
-                    options={userRepoOptions}
-                    value={[selectedFile]}
-                    onChange={handleSelected}
-                    placeholder="Select a file"
-                    search
-                    multiple
-                    emptyMessage="No file found"
-                  />
-                </div>
-              )}
+                  <nav>
+                      <h2 className="dragger_0" width={win_width * 0.5} height={win_height * 0.1}> 
+                      ⠿
+                      </h2>
+                    </nav>
+        
+                    <div className='loginContainer' style={{ display: 'flex', flexDirection: 'column'}}>
+                          <div id="signInDiv"></div>
+                          <button className='logoutButton' onClick={handleSignOut}>LogOut</button>
+                          <p className='loginStatus'> {loggedIn} </p>
+                    </div>
+                    <div className='selectSearchBoxMain' style={{ display: 'flex', flexDirection: 'column'}}>
+                      <button className='listButton' onClick={toggleSelectSearchBox}>
+                        {showSelectSearchBox ? 'Hide' : 'Show'} N/E List
+                      </button>
+                      {showSelectSearchBox && (
+                        <div className='selectSearchBox' style={{ display: 'flex', flexDirection: 'column'}}>
+                            <SelectSearch
+                              options={nodeOptions}
+                              value={[selectedNodeFrom]}
+                              onChange={handleNodeFromSelect}
+                              placeholder="Select a node (from)"
+                              search
+                              multiple
+                              emptyMessage="No nodes found"
+                            />
+                            <SelectSearch
+                              options={edgeOptions}
+                              value={[selectedEdge]}
+                              onChange={handleEdgeSelect}
+                              placeholder="Select an edge"
+                              search
+                              multiple
+                              emptyMessage="No edges found"
+                            />
+                            <SelectSearch
+                              options={nodeOptions}
+                              value={[selectedNodeTo]}
+                              onChange={handleNodeToSelect}
+                              placeholder="Select a node (to)"
+                              search
+                              multiple
+                              emptyMessage="No nodes found"
+                            />
+                          </div>
+                        )}
+                    </div>
+                    {user &&
+                      <div className='userLibrary' style={{ display: 'flex', flexDirection: 'column'}}>
+                        <button className='listButtonRepo' onClick={toggleUserRepoBox}>
+                          {showUserRepo ? 'Hide' : 'Show'} User Repo
+                        </button>
+                        {showUserRepo && (
+                          <div className='selectSearchBox' style={{ display: 'flex', flexDirection: 'column'}}>
+                              <SelectSearch
+                                options={userRepoOptions}
+                                value={[selectedFile]}
+                                onChange={handleSelected}
+                                placeholder="Select a file"
+                                search
+                                multiple
+                                emptyMessage="No file found"
+                              />
+                            </div>
+                          )}
+                      </div>
+                    }
+                    {user  && showUserRepo && <div className='promptButtonBox' style={{ display: 'flex', flexDirection: 'row'}}>
+                      <button className="loadFileButton" onClick={handleSelectedFile}>Load File</button>
+                      <button className="refreshRepoButton" onClick={refreshRepo(user.email)}>Refresh Repo</button>
+                      <button className="deleteFileButton" onClick={deleteFile}>Delete File</button>
+                      
+                    </div>}
+
           </div>
-        }
-        {user  && showUserRepo && <div className='promptButtonBox' style={{ display: 'flex', flexDirection: 'row'}}>
-          <button className="loadFileButton" onClick={handleSelectedFile}>Load File</button>
-          <button className="refreshRepoButton" onClick={refreshRepo(user.email)}>Refresh Repo</button>
-          <button className="deleteFileButton" onClick={deleteFile}>Delete File</button>
-          
-        </div>}
-
-      </div>
-
-
+      
       <div className='knowledge_graph'>
+            <Resizable
+                defaultSize={{
+                    width: '100%',
+                    height: '34%',
+                }}
+                maxHeight="200%" // or any other value you prefer
+                minHeight="34%"  // or any other value you prefer
+            >
+        <div>
+          
+        <div className="drag-handle" style={{ cursor: 'move', padding: '5px', backgroundColor: '#F2FAF9', borderBottom: '1px solid #ccc' }}>
         <nav>
-            <h1 className="headerText" width={win_width * 0.5} height={win_height * 0.1}> KGSphere </h1>
+          <h2 className="headerText" width={win_width * 0.5} height={win_height * 0.1}> 
+              <span style={{ textShadow: '0px 0px 1px purple' }}>🕸️</span> Knowledge Graph 
+          </h2>
         </nav>
         <div className='contentList'>
           {!showDropdowns &&(<h1 style={{ fontSize: '14px' }} className="contentText">Contained Page(s): {contentPage}</h1>)}
         </div>
-
-        <div className='graphContainer'>
-          <Graph graph={graphState} ref={graphRef} options={options} events={eventState} style={{ height: win_height * 0.75 }} />
-        <p><pre>
-             Selected Node: <span style={{ fontWeight: 'bold' }}>{selectedNodeFrom} | {selectedNodeTo}</span> {"\n"}
-             Selected Edge: <span style={{ fontWeight: 'bold' }}>{selectedEdgeLabel}</span>
-        </pre></p>
-        
         </div>
+
+      
+        <div className='graphContainer' style={{ width: '100%', height: '100%' }}>
+            <Graph graph={graphState} ref={graphRef} options={options} events={eventState} style={{ height: win_height * 0.75 }} />
+            <p><pre>
+                Selected Node: <span style={{ fontWeight: 'bold' }}>{selectedNodeFrom} | {selectedNodeTo}</span> {"\n"}
+                Selected Edge: <span style={{ fontWeight: 'bold' }}>{selectedEdgeLabel}</span>
+            </pre></p>
+        </div>
+
          
 
         <div className='inputContainer1'>
@@ -1666,6 +1692,11 @@ const uploadText = () => {
           </div>
 
         </div>
+        </div>
+        </Resizable>
+        </div>
+    </div>
+    </Draggable>
 
         <div className='inputContainer2' style={{ display: 'flex', flexDirection: 'column'}}>
         <h1 className="headerTextbox" width={win_width * 0.5} height={win_height * 0.1}> 📖 Text</h1>
@@ -1676,14 +1707,14 @@ const uploadText = () => {
           />
           {/* <h1 className="instruction"><img src={require('./instruction.png')} width='100%' height="100%" /></h1> */}
         </div>
-        <div className='promptButtonBox' style={{ display: 'flex', flexDirection: 'row'}}>
+        <div className='textButtonBox' style={{ display: 'flex', flexDirection: 'row'}}>
                   <button className="resetTextButton" onClick={handleClearContent}>Clear Text</button>
                   { <input className="textFileName" placeholder="text file name"></input>}
                   <button className="uploadTextButton" onClick={uploadText}>Save Text</button>
         </div>
         <p className='footer'>Developed by Patrick Jiang @ UIUC</p>
       </div>
-		</div>
+      </div>
 
 	);
 
