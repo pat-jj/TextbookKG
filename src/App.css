@@ -185,7 +185,7 @@
   display: flex;
   /* margin: 0 auto; */
   /* align-items: center; */
-  margin-top: 100px;
+  margin-top: 40px;
   float: right;
 }
 
@@ -379,7 +379,7 @@
 
 
 .generateButton {
-  background-color: rgb(159, 209, 239);
+  background-color: rgb(0, 225, 255);
   border: 0px solid rgb(252, 252, 252);
   border-radius: 5px;
   border-width: 1.5px;
@@ -390,6 +390,9 @@
   outline: none;
   width: 50%;
   display: inline-block;
+  font-size: 20px;
+  font-weight: bold;
+  font-family: 'Times New Roman', serif;
 }
 
 .generateButton:hover {
@@ -397,7 +400,7 @@
 }
 
 .generateExtButton {
-  background-color: rgb(243, 178, 216);
+  background-color: rgb(98, 255, 0);
   border: 0px solid rgb(252, 252, 252);
   border-radius: 5px;
   border-width: 1.5px;
@@ -408,10 +411,13 @@
   outline: none;
   width: 50%;
   display: inline-block;
+  font-size: 17px;
+  font-weight: bold;
+  font-family: 'Times New Roman', serif;
 }
 
 .generateExtButton:hover {
-  background-color: rgba(244, 222, 237, 0.8);
+  background-color: rgba(175, 240, 156, 0.8);
 }
 
 .generateButton:disabled {
@@ -430,8 +436,8 @@
   outline: none;
   width: 20%;
   display: inline-block;
-  margin-left: 5px;
-  margin-right: 5px;
+  margin-left: 1.5px;
+  margin-right: 1.5px;
 }
 
 .clearButton:hover {
@@ -596,7 +602,7 @@
   margin-left: 0;
 }
 
-.textButtonBox{
+.textButtonBox_1{
   width: 90%;
   height: 10%;
   margin-right: 0;
@@ -877,6 +883,99 @@
   background-color: rgba(125, 227, 239, 0.8);
 }
 
+.hierarchicalButton{
+  z-index: 9999;
+  border: 1px solid rgb(255, 255, 255);
+  border-radius: 80px;
+  color: rgb(253, 253, 253);
+  cursor: pointer;
+  font-size: 16px;
+  height: 30px;
+  outline: none;
+  width: 20%;
+  display: inline-block;
+}
+
+.hierarchicalTrue {
+  background-color: rgb(38, 0, 252);
+}
+
+.hierarchicalFalse {
+  background-color: rgb(255, 145, 18);
+}
+
+
+.closeWikiButton{
+  z-index: 9999;
+  background-color: rgb(216, 204, 184);
+  border: 1px solid rgb(255, 255, 255);
+  border-radius: 5px;
+  color: rgb(0, 0, 0);
+  cursor: pointer;
+  font-size: 16px;
+  height: 40px;
+  outline: none;
+  width: 20%;
+  display: inline-block;
+}
+
+.closeWikiButton:hover {
+  background-color: rgba(127, 125, 125, 0.8);
+}
+
+.curInfoContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative; /* Set the reference point for absolute positioning of children */
+}
+
+.wikiButton {
+  background-color: #ffffff; 
+  border: none;
+  padding: 30px 30px;
+  cursor: pointer;
+  background-image: url('./wikipedia-logo.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 60px;
+  text-align: center;
+  position: relative; /* To position the triangle of the speech bubble */
+  z-index: 2; /* To ensure the button is above the results box */
+}
+
+.wikiResultsBox {
+  display: none; 
+  position: absolute;
+  width: 50%;
+  background-color: white;
+  border: 1px solid black;
+  padding: 20px;
+  z-index: 1; 
+  overflow-y: scroll;
+  max-height: 40vh;
+  bottom: 120%; /* Adjust the position to be slightly above the button */
+  right: 0; 
+  border-radius: 20px; 
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+}
+
+.wikiResultsBox.show {
+  display: block; 
+}
+
+/* Speech bubble triangle */
+.wikiResultsBox::before {
+  content: '';
+  position: absolute;
+  bottom: -20px; 
+  right: 20px; 
+  width: 0;
+  height: 0;
+  border-left: 20px solid transparent;
+  border-right: 20px solid transparent;
+  border-top: 20px solid white; 
+}
 
 
 

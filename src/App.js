@@ -20,6 +20,7 @@ import Tesseract from 'tesseract.js';
 import "react-pdf/dist/esm/Page/AnnotationLayer.css"
 import Draggable from 'react-draggable';
 import { Resizable } from 're-resizable';
+import WikiResultsBox from './wikiSearchBox.js';
 
 
 pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.min.js`;
@@ -37,16 +38,6 @@ const DEFAULT_PARAMS = {
 
 const SELECTED_PROMPT = "STATELESS"
 
-
-const options = {
-  layout: {
-    hierarchical: false
-  },
-  edges: {
-    color: "#34495e",
-    smooth: true
-  }
-};
 
 function App() {
 
@@ -75,6 +66,7 @@ function App() {
   const[selectedNode, setSelectedNode] = useState(null)
   const[selectedNodeFrom, setSelectedNodeFrom] = useState(null)
   const[selectedNodeTo, setSelectedNodeTo] = useState(null)
+  const [isHierarchical, setIsHierarchical] = useState(false);
   const[eventState, setEventState] = useState( 
     {
       select: ({ nodes, edges }) => {
@@ -85,10 +77,17 @@ function App() {
         setSelectedEdge(edges[0]);
         setSelectedNode(nodes[0]);
       },
-
     }
   );
-
+  const options = {
+    layout: {
+      hierarchical: isHierarchical
+    },
+    edges: {
+      color: "#34495e",
+      smooth: true
+    }
+  };
   const graphRef = useRef(null);
   const animationOptions = {
     animation: {
@@ -112,6 +111,7 @@ function App() {
       graphRef.current.Network.unselectAll();
     }
   }, [selectedNodeFrom]);
+
 
   useEffect(() => {
     if (selectedNodeTo && !disableNodeAnimation) {
@@ -925,6 +925,24 @@ function App() {
     }
   };
 
+  const [searchResults, setSearchResults] = useState([]);
+  const [showResultsBox, setShowResultsBox] = useState(false);
+  const [position, setPosition] = useState({ x: 0, y: 0 });
+
+  const handleWikiSearch = (node) => {
+    // Call the Wikipedia API
+    fetch(`https://en.wikipedia.org/w/api.php?action=query&list=search&srsearch=${node}&utf8=&format=json&origin=*`)
+        .then(response => response.json())
+        .then(data => {
+            setSearchResults(data.query.search);
+            setShowResultsBox(true);
+        });
+    console.log(node);
+    console.log(searchResults);
+
+};
+
+
   const [showSelectSearchBox, setShowSelectSearchBox] = useState(true);
 
   const toggleSelectSearchBox = () => {
@@ -1143,7 +1161,12 @@ const uploadText = () => {
   const regenerateGraph = async () => {
     document.body.style.cursor = 'wait';
     document.getElementsByClassName("generateButton")[0].disabled = true;
-    const apiKey = document.getElementsByClassName("apiKeyTextField")[0].value;
+    const apiKey = 0;
+    if (loggedIn === true) {
+      // retrieve the api key from the Firebase
+    } else {
+      apiKey = document.getElementsByClassName("apiKeyTextField")[0].value;
+    }
   
     if (selectedText.length === 0) {
       document.body.style.cursor = 'default';
@@ -1633,7 +1656,6 @@ const uploadText = () => {
                 minHeight="34%"  // or any other value you prefer
             >
         <div>
-          
         <div className="drag-handle" style={{ cursor: 'move', padding: '5px', backgroundColor: '#F2FAF9', borderBottom: '1px solid #ccc' }}>
         <nav>
           <h2 className="headerText" width={win_width * 0.5} height={win_height * 0.1}> 
@@ -1648,10 +1670,22 @@ const uploadText = () => {
       
         <div className='graphContainer' style={{ width: '100%', height: '100%' }}>
             <Graph graph={graphState} ref={graphRef} options={options} events={eventState} style={{ height: win_height * 0.75 }} />
-            <p><pre>
-                Selected Node: <span style={{ fontWeight: 'bold' }}>{selectedNodeFrom} | {selectedNodeTo}</span> {"\n"}
-                Selected Edge: <span style={{ fontWeight: 'bold' }}>{selectedEdgeLabel}</span>
-            </pre></p>
+            <div className='curInfoContainer' style={{ display: 'flex', flexDirection: 'row'}}>
+                <p><pre>
+                    Selected Node: <span style={{ fontWeight: 'bold' }}>{selectedNode}</span> {"\n"}
+                    Nodes From|To: <span style={{ fontWeight: 'bold' }}>{selectedNodeFrom} | {selectedNodeTo}</span> {"\n"}
+                    Selected Edge: <span style={{ fontWeight: 'bold' }}>{selectedEdgeLabel}</span>
+                </pre></p>
+                
+                <button 
+                  className={`hierarchicalButton ${isHierarchical ? "hierarchicalTrue" : "hierarchicalFalse"}`}
+                  onClick={() => setIsHierarchical(prevState => !prevState)}
+                >
+                  Hierarchical: {isHierarchical ? "True" : "False"}
+                </button>
+                <WikiResultsBox className="wikiResultsBox" results={searchResults} show={showResultsBox} onClose={() => setShowResultsBox(false)} />
+                <button className="wikiButton" onClick={() => handleWikiSearch(selectedNode)}>Search</button>
+            </div>
         </div>
 
          
@@ -1686,7 +1720,7 @@ const uploadText = () => {
 
             <div className='innerContainer2' style={{ display: 'flex', flexDirection: 'row'}}>
             <input className="apiKeyTextField" type="password" placeholder="OpenAI API key ..."></input>
-              <button className="generateButton" onClick={regenerateGraph}>Generate (normal)</button>
+              <button className="generateButton" onClick={regenerateGraph}>Generate</button>
               <button className="generateExtButton" onClick={regenerateGraphExt}>Generate (extension)</button>
             </div>
           </div>
@@ -1707,7 +1741,7 @@ const uploadText = () => {
           />
           {/* <h1 className="instruction"><img src={require('./instruction.png')} width='100%' height="100%" /></h1> */}
         </div>
-        <div className='textButtonBox' style={{ display: 'flex', flexDirection: 'row'}}>
+        <div className='textButtonBox_1' style={{ display: 'flex', flexDirection: 'row'}}>
                   <button className="resetTextButton" onClick={handleClearContent}>Clear Text</button>
                   { <input className="textFileName" placeholder="text file name"></input>}
                   <button className="uploadTextButton" onClick={uploadText}>Save Text</button>
