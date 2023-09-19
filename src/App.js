@@ -1161,14 +1161,9 @@ const uploadText = () => {
   const regenerateGraph = async () => {
     document.body.style.cursor = 'wait';
     document.getElementsByClassName("generateButton")[0].disabled = true;
-    const apiKey = 0;
-    if (loggedIn === true) {
-      // retrieve the api key from the Firebase
-      apiKey = document.getElementsByClassName("apiKeyTextField")[0].value;
-    } else {
-      apiKey = document.getElementsByClassName("apiKeyTextField")[0].value;
-    }
-  
+        
+    const apiKey = document.getElementsByClassName("apiKeyTextField")[0].value;
+    
     if (selectedText.length === 0) {
       document.body.style.cursor = 'default';
       console.log("No selected quality text to prompt the graph ...");
