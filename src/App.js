@@ -1164,6 +1164,7 @@ const uploadText = () => {
     const apiKey = 0;
     if (loggedIn === true) {
       // retrieve the api key from the Firebase
+      apiKey = document.getElementsByClassName("apiKeyTextField")[0].value;
     } else {
       apiKey = document.getElementsByClassName("apiKeyTextField")[0].value;
     }
