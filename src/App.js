@@ -336,8 +336,8 @@ function App() {
         let lastIndex = formattedText.lastIndexOf(']');
 
         // If found, truncate the string to that point and then close the entire array with another ]
-        if (lastIndex !== -1) {
-            formattedText = formattedText.substring(0, lastIndex + 1) + ']';
+        if (lastIndex !== -1 && formattedText.endsWith("]]") === false){
+          formattedText = formattedText.substring(0, lastIndex + 1) + ']';
         }
 
         console.log(formattedText);
@@ -395,7 +395,7 @@ function App() {
             let lastIndex = formattedText.lastIndexOf(']');
 
             // If found, truncate the string to that point and then close the entire array with another ]
-            if (lastIndex !== -1) {
+            if (lastIndex !== -1 && formattedText.endsWith("]]") === false){
                 formattedText = formattedText.substring(0, lastIndex + 1) + ']';
             }
 

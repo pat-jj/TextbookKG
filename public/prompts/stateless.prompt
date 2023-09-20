@@ -2,14 +2,12 @@ Given a prompt, extrapolate as many relationships as possible from it and provid
 
 If an update is a relationship, provide [ENTITY 1, RELATIONSHIP, ENTITY 2]. The relationship is directed, so the order matters.
 
-If an update is related to a color, provide [ENTITY, COLOR]. Color is in hex format.
-
 If an update is related to deleting an entity, provide ["DELETE", ENTITY].
 
 Example:
-prompt: Alice is Bob's roommate. Make her node green.
+prompt: Alice is Bob's roommate. Alice lives in Champaign.
 updates:
-[["Alice", "roommate", "Bob"], ["Alice", "#00FF00"]]
+[["Alice", "roommate", "Bob"], ["Alice", "live in", "Champaign"]]
 
 prompt: $TEXT$
 updates:
