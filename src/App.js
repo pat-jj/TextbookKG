@@ -1574,11 +1574,6 @@ const uploadText = () => {
       <Draggable handle=".drag-handle">
       <div className="kg_sidetoolbar">
       <div className='sideToolBar' style={{ display: 'flex', flexDirection: 'column'}}>
-                  <nav>
-                      <h2 className="dragger_0" width={win_width * 0.5} height={win_height * 0.1}> 
-                      ⠿
-                      </h2>
-                    </nav>
         
                     <div className='loginContainer' style={{ display: 'flex', flexDirection: 'column'}}>
                           <div id="signInDiv"></div>
@@ -1664,6 +1659,9 @@ const uploadText = () => {
         <div>
         <div className="drag-handle" style={{ cursor: 'move', padding: '5px', backgroundColor: '#F2FAF9', borderBottom: '1px solid #ccc' }}>
         <nav>
+          <h2 className="dragger_0" width={win_width * 0.5} height={win_height * 0.1}> 
+                      ⠿
+          </h2>
           <h2 className="headerText" width={win_width * 0.5} height={win_height * 0.1}> 
               <span style={{ textShadow: '0px 0px 1px purple' }}>🕸️</span> Knowledge Graph 
           </h2>
