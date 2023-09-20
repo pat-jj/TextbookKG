@@ -28,7 +28,7 @@ pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/$
 // GraphGPT Module
 
 const DEFAULT_PARAMS = {
-  "model": "text-davinci-003",
+  "model": "gpt-3.5-turbo-instruct",
   "temperature": 0.3,
   "max_tokens": 800,
   "top_p": 1,
@@ -331,11 +331,15 @@ function App() {
       
         // Remove the last incomplete JSON object if there is any
         let formattedText = text.trim();
-        if (formattedText.endsWith('{') || formattedText.endsWith('[')) {
-          formattedText = formattedText.substring(0, formattedText.length - 1);
+
+        // Find the last occurrence of ]
+        let lastIndex = formattedText.lastIndexOf(']');
+
+        // If found, truncate the string to that point and then close the entire array with another ]
+        if (lastIndex !== -1) {
+            formattedText = formattedText.substring(0, lastIndex + 1) + ']';
         }
-    
-      
+
         console.log(formattedText);
       
         try {
@@ -386,10 +390,15 @@ function App() {
           
             // Remove the last incomplete JSON object if there is any
             let formattedText = text.trim();
-            if (formattedText.endsWith('{') || formattedText.endsWith('[')) {
-              formattedText = formattedText.substring(0, formattedText.length - 1);
+
+            // Find the last occurrence of ]
+            let lastIndex = formattedText.lastIndexOf(']');
+
+            // If found, truncate the string to that point and then close the entire array with another ]
+            if (lastIndex !== -1) {
+                formattedText = formattedText.substring(0, lastIndex + 1) + ']';
             }
-          
+
             console.log(formattedText);
           
             try {
