@@ -11,7 +11,7 @@
   font-family: 'Noticia Text';
   font-weight: 300;
   text-align: left;
-  padding-top: 0.1em;
+  padding-top: 0.2em;
 }
 
 .headerTextbox {
@@ -257,6 +257,7 @@
 }
 
 .promptText{
+  z-index: 9999;
   border: 1px solid rgb(222, 190, 114);
   border-width: 5px;
   border-radius: 15px;
@@ -749,9 +750,6 @@
   outline: none;
   width: 40%;
   display: inline-block;
-  font-size: 17px;
-  font-weight: bold;
-  font-family: 'Times New Roman', serif;
   
 }
 
