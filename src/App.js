@@ -1671,7 +1671,6 @@ const uploadText = () => {
         </div>
         </div>
 
-      
         <div className='graphContainer' style={{ width: '100%', height: '100%' }}>
             <Graph graph={graphState} ref={graphRef} options={options} events={eventState} style={{ height: win_height * 0.75 }} />
             <div className='curInfoContainer' style={{ display: 'flex', flexDirection: 'row'}}>
