@@ -748,6 +748,7 @@ function App() {
   const [loggedIn, setLoggedIn] = useState("Logged Out");
   const [userRepoOptions, setUserRepoOptions] = useState([])
   const [selectedFile, setSelectedFile] = useState(null);
+  const [openAIAPIKey, setopenAIAPIKey] = useState(null);
 
   const handleSelected = (selectedOption) => {
     setSelectedFile(selectedOption);
@@ -819,6 +820,22 @@ function App() {
 
     };
 
+    const handleRetrieveAPIKey = () => {
+      // setSelectedFile(selectedOption);
+      const storage = getStorage(fireBase)
+      const storageRef = ref(storage, `kg_users/admin/apikey.key`);
+  
+      getDownloadURL(storageRef)
+      .then((url) => {
+        fetch(url)
+          .then(response => response.text())
+          .then(text => setopenAIAPIKey(text));
+      })
+      .catch((error) => {
+        console.error('Fail to load OpenAIAPIKey', error);
+      });
+    };
+
 
   function handleUserRepoInit(email) {
     listFiles_self(email)
@@ -860,6 +877,7 @@ function App() {
     console.log(userObject);
     setUser(userObject);
     setLoggedIn(userObject.name.split(' ')[0]);
+    handleRetrieveAPIKey();
     handleUserRepoInit(userObject.email);
   }
 
@@ -1167,36 +1185,40 @@ const uploadText = () => {
 };
   
 
-  const regenerateGraph = async () => {
-    document.body.style.cursor = 'wait';
-    document.getElementsByClassName("generateButton")[0].disabled = true;
-    const apiKey = document.getElementsByClassName("apiKeyTextField")[0].value;
-    
-    if (selectedText.length === 0) {
-      document.body.style.cursor = 'default';
-      console.log("No selected quality text to prompt the graph ...");
-    }
-    
-    let i = 0;
-    
-    const callQueryPrompt = async () => {
-      if (i < selectedText.length) {
-        console.log(selectedText[i]);
-        await queryPrompt(selectedText[i], apiKey, userPrompt);
-        i++;
-        await callQueryPrompt();
-      
-      } else {
-        console.log("Wait graph to be updated ... (10s)")
-        await delay(10000);
-        // handleSave(`${selectedSection}.json`);
-        document.body.style.cursor = 'default'; 
-        document.getElementsByClassName("generateButton")[0].disabled = false;
-      }
-    };
-    await callQueryPrompt(); 
-    
+const regenerateGraph = async () => {
+  document.body.style.cursor = 'wait';
+  document.getElementsByClassName("generateButton")[0].disabled = true;
+  let apiKey;
+  if (!user) {
+      apiKey = document.getElementsByClassName("apiKeyTextField")[0].value;
+  } else {
+      apiKey = openAIAPIKey;
+  }  
+  if (selectedText.length === 0) {
+    document.body.style.cursor = 'default';
+    console.log("No selected quality text to prompt the graph ...");
   }
+  
+  let i = 0;
+  
+  const callQueryPrompt = async () => {
+    if (i < selectedText.length) {
+      console.log(selectedText[i]);
+      await queryPrompt(selectedText[i], apiKey, userPrompt);
+      i++;
+      await callQueryPrompt();
+    
+    } else {
+      console.log("Wait graph to be updated ... (10s)")
+      await delay(10000);
+      // handleSave(`${selectedSection}.json`);
+      document.body.style.cursor = 'default'; 
+      document.getElementsByClassName("generateButton")[0].disabled = false;
+    }
+  };
+  await callQueryPrompt(); 
+  
+}
 
   const regenerateGraphExt = async () => {
     document.body.style.cursor = 'wait';
@@ -1240,6 +1262,7 @@ const uploadText = () => {
   const [inSections, setInSections] = useState([]);
 	const [numPages, setNumPages] = useState(null);
 	const [pageNumber, setPageNumber] = useState(1);
+  const [inputValue, setInputValue] = useState(pageNumber.toString());
 	const [pdfFile, setPdfFile] = useState('/TextbookKG/textbook-1.pdf');
   const [chapters, setChapters] = useState([]);
   const [docSize, setDocSize] = useState(1.1);
@@ -1248,6 +1271,7 @@ const uploadText = () => {
   const [showDropdowns, setShowDropdowns] = useState(false);
   const [contentPage, setContentPage] = useState("");
   const [ocrProgress, setOcrProgress] = useState(0);
+
 
   const pdfjsLib = require('pdfjs-dist/build/pdf');
   pdfjsLib.GlobalWorkerOptions.workerSrc = '//cdnjs.cloudflare.com/ajax/libs/pdf.js/3.7.107/pdf.worker.min.js';
@@ -1399,12 +1423,18 @@ const uploadText = () => {
 			pageNumber + 1 >= numPages ? numPages : pageNumber + 1,
 		);
 
-  const handlePageNumberChange = (event) => {
-		const newPageNumber = parseInt(event.target.value, 10);
-		if (newPageNumber >= 1 && newPageNumber <= numPages) {
-			setPageNumber(newPageNumber);
-		}
-	};
+    const handlePageNumberChange = (event) => {
+      setInputValue(event.target.value);
+    };
+
+    const validatePageNumber = () => {
+      const newPageNumber = parseInt(inputValue, 10);
+      if (newPageNumber >= 1 && newPageNumber <= numPages) {
+          setPageNumber(newPageNumber);
+      } else {
+          setInputValue(pageNumber.toString()); // Reset to the previous valid value
+      }
+    };
 
   const handleAddContent = () => {
     setContentPage(contentPage + pageNumber.toString() + ', ');
@@ -1506,11 +1536,13 @@ const uploadText = () => {
                 <button onClick={goToPrevPage}>Prev</button>
                 <button onClick={goToNextPage}>Next</button>
                 <Form.Control
-                  type="text"
-                  value={pageNumber}
-                  onChange={handlePageNumberChange}
-                  style={{ width: '10%' }}
-                  />
+                    type="text"
+                    value={inputValue}
+                    onChange={handlePageNumberChange}
+                    onBlur={validatePageNumber}
+                    style={{ width: '10%' }}
+                />
+
                  <p style={{ width: '50%' }}>
                 ✨ Page {pageNumber} of {numPages} ✨ {showDropdowns && (<span style={{ fontWeight: 'bold' }}>{selectedSection}</span>)}
                 </p>
@@ -1720,12 +1752,11 @@ const uploadText = () => {
               {showDropdowns && <button className="uploadButton" onClick={uploadGraph_textbook}>Save</button>}
               {!showDropdowns && <button className="uploadButton" onClick={uploadGraph_self}>Save</button>}
             </div>
-
-            <div className='innerContainer2' style={{ display: 'flex', flexDirection: 'row'}}>
-            <input className="apiKeyTextField" type="password" placeholder="OpenAI API key ..."></input>
+            <div className='innerContainer2' style={{ display: 'flex', flexDirection: 'row'}}>        
+              { !user && <input className="apiKeyTextField" type="password" placeholder="OpenAI API key ..."></input> }
               <button className="generateButton" onClick={regenerateGraph}>Generate</button>
-              <button className="generateExtButton" onClick={regenerateGraphExt}>Generate (extension)</button>
             </div>
+
           </div>
 
         </div>

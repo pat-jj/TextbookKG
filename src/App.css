@@ -240,7 +240,7 @@
   height: 50px;
   outline: none;
   padding: 0 10px;
-  width: 50%;
+  width: 100%;
 }
 
 .sectionText{
@@ -388,8 +388,8 @@
 
 
 .generateButton {
-  background-color: rgb(0, 225, 255);
-  border: 0px solid rgb(252, 252, 252);
+  background-color: rgb(255, 168, 62);
+  border: 0px solid rgb(252, 99, 99);
   border-radius: 5px;
   border-width: 1.5px;
   color: rgb(0, 0, 0);
@@ -397,7 +397,7 @@
   font-size: 16px;
   height: 50px;
   outline: none;
-  width: 50%;
+  width: 100%;
   display: inline-block;
   font-size: 20px;
   font-weight: bold;
@@ -405,7 +405,7 @@
 }
 
 .generateButton:hover {
-  background-color: rgba(175, 232, 233, 0.8);
+  background-color: rgba(255, 223, 164, 0.8);
 }
 
 .generateExtButton {
