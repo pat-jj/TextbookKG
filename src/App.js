@@ -81,13 +81,34 @@ function App() {
   );
   const options = {
     layout: {
-      hierarchical: isHierarchical
+      hierarchical: isHierarchical ? {
+        enabled: true,
+        levelSeparation: 150,     // Adjust this to increase space between levels
+        nodeSpacing: 200,        // Adjust this to increase space between nodes on the same level
+        treeSpacing: 200         // Adjust this to increase space between different trees in the same graph
+      } : false
     },
     edges: {
       color: "#34495e",
-      smooth: true
+      smooth: true,
+      length: 300,
+    },
+    physics: isHierarchical ? false : {
+      enabled: true,
+      barnesHut: {
+        gravitationalConstant: -2000,
+        centralGravity: 0.3,
+        springLength: 95,
+        springConstant: 0.04,
+        damping: 0.09,
+        avoidOverlap: 0.3
+      },
+      stabilization: {
+        iterations: 2000
+      }
     }
   };
+  
   const graphRef = useRef(null);
   const animationOptions = {
     animation: {
