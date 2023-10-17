@@ -84,7 +84,7 @@ function App() {
       hierarchical: isHierarchical ? {
         enabled: true,
         levelSeparation: 150,     // Adjust this to increase space between levels
-        nodeSpacing: 200,        // Adjust this to increase space between nodes on the same level
+        nodeSpacing: 150,        // Adjust this to increase space between nodes on the same level
         treeSpacing: 200         // Adjust this to increase space between different trees in the same graph
       } : false
     },
