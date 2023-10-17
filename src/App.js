@@ -752,7 +752,7 @@ function App() {
 
   const handleSelected = (selectedOption) => {
     setSelectedFile(selectedOption);
-
+    console.log(selectedFile);
   }
 
   const handleSelectedFile = () => {
@@ -764,6 +764,44 @@ function App() {
     const objectName = `${path}/${user.email}/${kg_file_name}`;
     const storage = getStorage(fireBase)
     const storageRef = ref(storage, `/${objectName}`);
+
+    // if the file is a project file
+    if (kg_file_name.endsWith('.project')) {
+      const graphStorageRef = ref(storage, `/${objectName}/graph.json`);
+      const promptStorageRef = ref(storage, `/${objectName}/prompt.prompt`);
+      const pdfStorageRef = ref(storage, `/${objectName}/pdf.pdf`);
+      const textStorageRef = ref(storage, `/${objectName}/text.text`);
+
+
+      getDownloadURL(graphStorageRef)
+      .then((url) => {
+        fetch(url)
+          .then(response => response.json())
+          .then(graph => setGraphState(graph));
+      })
+
+      getDownloadURL(promptStorageRef)
+      .then((url) => {
+        fetch(url)
+          .then(response => response.text())
+          .then(text => setUserPrompt(text));
+      })
+
+      getDownloadURL(pdfStorageRef)
+      .then((url) => {
+        setPdfFile(url);
+        setPageNumber(1);
+        setIsFileUploaded(true);
+      })
+
+      getDownloadURL(textStorageRef)
+      .then((url) => {
+        fetch(url)
+          .then(response => response.text())
+          .then(text => setRawText(text));
+      })
+    }
+
 
     getDownloadURL(storageRef)
     .then((url) => {
@@ -806,35 +844,61 @@ function App() {
     const storage = getStorage(fireBase)
     const storageRef = ref(storage, `/${objectName}`);
   
-    // Delete the file
-    deleteObject(storageRef)
-      .then(() => {
-        console.log('File deleted successfully');
-        setSelectedFile(null); // Reset selected file
-        // Here, you might want to also update your UI to reflect the file deletion
-      })
-      .catch((error) => {
-        console.error('Fail to delete file from firebase', error);
-      });
-      listFiles_self(user.email)
-
-    };
-
-    const handleRetrieveAPIKey = () => {
-      // setSelectedFile(selectedOption);
-      const storage = getStorage(fireBase)
-      const storageRef = ref(storage, `kg_users/admin/apikey.key`);
+    // Check if the selected item is a folder (ends with '.project')
+    if (kg_file_name.endsWith('.project')) {
+      // If it's a folder, list all objects under this folder and delete them
+      listAll(storageRef).then(res => {
+        const deletionPromises = [];
   
-      getDownloadURL(storageRef)
-      .then((url) => {
-        fetch(url)
-          .then(response => response.text())
-          .then(text => setopenAIAPIKey(text));
-      })
-      .catch((error) => {
-        console.error('Fail to load OpenAIAPIKey', error);
+        // Delete all items (files) under this folder
+        res.items.forEach(item => {
+          deletionPromises.push(deleteObject(item));
+        });
+  
+        // Optionally, delete all prefixes (sub-folders) recursively
+        res.prefixes.forEach(prefix => {
+          // Recursive call to delete sub-folders
+          setSelectedFile([`${kg_file_name}/${prefix.name}/`]);
+          deleteFile();
+        });
+  
+        return Promise.all(deletionPromises);
+      }).then(() => {
+        console.log('Folder and its contents deleted successfully');
+        setSelectedFile(null); // Reset selected file
+        listFiles_self(user.email)
+      }).catch(error => {
+        console.error('Failed to delete folder contents from Firebase', error);
       });
-    };
+    } else {
+      // If it's a file, just delete it
+      deleteObject(storageRef)
+        .then(() => {
+          console.log('File deleted successfully');
+          setSelectedFile(null); // Reset selected file
+          listFiles_self(user.email)
+        })
+        .catch((error) => {
+          console.error('Failed to delete file from Firebase', error);
+        });
+    }
+  };
+
+  const handleRetrieveAPIKey = () => {
+    // setSelectedFile(selectedOption);
+    const storage = getStorage(fireBase)
+    const storageRef = ref(storage, `kg_users/admin/apikey.key`);
+
+    getDownloadURL(storageRef)
+    .then((url) => {
+      fetch(url)
+        .then(response => response.text())
+        .then(text => setopenAIAPIKey(text));
+    })
+    .catch((error) => {
+      console.error('Fail to load OpenAIAPIKey', error);
+    });
+  };
 
 
   function handleUserRepoInit(email) {
@@ -853,18 +917,26 @@ function App() {
   
     listAll(listRef)
       .then((res) => {
-        return Promise.all(
-          res.items.map((itemRef) => 
-            getDownloadURL(itemRef).then((url) => ({
-              name: itemRef.name,
-              // value: url,
-              value: itemRef.name,
-            }))
-          )
+        // List folders (prefixes)
+        const folderPromises = res.prefixes.map((prefix) => ({
+          name: prefix.name,
+          value: prefix.name,
+          isFolder: true
+        }));
+  
+        // List files (items) and get their download URLs
+        const filePromises = res.items.map((itemRef) => 
+          getDownloadURL(itemRef).then((url) => ({
+            name: itemRef.name,
+            value: itemRef.name,
+            isFolder: false
+          }))
         );
+  
+        return Promise.all([...folderPromises, ...filePromises]);
       })
-      .then((filesList) => {
-        setUserRepoOptions(filesList); // change the state with React Hook
+      .then((filesAndFoldersList) => {
+        setUserRepoOptions(filesAndFoldersList); // change the state with React Hook
       })
       .catch((error) => {
         console.log(error);
@@ -970,7 +1042,7 @@ function App() {
 };
 
 
-  const [showSelectSearchBox, setShowSelectSearchBox] = useState(true);
+  const [showSelectSearchBox, setShowSelectSearchBox] = useState(false);
 
   const toggleSelectSearchBox = () => {
     setShowSelectSearchBox(!showSelectSearchBox);
@@ -1182,6 +1254,91 @@ const uploadText = () => {
   );
   listFiles_self(user.email)
   alert(`/${objectName} has been successfully uploaded to firebase!`);
+};
+
+const uploadProjectFile = async () => {
+  const file_name = document.getElementsByClassName("projectFileName")[0].value;
+  const path = "kg_users";
+  const storage = getStorage(fireBase);
+
+
+  const text_content = rawText
+  const textName = `${path}/${user.email}/${file_name}.project/text.text`;
+  const textFile = new Blob([text_content], { type: 'text/plain;charset=utf-8' }); 
+  const textStorageRef = ref(storage, `/${textName}`);
+  const textUploadTask = uploadBytesResumable(textStorageRef, textFile); 
+
+
+  const prompt_content = document.getElementsByClassName("promptText")[0].value;
+  const promptName = `${path}/${user.email}/${file_name}.project/prompt.prompt`;
+  const promptFile = new Blob([prompt_content], { type: 'text/plain;charset=utf-8' });
+  const promptStorageRef = ref(storage, `/${promptName}`);
+  const promptUploadTask = uploadBytesResumable(promptStorageRef, promptFile);
+
+  const pdfName = `${path}/${user.email}/${file_name}.project/pdf.pdf`;
+  const pdfStorageRef = ref(storage, `/${pdfName}`);
+  const pdfUploadTask = uploadBytesResumable(pdfStorageRef, uploadedFile); // upload the uploadedFile
+
+  const graphName = `${path}/${user.email}/${file_name}.project/graph.json`;
+  const graphFile = new Blob([JSON.stringify(graphState, null, 2)], { type: 'application/json;charset=utf-8' });
+  const graphStorageRef = ref(storage, `/${graphName}`);
+  const graphUploadTask = uploadBytesResumable(graphStorageRef, graphFile); // upload the uploadedFile
+
+  const allUploadTasks = [
+    { task: textUploadTask, name: "text" },
+    { task: promptUploadTask, name: "prompt" },
+    { task: pdfUploadTask, name: "pdf" },
+    { task: graphUploadTask, name: "graph" }
+  ];
+
+  const allProgress = {};
+
+  allUploadTasks.forEach(({ task, name }) => {
+    allProgress[name] = 0;
+
+    task.on(
+      "state_changed",
+      (snapshot) => {
+        const percent = Math.round(
+          (snapshot.bytesTransferred / snapshot.totalBytes) * 100
+        );
+        allProgress[name] = percent;
+
+        // Calculate total progress
+        const totalPercent = Math.round(
+          Object.values(allProgress).reduce((acc, val) => acc + val, 0) /
+            Object.keys(allProgress).length
+        );
+
+        // Update progress for the whole batch of uploads
+        setPercent(totalPercent);
+      },
+      (err) => console.log(err, `Error uploading ${name}`),
+      () => {
+        getDownloadURL(task.snapshot.ref).then((url) => {
+          console.log(`${name} uploaded to: ${url}`);
+        });
+      }
+    );
+  });
+
+  // Waiting for all uploads to complete using Promise.all()
+  const completionPromises = allUploadTasks.map(({ task }) =>
+    new Promise((resolve, reject) => {
+      task.then(
+        (snapshot) => resolve(snapshot),
+        (error) => reject(error)
+      );
+    })
+  );
+
+  try {
+    await Promise.all(completionPromises);
+    console.log("All files uploaded successfully!");
+    // listFiles_self(user.email)   // Call this if needed
+  } catch (error) {
+    console.log("Error uploading one or more files:", error);
+  }
 };
   
 
@@ -1531,10 +1688,10 @@ const regenerateGraph = async () => {
               </nav>
 
               <nav style={{ display: 'flex', alignItems: 'center' }}>
-                <button onClick={zoomOut}>➖</button>
-                <button onClick={zoomIn}>➕</button>
-                <button onClick={goToPrevPage}>Prev</button>
-                <button onClick={goToNextPage}>Next</button>
+                <button className='pdfpagezoomButton' onClick={zoomOut}>➖</button>
+                <button className='pdfpagezoomButton' onClick={zoomIn}>➕</button>
+                <button className='pdfpagechangeButton' onClick={goToPrevPage}>Prev</button>
+                <button className='pdfpagechangeButton' onClick={goToNextPage}>Next</button>
                 <Form.Control
                     type="text"
                     value={inputValue}
@@ -1668,12 +1825,20 @@ const regenerateGraph = async () => {
                           )}
                       </div>
                     }
-                    {user  && showUserRepo && <div className='promptButtonBox' style={{ display: 'flex', flexDirection: 'row'}}>
-                      <button className="loadFileButton" onClick={handleSelectedFile}>Load File</button>
-                      <button className="refreshRepoButton" onClick={refreshRepo(user.email)}>Refresh Repo</button>
-                      <button className="deleteFileButton" onClick={deleteFile}>Delete File</button>
+                    {user  && showUserRepo && 
+                    <div className='repoButtonBox' style={{ display: 'flex', flexDirection: 'column'}}>
+                      <div className='promptButtonBox' style={{ display: 'flex', flexDirection: 'row'}}>
+                        <button className="loadFileButton" onClick={handleSelectedFile}>Load</button>
+                        <button className="refreshRepoButton" onClick={refreshRepo(user.email)}>Refresh</button>
+                        <button className="deleteFileButton" onClick={deleteFile}>Delete</button>
+                      </div>
+                      <div className='promptButtonBox' style={{ display: 'flex', flexDirection: 'row'}}>
+                      { <input className="projectFileName" placeholder="project name"></input>}
+                      <button className="uploadProjectButton" onClick={uploadProjectFile}>Save Project</button>
+                      </div>
+                    </div>
                       
-                    </div>}
+                      }
 
           </div>
       

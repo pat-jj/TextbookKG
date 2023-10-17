@@ -257,7 +257,7 @@
 }
 
 .promptText{
-  z-index: 9999;
+  z-index: 9998;
   border: 1px solid rgb(222, 190, 114);
   border-width: 5px;
   border-radius: 15px;
@@ -388,7 +388,7 @@
 
 
 .generateButton {
-  background-color: rgb(255, 168, 62);
+  background-color: rgb(255, 187, 0);
   border: 0px solid rgb(252, 99, 99);
   border-radius: 5px;
   border-width: 1.5px;
@@ -468,6 +468,40 @@
 
 .resumeButton:hover {
   background-color: rgba(184, 249, 200, 0.8);
+}
+
+.pdfpagezoomButton {
+  background-color: rgb(255, 255, 255);
+  border: 1px solid rgb(0, 0, 0);
+  border-radius: 5px;
+  color: rgb(0, 0, 0);
+  cursor: pointer;
+  font-size: 16px;
+  height: 100%;
+  outline: none;
+  width: 10%;
+  display: inline-block;
+}
+
+.pdfpagezoomButton:hover {
+  background-color: rgba(239, 235, 235, 0.8);
+}
+
+.pdfpagechangeButton {
+  background-color: rgb(236, 234, 234);
+  border: 1px solid rgb(0, 0, 0);
+  border-radius: 5px;
+  color: rgb(0, 0, 0);
+  cursor: pointer;
+  font-size: 16px;
+  height: 100%;
+  outline: none;
+  width: 15%;
+  display: inline-block;
+}
+
+.pdfpagechangeButton:hover {
+  background-color: rgba(255, 255, 255, 0.8);
 }
 
 .resetPromptButton {
@@ -605,10 +639,18 @@
 }
 
 .promptButtonBox{
-  width: 90%;
+  width: 100%;
   height: 10%;
   margin-right: 0;
   margin-left: 0;
+}
+
+.repoButtonBox{
+  width: 100%;
+  height: 30%;
+  margin-right: 0;
+  margin-left: 0;
+  z-index: 9999;
 }
 
 .textButtonBox_1{
@@ -690,6 +732,19 @@
   width: 100%; 
 }
 
+.projectFileName{
+  border: 1px solid rgb(0, 0, 0);
+  border-radius: 5px;
+  box-shadow: 0 0 5px rgb(0 0 0 / 10%);
+  display: block;
+  font-size: 16px;
+  height: 35px;
+  outline: none;
+  padding: 0 5px;
+  width: 50%; 
+}
+
+
 .kgFileName{
   border: 1px solid rgb(0, 0, 0);
   border-radius: 5px;
@@ -754,6 +809,24 @@
 }
 
 .uploadButton:hover {
+  background-color: rgba(50, 246, 207, 0.8);
+}
+
+.uploadProjectButton {
+  background-color: rgb(18, 245, 185);
+  border: 1px solid rgb(0, 0, 0);
+  border-radius: 5px;
+  color: rgb(0, 0, 0);
+  cursor: pointer;
+  font-size: 16px;
+  height: 35px;
+  outline: none;
+  width: 50%;
+  display: inline-block;
+  
+}
+
+.uploadProjectButton:hover {
   background-color: rgba(50, 246, 207, 0.8);
 }
 
@@ -846,9 +919,9 @@
   color: rgb(0, 0, 0);
   cursor: pointer;
   font-size: 16px;
-  height: 50px;
+  height: 40px;
   outline: none;
-  width: 30%;
+  width: 34%;
   display: inline-block;
 }
 
@@ -864,9 +937,9 @@
   color: rgb(0, 0, 0);
   cursor: pointer;
   font-size: 16px;
-  height: 50px;
+  height: 40px;
   outline: none;
-  width: 30%;
+  width: 33%;
   display: inline-block;
 }
 
@@ -882,9 +955,9 @@
   color: rgb(0, 0, 0);
   cursor: pointer;
   font-size: 16px;
-  height: 50px;
+  height: 40px;
   outline: none;
-  width: 30%;
+  width: 33%;
   display: inline-block;
 }
 
