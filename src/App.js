@@ -771,6 +771,7 @@ function App() {
       const promptStorageRef = ref(storage, `/${objectName}/prompt.prompt`);
       const pdfStorageRef = ref(storage, `/${objectName}/pdf.pdf`);
       const textStorageRef = ref(storage, `/${objectName}/text.text`);
+      const pageStorageRef = ref(storage, `/${objectName}/content_pages`);
 
 
       getDownloadURL(graphStorageRef)
@@ -799,6 +800,13 @@ function App() {
         fetch(url)
           .then(response => response.text())
           .then(text => setRawText(text));
+      })
+
+      getDownloadURL(pageStorageRef)
+      .then((url) => {
+        fetch(url)
+          .then(response => response.text())
+          .then(pages => setContentPage(pages));
       })
     }
 
@@ -1268,6 +1276,11 @@ const uploadProjectFile = async () => {
   const textStorageRef = ref(storage, `/${textName}`);
   const textUploadTask = uploadBytesResumable(textStorageRef, textFile); 
 
+  const content_pages = contentPage
+  const contentName = `${path}/${user.email}/${file_name}.project/content_pages`;
+  const contentPageFile = new Blob([content_pages], { type: 'text/plain;charset=utf-8' }); 
+  const pageStorageRef = ref(storage, `/${contentName}`);
+  const pageUploadTask = uploadBytesResumable(pageStorageRef, contentPageFile); 
 
   const prompt_content = document.getElementsByClassName("promptText")[0].value;
   const promptName = `${path}/${user.email}/${file_name}.project/prompt.prompt`;
@@ -1284,8 +1297,11 @@ const uploadProjectFile = async () => {
   const graphStorageRef = ref(storage, `/${graphName}`);
   const graphUploadTask = uploadBytesResumable(graphStorageRef, graphFile); // upload the uploadedFile
 
+
+
   const allUploadTasks = [
     { task: textUploadTask, name: "text" },
+    { task: pageUploadTask, name: "content_pages" },
     { task: promptUploadTask, name: "prompt" },
     { task: pdfUploadTask, name: "pdf" },
     { task: graphUploadTask, name: "graph" }
