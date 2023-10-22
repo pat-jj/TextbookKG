@@ -1,0 +1,592 @@
+{
+      "CHAPTER_1": {
+            "name": "An_Introduction_to_the_Human_Body",
+            "start_page": "7",
+            "end_page": 31,
+            "sections": {
+                  "1.1_Overview_of_Anatomy_and_Physiology": "8",
+                  "1.2_Structural_Organization_of_the_Human_Body": "9",
+                  "1.3_Functions_of_Human_Life": "14",
+                  "1.4_Requirements_for_Human_Life": "16",
+                  "1.5_Homeostasis": "20",
+                  "1.6_Anatomical_Terminology": "23",
+                  "1.7_Medical_Imaging": "28"
+            },
+            "in_sections": {
+                  "1.1 Overview of Anatomy and Physiology": 2,
+                  "1.2 Structural Organization of the Human Body": 3,
+                  "1.3 Functions of Human Life": 8,
+                  "1.4 Requirements for Human Life": 10,
+                  "1.5 Homeostasis": 14,
+                  "1.6 Anatomical Terminology": 17,
+                  "1.7 Medical Imaging": 22
+            }
+      },
+      "CHAPTER_2": {
+            "end_page": 74,
+            "name": "The_Chemical_Level_of_Organization",
+            "start_page": "39",
+            "sections": {
+                  "2.1_Elements_and_Atoms:_The_Building_Blocks_of_Matter": "40",
+                  "2.2_Chemical_Bonds": "47",
+                  "2.3_Chemical_Reactions": "51",
+                  "2.4_Inorganic_Compounds_Essential_to_Human_Functioning": "54",
+                  "2.5_Organic_Compounds_Essential_to_Human_Functioning": "61"
+            },
+            "in_sections": {
+                  "2.1 Elements and Atoms: The Building Blocks of Matter": 2,
+                  "2.2 Chemical Bonds": 9,
+                  "2.3 Chemical Reactions": 13,
+                  "2.4 Inorganic Compounds Essential to Human Functioning": 16,
+                  "2.5 Organic Compounds Essential to Human Functioning": 23
+            }
+      },
+      "CHAPTER_3": {
+            "end_page": 115,
+            "name": "The_Cellular_Level_of_Organization",
+            "start_page": "81",
+            "sections": {
+                  "3.1_The_Cell_Membrane": "82",
+                  "3.2_The_Cytoplasm_and_Cellular_Organelles": "91",
+                  "3.3_The_Nucleus_and_DNA_Replication": "98",
+                  "3.4_Protein_Synthesis": "103",
+                  "3.5_Cell_Growth_and_Division": "107",
+                  "3.6_Cellular_Differentiation": "112"
+            },
+            "in_sections": {
+                  "3.1 The Cell Membrane": 2,
+                  "3.2 The Cytoplasm and Cellular Organelles": 11,
+                  "3.3 The Nucleus and DNA Replication": 18,
+                  "3.4 Protein Synthesis": 23,
+                  "3.5 Cell Growth and Division": 27,
+                  "3.6 Cellular Differentiation": 32
+            }
+      },
+      "CHAPTER_4": {
+            "end_page": 154,
+            "name": "The_Tissue_Level_of_Organization",
+            "start_page": "125",
+            "sections": {
+                  "4.1_Types_of_Tissues": "126",
+                  "4.2_Epithelial_Tissue": "130",
+                  "4.3_Connective_Tissue_Supports_and_Protects": "140",
+                  "4.4_Muscle_Tissue_and_Motion": "147",
+                  "4.5_Nervous_Tissue_Mediates_Perception_and_Response": "149",
+                  "4.6_Tissue_Injury_and_Aging": "151"
+            },
+            "in_sections": {
+                  "4.1 Types of Tissues": 2,
+                  "4.2 Epithelial Tissue": 6,
+                  "4.3 Connective Tissue Supports and Protects": 16,
+                  "4.4 Muscle Tissue and Motion": 23,
+                  "4.5 Nervous Tissue Mediates Perception and Response": 25,
+                  "4.6 Tissue Injury and Aging": 27
+            }
+      },
+      "CHAPTER_5": {
+            "end_page": 185,
+            "name": "The_Integumentary_System",
+            "start_page": "163",
+            "sections": {
+                  "5.1_Layers_of_the_Skin": "163",
+                  "5.2_Accessory_Structures_of_the_Skin": "172",
+                  "5.3_Functions_of_the_Integumentary_System": "177",
+                  "5.4_Diseases,_Disorders,_and_Injuries_of_the_Integumentary_System": "180"
+            },
+            "in_sections": {
+                  "5.1 Layers of the Skin": 1,
+                  "5.2 Accessory Structures of the Skin": 10,
+                  "5.3 Functions of the Integumentary System": 15,
+                  "5.4 Diseases, Disorders, and Injuries of the Integumentary System": 18
+            }
+      },
+      "CHAPTER_6": {
+            "end_page": 220,
+            "name": "Bone_Tissue_and_the_Skeletal_System",
+            "start_page": "191",
+            "sections": {
+                  "6.1_The_Functions_of_the_Skeletal_System": "191",
+                  "6.2_Bone_Classification": "194",
+                  "6.3_Bone_Structure": "196",
+                  "6.4_Bone_Formation_and_Development": "206",
+                  "6.5_Fractures:_Bone_Repair": "212",
+                  "6.6_Exercise,_Nutrition,_Hormones,_and_Bone_Tissue": "215",
+                  "6.7_Calcium_Homeostasis:_Interactions_of_the_Skeletal_System_and_Other_Organ_Systems": "219"
+            },
+            "in_sections": {
+                  "6.1 The Functions of the Skeletal System": 1,
+                  "6.2 Bone Classification": 4,
+                  "6.3 Bone Structure": 6,
+                  "6.4 Bone Formation and Development": 16,
+                  "6.5 Fractures: Bone Repair": 22,
+                  "6.6 Exercise, Nutrition, Hormones, and Bone Tissue": 25,
+                  "6.7 Calcium Homeostasis: Interactions of the Skeletal System and Other Organ Systems": 29
+            }
+      },
+      "CHAPTER_7": {
+            "end_page": 262,
+            "name": "Axial_Skeleton",
+            "start_page": "227",
+            "sections": {
+                  "7.1_Divisions_of_the_Skeletal_System": "228",
+                  "7.2_The_Skull": "229",
+                  "7.3_The_Vertebral_Column": "248",
+                  "7.4_The_Thoracic_Cage": "259",
+                  "7.5_Embryonic_Development_of_the_Axial_Skeleton": "260"
+            },
+            "in_sections": {
+                  "7.1 Divisions of the Skeletal System": 2,
+                  "7.2 The Skull": 3,
+                  "7.3 The Vertebral Column": 22,
+                  "7.4 The Thoracic Cage": 33,
+                  "7.5 Embryonic Development of the Axial Skeleton": 34
+            }
+      },
+      "CHAPTER_8": {
+            "end_page": 300,
+            "name": "The_Appendicular_Skeleton",
+            "start_page": "273",
+            "sections": {
+                  "8.1_The_Pectoral_Girdle": "273",
+                  "8.2_Bones_of_the_Upper_Limb": "277",
+                  "8.3_The_Pelvic_Girdle_and_Pelvis": "285",
+                  "8.4_Bones_of_the_Lower_Limb": "289",
+                  "8.5_Development_of_the_Appendicular_Skeleton": "297"
+            },
+            "in_sections": {
+                  "8.1 The Pectoral Girdle": 1,
+                  "8.2 Bones of the Upper Limb": 5,
+                  "8.3 The Pelvic Girdle and Pelvis": 13,
+                  "8.4 Bones of the Lower Limb": 17,
+                  "8.5 Development of the Appendicular Skeleton": 25
+            }
+      },
+      "CHAPTER_9": {
+            "end_page": 345,
+            "name": "Joints",
+            "start_page": "313",
+            "sections": {
+                  "9.1_Classification_of_Joints": "314",
+                  "9.2_Fibrous_Joints": "316",
+                  "9.3_Cartilaginous_Joints": "319",
+                  "9.4_Synovial_Joints": "320",
+                  "9.5_Types_of_Body_Movements": "327",
+                  "9.6_Anatomy_of_Selected_Synovial_Joints": "332",
+                  "9.7_Development_of_Joints": "344"
+            },
+            "in_sections": {
+                  "9.1 Classification of Joints": 2,
+                  "9.2 Fibrous Joints": 4,
+                  "9.3 Cartilaginous Joints": 7,
+                  "9.4 Synovial Joints": 8,
+                  "9.5 Types of Body Movements": 15,
+                  "9.6 Anatomy of Selected Synovial Joints": 20,
+                  "9.7 Development of Joints": 32
+            }
+      },
+      "CHAPTER_10": {
+            "end_page": 387,
+            "name": "Muscle_Tissue",
+            "start_page": "357",
+            "sections": {
+                  "X.1_Overview_of_Muscle_Tissues": "357",
+                  "X.2_Skeletal_Muscle": "359",
+                  "X.3_Muscle_Fiber_Contraction_and_Relaxation": "364",
+                  "X.4_Nervous_System_Control_of_Muscle_Tension": "372",
+                  "X.5_Types_of_Muscle_Fibers": "377",
+                  "X.6_Exercise_and_Muscle_Performance": "378",
+                  "X.7_Cardiac_Muscle_Tissue": "381",
+                  "X.8_Smooth_Muscle": "383",
+                  "X.9_Development_and_Regeneration_of_Muscle_Tissue": "386"
+            },
+            "in_sections": {
+                  "10.1 Overview of Muscle Tissues": 1,
+                  "10.2 Skeletal Muscle": 3,
+                  "10.3 Muscle Fiber Contraction and Relaxation": 8,
+                  "10.4 Nervous System Control of Muscle Tension": 16,
+                  "10.5 Types of Muscle Fibers": 21,
+                  "10.6 Exercise and Muscle Performance": 22,
+                  "10.7 Cardiac Muscle Tissue": 25,
+                  "10.8 Smooth Muscle": 27,
+                  "10.9 Development and Regeneration of Muscle Tissue": 30
+            }
+      },
+      "CHAPTER_11": {
+            "end_page": 440,
+            "name": "The_Muscular_System",
+            "start_page": "395",
+            "sections": {
+                  "Y.1_Interactions_of_Skeletal_Muscles,_Their_Fascicle_Arrangement,_and_Their_Lever_Systems": "395",
+                  "Y.2_Naming_Skeletal_Muscles": "400",
+                  "Y.3_Axial_Muscles_of_the_Head,_Neck,_and_Back": "403",
+                  "Y.4_Axial_Muscles_of_the_Abdominal_Wall,_and_Thorax": "414",
+                  "Y.5_Muscles_of_the_Pectoral_Girdle_and_Upper_Limbs": "421",
+                  "Y.6_Appendicular_Muscles_of_the_Pelvic_Girdle_and_Lower_Limbs": "432"
+            },
+            "in_sections": {
+                  "11.1 Interactions of Skeletal Muscles, Their Fascicle Arrangement, and Their Lever Systems": 1,
+                  "11.2 Naming Skeletal Muscles": 6,
+                  "11.3 Axial Muscles of the Head, Neck, and Back": 9,
+                  "11.4 Axial Muscles of the Abdominal Wall, and Thorax": 20,
+                  "11.5 Muscles of the Pectoral Girdle and Upper Limbs": 27,
+                  "11.6 Appendicular Muscles of the Pelvic Girdle and Lower Limbs": 38
+            }
+      },
+      "CHAPTER_12": {
+            "end_page": 482,
+            "name": "The_Nervous_System_and_Nervous_Tissue",
+            "start_page": "451",
+            "sections": {
+                  "12.1_Basic_Structure_and_Function_of_the_Nervous_System": "452",
+                  "12.2_Nervous_Tissue": "458",
+                  "12.3_The_Function_of_Nervous_Tissue": "465",
+                  "12.4_The_Action_Potential": "468",
+                  "12.5_Communication_Between_Neurons": "476"
+            },
+            "in_sections": {
+                  "12.1 Basic Structure and Function of the Nervous System": 2,
+                  "12.2 Nervous Tissue": 8,
+                  "12.3 The Function of Nervous Tissue": 15,
+                  "12.4 The Action Potential": 18,
+                  "12.5 Communication Between Neurons": 26
+            }
+      },
+      "CHAPTER_13": {
+            "end_page": 527,
+            "name": "Anatomy_of_the_Nervous_System",
+            "start_page": "493",
+            "sections": {
+                  "13.1_The_Embryologic_Perspective": "494",
+                  "13.2_The_Central_Nervous_System": "499",
+                  "13.3_Circulation_and_the_Central_Nervous_System": "511",
+                  "13.4_The_Peripheral_Nervous_System": "518"
+            },
+            "in_sections": {
+                  "13.1 The Embryologic Perspective": 2,
+                  "13.2 The Central Nervous System": 7,
+                  "13.3 Circulation and the Central Nervous System": 19,
+                  "13.4 The Peripheral Nervous System": 26
+            }
+      },
+      "CHAPTER_14": {
+            "end_page": 578,
+            "name": "The_Somatic_Nervous_System",
+            "start_page": "539",
+            "sections": {
+                  "14.1_Sensory_Perception": "540",
+                  "14.2_Central_Processing": "559",
+                  "14.3_Motor_Responses": "571"
+            },
+            "in_sections": {
+                  "14.1 Sensory Perception": 2,
+                  "14.2 Central Processing": 21,
+                  "14.3 Motor Responses": 33
+            }
+      },
+      "CHAPTER_15": {
+            "end_page": 615,
+            "name": "The_Autonomic_Nervous_System",
+            "start_page": "589",
+            "sections": {
+                  "15.1_Divisions_of_the_Autonomic_Nervous_System": "590",
+                  "15.2_Autonomic_Reflexes_and_Homeostasis": "599",
+                  "15.3_Central_Control": "607",
+                  "15.4_Drugs_that_Affect_the_Autonomic_System": "610"
+            },
+            "in_sections": {
+                  "15.1 Divisions of the Autonomic Nervous System": 2,
+                  "15.2 Autonomic Reflexes and Homeostasis": 11,
+                  "15.3 Central Control": 19,
+                  "15.4 Drugs that Affect the Autonomic System": 22
+            }
+      },
+      "CHAPTER_16": {
+            "end_page": 652,
+            "name": "The_Neurological_Exam",
+            "start_page": "625",
+            "sections": {
+                  "16.1_Overview_of_the_Neurological_Exam": "626",
+                  "16.2_The_Mental_Status_Exam": "629",
+                  "16.3_The_Cranial_Nerve_Exam": "635",
+                  "16.4_The_Sensory_and_Motor_Exams": "644",
+                  "16.5_The_Coordination_and_Gait_Exams": "649"
+            },
+            "in_sections": {
+                  "16.1 Overview of the Neurological Exam": 2,
+                  "16.2 The Mental Status Exam": 5,
+                  "16.3 The Cranial Nerve Exam": 11,
+                  "16.4 The Sensory and Motor Exams": 20,
+                  "16.5 The Coordination and Gait Exams": 25
+            }
+      },
+      "CHAPTER_17": {
+            "end_page": 701,
+            "name": "The_Endocrine_System",
+            "start_page": "661",
+            "sections": {
+                  "17.1_An_Overview_of_the_Endocrine_System": "661",
+                  "17.2_Hormones": "664",
+                  "17.3_The_Pituitary_Gland_and_Hypothalamus": "673",
+                  "17.4_The_Thyroid_Gland": "680",
+                  "17.5_The_Parathyroid_Glands": "685",
+                  "17.6_The_Adrenal_Glands": "688",
+                  "17.7_The_Pineal_Gland": "691",
+                  "17.8_Gonadal_and_Placental_Hormones": "692",
+                  "17.9_The_Endocrine_Pancreas": "693",
+                  "17.X_Organs_with_Secondary_Endocrine_Functions": "697",
+                  "17.Y_Development_and_Aging_of_the_Endocrine_System": "700"
+            },
+            "in_sections": {
+                  "17.1 An Overview of the Endocrine System": 1,
+                  "17.2 Hormones": 4,
+                  "17.3 The Pituitary Gland and Hypothalamus": 13,
+                  "17.4 The Thyroid Gland": 20,
+                  "17.5 The Parathyroid Glands": 25,
+                  "17.6 The Adrenal Glands": 28,
+                  "17.7 The Pineal Gland": 31,
+                  "17.8 Gonadal and Placental Hormones": 32,
+                  "17.9 The Endocrine Pancreas": 33,
+                  "17.10 Organs with Secondary Endocrine Functions": 37,
+                  "17.11 Development and Aging of the Endocrine System": 40
+            }
+      },
+      "CHAPTER_18": {
+            "end_page": 743,
+            "name": "The_Cardiovascular_System:_Blood",
+            "start_page": "711",
+            "sections": {
+                  "18.1_An_Overview_of_Blood": "711",
+                  "18.2_Production_of_the_Formed_Elements": "716",
+                  "18.3_Erythrocytes": "719",
+                  "18.4_Leukocytes_and_Platelets": "727",
+                  "18.5_Hemostasis": "733",
+                  "18.6_Blood_Typing": "739"
+            },
+            "in_sections": {
+                  "18.1 An Overview of Blood": 1,
+                  "18.2 Production of the Formed Elements": 6,
+                  "18.3 Erythrocytes": 9,
+                  "18.4 Leukocytes and Platelets": 17,
+                  "18.5 Hemostasis": 23,
+                  "18.6 Blood Typing": 29
+            }
+      },
+      "CHAPTER_19": {
+            "end_page": 800,
+            "name": "The_Cardiovascular_System:_The_Heart",
+            "start_page": "751",
+            "sections": {
+                  "19.1_Heart_Anatomy": "752",
+                  "19.2_Cardiac_Muscle_and_Electrical_Activity": "772",
+                  "19.3_Cardiac_Cycle": "784",
+                  "19.4_Cardiac_Physiology": "788",
+                  "19.5_Development_of_the_Heart": "799"
+            },
+            "in_sections": {
+                  "19.1 Heart Anatomy": 2,
+                  "19.2 Cardiac Muscle and Electrical Activity": 22,
+                  "19.3 Cardiac Cycle": 34,
+                  "19.4 Cardiac Physiology": 38,
+                  "19.5 Development of the Heart": 49
+            }
+      },
+      "CHAPTER_20": {
+            "end_page": 880,
+            "name": "The_Cardiovascular_System:_Blood_Vessels_and_Circulation",
+            "start_page": "809",
+            "sections": {
+                  "20.1_Structure_and_Function_of_Blood_Vessels": "810",
+                  "20.2_Blood_Flow,_Blood_Pressure,_and_Resistance": "821",
+                  "20.3_Capillary_Exchange": "830",
+                  "20.4_Homeostatic_Regulation_of_the_Vascular_System": "832",
+                  "20.5_Circulatory_Pathways": "842",
+                  "20.6_Development_of_Blood_Vessels_and_Fetal_Circulation": "878"
+            },
+            "in_sections": {
+                  "20.1 Structure and Function of Blood Vessels": 2,
+                  "20.2 Blood Flow, Blood Pressure, and Resistance": 13,
+                  "20.3 Capillary Exchange": 22,
+                  "20.4 Homeostatic Regulation of the Vascular System": 24,
+                  "20.5 Circulatory Pathways": 34,
+                  "20.6 Development of Blood Vessels and Fetal Circulation": 70
+            }
+      },
+      "CHAPTER_21": {
+            "end_page": 939,
+            "name": "The_Lymphatic_and_Immune_System",
+            "start_page": "893",
+            "sections": {
+                  "21.1_Anatomy_of_the_Lymphatic_and_Immune_Systems": "894",
+                  "21.2_Barrier_Defenses_and_the_Innate_Immune_Response": "905",
+                  "21.3_The_Adaptive_Immune_Response:_T_lymphocytes_and_Their_Functional_Types": "912",
+                  "21.4_The_Adaptive_Immune_Response:_B-lymphocytes_and_Antibodies": "920",
+                  "21.5_The_Immune_Response_against_Pathogens": "926",
+                  "21.6_Diseases_Associated_with_Depressed_or_Overactive_Immune_Responses": "930",
+                  "21.7_Transplantation_and_Cancer_Immunology": "934"
+            },
+            "in_sections": {
+                  "21.1 Anatomy of the Lymphatic and Immune Systems": 2,
+                  "21.2 Barrier Defenses and the Innate Immune Response": 13,
+                  "21.3 The Adaptive Immune Response: T lymphocytes and Their Functional Types": 20,
+                  "21.4 The Adaptive Immune Response: B-lymphocytes and Antibodies": 28,
+                  "21.5 The Immune Response against Pathogens": 34,
+                  "21.6 Diseases Associated with Depressed or Overactive Immune Responses": 38,
+                  "21.7 Transplantation and Cancer Immunology": 42
+            }
+      },
+      "CHAPTER_22": {
+            "end_page": 985,
+            "name": "The_Respiratory_System",
+            "start_page": "947",
+            "sections": {
+                  "22.1_Organs_and_Structures_of_the_Respiratory_System": "948",
+                  "22.2_The_Lungs": "959",
+                  "22.3_The_Process_of_Breathing": "961",
+                  "22.4_Gas_Exchange": "970",
+                  "22.5_Transport_of_Gases": "975",
+                  "22.6_Modifications_in_Respiratory_Functions": "981",
+                  "22.7_Embryonic_Development_of_the_Respiratory_System": "983"
+            },
+            "in_sections": {
+                  "22.1 Organs and Structures of the Respiratory System": 2,
+                  "22.2 The Lungs": 13,
+                  "22.3 The Process of Breathing": 15,
+                  "22.4 Gas Exchange": 24,
+                  "22.5 Transport of Gases": 29,
+                  "22.6 Modifications in Respiratory Functions": 35,
+                  "22.7 Embryonic Development of the Respiratory System": 37
+            }
+      },
+      "CHAPTER_23": {
+            "end_page": 1047,
+            "name": "The_Digestive_System",
+            "start_page": "995",
+            "sections": {
+                  "23.1_Overview_of_the_Digestive_System": "995",
+                  "23.2_Digestive_System_Processes_and_Regulation": "1001",
+                  "23.3_The_Mouth,_Pharynx,_and_Esophagus": "1005",
+                  "23.4_The_Stomach": "1016",
+                  "23.5_The_Small_and_Large_Intestines": "1022",
+                  "23.6_Accessory_Organs_in_Digestion:_The_Liver,_Pancreas,_and_Gallbladder": "1032",
+                  "23.7_Chemical_Digestion_and_Absorption:_A_Closer_Look": "1037"
+            },
+            "in_sections": {
+                  "23.1 Overview of the Digestive System": 1,
+                  "23.2 Digestive System Processes and Regulation": 7,
+                  "23.3 The Mouth, Pharynx, and Esophagus": 11,
+                  "23.4 The Stomach": 22,
+                  "23.5 The Small and Large Intestines": 28,
+                  "23.6 Accessory Organs in Digestion: The Liver, Pancreas, and Gallbladder": 38,
+                  "23.7 Chemical Digestion and Absorption: A Closer Look": 43
+            }
+      },
+      "CHAPTER_24": {
+            "end_page": 1100,
+            "name": "Metabolism_and_Nutrition",
+            "start_page": "1057",
+            "sections": {
+                  "24.1_Overview_of_Metabolic_Reactions": "1058",
+                  "24.2_Carbohydrate_Metabolism": "1063",
+                  "24.3_Lipid_Metabolism": "1075",
+                  "24.4_Protein_Metabolism": "1081",
+                  "24.5_Metabolic_States_of_the_Body": "1087",
+                  "24.6_Energy_and_Heat_Balance": "1091",
+                  "24.7_Nutrition_and_Diet": "1093"
+            },
+            "in_sections": {
+                  "24.1 Overview of Metabolic Reactions": 2,
+                  "24.2 Carbohydrate Metabolism": 7,
+                  "24.3 Lipid Metabolism": 19,
+                  "24.4 Protein Metabolism": 25,
+                  "24.5 Metabolic States of the Body": 31,
+                  "24.6 Energy and Heat Balance": 35,
+                  "24.7 Nutrition and Diet": 37
+            }
+      },
+      "CHAPTER_25": {
+            "end_page": 1146,
+            "name": "The_Urinary_System",
+            "start_page": "1109",
+            "sections": {
+                  "25.1_Physical_Characteristics_of_Urine": "1110",
+                  "25.2_Gross_Anatomy_of_Urine_Transport": "1113",
+                  "25.3_Gross_Anatomy_of_the_Kidney": "1117",
+                  "25.4_Microscopic_Anatomy_of_the_Kidney": "1121",
+                  "25.5_Physiology_of_Urine_Formation": "1125",
+                  "25.6_Tubular_Reabsorption": "1128",
+                  "25.7_Regulation_of_Renal_Blood_Flow": "1137",
+                  "25.8_Endocrine_Regulation_of_Kidney_Function": "1139",
+                  "25.9_Regulation_of_Fluid_Volume_and_Composition": "1141",
+                  "25.X_The_Urinary_System_and_Homeostasis": "1143"
+            },
+            "in_sections": {
+                  "25.1 Physical Characteristics of Urine": 2,
+                  "25.2 Gross Anatomy of Urine Transport": 5,
+                  "25.3 Gross Anatomy of the Kidney": 9,
+                  "25.4 Microscopic Anatomy of the Kidney": 13,
+                  "25.5 Physiology of Urine Formation": 17,
+                  "25.6 Tubular Reabsorption": 20,
+                  "25.7 Regulation of Renal Blood Flow": 29,
+                  "25.8 Endocrine Regulation of Kidney Function": 31,
+                  "25.9 Regulation of Fluid Volume and Composition": 33,
+                  "25.10 The Urinary System and Homeostasis": 35
+            }
+      },
+      "CHAPTER_26": {
+            "end_page": 1179,
+            "name": "Fluid,_Electrolyte,_and_Acid-Base_Balance",
+            "start_page": "1155",
+            "sections": {
+                  "26.1_Body_Fluids_and_Fluid_Compartments": "1155",
+                  "26.2_Water_Balance": "1163",
+                  "26.3_Electrolyte_Balance": "1166",
+                  "26.4_Acid-Base_Balance": "1171",
+                  "26.5_Disorders_of_Acid-Base_Balance": "1176"
+            },
+            "in_sections": {
+                  "26.1 Body Fluids and Fluid Compartments": 1,
+                  "26.2 Water Balance": 9,
+                  "26.3 Electrolyte Balance": 12,
+                  "26.4 Acid-Base Balance": 17,
+                  "26.5 Disorders of Acid-Base Balance": 22
+            }
+      },
+      "CHAPTER_27": {
+            "end_page": 1215,
+            "name": "The_Reproductive_System",
+            "start_page": "1185",
+            "sections": {
+                  "27.1_Anatomy_and_Physiology_of_the_Testicular_Reproductive_System": "1186",
+                  "27.2_Anatomy_and_Physiology_of_the_Ovarian_Reproductive_System": "1196",
+                  "27.3_Development_of_the_Male_and_Female_Reproductive_Systems": "1212"
+            },
+            "in_sections": {
+                  "27.1 Anatomy and Physiology of the Testicular Reproductive System": 2,
+                  "27.2 Anatomy and Physiology of the Ovarian Reproductive System": 12,
+                  "27.3 Development of the Male and Female Reproductive Systems": 28
+            }
+      },
+      "CHAPTER_28": {
+            "end_page": 1265,
+            "name": "Development_and_Inheritance",
+            "start_page": "1223",
+            "sections": {
+                  "28.1_Fertilization": "1223",
+                  "28.2_Embryonic_Development": "1228",
+                  "28.3_Fetal_Development": "1239",
+                  "28.4_Changes_During_Pregnancy,_Labor,_and_Birth": "1243",
+                  "28.5_Adjustments_of_the_Infant_at_Birth_and_Postnatal_Stages": "1250",
+                  "28.6_Lactation": "1252",
+                  "28.7_Patterns_of_Inheritance": "1256"
+            },
+            "in_sections": {
+                  "28.1 Fertilization": 1,
+                  "28.2 Embryonic Development": 6,
+                  "28.3 Fetal Development": 17,
+                  "28.4 Changes During Pregnancy, Labor, and Birth": 22,
+                  "28.5 Adjustments of the Infant at Birth and Postnatal Stages": 28,
+                  "28.6 Lactation": 30,
+                  "28.7 Patterns of Inheritance": 34
+            }
+      }
+}
