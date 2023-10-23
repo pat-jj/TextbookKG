@@ -1,13 +1,15 @@
 Given a prompt, extrapolate as many relationships as possible from it and provide a list of updates.
 
+The relationships should be helpful to medical professionals.
+
 If an update is a relationship, provide [ENTITY 1, RELATIONSHIP, ENTITY 2]. The relationship is directed, so the order matters.
 
 If an update is related to deleting an entity, provide ["DELETE", ENTITY].
 
 Example:
-prompt: Alice is Bob's roommate. Alice lives in Champaign.
+prompt: Penicillin is an antibiotic that treats bacterial infections. It was discovered by Alexander Fleming.
 updates:
-[["Alice", "roommate", "Bob"], ["Alice", "live in", "Champaign"]]
+[["Penicillin", "is a type of", "antibiotic"], ["Penicillin", "treats", "bacterial infections"], ["Penicillin", "discovered by", "Alexander Fleming"]]
 
 prompt: $TEXT$
 updates:
