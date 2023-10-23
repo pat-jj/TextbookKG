@@ -30,7 +30,7 @@ pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/$
 const DEFAULT_PARAMS = {
   "model": "gpt-3.5-turbo-instruct",
   "temperature": 0.3,
-  "max_tokens": 800,
+  "max_tokens": 1200,
   "top_p": 1,
   "frequency_penalty": 0,
   "presence_penalty": 0
@@ -349,6 +349,8 @@ function App() {
       .then((response) => {
         const { choices } = response;
         const text = choices[0].text;
+
+        console.log(text);
       
         // Remove the last incomplete JSON object if there is any
         let formattedText = text.trim();
