@@ -374,6 +374,7 @@ function App() {
         } catch (error) {
           console.error('Failed to parse JSON:', error);
           document.getElementsByClassName("generateButton")[0].disabled = false;
+          document.body.style.cursor = 'default';
           setCurrentIndex(-1);
         }
       });
