@@ -21,6 +21,7 @@ import "react-pdf/dist/esm/Page/AnnotationLayer.css"
 import Draggable from 'react-draggable';
 import { Resizable } from 're-resizable';
 import WikiResultsBox from './wikiSearchBox.js';
+import Fuse from 'fuse.js';
 
 
 pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.min.js`;
@@ -1693,12 +1694,27 @@ const regenerateGraph = async () => {
     }
   }, [selectedNode, rawText]);
 
+  
   const handleTextSelect = () => {
     if (textareaRef.current) {
       const start = textareaRef.current.selectionStart;
       const end = textareaRef.current.selectionEnd;
       const selectedText = rawText.slice(start, end);
-      setSelectedNode(selectedText); // or whatever function you want to trigger with the selected text
+      
+      // Fuzzy search for nodes
+      const options = {
+        keys: ['from', 'to'], // You can add more keys if needed
+        threshold: 0.4 // Adjust the threshold for fuzziness
+      };
+      const fuse = new Fuse(graphState.edges, options);
+      const results = fuse.search(selectedText);
+  
+      // If there's a match, select and focus the first result (you can adjust as needed)
+      if (results.length) {
+        const firstMatchedEdge = results[0].item;
+        graphRef.current.Network.selectNodes([firstMatchedEdge.from, firstMatchedEdge.to]);
+        graphRef.current.Network.focus(firstMatchedEdge.from, animationOptions); // Adjust as per your needs
+      }
     }
   };
 
