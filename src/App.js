@@ -302,6 +302,7 @@ function App() {
       }
     });
     setGraphState(current_graph);
+    // console.log(current_graph);
   };
 
   const [userPrompt, setUserPrompt] = useState("");
@@ -367,11 +368,13 @@ function App() {
         console.log(formattedText);
       
         try {
-          const updates = JSON.parse(formattedText);
-          console.log(updates);
-          updateGraph(updates);
+        const updates = JSON.parse(formattedText);
+        // console.log(updates);
+        updateGraph(updates);
         } catch (error) {
           console.error('Failed to parse JSON:', error);
+          document.getElementsByClassName("generateButton")[0].disabled = false;
+          setCurrentIndex(-1);
         }
       });
   };
@@ -1381,72 +1384,56 @@ const uploadProjectFile = async () => {
   }
 };
   
+const [currentIndex, setCurrentIndex] = useState(-1); // Start with -1 to indicate no action
 
-const regenerateGraph = async () => {
-  document.body.style.cursor = 'wait';
-  document.getElementsByClassName("generateButton")[0].disabled = true;
+useEffect(() => {
   let apiKey;
   if (!user) {
       apiKey = document.getElementsByClassName("apiKeyTextField")[0].value;
   } else {
       apiKey = openAIAPIKey;
   }  
+
+  const processQuery = async () => {
+    try {
+      if (currentIndex >= 0 && currentIndex < selectedText.length) {
+          console.log(selectedText[currentIndex]);
+          await queryPrompt(selectedText[currentIndex], apiKey, userPrompt);
+      } else if (currentIndex >= selectedText.length) {
+          console.log("All queries have been processed");
+          document.body.style.cursor = 'default'; 
+          document.getElementsByClassName("generateButton")[0].disabled = false;
+      }
+    } catch (error) {
+      console.error("Error during queryPrompt:", error);
+      document.body.style.cursor = 'default'; 
+      document.getElementsByClassName("generateButton")[0].disabled = false;
+      setCurrentIndex(-1);
+    }
+  }
+
+  processQuery();
+
+}, [currentIndex]);
+
+
+useEffect(() => {
+    if (currentIndex >= 0 && currentIndex < selectedText.length) {
+        setCurrentIndex(prevIndex => prevIndex + 1);
+    }
+}, [graphState]);
+
+const regenerateGraph = async () => {
+  document.body.style.cursor = 'wait';
+  document.getElementsByClassName("generateButton")[0].disabled = true;
   if (selectedText.length === 0) {
     document.body.style.cursor = 'default';
     console.log("No selected quality text to prompt the graph ...");
+  } else {
+    setCurrentIndex(0);
   }
-  
-  let i = 0;
-  
-  const callQueryPrompt = async () => {
-    if (i < selectedText.length) {
-      console.log(selectedText[i]);
-      await queryPrompt(selectedText[i], apiKey, userPrompt);
-      i++;
-      await callQueryPrompt();
-    
-    } else {
-      console.log("Wait graph to be updated ... (10s)")
-      await delay(10000);
-      // handleSave(`${selectedSection}.json`);
-      document.body.style.cursor = 'default'; 
-      document.getElementsByClassName("generateButton")[0].disabled = false;
-    }
-  };
-  await callQueryPrompt(); 
   
 }
-
-  const regenerateGraphExt = async () => {
-    document.body.style.cursor = 'wait';
-    document.getElementsByClassName("generateButton")[0].disabled = true;
-    const apiKey = document.getElementsByClassName("apiKeyTextField")[0].value;
-  
-    if (selectedText.length === 0) {
-      document.body.style.cursor = 'default';
-      console.log("No selected quality text to prompt the graph ...");
-    }
-    
-    let i = 0;
-    
-    const callQueryPrompt = async () => {
-      if (i < selectedText.length) {
-        console.log(selectedText[i]);
-        await queryPromptExt(selectedText[i], apiKey, userPrompt);
-        i++;
-        await callQueryPrompt();
-      
-      } else {
-        console.log("Wait graph to be updated ... (10s)")
-        await delay(10000);
-        // handleSave(`${selectedSection}.json`);
-        document.body.style.cursor = 'default'; 
-        document.getElementsByClassName("generateButton")[0].disabled = false;
-      }
-    };
-    await callQueryPrompt(); 
-    
-  }
 
   //
   // Start Textbook PDF Viewer module
@@ -1694,7 +1681,7 @@ const regenerateGraph = async () => {
     }
   }, [selectedNode, rawText]);
 
-  
+
   const handleTextSelect = () => {
     if (textareaRef.current) {
       const start = textareaRef.current.selectionStart;
@@ -1996,7 +1983,11 @@ const regenerateGraph = async () => {
             </div>
             <div className='innerContainer2' style={{ display: 'flex', flexDirection: 'row'}}>        
               { !user && <input className="apiKeyTextField" type="password" placeholder="OpenAI API key ..."></input> }
-              <button className="generateButton" onClick={regenerateGraph}>Generate</button>
+              <button className="generateButton" onClick={regenerateGraph}>
+                {currentIndex >= 0 && currentIndex < selectedText.length ? 
+                  `Now Processing Text #${currentIndex + 1}` : 
+                  'Generate'}
+              </button>
             </div>
 
           </div>
