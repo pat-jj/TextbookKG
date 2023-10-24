@@ -104,7 +104,7 @@ function App() {
         avoidOverlap: 0.3
       },
       stabilization: {
-        iterations: 2000
+        iterations: 500
       }
     }
   };
@@ -1454,7 +1454,7 @@ const regenerateGraph = async () => {
   const [selectedChapter, setSelectedChapter] = useState(null);
   const [selectedSection, setSelectedSection] = useState(null);
   const [selectedText, setSelectedText] = useState([null]);
-  const [rawText, setRawText] = useState('===\n');
+  const [rawText, setRawText] = useState('');
   const [inSections, setInSections] = useState([]);
 	const [numPages, setNumPages] = useState(null);
 	const [pageNumber, setPageNumber] = useState(1);
@@ -1479,7 +1479,7 @@ const regenerateGraph = async () => {
     const textContentObj = await page.getTextContent();
     const strings = textContentObj.items.map(item => item.str);
     textContent += strings.join(' ') + "\n";
-    textContent += "===\n";
+    textContent = "===\n" + textContent + "===\n";
     
     return textContent;
   }
@@ -1508,7 +1508,7 @@ const regenerateGraph = async () => {
       }
     });
     let textContent = result.data.text;
-    textContent += "===\n";
+    textContent = "===\n" + textContent + "===\n";
     return textContent;
   }
 
@@ -1567,8 +1567,8 @@ const regenerateGraph = async () => {
     if (matches.length === 0 && typeof text === 'string' && text.length > 0) {
       // divide the text into smaller chunks of 500 tokens
       let tokens = text.split(' ');
-      for (let i = 0; i < tokens.length; i += 500) {
-        matches.push(tokens.slice(i, i + 500).join(' '));
+      for (let i = 0; i < tokens.length; i += 800) {
+        matches.push(tokens.slice(i, i + 800).join(' '));
       }
     }
   
@@ -1648,7 +1648,7 @@ const regenerateGraph = async () => {
 
   const handleClearContent = () => {
     setContentPage('');
-    setRawText('===\n');
+    setRawText('');
   }
 
   const handleChapterSelect = (eventKey) => {
@@ -1679,6 +1679,28 @@ const regenerateGraph = async () => {
   // const { win_height, win_width } = useWindowDimensions();
   const win_width = Dimensions.get('window').width;
   const win_height = Dimensions.get('window').height;
+
+  const textareaRef = useRef(null);
+  useEffect(() => {
+    if (selectedNode && textareaRef.current) {
+      const start = rawText.indexOf(selectedNode);
+      if (start !== -1) {
+        const end = start + selectedNode.length;
+        textareaRef.current.selectionStart = start;
+        textareaRef.current.selectionEnd = end;
+        textareaRef.current.focus(); // This makes sure the selection is visible to the user.
+      }
+    }
+  }, [selectedNode, rawText]);
+
+  const handleTextSelect = () => {
+    if (textareaRef.current) {
+      const start = textareaRef.current.selectionStart;
+      const end = textareaRef.current.selectionEnd;
+      const selectedText = rawText.slice(start, end);
+      setSelectedNode(selectedText); // or whatever function you want to trigger with the selected text
+    }
+  };
 
 	return (
 		<div style={{ display: 'flex', flexDirection: 'row'}}>
@@ -1973,9 +1995,11 @@ const regenerateGraph = async () => {
         <div className='inputContainer2' style={{ display: 'flex', flexDirection: 'column'}}>
         <h1 className="headerTextbox" width={win_width * 0.5} height={win_height * 0.1}> 📖 Text</h1>
           <textarea
+            ref={textareaRef}
             className='sectionText'
             value={rawText} // ...force the input's value to match the state variable...
             onChange={e => setRawText(e.target.value)} // ... and update the state variable on any edits!
+            onSelect={handleTextSelect}
           />
           {/* <h1 className="instruction"><img src={require('./instruction.png')} width='100%' height="100%" /></h1> */}
         </div>
