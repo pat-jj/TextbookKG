@@ -1453,6 +1453,8 @@ const regenerateGraph = async () => {
   const [isFileUploaded, setIsFileUploaded] = useState(false);
   const [showDropdowns, setShowDropdowns] = useState(false);
   const [contentPage, setContentPage] = useState("");
+  const [addedPages, setAddedPages] = useState([]);
+  const [pagesTextMap, setPagesTextMap] = useState({});
   const [ocrProgress, setOcrProgress] = useState(0);
   const [isOCRInProgress, setIsOCRInProgress] = useState(false);
 
@@ -1620,27 +1622,94 @@ const regenerateGraph = async () => {
     }
   };
 
+  const generatePagePreview = async (pdfFile, pageNumber) => {
+    const pdf = await pdfjsLib.getDocument(pdfFile).promise;
+  
+    // Get the specified page
+    const page = await pdf.getPage(pageNumber);
+  
+    // Set the scale and viewport
+    const scale = 1.0; // adjust this value as needed to change the preview size
+    const viewport = page.getViewport({ scale: scale });
+  
+    // Create a canvas to render the page
+    const canvas = document.createElement("canvas");
+    const ctx = canvas.getContext('2d');
+    canvas.width = viewport.width;
+    canvas.height = viewport.height;
+  
+    // Render the page onto the canvas
+    await page.render({ canvasContext: ctx, viewport: viewport }).promise;
+  
+    // Convert the canvas to a data URL (base64-encoded PNG)
+    return canvas.toDataURL();
+  };
+
+  const handleDeletePreview = (index, page) => {
+    const newAddedPages = [...addedPages];
+    newAddedPages.splice(index, 1);
+    setAddedPages(newAddedPages);
+    setContentPage(contentPage.replaceAll(`${page.pageNumber}, `, ''));
+    setRawText(rawText.replaceAll(pagesTextMap[page.pageNumber], ''));
+  };
+  
+  const handlePreviewClick = (pageNumber) => {
+    setPageNumber(pageNumber); // This assumes you have a setPageNumber function to change the displayed page
+  };  
+
   const handleAddContent = () => {
     setContentPage(contentPage + pageNumber.toString() + ', ');
     extractTextFromPDF(pdfFile, pageNumber).then((text) => {
-      setRawText(rawText + text);
-    })
+        setPagesTextMap(prevMap => {
+          return { ...prevMap, [pageNumber]: text }
+        });
+
+        setRawText(rawText + text);
+        // Add the current page to addedPages
+        generatePagePreview(pdfFile, pageNumber).then(src => {
+            setAddedPages([...addedPages, {
+                src: src,
+                pageNumber: pageNumber
+            }]);
+        }).catch(error => {
+            console.error("Error generating page preview:", error);
+        });
+    }).catch(error => {
+        console.error("Error extracting text from PDF:", error);
+    });
   }
 
   const handleAddContent_OCR = () => {
-    setIsOCRInProgress(true);
-    setContentPage(contentPage + pageNumber.toString() + ', ');
-    extractTextFromPDF_OCR(pdfFile, pageNumber).then((text) => {
-      setRawText(rawText + text);
-      setIsOCRInProgress(false); // Reset the progress state once OCR is done
-    })
+      setIsOCRInProgress(true);
+      setContentPage(contentPage + pageNumber.toString() + ', ');
+      extractTextFromPDF_OCR(pdfFile, pageNumber).then((text) => {
+          setPagesTextMap(prevMap => {
+            return { ...prevMap, [pageNumber]: text }
+          });
+          setRawText(rawText + text);
+          setIsOCRInProgress(false); // Reset the progress state once OCR is done
+
+          // Add the current page to addedPages
+          generatePagePreview(pdfFile, pageNumber).then(src => {
+              setAddedPages([...addedPages, {
+                  src: src,
+                  pageNumber: pageNumber
+              }]);
+          }).catch(error => {
+              console.error("Error generating page preview:", error);
+          });
+      }).catch(error => {
+          console.error("Error extracting text with OCR from PDF:", error);
+      });
   }
+
 
   const progressPercentage = ocrProgress * 100;
 
   const handleClearContent = () => {
     setContentPage('');
     setRawText('');
+    setAddedPages([]);
   }
 
   const handleChapterSelect = (eventKey) => {
@@ -1809,6 +1878,38 @@ const regenerateGraph = async () => {
             </div>
 
           )}
+
+          <h1 className="headerPreview" width={win_width * 0.5} height={win_height * 0.1}> Added Page(s): </h1>
+          <div className="previewContainer" style={{ display: 'flex', flexDirection: 'row', overflowX: 'auto', padding: '10px 0', marginTop: '20px' }}>
+              {/* Here, you'll map through your added pages and display them */}
+              {addedPages.map((page, index) => (
+                  <div key={index} style={{ marginLeft: '10px', marginRight: '0px', position: 'relative' }}>
+                      {/* Delete button */}
+                      <button 
+                          onClick={() => handleDeletePreview(index, page)} 
+                          style={{ position: 'absolute', top: '0', right: '0', background: 'white', color: 'white', borderRadius: '50%', width: '20px', height: '20px', fontSize: '10px', border: '2px solid red', cursor: 'pointer', zIndex: '2' , display: 'flex',  alignItems: 'center',  justifyContent: 'center' }}
+                      >
+                          ❌
+                      </button>
+                      
+                      {/* Image preview */}
+                      <img 
+                          src={page.src} 
+                          alt={`Preview ${index}`} 
+                          title={`Page ${page.pageNumber}`}  // Tooltip on hover
+                          onClick={() => handlePreviewClick(page.pageNumber)} 
+                          style={{ width: '90px', height: '120px', cursor: 'pointer' }}
+                      />
+
+                      {/* Page number below the image */}
+                      <div style={{ textAlign: 'center', marginTop: '5px' }}>
+                          Page {page.pageNumber}
+                      </div>
+                  </div>
+              ))}
+          </div>
+
+
 
           <div className='prompyContainer' style={{ display: 'flex', flexDirection: 'column'}}>
           <h1 className="headerPrompt" width={win_width * 0.5} height={win_height * 0.1}> 🔍 Prompt </h1>
@@ -2004,11 +2105,11 @@ const regenerateGraph = async () => {
 
         <div className='inputContainer2' style={{ display: 'flex', flexDirection: 'column'}}>
         <h1 className="headerTextbox" width={win_width * 0.5} height={win_height * 0.1}> 📖 Text</h1>
-        <div className='inputContainer3' style={{ display: 'flex', flexDirection: 'row', justifyContent: 'space-between' }}>
+        <div className='inputContainer3' style={{ display: 'flex', flexDirection: 'row' }}>
+        <button className="resetTextButton" onClick={handleClearContent}>Clear Text</button>
           <div className='contentList'>
-            {!showDropdowns && (<h1 style={{ fontSize: '14px', paddingTop: '10px' }} className="contentText">Contained Page(s): {contentPage}</h1>)}
+            {!showDropdowns && (<h1 style={{ fontSize: '14px', paddingTop: '10px', marginLeft: '20px' }} className="contentText">Contained Page(s): {contentPage}</h1>)}
           </div>
-          <button className="resetTextButton" onClick={handleClearContent}>Clear Text</button>
         </div>
 
           <textarea

@@ -13,7 +13,15 @@
   font-weight: 300;
   text-align: left;
   padding-top: 0.2em;
-  margin-top: 20%;
+  margin-top: 10%;
+}
+
+.headerPreview {
+  font-family: 'Noticia Text';
+  font-size: 20px;
+  text-align: left;
+  padding-top: 1.5em;
+  font-weight: bold;
 }
 
 .headerTextbox {
@@ -193,6 +201,21 @@
   float: right;
 }
 
+.previewContainer {
+  border: 2px solid rgb(203, 211, 242);
+  background-color: rgb(248, 245, 239);
+  border-width: 1.5px;
+  border-radius: 20px;
+  width: 140%;
+  /* margin: 0 auto; */
+  height: 170px;
+  display: flex;
+  margin-top: 5px;
+  margin-bottom: 0px;
+  z-index: 1000;
+}
+
+
 .promptContainer {
   width: 100%;
   display: flex;
@@ -269,7 +292,7 @@
   box-shadow: 0 0 5px rgb(0 0 0 / 10%);
   display: flex;
   font-size: 16px;
-  height: 500px;
+  height: 560px;
   outline: none;
   padding: 0 10px;
   width: 140%;
