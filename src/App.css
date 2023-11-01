@@ -116,7 +116,7 @@
 .selectSearchBox{
   height: 90%;
   width: 100%;
-  z-index: 11000;
+  z-index: 9999;
 }
 
 .listButton {

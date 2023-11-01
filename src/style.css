@@ -19,7 +19,6 @@
     font-family: var(--select-search-font);
     color: var(--select-search-text);
     box-sizing: border-box;
-    z-index: 11000;
 }
 
 @supports (font-variation-settings: normal) {

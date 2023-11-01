@@ -302,6 +302,32 @@ function App() {
         current_graph.edges = current_graph.edges.filter(edge => edge.from !== index && edge.to !== index);
       }
     });
+
+    let nodeIds = new Set();
+    let newNodes = [];
+    current_graph.nodes.forEach(node => {
+      if (!nodeIds.has(node.id)) {
+        nodeIds.add(node.id);
+        newNodes.push(node);
+      } else {
+        console.error("Duplicate node ID found:", node.id);
+      }
+    });
+    current_graph.nodes = newNodes;
+
+    let edgeIds = new Set();
+    let newEdges = [];
+    current_graph.edges.forEach(edge => {
+      let edgeId = `${edge.from}-${edge.to}`;
+      if (!edgeIds.has(edgeId)) {
+        edgeIds.add(edgeId);
+        newEdges.push(edge);
+      } else {
+        console.error("Duplicate edge ID found:", edgeId);
+      }
+    });
+    current_graph.edges = newEdges;
+
     setGraphState(current_graph);
     // console.log(current_graph);
   };
@@ -799,6 +825,7 @@ function App() {
       const pdfStorageRef = ref(storage, `/${objectName}/pdf.pdf`);
       const textStorageRef = ref(storage, `/${objectName}/text.text`);
       const pageStorageRef = ref(storage, `/${objectName}/content_pages`);
+      const addedPageStorageRef = ref(storage, `/${objectName}/added_pages`);
 
 
       getDownloadURL(graphStorageRef)
@@ -834,6 +861,13 @@ function App() {
         fetch(url)
           .then(response => response.text())
           .then(pages => setContentPage(pages));
+      })
+
+      getDownloadURL(addedPageStorageRef)
+      .then((url) => {
+        fetch(url)
+          .then(response => response.text())
+          .then(pages => setAddedPages(JSON.parse(pages)));
       })
     }
 
@@ -1326,6 +1360,13 @@ const uploadProjectFile = async () => {
   const pageStorageRef = ref(storage, `/${contentName}`);
   const pageUploadTask = uploadBytesResumable(pageStorageRef, contentPageFile); 
 
+  const added_pages = addedPages // This is your array of strings.
+  const serialized_content = JSON.stringify(added_pages); // Convert the array to a JSON string.
+  const addedPagesName = `${path}/${user.email}/${file_name}.project/added_pages`;
+  const addedPageFile = new Blob([serialized_content], { type: 'text/plain;charset=utf-8' }); 
+  const addedPageStorageRef = ref(storage, `/${addedPagesName}`);
+  const addedPageUploadTask = uploadBytesResumable(addedPageStorageRef, addedPageFile); 
+
   const prompt_content = document.getElementsByClassName("promptText")[0].value;
   const promptName = `${path}/${user.email}/${file_name}.project/prompt.prompt`;
   const promptFile = new Blob([prompt_content], { type: 'text/plain;charset=utf-8' });
@@ -1346,6 +1387,7 @@ const uploadProjectFile = async () => {
   const allUploadTasks = [
     { task: textUploadTask, name: "text" },
     { task: pageUploadTask, name: "content_pages" },
+    { task: addedPageUploadTask, name: "added_pages" },
     { task: promptUploadTask, name: "prompt" },
     { task: pdfUploadTask, name: "pdf" },
     { task: graphUploadTask, name: "graph" }
