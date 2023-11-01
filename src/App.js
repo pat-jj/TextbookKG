@@ -1446,7 +1446,7 @@ const regenerateGraph = async () => {
 	const [numPages, setNumPages] = useState(null);
 	const [pageNumber, setPageNumber] = useState(1);
   const [inputValue, setInputValue] = useState(pageNumber.toString());
-	const [pdfFile, setPdfFile] = useState('/TextbookKG/textbook-1.pdf');
+	const [pdfFile, setPdfFile] = useState('/TextbookKG/pdf-init.pdf');
   const [chapters, setChapters] = useState([]);
   const [docSize, setDocSize] = useState(1.1);
   const [uploadedFile, setUploadedFile] = useState(null);
