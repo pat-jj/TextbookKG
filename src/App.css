@@ -4,7 +4,8 @@
   font-family: 'Noticia Text';
   font-weight: 900;
   text-align: center;
-  padding-top: 0.5em;
+  padding-top: 0.3em;
+  padding-bottom: 0.3em;
 }
 
 .headerPrompt {
@@ -12,6 +13,7 @@
   font-weight: 300;
   text-align: left;
   padding-top: 0.2em;
+  margin-top: 8%;
 }
 
 .headerTextbox {
@@ -109,9 +111,9 @@
 }
 
 .listButton {
-  background-color: rgb(182, 243, 247);
-  border: 1px solid rgb(241, 254, 191);
-  border-radius: 180px;
+  background-color: rgb(255, 255, 255);
+  border: 2px solid rgb(119, 119, 119);
+  border-radius: 6px;
   color: rgb(0, 0, 0);
   cursor: pointer;
   font-size: 18px;
@@ -123,17 +125,18 @@
   width: 20%;
   float: right;
   margin-left: 80%;
+  margin-bottom: 20px;
   
 }
 
 .listButton:hover {
-  background-color: rgba(171, 220, 233, 0.8);
+  background-color: rgba(246, 236, 106, 0.8);
 }
 
 .listButtonRepo {
-  background-color: rgb(109, 231, 129);
-  border: 1px solid rgb(255, 255, 0);
-  border-radius: 180px;
+  background-color: rgb(255, 255, 255);
+  border: 2px solid rgb(130, 130, 125);
+  border-radius: 6px;
   color: rgb(0, 0, 0);
   cursor: pointer;
   font-size: 18px;
@@ -216,10 +219,12 @@
 
 .innerContainer2{
   width: 100%;
+  border-radius: 40px;
+  border-width: 4px;
   height: 40;
   display: flex;
   margin-top: 5px; 
-  border: 2px solid rgb(255, 0, 0);
+  border: 4px solid rgb(255, 0, 0);
 }
 
 .loginContainer{
@@ -233,7 +238,7 @@
 
 .apiKeyTextField {
   border: 0px solid rgb(255, 255, 255);
-  border-radius: 5px;
+  border-radius: 30px;
   box-shadow: 0 0 5px rgb(0 0 0 / 10%);
   display: block;
   font-size: 16px;
@@ -282,24 +287,25 @@
 
 .uploadPDFButton label {
   background-color: rgb(170, 235, 224);
-  border: 2px solid rgb(8, 0, 255);
-  border-radius: 5px;
+  border: 4px solid rgb(9, 194, 144);
+  border-radius: 30px;
   color: rgb(0, 0, 0);
   cursor: pointer;
   font-size: 16px;
   height: 100%;
   outline: none;
-  width: 150px;
+  width: 300%;
+  margin-left: 150%;
   display: inline-block;
   padding: 6px; 
   text-align: center; 
   font-size: 17px;
   font-weight: bold;
-  font-family: 'Times New Roman', serif;
+  font-family: 'Noticia Text', serif;
 }
 
 .uploadPDFButton label:hover {
-  background-color: rgba(168, 255, 255, 0.8);
+  background-color: rgba(159, 255, 245, 0.8);
 }
 
 .textbookButton {
@@ -333,11 +339,13 @@
   color: rgb(0, 0, 0);
   cursor: pointer;
   font-size: 16px;
-  height: 50px;
+  height: 45px;
   outline: none;
-  width: 150px;
+  width: 250px;
   display: inline-block;
   text-align: center; 
+  font-family: 'Noticia Text', serif;
+  font-weight: bold;
 }
 
 .addContentButton:hover {
@@ -345,21 +353,24 @@
 }
 
 .ocrContentButton {
-  background-color: rgb(178, 221, 236);
+  background-color: rgb(178, 221, 236) !important;
   border: 1px solid rgb(0, 0, 0);
   border-radius: 5px;
   color: rgb(0, 0, 0);
   cursor: pointer;
   font-size: 16px;
-  height: 50px;
+  height: 45px;
   outline: none;
-  width: 150px;
+  width: 250px;
   display: inline-block;
   text-align: center; 
+  font-family: 'Noticia Text', serif;
+  font-weight: bold;
+  transition: background 0.1s;
 }
 
 .ocrContentButton:hover {
-  background-color: rgba(211, 236, 236, 0.8);
+  background-color: rgba(211, 236, 236, 0.8) !important;
 }
 
 .clearListButton {
@@ -381,6 +392,7 @@
 }
 
 .ocrProgressContainer {
+  margin-left: 220px;
   display:grid;
   flex-direction: column;
   align-items: center; /* vertically align the elements in the center */
@@ -389,9 +401,9 @@
 
 .generateButton {
   background-color: rgb(255, 187, 0);
-  border: 0px solid rgb(252, 99, 99);
-  border-radius: 5px;
-  border-width: 1.5px;
+  border: solid rgb(255, 145, 0);
+  border-radius: 30px;
+  border-width: 4px;
   color: rgb(0, 0, 0);
   cursor: pointer;
   font-size: 16px;
@@ -443,7 +455,7 @@
   font-size: 16px;
   height: 100%;
   outline: none;
-  width: 20%;
+  width: 100%;
   display: inline-block;
   margin-left: 1.5px;
   margin-right: 1.5px;
@@ -522,16 +534,22 @@
 }
 
 .resetTextButton {
-  background-color: rgb(201, 230, 216);
+  background-color: rgb(255, 255, 255);
   border: 1px solid rgb(0, 0, 0);
   border-radius: 5px;
   color: rgb(0, 0, 0);
   cursor: pointer;
   font-size: 16px;
-  height: 50px;
+  height: 40px;
   outline: none;
   width: 15%;
   display: inline-block;
+  justify-content: flex-end; /* This will push the button to the right */
+}
+
+
+.resetTextButton:hover {
+  background-color: rgba(234, 234, 234, 0.8);
 }
 
 .saveTextButton:hover {
@@ -566,7 +584,7 @@
   font-size: 16px;
   height: 100%;
   outline: none;
-  width: 20%;
+  width: 100%;
   display: inline-block;
   margin-left: 0px;
   margin-right: 5px;
@@ -634,7 +652,7 @@
 }
 
 .textButtonBox{
-  width: 100%;
+  width: 140%;
   height: 50px;
 }
 
@@ -763,10 +781,11 @@
   box-shadow: 0 0 5px rgb(0 0 0 / 10%);
   display: block;
   font-size: 16px;
-  height: 50px;
+  height: 45px;
   outline: none;
   padding: 0 5px;
   width: 120px; 
+  z-index: 9999;
 }
 
 .promptFileName{
@@ -803,7 +822,7 @@
   font-size: 16px;
   height: 100%;
   outline: none;
-  width: 40%;
+  width: 100%;
   display: inline-block;
   
 }
@@ -837,10 +856,11 @@
   color: rgb(0, 0, 0);
   cursor: pointer;
   font-size: 16px;
-  height: 50px;
+  height: 45px;
   outline: none;
-  width: 120px;
+  width: 150px;
   display: inline-block;
+  z-index: 9999;
   
 }
 

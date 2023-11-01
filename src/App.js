@@ -30,7 +30,7 @@ pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/$
 
 const DEFAULT_PARAMS = {
   "model": "gpt-3.5-turbo-instruct",
-  "temperature": 0.3,
+  "temperature": 0.2,
   "max_tokens": 1200,
   "top_p": 1,
   "frequency_penalty": 0,
@@ -481,12 +481,10 @@ function App() {
 
             setGraphState(new_graph);
 
-            // document.getElementsByClassName("searchBar")[0].value = "";
             document.body.style.cursor = 'default';
             document.getElementsByClassName("generateButton")[0].disabled = false;
           }).catch((error) => {
             console.log(error);
-            // alert(error);
           });
       })
   };
@@ -768,7 +766,7 @@ function App() {
   }
 
   const outputGraph = () => {
-    handleSave(`${selectedSection.replaceAll(' ', '_')}.json`);
+    handleSave(`graph.json`);
   }
 
   // Google Login & Identity Services
@@ -1456,6 +1454,7 @@ const regenerateGraph = async () => {
   const [showDropdowns, setShowDropdowns] = useState(false);
   const [contentPage, setContentPage] = useState("");
   const [ocrProgress, setOcrProgress] = useState(0);
+  const [isOCRInProgress, setIsOCRInProgress] = useState(false);
 
 
   const pdfjsLib = require('pdfjs-dist/build/pdf');
@@ -1608,18 +1607,18 @@ const regenerateGraph = async () => {
 			pageNumber + 1 >= numPages ? numPages : pageNumber + 1,
 		);
 
-    const handlePageNumberChange = (event) => {
-      setInputValue(event.target.value);
+  const handlePageNumberChange = (event) => {
+    setInputValue(event.target.value);
     };
 
-    const validatePageNumber = () => {
-      const newPageNumber = parseInt(inputValue, 10);
-      if (newPageNumber >= 1 && newPageNumber <= numPages) {
-          setPageNumber(newPageNumber);
-      } else {
-          setInputValue(pageNumber.toString()); // Reset to the previous valid value
-      }
-    };
+  const validatePageNumber = () => {
+    const newPageNumber = parseInt(inputValue, 10);
+    if (newPageNumber >= 1 && newPageNumber <= numPages) {
+        setPageNumber(newPageNumber);
+    } else {
+        setInputValue(pageNumber.toString()); // Reset to the previous valid value
+    }
+  };
 
   const handleAddContent = () => {
     setContentPage(contentPage + pageNumber.toString() + ', ');
@@ -1629,11 +1628,15 @@ const regenerateGraph = async () => {
   }
 
   const handleAddContent_OCR = () => {
+    setIsOCRInProgress(true);
     setContentPage(contentPage + pageNumber.toString() + ', ');
     extractTextFromPDF_OCR(pdfFile, pageNumber).then((text) => {
       setRawText(rawText + text);
+      setIsOCRInProgress(false); // Reset the progress state once OCR is done
     })
   }
+
+  const progressPercentage = ocrProgress * 100;
 
   const handleClearContent = () => {
     setContentPage('');
@@ -1711,7 +1714,7 @@ const regenerateGraph = async () => {
       <div className='pdf_viewer'>
         <nav style={{ display: 'flex', flexDirection: 'row'}}>
             <nav style={{ display: 'flex', flexDirection: 'column'}}>
-              <nav style={{ display: 'flex', alignItems: 'center' }}>
+              <nav style={{ display: 'flex', alignItems: 'center'}}>
                   <div className='uploadPDFButton'>
                     <input 
                       id="fileUpload" // add an id to the input
@@ -1729,7 +1732,7 @@ const regenerateGraph = async () => {
                     />
                     <label htmlFor="fileUpload">PDF Upload</label> {/* add a label that triggers the hidden input when clicked */}
                   </div>
-                    <button className='textbookButton' onClick={() => setShowDropdowns(!showDropdowns)}>Built-in Textbooks</button>
+                    {/* <button className='textbookButton' onClick={() => setShowDropdowns(!showDropdowns)}>Built-in Textbooks</button> */}
 
                   {showDropdowns && (
                     <>
@@ -1752,24 +1755,6 @@ const regenerateGraph = async () => {
 
               </nav>
 
-              <nav style={{ display: 'flex', alignItems: 'center' }}>
-                <button className='pdfpagezoomButton' onClick={zoomOut}>➖</button>
-                <button className='pdfpagezoomButton' onClick={zoomIn}>➕</button>
-                <button className='pdfpagechangeButton' onClick={goToPrevPage}>Prev</button>
-                <button className='pdfpagechangeButton' onClick={goToNextPage}>Next</button>
-                <Form.Control
-                    type="text"
-                    value={inputValue}
-                    onChange={handlePageNumberChange}
-                    onBlur={validatePageNumber}
-                    style={{ width: '10%' }}
-                />
-
-                 <p style={{ width: '50%' }}>
-                ✨ Page {pageNumber} of {numPages} ✨ {showDropdowns && (<span style={{ fontWeight: 'bold' }}>{selectedSection}</span>)}
-                </p>
-
-              </nav>
             </nav>
 
           </nav>
@@ -1780,32 +1765,51 @@ const regenerateGraph = async () => {
           >
             <Page scale={docSize} pageNumber={pageNumber} renderTextLayer={false}/>
           </Document>
+          <nav style={{ display: 'flex', alignItems: 'center', flexDirection: 'row'}}>
+                <button className='pdfpagezoomButton' onClick={zoomOut}>➖</button>
+                <button className='pdfpagezoomButton' onClick={zoomIn}>➕</button>
+                <button className='pdfpagechangeButton' onClick={goToPrevPage}>Prev</button>
+                <button className='pdfpagechangeButton' onClick={goToNextPage}>Next</button>
+                <Form.Control
+                    type="text"
+                    value={inputValue}
+                    onChange={handlePageNumberChange}
+                    onBlur={validatePageNumber}
+                    style={{ width: '10%' , height: '10%'}}
+                />
+
+                 <p style={{ width: '50%', paddingTop: '15px'}}>
+                ✨ Page {pageNumber} of {numPages} ✨ {showDropdowns && (<span style={{ fontWeight: 'bold' }}>{selectedSection}</span>)}
+                </p>
+
+          </nav>
           {isFileUploaded && !showDropdowns && (
-          <div className='textButtonBox' style={{ display: 'flex', flexDirection: 'row'}}>
-            { (
-              <button className='addContentButton' onClick={handleAddContent}>Copy To 📖 Text</button>
-            )}
-            { (
-              <button className='ocrContentButton' onClick={handleAddContent_OCR}>OCR To 📖 Text</button>
-            )}
-            { (
-              <button className='clearListButton' onClick={handleClearContent}>Clear</button>
-            )}
-            { <input className="pdfFileName" placeholder="PDF file name"></input>}
-            { (
-            <button className="uploadPDFCloudButton" onClick={uploadPDF_Cloud}>Save PDF</button>
-            )}
-          </div>
+            <div className='textButtonBox' style={{ display: 'flex', flexDirection: 'row'}}>
+              { (
+                <button className='addContentButton' onClick={handleAddContent}>Copy To 📖 Text</button>
+              )}
+              { (
+                  <button 
+                  className='ocrContentButton' 
+                  onClick={handleAddContent_OCR}
+                  style={{
+                    background: isOCRInProgress ? `linear-gradient(90deg, #0C77F8 ${progressPercentage}%, #B2DDEC ${progressPercentage}%)` : 'initial'
+                  }}
+                  >
+                  OCR To 📖 Text
+                  </button>
+              )}
+              {/* { (
+                <button className='clearListButton' onClick={handleClearContent}>Clear</button>
+              )} */}
+              { <input className="pdfFileName" placeholder="PDF file name"></input>}
+              { (
+                <button className="uploadPDFCloudButton" onClick={uploadPDF_Cloud}>Save PDF</button>
+              )}
+            </div>
+
           )}
 
-          { (
-            <div className="ocrProgressContainer">
-              <p>
-                ✨ OCR Progress ✨
-              </p>
-              <progress id="ocrProgressBar" value={ocrProgress} max="1"></progress>
-            </div>
-          )}
           <div className='prompyContainer' style={{ display: 'flex', flexDirection: 'column'}}>
           <h1 className="headerPrompt" width={win_width * 0.5} height={win_height * 0.1}> 🔍 Prompt </h1>
           <textarea
@@ -1836,7 +1840,7 @@ const regenerateGraph = async () => {
                     </div>
                     <div className='selectSearchBoxMain' style={{ display: 'flex', flexDirection: 'column'}}>
                       <button className='listButton' onClick={toggleSelectSearchBox}>
-                        {showSelectSearchBox ? 'Hide' : 'Show'} N/E List
+                        {showSelectSearchBox ? 'Hide' : 'Show'} N/E
                       </button>
                       {showSelectSearchBox && (
                         <div className='selectSearchBox' style={{ display: 'flex', flexDirection: 'column'}}>
@@ -1873,7 +1877,7 @@ const regenerateGraph = async () => {
                     {user &&
                       <div className='userLibrary' style={{ display: 'flex', flexDirection: 'column'}}>
                         <button className='listButtonRepo' onClick={toggleUserRepoBox}>
-                          {showUserRepo ? 'Hide' : 'Show'} User Repo
+                          {showUserRepo ? 'Hide' : 'Show'} Repo
                         </button>
                         {showUserRepo && (
                           <div className='selectSearchBox' style={{ display: 'flex', flexDirection: 'column'}}>
@@ -1928,9 +1932,7 @@ const regenerateGraph = async () => {
               <span style={{ textShadow: '0px 0px 1px purple' }}>🕸️</span> Knowledge Graph 
           </h2>
         </nav>
-        <div className='contentList'>
-          {!showDropdowns &&(<h1 style={{ fontSize: '14px' }} className="contentText">Contained Page(s): {contentPage}</h1>)}
-        </div>
+
         </div>
 
         <div className='graphContainer' style={{ width: '100%', height: '100%' }}>
@@ -1974,13 +1976,13 @@ const regenerateGraph = async () => {
           
           <div className='generalButtonBox' style={{ display: 'flex', flexDirection: 'column'}}>
             <div className='innerContainer1' style={{ display: 'flex', flexDirection: 'row'}}>
-              <button className="resumeButton" onClick={resumeGraph}>Reset</button>
+              {/* <button className="resumeButton" onClick={resumeGraph}>Reset</button> */}
               <button className="clearButton" onClick={clearState}>Clear</button>
               <button className="outputButton" onClick={outputGraph}>Download</button>
 
-              {!showDropdowns && <input className="kgFileName" placeholder="file name"></input>}
+              {!showDropdowns && <input className="kgFileName" placeholder="graph file name"></input>}
               {showDropdowns && <button className="uploadButton" onClick={uploadGraph_textbook}>Save</button>}
-              {!showDropdowns && <button className="uploadButton" onClick={uploadGraph_self}>Save</button>}
+              {!showDropdowns && <button className="uploadButton" onClick={uploadGraph_self}>Save Graph</button>}
             </div>
             <div className='innerContainer2' style={{ display: 'flex', flexDirection: 'row'}}>        
               { !user && <input className="apiKeyTextField" type="password" placeholder="OpenAI API key ..."></input> }
@@ -2002,6 +2004,13 @@ const regenerateGraph = async () => {
 
         <div className='inputContainer2' style={{ display: 'flex', flexDirection: 'column'}}>
         <h1 className="headerTextbox" width={win_width * 0.5} height={win_height * 0.1}> 📖 Text</h1>
+        <div className='inputContainer3' style={{ display: 'flex', flexDirection: 'row', justifyContent: 'space-between' }}>
+          <div className='contentList'>
+            {!showDropdowns && (<h1 style={{ fontSize: '14px', paddingTop: '10px' }} className="contentText">Contained Page(s): {contentPage}</h1>)}
+          </div>
+          <button className="resetTextButton" onClick={handleClearContent}>Clear Text</button>
+        </div>
+
           <textarea
             ref={textareaRef}
             className='sectionText'
@@ -2012,7 +2021,6 @@ const regenerateGraph = async () => {
           {/* <h1 className="instruction"><img src={require('./instruction.png')} width='100%' height="100%" /></h1> */}
         </div>
         <div className='textButtonBox_1' style={{ display: 'flex', flexDirection: 'row'}}>
-                  <button className="resetTextButton" onClick={handleClearContent}>Clear Text</button>
                   { <input className="textFileName" placeholder="text file name"></input>}
                   <button className="uploadTextButton" onClick={uploadText}>Save Text</button>
         </div>
