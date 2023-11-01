@@ -116,6 +116,7 @@
 .selectSearchBox{
   height: 90%;
   width: 100%;
+  z-index: 11000;
 }
 
 .listButton {
@@ -208,7 +209,7 @@
   border-radius: 20px;
   width: 140%;
   /* margin: 0 auto; */
-  height: 170px;
+  height: 180px;
   display: flex;
   margin-top: 5px;
   margin-bottom: 0px;
@@ -680,6 +681,7 @@
 .textButtonBox{
   width: 140%;
   height: 50px;
+  z-index: 9999;
 }
 
 .promptButtonBox{
@@ -811,7 +813,7 @@
   outline: none;
   padding: 0 5px;
   width: 120px; 
-  z-index: 9999;
+  z-index: 0;
 }
 
 .promptFileName{
@@ -885,9 +887,8 @@
   height: 45px;
   outline: none;
   width: 150px;
-  display: inline-block;
-  z-index: 9999;
-  
+  display: inline-block;  
+  z-index: 0;
 }
 
 .uploadPDFCloudButton:hover {
