@@ -6,7 +6,7 @@
 .select-search-container {
     --select-search-background: rgb(250, 250, 246);
     --select-search-border: #f7f7f8;
-    --input-search-border: #cfe7fa;
+    --input-search-border: #dfdfdf;
     --select-search-selected: #1e66f5;
     --select-search-text: #000;
     --select-search-subtle-text: #6c6f85;

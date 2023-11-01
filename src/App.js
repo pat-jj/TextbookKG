@@ -92,7 +92,7 @@ function App() {
     edges: {
       color: "#34495e",
       smooth: true,
-      length: 250,
+      length: 300,
     },
     physics: isHierarchical ? false : {
       enabled: true,
@@ -1028,15 +1028,24 @@ function App() {
   const [disableEdgeAnimation, setDisableEdgeAnimation] = useState(true)
 
   const handleNodeFromSelect = (value) => {
-    setSelectedNodeFrom(value[0]);
-    if (value.length > 0) { 
-      const edges = graphState.edges.filter(edge => edge.from === value[0]);
-      setDisableNodeAnimation(false)
-      setFilteredEdges(edges);
+    // Reset values
+    setSelectedEdge(null);
+    setSelectedEdgeLabel(null);
+    setSelectedNodeFrom(null);
+    setSelectedNodeTo(null);
+
+    if (value && value.length > 0) {
+        const latestSelectedNode = value[value.length - 1];
+        setSelectedNodeFrom(latestSelectedNode);
+
+        const edges = graphState.edges.filter(edge => edge.from === latestSelectedNode);
+        setDisableNodeAnimation(false);
+        setFilteredEdges(edges);
     } else {
-      setFilteredEdges(null);
+        setFilteredEdges(null);
     }
   };
+
 
   const handleEdgeSelect = (value) => {
     setSelectedEdge(value[0]);
@@ -1048,14 +1057,22 @@ function App() {
   };
 
   const handleNodeToSelect = (value) => {
-    setSelectedNodeTo(value[0]); 
-    if (value.length > 0) { 
-      const edges = graphState.edges.filter(edge => edge.to === value[0]);
-      setDisableNodeAnimation(false)
+    // Reset values
+    setSelectedEdge(null);
+    setSelectedEdgeLabel(null);
+    setSelectedNodeFrom(null);
+    setSelectedNodeTo(null);
+
+    if (value && value.length > 0) {
+      const latestSelectedNode = value[value.length - 1];
+      setSelectedNodeTo(latestSelectedNode);
+
+      const edges = graphState.edges.filter(edge => edge.from === latestSelectedNode);
+      setDisableNodeAnimation(false);
       setFilteredEdges(edges);
     } else {
       setFilteredEdges(null);
-    }
+  }
   };
 
   const [searchResults, setSearchResults] = useState([]);
