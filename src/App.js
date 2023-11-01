@@ -84,9 +84,9 @@ function App() {
     layout: {
       hierarchical: isHierarchical ? {
         enabled: true,
-        levelSeparation: 150,     // Adjust this to increase space between levels
-        nodeSpacing: 150,        // Adjust this to increase space between nodes on the same level
-        treeSpacing: 200         // Adjust this to increase space between different trees in the same graph
+        levelSeparation: 150,
+        nodeSpacing: 150,
+        treeSpacing: 200
       } : false
     },
     edges: {
@@ -97,15 +97,16 @@ function App() {
     physics: isHierarchical ? false : {
       enabled: true,
       barnesHut: {
-        gravitationalConstant: -2000,
-        centralGravity: 0.3,
-        springLength: 95,
-        springConstant: 0.04,
-        damping: 0.09,
-        avoidOverlap: 0.3
+        gravitationalConstant: -4000,  // Increase the gravitational constant for faster attraction
+        centralGravity: 0.5,           // Adjust this for stronger central gravity
+        springLength: 100,             // Adjust the spring length
+        springConstant: 0.08,          // Increase spring constant for stiffer springs
+        damping: 0.1,                  // Slight increase in damping
+        avoidOverlap: 0.3              // Increase to avoid overlap
       },
       stabilization: {
-        iterations: 500
+        iterations: 1000,              // Increase iterations for better stabilization
+        fit: true                      // Ensures the network fits in the viewport after stabilization
       }
     }
   };
