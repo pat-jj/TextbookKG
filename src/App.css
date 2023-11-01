@@ -13,7 +13,7 @@
   font-weight: 300;
   text-align: left;
   padding-top: 0.2em;
-  margin-top: 8%;
+  margin-top: 20%;
 }
 
 .headerTextbox {
@@ -249,8 +249,8 @@
 }
 
 .sectionText{
-  border: 1px solid rgb(0, 0, 0);
-  border-radius: 5px;
+  border: 2px solid rgb(137, 141, 140);
+  border-radius: 20px;
   box-shadow: 0 0 5px rgb(0 0 0 / 10%);
   display: flex;
   font-size: 16px;
@@ -263,13 +263,13 @@
 
 .promptText{
   z-index: 9998;
-  border: 1px solid rgb(222, 190, 114);
+  border: 2px solid rgb(230, 220, 198);
   border-width: 5px;
-  border-radius: 15px;
+  border-radius: 20px;
   box-shadow: 0 0 5px rgb(0 0 0 / 10%);
   display: flex;
   font-size: 16px;
-  height: 400px;
+  height: 500px;
   outline: none;
   padding: 0 10px;
   width: 140%;
@@ -459,6 +459,7 @@
   display: inline-block;
   margin-left: 1.5px;
   margin-right: 1.5px;
+  font-weight: bold;
 }
 
 .clearButton:hover {
@@ -545,6 +546,7 @@
   width: 15%;
   display: inline-block;
   justify-content: flex-end; /* This will push the button to the right */
+  font-weight: bold;
 }
 
 
@@ -569,6 +571,7 @@
   display: inline-block;
   margin-left: 0;
   margin-right: 0;
+  font-weight: bold;
 }
 
 .resetPromptButton:hover {
