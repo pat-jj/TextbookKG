@@ -34,3 +34,12 @@ To use the user repo & key-free feature, please contact me (pj20@illinois.edu) t
 
 
 ### Play with it and explore more!
+
+Cite this Software:
+```
+@software{Jiang_TxBKG_Transforming,
+author = {Jiang, Patrick},
+title = {{TxBKG - Transforming Any PDFs into Knowledge Graphs}},
+page={https://github.com/pat-jj/TextbookKG}
+}
+```
