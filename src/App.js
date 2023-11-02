@@ -96,7 +96,7 @@ function App() {
       color: "#34495e",
       smooth: true,
       length: 320,
-      width: 2,
+      width: 1.5,
     },
     physics: isHierarchical ? false : {
       enabled: true,
