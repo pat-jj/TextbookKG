@@ -18,4 +18,19 @@ To use the user repo & key-free feature, please contact me (pj20@illinois.edu) t
 
 ---
 ## PDF Upload, Page Add, and Page Delete
-![]([https://github.com/Your_Repository_Name/Your_GIF_Name.gif](https://github.com/pat-jj/TextbookKG/blob/main/public/demo_gifs/upload_add_delete.gif)https://github.com/pat-jj/TextbookKG/blob/main/public/demo_gifs/upload_add_delete.gif)
+![](https://github.com/pat-jj/TextbookKG/blob/main/public/demo_gifs/upload_add_delete.gif)
+
+## Login (for Authorized Users), and Knowledge Graph Generation
+![](https://github.com/pat-jj/TextbookKG/blob/main/public/demo_gifs/login_generate.gif)
+
+## Node and Edge Operations
+![](https://github.com/pat-jj/TextbookKG/blob/main/public/demo_gifs/NE_operation.gif)
+
+## Node and Edge Clustering
+![](https://github.com/pat-jj/TextbookKG/blob/main/public/demo_gifs/NE_Clustering.gif)
+
+## Save and Load Your Project!
+![](https://github.com/pat-jj/TextbookKG/blob/main/public/demo_gifs/save_load.gif)
+
+
+### Play with it and explore more!
