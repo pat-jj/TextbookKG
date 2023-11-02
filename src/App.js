@@ -1156,10 +1156,26 @@ const handleClusterEdge = async () => {
 
       getDownloadURL(pdfStorageRef)
       .then((url) => {
-        setPdfFile(url);
-        setPageNumber(1);
-        setIsFileUploaded(true);
+        // Fetch the actual PDF file data from the URL
+        fetch(url)
+          .then(response => response.blob()) // Convert the response to a Blob
+          .then(blob => {
+            // Create a file object from the blob (if needed)
+            const file = new File([blob], "pdf.pdf", { type: "application/pdf" });
+            // Set the states
+            setPdfFile(url);        // This is the URL for the <object> or <embed> element to display the PDF
+            setUploadedFile(file);  // This is the actual file for re-uploading
+            setPageNumber(1);
+            setIsFileUploaded(true);
+          })
+          .catch(error => {
+            console.error('Error fetching the PDF blob:', error);
+          });
       })
+      .catch(error => {
+        console.error('Error getting the download URL:', error);
+      });
+    
 
       getDownloadURL(textStorageRef)
       .then((url) => {
