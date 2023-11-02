@@ -35,7 +35,8 @@ To use the user repo & key-free feature, please contact me (pj20@illinois.edu) t
 
 ### Play with it and explore more!
 
-Cite this Software:
+
+We appreciate any citations to our work:
 ```
 @software{Jiang_TxBKG_Transforming,
 author = {Jiang, Patrick},
