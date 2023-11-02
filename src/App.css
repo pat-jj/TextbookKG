@@ -1033,6 +1033,47 @@
   background-color: rgb(255, 145, 18);
 }
 
+.nodeClusteringButton {
+  background-color: rgb(229, 221, 208) !important;
+  border: 1px solid rgb(255, 255, 255);
+  border-radius: 80px;
+  color: rgb(29, 29, 29);
+  cursor: pointer;
+  font-size: 16px;
+  height: 30px;
+  outline: none;
+  width: 20%;
+  display: inline-block;
+  text-align: center; 
+  font-weight: bold;
+  transition: background 0.5s;
+}
+
+.nodeClusteringButton:hover {
+  background-color: rgba(251, 151, 10, 0.8) !important;
+}
+
+.edgeClusteringButton {
+  background-color: rgb(230, 255, 189) !important;
+  border: 1px solid rgb(255, 255, 255);
+  border-radius: 80px;
+  color: rgb(29, 29, 29);
+  cursor: pointer;
+  font-size: 16px;
+  height: 30px;
+  outline: none;
+  width: 20%;
+  display: inline-block;
+  text-align: center; 
+  font-weight: bold;
+  /* margin-left: -70px; */
+  transition: background 0.5s;
+}
+
+.edgeClusteringButton:hover {
+  background-color: rgba(140, 255, 0, 0.8) !important;
+}
+
 
 .closeWikiButton{
   z-index: 9999;

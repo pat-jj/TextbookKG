@@ -61,7 +61,10 @@ function App() {
     })
   };
 
-
+  const[nodeNumbers, setNodeNumbers] = useState('')
+  const[clusterNumbers, setClusterNumbers] = useState('')
+  const[edgeNumbers, setEdgeNumbers] = useState('')
+  const[edgeClusterNumbers, setEdgeClusterNumbers] = useState('')
   const[selectedEdge, setSelectedEdge] = useState(null)
   const[selectedEdgeLabel, setSelectedEdgeLabel] = useState(null)
   const[selectedNode, setSelectedNode] = useState(null)
@@ -85,31 +88,64 @@ function App() {
       hierarchical: isHierarchical ? {
         enabled: true,
         levelSeparation: 150,
-        nodeSpacing: 150,
+        nodeSpacing: 200,
         treeSpacing: 200
       } : false
     },
     edges: {
       color: "#34495e",
       smooth: true,
-      length: 300,
+      length: 320,
+      width: 2,
     },
     physics: isHierarchical ? false : {
       enabled: true,
       barnesHut: {
-        gravitationalConstant: -4000,  // Increase the gravitational constant for faster attraction
-        centralGravity: 0.5,           // Adjust this for stronger central gravity
-        springLength: 100,             // Adjust the spring length
-        springConstant: 0.08,          // Increase spring constant for stiffer springs
-        damping: 0.1,                  // Slight increase in damping
-        avoidOverlap: 0.3              // Increase to avoid overlap
+        gravitationalConstant: -3000,
+        centralGravity: 0.5,
+        springLength: 95,
+        springConstant: 0.04,
+        damping: 0.09,
+        avoidOverlap: 0.1
+      },
+      forceAtlas2Based: {
+        gravitationalConstant: -50,
+        centralGravity: 0.01,
+        springConstant: 0.08,
+        springLength: 100,
+        damping: 0.4,
+        avoidOverlap: 0.1
+      },
+      repulsion: {
+        centralGravity: 0.1,
+        springLength: 200,
+        springConstant: 0.05,
+        nodeDistance: 100,
+        damping: 0.09
+      },
+      hierarchicalRepulsion: {
+        centralGravity: 0.0,
+        springLength: 100,
+        springConstant: 0.01,
+        nodeDistance: 120,
+        damping: 0.09
       },
       stabilization: {
         iterations: 1000,              // Increase iterations for better stabilization
         fit: true                      // Ensures the network fits in the viewport after stabilization
       }
-    }
+    },
+    nodegGroups: {},
+    edgeGroups: {},
   };
+
+  const [graphOptions, setGraphOptions] = useState(
+    options
+  );
+  useEffect(() => {
+    // This will be called after isHierarchical state is updated
+    setGraphOptions(options);
+  }, [isHierarchical]); 
   
   const graphRef = useRef(null);
   const animationOptions = {
@@ -406,66 +442,6 @@ function App() {
         }
       });
   };
-  
-
-  const queryStatelessPromptExt = async (prompt, apiKey) => {
-    fetch('/TextbookKG/prompts/stateless_ext.prompt')
-      .then(response => response.text())
-      .then(text => text.replace("$prompt", prompt))
-      .then(prompt => {
-        console.log(prompt)
-
-        const params = { ...DEFAULT_PARAMS, prompt: prompt, stop: "\n" };
-
-        const requestOptions = {
-          method: 'POST',
-          headers: {
-            'Content-Type': 'application/json',
-            'Authorization': 'Bearer ' + String(apiKey)
-          },
-          body: JSON.stringify(params)
-        };
-        fetch('https://api.openai.com/v1/completions', requestOptions)
-          .then(response => {
-            if (!response.ok) {
-              switch (response.status) {
-                case 401: // 401: Unauthorized: API key is wrong
-                  throw new Error('Please double-check your API key.');
-                case 429: // 429: Too Many Requests: Need to pay
-                  throw new Error('You exceeded your current quota, please check your plan and billing details.');
-                default:
-                  throw new Error('Something went wrong with the request, please check the Network log');
-              }
-            }
-            return response.json();
-          })
-          .then((response) => {
-            const { choices } = response;
-            const text = choices[0].text;
-          
-            // Remove the last incomplete JSON object if there is any
-            let formattedText = text.trim();
-
-            // Find the last occurrence of ]
-            let lastIndex = formattedText.lastIndexOf(']');
-
-            // If found, truncate the string to that point and then close the entire array with another ]
-            if (lastIndex !== -1 && formattedText.endsWith("]]") === false){
-                formattedText = formattedText.substring(0, lastIndex + 1) + ']';
-            }
-
-            console.log(formattedText);
-          
-            try {
-              const updates = JSON.parse(formattedText);
-              console.log(updates);
-              updateGraph(updates);
-            } catch (error) {
-              console.error('Failed to parse JSON:', error);
-            }
-          });
-      })
-  };
 
   const queryStatefulPrompt = async (prompt, apiKey) => {
     fetch('/TextbookKG/prompts/stateful.prompt')
@@ -516,23 +492,359 @@ function App() {
       })
   };
 
+  const [isClusteringInProgress, setIsClusteringInProgress] = useState(false);
+  const [clusteringProgressPercentage, setClusteringProgressPercentage] = useState(0);
+  const getEmbedding = async (text, apiKey) => {
+    const OPENAI_API_URL = 'https://api.openai.com/v1/embeddings';
+  
+    const requestOptions = {
+      method: 'POST',
+      headers: {
+        'Authorization': `Bearer ${String(apiKey)}`,
+        'Content-Type': 'application/json'
+      },
+      body: JSON.stringify({
+        input: text,
+        model: 'text-embedding-ada-002',
+        encoding_format: 'float'
+      })
+    };
+  
+    try {
+      const response = await fetch(OPENAI_API_URL, requestOptions);
+  
+      if (!response.ok) {
+        // You can add more specific error handling based on response.status if needed
+        throw new Error(`Error fetching embedding: ${response.statusText}`);
+      }
+  
+      const data = await response.json();
+      
+      // Correctly extract the embedding from the response
+      if (data.data && data.data[0] && data.data[0].embedding) {
+        return data.data[0].embedding;
+      } else {
+        console.error('Embedding not found in the response:', data);
+        return null;
+      }
+    } catch (error) {
+      console.error('Error fetching embedding:', error);
+      return null;
+    }
+  };
+  
+
+  const hclust = require('ml-hclust');
+  function cosineSimilarity(vecA, vecB) {
+    let dotProduct = 0;
+    let magnitudeA = 0;
+    let magnitudeB = 0;
+    for (let i = 0; i < vecA.length; i++) {
+      dotProduct += vecA[i] * vecB[i];
+      magnitudeA += Math.pow(vecA[i], 2);
+      magnitudeB += Math.pow(vecB[i], 2);
+    }
+    magnitudeA = Math.sqrt(magnitudeA);
+    magnitudeB = Math.sqrt(magnitudeB);
+    
+    if (magnitudeA === 0 || magnitudeB === 0) {
+      return 0;
+    } else {
+      return dotProduct / (magnitudeA * magnitudeB);
+    }
+  }
+  
+  function cosineDistance(vecA, vecB) {
+    return 1 - cosineSimilarity(vecA, vecB);
+  }  
+
+  function cutDendrogramAtThreshold(node, threshold) {
+    // If the current node's height (distance) is less than the threshold
+    if (node.height < threshold) {
+        return [node];
+    } else {
+        let clusters = [];
+        if (node.children) {
+            for (let child of node.children) {
+                clusters.push(...cutDendrogramAtThreshold(child, threshold));
+            }
+        }
+        return clusters;
+    }
+  }
+
+  const clusterNodesAgglomerative = async (nodes) => {
+    // Get embeddings for all nodes
+    const embeddings = await Promise.all(nodes.map(node => getEmbedding(node.label, openAIAPIKey)));
+    console.log(embeddings);
+    setClusteringProgressPercentage(25); 
+
+    // Check for undefined or null embeddings
+    if (embeddings.some(embedding => embedding === undefined || embedding === null)) {
+        console.error('One or more embeddings could not be retrieved.');
+        console.log(embeddings);
+        return nodes; // Or handle this in some other way appropriate for your application
+    }
+    // Compute pairwise cosine distances
+    const distances = [];
+    for (let i = 0; i < embeddings.length; i++) {
+      const row = [];
+      for (let j = 0; j < embeddings.length; j++) {
+        row.push(cosineDistance(embeddings[i], embeddings[j]));
+      }
+      distances.push(row);
+    }
+
+    // Perform agglomerative clustering
+    const clusters = hclust.agnes(distances, { method: 'complete' });  // using complete linkage
+    console.log(clusters);
+
+    // Cut the dendrogram where distance (1 - cosine similarity) is 0.15
+    const threshold = 1 - 0.65;
+    const cutClusters = cutDendrogramAtThreshold(clusters, threshold);
+    console.log(cutClusters);
+    setClusterNumbers(cutClusters.length)
+    
+    // Map back clusters to node labels
+    const groupedClusters = Array(nodes.length).fill(-1);
+    cutClusters.forEach((cluster, clusterId) => {
+        const indices = cluster.indices();
+        indices.forEach(index => {
+            groupedClusters[index] = clusterId;
+        });
+    });
+
+    // Assign cluster ID to each node
+    for (let i = 0; i < nodes.length; i++) {
+        nodes[i].nodeGroup = groupedClusters[i];
+    }
+    console.log(nodes);
+    setNodeNumbers(nodes.length)
+
+    return nodes;
+  };
+
+  const clusterEdgesAgglomerative = async (edges) => {
+    // You might want to get embeddings for the edge labels or use some other property of the edges
+    const embeddings = await Promise.all(edges.map(edge => getEmbedding(edge.label, openAIAPIKey)));
+    console.log(embeddings);
+    setClusteringProgressPercentage(25);
+  
+    if (embeddings.some(embedding => embedding === undefined || embedding === null)) {
+      console.error('One or more edge embeddings could not be retrieved.');
+      console.log(embeddings);
+      return edges; // Handle missing embeddings appropriately
+    }
+  
+    // Compute pairwise edge distances based on embeddings or other properties
+    const distances = embeddings.map((embedA, i) => 
+      embeddings.map((embedB, j) => 
+        i === j ? 0 : cosineDistance(embedA, embedB)
+      )
+    );
+  
+    // Perform agglomerative clustering
+    const clusters = hclust.agnes(distances, { method: 'complete' });
+    console.log(clusters);
+  
+    // Cut the dendrogram at a certain threshold
+    const threshold = 1 - 0.85; // Adjust as needed
+    const cutClusters = cutDendrogramAtThreshold(clusters, threshold);
+    console.log(cutClusters);
+    setEdgeClusterNumbers(cutClusters.length)
+    
+    // Map back clusters to node labels
+    const groupedClusters = Array(edges.length).fill(-1);
+    cutClusters.forEach((cluster, clusterId) => {
+        const indices = cluster.indices();
+        indices.forEach(index => {
+            groupedClusters[index] = clusterId;
+        });
+    });
+
+    // Assign cluster ID to each node
+    for (let i = 0; i < edges.length; i++) {
+        edges[i].edgeGroup = groupedClusters[i];
+    }
+    console.log(edges);
+    setEdgeNumbers(edges.length)
+
+    return edges;
+  };
+  
+
+  const adjustNodeColors = (nodes, options) => {
+    // Ensure the 'groups' property exists in options
+    if (!options.nodeGroups) {
+        options.nodeGroups = {};
+    }
+
+    // A utility function to determine if a color is light or dark
+    const isColorLight = (r, g, b) => {
+        // Using the HSP Color Model to determine the brightness of the color
+        return Math.sqrt(
+            0.299 * (r * r) +
+            0.587 * (g * g) +
+            0.114 * (b * b)
+        ) > 127.5;
+    };
+
+    // A utility function to generate a random color
+    const getRandomColor = () => {
+        const r = Math.floor(Math.random() * 256);
+        const g = Math.floor(Math.random() * 256);
+        const b = Math.floor(Math.random() * 256);
+        return { r, g, b };
+    };
+
+
+    const groupColorMapping = {};
+
+    // Apply a color to each group and map the nodes to these colors
+    nodes = nodes.map(node => {
+        if (!groupColorMapping[node.nodeGroup]) {
+            const { r, g, b } = getRandomColor();
+            const textColor = isColorLight(r, g, b) ? 'black' : 'white';
+
+            groupColorMapping[node.nodeGroup] = `rgb(${r},${g},${b})`;
+
+            options.nodeGroups[node.nodeGroup] = {
+                color: {
+                    background: `rgb(${r},${g},${b})`,
+                    border: `rgb(${r},${g},${b})`,
+                    highlight: {
+                        background: `rgb(${r},${g},${b})`,
+                        border: `rgb(${r},${g},${b})`
+                    },
+                    hover: {
+                        background: `rgb(${r},${g},${b})`,
+                        border: `rgb(${r},${g},${b})`
+                    },
+                },
+                font: {
+                    color: textColor,
+                }
+            };
+        }
+        // Return the new node with updated color properties
+        return {
+            ...node,
+            color: groupColorMapping[node.nodeGroup],
+            font: { color: options.nodeGroups[node.nodeGroup].font.color }
+        };
+    });
+
+    return { updatedNodes: nodes, updatedOptions: options };
+  };
+
+  const adjustEdgeColors = (edges, options) => {
+    // Ensure the 'groups' property exists in options
+    if (!options.edgeGroups) {
+        options.edgeGroups = {};
+    }
+
+    // A utility function to determine if a color is light or dark
+    const isColorLight = (r, g, b) => {
+        // Using the HSP Color Model to determine the brightness of the color
+        return Math.sqrt(
+            0.299 * (r * r) +
+            0.587 * (g * g) +
+            0.114 * (b * b)
+        ) > 127.5;
+    };
+
+    // A utility function to generate a random color
+    const getRandomColor = () => {
+        const r = Math.floor(Math.random() * 256);
+        const g = Math.floor(Math.random() * 256);
+        const b = Math.floor(Math.random() * 256);
+        return { r, g, b };
+    };
+
+
+    const groupColorMapping = {};
+
+    // Apply a color to each group and map the nodes to these colors
+    edges = edges.map(edge => {
+        if (!groupColorMapping[edge.edgeGroup]) {
+            const { r, g, b } = getRandomColor();
+            groupColorMapping[edge.edgeGroup] = `rgb(${r},${g},${b})`;
+
+            options.edgeGroups[edge.edgeGroup] = {
+                color: {
+                    background: `rgb(${r},${g},${b})`,
+                    border: `rgb(${r},${g},${b})`,
+                    highlight: {
+                        background: `rgb(${r},${g},${b})`,
+                        border: `rgb(${r},${g},${b})`
+                    },
+                    hover: {
+                        background: `rgb(${r},${g},${b})`,
+                        border: `rgb(${r},${g},${b})`
+                    },
+                },
+
+            };
+        }
+        // Return the new node with updated color properties
+        return {
+            ...edge,
+            color: groupColorMapping[edge.edgeGroup],
+        };
+    });
+
+    return { updatedEdges: edges, updatedOptions: options };
+  };
+
+  const handleClusterNode = async () => {
+    setIsClusteringInProgress(true);
+    setClusteringProgressPercentage(0);
+
+    const clusteredNodes = await clusterNodesAgglomerative(graphState.nodes);
+    setClusteringProgressPercentage(50);
+
+    const { updatedNodes, updatedOptions } = adjustNodeColors(clusteredNodes, graphOptions);
+
+    // Set the state with the updated nodes and options
+    setGraphState(previousState => ({
+        ...previousState,
+        nodes: updatedNodes,
+    }));
+
+    setGraphOptions(updatedOptions);
+
+    setClusteringProgressPercentage(100);
+    setIsClusteringInProgress(false);
+  };
+
+const handleClusterEdge = async () => {
+  setIsClusteringInProgress(true);
+  setClusteringProgressPercentage(0);
+
+  const clusteredEdges = await clusterEdgesAgglomerative(graphState.edges);
+  setClusteringProgressPercentage(50);
+
+  const { updatedEdges, updatedOptions } = adjustEdgeColors(clusteredEdges, graphOptions); // adjustNodeColors might be renamed to reflect its general purpose
+
+  console.log(updatedEdges);
+  // Set the state with the updated edges and options
+  setGraphState(previousState => ({
+      ...previousState,
+      edges: updatedEdges,
+  }));
+
+  setGraphOptions(updatedOptions);
+
+  setClusteringProgressPercentage(100);
+  setIsClusteringInProgress(false);
+};
+
+
   const queryPrompt = async (text, apiKey, prompt) => {
     if (SELECTED_PROMPT === "STATELESS") {
       await queryStatelessPrompt(text, apiKey, prompt);
     } else if (SELECTED_PROMPT === "STATEFUL") {
       await queryStatefulPrompt(text, apiKey, prompt);
-    } else {
-      alert("Please select a prompt");
-      document.body.style.cursor = 'default';
-      document.getElementsByClassName("generateButton")[0].disabled = false;
-    }
-  }
-
-  const queryPromptExt = async (prompt, apiKey) => {
-    if (SELECTED_PROMPT === "STATELESS") {
-      await queryStatelessPromptExt(prompt, apiKey);
-    } else if (SELECTED_PROMPT === "STATEFUL") {
-      await queryStatefulPrompt(prompt, apiKey);
     } else {
       alert("Please select a prompt");
       document.body.style.cursor = 'default';
@@ -2097,7 +2409,27 @@ const regenerateGraph = async () => {
         </div>
 
         <div className='graphContainer' style={{ width: '100%', height: '100%' }}>
-            <Graph graph={graphState} ref={graphRef} options={options} events={eventState} style={{ height: win_height * 0.75 }} />
+            <p style={{ borderBottom: '1px solid black', paddingBottom: '0px', marginBottom: '10px' }}>
+                <button 
+                  className='nodeClusteringButton' 
+                  onClick={handleClusterNode}
+                  disabled={isClusteringInProgress} // Disable button when clustering is in progress
+                >
+                  {isClusteringInProgress ? `Clustering...` : 'Node Clustering'}
+                </button>
+                #Nodes: {nodeNumbers}   #NodeClusters: {clusterNumbers}
+                <button 
+                  className='edgeClusteringButton' 
+                  onClick={handleClusterEdge}
+                  disabled={isClusteringInProgress} // Disable button when clustering is in progress
+                >
+                  {isClusteringInProgress ? `Clustering...` : 'Edge Clustering'}
+                </button>
+                #Edges: {edgeNumbers}   #EdgeClusters: {edgeClusterNumbers}
+            </p>
+
+            <Graph graph={graphState} ref={graphRef} options={graphOptions} events={eventState} style={{ height: win_height * 0.75 }} />
+
             <div className='curInfoContainer' style={{ display: 'flex', flexDirection: 'row'}}>
                 <p><pre>
                     Selected Node: <span style={{ fontWeight: 'bold' }}>{selectedNode}</span> {"\n"}
@@ -2111,6 +2443,7 @@ const regenerateGraph = async () => {
                 >
                   Hierarchical: {isHierarchical ? "True" : "False"}
                 </button>
+
                 <WikiResultsBox className="wikiResultsBox" results={searchResults} show={showResultsBox} onClose={() => setShowResultsBox(false)} />
                 <button className="wikiButton" onClick={() => handleWikiSearch(selectedNode)}>Search</button>
             </div>
