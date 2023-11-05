@@ -1114,6 +1114,7 @@ const handleClusterEdge = async () => {
   const [userRepoOptions, setUserRepoOptions] = useState([])
   const [selectedFile, setSelectedFile] = useState(null);
   const [openAIAPIKey, setopenAIAPIKey] = useState(null);
+  const [uploadedPdfs, setUploadedPdfs] = useState([]);
 
   const handleSelected = (selectedOption) => {
     setSelectedFile(selectedOption);
@@ -1206,27 +1207,39 @@ const handleClusterEdge = async () => {
 
           // Download all the pdf files
           const filePromises = pdfFiles.map(itemRef => getDownloadURL(itemRef)
-            .then((url) => {
-              return fetch(url).then(response => response.blob());
-            })
-            .then(blob => {
-              // Create a file object from the blob
-              return new File([blob], itemRef.name, { type: "application/pdf" });
-            })
-            .catch(error => console.error('Error fetching PDF:', error)));
-
-          // When all files have been downloaded, handle them
-          Promise.all(filePromises).then(files => {
-            handleFile(files); 
-          }).catch(error => {
-            console.error('Error processing PDF files:', error);
+          .then((url) => {
+            return fetch(url).then(response => response.blob());
+          })
+          .then(blob => {
+            console.log('Blob size:', blob.size); // Debug: Log the size of the blob
+            if (blob.size > 0) {
+              const fileObject = new File([blob], itemRef.name, { type: "application/pdf" });
+              console.log('File object size:', fileObject.size); // Debug: Log the size of the file object
+              return fileObject; // Ensure that the file object is returned here
+            } else {
+              throw new Error('Downloaded blob is empty');
+            }
+          })
+          .catch(error => console.error('Error fetching PDF:', error))
+        );
+        setUploadedPdfs([]);
+        
+        Promise.all(filePromises).then(files => {
+          // wait for handleFile to complete before proceeding
+          return handleFile(files, true).then(() => {
+            console.log('All PDF files have been processed');
+            console.log(uploadedPdfs);
           });
-
+        }).catch(error => {
+          console.error('Error processing PDF files:', error);
+        });
+        
+        
         }).catch((error) => {
           console.error('Error listing project files:', error);
         });
-    }
 
+    }
 
     getDownloadURL(storageRef)
     .then((url) => {
@@ -1891,7 +1904,6 @@ const regenerateGraph = async () => {
   const [ocrProgress, setOcrProgress] = useState(0);
   const [isOCRInProgress, setIsOCRInProgress] = useState(false);
   const [showPDFList, setShowPDFList] = useState(false);
-  const [uploadedPdfs, setUploadedPdfs] = useState([]);
   const [currectPdf, setCurrentPdf] = useState(null);
   const [searchTerm, setSearchTerm] = useState('');
 
@@ -2203,6 +2215,7 @@ const regenerateGraph = async () => {
   };
   
   const handlePreviewClick = (page) => {
+    console.log(addedPages);
     setCurrentPdf(page.pdf);
     setUploadedFile(page.pdf.file);
     setPdfFile(URL.createObjectURL(page.pdf.file));    
@@ -2342,10 +2355,11 @@ const regenerateGraph = async () => {
   // This is the onChange handler for your file input
   const handleFileUpload = async (event) => {
     const files = event.target.files;
-    handleFile(files);
+    const cloud = false;
+    handleFile(files, cloud);
   };
 
-  const handleFile = async (files) => {
+  const handleFile = async (files, cloud) => {
     setUploadedFile(files[0]);
     setPdfFile(URL.createObjectURL(files[0]));
     setPageNumber(1);
@@ -2360,6 +2374,7 @@ const regenerateGraph = async () => {
       for (let i = 0; i < files.length; i++) {
         try {
           const file = files[i];
+          console.log(file);
           const fileURL = URL.createObjectURL(file);
 
           // Generate a preview for the first page of the PDF
@@ -2373,7 +2388,7 @@ const regenerateGraph = async () => {
             fileURL: fileURL,
             thumbnail: thumbnail, // This is the data URL for the thumbnail image
           };
-          console.log(pdfData.id);
+          console.log(pdfData);
 
           // Update your state to include the new PDF and its thumbnail
           newUploadedPdfs.push(pdfData);
@@ -2388,13 +2403,42 @@ const regenerateGraph = async () => {
 
       // Update the state with all the new PDFs at once
       setUploadedPdfs(currentPdfs => [...currentPdfs, ...newUploadedPdfs]);
-      
+      console.log(newUploadedPdfs);
+      if (cloud) {
+        updateAddedPagesWithNewFiles(newUploadedPdfs);
+      }
       setCurrentPdf(newUploadedPdfs[0]);
-      
       setIsFileUploaded(true); // 
     }
-
+    return Promise.resolve();
   }
+
+  const updateAddedPagesWithNewFiles = (newUploadedPdfs) => {
+    console.log(newUploadedPdfs);
+    // Assuming newUploadedPdfs is an array of objects with properties including 'id' and 'file'.
+    setAddedPages((currentPages) => {
+      // Create a mapping from ID to file for the new PDFs
+      const idToPdfMap = newUploadedPdfs.reduce((acc, pdfData) => {
+        acc[pdfData.id] = pdfData;
+        return acc;
+      }, {});
+
+      console.log(idToPdfMap);
+  
+      // Map over the current pages to create a new array with updated pdfs
+      const updatedPages = currentPages.map((page) => {
+        // Check if the current page ID has a matching new file
+        if (idToPdfMap[page.pdf.id]) {
+          return { ...page, pdf: idToPdfMap[page.pdf.id] }; // Replace the pdf property with the new file
+        }
+        // If there is no matching new file, return the page as is
+        return page;
+      });
+  
+      return updatedPages;
+    });
+    console.log(addedPages);
+  };
 
   const handleDeletePdf = (index) => {
     // Create a new array without the item at the specific index
