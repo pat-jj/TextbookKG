@@ -2079,8 +2079,11 @@ const regenerateGraph = async () => {
     setRawText(rawText.replaceAll(pagesTextMap[`${page.pdf.id.replace('PDF', '')}-${page.pageNumber}`], ''));
   };
   
-  const handlePreviewClick = (pageNumber) => {
-    setPageNumber(pageNumber); // This assumes you have a setPageNumber function to change the displayed page
+  const handlePreviewClick = (page) => {
+    setCurrentPdf(page.pdf);
+    setUploadedFile(page.pdf.file);
+    setPdfFile(URL.createObjectURL(page.pdf.file));    
+    setPageNumber(page.pageNumber); // This assumes you have a setPageNumber function to change the displayed page
   };  
 
   const handleAddContent = () => {
@@ -2481,7 +2484,7 @@ const regenerateGraph = async () => {
                           src={page.src} 
                           alt={`Preview ${index}`} 
                           title={`Page ${page.pageNumber}`}  // Tooltip on hover
-                          onClick={() => handlePreviewClick(page.pageNumber)} 
+                          onClick={() => handlePreviewClick(page)} 
                           style={{ width: '90px', height: '120px', cursor: 'pointer' }}
                       />
 
