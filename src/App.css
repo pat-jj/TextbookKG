@@ -596,6 +596,16 @@
   background-color: rgba(255, 255, 255, 0.8);
 }
 
+.currentPageNumber {
+  background-color: rgb(255, 255, 255);
+  border-radius: 10px;
+  color: rgb(0, 0, 0);
+  font-size: 18px;
+  height: 150%;
+  width: 300px;
+  margin-left: 0px;
+}
+
 .pdfSearchInput {
   background-color: rgb(255, 255, 255);
   border: 1px solid rgb(200, 200, 200);
@@ -603,8 +613,9 @@
   color: rgb(0, 0, 0);
   font-size: 18px;
   height: 150%;
-  width: 50%;
+  width: 300px;
   z-index: 800;
+  margin-left: 0px;
 }
 
 .highlight {

@@ -2565,7 +2565,7 @@ const regenerateGraph = async () => {
                   style={{ width: '10%', height: '10%' }}
                 />
 
-                 <p style={{ width: '50%', paddingTop: '15px'}}>
+                 <p className='currentPageNumber' style={{ paddingTop: '15px'}}>
                 ✨ Page {pageNumber} of {numPages} ✨ {showDropdowns && (<span style={{ fontWeight: 'bold' }}>{selectedSection}</span>)}
                 </p>
 
