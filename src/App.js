@@ -2388,9 +2388,9 @@ const regenerateGraph = async () => {
 
       // Update the state with all the new PDFs at once
       setUploadedPdfs(currentPdfs => [...currentPdfs, ...newUploadedPdfs]);
-      if (currectPdf == null) {
-        setCurrentPdf(newUploadedPdfs[0]);
-      }
+      
+      setCurrentPdf(newUploadedPdfs[0]);
+      
       setIsFileUploaded(true); // 
     }
 
