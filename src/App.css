@@ -596,6 +596,22 @@
   background-color: rgba(255, 255, 255, 0.8);
 }
 
+.pdfSearchInput {
+  background-color: rgb(255, 255, 255);
+  border: 1px solid rgb(200, 200, 200);
+  border-radius: 10px;
+  color: rgb(0, 0, 0);
+  font-size: 18px;
+  height: 150%;
+  width: 50%;
+  z-index: 800;
+}
+
+.highlight {
+background-color: yellow;
+opacity: 0.5;
+}
+
 .resetPromptButton {
   background-color: rgb(201, 230, 216);
   border: 1px solid rgb(0, 0, 0);

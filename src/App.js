@@ -1893,6 +1893,7 @@ const regenerateGraph = async () => {
   const [showPDFList, setShowPDFList] = useState(false);
   const [uploadedPdfs, setUploadedPdfs] = useState([]);
   const [currectPdf, setCurrentPdf] = useState(null);
+  const [searchTerm, setSearchTerm] = useState('');
 
 
   const pdfjsLib = require('pdfjs-dist/build/pdf');
@@ -2029,6 +2030,7 @@ const regenerateGraph = async () => {
 
 	const onDocumentLoadSuccess = ({ numPages }) => {
 		setNumPages(numPages);
+    // setHighlights([]);
 	};
 
 	const zoomIn = () =>
@@ -2049,6 +2051,117 @@ const regenerateGraph = async () => {
     setInputValue(event.target.value);
     };
 
+  const handleKeyDown = (event) => {
+    if (event.key === 'Enter') {
+      validatePageNumber();
+    }
+  };
+
+  const handleSearch = async (pdf) => {
+  
+    for (let pageNum = 1; pageNum <= pdf.numPages; pageNum++) {
+      const page = await pdf.getPage(pageNum);
+      const textContent = await page.getTextContent();
+      const textItems = textContent.items.map(item => item.str);
+      const searchText = textItems.join(' ');
+  
+      if (searchText.includes(searchTerm)) {
+        console.log(`Term found on page ${pageNum}`);
+        setPageNumber(pageNum);
+        break; // Remove break if you want to search all pages
+      }
+    }
+  };
+
+  // Handler for the search term input change
+  const handleSearchTermChange = (event) => {
+    setSearchTerm(event.target.value);
+  };
+
+  // Handler for detecting 'Enter' press in search input
+  const handleSearchKeyDown = async (event) => {
+    let pdf = await pdfjsLib.getDocument(pdfFile).promise;
+    if (event.key === 'Enter') {
+      handleSearch(pdf);
+    }
+  };
+
+  // useEffect(() => {
+  //   if (pageNumber && searchTerm) {
+  //     updateHighlightsForPage(pageNumber);
+  //   }
+  // }, [pageNumber, searchTerm]);
+
+  // // You would include this in your component where the PDF is rendered
+  // const [highlights, setHighlights] = useState([]);
+  // const viewportRef = useRef();
+
+  // const updateHighlightsForPage = async (pageNum) => {
+  //   const pdf = await pdfjs.getDocument(pdfFile).promise;
+  //   const page = await pdf.getPage(pageNum);
+  //   const textContent = await page.getTextContent();
+  //   const viewport = page.getViewport({ scale: docSize, rotation: page.rotate });
+  //   const newHighlights = calculateHighlightPositions(textContent, searchTerm, viewport);
+  //   setHighlights(newHighlights);
+  //   console.log(newHighlights);
+  // };
+
+  // const Highlight = ({ highlight }) => {
+  //   return (
+  //     <div
+  //       style={{
+  //         left: `${highlight.x}px`,
+  //         top: `${highlight.y}px`,
+  //         width: `${highlight.width}px`,
+  //         height: `${highlight.height}px`,
+  //         position: 'absolute',
+  //         backgroundColor: 'yellow',
+  //         opacity: 0.4,
+  //       }}
+  //     />
+  //   );
+  // };
+  
+  // const calculateHighlightPositions = (textContent, searchTerm, viewport) => {
+  //   const highlights = [];
+  //   const searchRegExp = new RegExp(searchTerm, 'gi');
+  
+  //   textContent.items.forEach(item => {
+  //     let match;
+  //     while ((match = searchRegExp.exec(item.str)) !== null) {
+  //       const matchIndex = match.index;
+  //       const [fontHeight, fontWidth, , , offsetX, offsetY] = item.transform;
+  
+  //       // We assume the width of each character is the same, which may not be true for all fonts
+  //       const charWidth = fontWidth / item.str.length;
+  
+  //       // Calculate position of the match
+  //       const matchPosX = offsetX + charWidth * matchIndex;
+  //       const matchPosY = offsetY;
+  
+  //       // Calculate width of the match - match[0] is the matched substring
+  //       const matchWidth = charWidth * match[0].length;
+  //       const matchHeight = fontHeight; // This is an approximation and may need more accurate calculation
+        
+  //       const [viewportX, viewportY] = viewport.convertToViewportPoint(matchPosX, matchPosY);
+
+  //       const adjustedY = viewport.height - matchPosY - matchHeight;
+  
+  //       highlights.push({
+  //         x: matchPosX+50,
+  //         y: adjustedY,
+  //         width: 50,
+  //         height: matchHeight,
+  //       });
+  //     }
+  //   });
+  
+  //   // ... Convert points to viewport scale ...
+  //   return highlights;
+  // };
+
+  
+  
   const validatePageNumber = () => {
     const newPageNumber = parseInt(inputValue, 10);
     if (newPageNumber >= 1 && newPageNumber <= numPages) {
@@ -2431,24 +2544,40 @@ const regenerateGraph = async () => {
             file={pdfFile}
             onLoadSuccess={onDocumentLoadSuccess}
           >
-            <Page scale={docSize} pageNumber={pageNumber} renderTextLayer={false}/>
+            <div style={{ position: 'relative' }}>
+              <Page pageNumber={pageNumber} scale={docSize} renderTextLayer={false} />
+              {/* {highlights.map((highlight, index) => (
+                <Highlight key={`highlight_${index}`} highlight={highlight} />
+              ))} */}
+            </div>
           </Document>
-          <nav style={{ display: 'flex', alignItems: 'center', flexDirection: 'row'}}>
+          <nav style={{ display: 'flex', alignItems: 'center', flexDirection: 'row', width: '140%'}}>
                 <button className='pdfpagezoomButton' onClick={zoomOut}>➖</button>
                 <button className='pdfpagezoomButton' onClick={zoomIn}>➕</button>
                 <button className='pdfpagechangeButton' onClick={goToPrevPage}>Prev</button>
                 <button className='pdfpagechangeButton' onClick={goToNextPage}>Next</button>
                 <Form.Control
-                    type="text"
-                    value={inputValue}
-                    onChange={handlePageNumberChange}
-                    onBlur={validatePageNumber}
-                    style={{ width: '10%' , height: '10%'}}
+                  type="text"
+                  value={inputValue}
+                  onChange={handlePageNumberChange}
+                  onKeyDown={handleKeyDown} // Adding the onKeyDown event listener
+                  onBlur={validatePageNumber}
+                  style={{ width: '10%', height: '10%' }}
                 />
 
                  <p style={{ width: '50%', paddingTop: '15px'}}>
                 ✨ Page {pageNumber} of {numPages} ✨ {showDropdowns && (<span style={{ fontWeight: 'bold' }}>{selectedSection}</span>)}
                 </p>
+
+                      {/* Search Input */}
+                <input
+                  className='pdfSearchInput'
+                  type="text"
+                  value={searchTerm}
+                  onChange={handleSearchTermChange}
+                  onKeyDown={handleSearchKeyDown}
+                  placeholder="(beta) Search in PDF"
+                />
 
           </nav>
           {isFileUploaded && !showDropdowns && (
@@ -2507,8 +2636,6 @@ const regenerateGraph = async () => {
                   </div>
               ))}
           </div>
-
-
 
           <div className='prompyContainer' style={{ display: 'flex', flexDirection: 'column'}}>
           <h1 className="headerPrompt" width={win_width * 0.5} height={win_height * 0.1}> 🔍 Prompt </h1>
