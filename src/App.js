@@ -2393,7 +2393,9 @@ const regenerateGraph = async () => {
                       marginTop: '8px',
                       marginLeft: '43px',
                       color: 'black', // Assuming the text color should be white
-                      zIndex: '1' // Ensures the ID is above the image but below the delete button if it overlaps
+                      zIndex: '1', // Ensures the ID is above the image but below the delete button if it overlaps
+                      background: pdf === currectPdf ? '#C9FAB9' : 'none', // Highlight the selected PDF
+                      borderRadius: '4px',
                     }}>
                       {pdf.id}
                     </div>
@@ -2499,7 +2501,7 @@ const regenerateGraph = async () => {
                       />
 
                       {/* Page number below the image */}
-                      <div style={{ textAlign: 'center', marginTop: '5px', fontSize: '14px' }}>
+                      <div style={{ textAlign: 'center', marginTop: '5px', fontSize: '14px', background: (page.pdf === currectPdf) &&  (page.pageNumber === pageNumber) ? '#FAF8B9' : 'none', }}>
                           {page.pdf.id}-Page{page.pageNumber}
                       </div>
                   </div>
