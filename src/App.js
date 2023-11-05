@@ -1388,7 +1388,8 @@ const handleClusterEdge = async () => {
     /* global google*/
     google.accounts.id.initialize({
       client_id: "497566497653-8pje9meu5q10ch9vro2nuept9bdacgu5.apps.googleusercontent.com",
-      callback: handleCallbackResponse
+      callback: handleCallbackResponse,
+      auto_select: true,
     });
 
     google.accounts.id.renderButton(
@@ -1396,6 +1397,15 @@ const handleClusterEdge = async () => {
       { shape:'rectangular', size:'large', theme:'filled_blue', type:'icon'}
       // { shape:'rectangular', size:'small', theme:'outline'}
     );
+    // Attempt to display the One Tap prompt
+    google.accounts.id.prompt((notification) => {
+      if (notification.isDisplayMoment()) {
+        // The prompt is being displayed to the user.
+      } else if (notification.isNotDisplayed() || notification.isSkippedMoment()) {
+        // Prompt could not be displayed, or it was dismissed.
+        // You could log these events for analytics and troubleshooting.
+      }
+    });
   }, [])
 
 
