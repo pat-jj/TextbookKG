@@ -1138,7 +1138,7 @@ const handleClusterEdge = async () => {
       const textStorageRef = ref(storage, `/${objectName}/text.text`);
       const pageStorageRef = ref(storage, `/${objectName}/content_pages`);
       const addedPageStorageRef = ref(storage, `/${objectName}/added_pages`);
-
+      const projectFilesRef = ref(storage, `/${objectName}`);
 
       getDownloadURL(graphStorageRef)
       .then((url) => {
@@ -1197,6 +1197,34 @@ const handleClusterEdge = async () => {
           .then(response => response.text())
           .then(pages => setAddedPages(JSON.parse(pages)));
       })
+
+        // List all items (files) and prefixes (folders) under this storage reference.
+        listAll(projectFilesRef)
+        .then((res) => {
+          // Filter out 'pdf.pdf' and only keep files that end with '.pdf'
+          const pdfFiles = res.items.filter(itemRef => itemRef.name.endsWith('.pdf') && itemRef.name !== 'pdf.pdf');
+
+          // Download all the pdf files
+          const filePromises = pdfFiles.map(itemRef => getDownloadURL(itemRef)
+            .then((url) => {
+              return fetch(url).then(response => response.blob());
+            })
+            .then(blob => {
+              // Create a file object from the blob
+              return new File([blob], itemRef.name, { type: "application/pdf" });
+            })
+            .catch(error => console.error('Error fetching PDF:', error)));
+
+          // When all files have been downloaded, handle them
+          Promise.all(filePromises).then(files => {
+            handleFile(files); 
+          }).catch(error => {
+            console.error('Error processing PDF files:', error);
+          });
+
+        }).catch((error) => {
+          console.error('Error listing project files:', error);
+        });
     }
 
 
@@ -1710,7 +1738,13 @@ const uploadProjectFile = async () => {
   const graphStorageRef = ref(storage, `/${graphName}`);
   const graphUploadTask = uploadBytesResumable(graphStorageRef, graphFile); // upload the uploadedFile
 
-
+  const pdfUploadTasks = uploadedPdfs.map((pdfData) => {
+    const pdfName = `${path}/${user.email}/${file_name}.project/${pdfData.name}`; // Unique name for each PDF
+    const pdfStorageRef = ref(storage, `/${pdfName}`);
+    const pdfUploadTask = uploadBytesResumable(pdfStorageRef, pdfData.file); // pdfData.file is the File object
+  
+    return { task: pdfUploadTask, name: `${pdfData.name}` };
+  });
 
   const allUploadTasks = [
     { task: textUploadTask, name: "text" },
@@ -1718,7 +1752,8 @@ const uploadProjectFile = async () => {
     { task: addedPageUploadTask, name: "added_pages" },
     { task: promptUploadTask, name: "prompt" },
     { task: pdfUploadTask, name: "pdf" },
-    { task: graphUploadTask, name: "graph" }
+    { task: graphUploadTask, name: "graph" },
+    ...pdfUploadTasks,
   ];
 
   const allProgress = {};
@@ -1845,6 +1880,9 @@ const regenerateGraph = async () => {
   const [pagesTextMap, setPagesTextMap] = useState({});
   const [ocrProgress, setOcrProgress] = useState(0);
   const [isOCRInProgress, setIsOCRInProgress] = useState(false);
+  const [showPDFList, setShowPDFList] = useState(false);
+  const [uploadedPdfs, setUploadedPdfs] = useState([]);
+  const [currectPdf, setCurrentPdf] = useState(null);
 
 
   const pdfjsLib = require('pdfjs-dist/build/pdf');
@@ -2037,8 +2075,8 @@ const regenerateGraph = async () => {
     const newAddedPages = [...addedPages];
     newAddedPages.splice(index, 1);
     setAddedPages(newAddedPages);
-    setContentPage(contentPage.replaceAll(`${page.pageNumber}, `, ''));
-    setRawText(rawText.replaceAll(pagesTextMap[page.pageNumber], ''));
+    setContentPage(contentPage.replaceAll(`${page.pdf.id.replace('PDF', '')}-${page.pageNumber}, `, ''));
+    setRawText(rawText.replaceAll(pagesTextMap[`${page.pdf.id.replace('PDF', '')}-${page.pageNumber}`], ''));
   };
   
   const handlePreviewClick = (pageNumber) => {
@@ -2046,10 +2084,11 @@ const regenerateGraph = async () => {
   };  
 
   const handleAddContent = () => {
-    setContentPage(contentPage + pageNumber.toString() + ', ');
+    let pdf = currectPdf;
+    setContentPage(contentPage + pdf.id.replace('PDF', '') + '-' + pageNumber.toString() + ', ');
     extractTextFromPDF(pdfFile, pageNumber).then((text) => {
         setPagesTextMap(prevMap => {
-          return { ...prevMap, [pageNumber]: text }
+          return { ...prevMap, [`${pdf.id.replace('PDF', '')}-${pageNumber}`]: text }
         });
 
         setRawText(rawText + text);
@@ -2057,6 +2096,7 @@ const regenerateGraph = async () => {
         generatePagePreview(pdfFile, pageNumber).then(src => {
             setAddedPages([...addedPages, {
                 src: src,
+                pdf: pdf,
                 pageNumber: pageNumber
             }]);
         }).catch(error => {
@@ -2068,11 +2108,12 @@ const regenerateGraph = async () => {
   }
 
   const handleAddContent_OCR = () => {
+      let pdf = currectPdf;
       setIsOCRInProgress(true);
-      setContentPage(contentPage + pageNumber.toString() + ', ');
+      setContentPage(contentPage + pdf.id.replace('PDF', '') + '-' + pageNumber.toString() + ', ');
       extractTextFromPDF_OCR(pdfFile, pageNumber).then((text) => {
           setPagesTextMap(prevMap => {
-            return { ...prevMap, [pageNumber]: text }
+            return { ...prevMap, [`${pdf.id.replace('PDF', '')}-${pageNumber}`]: text }
           });
           setRawText(rawText + text);
           setIsOCRInProgress(false); // Reset the progress state once OCR is done
@@ -2081,6 +2122,7 @@ const regenerateGraph = async () => {
           generatePagePreview(pdfFile, pageNumber).then(src => {
               setAddedPages([...addedPages, {
                   src: src,
+                  pdf: pdf,
                   pageNumber: pageNumber
               }]);
           }).catch(error => {
@@ -2166,29 +2208,132 @@ const regenerateGraph = async () => {
     }
   };
 
+  const handleShowPdfList = () => {
+    setShowPDFList(!showPDFList);
+    console.log(showPDFList);
+  }
+
+  // This is the onChange handler for your file input
+  const handleFileUpload = async (event) => {
+    const files = event.target.files;
+    handleFile(files);
+  };
+
+  const handleFile = async (files) => {
+    setUploadedFile(files[0]);
+    setPdfFile(URL.createObjectURL(files[0]));
+    setPageNumber(1);
+    setIsFileUploaded(true);
+    let prevPdfSize = uploadedPdfs.length;
+
+    if (files) {
+      // You might want to clear any previously uploaded PDFs or manage duplicates here
+      const newUploadedPdfs = [];
+
+      // Process each file
+      for (let i = 0; i < files.length; i++) {
+        try {
+          const file = files[i];
+          const fileURL = URL.createObjectURL(file);
+
+          // Generate a preview for the first page of the PDF
+          const thumbnail = await generatePagePreview(fileURL, 1);
+
+          // Create a new object for the PDF and its metadata
+          const pdfData = {
+            id: `PDF${prevPdfSize+i+1}`,
+            file: file,
+            name: file.name,
+            fileURL: fileURL,
+            thumbnail: thumbnail, // This is the data URL for the thumbnail image
+          };
+          console.log(pdfData.id);
+
+          // Update your state to include the new PDF and its thumbnail
+          newUploadedPdfs.push(pdfData);
+
+          // Free up the object URL if needed
+          URL.revokeObjectURL(fileURL);
+        } catch (error) {
+          console.error("Error generating a thumbnail for the PDF", error);
+          // Handle the error, maybe push a placeholder thumbnail or error message
+        }
+      }
+
+      // Update the state with all the new PDFs at once
+      setUploadedPdfs(currentPdfs => [...currentPdfs, ...newUploadedPdfs]);
+      if (currectPdf == null) {
+        setCurrentPdf(newUploadedPdfs[0]);
+      }
+      setIsFileUploaded(true); // 
+    }
+
+  }
+
+  const handleDeletePdf = (index) => {
+    // Create a new array without the item at the specific index
+    const updatedPdfs = [...uploadedPdfs];
+    const removedPdf = updatedPdfs.splice(index, 1)[0];
+
+    // Revoke the object URL to free up memory
+    if (removedPdf && removedPdf.fileURL) {
+      URL.revokeObjectURL(removedPdf.fileURL);
+    }
+    // Update state
+    setUploadedPdfs(updatedPdfs);
+  };
+
+  const handleSwitchToPdf = (pdf) => {
+    setCurrentPdf(pdf);
+    setUploadedFile(pdf.file);
+    setPdfFile(URL.createObjectURL(pdf.file));
+    setPageNumber(1);
+    setIsFileUploaded(true);
+  };
+
 	return (
 		<div style={{ display: 'flex', flexDirection: 'row'}}>
       <div className='pdf_viewer'>
         <nav style={{ display: 'flex', flexDirection: 'row'}}>
             <nav style={{ display: 'flex', flexDirection: 'column'}}>
               <nav style={{ display: 'flex', alignItems: 'center'}}>
-                  <div className='uploadPDFButton'>
-                    <input 
-                      id="fileUpload" // add an id to the input
-                      style={{display: 'none'}} // hide the input
-                      type='file'
-                      onChange={(event) => {
-                        const fileURL = URL.createObjectURL(event.target.files[0]);
-                        setUploadedFile(event.target.files[0]);
+              <div className='uploadPDFButton'>
+                  {/* This label will be visible and when clicked, it will trigger the file input */}
+                  <label htmlFor="fileUpload">PDF Upload</label>
+                  {/* <input 
+                    id="fileUpload"
+                    style={{ display: 'none' }}
+                    type='file'
+                    onChange={(event) => {
+                      const file = event.target.files[0];
+                      if(file) {
+                        const fileURL = URL.createObjectURL(file);
+                        setUploadedFile(file);
                         setPdfFile(fileURL);
                         setPageNumber(1);
                         setIsFileUploaded(true);
-                        console.log(userPrompt)
-                      }}
-                      accept=".pdf"
-                    />
-                    <label htmlFor="fileUpload">PDF Upload</label> {/* add a label that triggers the hidden input when clicked */}
-                  </div>
+                        console.log(userPrompt);
+                      }
+                    }}
+                    accept=".pdf"
+                  /> */}
+                  <input 
+                    id="fileUpload"
+                    style={{ display: 'none' }}
+                    type='file'
+                    multiple // Allow multiple file selections
+                    onChange={handleFileUpload} // Use a handler function for better readability
+                    accept=".pdf"
+                  />
+
+                </div>
+                {/* Show icon button if a file is uploaded */}
+                {isFileUploaded && (
+                  <button className='uploadedPDFShowButton' onClick={handleShowPdfList}>
+                    PDF Files
+                  </button>
+                )}
+
                     {/* <button className='textbookButton' onClick={() => setShowDropdowns(!showDropdowns)}>Built-in Textbooks</button> */}
 
                   {showDropdowns && (
@@ -2215,6 +2360,57 @@ const regenerateGraph = async () => {
             </nav>
 
           </nav>
+
+          {showPDFList && (
+              <div className="uploadedPDFContainer">
+                {/* Map through your uploaded PDFs and display their thumbnails */}
+                {uploadedPdfs.map((pdf, index) => (
+                  <div key={index} style={{ marginLeft: '10px', marginRight: '10px', position: 'relative', width: '90px' }}> {/* Set a fixed width corresponding to image width */}
+                    {/* Delete button */}
+                    <button 
+                      onClick={() => handleDeletePdf(index)} 
+                      style={{ position: 'absolute', top: '30px', right: '-15px', background: 'white', color: 'white', borderRadius: '50%', width: '20px', height: '20px', fontSize: '10px', border: '2px solid red', cursor: 'pointer', zIndex: '2', display: 'flex', alignItems: 'center', justifyContent: 'center' }}
+                    >
+                      ❌
+                    </button>
+                    <div style={{ 
+                      fontFamily: 'Noticia Text',
+                      fontWeight: 'bold',
+                      position: 'absolute',
+                      marginTop: '8px',
+                      marginLeft: '43px',
+                      color: 'black', // Assuming the text color should be white
+                      zIndex: '1' // Ensures the ID is above the image but below the delete button if it overlaps
+                    }}>
+                      {pdf.id}
+                    </div>
+                    {/* PDF Thumbnail */}
+                    <img 
+                      className="pdf-thumbnail"
+                      src={pdf.thumbnail} 
+                      alt={`Thumbnail of ${pdf.name}`} 
+                      title={pdf.name} // Tooltip on hover
+                      onClick={() => handleSwitchToPdf(pdf)} 
+                      style={{ marginTop: '30px', marginLeft: '15px', width: '90px', height: '120px', cursor: 'pointer', border: '1px solid #ddd', borderRadius: '4px', padding: '5px' }}
+                    />
+
+                    {/* PDF Name below the image */}
+                    <div style={{
+                      overflow: 'hidden',
+                      whiteSpace: 'nowrap',
+                      textOverflow: 'ellipsis',
+                      textAlign: 'center',
+                      marginTop: '5px',
+                      marginLeft: '15px'
+                    }}>
+                      {pdf.name}
+                    </div>
+                  </div>
+                ))}
+              </div>
+            )}
+
+
             
           <Document
             file={pdfFile}
@@ -2290,8 +2486,8 @@ const regenerateGraph = async () => {
                       />
 
                       {/* Page number below the image */}
-                      <div style={{ textAlign: 'center', marginTop: '5px' }}>
-                          Page {page.pageNumber}
+                      <div style={{ textAlign: 'center', marginTop: '5px', fontSize: '14px' }}>
+                          {page.pdf.id}-Page{page.pageNumber}
                       </div>
                   </div>
               ))}
