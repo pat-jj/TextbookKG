@@ -247,6 +247,20 @@
   /* z-index: 1000; */
 }
 
+.searchPreviewContainer {
+  border: 2px solid rgb(203, 242, 207);
+  background-color: rgb(228, 238, 229, 0.8);
+  border-width: 1.5px;
+  border-radius: 20px;
+  width: 42%;
+  /* margin: 0 auto; */
+  height: 200px;
+  display: flex;
+  margin-top: 5px;
+  margin-bottom: 0px;
+  z-index: 1000;
+}
+
 
 .promptContainer {
   width: 100%;
@@ -477,7 +491,6 @@
   align-items: center; /* vertically align the elements in the center */
 }
 
-
 .generateButton {
   background-color: rgb(255, 187, 0);
   border: solid rgb(255, 145, 0);
@@ -608,14 +621,50 @@
 
 .pdfSearchInput {
   background-color: rgb(255, 255, 255);
-  border: 1px solid rgb(200, 200, 200);
+  border: 2px solid rgb(149, 228, 150);
   border-radius: 10px;
   color: rgb(0, 0, 0);
   font-size: 18px;
   height: 150%;
-  width: 300px;
+  width: 200px;
   z-index: 800;
   margin-left: 0px;
+}
+
+.pdfSearchSpinner {
+  border: 2px solid rgb(54, 4, 255);
+  width: 30px;
+  height: 1px;
+  animation: spin 1s linear infinite;
+  z-index: 2000;
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.pdfSearchResultButton {
+  background-color: rgb(181, 227, 172);
+  border-color: #ffffff;
+  border-radius: 10%;
+  cursor: pointer;
+  font-size: 12px;
+  height: 20px;
+  outline: none;
+  width: 100%;
+  display: inline-block;
+  font-weight: bold;
+  font-family: 'Times New Roman', serif;
+  z-index: 800;
+}
+
+.pdfSearchResultButton:hover {
+  background-color: rgba(239, 239, 239, 0.8);
 }
 
 .highlight {

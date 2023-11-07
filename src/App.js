@@ -1906,7 +1906,11 @@ const regenerateGraph = async () => {
   const [showPDFList, setShowPDFList] = useState(false);
   const [currectPdf, setCurrentPdf] = useState(null);
   const [searchTerm, setSearchTerm] = useState('');
-
+  const [termToPagesMap, setTermToPagesMap] = useState(new Map());
+  const [currentPageIndex, setCurrentPageIndex] = useState(new Map());
+  const [isLoadingPages, setIsLoadingPages] = useState(false);
+  const [showTermLoadedPages, setShowTermLoadedPages] = useState(false);
+  const [termContainedPages, setTermContainedPages] = useState([]);
 
   const pdfjsLib = require('pdfjs-dist/build/pdf');
   pdfjsLib.GlobalWorkerOptions.workerSrc = '//cdnjs.cloudflare.com/ajax/libs/pdf.js/3.7.107/pdf.worker.min.js';
@@ -2069,33 +2073,77 @@ const regenerateGraph = async () => {
     }
   };
 
-  const handleSearch = async (pdf) => {
-  
+
+  const searchAllPages = async (pdf, term) => {
+    setIsLoadingPages(true); // Start loading
+    let pages = [];
     for (let pageNum = 1; pageNum <= pdf.numPages; pageNum++) {
       const page = await pdf.getPage(pageNum);
       const textContent = await page.getTextContent();
-      const textItems = textContent.items.map(item => item.str);
-      const searchText = textItems.join(' ');
-  
-      if (searchText.includes(searchTerm)) {
-        console.log(`Term found on page ${pageNum}`);
-        setPageNumber(pageNum);
-        break; // Remove break if you want to search all pages
+      const pageText = textContent.items.map(item => item.str).join(' ');
+
+      if (pageText.toLowerCase().includes(term.toLowerCase())) {
+        pages.push(pageNum);
       }
     }
+    setTermToPagesMap(new Map(termToPagesMap.set(term, pages)));
+    // Initialize current page index for the new term
+    setCurrentPageIndex(new Map(currentPageIndex.set(term, 0)));
+    console.log(termToPagesMap);
+    setIsLoadingPages(false); // Finish loading
   };
 
-  // Handler for the search term input change
   const handleSearchTermChange = (event) => {
     setSearchTerm(event.target.value);
   };
 
-  // Handler for detecting 'Enter' press in search input
-  const handleSearchKeyDown = async (event) => {
-    let pdf = await pdfjsLib.getDocument(pdfFile).promise;
-    if (event.key === 'Enter') {
-      handleSearch(pdf);
+  const updateTermContainedPages = async (pdfFile, pages) => {
+    let pdf = currectPdf;
+    try {
+      const pagePreviews = await Promise.all(pages.map(async (pageNumber) => {
+        const src = await generatePagePreview(pdfFile, pageNumber);
+        return {
+          src: src,
+          pdf: pdf,
+          pageNumber: pageNumber
+        };
+      }));
+  
+      setTermContainedPages(pagePreviews);
+    } catch (error) {
+      console.error("Error generating page previews:", error);
     }
+  };  
+
+  const handleSearchKeyDown = async (event) => {
+    if (event.key === 'Enter') {
+      const term = searchTerm.toLowerCase();
+      let pdf = await pdfjsLib.getDocument(pdfFile).promise;
+      
+      // If this term hasn't been searched before, search all pages and store results.
+      if (!termToPagesMap.has(term)) {
+        await searchAllPages(pdf, term);
+        updateTermContainedPages(pdfFile, termToPagesMap.get(searchTerm.toLowerCase()))
+
+      }
+      
+      // Navigate to the next page with the term.
+      navigateToNextMatch(term);
+    }
+  };
+
+  const navigateToNextMatch = (term) => {
+    let pages = termToPagesMap.get(term) || [];
+    let currentIndex = currentPageIndex.get(term) || 0;
+
+    // If there are no matches or we're at the last match, do nothing
+    if (pages.length === 0 || currentIndex === pages.length - 1) return;
+
+    const nextPage = pages[currentIndex];
+    setCurrentPageIndex(new Map(currentPageIndex.set(term, currentIndex + 1)));
+    
+    setPageNumber(nextPage);
+    console.log(`Navigate to page ${nextPage}`);
   };
 
   // useEffect(() => {
@@ -2595,6 +2643,33 @@ const regenerateGraph = async () => {
               ))} */}
             </div>
           </Document>
+          {showTermLoadedPages && (
+            <div style={{ position: 'absolute', marginLeft: '10px', marginTop: '-200px', zIndex: '1100' }}>
+              Pages containing "{searchTerm}": {termToPagesMap.get(searchTerm.toLowerCase())?.join(', ')}
+            </div>
+          )}
+          {showTermLoadedPages && (
+            <div className="searchPreviewContainer" style={{ position: 'absolute', display: 'flex', flexDirection: 'row', overflowX: 'auto', padding: '10px 0', marginTop: '-200px' }}>
+              {termContainedPages.map((page, index) => (
+                  <div key={index} style={{ marginLeft: '10px', marginTop: '20px', position: 'relative' }}>
+                      {/* Image preview */}
+                      <img 
+                          src={page.src} 
+                          alt={`Preview ${index}`} 
+                          title={`Page ${page.pageNumber}`}  // Tooltip on hover
+                          onClick={() => handlePreviewClick(page)} 
+                          style={{ width: '90px', height: '120px', cursor: 'pointer' }}
+                      />
+
+                      {/* Page number below the image */}
+                      <div style={{ textAlign: 'center', marginTop: '5px', fontSize: '14px', background: (page.pdf === currectPdf) &&  (page.pageNumber === pageNumber) ? '#FAF8B9' : 'none', }}>
+                          {page.pdf.id}-Page{page.pageNumber}
+                      </div>
+                  </div>
+              ))}
+            </div>
+          )}
+
           <nav style={{ display: 'flex', alignItems: 'center', flexDirection: 'row', width: '140%'}}>
                 <button className='pdfpagezoomButton' onClick={zoomOut}>➖</button>
                 <button className='pdfpagezoomButton' onClick={zoomIn}>➕</button>
@@ -2612,16 +2687,27 @@ const regenerateGraph = async () => {
                  <p className='currentPageNumber' style={{ paddingTop: '15px'}}>
                 ✨ Page {pageNumber} of {numPages} ✨ {showDropdowns && (<span style={{ fontWeight: 'bold' }}>{selectedSection}</span>)}
                 </p>
-
+                <nav style={{ display: 'flex', alignItems: 'center', flexDirection: 'column'}}>
+                  <button 
+                    className='pdfSearchResultButton'
+                    onClick={() => setShowTermLoadedPages(!showTermLoadedPages)} 
+                  >
+                    {/* You can use a symbol like '⬇️' to indicate expandability */}
+                    {showTermLoadedPages ? '⬇️ Hide Search Results' :  '⬆️ Show Search Results'}
+                  </button>
+                  <nav style={{ display: 'flex', alignItems: 'center', flexDirection: 'column'}}>
                       {/* Search Input */}
-                <input
-                  className='pdfSearchInput'
-                  type="text"
-                  value={searchTerm}
-                  onChange={handleSearchTermChange}
-                  onKeyDown={handleSearchKeyDown}
-                  placeholder="(beta) Search in PDF"
-                />
+                      {isLoadingPages && <div className="pdfSearchSpinner"></div>}
+                      <input
+                        className='pdfSearchInput'
+                        type="text"
+                        value={searchTerm}
+                        onChange={handleSearchTermChange}
+                        onKeyDown={handleSearchKeyDown}
+                        placeholder="👀 Search in PDF"
+                      />
+                  </nav>
+                </nav>
 
           </nav>
           {isFileUploaded && !showDropdowns && (
@@ -2643,10 +2729,10 @@ const regenerateGraph = async () => {
               {/* { (
                 <button className='clearListButton' onClick={handleClearContent}>Clear</button>
               )} */}
-              { <input className="pdfFileName" placeholder="PDF file name"></input>}
+              {/* { <input className="pdfFileName" placeholder="PDF file name"></input>}
               { (
                 <button className="uploadPDFCloudButton" onClick={uploadPDF_Cloud}>Save PDF</button>
-              )}
+              )} */}
             </div>
 
           )}
