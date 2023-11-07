@@ -632,13 +632,19 @@
 }
 
 .llamaGif {
+  height: 35px;
+  background-color: #ffffff;
+  border-radius: 10%;
   position: absolute;
-  margin-top: -40px;
+  margin-top: -35px;
+  margin-left: 0px;
+  z-index: 3000;
 }
 
 .smallGif {
-  width: 40px; /* Adjust to your preference */
+  width: 35px; /* Adjust to your preference */
   height: auto; /* Keeps the aspect ratio intact */
+  margin-left: 10px;
 }
 
 .pdfSearchSpinner {
