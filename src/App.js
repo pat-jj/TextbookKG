@@ -2724,6 +2724,7 @@ const regenerateGraph = async () => {
                 ✨ Page {pageNumber} of {numPages} ✨ {showDropdowns && (<span style={{ fontWeight: 'bold' }}>{selectedSection}</span>)}
                 </p>
                 <nav style={{ display: 'flex', alignItems: 'center', flexDirection: 'column'}}>
+                  {isLoadingPages && <div className='llamaGif'><img src="/TextbookKG/llama-run.gif" alt="Loading..." className="smallGif"  /></div>}
                   <button 
                     className='pdfSearchResultButton'
                     onClick={() => setShowTermLoadedPages(!showTermLoadedPages)} 
@@ -2733,7 +2734,7 @@ const regenerateGraph = async () => {
                   </button>
                   <nav style={{ display: 'flex', alignItems: 'center', flexDirection: 'column'}}>
                       {/* Search Input */}
-                      {isLoadingPages && <div className="pdfSearchSpinner"></div>}
+
                       <input
                         className='pdfSearchInput'
                         type="text"

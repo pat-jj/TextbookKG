@@ -631,6 +631,16 @@
   margin-left: 0px;
 }
 
+.llamaGif {
+  position: absolute;
+  margin-top: -40px;
+}
+
+.smallGif {
+  width: 40px; /* Adjust to your preference */
+  height: auto; /* Keeps the aspect ratio intact */
+}
+
 .pdfSearchSpinner {
   border: 2px solid rgb(54, 4, 255);
   width: 30px;
