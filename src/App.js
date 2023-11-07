@@ -2386,7 +2386,7 @@ const regenerateGraph = async () => {
         const end = start + selectedNode.length;
         textareaRef.current.selectionStart = start;
         textareaRef.current.selectionEnd = end;
-        textareaRef.current.focus(); // This makes sure the selection is visible to the user.
+        // textareaRef.current.focus(); // This makes sure the selection is visible to the user.
       }
     }
   }, [selectedNode, rawText]);
