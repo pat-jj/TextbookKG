@@ -2665,7 +2665,7 @@ const regenerateGraph = async () => {
             </div>
           )}
 
-          {showTermLoadedPages && (termToPagesMap.get(searchTerm.toLowerCase()).length > 100) && (
+          {showTermLoadedPages && (termToPagesMap.get(searchTerm.toLowerCase())) && (termToPagesMap.get(searchTerm.toLowerCase()).length > 100) && (
             <div 
               style={{ 
                 position: 'absolute', 
