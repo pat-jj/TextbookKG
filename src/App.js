@@ -2098,6 +2098,10 @@ const regenerateGraph = async () => {
   };
 
   const updateTermContainedPages = async (pdfFile, pages) => {
+    setIsLoadingPages(true); // Start loading
+    if (pages.length > 100) {
+      pages = pages.slice(0, 100);
+    }
     let pdf = currectPdf;
     try {
       const pagePreviews = await Promise.all(pages.map(async (pageNumber) => {
@@ -2113,6 +2117,7 @@ const regenerateGraph = async () => {
     } catch (error) {
       console.error("Error generating page previews:", error);
     }
+    setIsLoadingPages(false); // Start loading
   };  
 
   const handleSearchKeyDown = async (event) => {
@@ -2644,14 +2649,45 @@ const regenerateGraph = async () => {
             </div>
           </Document>
           {showTermLoadedPages && (
-            <div style={{ position: 'absolute', marginLeft: '10px', marginTop: '-200px', zIndex: '1100' }}>
+            <div 
+              style={{ 
+                position: 'absolute', 
+                marginLeft: '10px', 
+                marginTop: '-250px', 
+                zIndex: '1100', 
+                overflow: 'hidden', 
+                textOverflow: 'ellipsis', 
+                whiteSpace: 'nowrap', 
+                width: '40%', // Adjust the width as needed
+              }}
+            >
               Pages containing "{searchTerm}": {termToPagesMap.get(searchTerm.toLowerCase())?.join(', ')}
             </div>
           )}
+
+          {showTermLoadedPages && (termToPagesMap.get(searchTerm.toLowerCase()).length > 100) && (
+            <div 
+              style={{ 
+                position: 'absolute', 
+                marginLeft: '10px', 
+                marginTop: '-220px', 
+                zIndex: '1100', 
+                overflow: 'hidden', 
+                textOverflow: 'ellipsis', 
+                whiteSpace: 'nowrap', 
+                width: '40%', // Adjust the width as needed
+                color: 'red', // This will set the font color to red
+              }}
+            >
+              Page count exceeds 100. Only first 100 matches are shown.
+            </div>
+          )}
+
+
           {showTermLoadedPages && (
-            <div className="searchPreviewContainer" style={{ position: 'absolute', display: 'flex', flexDirection: 'row', overflowX: 'auto', padding: '10px 0', marginTop: '-200px' }}>
+            <div className="searchPreviewContainer" style={{ position: 'absolute', display: 'flex', flexDirection: 'row', overflowX: 'auto', padding: '10px 0', marginTop: '-250px' }}>
               {termContainedPages.map((page, index) => (
-                  <div key={index} style={{ marginLeft: '10px', marginTop: '20px', position: 'relative' }}>
+                  <div key={index} style={{ marginLeft: '10px', marginTop: '55px', position: 'relative' }}>
                       {/* Image preview */}
                       <img 
                           src={page.src} 
