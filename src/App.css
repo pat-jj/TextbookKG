@@ -1007,7 +1007,7 @@ opacity: 0.5;
 }
 
 .uploadProjectButton {
-  background-color: rgb(18, 245, 185);
+  background-color: rgb(18, 245, 185) !important;
   border: 1px solid rgb(0, 0, 0);
   border-radius: 5px;
   color: rgb(0, 0, 0);
@@ -1017,7 +1017,7 @@ opacity: 0.5;
   outline: none;
   width: 50%;
   display: inline-block;
-  
+  transition: background 0.1s;
 }
 
 .uploadProjectButton:hover {

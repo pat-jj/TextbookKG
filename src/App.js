@@ -1721,7 +1721,11 @@ const uploadText = () => {
   alert(`/${objectName} has been successfully uploaded to firebase!`);
 };
 
+const [isUploadProjectInProgress, setIsUploadProjectInProgress] = useState(false);
+const [uploadProjectPercentage, setUploadProjectPercentage] = useState(0);
+
 const uploadProjectFile = async () => {
+  setIsUploadProjectInProgress(true);
   const file_name = document.getElementsByClassName("projectFileName")[0].value;
   const path = "kg_users";
   const storage = getStorage(fireBase);
@@ -1778,8 +1782,10 @@ const uploadProjectFile = async () => {
     { task: graphUploadTask, name: "graph" },
     ...pdfUploadTasks,
   ];
-
+  setUploadProjectPercentage(14);
   const allProgress = {};
+
+  const increment = 100 / allUploadTasks.length;
 
   allUploadTasks.forEach(({ task, name }) => {
     allProgress[name] = 0;
@@ -1803,8 +1809,16 @@ const uploadProjectFile = async () => {
       },
       (err) => console.log(err, `Error uploading ${name}`),
       () => {
-        getDownloadURL(task.snapshot.ref).then((url) => {
+          getDownloadURL(task.snapshot.ref).then((url) => {
           console.log(`${name} uploaded to: ${url}`);
+  
+          // Update the percentage state based on the previous state
+          setUploadProjectPercentage((prevPercentage) => {
+            // Make sure we don't exceed 100%
+            const updatedPercentage = Math.min(prevPercentage + increment, 100);
+            console.log(updatedPercentage);
+            return updatedPercentage;
+          });
         });
       }
     );
@@ -1827,6 +1841,7 @@ const uploadProjectFile = async () => {
   } catch (error) {
     console.log("Error uploading one or more files:", error);
   }
+  setIsUploadProjectInProgress(false);
 };
   
 const [currentIndex, setCurrentIndex] = useState(-1); // Start with -1 to indicate no action
@@ -2326,7 +2341,7 @@ const regenerateGraph = async () => {
   }
 
 
-  const progressPercentage = ocrProgress * 100;
+  const ocrProgressPercentage = ocrProgress * 100;
 
   const handleClearContent = () => {
     setContentPage('');
@@ -2757,10 +2772,10 @@ const regenerateGraph = async () => {
                   className='ocrContentButton' 
                   onClick={handleAddContent_OCR}
                   style={{
-                    background: isOCRInProgress ? `linear-gradient(90deg, #0C77F8 ${progressPercentage}%, #B2DDEC ${progressPercentage}%)` : 'initial'
+                    background: isOCRInProgress ? `linear-gradient(90deg, #0C77F8 ${ocrProgressPercentage}%, #B2DDEC ${ocrProgressPercentage}%)` : 'initial'
                   }}
                   >
-                  OCR To 📖 Text
+                  Scan To 📖 Text
                   </button>
               )}
               {/* { (
@@ -2897,7 +2912,15 @@ const regenerateGraph = async () => {
                       </div>
                       <div className='promptButtonBox' style={{ display: 'flex', flexDirection: 'row'}}>
                       { <input className="projectFileName" placeholder="project name"></input>}
-                      <button className="uploadProjectButton" onClick={uploadProjectFile}>Save Project</button>
+                        <button 
+                          className='uploadProjectButton' 
+                          onClick={uploadProjectFile}
+                          style={{
+                            background: isUploadProjectInProgress ? `linear-gradient(90deg, #10FF96 ${uploadProjectPercentage}%, #EDFEDF ${uploadProjectPercentage}%)` : 'initial'
+                          }}
+                          >
+                          Save Project
+                        </button>
                       </div>
                     </div>
                       
