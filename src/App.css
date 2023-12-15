@@ -341,10 +341,9 @@
   height: 560px;
   outline: none;
   padding: 0 10px;
-  width: 140%;
+  width: 139%;
   margin-top: 5px;
-  margin-left: auto;
-  margin-right: auto;
+  margin-left: 5px;
 }
 
 
@@ -699,6 +698,8 @@ opacity: 0.5;
   outline: none;
   width: 15%;
   display: inline-block;
+  margin-left: 5px;
+  margin-top: 5px;
 }
 
 .savePromptButton:hover {
@@ -973,6 +974,7 @@ opacity: 0.5;
   outline: none;
   padding: 0 5px;
   width: 40%; 
+  margin-top: 5px;
 }
 
 .textFileName{
@@ -985,6 +987,7 @@ opacity: 0.5;
   outline: none;
   padding: 0 5px;
   width: 180px; 
+  margin-top: 5px;
 }
 
 
@@ -1053,6 +1056,7 @@ opacity: 0.5;
   outline: none;
   width: 20%;
   display: inline-block;
+  margin-top: 5px;
   
 }
 
@@ -1071,7 +1075,7 @@ opacity: 0.5;
   outline: none;
   width: 15%;
   display: inline-block;
-  
+  margin-top: 5px;
 }
 
 .uploadTextButton:hover {

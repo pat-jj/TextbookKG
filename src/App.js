@@ -95,7 +95,7 @@ function App() {
     edges: {
       color: "#34495e",
       smooth: true,
-      length: 320,
+      length: 220,
       width: 1.5,
     },
     physics: isHierarchical ? false : {
