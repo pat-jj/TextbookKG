@@ -88,15 +88,15 @@ function App() {
       hierarchical: isHierarchical ? {
         enabled: true,
         levelSeparation: 150,
-        nodeSpacing: 200,
-        treeSpacing: 200
+        nodeSpacing: 150,
+        treeSpacing: 150
       } : false
     },
     edges: {
       color: "#34495e",
       smooth: true,
-      length: 220,
-      width: 1.5,
+      length: 190,
+      width: 1.8,
     },
     physics: isHierarchical ? false : {
       enabled: true,
@@ -413,7 +413,7 @@ function App() {
       })
       .then((response) => {
         const { choices } = response;
-        const text = choices[0].text;
+        const text = choices[0].text.toLowerCase();
 
         console.log(text);
       
