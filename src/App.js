@@ -22,6 +22,7 @@ import Draggable from 'react-draggable';
 import { Resizable } from 're-resizable';
 import WikiResultsBox from './wikiSearchBox.js';
 import Fuse from 'fuse.js';
+import PaperSearchPage from './paperSearch.js';
 
 
 pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.min.js`;
@@ -41,6 +42,8 @@ const SELECTED_PROMPT = "STATELESS"
 
 
 function App() {
+
+  const [showNewFunctionsPage, setShowNewFunctionsPage] = useState(false);
 
   const [graphState, setGraphState] = useState(
     {
@@ -2530,6 +2533,10 @@ const regenerateGraph = async () => {
   };
 
 	return (
+    <div>
+      {showNewFunctionsPage ? (
+      <PaperSearchPage/>
+    ) : (
 		<div style={{ display: 'flex', flexDirection: 'row'}}>
       <div className='pdf_viewer'>
         <nav style={{ display: 'flex', flexDirection: 'row'}}>
@@ -2835,6 +2842,10 @@ const regenerateGraph = async () => {
             <button className="uploadPromptButton" onClick={uploadPrompt}>Save Prompt</button>
           </div>
 
+          <button onClick={() => setShowNewFunctionsPage(!showNewFunctionsPage)}>
+            {showNewFunctionsPage ? 'Back to PDF-to-KG Page' : 'Go to Paper Search Page'}
+          </button>
+
       </div>
       <div className='kg_sidetoolbar_textbox'>
 
@@ -3064,6 +3075,8 @@ const regenerateGraph = async () => {
         </div>
         <p className='footer'>Developed by Patrick Jiang @ UIUC</p>
       </div>
+      </div>
+    )}
       </div>
 
 	);

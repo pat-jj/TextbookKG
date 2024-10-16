@@ -21,6 +21,7 @@
     "ml": "^6.0.0",
     "ml-distance": "^4.0.1",
     "ml-hclust": "^3.1.0",
+    "openai": "^4.67.3",
     "pdf-parse": "^1.1.1",
     "pdfjs-dist": "^3.7.107",
     "pdfobject": "^2.2.8",
