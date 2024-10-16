@@ -35,7 +35,7 @@ const PaperSearchPage = () => {
       // Query LLM for keywords
       const keywords = await queryLLM(
         searchQuery,
-        "You are an AI assistant that extracts the most important keywords from a query for searching academic papers. Provide only the keywords, separated by spaces."
+        "You are an AI assistant that extracts/generates the most important keywords from a query for searching academic papers. Provide only the keywords, separated by spaces."
       );
 
       // Search Arxiv with the keywords
