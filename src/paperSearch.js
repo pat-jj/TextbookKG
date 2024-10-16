@@ -40,7 +40,7 @@ const PaperSearchPage = () => {
 
       // Search Arxiv with the keywords
       const response = await axios.get(
-        `http://export.arxiv.org/api/query?search_query=all:${encodeURIComponent(keywords)}&start=0&max_results=${maxResults}`
+        `https://export.arxiv.org/api/query?search_query=all:${encodeURIComponent(keywords)}&start=0&max_results=${maxResults}`
       );
       
       const parser = new DOMParser();
