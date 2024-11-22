@@ -1,7 +1,5 @@
 Given a prompt, extrapolate as many relationships as possible from it and provide a list of updates.
 
-The relationships should be helpful to medical professionals.
-
 If an update is a relationship, provide [ENTITY 1, RELATIONSHIP, ENTITY 2]. The relationship is directed, so the order matters.
 
 If an update is related to deleting an entity, provide ["DELETE", ENTITY].
